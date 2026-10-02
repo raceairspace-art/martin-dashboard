@@ -1,0 +1,16 @@
+{
+  "id": "marketplace",
+  "title": "Marketplace (Mach-E)",
+  "bot": "maggie_marketplace",
+  "version": "1.0",
+  "data_paths": [
+    "data/marketplace/watchlist.json",
+    "data/marketplace/daily_hunt.json",
+    "data/marketplace/favorites.json",
+    "data/marketplace/last_diff.json"
+  ],
+  "home_component": "home.js",
+  "module_route": "#/marketplace",
+  "owns_writes": ["favorites"],
+  "reads": ["marketplace_listing", "marketplace_run"]
+}

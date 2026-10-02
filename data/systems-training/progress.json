@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "type": "progress_snapshot",
+  "updated_at": "2026-10-02T12:35:27-07:00",
+  "current_session_id": "phase1-session01",
+  "phase": {
+    "id": 1,
+    "name": "Modern Application Architecture"
+  },
+  "topic": {
+    "id": "api-as-contract",
+    "title": "API as architectural contract"
+  },
+  "progress": {
+    "status": "awaiting_answer",
+    "awaiting": "scenario",
+    "completed_topic_ids": [],
+    "weak_areas": [],
+    "strengths": [],
+    "next_recommended": {
+      "topic_id": "api-as-contract",
+      "title": "API as architectural contract",
+      "why": "Complete scenario + knowledge check to close Session 1; next likely API gateway vs reverse proxy."
+    },
+    "home_badge": "Today's lesson: API as architectural contract \u2014 scenario open"
+  },
+  "todays_lesson": {
+    "session_id": "phase1-session01",
+    "title": "API as architectural contract",
+    "status": "awaiting_answer",
+    "estimated_minutes": 25
+  },
+  "completed_topic_ids": [],
+  "weak_areas": [],
+  "strengths": [],
+  "session_id": "phase1-session01"
+}

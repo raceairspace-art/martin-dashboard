@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Martin Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1><a href="#/" class="brand">Martin Dashboard</a></h1>
+    <nav aria-label="Primary">
+      <a href="#/" data-route="/">Home</a>
+      <a href="#/marketplace" data-route="/marketplace">Marketplace</a>
+      <a href="#/training" data-route="/training">Training</a>
+    </nav>
+    <div class="meta-updated" id="global-updated">Loading…</div>
+  </header>
+
+  <main>
+    <section id="view-home">
+      <div id="global-banner" class="banner hidden" role="status"></div>
+
+      <section id="strip-training" class="module-strip" aria-label="Systems Training">
+        <div class="module-strip-header">
+          <h2>Systems Training</h2>
+          <a class="open-link" href="#/training">Open →</a>
+        </div>
+        <div id="training-strip-body"><p class="empty-state">Loading…</p></div>
+      </section>
+
+      <section id="strip-marketplace" class="module-strip" aria-label="Marketplace">
+        <div class="module-strip-header">
+          <h2>Marketplace (Mach-E)</h2>
+          <a class="open-link" href="#/marketplace">Open →</a>
+        </div>
+        <div id="marketplace-strip-body"><p class="empty-state">Loading…</p></div>
+      </section>
+
+      <section class="feed-section" aria-label="Alerts and recommendations">
+        <h2>Alerts &amp; Recommendations</h2>
+        <ul id="feed-list" class="feed-list">
+          <li class="empty-state">Loading…</li>
+        </ul>
+      </section>
+    </section>
+
+    <section id="view-marketplace" class="view-panel hidden">
+      <div class="view-header">
+        <h2>Marketplace</h2>
+        <a class="back-home" href="#/">← Home</a>
+      </div>
+      <p class="lead">Mach-E watchlist from Maggie.</p>
+      <div id="marketplace-module-body">Loading…</div>
+    </section>
+
+    <section id="view-training" class="view-panel hidden">
+      <div class="view-header">
+        <h2>Systems Training</h2>
+        <a class="back-home" href="#/">← Home</a>
+      </div>
+      <p class="lead">Greg curriculum.</p>
+      <div id="training-module-body">Loading…</div>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="modules/marketplace/home.js"></script>
+  <script src="modules/marketplace/module.js"></script>
+  <script src="modules/training/home.js"></script>
+  <script src="modules/training/module.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

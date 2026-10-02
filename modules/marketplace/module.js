@@ -1,0 +1,554 @@
+/* Marketplace module — professional listing cards with photos + ranking */
+(function (global) {
+  const ACTIVEish = new Set(["active", "active_possibly_stale"]);
+
+  const ASSESSMENT_RANK = {
+    "EXCEPTIONAL DEAL": 0,
+    "STRONG DEAL": 1,
+    "FAIR DEAL": 2,
+    "WEAK DEAL": 3,
+    AVOID: 4,
+    "SOLD/REMOVED": 5,
+  };
+
+  const state = {
+    filters: {
+      assessment: "",
+      status: "",
+      seller_type: "",
+      max_distance: "",
+      max_miles: "",
+      min_year: "",
+      favorites_only: false,
+      q: "",
+    },
+    selectedId: null,
+  };
+
+  function assessmentChip(assessment) {
+    if (assessment === "EXCEPTIONAL DEAL") return "exceptional";
+    if (assessment === "STRONG DEAL") return "strong";
+    if (assessment === "FAIR DEAL") return "fair";
+    if (assessment === "WEAK DEAL" || assessment === "AVOID") return "weak";
+    return "fair";
+  }
+
+  function photoUrl(c) {
+    const photos = c && c.photos;
+    if (Array.isArray(photos) && photos.length && typeof photos[0] === "string" && photos[0]) {
+      return photos[0];
+    }
+    return null;
+  }
+
+  function allPhotos(c) {
+    const photos = c && c.photos;
+    if (!Array.isArray(photos)) return [];
+    return photos.filter((p) => typeof p === "string" && p);
+  }
+
+  function initialsPlaceholder(c) {
+    const y = c.year != null ? String(c.year).slice(-2) : "??";
+    const trim = String(c.trim || "ME").trim();
+    const parts = trim.split(/\s+/).filter(Boolean);
+    const letters =
+      (parts[0] ? parts[0][0] : "M") +
+      (parts[1] ? parts[1][0] : parts[0] && parts[0][1] ? parts[0][1] : "E");
+    return { mono: (y + letters).toUpperCase().slice(0, 4), label: `${c.year || ""} ${c.trim || ""}`.trim() };
+  }
+
+  function uniqueValues(candidates, key) {
+    const set = new Set();
+    for (const c of candidates) {
+      if (c[key] != null && c[key] !== "") set.add(String(c[key]));
+    }
+    return Array.from(set).sort();
+  }
+
+  function applyFilters(candidates) {
+    const f = state.filters;
+    return candidates.filter((c) => {
+      if (f.assessment && c.assessment !== f.assessment) return false;
+      if (f.status && c.status !== f.status) return false;
+      if (f.seller_type && String(c.seller_type).toLowerCase() !== f.seller_type.toLowerCase())
+        return false;
+      if (f.max_distance !== "" && f.max_distance != null) {
+        const maxD = Number(f.max_distance);
+        if (!Number.isNaN(maxD) && (c.distance_mi == null || Number(c.distance_mi) > maxD))
+          return false;
+      }
+      if (f.max_miles !== "" && f.max_miles != null) {
+        const maxM = Number(f.max_miles);
+        if (!Number.isNaN(maxM) && (c.miles == null || Number(c.miles) > maxM)) return false;
+      }
+      if (f.min_year !== "" && f.min_year != null) {
+        const minY = Number(f.min_year);
+        if (!Number.isNaN(minY) && (c.year == null || Number(c.year) < minY)) return false;
+      }
+      if (f.favorites_only && !MartinData.isFavorite(c.id)) return false;
+      if (f.q) {
+        const q = f.q.toLowerCase();
+        const hay = [
+          c.id,
+          c.trim,
+          c.location,
+          c.vin,
+          c.notes,
+          c.assessment,
+          c.status,
+          c.why_interesting,
+          c.concerns,
+        ]
+          .map((x) => String(x || "").toLowerCase())
+          .join(" ");
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+  }
+
+  function sortCandidates(list) {
+    return list.slice().sort((a, b) => {
+      const aActive = ACTIVEish.has(a.status) ? 0 : 1;
+      const bActive = ACTIVEish.has(b.status) ? 0 : 1;
+      if (aActive !== bActive) return aActive - bActive;
+      const ra = ASSESSMENT_RANK[a.assessment] != null ? ASSESSMENT_RANK[a.assessment] : 9;
+      const rb = ASSESSMENT_RANK[b.assessment] != null ? ASSESSMENT_RANK[b.assessment] : 9;
+      if (ra !== rb) return ra - rb;
+      // Within tier: estimated_savings desc if present, else ask_price asc
+      const savA = a.estimated_savings != null ? Number(a.estimated_savings) : null;
+      const savB = b.estimated_savings != null ? Number(b.estimated_savings) : null;
+      if (savA != null && savB != null && savA !== savB) return savB - savA;
+      if (savA != null && savB == null) return -1;
+      if (savA == null && savB != null) return 1;
+      const pa = a.ask_price != null ? Number(a.ask_price) : 999999;
+      const pb = b.ask_price != null ? Number(b.ask_price) : 999999;
+      return pa - pb;
+    });
+  }
+
+  function marketValueHtml(c) {
+    const { money, escapeHtml } = MartinData;
+    if (c.market_value_low != null && c.market_value_high != null) {
+      return `<span class="mv-band">Market ${money(c.market_value_low)}–${money(c.market_value_high)}</span>`;
+    }
+    return `<span class="mv-band pending">Market value: pending</span>`;
+  }
+
+  function medianHint(c, watchlist) {
+    const { money, escapeHtml } = MartinData;
+    const ms = (watchlist && watchlist.market_snapshot) || {};
+    const year = c.year;
+    const trim = String(c.trim || "").toLowerCase();
+    let key = null;
+    let label = null;
+    if (year === 2022 && trim.includes("premium")) {
+      key = "2022_premium_awd_pattern_median_ask";
+      label = "2022 Premium AWD median ask";
+    } else if (year === 2022 && trim.includes("select")) {
+      key = "2022_select_median_ask";
+      label = "2022 Select median ask";
+    } else if (year === 2023 && trim.includes("select")) {
+      key = "2023_select_median_ask";
+      label = "2023 Select median ask";
+    } else if (year === 2022) {
+      key = "2022_all_median_ask";
+      label = "2022 all median ask";
+    } else if (year === 2023) {
+      key = "2023_all_median_ask";
+      label = "2023 all median ask";
+    }
+    const median = key && ms[key] != null ? Number(ms[key]) : null;
+    if (median == null || c.ask_price == null) {
+      return `<p class="compare-hint muted">Best Current / market median: pending for this trim pattern.</p>`;
+    }
+    const delta = Number(c.ask_price) - median;
+    const dir = delta < 0 ? "below" : delta > 0 ? "above" : "at";
+    const abs = money(Math.abs(delta));
+    return `<p class="compare-hint">vs ${escapeHtml(label)} ${money(median)}: <strong>${abs} ${dir}</strong> market median ask.</p>`;
+  }
+
+  function sparklineSvg(history) {
+    const pts = (history || [])
+      .map((h) => ({
+        date: h.date,
+        price: h.price != null ? Number(h.price) : null,
+      }))
+      .filter((h) => h.price != null && !Number.isNaN(h.price));
+    if (pts.length < 2) return "";
+    const prices = pts.map((p) => p.price);
+    const min = Math.min(...prices);
+    const max = Math.max(...prices);
+    const w = 200;
+    const h = 48;
+    const pad = 4;
+    const span = max - min || 1;
+    const coords = pts
+      .map((p, i) => {
+        const x = pad + (i / (pts.length - 1)) * (w - pad * 2);
+        const y = pad + (1 - (p.price - min) / span) * (h - pad * 2);
+        return `${x.toFixed(1)},${y.toFixed(1)}`;
+      })
+      .join(" ");
+    return `<svg class="sparkline" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-hidden="true"><polyline fill="none" stroke="currentColor" stroke-width="2" points="${coords}"/></svg>`;
+  }
+
+  function priceHistoryList(history) {
+    const { escapeHtml, money, formatDate } = MartinData;
+    const rows = (history || []).slice().reverse();
+    if (!rows.length) return `<p class="empty-state">No price history.</p>`;
+    return `<ul class="price-history-list">${rows
+      .map((h) => {
+        const price = h.price != null ? money(h.price) : "—";
+        const note = h.note ? ` · ${escapeHtml(h.note)}` : "";
+        return `<li><span class="ph-date">${escapeHtml(formatDate(h.date))}</span> <strong>${price}</strong>${note}</li>`;
+      })
+      .join("")}</ul>`;
+  }
+
+  function renderRunCoverage(daily) {
+    const { escapeHtml, formatTs } = MartinData;
+    if (!daily) {
+      return `<div class="run-coverage muted">No daily hunt baked into dist yet.</div>`;
+    }
+    const buckets = [];
+    for (const [k, v] of Object.entries(daily)) {
+      if (Array.isArray(v)) buckets.push(`${k}: ${v.length}`);
+    }
+    return `
+      <div class="run-coverage">
+        <div class="run-lead"><strong>Latest hunt</strong> · ${escapeHtml(formatTs(daily.run_at))}
+          ${daily.quiet ? ' · <span class="badge quiet">quiet</span>' : ""}</div>
+        <p class="run-alert">${escapeHtml(daily.alert_lead || "—")}</p>
+        <div class="run-buckets">${buckets.map((b) => `<span class="bucket-chip">${escapeHtml(b)}</span>`).join("")}</div>
+      </div>`;
+  }
+
+  function renderFilters(candidates) {
+    const { escapeHtml } = MartinData;
+    const assessments = uniqueValues(candidates, "assessment");
+    const statuses = uniqueValues(candidates, "status");
+    const sellers = uniqueValues(candidates, "seller_type");
+    const f = state.filters;
+    const opt = (vals, cur) =>
+      vals
+        .map(
+          (v) =>
+            `<option value="${escapeHtml(v)}" ${v === cur ? "selected" : ""}>${escapeHtml(v)}</option>`
+        )
+        .join("");
+
+    return `
+      <form class="filter-bar" id="mp-filters" autocomplete="off">
+        <label>Assessment
+          <select name="assessment">
+            <option value="">All</option>
+            ${opt(assessments, f.assessment)}
+          </select>
+        </label>
+        <label>Status
+          <select name="status">
+            <option value="">All</option>
+            ${opt(statuses, f.status)}
+          </select>
+        </label>
+        <label>Seller
+          <select name="seller_type">
+            <option value="">All</option>
+            ${opt(sellers, f.seller_type)}
+          </select>
+        </label>
+        <label>Max mi away
+          <input type="number" name="max_distance" min="0" step="50" placeholder="any" value="${escapeHtml(f.max_distance)}" />
+        </label>
+        <label>Max miles
+          <input type="number" name="max_miles" min="0" step="1000" placeholder="any" value="${escapeHtml(f.max_miles)}" />
+        </label>
+        <label>Min year
+          <input type="number" name="min_year" min="2010" max="2030" placeholder="any" value="${escapeHtml(f.min_year)}" />
+        </label>
+        <label class="check-label">
+          <input type="checkbox" name="favorites_only" ${f.favorites_only ? "checked" : ""} /> Favorites
+        </label>
+        <label class="grow">Search
+          <input type="search" name="q" placeholder="trim, VIN, location…" value="${escapeHtml(f.q)}" />
+        </label>
+        <button type="button" class="btn-ghost" id="mp-clear-filters">Clear</button>
+      </form>`;
+  }
+
+  function renderListRow(c) {
+    const { money, miles, escapeHtml } = MartinData;
+    const title = `${c.year || ""} ${c.trim || ""}`.trim() || c.id;
+    const chip = assessmentChip(c.assessment);
+    const fav = MartinData.isFavorite(c.id);
+    const selected = state.selectedId === c.id ? "selected" : "";
+    const dist = c.distance_mi != null ? `${c.distance_mi} mi` : "—";
+    const src = photoUrl(c);
+    const ph = initialsPlaceholder(c);
+    const thumb = src
+      ? `<span class="mp-thumb"><img src="${escapeHtml(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" /></span>`
+      : `<span class="mp-thumb placeholder"><span>${escapeHtml(ph.mono)}</span></span>`;
+    const save =
+      c.estimated_savings != null
+        ? `<span class="save-chip">~${money(c.estimated_savings)} under</span>`
+        : "";
+    return `
+      <button type="button" class="mp-row mp-row-card ${selected}" data-id="${escapeHtml(c.id)}">
+        ${thumb}
+        <span class="mp-row-main">
+          <span class="mp-row-title">${fav ? "★ " : ""}${escapeHtml(title)}</span>
+          <span class="mp-row-sub">${escapeHtml(c.location || "—")} · ${escapeHtml(c.seller_type || "—")} · ${escapeHtml(dist)}${c.geo_tier != null ? ` · geo ${escapeHtml(String(c.geo_tier))}` : ""}</span>
+          <span class="mp-row-mv">${marketValueHtml(c)} ${save}</span>
+        </span>
+        <span class="mp-row-meta">
+          <span class="mp-row-price">${money(c.ask_price)}</span>
+          <span class="mp-row-miles">${miles(c.miles)}</span>
+          <span class="badge ${chip} deal-badge">${escapeHtml(c.assessment || "")}</span>
+          <span class="status-pill">${escapeHtml(c.status || "")}</span>
+        </span>
+      </button>`;
+  }
+
+  function renderPhotoGallery(c) {
+    const { escapeHtml } = MartinData;
+    const photos = allPhotos(c);
+    if (!photos.length) {
+      const ph = initialsPlaceholder(c);
+      return `<div class="photo-gallery empty">
+        <div class="photo-hero placeholder"><span>${escapeHtml(ph.mono)}</span><small>${escapeHtml(ph.label)}</small></div>
+        <p class="muted tiny">Photos pending — Maggie backfill in progress for some Strong/Best listings.</p>
+      </div>`;
+    }
+    const hero = photos[0];
+    const strip = photos
+      .slice(0, 12)
+      .map(
+        (p, i) =>
+          `<button type="button" class="photo-strip-item ${i === 0 ? "active" : ""}" data-full="${escapeHtml(p)}"><img src="${escapeHtml(p)}" alt="" loading="lazy" referrerpolicy="no-referrer" /></button>`
+      )
+      .join("");
+    return `<div class="photo-gallery">
+      <div class="photo-hero"><img id="mp-hero-img" src="${escapeHtml(hero)}" alt="${escapeHtml((c.year || "") + " " + (c.trim || ""))}" referrerpolicy="no-referrer" /></div>
+      <div class="photo-strip">${strip}</div>
+    </div>`;
+  }
+
+  function renderDetail(c, watchlist) {
+    const { money, miles, escapeHtml, formatTs, formatDate } = MartinData;
+    if (!c) {
+      return `<div class="detail-empty"><p class="empty-state">Select a candidate to see photos, notes, price history, and deal context.</p></div>`;
+    }
+    const title = `${c.year || ""} ${c.trim || ""}`.trim() || c.id;
+    const chip = assessmentChip(c.assessment);
+    const fav = MartinData.isFavorite(c.id);
+    const spark = sparklineSvg(c.price_history);
+    const url = c.url
+      ? `<a class="btn-primary" href="${escapeHtml(c.url)}" target="_blank" rel="noopener">Open listing ↗</a>`
+      : "";
+    const save =
+      c.estimated_savings != null
+        ? `<div class="save-lg">Est. savings ${money(c.estimated_savings)}</div>`
+        : "";
+
+    const why = c.why_interesting
+      ? `<section class="detail-section why"><h4>Why interesting</h4><p class="notes-body">${escapeHtml(c.why_interesting)}</p></section>`
+      : "";
+    const concerns = c.concerns
+      ? `<section class="detail-section concerns"><h4>Concerns</h4><p class="notes-body">${escapeHtml(typeof c.concerns === "string" ? c.concerns : JSON.stringify(c.concerns))}</p></section>`
+      : "";
+
+    return `
+      <div class="detail-pane" data-detail-id="${escapeHtml(c.id)}">
+        ${renderPhotoGallery(c)}
+        <div class="detail-header">
+          <div>
+            <h3>${escapeHtml(title)}</h3>
+            <div class="detail-sub">
+              <span class="badge ${chip} deal-badge">${escapeHtml(c.assessment || "")}</span>
+              <span class="status-pill">${escapeHtml(c.status || "")}</span>
+              <span>${escapeHtml(c.seller_type || "—")}</span>
+              <span>${escapeHtml(c.location || "—")}</span>
+              ${c.geo_tier != null ? `<span>geo tier ${escapeHtml(String(c.geo_tier))}</span>` : ""}
+            </div>
+          </div>
+          <div class="detail-actions">
+            <button type="button" class="btn-fav ${fav ? "on" : ""}" id="mp-fav-toggle" aria-pressed="${fav}">
+              ${fav ? "★ Favorited" : "☆ Favorite"}
+            </button>
+            ${url}
+          </div>
+        </div>
+        <div class="detail-price-row">
+          <div>
+            <div class="price-lg">${money(c.ask_price)}</div>
+            <div class="muted">ask · est ${money(c.real_price_est)}</div>
+            ${save}
+            <div class="mv-detail">${marketValueHtml(c)}</div>
+          </div>
+          <div>${miles(c.miles)} · ${c.distance_mi != null ? escapeHtml(String(c.distance_mi)) + " mi away" : "distance —"}</div>
+          ${spark ? `<div class="spark-wrap" title="Price history">${spark}</div>` : ""}
+        </div>
+        ${medianHint(c, watchlist)}
+        <dl class="detail-grid">
+          <div><dt>VIN</dt><dd>${escapeHtml(c.vin || "—")}</dd></div>
+          <div><dt>Title</dt><dd>${escapeHtml(c.title_status || "—")}</dd></div>
+          <div><dt>Drivetrain</dt><dd>${escapeHtml(c.drivetrain || "—")}</dd></div>
+          <div><dt>Battery</dt><dd>${escapeHtml(c.battery || "—")}</dd></div>
+          <div><dt>EPA range (new)</dt><dd>${escapeHtml(c.epa_range_when_new || "—")}</dd></div>
+          <div><dt>Source</dt><dd>${escapeHtml(c.source || "—")}</dd></div>
+          <div><dt>First seen</dt><dd>${escapeHtml(formatDate(c.first_seen) || formatTs(c.first_seen))}</dd></div>
+          <div><dt>Last seen</dt><dd>${escapeHtml(formatDate(c.last_seen) || formatTs(c.last_seen))}</dd></div>
+          <div class="span-2"><dt>ID</dt><dd><code>${escapeHtml(c.id)}</code></dd></div>
+        </dl>
+        ${why}
+        ${concerns}
+        <section class="detail-section">
+          <h4>Notes</h4>
+          <p class="notes-body">${escapeHtml(c.notes || "No notes.")}</p>
+        </section>
+        <section class="detail-section">
+          <h4>Price history</h4>
+          ${priceHistoryList(c.price_history)}
+        </section>
+        <p class="fav-hint muted">Favorites persist in localStorage for this browser (MVP).</p>
+      </div>`;
+  }
+
+  function findCandidate(data, id) {
+    if (!id || !data.watchlist) return null;
+    return (data.watchlist.candidates || []).find((c) => c.id === id) || null;
+  }
+
+  function bindEvents(data) {
+    const form = document.getElementById("mp-filters");
+    if (form) {
+      const applyFromForm = () => {
+        const fd = new FormData(form);
+        state.filters.assessment = String(fd.get("assessment") || "");
+        state.filters.status = String(fd.get("status") || "");
+        state.filters.seller_type = String(fd.get("seller_type") || "");
+        state.filters.max_distance = String(fd.get("max_distance") || "");
+        state.filters.max_miles = String(fd.get("max_miles") || "");
+        state.filters.min_year = String(fd.get("min_year") || "");
+        state.filters.favorites_only = form.querySelector('[name="favorites_only"]').checked;
+        state.filters.q = String(fd.get("q") || "");
+        paint(data);
+      };
+      form.addEventListener("change", applyFromForm);
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        applyFromForm();
+      });
+      let t = null;
+      const q = form.querySelector('[name="q"]');
+      if (q) {
+        q.addEventListener("input", () => {
+          clearTimeout(t);
+          t = setTimeout(applyFromForm, 180);
+        });
+      }
+    }
+    const clearBtn = document.getElementById("mp-clear-filters");
+    if (clearBtn) {
+      clearBtn.addEventListener("click", () => {
+        state.filters = {
+          assessment: "",
+          status: "",
+          seller_type: "",
+          max_distance: "",
+          max_miles: "",
+          min_year: "",
+          favorites_only: false,
+          q: "",
+        };
+        paint(data);
+      });
+    }
+
+    document.querySelectorAll(".mp-row").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-id");
+        state.selectedId = id;
+        location.hash = "#/marketplace/" + encodeURIComponent(id);
+      });
+    });
+
+    const favBtn = document.getElementById("mp-fav-toggle");
+    if (favBtn && state.selectedId) {
+      favBtn.addEventListener("click", () => {
+        MartinData.toggleFavorite(state.selectedId);
+        paint(data);
+      });
+    }
+
+    document.querySelectorAll(".photo-strip-item").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const full = btn.getAttribute("data-full");
+        const hero = document.getElementById("mp-hero-img");
+        if (hero && full) hero.src = full;
+        document.querySelectorAll(".photo-strip-item").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+      });
+    });
+  }
+
+  function paint(data) {
+    const root = document.getElementById("marketplace-module-body");
+    if (!root) return;
+    const wl = data.watchlist;
+    if (!wl) {
+      root.innerHTML = `<p class="empty-state">Watchlist missing from dist/data/marketplace/watchlist.json</p>`;
+      return;
+    }
+    const all = Array.isArray(wl.candidates) ? wl.candidates : [];
+    const filtered = sortCandidates(applyFilters(all));
+
+    let selected = findCandidate(data, state.selectedId);
+
+    const missingFavNote =
+      state.selectedId && !selected
+        ? `<div class="detail-pane"><p class="empty-state">Listing <code>${MartinData.escapeHtml(state.selectedId)}</code> is missing from watchlist${
+            MartinData.isFavorite(state.selectedId) ? " (kept as favorite until cleared)." : "."
+          }</p></div>`
+        : "";
+
+    root.innerHTML = `
+      ${renderRunCoverage(data.dailyHunt)}
+      ${renderFilters(all)}
+      <div class="mp-layout">
+        <div class="mp-list-pane">
+          <div class="mp-list-header">
+            <strong>${filtered.length}</strong> of ${all.length} candidates
+            · ranked Exceptional → Avoid
+            · <a href="#/">← Home</a>
+          </div>
+          <div class="mp-list" role="list">
+            ${
+              filtered.length
+                ? filtered.map(renderListRow).join("")
+                : `<p class="empty-state">No candidates match these filters.</p>`
+            }
+          </div>
+        </div>
+        <div class="mp-detail-pane" id="mp-detail">
+          ${missingFavNote || renderDetail(selected, wl)}
+        </div>
+      </div>`;
+
+    bindEvents(data);
+  }
+
+  function render(data, route) {
+    const idPart = route && route.parts && route.parts[1] ? decodeURIComponent(route.parts[1]) : null;
+    state.selectedId = idPart || null;
+    const lead = document.querySelector("#view-marketplace > .lead");
+    if (lead) {
+      lead.textContent =
+        "Mach-E watchlist from Maggie — photo cards, deal ranking, market value bands. Favorites stay in localStorage.";
+    }
+    paint(data);
+  }
+
+  global.MarketplaceModule = { render, state, sortCandidates };
+})(window);

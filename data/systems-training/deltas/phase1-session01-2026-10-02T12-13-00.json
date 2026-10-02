@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-02T12:13:00-07:00",
+  "session_id": "phase1-session01",
+  "phase": { "id": 1, "name": "Modern Application Architecture" },
+  "topic": {
+    "id": "api-as-contract",
+    "title": "API as architectural contract"
+  },
+  "progress": {
+    "status": "awaiting_answer",
+    "awaiting": "scenario",
+    "completed_topic_ids": [],
+    "next_recommended": {
+      "topic_id": "api-as-contract",
+      "title": "API as architectural contract",
+      "why": "Session 1 in progress — scenario answer needed before critique and knowledge check"
+    },
+    "home_badge": "Awaiting your scenario answer"
+  }
+}

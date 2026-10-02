@@ -1,0 +1,52 @@
+{
+  "updated_at": "2026-10-02T12:41:22-07:00",
+  "items": [
+    {
+      "id": "feed-training-awaiting-phase1-session01",
+      "ts": "2026-10-02T12:35:27-07:00",
+      "module_id": "training",
+      "bot_id": "greg_systems_training",
+      "type": "alert",
+      "severity": "medium",
+      "title": "Training: Today's lesson: API as architectural contract \u2014 scenario open",
+      "summary": "Today's lesson: API as architectural contract \u2014 scenario open (scenario) \u00b7 API as architectural contract",
+      "cta": {
+        "label": "Open Training",
+        "route": "#/training/phase1-session01"
+      },
+      "dismissed": false,
+      "entity_ref": {
+        "kind": "training_session",
+        "id": "phase1-session01"
+      },
+      "payload": {
+        "status": "awaiting_answer",
+        "awaiting": "scenario"
+      }
+    },
+    {
+      "id": "feed-training-next-api-as-contract",
+      "ts": "2026-10-02T12:35:27-07:00",
+      "module_id": "training",
+      "bot_id": "greg_systems_training",
+      "type": "recommendation",
+      "severity": "low",
+      "title": "Next training: API as architectural contract",
+      "summary": "Complete scenario + knowledge check to close Session 1; next likely API gateway vs reverse proxy.",
+      "cta": {
+        "label": "Open Training",
+        "route": "#/training/phase1-session01"
+      },
+      "dismissed": false,
+      "entity_ref": {
+        "kind": "training_session",
+        "id": "phase1-session01"
+      },
+      "payload": {
+        "topic_id": "api-as-contract",
+        "title": "API as architectural contract",
+        "why": "Complete scenario + knowledge check to close Session 1; next likely API gateway vs reverse proxy."
+      }
+    }
+  ]
+}
