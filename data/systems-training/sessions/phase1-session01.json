@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "session_id": "phase1-session01",
+  "emitted_at": "2026-10-02T12:35:27-07:00",
+  "phase": {
+    "id": 1,
+    "name": "Modern Application Architecture"
+  },
+  "topic": {
+    "id": "api-as-contract",
+    "title": "API as architectural contract",
+    "primary_concept": "An API is a controlled interface and trust boundary between systems, not merely a URL that returns JSON.",
+    "related_concepts": [
+      "trust boundary",
+      "API surface",
+      "contract versioning",
+      "synchronous HTTPS",
+      "AuthN vs AuthZ",
+      "TLS termination",
+      "dependency / blast radius"
+    ]
+  },
+  "lesson": {
+    "problem_statement": "Enterprises need systems owned by different teams or vendors to exchange data and trigger work without sharing databases, file shares, or direct server access.",
+    "concept_summary": "Treat an API as (1) a contract of allowed requests/responses/errors, (2) a trust boundary for identity and authorization, and (3) an operational dependency where uptime, latency, versioning, and ownership concentrate. REST over HTTPS with JSON is a common shape; the architectural problem is the boundary.",
+    "sections": [
+      {
+        "id": "concept",
+        "title": "Architecture Concept",
+        "body": "What problem are we solving? Systems must talk across team and ownership lines without sharing internals. The API shrinks the attack and change surface to a deliberate interface."
+      },
+      {
+        "id": "analogy",
+        "title": "Connect to Something You Know",
+        "body": "Closest parallels: Windows service/RPC/WCF/SOAP endpoints; IIS behind an F5 VIP exposing only /api/...; SQL stored-proc layers so apps never touch base tables. Similarities: deliberate surface reduction. Limits: cloud APIs are often public/partner-facing; versioning is a product decision; auth is token/identity-based not NTLM/Kerberos to the box; backends may be ephemeral (Cloud Run), so host-centric thinking fails."
+      },
+      {
+        "id": "walkthrough",
+        "title": "Architecture Walkthrough",
+        "body": "Client/Partner \u2192 Internet \u2192 Akamai (edge/WAF) \u2192 DNS api.company.com \u2192 API Gateway/reverse proxy \u2192 Custom API (Cloud Run or IIS) \u2192 Downstream SQL/SaaS/Pub/Sub/other API. Inbound is typically synchronous HTTPS; downstream sync vs async is a separate design choice."
+      },
+      {
+        "id": "architect_view",
+        "title": "Architect's View",
+        "body": "Approve designs only after ownership, AuthN vs AuthZ, network placement, TLS termination/re-encryption, dependency blast radius, failure modes, observability (correlation IDs), versioning strategy, and data classification in logs/responses are clear."
+      }
+    ],
+    "analogy_to_known": "F5 VIP + IIS path + cert + auth policy \u2248 API surface; stored-proc layer \u2248 shrink data access surface.",
+    "analogy_limits": "Public/partner exposure, productized versioning, OAuth/OIDC/JWT or service accounts instead of Kerberos-to-box, ephemeral compute instead of sticky hosts.",
+    "architect_view_bullets": [
+      "Ownership of contract, on-call, and breaking changes",
+      "AuthN vs AuthZ separation",
+      "Public vs partner vs internal-only placement",
+      "Where TLS terminates and whether origin is re-encrypted",
+      "Every downstream call is SLA and blast radius",
+      "Timeouts, partial success, retry double-writes",
+      "Correlation IDs gateway \u2192 API \u2192 dependency",
+      "Consumer migration path when contract changes",
+      "What leaves the boundary in logs and responses"
+    ],
+    "diagram_ascii": "Client / Partner / Browser SPA\n        |\n     Internet\n        |\n      Akamai  (edge / optional WAF)\n        |\n   Public DNS \u2192 api.company.com\n        |\n  API Gateway / reverse proxy\n        |\n   Custom API (e.g. Cloud Run or IIS)\n        |\n   Downstream: SQL / SaaS / Pub/Sub / another API",
+    "diagram_nodes": [
+      {
+        "id": "client",
+        "label": "Client / Partner / SPA",
+        "zone": "external"
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "zone": "public"
+      },
+      {
+        "id": "akamai",
+        "label": "Akamai",
+        "zone": "edge"
+      },
+      {
+        "id": "dns",
+        "label": "api.company.com",
+        "zone": "public"
+      },
+      {
+        "id": "gateway",
+        "label": "API Gateway / reverse proxy",
+        "zone": "dmz_or_edge"
+      },
+      {
+        "id": "api",
+        "label": "Custom API",
+        "zone": "app"
+      },
+      {
+        "id": "downstream",
+        "label": "SQL / SaaS / Pub/Sub / API",
+        "zone": "private_or_saas"
+      }
+    ],
+    "diagram_edges": [
+      {
+        "from": "client",
+        "to": "internet",
+        "protocol": "HTTPS"
+      },
+      {
+        "from": "internet",
+        "to": "akamai",
+        "protocol": "HTTPS"
+      },
+      {
+        "from": "akamai",
+        "to": "gateway",
+        "protocol": "HTTPS",
+        "notes": "often re-encrypted to origin"
+      },
+      {
+        "from": "gateway",
+        "to": "api",
+        "protocol": "HTTPS"
+      },
+      {
+        "from": "api",
+        "to": "downstream",
+        "protocol": "HTTPS or native",
+        "notes": "sync or async by design"
+      }
+    ],
+    "interactive_teach": [
+      {
+        "id": "reveal_contract",
+        "type": "expand",
+        "prompt": "Why call it a contract instead of an endpoint?",
+        "reveal": "Endpoint is location. Contract is behavior over time: schema, errors, auth, SLAs, and how breaking changes are managed."
+      },
+      {
+        "id": "authn_vs_authz",
+        "type": "choice",
+        "prompt": "A valid JWT proves the caller is Service X, but X is not allowed to create LMS accounts. What failed?",
+        "options": [
+          "Authentication",
+          "Authorization",
+          "TLS",
+          "DNS"
+        ],
+        "correct": "Authorization",
+        "explain": "AuthN established identity; AuthZ denied the action. Architects must design both."
+      },
+      {
+        "id": "analogy_break",
+        "type": "short_answer",
+        "prompt": "Name one way a Cloud Run\u2013backed API breaks the classic IIS-behind-F5 mental model.",
+        "rubric_points": [
+          "ephemeral instances / no sticky host assumption",
+          "identity often workload/service-account based",
+          "scaling and cold start change failure modes",
+          "public ingress patterns differ from corp LAN VIP"
+        ]
+      }
+    ]
+  },
+  "scenario": {
+    "id": "hr-lms-outbound",
+    "prompt": "An internal HR web app (on-prem, IIS behind F5) must create accounts in a SaaS LMS when a new hire is approved. The LMS exposes a REST API on the public internet. Security will not allow the IIS servers to have unrestricted outbound internet. The LMS team wants a stable enterprise endpoint they can allowlist and audit, not 40 app servers calling them directly.",
+    "questions": [
+      "What components would you put between the HR app and the LMS API, and why?",
+      "Where are the trust boundaries?",
+      "Where would you terminate TLS, and would you re-encrypt?",
+      "How should the HR app authenticate to your side, vs how your side authenticates to the LMS?",
+      "What fails if the LMS is down for 30 minutes \u2014 and what should the architecture do about that?"
+    ],
+    "learner_answer": null,
+    "critique": null,
+    "ui_hint": "Collect free-text design answer; do not show a model solution until Greg critiques or learner requests reveal."
+  },
+  "knowledge_check": [
+    {
+      "id": "q1",
+      "question": "Why might we put an API gateway in front of a Cloud Run (or IIS) service instead of exposing it directly?",
+      "rubric_points": [
+        "central auth, rate limits, WAF integration",
+        "stable public contract vs backend churn",
+        "observability and policy enforcement choke point",
+        "TLS / certificate / routing ownership"
+      ],
+      "learner_answer": null,
+      "score": null
+    },
+    {
+      "id": "q2",
+      "question": "A partner can reach api.company.com and TLS succeeds, but every call returns 401. Which layer is most likely healthy vs failing?",
+      "rubric_points": [
+        "DNS, routing, TLS likely healthy",
+        "AuthN failing (missing/invalid token or wrong audience)",
+        "distinguish from 403 AuthZ failure"
+      ],
+      "learner_answer": null,
+      "score": null
+    },
+    {
+      "id": "q3",
+      "question": "Security blocks unrestricted outbound internet from IIS. How does that constraint change where the LMS integration should live?",
+      "rubric_points": [
+        "egress via controlled proxy/API tier or integration service",
+        "stable SNAT/egress IP for vendor allowlist",
+        "not 40 app servers each with open egress"
+      ],
+      "learner_answer": null,
+      "score": null
+    },
+    {
+      "id": "q4",
+      "question": "If the LMS is unavailable for 30 minutes, is a synchronous create-account call from the HR approval click good architecture? Why or why not?",
+      "rubric_points": [
+        "user-facing sync couples HR UX to SaaS uptime",
+        "prefer queue/async with retry/DLQ for durable business events",
+        "still need status/visibility for ops and HR"
+      ],
+      "learner_answer": null,
+      "score": null
+    }
+  ],
+  "one_thing_to_remember": "Design the API as a trust boundary and owned contract first; the URL and JSON schema are implementation details of that boundary.",
+  "progress": {
+    "status": "awaiting_answer",
+    "awaiting": "scenario",
+    "completed_topic_ids": [],
+    "weak_areas": [],
+    "strengths": [],
+    "next_recommended": {
+      "topic_id": "api-as-contract",
+      "title": "API as architectural contract",
+      "why": "Complete scenario + knowledge check to close Session 1; next likely API gateway vs reverse proxy."
+    },
+    "home_badge": "Today's lesson: API as architectural contract \u2014 scenario open"
+  },
+  "ui": {
+    "todays_lesson": true,
+    "estimated_minutes": 25,
+    "phase_roadmap_label": "Phase 1 \u00b7 Session 1 of ~N"
+  }
+}

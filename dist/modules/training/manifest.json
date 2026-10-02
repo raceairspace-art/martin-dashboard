@@ -1,0 +1,14 @@
+{
+  "id": "training",
+  "title": "Systems Training",
+  "bot": "greg_systems_training",
+  "version": "1.0",
+  "data_paths": [
+    "data/systems-training/progress.json",
+    "data/systems-training/sessions/"
+  ],
+  "home_component": "home.js",
+  "module_route": "#/training",
+  "owns_writes": [],
+  "reads": ["training_progress", "training_lesson"]
+}

@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-02T12:35:27-07:00",
+  "session_ids": [
+    "phase1-session01"
+  ],
+  "sessions": [
+    {
+      "session_id": "phase1-session01",
+      "title": "phase1-session01",
+      "status": "awaiting_answer"
+    }
+  ]
+}

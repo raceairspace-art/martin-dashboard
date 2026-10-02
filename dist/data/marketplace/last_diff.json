@@ -1,0 +1,21 @@
+{
+  "diffed_at": "2026-10-02T12:38:33-07:00",
+  "watchlist_updated_at": "2026-10-02T12:38:11-07:00",
+  "had_previous": true,
+  "counts": {
+    "new_listings": 0,
+    "removed_listings": 0,
+    "new_strong_or_exceptional": 0,
+    "price_drops": 0,
+    "sold_or_removed": 0,
+    "status_changes": 0,
+    "assessment_changes": 0
+  },
+  "new_ids": [],
+  "removed_ids": [],
+  "new_strong_or_exceptional": [],
+  "price_drops": [],
+  "sold_or_removed": [],
+  "status_changes": [],
+  "assessment_changes": []
+}
