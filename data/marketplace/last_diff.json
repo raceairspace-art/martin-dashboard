@@ -1,21 +1,88 @@
 {
-  "diffed_at": "2026-10-02T12:38:33-07:00",
-  "watchlist_updated_at": "2026-10-02T12:38:11-07:00",
+  "diffed_at": "2026-10-03T07:14:17-07:00",
+  "watchlist_updated_at": "2026-10-03T07:30:00-07:00",
   "had_previous": true,
   "counts": {
-    "new_listings": 0,
+    "new_listings": 10,
     "removed_listings": 0,
-    "new_strong_or_exceptional": 0,
-    "price_drops": 0,
-    "sold_or_removed": 0,
-    "status_changes": 0,
+    "new_strong_or_exceptional": 1,
+    "price_drops": 1,
+    "sold_or_removed": 4,
+    "status_changes": 4,
     "assessment_changes": 0
   },
-  "new_ids": [],
+  "new_ids": [
+    "cargurus-ca-montebello-3FMTK1R44PMA86483",
+    "cargurus-ca-longbeach-3FMTK1RMXPMA29351",
+    "cargurus-ca-longbeach-3FMTK1R48PMA67435",
+    "cargurus-ca-noho-3FMTK1R46PMA68437",
+    "cargurus-ca-santana-3FMTK3SU6NMA11416",
+    "cargurus-ca-chino-3FMTK1R42PMA62408",
+    "cargurus-ca-anaheim-3FMTK1RM4NMA17483",
+    "cargurus-ca-buenapark-3FMTK1RM1MMA55171",
+    "friendlyford-3FMTK1R48PMA69069",
+    "cargurus-lv-henderson-3FMTK3SU3PMA06077"
+  ],
   "removed_ids": [],
-  "new_strong_or_exceptional": [],
-  "price_drops": [],
-  "sold_or_removed": [],
-  "status_changes": [],
+  "new_strong_or_exceptional": [
+    {
+      "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
+      "assessment": "STRONG DEAL",
+      "ask_price": 21972,
+      "status": "active"
+    }
+  ],
+  "price_drops": [
+    {
+      "id": "cargurus-ca-fontana-3FMTK1RM7PMA31025",
+      "from": 24758,
+      "to": 24684,
+      "delta": -74.0
+    }
+  ],
+  "sold_or_removed": [
+    {
+      "id": "desert215-3FMTK1RM0NMA44504",
+      "from": "active",
+      "to": "possibly_sold_or_stale"
+    },
+    {
+      "id": "cargurus-ca-vannuys-awd-3FMTK1SS0MMA43635",
+      "from": "active",
+      "to": "possibly_sold_or_stale"
+    },
+    {
+      "id": "cargurus-ca-norco-premium-3FMTK3R48PMA73909",
+      "from": "active",
+      "to": "possibly_sold_or_stale"
+    },
+    {
+      "id": "cargurus-ca-orange-3FMTK1R49PMA63071",
+      "from": "active",
+      "to": "possibly_sold_or_stale"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "desert215-3FMTK1RM0NMA44504",
+      "from": "active",
+      "to": "possibly_sold_or_stale"
+    },
+    {
+      "id": "cargurus-ca-vannuys-awd-3FMTK1SS0MMA43635",
+      "from": "active",
+      "to": "possibly_sold_or_stale"
+    },
+    {
+      "id": "cargurus-ca-norco-premium-3FMTK3R48PMA73909",
+      "from": "active",
+      "to": "possibly_sold_or_stale"
+    },
+    {
+      "id": "cargurus-ca-orange-3FMTK1R49PMA63071",
+      "from": "active",
+      "to": "possibly_sold_or_stale"
+    }
+  ],
   "assessment_changes": []
 }

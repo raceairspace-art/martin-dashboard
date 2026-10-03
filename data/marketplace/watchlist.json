@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-02T12:38:11-07:00",
+  "updated_at": "2026-10-03T07:30:00-07:00",
   "search_base": "Las Vegas, NV",
   "max_purchase_price": 25000,
   "preferred_max_miles": 50000,
   "criteria_notes": "Clean title only; prefer private; prefer newer/better trim when value makes sense",
   "market_snapshot": {
-    "as_of": "2026-10-02",
+    "as_of": "2026-10-03",
     "sources": [
       "CarGurus Las Vegas Mach-E market averages (as of ~2026-09-29/10-01)",
       "Prior VinAssessment national dealer asking medians"
@@ -24,7 +24,7 @@
     "cargurus_national_avg_2023": 29924,
     "cargurus_national_avg_2024": 31954,
     "cargurus_lv_area_2023_avg_ask": 28983,
-    "note": "2023 Select under-$25k comps still clustering ~$22k–$25k in SoCal; LV area averages higher due to Premium/GT mix. CarGurus LV avg 2023 ~$27.8k (Oct 2 snapshot)."
+    "note": "2023 Select under-$25k comps still clustering ~$22k\u2013$25k in SoCal; LV area averages higher due to Premium/GT mix. CarGurus national avg 2023 ~$29.9k; LV area 2023 avg ask ~$27.8k (Oct 2\u20133). NEW Montebello $21,972 / 47k mi is standout if still live."
   },
   "candidates": [
     {
@@ -46,7 +46,7 @@
       "title_status": "UNKNOWN (seller claims clean implicitly; verify CA title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-21",
@@ -65,13 +65,18 @@
           "date": "2026-10-02",
           "price": 21900,
           "note": "CL detail re-verified ACTIVE; $21900 / 65895 mi / VIN 3FMTK3SS8NMA40995 / PremiumCARE still advertised"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 21900,
+          "note": "CL detail re-verified ACTIVE; $21900 / 65895 mi / VIN 3FMTK3SS8NMA40995 / PremiumCARE still advertised"
         }
       ],
       "status": "active",
-      "notes": "Genuine-looking private party. PremiumCARE to 10/7/2029 or 100k (~34k mi remaining, $100 ded). Factory HV warranty to 10/7/2030 or 100k. New tires + new 12V battery. Disclosed windshield crack 6-8in and driver seat tear. Miles over 50k preferred but Premium AWD + warranty package + private sale justify exception. Market: 2022 Premium AWD VIN-pattern median ask ~$28.7k; Premium 60-75k band ~$25k — ask ~$3-7k under typical dealer asks.",
+      "notes": "Genuine-looking private party. PremiumCARE to 10/7/2029 or 100k (~34k mi remaining, $100 ded). Factory HV warranty to 10/7/2030 or 100k. New tires + new 12V battery. Disclosed windshield crack 6-8in and driver seat tear. Miles over 50k preferred but Premium AWD + warranty package + private sale justify exception. Market: 2022 Premium AWD VIN-pattern median ask ~$28.7k; Premium 60-75k band ~$25k \u2014 ask ~$3-7k under typical dealer asks.",
       "geo_tier": 2,
-      "why_interesting": "Private Premium AWD with PremiumCARE to 10/7/2029 or 100k and factory HV warranty to 10/7/2030; ask $21,900 vs ~$25–28.7k Premium comps in notes.",
-      "concerns": "Miles over 50k preferred ({miles:,}); disclosed windshield crack 6–8in and driver seat tear; verify CA clean title.",
+      "why_interesting": "Private Premium AWD with PremiumCARE to 10/7/2029 or 100k and factory HV warranty to 10/7/2030; ask $21,900 vs ~$25\u201328.7k Premium comps in notes.",
+      "concerns": "Miles over 50k preferred (65,895); disclosed windshield crack 6\u20138in and driver seat tear; verify CA clean title.",
       "market_value_low": 25000,
       "market_value_high": 28714,
       "estimated_savings": 4957,
@@ -97,7 +102,7 @@
         "https://images.craigslist.org/00F0F_67YiFzbHyGA_0CI0t2_1200x900.jpg",
         "https://images.craigslist.org/00303_hxCauNiJv4K_0CI0t2_1200x900.jpg"
       ],
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cl-phoenix-2024-select-24988",
@@ -118,7 +123,7 @@
       "title_status": "UNKNOWN",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-28",
@@ -132,12 +137,17 @@
           "date": "2026-10-02",
           "price": 24988,
           "note": "CL detail re-verified ACTIVE; $24988 / 29550 mi; VIN still absent; dealer Theus 623-263-0145"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 24988,
+          "note": "CL detail re-verified ACTIVE; $24988 / 29550 mi; VIN still absent"
         }
       ],
       "status": "active",
-      "notes": "Dealer CL ad (Theus, 623-263-0145) with financing/credit language. Claims Rapid Red, 360 cam, BlueCruise 90-day trial, 19in wheels. VIN not in posting — get VIN before travel. Real OTD may exceed $25k after doc fees; confirm cash OTD. Year/miles exceptional vs budget; 2024s typically ask well above $30k.",
+      "notes": "Dealer CL ad (Theus, 623-263-0145) with financing/credit language. Claims Rapid Red, 360 cam, BlueCruise 90-day trial, 19in wheels. VIN not in posting \u2014 get VIN before travel. Real OTD may exceed $25k after doc fees; confirm cash OTD. Year/miles exceptional vs budget; 2024s typically ask well above $30k.",
       "geo_tier": 2,
-      "why_interesting": "2024 Select at $24,988 / 29,550 mi — year/miles exceptional vs budget; notes say 2024s typically ask well above $30k.",
+      "why_interesting": "2024 Select at $24,988 / 29,550 mi \u2014 year/miles exceptional vs budget; notes say 2024s typically ask well above $30k.",
       "concerns": "Dealer CL with financing language; VIN not in posting; real OTD may exceed $25k after doc fees.",
       "market_value_low": 30000,
       "market_value_high": 31954,
@@ -151,7 +161,7 @@
         "https://images.craigslist.org/00t0t_beI8UfQutyo_0nm0hw_1200x900.jpg",
         "https://images.craigslist.org/00v0v_7gXzoQSBoMl_0nm0hw_1200x900.jpg"
       ],
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "teamford-3FMTK1RM5MMA20455",
@@ -172,7 +182,7 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-30",
@@ -187,6 +197,11 @@
           "date": "2026-10-02",
           "price": 20687,
           "note": "Team Ford detail re-verified; internetPrice $20687 / 65483 mi"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 20687,
+          "note": "Team Ford detail re-verified; price $20687 / 65483 mi"
         }
       ],
       "status": "active",
@@ -204,7 +219,7 @@
         "https://content.homenetiol.com/2000157/2065512/0x0/c92da8a93ade4faba67146d0a652ecaa.jpg",
         "https://content.homenetiol.com/2000157/2065512/0x0/cdb210a7b1ea43b3b23514acb7c65111.jpg"
       ],
-      "updated_at": "2026-10-02T12:38:11-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "teamford-3FMTK1RM6NMA17680",
@@ -225,7 +240,7 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-30",
@@ -240,12 +255,17 @@
           "date": "2026-10-02",
           "price": 21863,
           "note": "Team Ford detail re-verified; internetPrice $21863 / 68598 mi"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 21863,
+          "note": "Team Ford detail re-verified; price $21863 / 68598 mi"
         }
       ],
       "status": "active",
-      "notes": "Local Iced Blue Silver. Cash $21,863. 2022 Select 60-75k band median ask ~$22.3k — roughly at market. Miles over preferred 50k. Confirm OTD fees + recalls.",
+      "notes": "Local Iced Blue Silver. Cash $21,863. 2022 Select 60-75k band median ask ~$22.3k \u2014 roughly at market. Miles over preferred 50k. Confirm OTD fees + recalls.",
       "geo_tier": 1,
-      "why_interesting": "Local Team Ford 2022 Select Iced Blue Silver cash $21,863; notes say 2022 Select 60–75k band median ask ~$22.3k — roughly at market.",
+      "why_interesting": "Local Team Ford 2022 Select Iced Blue Silver cash $21,863; notes say 2022 Select 60\u201375k band median ask ~$22.3k \u2014 roughly at market.",
       "concerns": "Miles over preferred 50k (68,598); confirm OTD fees + recalls.",
       "market_value_low": 22300,
       "market_value_high": 22300,
@@ -256,7 +276,7 @@
         "https://content.homenetiol.com/2000157/2065512/0x0/4e2d1328ccd343359558ae81634ee178.jpg",
         "https://content.homenetiol.com/2000157/2065512/0x0/ef89cafe70c245a6aaacde1609d6eeec.jpg"
       ],
-      "updated_at": "2026-10-02T12:38:11-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-mesquite-445358242",
@@ -286,7 +306,7 @@
         },
         {
           "date": "2026-10-01",
-          "note": "Ken Garff Mesquite used inventory query returned no Mach-E VINs; CarGurus detail fetch empty/403; treat as not confirmed available — phone-verify before travel"
+          "note": "Ken Garff Mesquite used inventory query returned no Mach-E VINs; CarGurus detail fetch empty/403; treat as not confirmed available \u2014 phone-verify before travel"
         },
         {
           "date": "2026-10-02",
@@ -294,7 +314,8 @@
         }
       ],
       "status": "likely_sold_or_stale",
-      "notes": "CarGurus claims $1,768 below market; also shows $28,281 figure (possibly fees/finance — clarify). ~80 mi from LV. Miles slightly over 50k. Could not confirm on kengarffmesquiteford.com inventory scrape. Verify VIN/availability by phone."
+      "notes": "CarGurus claims $1,768 below market; also shows $28,281 figure (possibly fees/finance \u2014 clarify). ~80 mi from LV. Miles slightly over 50k. Could not confirm on kengarffmesquiteford.com inventory scrape. Verify VIN/availability by phone.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-fontana-3FMTK1RM7PMA31025",
@@ -304,7 +325,7 @@
       "year": 2023,
       "trim": "Select RWD",
       "miles": 11151,
-      "ask_price": 24758,
+      "ask_price": 24684,
       "real_price_est": "UNKNOWN",
       "seller_type": "dealer",
       "location": "Fontana, CA",
@@ -315,7 +336,7 @@
       "title_status": "UNKNOWN",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-30",
@@ -330,17 +351,22 @@
           "date": "2026-10-02",
           "price": 24758,
           "note": "CarGurus CA under-$25k: $24758 / 11151 mi (was $24784)"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 24684,
+          "note": "CarGurus CA under-$25k shows $24684 (was $24758); ultra-low 11,151 mi; confirm cash OTD \u2264$25k"
         }
       ],
       "status": "active",
-      "notes": "Very low miles for year/budget. 2023 Select under-15k median ask ~$28.2k — potentially several thousand under. ~220 mi from LV. Confirm dealer fee stack stays ≤$25k cash OTD.",
+      "notes": "Very low miles for year/budget. 2023 Select under-15k median ask ~$28.2k \u2014 potentially several thousand under. ~220 mi from LV. Confirm dealer fee stack stays \u2264$25k cash OTD.",
       "geo_tier": 2,
-      "why_interesting": "Very low miles (11,151) 2023 Select under budget; notes cite under-15k median ask ~$28.2k — potentially several thousand under.",
-      "concerns": "Confirm dealer fee stack stays ≤$25k cash OTD; ~220 mi from LV.",
+      "why_interesting": "Very low miles (11,151) 2023 Select under budget; notes cite under-15k median ask ~$28.2k \u2014 potentially several thousand under.",
+      "concerns": "Confirm dealer fee stack stays \u2264$25k cash OTD; ~220 mi from LV.",
       "market_value_low": 28246,
       "market_value_high": 28246,
       "estimated_savings": 3488,
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-simi-28876mi",
@@ -361,7 +387,7 @@
       "title_status": "UNKNOWN",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-30",
@@ -377,12 +403,17 @@
           "date": "2026-10-02",
           "price": 23022,
           "note": "Price Ford Simi Final Price still $23022 (Internet $22900); CarGurus card shows $23334 incl fees. Manufacturer certified."
+        },
+        {
+          "date": "2026-10-03",
+          "price": 23022,
+          "note": "Price Ford dealer page Final Price $23022 / 28876 mi re-verified; CarGurus card shows $23334 (fees?) \u2014 trust dealer Final"
         }
       ],
       "status": "active",
-      "notes": "MATERIAL PRICE DROP. Price Ford of Simi Valley stock 00P23190. Final $23,022 with disclosed small fees; tax/title extra. 2023 Select 15-30k median historically ~$26.7k — still several thousand under. ~280 mi from LV. Confirm Blue Advantage / EV cert and cash OTD.",
+      "notes": "MATERIAL PRICE DROP. Price Ford of Simi Valley stock 00P23190. Final $23,022 with disclosed small fees; tax/title extra. 2023 Select 15-30k median historically ~$26.7k \u2014 still several thousand under. ~280 mi from LV. Confirm Blue Advantage / EV cert and cash OTD.",
       "geo_tier": 3,
-      "why_interesting": "Price Ford Simi Valley 2023 Select final $23,022 / 28,876 mi after material price drop; notes cite 15–30k median historically ~$26.7k.",
+      "why_interesting": "Price Ford Simi Valley 2023 Select final $23,022 / 28,876 mi after material price drop; notes cite 15\u201330k median historically ~$26.7k.",
       "concerns": "~280 mi from LV; confirm Blue Advantage/EV cert and cash OTD (tax/title extra).",
       "market_value_low": 26705,
       "market_value_high": 26705,
@@ -420,7 +451,7 @@
         "https://dealerslink.s3.amazonaws.com/vehicles/5071/00P23190-FAD4361D6CB943D2B7CD209F7119005E.jpg",
         "https://dealerslink.s3.amazonaws.com/vehicles/5071/00P23190-EE341016D4D74D398027E893CDEAE87E.jpg"
       ],
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-simi-20340mi-3FMTK1RM2PMA46211",
@@ -450,15 +481,16 @@
         },
         {
           "date": "2026-10-01",
-          "note": "Dealer site still has VIN/miles 20340 but price fields show 0 — call to confirm availability/price. CarGurus CA under-$25k still showed ~$24334 / ~20447 mi companion listing pattern."
+          "note": "Dealer site still has VIN/miles 20340 but price fields show 0 \u2014 call to confirm availability/price. CarGurus CA under-$25k still showed ~$24334 / ~20447 mi companion listing pattern."
         },
         {
           "date": "2026-10-02",
-          "note": "Dealer page unavailable/not found; VIN replaced on lot by companion 3FMTK1RM6PMA30660 — mark sold_or_removed"
+          "note": "Dealer page unavailable/not found; VIN replaced on lot by companion 3FMTK1RM6PMA30660 \u2014 mark sold_or_removed"
         }
       ],
       "status": "sold_or_removed",
-      "notes": "QUESTIONABLE PRICE DISPLAY on dealer site (price=0). Stock 00P23189 Space White. Verify live ask + OTD before travel. If still ~$24.3k at ~20k mi remains STRONG."
+      "notes": "QUESTIONABLE PRICE DISPLAY on dealer site (price=0). Stock 00P23189 Space White. Verify live ask + OTD before travel. If still ~$24.3k at ~20k mi remains STRONG.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-noho-3FMTK1R40PMA63900",
@@ -479,7 +511,7 @@
       "title_status": "UNKNOWN",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-30",
@@ -493,10 +525,15 @@
         {
           "date": "2026-10-02",
           "note": "Still absent from CarGurus CA under-$25k list; not reconfirmed"
+        },
+        {
+          "date": "2026-10-03",
+          "note": "Still not on CarGurus CA under-$25k; remain possibly_sold_or_over_budget"
         }
       ],
       "status": "possibly_sold_or_over_budget",
-      "notes": "Carbonized Gray. Under 50k miles. 2023 Select 45-60k median ~$24.0k — modestly under. Confirm fees."
+      "notes": "Carbonized Gray. Under 50k miles. 2023 Select 45-60k median ~$24.0k \u2014 modestly under. Confirm fees.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-chino-3FMTK1RM0PMA14552",
@@ -517,7 +554,7 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-30",
@@ -531,10 +568,15 @@
         {
           "date": "2026-10-02",
           "note": "VIN 3FMTK1RM0PMA14552 not seen on CarGurus CA under-$25k page today (different Chino unit 3FMTK1R41PMA92466 @ $23872 appeared). Treat as possibly sold/stale."
+        },
+        {
+          "date": "2026-10-03",
+          "note": "Still not on CarGurus CA under-$25k; remain possibly_sold_or_stale"
         }
       ],
       "status": "possibly_sold_or_stale",
-      "notes": "Shadow Black stock PF11033. Price edged up $500. Still under 50k miles. FAIR."
+      "notes": "Shadow Black stock PF11033. Price edged up $500. Still under 50k miles. FAIR.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cl-norco-3FMTK1RM4MMA25274",
@@ -555,7 +597,7 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-12",
@@ -569,13 +611,18 @@
           "date": "2026-10-02",
           "price": 22079,
           "note": "CL re-verified ACTIVE; ask now $22079 (was $21994) / 47409 mi"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 22079,
+          "note": "CL detail ACTIVE $22079 / 47409"
         }
       ],
       "status": "active",
-      "notes": "Under 50k miles. Dealer disclaimer excludes doc/delivery fees. Confirm OTD ≤$25k. Check 2021 recalls.",
+      "notes": "Under 50k miles. Dealer disclaimer excludes doc/delivery fees. Confirm OTD \u2264$25k. Check 2021 recalls.",
       "geo_tier": 2,
       "why_interesting": "2021 Select under 50k mi (47,409) at $22,079 via Norco dealer CL.",
-      "concerns": "Dealer disclaimer excludes doc/delivery fees; confirm OTD ≤$25k; check 2021 recalls.",
+      "concerns": "Dealer disclaimer excludes doc/delivery fees; confirm OTD \u2264$25k; check 2021 recalls.",
       "market_value_low": 23125,
       "market_value_high": 23125,
       "estimated_savings": 1046,
@@ -600,7 +647,7 @@
         "https://images.craigslist.org/00A0A_cc6fbY2uVTd_0jm0ew_1200x900.jpg",
         "https://images.craigslist.org/00q0q_5hflHWFsj4x_0jm0ew_1200x900.jpg"
       ],
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cl-lv-globul-3FMTK3RM1NMA16206",
@@ -621,7 +668,7 @@
       "title_status": "UNKNOWN",
       "assessment": "WEAK DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-20",
@@ -639,10 +686,16 @@
           "date": "2026-10-02",
           "price": 22499,
           "note": "CL re-verified ACTIVE; $22499; high miles still apply"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 22499,
+          "note": "CL detail ACTIVE $22499 / 82631"
         }
       ],
       "status": "active",
-      "notes": "High miles (82k). Financing-heavy BHPH-adjacent dealer. Premium RWD 75-90k band ~$24.3k — not compelling enough for mile exception."
+      "notes": "High miles (82k). Financing-heavy BHPH-adjacent dealer. Premium RWD 75-90k band ~$24.3k \u2014 not compelling enough for mile exception.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "gaudin-3FMTK3R70NMA11783",
@@ -679,7 +732,8 @@
         }
       ],
       "status": "sold_or_removed",
-      "notes": "100k+ miles — HV battery warranty near/at 100k limit. Not exceptional value. Gaudin site scrape returned empty shell; confirm if still in stock."
+      "notes": "100k+ miles \u2014 HV battery warranty near/at 100k limit. Not exceptional value. Gaudin site scrape returned empty shell; confirm if still in stock.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-lv-447127468-UNVERIFIED",
@@ -687,7 +741,7 @@
       "url": "https://www.cargurus.com/details/447127468",
       "vin": "3FMTK1SS4NMA44806",
       "year": 2022,
-      "trim": "Select AWD (per CarGurus snippet — UNVERIFIED)",
+      "trim": "Select AWD (per CarGurus snippet \u2014 UNVERIFIED)",
       "miles": 47144,
       "ask_price": 24344,
       "real_price_est": "UNKNOWN",
@@ -700,7 +754,7 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-09-30",
@@ -714,10 +768,15 @@
         {
           "date": "2026-10-02",
           "note": "Still absent from Team Ford live inventory (only 20455 & 17680 Mach-E Selects). Remain UNVERIFIED/stale."
+        },
+        {
+          "date": "2026-10-03",
+          "note": "CarGurus still shows $24344 / 47144 Select AWD at 5445 Drexel; Team Ford live inventory still only shows 20455/17680 \u2014 remain unverified_stale"
         }
       ],
       "status": "unverified_stale",
-      "notes": "CONFLICT: Team Ford live inventory shows different Select units (RWD, higher miles, lower cash prices). Treat as possibly stale/mismatched aggregator listing until phone-verified. If real Select AWD ~47k at ~$24.3k it would upgrade toward STRONG."
+      "notes": "CONFLICT: Team Ford live inventory shows different Select units (RWD, higher miles, lower cash prices). Treat as possibly stale/mismatched aggregator listing until phone-verified. If real Select AWD ~47k at ~$24.3k it would upgrade toward STRONG.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cl-scam-bait-santa-rosa-monthly",
@@ -742,7 +801,8 @@
         }
       ],
       "status": "rejected",
-      "notes": "Classic financing bait: monthly payment advertised as price ($656-$979 for brand-new 2026 Mach-E). Multiple near-identical ads. Not a $25k purchase."
+      "notes": "Classic financing bait: monthly payment advertised as price ($656-$979 for brand-new 2026 Mach-E). Multiple near-identical ads. Not a $25k purchase.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "gaudin-3FMTK1R42PMA92816",
@@ -763,7 +823,7 @@
       "title_status": "UNKNOWN (listing claims CARFAX One-Owner; verify clean title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-01T08:35:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-01",
@@ -774,13 +834,18 @@
           "date": "2026-10-02",
           "price": 24900,
           "note": "AutoByPayment VDP re-verified ACTIVE; $24900 / 30936 mi Rapid Red stock P15810"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 24900,
+          "note": "autobypayment VDP re-verified ACTIVE $24900 / 30936 mi"
         }
       ],
       "status": "active",
-      "notes": "NEW LOCAL. Rapid Red / Black Onyx, stock P15810. Under 50k mi, 2023 Select. Market: 2023 Select 15-30k median historically ~$26.7k; national 2023 avg ~$29.9k. Confirm cash OTD ≤$25k (doc fees may push over). Certified claim — verify Ford EV/Blue Advantage coverage remaining.",
+      "notes": "NEW LOCAL. Rapid Red / Black Onyx, stock P15810. Under 50k mi, 2023 Select. Market: 2023 Select 15-30k median historically ~$26.7k; national 2023 avg ~$29.9k. Confirm cash OTD \u2264$25k (doc fees may push over). Certified claim \u2014 verify Ford EV/Blue Advantage coverage remaining.",
       "geo_tier": 1,
-      "why_interesting": "Local 2023 Select RWD under 50k mi at $24,900; notes cite 2023 Select 15–30k median historically ~$26.7k and national 2023 avg ~$29.9k.",
-      "concerns": "Confirm cash OTD ≤$25k (doc fees may push over); verify Ford EV/Blue Advantage certified coverage remaining.",
+      "why_interesting": "Local 2023 Select RWD under 50k mi at $24,900; notes cite 2023 Select 15\u201330k median historically ~$26.7k and national 2023 avg ~$29.9k.",
+      "concerns": "Confirm cash OTD \u2264$25k (doc fees may push over); verify Ford EV/Blue Advantage certified coverage remaining.",
       "market_value_low": 26705,
       "market_value_high": 29998,
       "estimated_savings": 3452,
@@ -809,7 +874,7 @@
         "https://inventoryimage.rydeshopper.com/images/3FMTK1R42PMA92816/Original/11666783412.jpg",
         "https://inventoryimage.rydeshopper.com/images/3FMTK1R42PMA92816/Original/11666783413.jpg"
       ],
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-lv-3FMTK1RM7PMA45961",
@@ -825,12 +890,12 @@
       "location": "Las Vegas, NV (ABC Hyundai per TrueCar)",
       "distance_mi": 13,
       "drivetrain": "RWD",
-      "battery": "UNKNOWN (Select RWD; often SR/LFP on 2023 — confirm)",
+      "battery": "UNKNOWN (Select RWD; often SR/LFP on 2023 \u2014 confirm)",
       "epa_range_when_new": 250,
       "title_status": "UNKNOWN",
       "assessment": "AVOID",
       "first_seen": "2026-10-01T08:35:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-01",
@@ -839,11 +904,16 @@
         {
           "date": "2026-10-02",
           "price": 26794,
-          "note": "TrueCar $26794 ABC Hyundai LV — OVER BUDGET. CarGurus still showed $24799 (conflict). Downgrade to AVOID/over_budget."
+          "note": "TrueCar $26794 ABC Hyundai LV \u2014 OVER BUDGET. CarGurus still showed $24799 (conflict). Downgrade to AVOID/over_budget."
+        },
+        {
+          "date": "2026-10-03",
+          "note": "CarGurus LV still inconsistently shows $24799; ABC site 403; TrueCar curl 403; keep AVOID/over_budget pending cash OTD proof \u2264$25k (TrueCar Oct 2 was $26794)"
         }
       ],
       "status": "over_budget",
-      "notes": "MATERIAL: TrueCar now shows $26,794 at ABC Hyundai Las Vegas — OVER $25k budget. CarGurus LV card still inconsistently shows $24,799 incl fees; treat TrueCar dealer ask as authoritative for budget screen. Downgraded from STRONG."
+      "notes": "MATERIAL: TrueCar now shows $26,794 at ABC Hyundai Las Vegas \u2014 OVER $25k budget. CarGurus LV card still inconsistently shows $24,799 incl fees; treat TrueCar dealer ask as authoritative for budget screen. Downgraded from STRONG.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-lv-3FMTK1RM4PMA18362",
@@ -864,7 +934,7 @@
       "title_status": "Clean / one-owner claimed on TrueCar (verify)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-01T08:35:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-01",
@@ -875,10 +945,15 @@
           "date": "2026-10-02",
           "price": 23949,
           "note": "Still $23949 on CarGurus; dealer confirmed Desert 215 Superstore LV; TrueCar clean/one-owner claims"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 23949,
+          "note": "CarGurus LV still shows $23949 / 38027 mi Desert 215; TrueCar curl 403; dealer site search empty of VINs"
         }
       ],
       "status": "active",
-      "notes": "LOCAL STRONG. Desert 215 Superstore confirmed dealer. CarGurus $23,949 incl fees / 38,027 mi Vapor Blue stock PMA18362P. TrueCar clean-title/one-owner claims — verify before purchase. Cash OTD fee risk.",
+      "notes": "LOCAL STRONG. Desert 215 Superstore confirmed dealer. CarGurus $23,949 incl fees / 38,027 mi Vapor Blue stock PMA18362P. TrueCar clean-title/one-owner claims \u2014 verify before purchase. Cash OTD fee risk.",
       "geo_tier": 1,
       "why_interesting": "Local Desert 215 2023 Select at $23,949 / 38,027 mi (Vapor Blue); TrueCar clean-title/one-owner claims noted.",
       "concerns": "Cash OTD fee risk; verify clean title/one-owner claims before purchase.",
@@ -917,7 +992,7 @@
         "https://vehicle-images.carscommerce.inc/7b68-110009686/3FMTK1RM4PMA18362/1865e435d54b491ef22962e829d38ec8.webp",
         "https://vehicle-images.carscommerce.inc/6443-110009686/3FMTK1RM4PMA18362/2cd6f331715d4f915bda2f0d3b4d402e.webp"
       ],
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-vannuys-3FMTK1RM1PMA17346",
@@ -938,7 +1013,7 @@
       "title_status": "UNKNOWN",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-01T08:35:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-01",
@@ -949,17 +1024,22 @@
           "date": "2026-10-02",
           "price": 24172,
           "note": "CarGurus CA still $24172 / 21631 mi; Cars.com showed $24122 same VIN"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 24172,
+          "note": "CarGurus CA still $24172 / 21631 mi"
         }
       ],
       "status": "active",
       "notes": "Low miles Vapor Blue stock PV27889. ~270 mi from LV. Strong value vs 2023 Select 15-30k band.",
       "geo_tier": 3,
-      "why_interesting": "Low-mile (21,631) 2023 Select Vapor Blue at $24,172; notes call strong value vs 2023 Select 15–30k band.",
+      "why_interesting": "Low-mile (21,631) 2023 Select Vapor Blue at $24,172; notes call strong value vs 2023 Select 15\u201330k band.",
       "concerns": "~270 mi from LV; confirm cash OTD/fees.",
       "market_value_low": 26705,
       "market_value_high": 26705,
       "estimated_savings": 2533,
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cl-norco-2023-3FMTK1RM9PMA39997",
@@ -969,7 +1049,7 @@
       "year": 2023,
       "trim": "Select RWD",
       "miles": 52231,
-      "ask_price": 24095,
+      "ask_price": 24180,
       "real_price_est": "UNKNOWN",
       "seller_type": "dealer",
       "location": "Norco, CA (Premium Autos Inc)",
@@ -980,7 +1060,7 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-01T08:35:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-01",
@@ -990,12 +1070,17 @@
           "date": "2026-10-02",
           "price": 24095,
           "note": "CL Inland Empire re-verified ACTIVE; $24095 / 52231 mi"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 24180,
+          "note": "CL detail ACTIVE $24180 / 52231 (was $24095)"
         }
       ],
       "status": "active",
-      "notes": "NEW CL. Miles slightly over 50k preferred. Same Norco dealer as 2021 Select. Confirm OTD/fees. CarGurus also shows other Norco 2023 Selects ~$23.7–$25k.",
+      "notes": "NEW CL. Miles slightly over 50k preferred. Same Norco dealer as 2021 Select. Confirm OTD/fees. CarGurus also shows other Norco 2023 Selects ~$23.7\u2013$25k.",
       "geo_tier": 2,
-      "why_interesting": "2023 Select at $24,095 / 52,231 mi via Norco dealer CL; CarGurus shows other Norco 2023 Selects ~$23.7–$25k.",
+      "why_interesting": "2023 Select at $24,095 / 52,231 mi via Norco dealer CL; CarGurus shows other Norco 2023 Selects ~$23.7\u2013$25k.",
       "concerns": "Miles slightly over 50k preferred; confirm OTD/fees.",
       "market_value_low": 23700,
       "market_value_high": 25000,
@@ -1020,7 +1105,7 @@
         "https://images.craigslist.org/00k0k_7PisVrBpS4r_0jm0ew_1200x900.jpg",
         "https://images.craigslist.org/00r0r_gG8G8HRfvPW_0jm0ew_1200x900.jpg"
       ],
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "findmyelectric-la-private-3FMTK1SS2NMA45534",
@@ -1036,28 +1121,33 @@
       "location": "Los Angeles, CA",
       "distance_mi": 270,
       "drivetrain": "AWD",
-      "battery": "68 kWh (listing; ER-class for Select AWD historically)",
+      "battery": "68 kWh (listing)",
       "epa_range_when_new": 247,
-      "title_status": "Clean (seller claim)",
+      "title_status": "Clean (seller claim on FME)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-01T08:35:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-01",
           "price": 23500,
-          "note": "listing added date on site: 2026-01-22 — possibly stale"
+          "note": "listing added date on site: 2026-01-22 \u2014 possibly stale"
         },
         {
           "date": "2026-10-02",
           "price": 23500,
-          "note": "FindMyElectric page still live at $23500; asSold empty — keep active_possibly_stale (not marked sold)"
+          "note": "FindMyElectric page still live at $23500; asSold empty \u2014 keep active_possibly_stale (not marked sold)"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 23500,
+          "note": "FME page still live; asSold empty; $23500 / 28100; ADDED Jan 22 2026; phone 781 area vs LA \u2014 still possibly stale"
         }
       ],
       "status": "active_possibly_stale",
       "notes": "PRIVATE AWD excellent numbers IF live. Page still loads $23,500 / 28,100 mi; asSold JS empty (not confirmed sold). RED FLAGS remain: added Jan 22 2026; phone (781) MA area code vs LA city. Verify availability/in-person title before travel.",
       "geo_tier": 3,
-      "why_interesting": "Private 2022 Select AWD at $23,500 / 28,100 mi — excellent numbers IF still live (page still loads; asSold empty).",
+      "why_interesting": "Private 2022 Select AWD at $23,500 / 28,100 mi \u2014 excellent numbers IF still live (page still loads; asSold empty).",
       "concerns": "Possibly stale: added Jan 22 2026; phone (781) MA area code vs LA city; verify availability/in-person title before travel.",
       "market_value_low": null,
       "market_value_high": null,
@@ -1067,7 +1157,7 @@
         "https://d2q97jj8nilsnk.cloudfront.net/images/tempImagectUVUn.jpg",
         "https://d2q97jj8nilsnk.cloudfront.net/images/tempImageJTlULM.jpg"
       ],
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-valencia-premium-3FMTK3RM2NMA02332",
@@ -1088,7 +1178,7 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-01T08:35:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-01",
@@ -1098,17 +1188,22 @@
           "date": "2026-10-02",
           "price": 24027,
           "note": "CarGurus/Cars.com still $24027 / 41635 mi Premium RWD Valencia"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 24027,
+          "note": "CarGurus CA still ~$24027 / 41635 (Valencia Premium)"
         }
       ],
       "status": "active",
-      "notes": "Premium RWD under 50k at ~$24k — reasonable but not standout vs Select low-mile comps.",
+      "notes": "Premium RWD under 50k at ~$24k \u2014 reasonable but not standout vs Select low-mile comps.",
       "geo_tier": 3,
-      "why_interesting": "2022 Premium RWD under 50k at ~$24,027 — reasonable trim.",
+      "why_interesting": "2022 Premium RWD under 50k at ~$24,027 \u2014 reasonable trim.",
       "concerns": "Not standout vs Select low-mile comps.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-simi-20447mi-3FMTK1RM6PMA30660",
@@ -1129,18 +1224,23 @@
       "title_status": "UNKNOWN",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 24022,
           "note": "NEW; Final Price $24022 (Internet $23900); CarGurus $24334 incl fees; stock 00P23197; manufacturer certified. Replaces sold companion VIN 3FMTK1RM2PMA46211 on same lot."
+        },
+        {
+          "date": "2026-10-03",
+          "price": 24022,
+          "note": "Price Ford dealer page Final Price $24022 / 20447 mi re-verified; CarGurus card $24334"
         }
       ],
       "status": "active",
-      "notes": "NEW STRONG. ~20.4k mi 2023 Select at Final $24,022. Market 2023 Select 15-30k median historically ~$26.7k — several thousand under. ~280 mi from LV. Confirm cash OTD + Blue Advantage cert. Reconciles prior watchlist companion that had different VIN 46211.",
+      "notes": "NEW STRONG. ~20.4k mi 2023 Select at Final $24,022. Market 2023 Select 15-30k median historically ~$26.7k \u2014 several thousand under. ~280 mi from LV. Confirm cash OTD + Blue Advantage cert. Reconciles prior watchlist companion that had different VIN 46211.",
       "geo_tier": 3,
-      "why_interesting": "Price Ford Simi Valley ~20.4k mi 2023 Select at final $24,022; notes cite 15–30k median historically ~$26.7k — several thousand under.",
+      "why_interesting": "Price Ford Simi Valley ~20.4k mi 2023 Select at final $24,022; notes cite 15\u201330k median historically ~$26.7k \u2014 several thousand under.",
       "concerns": "~280 mi from LV; confirm cash OTD + Blue Advantage cert.",
       "market_value_low": 26705,
       "market_value_high": 26705,
@@ -1176,7 +1276,7 @@
         "https://dealerslink.s3.amazonaws.com/vehicles/5071/00P23197-2B33FE2AD621428A8A757807AE761482.jpg",
         "https://dealerslink.s3.amazonaws.com/vehicles/5071/00P23197-83D4FAB7902D42DABBC77FD1589370B3.jpg"
       ],
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "desert215-3FMTK1RM0NMA44504",
@@ -1197,16 +1297,20 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 22949,
           "note": "NEW local from TrueCar/parent feed; miles slightly over 50k preferred"
+        },
+        {
+          "date": "2026-10-03",
+          "note": "Not observed on CarGurus LV under-budget list today; Desert 215 used search HTML had no Mach-E VINs; TrueCar 403 \u2014 possibly sold/stale"
         }
       ],
-      "status": "active",
-      "notes": "NEW LOCAL. 2022 Select ~53k mi at $22,949 — borderline mile exception; local so no transport cost. Confirm cash OTD, title, Carfax. Not exceptional enough for STRONG given miles vs Select comps under 50k.",
+      "status": "possibly_sold_or_stale",
+      "notes": "NEW LOCAL. 2022 Select ~53k mi at $22,949 \u2014 borderline mile exception; local so no transport cost. Confirm cash OTD, title, Carfax. Not exceptional enough for STRONG given miles vs Select comps under 50k.",
       "geo_tier": 1,
       "why_interesting": "Local 2022 Select ~52,935 mi at $22,949; no transport cost.",
       "concerns": "Borderline mile exception; not exceptional vs Select comps under 50k; confirm cash OTD, title, Carfax.",
@@ -1244,7 +1348,7 @@
         "https://vehicle-images.carscommerce.inc/4df8-110009686/3FMTK1RM0NMA44504/ed3847a4bf03e16fc641f6be8eab82cf.webp",
         "https://vehicle-images.carscommerce.inc/79fc-110009686/3FMTK1RM0NMA44504/71d881f94f7bb8a5be9be3a6aa480568.webp"
       ],
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-yucca-3FMTK3RM9MMA45662",
@@ -1253,8 +1357,8 @@
       "vin": "3FMTK3RM9MMA45662",
       "year": 2021,
       "trim": "Premium RWD",
-      "miles": 29955,
-      "ask_price": 23792,
+      "miles": 29947,
+      "ask_price": 23859,
       "real_price_est": "UNKNOWN",
       "seller_type": "dealer",
       "location": "Yucca Valley, CA (home delivery; shipping ~$170 claimed)",
@@ -1265,23 +1369,28 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 23792,
           "note": "NEW; was $24292 (-$500); shipping $170 claimed on CarGurus"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 23859,
+          "note": "CarGurus LV home-delivery Yucca $23859 / 29947 (was $23792); shipping ~$237 claimed"
         }
       ],
       "status": "active",
-      "notes": "Low miles Premium RWD 2021. Reasonable but 2021 year; confirm OTD including shipping/fees stays ≤$25k. ~180 mi / delivery option.",
+      "notes": "Low miles Premium RWD 2021. Reasonable but 2021 year; confirm OTD including shipping/fees stays \u2264$25k. ~180 mi / delivery option.",
       "geo_tier": 2,
       "why_interesting": "Low-mile (29,955) 2021 Premium RWD at $23,792; reasonable trim/miles for year.",
-      "concerns": "2021 year; confirm OTD including shipping/fees stays ≤$25k (~180 mi).",
+      "concerns": "2021 year; confirm OTD including shipping/fees stays \u2264$25k (~180 mi).",
       "market_value_low": 23125,
       "market_value_high": 23125,
       "estimated_savings": -667,
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-cerritos-3FMTK1RM0NMA17965",
@@ -1302,12 +1411,17 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 23010,
           "note": "NEW on CarGurus CA under-$25k; also on Cars.com $23010"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 23010,
+          "note": "CarGurus CA still $23010 / 38690"
         }
       ],
       "status": "active",
@@ -1318,7 +1432,7 @@
       "market_value_low": 23622,
       "market_value_high": 23622,
       "estimated_savings": 612,
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-ontario-3FMTK3R77PMA68355",
@@ -1339,12 +1453,17 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 23999,
           "note": "NEW; price drop -$585 from $24499; CarGurus Great Deal badge"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 23999,
+          "note": "CarGurus CA still $23999 / 51453"
         }
       ],
       "status": "active",
@@ -1355,7 +1474,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-vannuys-awd-3FMTK1SS0MMA43635",
@@ -1376,23 +1495,27 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 19996,
           "note": "NEW; was $20583 (-$672)"
+        },
+        {
+          "date": "2026-10-03",
+          "note": "Not observed on CarGurus CA under-$25k today"
         }
       ],
-      "status": "active",
-      "notes": "Cheap AWD entry but 2021 + 62k miles — over preferred miles; HV warranty remaining ~38k mi. FAIR only if title/history clean and buyer accepts older/higher-mile tradeoffs.",
+      "status": "possibly_sold_or_stale",
+      "notes": "Cheap AWD entry but 2021 + 62k miles \u2014 over preferred miles; HV warranty remaining ~38k mi. FAIR only if title/history clean and buyer accepts older/higher-mile tradeoffs.",
       "geo_tier": 3,
       "why_interesting": "Cheap AWD entry at $19,996; HV warranty remaining ~38k mi per notes.",
-      "concerns": "2021 + 62k miles — over preferred miles; FAIR only if title/history clean.",
+      "concerns": "2021 + 62k miles \u2014 over preferred miles; FAIR only if title/history clean.",
       "market_value_low": 23125,
       "market_value_high": 23125,
       "estimated_savings": 3129,
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-hb-3FMTK1RM1PMA40612",
@@ -1413,12 +1536,17 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 22169,
           "note": "NEW; was $22662 (-$665); Cars.com confirms $22169 / 51207"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 22169,
+          "note": "CarGurus CA still $22169 / 51207"
         }
       ],
       "status": "active",
@@ -1429,7 +1557,7 @@
       "market_value_low": 25979,
       "market_value_high": 25979,
       "estimated_savings": 3810,
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-norco-premium-3FMTK3R48PMA73909",
@@ -1450,23 +1578,27 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 24484,
           "note": "NEW from parent CarGurus CA feed"
+        },
+        {
+          "date": "2026-10-03",
+          "note": "Not observed on CarGurus CA under-$25k today"
         }
       ],
-      "status": "active",
-      "notes": "2023 Premium under 50k at ~$24.5k — reasonable trim upgrade vs Select; not standout vs low-mile Selects. Confirm dealer/OTD.",
+      "status": "possibly_sold_or_stale",
+      "notes": "2023 Premium under 50k at ~$24.5k \u2014 reasonable trim upgrade vs Select; not standout vs low-mile Selects. Confirm dealer/OTD.",
       "geo_tier": 2,
-      "why_interesting": "2023 Premium RWD under 50k at ~$24,484 — reasonable trim upgrade vs Select.",
+      "why_interesting": "2023 Premium RWD under 50k at ~$24,484 \u2014 reasonable trim upgrade vs Select.",
       "concerns": "Not standout vs low-mile Selects; confirm dealer/OTD.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cargurus-ca-orange-3FMTK1R49PMA63071",
@@ -1487,15 +1619,19 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 24960,
           "note": "NEW arrival on CarGurus CA under-$25k"
+        },
+        {
+          "date": "2026-10-03",
+          "note": "Not observed on CarGurus CA under-$25k today"
         }
       ],
-      "status": "active",
+      "status": "possibly_sold_or_stale",
       "notes": "Near budget ceiling; OTD fee risk high. FAIR if fees included as claimed.",
       "geo_tier": 3,
       "why_interesting": "2023 Select at $24,960 / 37,223 mi near budget ceiling.",
@@ -1503,7 +1639,7 @@
       "market_value_low": 25979,
       "market_value_high": 25979,
       "estimated_savings": 1019,
-      "updated_at": "2026-10-02T12:37:59-07:00"
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cl-sd-autofinders-3FMTK2R77MMA36401",
@@ -1512,7 +1648,7 @@
       "vin": "3FMTK2R77MMA36401",
       "year": 2021,
       "trim": "California Route 1 RWD",
-      "miles": "UNKNOWN",
+      "miles": 74244,
       "ask_price": 21699,
       "real_price_est": "UNKNOWN",
       "seller_type": "dealer",
@@ -1524,16 +1660,22 @@
       "title_status": "UNKNOWN",
       "assessment": "WEAK DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 21699,
           "note": "CL SD active; stock 27319 Carbonized Gray; miles UNKNOWN from posting parse"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 21699,
+          "note": "CL detail ACTIVE $21699 / 74244 mi (miles now known)"
         }
       ],
       "status": "active",
-      "notes": "2021 CA Route 1; financing-oriented dealer; ~330 mi. Miles not clearly extracted — verify. WEAK vs closer stronger comps."
+      "notes": "2021 CA Route 1; financing-oriented dealer; ~330 mi. Miles not clearly extracted \u2014 verify. WEAK vs closer stronger comps.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
     },
     {
       "id": "cl-sd-autofinders-3FMTK2R75MMA26160",
@@ -1542,7 +1684,7 @@
       "vin": "3FMTK2R75MMA26160",
       "year": 2021,
       "trim": "California Route 1 RWD",
-      "miles": "UNKNOWN",
+      "miles": 60153,
       "ask_price": 22699,
       "real_price_est": "UNKNOWN",
       "seller_type": "dealer",
@@ -1554,16 +1696,402 @@
       "title_status": "UNKNOWN",
       "assessment": "WEAK DEAL",
       "first_seen": "2026-10-02T07:20:00-07:00",
-      "last_seen": "2026-10-02T07:20:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
       "price_history": [
         {
           "date": "2026-10-02",
           "price": 22699,
           "note": "CL SD active; stock 27308 Rapid Red; miles UNKNOWN"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 22699,
+          "note": "CL detail ACTIVE $22699 / 60153 mi (miles now known)"
         }
       ],
       "status": "active",
-      "notes": "Same dealer as companion SD unit. Distance + unknown miles + 2021 year → WEAK."
+      "notes": "Same dealer as companion SD unit. Distance + unknown miles + 2021 year \u2192 WEAK.",
+      "updated_at": "2026-10-03T07:30:00-07:00"
+    },
+    {
+      "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+      "vin": "3FMTK1R44PMA86483",
+      "year": 2023,
+      "trim": "Select RWD",
+      "miles": 47089,
+      "ask_price": 21972,
+      "real_price_est": 21972,
+      "seller_type": "dealer",
+      "location": "Montebello, CA (likely Ford of Montebello; stock 25486P)",
+      "distance_mi": 270,
+      "drivetrain": "RWD",
+      "battery": "UNKNOWN",
+      "epa_range_when_new": "UNKNOWN",
+      "title_status": "UNKNOWN",
+      "assessment": "STRONG DEAL",
+      "status": "active",
+      "geo_tier": 3,
+      "why_interesting": "NEW: 2023 Select ~47k mi at $21,972 with -$2,000 CarGurus price-drop badge \u2014 well under typical 2023 Select asks (~$26.5\u201328.5k for lower-mile comps; mid-20s for ~45\u201350k).",
+      "concerns": "Seen on morning CarGurus CA under-$25k snapshot; not on later re-fetch of same URL (pagination/geo?) \u2014 VERIFY live price/availability before travel; travel ~270 mi; confirm cash OTD \u2264$25k; dealer inventory site 403.",
+      "notes": "CarGurus showed Great Deal; prior ask $23972 (-$2000). Stock #25486P. Ford of Montebello site blocked (403). Re-verify before any trip.",
+      "market_value_low": 25000,
+      "market_value_high": 27500,
+      "estimated_savings": 4028,
+      "photos": [],
+      "first_seen": "2026-10-03T07:30:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
+      "updated_at": "2026-10-03T07:30:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 21972,
+          "note": "first seen"
+        }
+      ]
+    },
+    {
+      "id": "cargurus-ca-longbeach-3FMTK1RMXPMA29351",
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+      "vin": "3FMTK1RMXPMA29351",
+      "year": 2023,
+      "trim": "Select RWD",
+      "miles": 31719,
+      "ask_price": 24027,
+      "real_price_est": 24027,
+      "seller_type": "dealer",
+      "location": "Long Beach, CA",
+      "distance_mi": 270,
+      "drivetrain": "RWD",
+      "battery": "UNKNOWN",
+      "epa_range_when_new": "UNKNOWN",
+      "title_status": "UNKNOWN",
+      "assessment": "FAIR DEAL",
+      "status": "active",
+      "geo_tier": 3,
+      "why_interesting": "2023 Select 31.7k mi at $24,027 (-$500 badge) \u2014 competitive but not clearly under Simi/Van Nuys STRONG peers.",
+      "concerns": "Travel ~270 mi; near $25k ceiling after fees; confirm OTD.",
+      "notes": "Stock PL5005; Vapor Blue; CarGurus showed $24527\u2192$24027.",
+      "market_value_low": 26000,
+      "market_value_high": 28000,
+      "estimated_savings": 2973,
+      "photos": [],
+      "first_seen": "2026-10-03T07:30:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
+      "updated_at": "2026-10-03T07:30:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 24027,
+          "note": "first seen"
+        }
+      ]
+    },
+    {
+      "id": "cargurus-ca-longbeach-3FMTK1R48PMA67435",
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+      "vin": "3FMTK1R48PMA67435",
+      "year": 2023,
+      "trim": "Select RWD",
+      "miles": 34572,
+      "ask_price": 23515,
+      "real_price_est": 23515,
+      "seller_type": "dealer",
+      "location": "Long Beach, CA",
+      "distance_mi": 270,
+      "drivetrain": "RWD",
+      "battery": "UNKNOWN",
+      "epa_range_when_new": "UNKNOWN",
+      "title_status": "UNKNOWN",
+      "assessment": "FAIR DEAL",
+      "status": "active",
+      "geo_tier": 3,
+      "why_interesting": "2023 Select 34.6k mi at $23,515 (-$500) \u2014 solid mid-pack under-budget ask.",
+      "concerns": "Travel cost; confirm fees/OTD.",
+      "notes": "Stock PL5002; Carbonized Gray.",
+      "market_value_low": 25500,
+      "market_value_high": 27500,
+      "estimated_savings": 2985,
+      "photos": [],
+      "first_seen": "2026-10-03T07:30:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
+      "updated_at": "2026-10-03T07:30:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 23515,
+          "note": "first seen"
+        }
+      ]
+    },
+    {
+      "id": "cargurus-ca-noho-3FMTK1R46PMA68437",
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+      "vin": "3FMTK1R46PMA68437",
+      "year": 2023,
+      "trim": "Select RWD",
+      "miles": 36907,
+      "ask_price": 24380,
+      "real_price_est": 24380,
+      "seller_type": "dealer",
+      "location": "North Hollywood, CA",
+      "distance_mi": 270,
+      "drivetrain": "RWD",
+      "battery": "UNKNOWN",
+      "epa_range_when_new": "UNKNOWN",
+      "title_status": "UNKNOWN",
+      "assessment": "FAIR DEAL",
+      "status": "active",
+      "geo_tier": 3,
+      "why_interesting": "NEW NoHo 2023 Select 36.9k mi at $24,380 \u2014 different VIN from prior NoHo 63900.",
+      "concerns": "Near ceiling; travel; confirm OTD.",
+      "notes": "Stock HP0561; new arrival badge on CarGurus.",
+      "photos": [],
+      "first_seen": "2026-10-03T07:30:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
+      "updated_at": "2026-10-03T07:30:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 24380,
+          "note": "first seen"
+        }
+      ],
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null
+    },
+    {
+      "id": "cargurus-ca-santana-3FMTK3SU6NMA11416",
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+      "vin": "3FMTK3SU6NMA11416",
+      "year": 2022,
+      "trim": "Premium AWD",
+      "miles": 66246,
+      "ask_price": 23985,
+      "real_price_est": 23985,
+      "seller_type": "dealer",
+      "location": "Santa Ana, CA",
+      "distance_mi": 280,
+      "drivetrain": "AWD",
+      "battery": "UNKNOWN (Premium AWD typically ER)",
+      "epa_range_when_new": "UNKNOWN",
+      "title_status": "UNKNOWN",
+      "assessment": "FAIR DEAL",
+      "status": "active",
+      "geo_tier": 3,
+      "why_interesting": "Premium AWD under $24k \u2014 rare trim/drivetrain in budget; miles over 50k preferred.",
+      "concerns": "66k miles; travel ~280 mi; morning CG snapshot \u2014 confirm still listed; Redlands private Premium AWD remains better value.",
+      "notes": "Stock A11416. Seen morning CarGurus; not on later re-fetch \u2014 verify. Compared to Redlands private $21900 Premium AWD with warranty, this is weaker.",
+      "market_value_low": 25000,
+      "market_value_high": 28714,
+      "estimated_savings": 2015,
+      "photos": [],
+      "first_seen": "2026-10-03T07:30:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
+      "updated_at": "2026-10-03T07:30:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 23985,
+          "note": "first seen"
+        }
+      ]
+    },
+    {
+      "id": "cargurus-ca-chino-3FMTK1R42PMA62408",
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+      "vin": "3FMTK1R42PMA62408",
+      "year": 2023,
+      "trim": "Select RWD",
+      "miles": 34192,
+      "ask_price": 23872,
+      "real_price_est": 23872,
+      "seller_type": "dealer",
+      "location": "Chino, CA",
+      "distance_mi": 230,
+      "drivetrain": "RWD",
+      "battery": "UNKNOWN",
+      "epa_range_when_new": "UNKNOWN",
+      "title_status": "UNKNOWN",
+      "assessment": "FAIR DEAL",
+      "status": "active",
+      "geo_tier": 2,
+      "why_interesting": "2023 Select 34.2k mi at $23,872 \u2014 solid geo_tier 2 under-budget.",
+      "concerns": "Confirm fees/OTD; travel ~230 mi.",
+      "notes": "Stock PF11041. Different VIN from prior Chino 14552.",
+      "photos": [],
+      "first_seen": "2026-10-03T07:30:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
+      "updated_at": "2026-10-03T07:30:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 23872,
+          "note": "first seen"
+        }
+      ],
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null
+    },
+    {
+      "id": "cargurus-ca-anaheim-3FMTK1RM4NMA17483",
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+      "vin": "3FMTK1RM4NMA17483",
+      "year": 2022,
+      "trim": "Select RWD",
+      "miles": 21695,
+      "ask_price": 24985,
+      "real_price_est": 24985,
+      "seller_type": "dealer",
+      "location": "Anaheim, CA",
+      "distance_mi": 270,
+      "drivetrain": "RWD",
+      "battery": "UNKNOWN",
+      "epa_range_when_new": "UNKNOWN",
+      "title_status": "UNKNOWN",
+      "assessment": "FAIR DEAL",
+      "status": "active",
+      "geo_tier": 3,
+      "why_interesting": "Low-mile 2022 Select 21.7k at $24,985 \u2014 miles attractive but price at ceiling.",
+      "concerns": "Ceiling price \u2014 doc fees likely push OTD over $25k; also listed to LV with $660 shipping pushing over.",
+      "notes": "Stock 95059T. CarGurus LV shows home-delivery $25645 with shipping \u2014 treat as fee-risk.",
+      "photos": [],
+      "first_seen": "2026-10-03T07:30:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
+      "updated_at": "2026-10-03T07:30:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 24985,
+          "note": "first seen"
+        }
+      ],
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null
+    },
+    {
+      "id": "cargurus-ca-buenapark-3FMTK1RM1MMA55171",
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+      "vin": "3FMTK1RM1MMA55171",
+      "year": 2021,
+      "trim": "Select RWD",
+      "miles": 43472,
+      "ask_price": 22022,
+      "real_price_est": 22022,
+      "seller_type": "dealer",
+      "location": "Buena Park, CA",
+      "distance_mi": 270,
+      "drivetrain": "RWD",
+      "battery": "UNKNOWN",
+      "epa_range_when_new": "UNKNOWN",
+      "title_status": "UNKNOWN",
+      "assessment": "FAIR DEAL",
+      "status": "active",
+      "geo_tier": 3,
+      "why_interesting": "2021 Select under 50k mi at $22,022 \u2014 priced near Team Ford LV 2021 but newer miles.",
+      "concerns": "2021 year; travel; open recalls diligence.",
+      "notes": "Stock MMA55171.",
+      "photos": [],
+      "first_seen": "2026-10-03T07:30:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
+      "updated_at": "2026-10-03T07:30:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 22022,
+          "note": "first seen"
+        }
+      ],
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null
+    },
+    {
+      "id": "friendlyford-3FMTK1R48PMA69069",
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/l-Used-Ford-Mustang-Mach-E-Las-Vegas-d2990_L21230",
+      "vin": "3FMTK1R48PMA69069",
+      "year": 2023,
+      "trim": "Select RWD",
+      "miles": 23380,
+      "ask_price": 25599,
+      "real_price_est": 25599,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV (Friendly Ford)",
+      "distance_mi": 8,
+      "drivetrain": "RWD",
+      "battery": "UNKNOWN",
+      "epa_range_when_new": "UNKNOWN",
+      "title_status": "UNKNOWN",
+      "assessment": "AVOID",
+      "status": "over_budget",
+      "geo_tier": 1,
+      "why_interesting": "Local low-mile 2023 Select \u2014 attractive if negotiated under $25k cash.",
+      "concerns": "Ask $25,599 over $25k max; dealer site direct URL 404 from box.",
+      "notes": "Stock P14309; new arrival on CarGurus LV. Watch for price drop under $25k.",
+      "photos": [],
+      "first_seen": "2026-10-03T07:30:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
+      "updated_at": "2026-10-03T07:30:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 25599,
+          "note": "first seen"
+        }
+      ],
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null
+    },
+    {
+      "id": "cargurus-lv-henderson-3FMTK3SU3PMA06077",
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/l-Used-Ford-Mustang-Mach-E-Las-Vegas-d2990_L21230",
+      "vin": "3FMTK3SU3PMA06077",
+      "year": 2023,
+      "trim": "Premium AWD",
+      "miles": 87802,
+      "ask_price": 24106,
+      "real_price_est": 24106,
+      "seller_type": "dealer",
+      "location": "Henderson, NV",
+      "distance_mi": 18,
+      "drivetrain": "AWD",
+      "battery": "UNKNOWN (Premium AWD typically ER)",
+      "epa_range_when_new": "UNKNOWN",
+      "title_status": "UNKNOWN",
+      "assessment": "WEAK DEAL",
+      "status": "active",
+      "geo_tier": 1,
+      "why_interesting": "Local Premium AWD under $25k \u2014 rare drivetrain/trim locally.",
+      "concerns": "87,802 miles far over preferred 50k; battery longevity/warranty remaining critical; Redlands private is better Premium AWD value.",
+      "notes": "Stock FAP8470. High-mile exception would need exceptional SOH + remaining HV warranty proof.",
+      "photos": [],
+      "first_seen": "2026-10-03T07:30:00-07:00",
+      "last_seen": "2026-10-03T07:30:00-07:00",
+      "updated_at": "2026-10-03T07:30:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 24106,
+          "note": "first seen"
+        }
+      ],
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null
     }
   ],
   "search_coverage": {
@@ -1580,27 +2108,26 @@
         "inlandempire",
         "orangecounty"
       ],
-      "notes": "Inland Empire + San Diego + Reno/Tucson/SLC/OC HTML worked. LV search 403 today (detail URLs for known LV ads still 200). Phoenix+LA search 403. Hits: Redlands private, Norco 2021/2023, Globul LV, SD Auto Finders 2021 CA Route 1s. Phoenix 2024 detail still active via direct URL."
+      "notes": "IE+SD+OC+Reno+SLC+LV+Phoenix search HTML worked (LA+Tucson 403). Hits: Redlands private ACTIVE, Norco 2021/2023 ACTIVE, Globul LV ACTIVE, Phoenix 2024 ACTIVE, SD Auto Finders ACTIVE (miles now known), Mesa Premium $26995 OVER (skipped), National City 2023s $26\u201327k OVER (skipped)."
     },
     "cargurus": {
       "status": "worked",
-      "notes": "LV metro + CA under-$25k WebFetch worked Oct 2. Detail pages often blocked via curl."
+      "notes": "WebFetch LV + CA under-$25k worked Oct 3. Curl 406. Key: Desert 215 $23949 still; ABC 45961 CG bait $24799 vs prior TrueCar $26794; Fontana $24684; NEW Montebello $21972; NEW Long Beach/NoHo/Chino/Anaheim/Buena Park/Santa Ana Premium AWD; Friendly Ford LV $25599 OVER."
     },
     "truecar": {
-      "status": "parent_feed",
-      "notes": "Parent provided TrueCar LV checks: 45961@$26794 ABC Hyundai; 18362@$23949 Desert 215; new 44504@$22949 Desert 215. Direct TrueCar curl 403 from box."
+      "status": "blocked",
+      "notes": "curl 403 from box for VIN detail URLs."
     },
     "cars_com": {
-      "status": "worked_partial",
-      "notes": "fuse-card extract under $25k returned many CA VINs; dealer/city often null in card JSON."
+      "status": "blocked",
+      "notes": "WebFetch Cloudflare blocked."
     },
     "autotrader": {
-      "status": "not_rechecked",
-      "notes": "prior unavailable"
+      "status": "not_rechecked"
     },
     "facebook_marketplace": {
       "status": "skipped",
-      "notes": "Checked separately by another agent"
+      "notes": "No browser this run"
     },
     "offerup": {
       "status": "not_rechecked"
@@ -1609,21 +2136,23 @@
       "status": "not_rechecked"
     },
     "dealer_sites": {
-      "status": "worked",
+      "status": "worked_partial",
       "worked": [
-        "teamfordlasvegas.com (2 Selects confirmed $20687/$21863)",
-        "pricefordofsimivalley.com (18379 Final $23022; NEW 30660 Final $24022; 46211 removed)",
+        "teamfordlasvegas.com (20455@$20687, 17680@$21863 confirmed)",
+        "pricefordofsimivalley.com (18379 Final $23022; 30660 Final $24022)",
         "autobypayment Gaudin VDP $24900 active"
       ],
       "failed_or_empty": [
-        "desert215superstore.com used search no Mach-E VIN in HTML (parent TrueCar used)",
+        "desert215superstore.com used search no Mach-E VIN in HTML",
         "abchyundai.com 403",
-        "truecar.com 403 from box"
+        "truecar.com 403",
+        "fordofmontebello.com 403",
+        "friendlyfordlasvegas.com direct VIN URL 404"
       ]
     },
     "findmyelectric": {
       "status": "worked",
-      "notes": "Private LA Select AWD page still live; possibly stale; not confirmed sold"
+      "notes": "Private LA Select AWD page still live $23500; asSold empty; still possibly stale (Jan 2026 + 781 phone). Search list 403."
     }
   }
 }

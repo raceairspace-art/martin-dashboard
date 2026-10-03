@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-02T12:41:22-07:00",
+  "updated_at": "2026-10-03T07:14:17-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-03-maggie-sold-4",
+      "ts": "2026-10-03T07:14:17-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "status",
+      "severity": "info",
+      "title": "4 sold/removed",
+      "summary": "Listings left active under-budget pool or marked sold.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-03-maggie-drops-1",
+      "ts": "2026-10-03T07:14:17-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "recommendation",
+      "severity": "medium",
+      "title": "1 price drop(s)",
+      "summary": "Ask price decreased vs previous snapshot.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-03-maggie-new-cargurus-ca-montebello-3FMTK1R44PMA86483",
+      "ts": "2026-10-03T07:14:17-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-ca-montebello-3FMTK1R44PMA86483 at $21972",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-ca-montebello-3FMTK1R44PMA86483"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
+        "assessment": "STRONG DEAL",
+        "ask_price": 21972,
+        "status": "active"
+      }
+    },
     {
       "id": "feed-training-awaiting-phase1-session01",
       "ts": "2026-10-02T12:35:27-07:00",
