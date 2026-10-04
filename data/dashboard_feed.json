@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-03T07:14:17-07:00",
+  "updated_at": "2026-10-04T07:18:38-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-04-maggie-sold-3",
+      "ts": "2026-10-04T07:18:38-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "status",
+      "severity": "info",
+      "title": "3 sold/removed",
+      "summary": "Listings left active under-budget pool or marked sold.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-04-maggie-drops-3",
+      "ts": "2026-10-04T07:18:38-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "recommendation",
+      "severity": "medium",
+      "title": "3 price drop(s)",
+      "summary": "Ask price decreased vs previous snapshot.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-04-maggie-new-carscom-3FMTK1RM2PMA46659",
+      "ts": "2026-10-04T07:18:38-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing carscom-3FMTK1RM2PMA46659 at $21000",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "carscom-3FMTK1RM2PMA46659"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "carscom-3FMTK1RM2PMA46659",
+        "assessment": "STRONG DEAL",
+        "ask_price": 21000,
+        "status": "active"
+      }
+    },
     {
       "id": "feed-2026-10-03-maggie-sold-4",
       "ts": "2026-10-03T07:14:17-07:00",

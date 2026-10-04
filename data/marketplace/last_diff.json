@@ -1,88 +1,163 @@
 {
-  "diffed_at": "2026-10-03T07:14:17-07:00",
-  "watchlist_updated_at": "2026-10-03T07:30:00-07:00",
+  "diffed_at": "2026-10-04T07:18:38-07:00",
+  "watchlist_updated_at": "2026-10-04T07:20:00-07:00",
   "had_previous": true,
   "counts": {
-    "new_listings": 10,
+    "new_listings": 27,
     "removed_listings": 0,
     "new_strong_or_exceptional": 1,
-    "price_drops": 1,
-    "sold_or_removed": 4,
-    "status_changes": 4,
-    "assessment_changes": 0
+    "price_drops": 3,
+    "sold_or_removed": 3,
+    "status_changes": 11,
+    "assessment_changes": 3
   },
   "new_ids": [
-    "cargurus-ca-montebello-3FMTK1R44PMA86483",
-    "cargurus-ca-longbeach-3FMTK1RMXPMA29351",
-    "cargurus-ca-longbeach-3FMTK1R48PMA67435",
-    "cargurus-ca-noho-3FMTK1R46PMA68437",
-    "cargurus-ca-santana-3FMTK3SU6NMA11416",
-    "cargurus-ca-chino-3FMTK1R42PMA62408",
-    "cargurus-ca-anaheim-3FMTK1RM4NMA17483",
-    "cargurus-ca-buenapark-3FMTK1RM1MMA55171",
-    "friendlyford-3FMTK1R48PMA69069",
-    "cargurus-lv-henderson-3FMTK3SU3PMA06077"
+    "carscom-3FMTK1RM2PMA46659",
+    "carscom-3FMTK1RM4PMA30821",
+    "carscom-3FMTK3R74MMA39228",
+    "carscom-3FMTK1RM4PMA14764",
+    "carscom-3FMTK1RM0PMA46613",
+    "carscom-3FMTK1RM7PMA40680",
+    "carscom-3FMTK1RM1PMA13202",
+    "carscom-3FMTK1SS1PMA09367",
+    "carscom-3FMTK1RM1MMA06049",
+    "carscom-3FMTK1RM4NMA40066",
+    "carscom-3FMTK1RM7PMA18128",
+    "carscom-3FMTK1RM9PMA17949",
+    "carscom-3FMTK3RM1NMA43258",
+    "carscom-3FMTK3SU1MMA07014",
+    "carscom-3FMTK3RMXNMA40410",
+    "cargurus-3FMTK1R44PMA65245",
+    "cargurus-3FMTK1RMXPMA17846",
+    "cargurus-3FMTK1R49PMA64981",
+    "cargurus-3FMTK1R40PMA76954",
+    "cargurus-3FMTK1RM6PMA28312",
+    "cargurus-3FMTK1RM9NMA08049",
+    "cargurus-3FMTK1RM7NMA40479",
+    "cargurus-3FMTK2R75MMA42309",
+    "fb-phx-18000-2021-select",
+    "fb-lv-21999-2022",
+    "fb-lv-22999-2022",
+    "fb-woodlake-17900-2021"
   ],
   "removed_ids": [],
   "new_strong_or_exceptional": [
     {
-      "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
+      "id": "carscom-3FMTK1RM2PMA46659",
       "assessment": "STRONG DEAL",
-      "ask_price": 21972,
+      "ask_price": 21000,
       "status": "active"
     }
   ],
   "price_drops": [
     {
-      "id": "cargurus-ca-fontana-3FMTK1RM7PMA31025",
-      "from": 24758,
-      "to": 24684,
-      "delta": -74.0
+      "id": "cl-phoenix-2024-select-24988",
+      "from": 24988,
+      "to": 24287,
+      "delta": -701.0
+    },
+    {
+      "id": "cargurus-ca-cerritos-3FMTK1RM0NMA17965",
+      "from": 23010,
+      "to": 22841,
+      "delta": -169.0
+    },
+    {
+      "id": "cargurus-ca-buenapark-3FMTK1RM1MMA55171",
+      "from": 22022,
+      "to": 21900,
+      "delta": -122.0
     }
   ],
   "sold_or_removed": [
     {
-      "id": "desert215-3FMTK1RM0NMA44504",
+      "id": "cargurus-ca-fontana-3FMTK1RM7PMA31025",
       "from": "active",
-      "to": "possibly_sold_or_stale"
+      "to": "sold_or_removed"
     },
     {
-      "id": "cargurus-ca-vannuys-awd-3FMTK1SS0MMA43635",
+      "id": "gaudin-3FMTK1R42PMA92816",
       "from": "active",
-      "to": "possibly_sold_or_stale"
+      "to": "sold_or_removed"
     },
     {
-      "id": "cargurus-ca-norco-premium-3FMTK3R48PMA73909",
+      "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
       "from": "active",
-      "to": "possibly_sold_or_stale"
-    },
-    {
-      "id": "cargurus-ca-orange-3FMTK1R49PMA63071",
-      "from": "active",
-      "to": "possibly_sold_or_stale"
+      "to": "sold_or_removed"
     }
   ],
   "status_changes": [
     {
-      "id": "desert215-3FMTK1RM0NMA44504",
+      "id": "cargurus-ca-fontana-3FMTK1RM7PMA31025",
       "from": "active",
-      "to": "possibly_sold_or_stale"
+      "to": "sold_or_removed"
     },
     {
-      "id": "cargurus-ca-vannuys-awd-3FMTK1SS0MMA43635",
+      "id": "cargurus-ca-chino-3FMTK1RM0PMA14552",
+      "from": "possibly_sold_or_stale",
+      "to": "active"
+    },
+    {
+      "id": "gaudin-3FMTK1R42PMA92816",
       "from": "active",
-      "to": "possibly_sold_or_stale"
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cargurus-ca-valencia-premium-3FMTK3RM2NMA02332",
+      "from": "active",
+      "to": "active_possibly_stale"
+    },
+    {
+      "id": "desert215-3FMTK1RM0NMA44504",
+      "from": "possibly_sold_or_stale",
+      "to": "active"
     },
     {
       "id": "cargurus-ca-norco-premium-3FMTK3R48PMA73909",
-      "from": "active",
-      "to": "possibly_sold_or_stale"
+      "from": "possibly_sold_or_stale",
+      "to": "active"
     },
     {
-      "id": "cargurus-ca-orange-3FMTK1R49PMA63071",
+      "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
       "from": "active",
-      "to": "possibly_sold_or_stale"
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cargurus-ca-longbeach-3FMTK1RMXPMA29351",
+      "from": "active",
+      "to": "active_possibly_stale"
+    },
+    {
+      "id": "cargurus-ca-longbeach-3FMTK1R48PMA67435",
+      "from": "active",
+      "to": "active_possibly_stale"
+    },
+    {
+      "id": "cargurus-ca-noho-3FMTK1R46PMA68437",
+      "from": "active",
+      "to": "active_possibly_stale"
+    },
+    {
+      "id": "cargurus-ca-santana-3FMTK3SU6NMA11416",
+      "from": "active",
+      "to": "active_possibly_stale"
     }
   ],
-  "assessment_changes": []
+  "assessment_changes": [
+    {
+      "id": "cargurus-ca-fontana-3FMTK1RM7PMA31025",
+      "from": "STRONG DEAL",
+      "to": "SOLD/REMOVED"
+    },
+    {
+      "id": "gaudin-3FMTK1R42PMA92816",
+      "from": "STRONG DEAL",
+      "to": "SOLD/REMOVED"
+    },
+    {
+      "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
+      "from": "STRONG DEAL",
+      "to": "SOLD/REMOVED"
+    }
+  ]
 }
