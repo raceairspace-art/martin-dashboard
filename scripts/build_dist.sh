@@ -94,16 +94,35 @@ if [[ ! -f "$WATCHLIST_SRC" ]]; then
 fi
 cp "$WATCHLIST_SRC" "$DIST/data/marketplace/watchlist.json"
 
-# Latest daily hunt by filename date suffix
+# Latest daily hunt: prefer YYYY-MM-DD in filename (desc), then mtime (desc).
+# Lexicographic basename alone is wrong: "...-07-local-refactor.json" sorts
+# BEFORE "...-07.json" because '-' < '.'.
 latest_hunt=""
 # shellcheck disable=SC2086
-for f in $HUNT_GLOB; do
-  [[ -f "$f" ]] || continue
-  base="$(basename "$f")"
-  if [[ -z "$latest_hunt" || "$base" > "$(basename "$latest_hunt")" ]]; then
-    latest_hunt="$f"
-  fi
-done
+export HUNT_GLOB
+latest_hunt="$(python3 - <<'PY'
+import glob, os, re
+pat = os.environ.get("HUNT_GLOB", "/workspace/mach-e-daily-hunt-*.json")
+files = [f for f in glob.glob(pat) if os.path.isfile(f)]
+date_re = re.compile(r"(\d{4}-\d{2}-\d{2})")
+
+def key(path):
+    base = os.path.basename(path)
+    m = date_re.search(base)
+    date = m.group(1) if m else "0000-00-00"
+    try:
+        mtime = os.path.getmtime(path)
+    except OSError:
+        mtime = 0.0
+    return (date, mtime)
+
+if not files:
+    print("")
+else:
+    best = max(files, key=key)
+    print(best)
+PY
+)"
 if [[ -n "$latest_hunt" ]]; then
   echo "==> Baking daily hunt: $latest_hunt"
   cp "$latest_hunt" "$DIST/data/marketplace/daily_hunt.json"

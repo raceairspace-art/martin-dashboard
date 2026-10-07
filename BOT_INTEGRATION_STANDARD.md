@@ -87,7 +87,7 @@ Greg and Maggie predate a shared envelope; Martin adapters map their native shap
 
 **Candidate fields (confirmed):**  
 `id`, `source`, `url`, `vin`, `year`, `trim`, `miles`, `ask_price`, `real_price_est`, `seller_type`, `location`, `distance_mi`, `drivetrain`, `battery`, `epa_range_when_new`, `title_status`, `assessment`, `first_seen`, `last_seen`, `price_history[]`, `status`, `notes`  
-**Optional (2026-10-07+):** `make`, `model`, `category` (`ev`|`suv_hyundai`|`suv_mazda`|`suv_toyota`|`mach_e`), plus earlier optionals `photos[]`, `why_interesting`, `geo_tier`, `concerns`, market value bands.
+**Optional (2026-10-07+):** `make`, `model`, `category` (`ev`|`suv_hyundai`|`suv_mazda`|`suv_toyota`|`mach_e`), `fuel`, `priority_rank` (1 = best current), plus earlier optionals `photos[]`, `why_interesting`, `geo_tier`, `concerns`, market value bands.
 
 **Assessment enum:** `EXCEPTIONAL DEAL` \| `STRONG DEAL` \| `FAIR DEAL` \| `WEAK DEAL` \| `AVOID`  
 **Status enum:** `active`, `active_possibly_stale`, `sold_or_removed`, `likely_sold_or_stale`, `possibly_sold_or_stale`, `possibly_sold_or_over_budget`, `over_budget`, `rejected`, `unverified_stale`

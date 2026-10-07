@@ -67,34 +67,68 @@
   }
 
   function isOverBudget(c, budget) {
+    if (c && String(c.status || "") === "over_budget") return true;
     const p = realAsk(c);
     if (p == null || Number.isNaN(p)) return false;
     return p > budget;
   }
 
   function isPrivate(seller) {
-    return String(seller || "").toLowerCase() === "private";
+    const s = String(seller || "").toLowerCase();
+    return s === "private" || s.startsWith("private");
   }
 
-  /** Use Maggie category when present; otherwise infer conservatively. */
+  function mapCategoryRaw(raw) {
+    const r = String(raw || "").trim();
+    if (!r) return null;
+    if (CATEGORY_META[r]) return r;
+    const low = r.toLowerCase();
+    if (low === "ev" || low === "electric" || low === "bev") return "ev";
+    if (low === "mach_e" || low === "mache" || low === "mach-e") return "mach_e";
+    if (low.includes("hyundai")) return "suv_hyundai";
+    if (low.includes("mazda")) return "suv_mazda";
+    if (low.includes("toyota")) return "suv_toyota";
+    // Hybrid SUVs without a dedicated chip → brand SUV bucket when clear, else other
+    if (low.includes("hybrid") || low.includes("phev") || low.includes("hev")) {
+      if (low.includes("hyundai")) return "suv_hyundai";
+      if (low.includes("mazda")) return "suv_mazda";
+      if (low.includes("toyota")) return "suv_toyota";
+      return "other";
+    }
+    return null;
+  }
+
+  /** Prefer Maggie category; infer mach_e only when category/make/model all missing. */
   function resolveCategory(c) {
+    const mapped = mapCategoryRaw(c && c.category);
+    if (mapped) return mapped;
     const raw = c && c.category != null ? String(c.category).trim() : "";
-    if (raw && CATEGORY_META[raw]) return raw;
-    if (raw === "ev" || raw === "mach_e" || raw === "suv_hyundai" || raw === "suv_mazda" || raw === "suv_toyota")
-      return raw;
-    const hay = [c && c.make, c && c.model, c && c.title, c && c.trim, c && c.notes, c && c.id]
+    if (raw) return "other"; // unknown emitted value — still countable under All
+
+    const make = c && c.make != null ? String(c.make).trim() : "";
+    const model = c && c.model != null ? String(c.model).trim() : "";
+    if (make || model) {
+      const hay = (make + " " + model).toLowerCase();
+      if (/mach[\s\-]?e\b|mustang\s+mach|mach-e/.test(hay) || /mache/.test(hay.replace(/\s+/g, ""))) {
+        return "mach_e";
+      }
+      // brand+model present but no category: leave as other (do not invent SUV buckets)
+      return "other";
+    }
+
+    // Legacy rows: no category/make/model — conservative Mach-E inference only
+    const hay = [c && c.title, c && c.trim, c && c.notes, c && c.id]
       .map((x) => String(x || "").toLowerCase())
       .join(" ");
     if (/mach[\s\-]?e\b|mustang\s+mach|mach-e/.test(hay) || /mache/.test(hay.replace(/\s+/g, ""))) {
       return "mach_e";
     }
-    // Ford Mustang Mach-E VIN prefix (existing watchlist rows lack category/make/model)
     if (c && c.vin && /^3FMT/i.test(String(c.vin))) return "mach_e";
     return "other";
   }
 
   function categoryLabel(cat) {
-    return (CATEGORY_META[cat] && CATEGORY_META[cat].label) || "Unknown";
+    return (CATEGORY_META[cat] && CATEGORY_META[cat].label) || (cat === "other" ? "Other" : "Unknown");
   }
 
   function categoryChipClass(cat) {
@@ -229,6 +263,8 @@
           c.why_interesting,
           c.concerns,
           c.category,
+          c.fuel,
+          c.priority_rank,
           resolveCategory(c),
           categoryLabel(resolveCategory(c)),
         ]
@@ -267,6 +303,15 @@
       const privA = isPrivate(a.seller_type) ? 0 : 1;
       const privB = isPrivate(b.seller_type) ? 0 : 1;
       if (privA !== privB) return privA - privB;
+
+      // Maggie priority_rank (1 = best overall); within-tier tiebreak only
+      const prA = a.priority_rank != null ? Number(a.priority_rank) : null;
+      const prB = b.priority_rank != null ? Number(b.priority_rank) : null;
+      if (prA != null && !Number.isNaN(prA) && prB != null && !Number.isNaN(prB) && prA !== prB) {
+        return prA - prB;
+      }
+      if (prA != null && !Number.isNaN(prA) && (prB == null || Number.isNaN(prB))) return -1;
+      if (prB != null && !Number.isNaN(prB) && (prA == null || Number.isNaN(prA))) return 1;
 
       const savA = a.estimated_savings != null ? Number(a.estimated_savings) : null;
       const savB = b.estimated_savings != null ? Number(b.estimated_savings) : null;
@@ -485,7 +530,7 @@
         ${thumb}
         <span class="mp-row-main">
           <span class="mp-row-title">${fav ? "★ " : ""}${escapeHtml(title)}</span>
-          <span class="mp-row-sub">${escapeHtml(c.location || "—")} · ${escapeHtml(c.seller_type || "—")} · ${escapeHtml(dist)}${c.geo_tier != null ? ` · geo ${escapeHtml(String(c.geo_tier))}` : ""}${makeModel ? ` · ${escapeHtml(makeModel)}` : ""}</span>
+          <span class="mp-row-sub">${escapeHtml(c.location || "—")} · ${escapeHtml(c.seller_type || "—")} · ${escapeHtml(dist)}${c.geo_tier != null ? ` · geo ${escapeHtml(String(c.geo_tier))}` : ""}${c.fuel ? ` · ${escapeHtml(String(c.fuel))}` : ""}${makeModel ? ` · ${escapeHtml(makeModel)}` : ""}</span>
           <span class="mp-row-mv">
             <span class="badge category-chip ${categoryChipClass(cat)}">${escapeHtml(categoryLabel(cat))}</span>
             ${privBadge}
@@ -593,6 +638,7 @@
           <div><dt>Make</dt><dd>${escapeHtml(c.make || "—")}</dd></div>
           <div><dt>Model</dt><dd>${escapeHtml(c.model || "—")}</dd></div>
           <div><dt>Category</dt><dd>${escapeHtml(categoryLabel(cat))}${c.category ? "" : " <span class=\"muted\">(inferred)</span>"}</dd></div>
+          <div><dt>Fuel</dt><dd>${escapeHtml(c.fuel || "—")}</dd></div>
           <div><dt>VIN</dt><dd>${escapeHtml(c.vin || "—")}</dd></div>
           <div><dt>Title</dt><dd>${escapeHtml(c.title_status || "—")}</dd></div>
           <div><dt>Drivetrain</dt><dd>${escapeHtml(c.drivetrain || "—")}</dd></div>

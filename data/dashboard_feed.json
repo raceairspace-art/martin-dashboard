@@ -1,6 +1,306 @@
 {
-  "updated_at": "2026-10-07T11:42:23-07:00",
+  "updated_at": "2026-10-07T11:52:57-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-07-maggie-new-cl-ontario-rav4-2020-ptWyW4Yu",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cl-ontario-rav4-2020-ptWyW4Yu at $17000",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cl-ontario-rav4-2020-ptWyW4Yu"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cl-ontario-rav4-2020-ptWyW4Yu",
+        "assessment": "STRONG DEAL",
+        "ask_price": 17000,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cargurus-lv-1N4AZ1BV6SC566289",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-1N4AZ1BV6SC566289 at $15699",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-1N4AZ1BV6SC566289"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-1N4AZ1BV6SC566289",
+        "assessment": "STRONG DEAL",
+        "ask_price": 15699,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cargurus-lv-1N4AZ1BV6SC561285",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-1N4AZ1BV6SC561285 at $15299",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-1N4AZ1BV6SC561285"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-1N4AZ1BV6SC561285",
+        "assessment": "STRONG DEAL",
+        "ask_price": 15299,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cargurus-lv-cx5-2021-touring-70749",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-cx5-2021-touring-70749 at $18794",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-cx5-2021-touring-70749"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-cx5-2021-touring-70749",
+        "assessment": "STRONG DEAL",
+        "ask_price": 18794,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cargurus-lv-7MUCAAAG4NV008074",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-7MUCAAAG4NV008074 at $19990",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-7MUCAAAG4NV008074"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-7MUCAAAG4NV008074",
+        "assessment": "STRONG DEAL",
+        "ask_price": 19990,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cargurus-lv-1V2BMPE8XRC016818",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-1V2BMPE8XRC016818 at $18987",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-1V2BMPE8XRC016818"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-1V2BMPE8XRC016818",
+        "assessment": "STRONG DEAL",
+        "ask_price": 18987,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cargurus-lv-1G1FW6S01P4186779",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-1G1FW6S01P4186779 at $18038",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-1G1FW6S01P4186779"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-1G1FW6S01P4186779",
+        "assessment": "STRONG DEAL",
+        "ask_price": 18038,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cargurus-lv-JN1AF0BA8RM431218",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-JN1AF0BA8RM431218 at $19799",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-JN1AF0BA8RM431218"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-JN1AF0BA8RM431218",
+        "assessment": "STRONG DEAL",
+        "ask_price": 19799,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cargurus-lv-5NMJB3DE0SH494403",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-5NMJB3DE0SH494403 at $18596",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-5NMJB3DE0SH494403"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-5NMJB3DE0SH494403",
+        "assessment": "STRONG DEAL",
+        "ask_price": 18596,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cl-lv-5TDJZRFHXKS615571",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cl-lv-5TDJZRFHXKS615571 at $16994",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cl-lv-5TDJZRFHXKS615571"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cl-lv-5TDJZRFHXKS615571",
+        "assessment": "STRONG DEAL",
+        "ask_price": 16994,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cl-lv-5YJ3E1EB7NF252125",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cl-lv-5YJ3E1EB7NF252125 at $19498",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cl-lv-5YJ3E1EB7NF252125"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cl-lv-5YJ3E1EB7NF252125",
+        "assessment": "STRONG DEAL",
+        "ask_price": 19498,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cl-lv-1N4AZ1CPXKC308583",
+      "ts": "2026-10-07T11:52:57-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cl-lv-1N4AZ1CPXKC308583 at $9995",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cl-lv-1N4AZ1CPXKC308583"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cl-lv-1N4AZ1CPXKC308583",
+        "assessment": "STRONG DEAL",
+        "ask_price": 9995,
+        "status": "active"
+      }
+    },
     {
       "id": "feed-2026-10-07-maggie-sold-3",
       "ts": "2026-10-07T11:42:23-07:00",

@@ -12,7 +12,8 @@
   }
 
   function isPrivate(seller) {
-    return String(seller || "").toLowerCase() === "private";
+    const s = String(seller || "").toLowerCase();
+    return s === "private" || s.startsWith("private");
   }
 
   function assessmentChip(assessment) {
@@ -27,7 +28,14 @@
     }
     const raw = c && c.category != null ? String(c.category).trim() : "";
     if (raw) return raw;
-    const hay = [c && c.make, c && c.model, c && c.title, c && c.trim, c && c.notes, c && c.id]
+    const make = c && c.make ? String(c.make) : "";
+    const model = c && c.model ? String(c.model) : "";
+    if (make || model) {
+      const hay = (make + " " + model).toLowerCase();
+      if (/mach[\s\-]?e\b|mustang\s+mach|mach-e/.test(hay)) return "mach_e";
+      return "other";
+    }
+    const hay = [c && c.title, c && c.trim, c && c.notes, c && c.id]
       .map((x) => String(x || "").toLowerCase())
       .join(" ");
     if (/mach[\s\-]?e\b|mustang\s+mach|mach-e/.test(hay)) return "mach_e";
@@ -110,6 +118,13 @@
         const privA = isPrivate(a.seller_type) ? 0 : 1;
         const privB = isPrivate(b.seller_type) ? 0 : 1;
         if (privA !== privB) return privA - privB;
+        const prA = a.priority_rank != null ? Number(a.priority_rank) : null;
+        const prB = b.priority_rank != null ? Number(b.priority_rank) : null;
+        if (prA != null && !Number.isNaN(prA) && prB != null && !Number.isNaN(prB) && prA !== prB) {
+          return prA - prB;
+        }
+        if (prA != null && !Number.isNaN(prA) && (prB == null || Number.isNaN(prB))) return -1;
+        if (prB != null && !Number.isNaN(prB) && (prA == null || Number.isNaN(prA))) return 1;
         const savA = a.estimated_savings != null ? Number(a.estimated_savings) : null;
         const savB = b.estimated_savings != null ? Number(b.estimated_savings) : null;
         if (savA != null && savB != null && savA !== savB) return savB - savA;
@@ -213,7 +228,7 @@
           <p class="title">${escapeHtml(title)}</p>
           <div class="price">${money(c.ask_price)} ${save}</div>
           ${mv}
-          <div class="sub">${miles(c.miles)} · ${escapeHtml(c.seller_type || "—")} · ${escapeHtml(dist)}</div>
+          <div class="sub">${miles(c.miles)} · ${escapeHtml(c.seller_type || "—")} · ${escapeHtml(dist)}${c.fuel ? ` · ${escapeHtml(String(c.fuel))}` : ""}</div>
           <div class="chip-row">
             <span class="badge ${chip}">${escapeHtml(c.assessment || "")}</span>
             <span class="badge category-chip">${escapeHtml(categoryLabel(cat))}</span>

@@ -179,7 +179,7 @@ Full session files (brief contract) still expected under `sessions/{session_id}.
 
 **Optional (Maggie may add; UI tolerates missing):**  
 `photos[]`, `why_interesting`, `geo_tier`, `concerns`, `market_value_low`, `market_value_high`, `estimated_savings`  
-`make`, `model`, `category` — added 2026-10-07 for multi-target search.  
+`make`, `model`, `category`, `fuel`, `priority_rank` — added 2026-10-07 for multi-target search (`priority_rank`: 1 = Maggie best-current).  
 `category` enum when present: `ev` | `suv_hyundai` | `suv_mazda` | `suv_toyota` | `mach_e`. Older candidates may omit these; Martin infers `mach_e` conservatively from title/model text, else `other`.
 
 **`assessment`:**  
