@@ -86,16 +86,17 @@ Greg and Maggie predate a shared envelope; Martin adapters map their native shap
 | `/workspace/mach-e-daily-hunt-YYYY-MM-DD.json` | Per-run summary (new_strong_deals, price_drops, sold, alert_lead, …) |
 
 **Candidate fields (confirmed):**  
-`id`, `source`, `url`, `vin`, `year`, `trim`, `miles`, `ask_price`, `real_price_est`, `seller_type`, `location`, `distance_mi`, `drivetrain`, `battery`, `epa_range_when_new`, `title_status`, `assessment`, `first_seen`, `last_seen`, `price_history[]`, `status`, `notes`
+`id`, `source`, `url`, `vin`, `year`, `trim`, `miles`, `ask_price`, `real_price_est`, `seller_type`, `location`, `distance_mi`, `drivetrain`, `battery`, `epa_range_when_new`, `title_status`, `assessment`, `first_seen`, `last_seen`, `price_history[]`, `status`, `notes`  
+**Optional (2026-10-07+):** `make`, `model`, `category` (`ev`|`suv_hyundai`|`suv_mazda`|`suv_toyota`|`mach_e`), plus earlier optionals `photos[]`, `why_interesting`, `geo_tier`, `concerns`, market value bands.
 
 **Assessment enum:** `EXCEPTIONAL DEAL` \| `STRONG DEAL` \| `FAIR DEAL` \| `WEAK DEAL` \| `AVOID`  
 **Status enum:** `active`, `active_possibly_stale`, `sold_or_removed`, `likely_sold_or_stale`, `possibly_sold_or_stale`, `possibly_sold_or_over_budget`, `over_budget`, `rejected`, `unverified_stale`
 
-**Criteria (product rules, not schema):** Mach-E; max **$25k OTD**; ideally **&lt;50k miles**; clean title; prefer private; geo tiers from Las Vegas.
+**Criteria (product rules, not schema; updated 2026-10-07):** mainly Las Vegas / Southern Nevada (stretch ~250 mi for exceptional private/under-market only); max **$21k** real purchase price; targets (1) any EV ≤$21k, (2) Hyundai / Mazda / Toyota SUVs ≤$21k, (3) Mach-E when it fits; ideally **&lt;50k miles**; clean title; **private-party weighted higher** in ranking; geo tiers from Las Vegas.
 
 **Ingest:** Maggie pings after hunt → Martin reads watchlist → diffs `id` + `ask_price` + `status` → updates feed + UI cache only.
 
-**v1 optional fields Maggie may add later:** `photos[]`, `why_interesting`, `geo_tier`, `concerns` — dashboard should tolerate absence.
+**Optional fields (tolerate absence):** `photos[]`, `why_interesting`, `geo_tier`, `concerns`, `make`, `model`, `category`, market value bands — dashboard infers category conservatively when missing.
 
 **Owns writes:** watchlist candidates, daily hunt files, embedded `price_history` on candidates.  
 **Does not write:** Martin `favorites`, `dashboard_feed` (Martin writes feed from diffs).
@@ -126,7 +127,7 @@ Greg and Maggie predate a shared envelope; Martin adapters map their native shap
 **Mapping:**
 
 - Greg Home: phase/topic, %, awaiting-answer, next rec, last one_thing → Module: session list → Detail: lesson + scenario + knowledge check.
-- Maggie Home: NEW Strong/Exceptional count, Best Current 3–5, price-drop count, sold/removed, $25k signal, Exceptional-private banner → Module: filters + list + run coverage → Detail: listing + price chart + notes + favorite toggle.
+- Maggie Home: NEW Strong/Exceptional count, Best Current 3–5, price-drop count, sold/removed, **$21k** budget signal, Exceptional-private banner → Module: category chips + filters + list + run coverage → Detail: listing + price chart + notes + favorite toggle.
 
 Feed items are **cross-module** Home citizens (alerts/recommendations), not a third module.
 

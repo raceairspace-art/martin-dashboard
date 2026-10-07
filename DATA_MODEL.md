@@ -156,7 +156,10 @@ Full session files (brief contract) still expected under `sessions/{session_id}.
 | `url` | string | yes | Listing URL |
 | `vin` | string\|null | no | |
 | `year` | number | yes | |
+| `make` | string | no | Optional 2026-10-07; older rows omit |
+| `model` | string | no | Optional 2026-10-07; older rows omit |
 | `trim` | string | yes | |
+| `category` | string | no | `ev` \| `suv_hyundai` \| `suv_mazda` \| `suv_toyota` \| `mach_e` |
 | `miles` | number | yes | |
 | `ask_price` | number | yes | USD ask |
 | `real_price_est` | number | no | Maggie’s estimate |
@@ -174,8 +177,10 @@ Full session files (brief contract) still expected under `sessions/{session_id}.
 | `status` | string | yes | Enum below |
 | `notes` | string | no | |
 
-**Optional v1 (Maggie may add; UI tolerates missing):**  
-`photos[]`, `why_interesting`, `geo_tier`, `concerns`
+**Optional (Maggie may add; UI tolerates missing):**  
+`photos[]`, `why_interesting`, `geo_tier`, `concerns`, `market_value_low`, `market_value_high`, `estimated_savings`  
+`make`, `model`, `category` — added 2026-10-07 for multi-target search.  
+`category` enum when present: `ev` | `suv_hyundai` | `suv_mazda` | `suv_toyota` | `mach_e`. Older candidates may omit these; Martin infers `mach_e` conservatively from title/model text, else `other`.
 
 **`assessment`:**  
 `EXCEPTIONAL DEAL` | `STRONG DEAL` | `FAIR DEAL` | `WEAK DEAL` | `AVOID`
@@ -184,7 +189,9 @@ Full session files (brief contract) still expected under `sessions/{session_id}.
 `active` | `active_possibly_stale` | `sold_or_removed` | `likely_sold_or_stale` | `possibly_sold_or_stale` | `possibly_sold_or_over_budget` | `over_budget` | `rejected` | `unverified_stale`
 
 **Watchlist root (also Maggie-owned):**  
-`updated_at`, `search_base`, `max_purchase_price` (25000), `preferred_max_miles` (50000), `criteria_notes`, `market_snapshot`, `candidates[]`.
+`updated_at`, `search_base`, `max_purchase_price` (product budget **$21,000** as of 2026-10-07; file may lag), `preferred_max_miles` (50000), `criteria_notes`, `market_snapshot`, `candidates[]`.
+
+**Product criteria (2026-10-07):** mainly Las Vegas / Southern Nevada (stretch ~250 mi only for exceptional private/under-market); max **$21k** real purchase price; targets any EV ≤$21k, Hyundai/Mazda/Toyota SUVs ≤$21k, Mach-E when it fits. Ranking: assessment tier, then **private-party above dealer**, then `estimated_savings` desc, then price asc; geo LV/SoNev first on ties. UI de-emphasizes ask > $21k (toggle to include); does not invent Blue Book / market values.
 
 ---
 

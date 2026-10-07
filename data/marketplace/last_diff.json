@@ -1,21 +1,243 @@
 {
-  "diffed_at": "2026-10-02T12:38:33-07:00",
-  "watchlist_updated_at": "2026-10-02T12:38:11-07:00",
+  "diffed_at": "2026-10-07T11:42:23-07:00",
+  "watchlist_updated_at": "2026-10-07T07:23:28-07:00",
   "had_previous": true,
   "counts": {
-    "new_listings": 0,
+    "new_listings": 38,
     "removed_listings": 0,
-    "new_strong_or_exceptional": 0,
-    "price_drops": 0,
-    "sold_or_removed": 0,
-    "status_changes": 0,
-    "assessment_changes": 0
+    "new_strong_or_exceptional": 1,
+    "price_drops": 11,
+    "sold_or_removed": 3,
+    "status_changes": 11,
+    "assessment_changes": 7
   },
-  "new_ids": [],
+  "new_ids": [
+    "cargurus-ca-ontario-3FMTK1R42PMA67561",
+    "cargurus-lvdel-pacoima-3FMTK1RM8MMA35550",
+    "cargurus-lvdel-fl-3FMTK1RM1NMA38341",
+    "cargurus-lvdel-fl-3FMTK1R40PMB04283",
+    "cargurus-ca-carson-3FMTK3R73PMA55702",
+    "cargurus-ca-bloomington-3FMTK1RM2NMA44570",
+    "cargurus-lvdel-sd-3FMTK3R73MMA47143",
+    "cargurus-lvdel-mesa-3FMTK3RM8NMA57352",
+    "cargurus-lvdel-fullerton-3FMTK3R72PMA13442",
+    "cargurus-lvdel-to-3FMTK3SU6NMA17331",
+    "cargurus-phx-3FMTK3R77MMA08734",
+    "cargurus-phx-gilbert-3FMTK3R7XPMA63473",
+    "cargurus-lv-3FMTK3R70NMA19267",
+    "cl-mesa-3FMTK3SU0MMA03438",
+    "fb-lv-22999-2022-mustang-57461",
+    "fb-lv-23999-2021-premium-2177865613158353",
+    "fb-phx-24688-2024-select",
+    "fb-mesa-18991-2021-premium",
+    "fb-phx-21000-2021-premium",
+    "fb-mesa-19794-2021-first-edition",
+    "fb-mesa-24100-2025-premium",
+    "fb-phx-100-2021-select-bait",
+    "fb-jurupa-687-2025-gt-bait",
+    "cargurus-ca-vannuys-3FMTK1RM6PMA46308",
+    "cargurus-utah-provo-3FMTK1RMXNMA25619",
+    "cargurus-ca-fontana-3FMTK1RM0MMA06396",
+    "cargurus-ca-orange-3FMTK3R73NMA26732",
+    "cargurus-ca-pacoima-3FMTK3R45PMA65993",
+    "cargurus-lvdel-hollywoodfl-3FMTK1SS8MMA25657",
+    "cargurus-slc-3FMTK3SU3MMA10691",
+    "cargurus-slc-draper-3FMTK3SS9MMA19507",
+    "cargurus-slc-3FMTK1SS2NMA07995",
+    "cargurus-phx-chandler-3FMTK1RM6PMA14927",
+    "fb-lv-26376-2023-premium-rwd-48508",
+    "fb-henderson-28815-2023-premium-16105",
+    "fb-lv-32269-2023-gt",
+    "fb-lv-36779-2023-gt",
+    "fb-lv-34299-2025-select"
+  ],
   "removed_ids": [],
-  "new_strong_or_exceptional": [],
-  "price_drops": [],
-  "sold_or_removed": [],
-  "status_changes": [],
-  "assessment_changes": []
+  "new_strong_or_exceptional": [
+    {
+      "id": "cargurus-3FMTK1RMXPMA17846",
+      "assessment": "STRONG DEAL",
+      "ask_price": 23990,
+      "status": "active",
+      "via": "assessment_upgrade"
+    }
+  ],
+  "price_drops": [
+    {
+      "id": "cl-phoenix-2024-select-24988",
+      "from": 24287,
+      "to": 23988,
+      "delta": -299.0
+    },
+    {
+      "id": "teamford-3FMTK1RM5MMA20455",
+      "from": 20687,
+      "to": 20316,
+      "delta": -371.0
+    },
+    {
+      "id": "cl-norco-3FMTK1RM4MMA25274",
+      "from": 22079,
+      "to": 21185,
+      "delta": -894.0
+    },
+    {
+      "id": "cargurus-ca-vannuys-3FMTK1RM1PMA17346",
+      "from": 24172,
+      "to": 23922,
+      "delta": -250.0
+    },
+    {
+      "id": "cargurus-ca-valencia-premium-3FMTK3RM2NMA02332",
+      "from": 24027,
+      "to": 23390,
+      "delta": -637.0
+    },
+    {
+      "id": "cargurus-ca-hb-3FMTK1RM1PMA40612",
+      "from": 22169,
+      "to": 21869,
+      "delta": -300.0
+    },
+    {
+      "id": "cargurus-lv-henderson-3FMTK3SU3PMA06077",
+      "from": 24106,
+      "to": 24038,
+      "delta": -68.0
+    },
+    {
+      "id": "carscom-3FMTK1RM4PMA14764",
+      "from": 24128,
+      "to": 24070,
+      "delta": -58.0
+    },
+    {
+      "id": "carscom-3FMTK1RM1MMA06049",
+      "from": 19507,
+      "to": 18990,
+      "delta": -517.0
+    },
+    {
+      "id": "carscom-3FMTK3RMXNMA40410",
+      "from": 23980,
+      "to": 23498,
+      "delta": -482.0
+    },
+    {
+      "id": "cargurus-3FMTK1RMXPMA17846",
+      "from": 24801,
+      "to": 23990,
+      "delta": -811.0
+    }
+  ],
+  "sold_or_removed": [
+    {
+      "id": "cl-sd-autofinders-3FMTK2R75MMA26160",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "carscom-3FMTK1RM1PMA30128",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "carscom-3FMTK1RM4PMA01335",
+      "from": "active",
+      "to": "sold_or_removed"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "cl-sd-autofinders-3FMTK2R75MMA26160",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "fb-phx-18000-2021-select",
+      "from": "unverified_stale",
+      "to": "active"
+    },
+    {
+      "id": "fb-lv-21999-2022",
+      "from": "unverified_stale",
+      "to": "active"
+    },
+    {
+      "id": "fb-lv-22999-2022",
+      "from": "unverified_stale",
+      "to": "active"
+    },
+    {
+      "id": "carscom-3FMTK1RM1PMA30128",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cargurus-ca-montebello-3FMTK1RM6PMA15320",
+      "from": "active",
+      "to": "active_possibly_stale"
+    },
+    {
+      "id": "carscom-3FMTK1RM4PMA01335",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "fb-lv-23999-2021-premium-43074",
+      "from": "unverified_stale",
+      "to": "active"
+    },
+    {
+      "id": "fb-lv-24598-2021-premium-rwd",
+      "from": "unverified_stale",
+      "to": "active_possibly_stale"
+    },
+    {
+      "id": "fb-lv-22999-2022-premium",
+      "from": "unverified_stale",
+      "to": "active_possibly_stale"
+    },
+    {
+      "id": "fb-lv-23999-2021-premium-43182",
+      "from": "unverified_stale",
+      "to": "active"
+    }
+  ],
+  "assessment_changes": [
+    {
+      "id": "cl-sd-autofinders-3FMTK2R75MMA26160",
+      "from": "WEAK DEAL",
+      "to": "SOLD/REMOVED"
+    },
+    {
+      "id": "cargurus-3FMTK1RMXPMA17846",
+      "from": "FAIR DEAL",
+      "to": "STRONG DEAL"
+    },
+    {
+      "id": "fb-lv-21999-2022",
+      "from": "AVOID",
+      "to": "WEAK DEAL"
+    },
+    {
+      "id": "carscom-3FMTK1RM1PMA30128",
+      "from": "STRONG DEAL",
+      "to": "SOLD/REMOVED"
+    },
+    {
+      "id": "carscom-3FMTK1RM4PMA01335",
+      "from": "FAIR DEAL",
+      "to": "SOLD/REMOVED"
+    },
+    {
+      "id": "fb-lv-23999-2021-premium-43074",
+      "from": "AVOID",
+      "to": "WEAK DEAL"
+    },
+    {
+      "id": "fb-lv-23999-2021-premium-43182",
+      "from": "AVOID",
+      "to": "WEAK DEAL"
+    }
+  ]
 }

@@ -1,337 +1,885 @@
 {
-  "run_at": "2026-10-02T07:20:00-07:00",
-  "quiet": false,
-  "alert_lead": "Material changes: ABC Hyundai LV VIN 45961 jumped to $26,794 (OVER budget, was STRONG $24,799); Simi companion VIN 46211 sold/removed; NEW Simi STRONG 3FMTK1RM6PMA30660 Final $24,022 / 20.4k mi; Desert 215 confirmed as dealer for local STRONG $23,949 / 38k mi (VIN 18362). Redlands private Premium AWD still $21,900.",
-  "new_strong_deals": [
-    {
-      "id": "cargurus-ca-simi-20447mi-3FMTK1RM6PMA30660",
-      "summary": "2023 Select RWD, 20,447 mi, Final $24,022, Price Ford Simi Valley (~280 mi) \u2014 NEW STRONG (replaces sold VIN 46211)",
-      "ask_price": 24022,
-      "miles": 20447,
-      "assessment": "STRONG DEAL",
-      "url": "https://www.pricefordofsimivalley.com/vehicle/3FMTK1RM6PMA30660/Used-2023-Ford-Mustang_Mach--E-Simi_Valley-CA/",
-      "vehicle": "2023 Ford Mustang Mach-E Select RWD",
-      "seller": "Price Ford of Simi Valley (dealer)",
-      "location_distance": "Simi Valley, CA / ~280 mi from Las Vegas",
-      "market_value_est": "~$26,500\u2013$28,200 (2023 Select 15-30k mi band)",
-      "savings_est": "~$2.5k\u2013$4k under typical asks",
-      "why_attractive": "Very low miles for budget; manufacturer certified; Final Price disclosed with small fees; replaces prior companion listing",
-      "concerns": "Travel/transport ~280 mi; confirm cash OTD \u2264$25k after tax/title; verify Blue Advantage coverage",
-      "warranty": "Factory HV battery warranty typically 8yr/100k from in-service \u2014 UNKNOWN remaining exact; mfr certified claim",
-      "seller_questions": [
-        "Cash OTD out the door with tax/title?",
-        "Ford EV / Blue Advantage certified details?",
-        "Open recalls?",
-        "Battery SOH / charge history?"
-      ],
-      "verify_before_travel": [
-        "VIN decode matches Select RWD",
-        "Carfax/AutoCheck clean title",
-        "Live Final Price still $24022",
-        "No mandatory add-ons"
-      ],
-      "listing_link": "https://www.pricefordofsimivalley.com/vehicle/3FMTK1RM6PMA30660/Used-2023-Ford-Mustang_Mach--E-Simi_Valley-CA/"
-    }
-  ],
-  "price_drops": [
-    {
-      "id": "cargurus-ca-fontana-3FMTK1RM7PMA31025",
-      "from": 24784,
-      "to": 24758,
-      "delta": -26,
-      "note": "Minor -$26 on CarGurus; still STRONG ultra-low-mile 2023 Select",
-      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161"
-    },
-    {
-      "id": "cargurus-ca-ontario-3FMTK3R77PMA68355",
-      "from": 24499,
-      "to": 23999,
-      "delta": -585,
-      "note": "NEW listing observed with -$585 price-drop badge (Premium RWD Ontario)",
-      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161"
-    },
-    {
-      "id": "cargurus-ca-hb-3FMTK1RM1PMA40612",
-      "from": 22662,
-      "to": 22169,
-      "delta": -493,
-      "note": "NEW HB Select with -$665 from prior ask on CarGurus card",
-      "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161"
-    }
-  ],
-  "best_current_candidates": [
-    {
-      "rank": 1,
-      "id": "cl-redlands-3FMTK3SS8NMA40995",
-      "assessment": "STRONG DEAL",
-      "vehicle": "2022 Ford Mustang Mach-E Premium AWD",
-      "ask_price": 21900,
-      "real_price_est": 21900,
-      "miles": 65895,
-      "seller": "private party",
-      "location_distance": "Redlands, CA / ~186 mi",
-      "drivetrain_battery": "AWD / UNKNOWN (Premium AWD typically ER \u2014 confirm)",
-      "title_status": "UNKNOWN (verify CA clean title)",
-      "market_value_est": "2022 Premium AWD pattern median ask ~$28.7k; 60-75k band ~$25k",
-      "savings_est": "~$3k\u2013$7k under typical dealer asks",
-      "why_attractive": "Best private: Premium AWD + transferable PremiumCARE to 10/7/2029 or 100k + new tires/12V + factory HV to 10/7/2030 or 100k",
-      "concerns": "Miles over 50k preferred; disclosed 6-8in windshield crack + driver seat tear; private-sale scam diligence",
-      "warranty": "PremiumCARE to 10/7/2029 or 100k (~34k mi rem, $100 ded); HV to 10/7/2030 or 100k",
-      "seller_questions": [
-        "Can we meet at DMV / see CA title in hand?",
-        "Service records / tire receipts?",
-        "Any accidents / battery issues?",
-        "PremiumCARE transfer steps?"
-      ],
-      "verify_before_travel": [
-        "VIN 3FMTK3SS8NMA40995 Carfax",
-        "Title clean in-hand",
-        "Test drive + chargeport/battery health",
-        "Windshield/seat as disclosed"
-      ],
-      "listing_link": "https://www.craigslist.org/view/d/redlands-2022-ford-mustang-mach-premium/hRcFU34qYhzNffJpJDxTRh",
-      "why_rank": "Best private Premium AWD value still active"
-    },
-    {
-      "rank": 2,
-      "id": "cargurus-ca-simi-28876mi",
-      "assessment": "STRONG DEAL",
-      "vehicle": "2023 Ford Mustang Mach-E Select RWD",
-      "vin": "3FMTK1RMXPMA18379",
-      "ask_price": 23022,
-      "real_price_est": 23022,
-      "miles": 28876,
-      "seller": "Price Ford of Simi Valley (dealer)",
-      "location_distance": "Simi Valley, CA / ~280 mi",
-      "market_value_est": "~$26.5k\u2013$28k (2023 Select 15-30k)",
-      "savings_est": "~$3k\u2013$5k",
-      "why_attractive": "Final Price $23,022 disclosed; certified; strong miles/price",
-      "concerns": "Travel cost; tax/title extra; confirm no pack add-ons",
-      "warranty": "Manufacturer certified claim \u2014 confirm Blue Advantage terms",
-      "seller_questions": [
-        "Cash OTD?",
-        "Certification paperwork?",
-        "Open recalls?"
-      ],
-      "verify_before_travel": [
-        "Final Price still $23022",
-        "Clean title",
-        "Carfax"
-      ],
-      "listing_link": "https://www.pricefordofsimivalley.com/vehicle/3FMTK1RMXPMA18379/Used-2023-Ford-Mustang_Mach--E-Simi_Valley-CA/",
-      "why_rank": "Best verified dealer Final Price under market"
-    },
-    {
-      "rank": 3,
-      "id": "cargurus-ca-simi-20447mi-3FMTK1RM6PMA30660",
-      "assessment": "STRONG DEAL",
-      "vehicle": "2023 Ford Mustang Mach-E Select RWD",
-      "vin": "3FMTK1RM6PMA30660",
-      "ask_price": 24022,
-      "miles": 20447,
-      "seller": "Price Ford of Simi Valley",
-      "location_distance": "Simi Valley, CA / ~280 mi",
-      "why_rank": "NEW STRONG \u2014 lower miles companion on same lot",
-      "listing_link": "https://www.pricefordofsimivalley.com/vehicle/3FMTK1RM6PMA30660/Used-2023-Ford-Mustang_Mach--E-Simi_Valley-CA/"
-    },
-    {
-      "rank": 4,
-      "id": "cargurus-ca-fontana-3FMTK1RM7PMA31025",
-      "assessment": "STRONG DEAL",
-      "vehicle": "2023 Select RWD",
-      "vin": "3FMTK1RM7PMA31025",
-      "ask_price": 24758,
-      "miles": 11151,
-      "seller": "dealer Fontana, CA",
-      "location_distance": "Fontana, CA / ~220 mi",
-      "why_rank": "Ultra-low 11.2k miles; slight price dip",
-      "concerns": "Near $25k \u2014 fee risk; confirm cash OTD",
-      "listing_link": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161"
-    },
-    {
-      "rank": 5,
-      "id": "cargurus-lv-3FMTK1RM4PMA18362",
-      "assessment": "STRONG DEAL",
-      "vehicle": "2023 Select RWD",
-      "vin": "3FMTK1RM4PMA18362",
-      "ask_price": 23949,
-      "miles": 38027,
-      "seller": "Desert 215 Superstore (dealer)",
-      "location_distance": "Las Vegas, NV / ~13 mi",
-      "title_status": "Clean/one-owner claimed (TrueCar) \u2014 verify",
-      "why_rank": "Best local under-budget STRONG; dealer name now confirmed",
-      "concerns": "Doc fees may push OTD over $25k",
-      "listing_link": "https://www.cargurus.com/Cars/l-Used-Ford-Mustang-Mach-E-Las-Vegas-d2990_L21230"
-    },
-    {
-      "rank": 6,
-      "id": "gaudin-3FMTK1R42PMA92816",
-      "assessment": "STRONG DEAL",
-      "vehicle": "2023 Select RWD LFP",
-      "vin": "3FMTK1R42PMA92816",
-      "ask_price": 24900,
-      "miles": 30936,
-      "seller": "Gaudin Ford LV",
-      "location_distance": "Las Vegas, NV / ~8 mi",
-      "why_rank": "Local under 50k; still $24900",
-      "concerns": "OTD fee risk at ceiling",
-      "listing_link": "https://autobypayment.com/VDP/3FMTK1R42PMA92816"
-    },
-    {
-      "rank": 7,
-      "id": "cl-phoenix-2024-select-24988",
-      "assessment": "STRONG DEAL",
-      "vehicle": "2024 Select RWD LFP ~72 kWh",
-      "ask_price": 24988,
-      "miles": 29550,
-      "seller": "dealer (Theus, Phoenix)",
-      "location_distance": "Phoenix, AZ / ~245 mi",
-      "why_rank": "Newest year in budget if real cash OTD",
-      "concerns": "VIN absent; financing-heavy ad; OTD may exceed $25k",
-      "listing_link": "https://www.craigslist.org/view/d/phoenix-2024-ford-mustang-mach-select/gJCeXpRiJoMwThGrVF8vDU"
-    },
-    {
-      "rank": 8,
-      "id": "cargurus-ca-vannuys-3FMTK1RM1PMA17346",
-      "assessment": "STRONG DEAL",
-      "vehicle": "2023 Select RWD",
-      "vin": "3FMTK1RM1PMA17346",
-      "ask_price": 24172,
-      "miles": 21631,
-      "seller": "dealer Van Nuys",
-      "location_distance": "Van Nuys, CA / ~270 mi",
-      "why_rank": "Low miles still at $24.2k",
-      "listing_link": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161"
-    },
-    {
-      "rank": 9,
-      "id": "findmyelectric-la-private-3FMTK1SS2NMA45534",
-      "assessment": "STRONG DEAL",
-      "vehicle": "2022 Select AWD private",
-      "vin": "3FMTK1SS2NMA45534",
-      "ask_price": 23500,
-      "miles": 28100,
-      "seller": "private (FindMyElectric)",
-      "location_distance": "Los Angeles, CA / ~270 mi",
-      "why_rank": "Private AWD dream numbers IF confirmed live",
-      "concerns": "Listing dated Jan 22 2026; 781 phone vs LA \u2014 verify before any deposit/travel",
-      "listing_link": "https://www.findmyelectric.com/listings/2022-ford-mustang-mach-e-select-355023/"
-    },
-    {
-      "rank": 10,
-      "id": "desert215-3FMTK1RM0NMA44504",
-      "assessment": "FAIR DEAL",
-      "vehicle": "2022 Select RWD",
-      "vin": "3FMTK1RM0NMA44504",
-      "ask_price": 22949,
-      "miles": 52935,
-      "seller": "Desert 215 Superstore",
-      "location_distance": "Las Vegas, NV / ~13 mi",
-      "why_rank": "NEW local; miles slightly over 50k",
-      "listing_link": "https://www.desert215superstore.com/"
-    }
-  ],
-  "changed_questionable": [
-    {
-      "id": "cargurus-lv-3FMTK1RM7PMA45961",
-      "issue": "MATERIAL PRICE JUMP / OVER BUDGET: TrueCar $26,794 at ABC Hyundai LV (was CarGurus STRONG $24,799). Downgraded to AVOID/over_budget. CarGurus card still inconsistently shows $24,799."
-    },
-    {
-      "id": "cl-norco-3FMTK1RM4MMA25274",
-      "issue": "Ask up $85 to $22,079"
-    },
-    {
-      "id": "cargurus-ca-chino-3FMTK1RM0PMA14552",
-      "issue": "Not on CarGurus CA under-$25k today \u2014 possibly sold/stale"
-    },
-    {
-      "id": "findmyelectric-la-private-3FMTK1SS2NMA45534",
-      "issue": "Still possibly stale (Jan 2026 add date + 781 area code); page live, asSold empty"
-    },
-    {
-      "id": "cargurus-lv-447127468-UNVERIFIED",
-      "issue": "Still not on Team Ford live inventory"
-    }
-  ],
-  "sold_removed": [
-    {
-      "id": "cargurus-ca-simi-20340mi-3FMTK1RM2PMA46211",
-      "summary": "2023 Select Simi VIN 3FMTK1RM2PMA46211 (~20.3k mi) \u2014 dealer page unavailable; replaced by VIN 3FMTK1RM6PMA30660 on same lot",
-      "prior_assessment": "STRONG DEAL"
-    },
-    {
-      "id": "cargurus-lv-3FMTK1RM7PMA45961",
-      "summary": "Not sold, but removed from under-budget STRONG watch \u2014 TrueCar $26,794 ABC Hyundai over $25k max",
-      "prior_assessment": "STRONG DEAL",
-      "new_assessment": "AVOID / over_budget"
-    }
-  ],
-  "search_coverage": {
-    "craigslist": {
-      "status": "partial",
-      "metros": [
-        "lasvegas",
-        "phoenix",
-        "losangeles",
-        "sandiego",
-        "reno",
-        "tucson",
-        "saltlakecity",
-        "inlandempire",
-        "orangecounty"
-      ],
-      "notes": "Inland Empire + San Diego + Reno/Tucson/SLC/OC HTML worked. LV search 403 today (detail URLs for known LV ads still 200). Phoenix+LA search 403. Hits: Redlands private, Norco 2021/2023, Globul LV, SD Auto Finders 2021 CA Route 1s. Phoenix 2024 detail still active via direct URL."
-    },
-    "cargurus": {
-      "status": "worked",
-      "notes": "LV metro + CA under-$25k WebFetch worked Oct 2. Detail pages often blocked via curl."
-    },
-    "truecar": {
-      "status": "parent_feed",
-      "notes": "Parent provided TrueCar LV checks: 45961@$26794 ABC Hyundai; 18362@$23949 Desert 215; new 44504@$22949 Desert 215. Direct TrueCar curl 403 from box."
-    },
-    "cars_com": {
-      "status": "worked_partial",
-      "notes": "fuse-card extract under $25k returned many CA VINs; dealer/city often null in card JSON."
-    },
-    "autotrader": {
-      "status": "not_rechecked",
-      "notes": "prior unavailable"
-    },
-    "facebook_marketplace": {
-      "status": "skipped",
-      "notes": "Checked separately by another agent"
-    },
-    "offerup": {
-      "status": "not_rechecked"
-    },
-    "edmunds": {
-      "status": "not_rechecked"
-    },
-    "dealer_sites": {
-      "status": "worked",
-      "worked": [
-        "teamfordlasvegas.com (2 Selects confirmed $20687/$21863)",
-        "pricefordofsimivalley.com (18379 Final $23022; NEW 30660 Final $24022; 46211 removed)",
-        "autobypayment Gaudin VDP $24900 active"
-      ],
-      "failed_or_empty": [
-        "desert215superstore.com used search no Mach-E VIN in HTML (parent TrueCar used)",
-        "abchyundai.com 403",
-        "truecar.com 403 from box"
-      ]
-    },
-    "findmyelectric": {
-      "status": "worked",
-      "notes": "Private LA Select AWD page still live; possibly stale; not confirmed sold"
-    }
+ "run_at": "2026-10-07T07:20:00-07:00",
+ "quiet": true,
+ "alert_lead": "QUIET DAY: no new Strong/Exceptional, no new private-party Mach-Es (CL 17 areas, FME). Only small cuts on FAIR cars: Scottsdale 2022 Premium $23,980→$23,498, Team Ford LV 2021 Select $20,687→$20,316, Ontario 2023 Select $24,599→$24,249, HB 2023 Select 51k $22,169→$21,869. Removed: SD Auto Finders 2021 (WEAK). Watch: Montebello CPO 2023 Select (STRONG) missing from CarGurus 2nd day. All top Strong candidates re-verified at unchanged prices. Cars.com still blocked. Facebook merged (logged out, default LV radius, ~07:14 PT): 11 Mach-E cards, 8 detail pages, all dealer/dealer-style, no private sellers, nothing Strong/Exceptional. Stock 462389 2021 Premium RWD 43k $23,999 now has VIN 3FMTK3R78MMA26871 (AVOID->WEAK; the 43,182-mi post is probably the same car). Kingman 2024 Select cross-post re-seen: dealer says \"clean Carfax\". New, all over budget (AVOID): LV 2023 Premium RWD 48.5k $26,376, Henderson 2023 Premium 16.1k $28,815, 2023 GT $32,269 / $36,779, 2025 Select $34,299.",
+ "new_strong_deals": [],
+ "price_drops": [
+  {
+   "id": "carscom-3FMTK3RMXNMA40410",
+   "vehicle": "2022 Premium RWD",
+   "from": 23980,
+   "to": 23498,
+   "delta": -482,
+   "miles": 64651,
+   "location": "Scottsdale, AZ (Mark Kia)",
+   "assessment": "FAIR DEAL",
+   "url": "https://www.cars.com/vehicledetail/df4a3762-f7af-46ab-ab32-97e506a236ae/",
+   "note": "2022 Premium RWD 64.7k Scottsdale — FAIR (over 50k mi)"
   },
-  "should_notify_user": true,
-  "notify_reasons": [
-    "ABC Hyundai VIN 45961 jumped over $25k budget (was tracked STRONG)",
-    "Simi VIN 46211 sold/removed (was STRONG)",
-    "NEW Simi STRONG VIN 30660 Final $24022 / 20.4k mi",
-    "Desert 215 dealer confirmed for local STRONG VIN 18362 $23949",
-    "NEW local FAIR Desert 215 VIN 44504 $22949 / 52.9k mi"
-  ]
+  {
+   "id": "teamford-3FMTK1RM5MMA20455",
+   "vehicle": "2021 Select RWD",
+   "from": 20687,
+   "to": 20316,
+   "delta": -371,
+   "miles": 65483,
+   "location": "Las Vegas, NV (Team Ford, 5445 Drexel Rd)",
+   "assessment": "FAIR DEAL",
+   "url": "https://www.teamfordlasvegas.com/viewdetails/used/3fmtk1rm5mma20455/2021-ford-mustang-mach-e-sport-utility",
+   "note": "Local (tier 1) 2021 Select 65.5k on CarGurus LV; dealer VDP JSON still $20,687 — FAIR"
+  },
+  {
+   "id": "cargurus-ca-ontario-3FMTK1R42PMA67561",
+   "vehicle": "2023 Select RWD",
+   "from": 24599,
+   "to": 24249,
+   "delta": -350,
+   "miles": 31557,
+   "location": "Ontario, CA (stock ZPRA67561)",
+   "assessment": "FAIR DEAL",
+   "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+   "note": "2023 Select 31.6k Ontario — FAIR"
+  },
+  {
+   "id": "cargurus-ca-hb-3FMTK1RM1PMA40612",
+   "vehicle": "2023 Select RWD",
+   "from": 22169,
+   "to": 21869,
+   "delta": -300,
+   "miles": 51207,
+   "location": "Huntington Beach, CA",
+   "assessment": "FAIR DEAL",
+   "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+   "note": "2023 Select 51.2k Huntington Beach — FAIR (just over 50k mi); now cheapest 2023 Select in SoCal"
+  }
+ ],
+ "best_current_candidates": [
+  {
+   "id": "anderson-kingman-3FMTK1R41RMA02946",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2024 Ford Mustang Mach-E Select RWD (CPO flag on Cars.com)",
+   "ask_price": 22525,
+   "real_price_est": 22525,
+   "miles": 52040,
+   "seller": "dealer",
+   "location_distance": "Kingman, AZ (Anderson Ford Kingman, 3601 Stockton Hill Rd; stock K32911A) / ~105 mi (geo_tier 2)",
+   "drivetrain_battery": "RWD / UNKNOWN (2024 Select RWD; comparable 2024 Select listing describes 72 kWh usable LFP standard pack — confirm for this VIN)",
+   "title_status": "UNKNOWN — dealer FB post says \"clean Carfax\" (seller claim); Cars.com CPO flag; verify title/Carfax yourself",
+   "market_value_est": "$23,622–$28,598 (comp band; not a formal appraisal)",
+   "savings_est": "~$3,585 vs band midpoint (rough)",
+   "why_attractive": "Newest model year under budget: 2024 Select CPO at $22,525, only ~105 mi from LV (day trip), 92 days on lot = leverage.",
+   "concerns": "52,040 mi (over 50k pref); dealer, fees not disclosed (AZ doc fee + tax treatment for NV buyer UNKNOWN — confirm OTD ≤ $25k); CPO tier/coverage UNKNOWN; title/history unverified.",
+   "warranty": "Cars.com CPO flag (Ford Blue Advantage tier UNKNOWN). Factory 3yr/36k expired by miles; 5yr/60k powertrain ~8k mi left if in-service 2024; EV-component 8yr/100k from in-service.",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?",
+    "Which CPO tier (Gold/Blue) and what coverage remains?",
+    "Will you sell to a NV resident without collecting AZ tax? Doc fee?",
+    "92 days on lot — best cash price?"
+   ],
+   "verify_before_travel": [
+    "Call Anderson Ford Kingman (928) 757-3131, stock K32911A — confirm $22,525 and availability",
+    "CPO paperwork + Carfax",
+    "Written OTD (AZ doc fee/tax handling for NV buyer) ≤ $25k",
+    "Day trip ~105 mi each way; test DC fast charge"
+   ],
+   "listing_link": "https://www.cars.com/vehicledetail/011fd07a-9fc9-4532-a830-7beb7c834e75/",
+   "photos": [
+    "https://inventoryimage.rydeshopper.com/images/3FMTK1R41RMA02946/Original/11482091817.jpg",
+    "https://inventoryimage.rydeshopper.com/images/3FMTK1R41RMA02946/Original/11482091818.jpg",
+    "https://inventoryimage.rydeshopper.com/images/3FMTK1R41RMA02946/Original/11482091819.jpg",
+    "https://inventoryimage.rydeshopper.com/images/3FMTK1R41RMA02946/Original/11482091820.jpg"
+   ],
+   "status": "active",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 1,
+   "why_rank": "2024 Select CPO at $22,525, ~105 mi day trip, 94 days on lot = leverage; 52k mi is the trade-off. Re-verified today."
+  },
+  {
+   "id": "cl-redlands-3FMTK3SS8NMA40995",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2022 Ford Mustang Mach-E Premium AWD",
+   "ask_price": 21900,
+   "real_price_est": 21900,
+   "miles": 65895,
+   "seller": "private",
+   "location_distance": "Redlands, CA / ~186 mi (geo_tier 2)",
+   "drivetrain_battery": "AWD / UNKNOWN (Premium AWD typically Extended Range ~88 kWh usable historically; confirm)",
+   "title_status": "UNKNOWN (seller claims clean implicitly; verify CA title)",
+   "market_value_est": "$25,000–$28,714 (comp band; not a formal appraisal)",
+   "savings_est": "~$4,957 vs band midpoint (rough)",
+   "why_attractive": "Private Premium AWD with PremiumCARE to 10/7/2029 or 100k and factory HV warranty to 10/7/2030; ask $21,900 vs ~$25–28.7k Premium comps in notes.",
+   "concerns": "Miles over 50k preferred (65,895); disclosed windshield crack 6–8in and driver seat tear; verify CA clean title.",
+   "warranty": "Seller-stated: transferable Ford Protect PremiumCARE ESP to 10/07/2029 or 100k mi ($100 deductible, ~34k mi left; transfer subject to Ford rules) + Ford EV-component warranty to 10/07/2030 or 100k mi. Verify ESP contract # and transfer fee with Ford.",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?"
+   ],
+   "verify_before_travel": [
+    "VIN 3FMTK3SS8NMA40995 history (Carfax/AutoCheck/NMVTIS)",
+    "Clean title in hand (no salvage/rebuilt/branded/lemon)",
+    "Written OTD ≤ $25,000",
+    "Still available — call same day",
+    "Test drive + DC fast-charge test"
+   ],
+   "listing_link": "https://www.craigslist.org/view/d/redlands-2022-ford-mustang-mach-premium/hRcFU34qYhzNffJpJDxTRh",
+   "photos": [
+    "https://images.craigslist.org/00Z0Z_j58XRxeRL6B_0CI0t2_600x450.jpg",
+    "https://images.craigslist.org/00z0z_1HE0zNURST1_0CI0uM_600x450.jpg",
+    "https://images.craigslist.org/00Q0Q_hNs96RUIH0C_0CI0t2_600x450.jpg",
+    "https://images.craigslist.org/00y0y_5oEFuufmxuI_0CI0t2_600x450.jpg"
+   ],
+   "status": "active",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 2,
+   "why_rank": "Best private-party option: Premium AWD with transferable PremiumCARE to 10/2029/100k + EV warranty to 10/2030/100k at $21,900; 65.9k mi; 16 days posted with no cut = negotiation room."
+  },
+  {
+   "id": "cargurus-ca-simi-28876mi",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2023 Ford Mustang Mach-E Select RWD",
+   "ask_price": 23022,
+   "real_price_est": 22900,
+   "miles": 28876,
+   "seller": "dealer",
+   "location_distance": "Simi Valley, CA / ~280 mi (geo_tier 3)",
+   "drivetrain_battery": "RWD / UNKNOWN",
+   "title_status": "UNKNOWN",
+   "market_value_est": "$26,705–$26,705 (comp band; not a formal appraisal)",
+   "savings_est": "~$3,683 vs band midpoint (rough)",
+   "why_attractive": "Price Ford Simi Valley 2023 Select final $23,022 / 28,876 mi after material price drop; notes cite 15–30k median historically ~$26.7k.",
+   "concerns": "~280 mi from LV; confirm Blue Advantage/EV cert and cash OTD (tax/title extra).",
+   "warranty": "Ford EV-component (HV battery/drive unit) 8yr/100k mi from in-service date — verify in-service date; any CPO/ESP UNKNOWN",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?"
+   ],
+   "verify_before_travel": [
+    "VIN 3FMTK1RMXPMA18379 history (Carfax/AutoCheck/NMVTIS)",
+    "Clean title in hand (no salvage/rebuilt/branded/lemon)",
+    "Written OTD ≤ $25,000",
+    "Still available — call same day",
+    "Test drive + DC fast-charge test"
+   ],
+   "listing_link": "https://www.pricefordofsimivalley.com/vehicle/3FMTK1RMXPMA18379/Used-2023-Ford-Mustang_Mach--E-Simi_Valley-CA/",
+   "photos": [
+    "https://media-cdn-tango.jazelc.com/media/321343517?scale=1280%2F-1%2F70",
+    "https://media-cdn-tango.jazelc.com/media/321343518?scale=1280%2F-1%2F70",
+    "https://media-cdn-tango.jazelc.com/media/321343519?scale=1280%2F-1%2F70",
+    "https://media-cdn-tango.jazelc.com/media/321343520?scale=1280%2F-1%2F70"
+   ],
+   "status": "active",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 3,
+   "why_rank": "CPO 2023 Select 28.9k at $22,900 Internet / $23,022 Final — cheapest low-mile 2023 Select. Re-verified on dealer VDP."
+  },
+  {
+   "id": "cargurus-lv-3FMTK1RM4PMA18362",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2023 Ford Mustang Mach-E Select RWD",
+   "ask_price": 23949,
+   "real_price_est": 23949,
+   "miles": 38027,
+   "seller": "dealer",
+   "location_distance": "Las Vegas, NV (Desert 215 Superstore, 8030 Rafael Rivera Way) / ~13 mi (geo_tier 1)",
+   "drivetrain_battery": "RWD / UNKNOWN",
+   "title_status": "Clean / one-owner claimed on TrueCar (verify)",
+   "market_value_est": "$25,979–$26,705 (comp band; not a formal appraisal)",
+   "savings_est": "~$2,393 vs band midpoint (rough)",
+   "why_attractive": "Local Desert 215 2023 Select at $23,949 / 38,027 mi (Vapor Blue); TrueCar clean-title/one-owner claims noted.",
+   "concerns": "Cash OTD fee risk; verify clean title/one-owner claims before purchase.",
+   "warranty": "Ford EV-component (HV battery/drive unit) 8yr/100k mi from in-service date — verify in-service date; any CPO/ESP UNKNOWN",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?"
+   ],
+   "verify_before_travel": [
+    "VIN 3FMTK1RM4PMA18362 history (Carfax/AutoCheck/NMVTIS)",
+    "Clean title in hand (no salvage/rebuilt/branded/lemon)",
+    "Written OTD ≤ $25,000",
+    "Still available — call same day",
+    "Test drive + DC fast-charge test"
+   ],
+   "listing_link": "https://www.desert215superstore.com/inventory/used-2023-ford-mustang-mach-e-select-rwd-sport-utility-3fmtk1rm4pma18362/",
+   "photos": [
+    "https://vehicle-images.carscommerce.inc/7a57-110009686/3FMTK1RM4PMA18362/10f9f0e4dfda1e566451d618ca0eb2cc.webp",
+    "https://vehicle-images.carscommerce.inc/e205-110009686/3FMTK1RM4PMA18362/626e62b92f702e3f26c4221e6c1a4a34.webp",
+    "https://vehicle-images.carscommerce.inc/a030-110009686/3FMTK1RM4PMA18362/54d04f76569216835aa513ee9b89f355.webp",
+    "https://vehicle-images.carscommerce.inc/d8c4-110009686/3FMTK1RM4PMA18362/c61c9185ee5d131cea703371e741dda8.webp"
+   ],
+   "status": "active",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 4,
+   "why_rank": "Local (no travel) 2023 Select 38k at $23,949 incl. fees. Re-verified InStock."
+  },
+  {
+   "id": "cl-phoenix-2024-select-24988",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2024 Ford Mustang Mach-E Select RWD",
+   "ask_price": 23988,
+   "real_price_est": 23988,
+   "miles": 29550,
+   "seller": "dealer",
+   "location_distance": "Phoenix, AZ (geo ~33.63,-112.11) / ~245 mi (geo_tier 2)",
+   "drivetrain_battery": "RWD / Standard LFP ~72 kWh usable (per listing)",
+   "title_status": "UNKNOWN",
+   "market_value_est": "$30,000–$31,954 (comp band; not a formal appraisal)",
+   "savings_est": "~$6,989 vs band midpoint (rough)",
+   "why_attractive": "2024 Select ~30k mi under $25k; price cut today; LFP SR ~250 mi EPA",
+   "concerns": "Dealer (not private); ~290 mi from LV; confirm cash OTD ≤$25k / no pack fees; title clean",
+   "warranty": "Ford EV-component (HV battery/drive unit) 8yr/100k mi from in-service date — verify in-service date; any CPO/ESP UNKNOWN",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?"
+   ],
+   "verify_before_travel": [
+    "VIN 3FMTK1R45RMA08314 history (Carfax/AutoCheck/NMVTIS)",
+    "Clean title in hand (no salvage/rebuilt/branded/lemon)",
+    "Written OTD ≤ $25,000",
+    "Still available — call same day",
+    "Test drive + DC fast-charge test"
+   ],
+   "listing_link": "https://www.craigslist.org/view/d/phoenix-2024-ford-mustang-mach-select/gJCeXpRiJoMwThGrVF8vDU",
+   "photos": [
+    "https://platform.cstatic-images.com/large/in/v2/56776d81-ef92-58fa-a0bd-cafe0fcd43d6/8ef421c5-9d98-4f8e-8a81-1466defd30d6/VENc674tlZKShX5myqeg9Vn8azc.jpg",
+    "https://platform.cstatic-images.com/large/in/v2/56776d81-ef92-58fa-a0bd-cafe0fcd43d6/8ef421c5-9d98-4f8e-8a81-1466defd30d6/ujA_pp9OAY1Qf47WE38xK3xvnWM.jpg",
+    "https://platform.cstatic-images.com/large/in/v2/56776d81-ef92-58fa-a0bd-cafe0fcd43d6/8ef421c5-9d98-4f8e-8a81-1466defd30d6/TxVZosbERh7YTsAI9_0YXePiHJU.jpg",
+    "https://platform.cstatic-images.com/large/in/v2/56776d81-ef92-58fa-a0bd-cafe0fcd43d6/8ef421c5-9d98-4f8e-8a81-1466defd30d6/T51BKxmYdST5ykdxMBMh4PcFjDU.jpg"
+   ],
+   "status": "active",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 5,
+   "why_rank": "2024 Select 29.5k at $23,988 — newest/lowest-mile 2024 under budget; dealer fees excluded, ~245 mi."
+  },
+  {
+   "id": "automatch-3FMTK1SU6RMA19574",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2024 Ford Mustang Mach-E Select AWD (Extended Range per dealer notes)",
+   "ask_price": 24594,
+   "real_price_est": 24594,
+   "miles": 28211,
+   "seller": "dealer",
+   "location_distance": "Orem, UT (AutoMatch, 658 N State St; stock F-A19574) / ~400 mi (geo_tier 3)",
+   "drivetrain_battery": "AWD / ER (dealer notes: \"91KWH USABLE EXT NCM BATT\")",
+   "title_status": "UNKNOWN — every AutoMatch listing carries boilerplate text \"Branded title w/FINANCING AND SERVICE CONTRACTS...\" (appears on unrelated vehicles too, so likely template), but must get written clean-title confirmation + Carfax before any travel",
+   "market_value_est": "$28,598–$33,590 (comp band; not a formal appraisal)",
+   "savings_est": "~$6,500 vs band midpoint (rough)",
+   "why_attractive": "2024 Select AWD with 91 kWh extended-range pack and 28k mi for $24,594 incl. doc — roughly $4k–9k under comparable 2024 Selects.",
+   "concerns": "~400 mi travel (add ~$150–300 + a day); \"Branded title\" boilerplate must be resolved in writing; possible add-ons (~$200) push OTD; Utah tax/temp-tag process for NV buyer — confirm OTD ≤ $25k.",
+   "warranty": "Factory 3yr/36k bumper-to-bumper likely remaining (28k mi; depends on in-service date); EV-component 8yr/100k.",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?",
+    "Your listings all say \"Branded title w/...\" — confirm IN WRITING this car has a clean, unbranded title",
+    "Any add-ons beyond the $599 doc fee?",
+    "Former rental/fleet?"
+   ],
+   "verify_before_travel": [
+    "Written clean-title confirmation + Carfax BEFORE booking travel",
+    "Confirm $24,594 OTD excluding NV taxes/registration",
+    "Plan ~400 mi trip (drive ~6 hr or fly SLC + drive home with charging stops)"
+   ],
+   "listing_link": "https://www.automatchutah.com/inventory/used-2024-ford-mustang-mach-e-select-3fmtk1su6rma19574-in-orem-ut",
+   "photos": [
+    "https://static.overfuel.com/photos/1014/1950015/06b4598b-84f5-4025-ad8b-4883d7362dcb-38.webp",
+    "https://static.overfuel.com/photos/1014/1950015/7a6276cd-c5cf-41af-bf00-36532431b398-11.webp",
+    "https://static.overfuel.com/photos/1014/1950015/03ac9004-b7c8-41c2-9639-f933926fce26-37.webp",
+    "https://static.overfuel.com/photos/1014/1950015/d0ec899f-370d-41d5-8755-9dec8f836c00-40.webp"
+   ],
+   "status": "active",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 6,
+   "why_rank": "2024 Select AWD ER 28k at $24,594 incl. doc — biggest $ value vs comps, but ~400 mi and \"Branded title\" boilerplate must be cleared in writing."
+  },
+  {
+   "id": "cargurus-ca-vannuys-3FMTK1RM1PMA17346",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2023 Ford Mustang Mach-E Select RWD",
+   "ask_price": 23922,
+   "real_price_est": 23922,
+   "miles": 21631,
+   "seller": "dealer",
+   "location_distance": "Van Nuys, CA / ~270 mi (geo_tier 3)",
+   "drivetrain_battery": "RWD / UNKNOWN",
+   "title_status": "UNKNOWN",
+   "market_value_est": "$26,705–$26,705 (comp band; not a formal appraisal)",
+   "savings_est": "~$2,783 vs band midpoint (rough)",
+   "why_attractive": "Low-mile (21,631) 2023 Select Vapor Blue at $24,172; notes call strong value vs 2023 Select 15–30k band.",
+   "concerns": "~270 mi from LV; confirm cash OTD/fees.",
+   "warranty": "Ford EV-component (HV battery/drive unit) 8yr/100k mi from in-service date — verify in-service date; any CPO/ESP UNKNOWN",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?"
+   ],
+   "verify_before_travel": [
+    "VIN 3FMTK1RM1PMA17346 history (Carfax/AutoCheck/NMVTIS)",
+    "Clean title in hand (no salvage/rebuilt/branded/lemon)",
+    "Written OTD ≤ $25,000",
+    "Still available — call same day",
+    "Test drive + DC fast-charge test"
+   ],
+   "listing_link": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+   "photos": [],
+   "status": "active",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 7,
+   "why_rank": "2023 Select 21.6k at $23,922 incl. fees, CarGurus Great Deal."
+  },
+  {
+   "id": "cargurus-3FMTK1RMXPMA17846",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2023 Ford Mustang Mach-E Select RWD",
+   "ask_price": 23990,
+   "real_price_est": 23990,
+   "miles": 31775,
+   "seller": "dealer",
+   "location_distance": "Valencia, CA / ~280 mi (geo_tier 3)",
+   "drivetrain_battery": "RWD / UNKNOWN",
+   "title_status": "UNKNOWN",
+   "market_value_est": "$22,000–$28,000 (comp band; not a formal appraisal)",
+   "savings_est": "~$1,010 vs band midpoint (rough)",
+   "why_attractive": "CPO 2023 Select 31.8k mi now $23,990 after an $811 cut — ~$2k under the 2023 Select comp band.",
+   "concerns": " Tier 3 (~260 mi); confirm CPO tier and OTD.",
+   "warranty": "Ford EV-component (HV battery/drive unit) 8yr/100k mi from in-service date — verify in-service date; any CPO/ESP UNKNOWN",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?"
+   ],
+   "verify_before_travel": [
+    "VIN 3FMTK1RMXPMA17846 history (Carfax/AutoCheck/NMVTIS)",
+    "Clean title in hand (no salvage/rebuilt/branded/lemon)",
+    "Written OTD ≤ $25,000",
+    "Still available — call same day",
+    "Test drive + DC fast-charge test"
+   ],
+   "listing_link": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+   "photos": [],
+   "status": "active",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 8,
+   "why_rank": "CPO 2023 Select 31.8k at $23,990 (held after -$811 cut)."
+  },
+  {
+   "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2023 Ford Mustang Mach-E Select RWD",
+   "ask_price": 21972,
+   "real_price_est": 21972,
+   "miles": 47089,
+   "seller": "dealer",
+   "location_distance": "Montebello, CA (likely Ford of Montebello; stock 25486P) / ~270 mi (geo_tier 3)",
+   "drivetrain_battery": "RWD / UNKNOWN",
+   "title_status": "UNKNOWN",
+   "market_value_est": "$25,000–$27,500 (comp band; not a formal appraisal)",
+   "savings_est": "~$4,028 vs band midpoint (rough)",
+   "why_attractive": "NEW: 2023 Select ~47k mi at $21,972 with -$2,000 CarGurus price-drop badge — well under typical 2023 Select asks (~$26.5–28.5k for lower-mile comps; mid-20s for ~45–50k).",
+   "concerns": "Seen on morning CarGurus CA under-$25k snapshot; not on later re-fetch of same URL (pagination/geo?) — VERIFY live price/availability before travel; travel ~270 mi; confirm cash OTD ≤$25k; dealer inventory site 403.",
+   "warranty": "Ford EV-component (HV battery/drive unit) 8yr/100k mi from in-service date — verify in-service date; any CPO/ESP UNKNOWN",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?"
+   ],
+   "verify_before_travel": [
+    "VIN 3FMTK1R44PMA86483 history (Carfax/AutoCheck/NMVTIS)",
+    "Clean title in hand (no salvage/rebuilt/branded/lemon)",
+    "Written OTD ≤ $25,000",
+    "Still available — call same day",
+    "Test drive + DC fast-charge test"
+   ],
+   "listing_link": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+   "photos": [],
+   "status": "active",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 9,
+   "why_rank": "2023 Select 47k at $21,972 incl. fees, CarGurus Great Deal."
+  },
+  {
+   "id": "cargurus-ca-simi-20447mi-3FMTK1RM6PMA30660",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2023 Ford Mustang Mach-E Select RWD",
+   "ask_price": 24022,
+   "real_price_est": 23900,
+   "miles": 20447,
+   "seller": "dealer",
+   "location_distance": "Simi Valley, CA (Price Ford) / ~280 mi (geo_tier 3)",
+   "drivetrain_battery": "RWD / UNKNOWN",
+   "title_status": "UNKNOWN",
+   "market_value_est": "$26,705–$26,705 (comp band; not a formal appraisal)",
+   "savings_est": "~$2,683 vs band midpoint (rough)",
+   "why_attractive": "Price Ford Simi Valley ~20.4k mi 2023 Select at final $24,022; notes cite 15–30k median historically ~$26.7k — several thousand under.",
+   "concerns": "~280 mi from LV; confirm cash OTD + Blue Advantage cert.",
+   "warranty": "Ford EV-component (HV battery/drive unit) 8yr/100k mi from in-service date — verify in-service date; any CPO/ESP UNKNOWN",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?"
+   ],
+   "verify_before_travel": [
+    "VIN 3FMTK1RM6PMA30660 history (Carfax/AutoCheck/NMVTIS)",
+    "Clean title in hand (no salvage/rebuilt/branded/lemon)",
+    "Written OTD ≤ $25,000",
+    "Still available — call same day",
+    "Test drive + DC fast-charge test"
+   ],
+   "listing_link": "https://www.pricefordofsimivalley.com/vehicle/3FMTK1RM6PMA30660/Used-2023-Ford-Mustang_Mach--E-Simi_Valley-CA/",
+   "photos": [
+    "https://media-cdn-tango.jazelc.com/media/323540024?scale=1280%2F-1%2F70",
+    "https://media-cdn-tango.jazelc.com/media/323540025?scale=1280%2F-1%2F70",
+    "https://media-cdn-tango.jazelc.com/media/323540026?scale=1280%2F-1%2F70",
+    "https://media-cdn-tango.jazelc.com/media/323540027?scale=1280%2F-1%2F70"
+   ],
+   "status": "active",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 10,
+   "why_rank": "CPO 2023 Select 20.4k at $23,900–$24,022."
+  },
+  {
+   "id": "carscom-3FMTK1RM2PMA46659",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2023 Ford Mustang Mach-E Select RWD",
+   "ask_price": 21000,
+   "real_price_est": 21000,
+   "miles": 53707,
+   "seller": "dealer",
+   "location_distance": "Pacoima, CA (Karplus Warehouse Inc.) / ~250 mi (geo_tier 3)",
+   "drivetrain_battery": "RWD / UNKNOWN",
+   "title_status": "UNKNOWN",
+   "market_value_est": "$23,000–$28,000 (comp band; not a formal appraisal)",
+   "savings_est": "~$4,500 vs band midpoint (rough)",
+   "why_attractive": "2023 Select @ $21,000 — well under SoCal under-$25k cluster; photos on Cars.com",
+   "concerns": "53,707 mi over 50k preference (exception for price/year); Karplus Warehouse dealer — verify clean title / no auction branding; ~250 mi from LV (Pacoima); Confirm cash OTD ≤$25k",
+   "warranty": "Ford EV-component (HV battery/drive unit) 8yr/100k mi from in-service date — verify in-service date; any CPO/ESP UNKNOWN",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?"
+   ],
+   "verify_before_travel": [
+    "VIN 3FMTK1RM2PMA46659 history (Carfax/AutoCheck/NMVTIS)",
+    "Clean title in hand (no salvage/rebuilt/branded/lemon)",
+    "Written OTD ≤ $25,000",
+    "Still available — call same day",
+    "Test drive + DC fast-charge test"
+   ],
+   "listing_link": "https://www.cars.com/vehicledetail/7da213d1-66c8-4004-9bf0-e14ede79563a/",
+   "photos": [
+    "https://platform.cstatic-images.com/large/in/v2/ad989f92-84fe-5420-8404-c5fcc00c6f44/c2f1f420-a837-4d1e-b658-d49636d64f09/zFs-ip7-Vtq3kE_VgoeIuYg1CSg.jpg",
+    "https://platform.cstatic-images.com/large/in/v2/ad989f92-84fe-5420-8404-c5fcc00c6f44/c2f1f420-a837-4d1e-b658-d49636d64f09/0EppBc-rlcqNbErYrpcgVyeuCsg.jpg",
+    "https://platform.cstatic-images.com/large/in/v2/ad989f92-84fe-5420-8404-c5fcc00c6f44/c2f1f420-a837-4d1e-b658-d49636d64f09/5dWbyIoosCMBvFzNUeVNF9MNYU8.jpg",
+    "https://platform.cstatic-images.com/large/in/v2/ad989f92-84fe-5420-8404-c5fcc00c6f44/c2f1f420-a837-4d1e-b658-d49636d64f09/41fctvz8r0Koyv_hhjAj6JKWCjk.jpg"
+   ],
+   "status": "active",
+   "last_seen": "2026-10-05T07:45:00-07:00",
+   "rank": 11,
+   "why_rank": "2023 Select $21,000 at 53.7k — cheapest 2023, but unverified 3 days (Cars.com blocked) and JD Power shows $22,505 for this VIN."
+  },
+  {
+   "id": "cargurus-ca-montebello-3FMTK1RM6PMA15320",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2023 Ford Mustang Mach-E Select RWD (Manufacturer certified per CarGurus)",
+   "ask_price": 21972,
+   "real_price_est": 21972,
+   "miles": 46683,
+   "seller": "dealer",
+   "location_distance": "Montebello, CA (Ford of Montebello likely; stock 25488P) / ~270 mi (geo_tier 3)",
+   "drivetrain_battery": "RWD / UNKNOWN (standard-range Select RWD per VIN pattern; confirm)",
+   "title_status": "UNKNOWN (verify Carfax/AutoCheck/title)",
+   "market_value_est": "$23,700–$25,599 (comp band; not a formal appraisal)",
+   "savings_est": "~$2,678 vs band midpoint (rough)",
+   "why_attractive": "CPO 2023 Select under 50k mi at $21,972 after a $2,000 cut — CPO warranty at a non-CPO price.",
+   "concerns": "~270 mi (tier 3); price includes fees? UNKNOWN; dealer site blocked — confirm availability/OTD/CPO tier by phone; no photos captured.",
+   "warranty": "CarGurus says Manufacturer certified (tier UNKNOWN); EV-component 8yr/100k.",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?",
+    "Is $21,972 the cash price before doc fee? Any mandatory add-ons?",
+    "CPO tier and remaining coverage?"
+   ],
+   "verify_before_travel": [
+    "Call Ford of Montebello re stock 25488P (site blocked)",
+    "CPO docs + Carfax",
+    "Written OTD ≤ $25k",
+    "~270 mi trip — only go with written confirmation"
+   ],
+   "listing_link": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+   "photos": [],
+   "status": "active_possibly_stale",
+   "last_seen": "2026-10-05T07:45:00-07:00",
+   "rank": 12,
+   "why_rank": "CPO 2023 Select 46.7k at $21,972 — absent from CarGurus 2 days (possibly sold)."
+  },
+  {
+   "id": "findmyelectric-la-private-3FMTK1SS2NMA45534",
+   "assessment": "STRONG DEAL",
+   "vehicle": "2022 Ford Mustang Mach-E Select AWD",
+   "ask_price": 23500,
+   "real_price_est": 23500,
+   "miles": 28100,
+   "seller": "private",
+   "location_distance": "Los Angeles, CA / ~270 mi (geo_tier 3)",
+   "drivetrain_battery": "AWD / 68 kWh (listing)",
+   "title_status": "Clean (seller claim on FME)",
+   "market_value_est": "UNKNOWN",
+   "savings_est": "UNKNOWN",
+   "why_attractive": "Private 2022 Select AWD at $23,500 / 28,100 mi — excellent numbers IF still live (page still loads; asSold empty).",
+   "concerns": "Possibly stale: added Jan 22 2026; phone (781) MA area code vs LA city; verify availability/in-person title before travel.",
+   "warranty": "Ford EV-component (HV battery/drive unit) 8yr/100k mi from in-service date — verify in-service date; any CPO/ESP UNKNOWN",
+   "seller_questions": [
+    "Cash out-the-door price with every fee itemized?",
+    "Clean title in hand? Send Carfax/AutoCheck",
+    "Any accidents/paint work/open recalls?",
+    "Battery health / any HV or charging warnings?",
+    "Original in-service date (8yr/100k Ford EV-component warranty clock)?"
+   ],
+   "verify_before_travel": [
+    "VIN 3FMTK1SS2NMA45534 history (Carfax/AutoCheck/NMVTIS)",
+    "Clean title in hand (no salvage/rebuilt/branded/lemon)",
+    "Written OTD ≤ $25,000",
+    "Still available — call same day",
+    "Test drive + DC fast-charge test"
+   ],
+   "listing_link": "https://www.findmyelectric.com/listings/2022-ford-mustang-mach-e-select-355023/",
+   "photos": [
+    "https://d2q97jj8nilsnk.cloudfront.net/images/tempImage1rLTaI.jpg",
+    "https://d2q97jj8nilsnk.cloudfront.net/images/tempImageJTlULM.jpg",
+    "https://d2q97jj8nilsnk.cloudfront.net/images/tempImagectUVUn.jpg"
+   ],
+   "status": "active_possibly_stale",
+   "last_seen": "2026-10-07T07:20:00-07:00",
+   "rank": 13,
+   "why_rank": "Private 2022 Select AWD 28k at $23,500 — great numbers but likely stale listing."
+  }
+ ],
+ "changed_questionable": [
+  {
+   "id": "cargurus-ca-montebello-3FMTK1RM6PMA15320",
+   "change": "2nd day absent from CarGurus CA (two pulls; sibling 86483 present); dealer site/VDP 403 — stays active_possibly_stale, likely sold",
+   "ask_price": 21972,
+   "assessment": "STRONG DEAL",
+   "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161"
+  },
+  {
+   "id": "carscom-3FMTK1RM2PMA46659",
+   "change": "Unverified 3rd day (Cars.com blocked); JD Power VIN page shows listing price $22,505 vs $21,000 on Cars.com — confirm with Karplus Warehouse",
+   "ask_price": 21000,
+   "assessment": "STRONG DEAL",
+   "url": "https://www.cars.com/vehicledetail/7da213d1-66c8-4004-9bf0-e14ede79563a/"
+  },
+  {
+   "id": "automatch-3FMTK1SU6RMA19574",
+   "change": "Still live $24,594; \"Branded title w/FINANCING...\" boilerplate unchanged — written clean-title confirmation required before travel",
+   "ask_price": 24594,
+   "assessment": "STRONG DEAL",
+   "url": "https://www.automatchutah.com/inventory/used-2024-ford-mustang-mach-e-select-3fmtk1su6rma19574-in-orem-ut"
+  },
+  {
+   "id": "findmyelectric-la-private-3FMTK1SS2NMA45534",
+   "change": "Detail page unchanged, still off FME index — stays active_possibly_stale",
+   "ask_price": 23500,
+   "assessment": "STRONG DEAL",
+   "url": "https://www.findmyelectric.com/listings/2022-ford-mustang-mach-e-select-355023/"
+  },
+  {
+   "id": "teamford-3FMTK1RM5MMA20455",
+   "change": "CarGurus $20,316 vs dealer VDP JSON $20,687 — cross-source mismatch; confirm OTD",
+   "ask_price": 20316,
+   "assessment": "FAIR DEAL",
+   "url": "https://www.teamfordlasvegas.com/viewdetails/used/3fmtk1rm5mma20455/2021-ford-mustang-mach-e-sport-utility"
+  },
+  {
+   "id": "fb-mesa-19794-2021-first-edition",
+   "change": "Matched by price to CarGurus card: VIN 3FMTK3SU6MMA48724, 116,323 mi -> WEAK -> AVOID (beyond 100k EV-warranty mileage)",
+   "ask_price": 19794,
+   "assessment": "AVOID",
+   "url": "https://www.facebook.com/marketplace/item/38845134728465583/"
+  },
+  {
+   "id": "cargurus-ca-hb-3FMTK1RM1PMA40612",
+   "change": "Market band reset to documented 2023 Select 46–51k band ($23,700–$25,599); with -$300 cut savings ~$2.8k; stays FAIR only because 51.2k mi > 50k pref",
+   "ask_price": 21869,
+   "assessment": "FAIR DEAL",
+   "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161"
+  },
+  {
+   "id": "new-fair-weak",
+   "change": "NEW today: Van Nuys 2023 Select 21.5k $24,922 (FAIR, sibling of 17346 which is $1k cheaper); Provo UT 2022 Select 63.5k $20,828 (FAIR, unverified snippet); WEAK: Fontana 2021 Select 66k $20,584, Orange 2022 Premium CPO 53.9k $24,972, Pacoima 2023 Premium 83.9k $21,906, Hollywood FL 2021 Select AWD 37.5k $23,960 delivered, South Salt Lake 2021 Premium AWD 71k $22,398; over budget watch: SLC 2022 Select AWD 34.9k $25,908, Draper 2021 Premium AWD 44k $25,713, Chandler 2023 Select 34k $25,672"
+  },
+  {
+   "id": "cars-com-blocked",
+   "change": "Cars.com blocked again (curl + WebFetch). Cars.com-only candidates not re-checked and NOT downgraded; many cross-verified on CarGurus."
+  },
+  {
+   "id": "facebook-marketplace-merge",
+   "change": "FB Marketplace (logged out, default LV radius) merged. Re-seen: fb-lv-21999-2022, fb-lv-22999-2022, fb-lv-23999-2021-premium-43074, fb-lv-23999-2021-premium-43182. Status/assessment changes: fb-lv-23999-2021-premium-43074 active/AVOID -> active/WEAK DEAL; fb-lv-24598-2021-premium-rwd active/AVOID -> active_possibly_stale/AVOID; fb-lv-22999-2022-premium active/AVOID -> active_possibly_stale/AVOID; fb-lv-23999-2021-premium-43182 active/AVOID -> active/WEAK DEAL; fb-lv-23999-2021-premium-2177865613158353 active/AVOID -> active_possibly_stale/AVOID. NEW over-budget: fb-lv-26376-2023-premium-rwd-48508, fb-henderson-28815-2023-premium-16105, fb-lv-32269-2023-gt, fb-lv-36779-2023-gt, fb-lv-34299-2025-select. Cross-post notes: Globul x2 (VIN 3FMTK3RM1NMA16206), Kingman 2024 Select (clean Carfax stated). No Strong/Exceptional from FB; quiet unchanged."
+  },
+  {
+   "id": "fb-lv-23999-2021-premium-43074",
+   "change": "FB detail: VIN 3FMTK3R78MMA26871, stock 462389, dealer salesperson \"Johnny Q\"; glass roof/nav/heated leather; title only \"Used\". AVOID -> WEAK DEAL (local but at-market for 43k mi; fees unknown). fb-lv-23999-2021-premium-43182 (43,182 mi, 88 kWh ER stated, listed 6 days ago) is probably the same car; not merged without a VIN.",
+   "ask_price": 23999,
+   "assessment": "WEAK DEAL",
+   "url": "https://www.facebook.com/marketplace/item/1987768128565222/"
+  }
+ ],
+ "sold_removed": [
+  {
+   "id": "cl-sd-autofinders-3FMTK2R75MMA26160",
+   "vehicle": "2021 Mustang Mach-E (CA Route 1 per VIN pattern) 60,192 mi",
+   "last_ask": 22699,
+   "location": "San Diego, CA (San Diego Auto Finders)",
+   "prior_assessment": "WEAK DEAL",
+   "geo_tier": 3,
+   "evidence": "CL posting returns HTTP 410; gone from SD search",
+   "url": "https://www.craigslist.org/view/d/san-diego-2021-ford-mustang-mach-lane/jGXHsp7ntZs1xbGvnuuFSh"
+  }
+ ],
+ "market_notes": "Quiet day. No new Strong/Exceptional; no new private-party Mach-Es on CL (17 areas) or FME. Small cuts: Scottsdale 2022 Premium $23,980->$23,498, Team Ford LV 2021 Select $20,687->$20,316 (CarGurus), Ontario 2023 Select $24,599->$24,249, HB 2023 Select 51k $22,169->$21,869. SD Auto Finders 2021 (26160, WEAK) removed (CL 410). Montebello CPO 2023 Select 15320 missing from CarGurus a 2nd day. New: Van Nuys 2023 Select 21.5k $24,922 (FAIR), Provo 2022 Select 63.5k $20,828 (FAIR, unverified), plus WEAK/over-budget fill. CarGurus national averages flat vs yesterday. Comps method: market_value_low = median of comparable dealer asks in today's under-$25k searches (conservative floor, biased low by the filter); market_value_high = unfiltered comparable ask (Carvana / CarGurus LV). estimated_savings = band midpoint - real_price_est. Not a Blue Book appraisal. Facebook merged (logged out, default LV radius, ~07:14 PT): 11 Mach-E cards, 8 detail pages, all dealer/dealer-style, no private sellers, nothing Strong/Exceptional. Stock 462389 2021 Premium RWD 43k $23,999 now has VIN 3FMTK3R78MMA26871 (AVOID->WEAK; the 43,182-mi post is probably the same car). Kingman 2024 Select cross-post re-seen: dealer says \"clean Carfax\". New, all over budget (AVOID): LV 2023 Premium RWD 48.5k $26,376, Henderson 2023 Premium 16.1k $28,815, 2023 GT $32,269 / $36,779, 2025 Select $34,299.",
+ "search_coverage": {
+  "craigslist": {
+   "reno": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "saltlakecity": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "tucson": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "flagstaff": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "prescott": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "bakersfield": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "mohave": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "santabarbara": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "ventura": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "stgeorge": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "palmsprings": {
+    "http": 200,
+    "mache_hits": 0
+   },
+   "lasvegas": {
+    "http": 200,
+    "mache_hits": 1,
+    "notes": "Globul $21,999 only"
+   },
+   "phoenix": {
+    "http": 200,
+    "mache_hits": 5,
+    "notes": "2024 Select $23,988 unchanged; Scottsdale private $23,500 unchanged; Mesa dealer 2021 Premium $26,995 / 2023 Select $29,995 over budget; Norco cross-post $21,185"
+   },
+   "inlandempire": {
+    "http": 200,
+    "mache_hits": 2,
+    "notes": "Norco 2023 $24,180 + Redlands private $21,900 (both re-verified)"
+   },
+   "orangecounty": {
+    "http": 200,
+    "mache_hits": 1,
+    "notes": "El Monte 2025 Select $26,585 cross-post"
+   },
+   "losangeles": {
+    "http": 200,
+    "mache_hits": 2,
+    "notes": "Culver City 2025 Premium $45,428; El Monte 2025 Select $26,585"
+   },
+   "sandiego": {
+    "http": 200,
+    "mache_hits": 5,
+    "notes": "SD Auto Finders 36401 live; 26160 GONE (HTTP 410); National City 2023s $26.9k+ over budget"
+   }
+  },
+  "craigslist_summary": "17 areas x 2 queries, all HTTP 200. No new private Mach-E posts. Tracked CL details re-fetched (Redlands, Phoenix 2024, Scottsdale, Norco x2, Globul, SD 36401 = 200; SD 26160 = 410 removed).",
+  "cargurus": {
+   "cargurus_lv": {
+    "url": "https://www.cargurus.com/Cars/l-Used-Ford-Mustang-Mach-E-Las-Vegas-d2990_L21230",
+    "method": "WebFetch",
+    "status": "ok"
+   },
+   "cargurus_lv_under25k": {
+    "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-Las-Vegas-d2990_spt380_L21230",
+    "method": "WebFetch",
+    "status": "ok",
+    "note": "incl home-delivery cards (new: Hollywood FL 2021 Select AWD; Mesa 2021 First Edition = FB match)"
+   },
+   "cargurus_ca_under25k": {
+    "url": "https://www.cargurus.com/Cars/s-Used-Ford-Mustang-Mach-E-Under-25000-California-d2990_spt380_L2161",
+    "method": "WebFetch",
+    "status": "ok",
+    "note": "~25 cards (partial sample); a second pull (Utah URL code resolved to Manhattan Beach CA) returned ~22 LA-area cards incl Montebello 86483; Montebello 15320 absent from both"
+   },
+   "cargurus_phoenix": {
+    "url": "https://www.cargurus.com/Cars/l-Used-Ford-Mustang-Mach-E-Phoenix-d2990_L1064",
+    "method": "WebFetch",
+    "status": "ok"
+   },
+   "cargurus_salt_lake_city": {
+    "url": "https://www.cargurus.com/Cars/l-Used-Ford-Mustang-Mach-E-Salt-Lake-City-d2990_L35782",
+    "method": "WebFetch",
+    "status": "ok",
+    "note": "NEW today; under-$25k cards: South Salt Lake 2021 Premium AWD 71k $22,398; Provo 2022 Select 63.5k $20,828 only in search snippet"
+   },
+   "cargurus_utah_under25k": {
+    "status": "URL code L2179 is not Utah (returned LA area) — use SLC page instead"
+   },
+   "cargurus_curl": {
+    "status": "not retried (406 previously)"
+   }
+  },
+  "cars_com": {
+   "status": "blocked_cloudflare_403",
+   "checked": "2026-10-07",
+   "method": "curl (p1–p7, near, private, newest) + WebFetch — all 403 / \"Sorry, you have been blocked\"",
+   "note": "Cars.com-only candidates NOT downgraded (fetch failure is not removal); several cross-verified on CarGurus instead"
+  },
+  "facebook_marketplace": {
+   "status": "ok_logged_out",
+   "date": "2026-10-07",
+   "notes": "Logged out, default LV radius (radius control not used; Kingman AZ appeared). Main query (mustang mach-e, maxPrice 26000) redirected to category search with no Mach-Es; fallback \"mach e\" returned 11 Mach-E cards (+2 non-vehicle excluded: $950 wheels, $4 toy). 8 item pages opened, all dealer or dealer-style. No private-party Mach-E found. Phoenix/SoCal FB not checked today."
+  },
+  "autotrader": {
+   "status": "blocked (\"site currently unavailable\" to curl + WebFetch)",
+   "checked": "2026-10-07"
+  },
+  "edmunds": {
+   "status": "blocked_403 (curl + WebFetch)",
+   "checked": "2026-10-07"
+  },
+  "offerup": {
+   "status": "http_429 rate-limited (2 queries)",
+   "checked": "2026-10-07"
+  },
+  "dealer_sites": {
+   "autobypayment.com (Kingman mirror)": "OK — 02946 $22,525, 94 days",
+   "cmtcars3.com": "OK — 30128 still 410 Sold; 73909 live $24,484 (only Mach-E)",
+   "automatchutah.com": "OK — 19574 In Stock $24,594, \"Branded title\" boilerplate",
+   "desert215superstore.com": "OK — 18362, 44504 InStock",
+   "pricefordofsimivalley.com": "OK — 18379, 30660 live; 01335 still missing-vehicle",
+   "teamfordlasvegas.com": "OK — both VINs live (JSON 20455 $20,687 vs CarGurus $20,316)",
+   "drivelineca.com": "OK — 98170 (rejected) + 96951 listed",
+   "fordofmontebello.com": "blocked 403 (search + 15320 VDP)",
+   "andersonfordkingman.com": "not retried (Cloudflare earlier)"
+  },
+  "findmyelectric": {
+   "status": "ok",
+   "checked": "2026-10-07",
+   "notes": "Mach-E index 11 active (unchanged set); none western private <= $25k; LA 355023 detail unchanged but off index"
+  },
+  "carvana": {
+   "status": "ok (comps only; 21 ld+json cards)",
+   "checked": "2026-10-07"
+  },
+  "truecar": {
+   "status": "blocked (403 curl; WebFetch \"Press & Hold\" bot check)",
+   "checked": "2026-10-07"
+  },
+  "ksl_classifieds": {
+   "status": "blocked_503 (2 URLs)",
+   "checked": "2026-10-07"
+  },
+  "checked_at": "2026-10-07T07:20:00-07:00",
+  "carmax": {
+   "status": "blocked_403",
+   "checked": "2026-10-07"
+  },
+  "ebay_motors": {
+   "status": "blocked_403",
+   "checked": "2026-10-07"
+  },
+  "echopark": {
+   "status": "blocked_403",
+   "checked": "2026-10-07"
+  },
+  "autolist": {
+   "status": "http_404 on search URL",
+   "checked": "2026-10-07"
+  }
+ },
+ "watchlist_path": "/workspace/mach-e-watchlist.json",
+ "should_notify_user": false,
+ "notify_reasons": [],
+ "private_strong_callouts": [
+  {
+   "id": "cl-redlands-3FMTK3SS8NMA40995",
+   "ask_price": 21900,
+   "miles": 65895,
+   "location": "Redlands, CA",
+   "status": "active",
+   "url": "https://www.craigslist.org/view/d/redlands-2022-ford-mustang-mach-premium/hRcFU34qYhzNffJpJDxTRh"
+  },
+  {
+   "id": "findmyelectric-la-private-3FMTK1SS2NMA45534",
+   "ask_price": 23500,
+   "miles": 28100,
+   "location": "Los Angeles, CA",
+   "status": "active_possibly_stale",
+   "url": "https://www.findmyelectric.com/listings/2022-ford-mustang-mach-e-select-355023/"
+  }
+ ],
+ "martin_ingest": {
+  "watchlist": "/workspace/mach-e-watchlist.json",
+  "daily_hunt": "/workspace/mach-e-daily-hunt-2026-10-07.json",
+  "date": "2026-10-07",
+  "priority": false,
+  "exceptional_or_strong_private": [
+   "cl-redlands-3FMTK3SS8NMA40995",
+   "findmyelectric-la-private-3FMTK1SS2NMA45534"
+  ],
+  "new_strong_ids": []
+ }
 }

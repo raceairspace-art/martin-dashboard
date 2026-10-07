@@ -1091,3 +1091,64 @@ main { max-width: 1100px; }
   .lesson-layout { grid-template-columns: 1fr; }
   .train-progress-aside { position: static; }
 }
+
+/* —— Marketplace multi-category $21k (2026-10-07) —— */
+.cat-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 0.65rem;
+}
+.cat-filter-chip {
+  border: 1px solid var(--border, #c5d0e0);
+  background: #fff;
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--text, #1a2332);
+}
+.cat-filter-chip .cat-count {
+  opacity: 0.65;
+  font-weight: 500;
+  margin-left: 0.15rem;
+}
+.cat-filter-chip.active {
+  background: var(--accent, #2b5ea7);
+  border-color: var(--accent, #2b5ea7);
+  color: #fff;
+}
+.cat-filter-chip.active .cat-count { opacity: 0.9; }
+.badge.category-chip,
+.category-chip {
+  background: #eef2f8;
+  color: #334155;
+  font-size: 0.7rem;
+  font-weight: 650;
+}
+.badge.cat-ev { background: #e0f2fe; color: #0369a1; }
+.badge.cat-mache { background: #ede9fe; color: #5b21b6; }
+.badge.cat-suv { background: #ecfdf5; color: #047857; }
+.badge.cat-other { background: #f1f5f9; color: #64748b; }
+.badge.private-badge {
+  background: #fef3c7;
+  color: #92400e;
+  font-weight: 700;
+}
+.badge.over-budget-badge {
+  background: #fee2e2;
+  color: #991b1b;
+  font-weight: 650;
+}
+.mp-row.is-over-budget,
+.detail-pane.is-over-budget {
+  opacity: 0.55;
+}
+.mp-row.is-over-budget .mp-row-price {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+.mp-row.is-dead {
+  opacity: 0.45;
+}
