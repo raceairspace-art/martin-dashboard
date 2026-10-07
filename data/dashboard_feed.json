@@ -1,6 +1,62 @@
 {
-  "updated_at": "2026-10-05T07:37:58-07:00",
+  "updated_at": "2026-10-07T11:42:23-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-07-maggie-sold-3",
+      "ts": "2026-10-07T11:42:23-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "status",
+      "severity": "info",
+      "title": "3 sold/removed",
+      "summary": "Listings left active under-budget pool or marked sold.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-07-maggie-drops-11",
+      "ts": "2026-10-07T11:42:23-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "recommendation",
+      "severity": "medium",
+      "title": "11 price drop(s)",
+      "summary": "Ask price decreased vs previous snapshot.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-07-maggie-new-cargurus-3FMTK1RMXPMA17846",
+      "ts": "2026-10-07T11:42:23-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-3FMTK1RMXPMA17846 at $23990",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-3FMTK1RMXPMA17846"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-3FMTK1RMXPMA17846",
+        "assessment": "STRONG DEAL",
+        "ask_price": 23990,
+        "status": "active",
+        "via": "assessment_upgrade"
+      }
+    },
     {
       "id": "feed-2026-10-05-maggie-sold-2",
       "ts": "2026-10-05T07:37:58-07:00",

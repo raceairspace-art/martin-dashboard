@@ -1,6 +1,14 @@
-/* Marketplace module — professional listing cards with photos + ranking */
+/* Marketplace module — multi-category vehicle deals, $21k budget, private-weighted ranking */
 (function (global) {
   const ACTIVEish = new Set(["active", "active_possibly_stale"]);
+  const DEADISH = new Set([
+    "sold_or_removed",
+    "likely_sold_or_stale",
+    "possibly_sold_or_stale",
+    "rejected",
+    "unverified_stale",
+  ]);
+  const PRODUCT_BUDGET = 21000;
 
   const ASSESSMENT_RANK = {
     "EXCEPTIONAL DEAL": 0,
@@ -11,19 +19,119 @@
     "SOLD/REMOVED": 5,
   };
 
+  const CATEGORY_META = {
+    ev: { id: "ev", label: "EVs", chip: "cat-ev" },
+    mach_e: { id: "mach_e", label: "Mach-E", chip: "cat-mache" },
+    suv_hyundai: { id: "suv_hyundai", label: "Hyundai SUVs", chip: "cat-suv" },
+    suv_mazda: { id: "suv_mazda", label: "Mazda SUVs", chip: "cat-suv" },
+    suv_toyota: { id: "suv_toyota", label: "Toyota SUVs", chip: "cat-suv" },
+    other: { id: "other", label: "Other", chip: "cat-other" },
+  };
+
+  const FILTER_CHIPS = [
+    { id: "all", label: "All" },
+    { id: "ev", label: "EVs" },
+    { id: "mach_e", label: "Mach-E" },
+    { id: "suv_hyundai", label: "Hyundai SUVs" },
+    { id: "suv_mazda", label: "Mazda SUVs" },
+    { id: "suv_toyota", label: "Toyota SUVs" },
+  ];
+
   const state = {
     filters: {
       assessment: "",
       status: "",
       seller_type: "",
+      category: "all",
       max_distance: "",
       max_miles: "",
       min_year: "",
       favorites_only: false,
+      include_over_budget: false,
       q: "",
     },
     selectedId: null,
   };
+
+  function budgetCap(watchlist) {
+    const fromWl = Number(watchlist && watchlist.max_purchase_price);
+    if (!Number.isNaN(fromWl) && fromWl > 0) return Math.min(fromWl, PRODUCT_BUDGET);
+    return PRODUCT_BUDGET;
+  }
+
+  function realAsk(c) {
+    if (c == null) return null;
+    if (c.ask_price != null && c.ask_price !== "") return Number(c.ask_price);
+    if (c.real_price_est != null && c.real_price_est !== "") return Number(c.real_price_est);
+    return null;
+  }
+
+  function isOverBudget(c, budget) {
+    const p = realAsk(c);
+    if (p == null || Number.isNaN(p)) return false;
+    return p > budget;
+  }
+
+  function isPrivate(seller) {
+    return String(seller || "").toLowerCase() === "private";
+  }
+
+  /** Use Maggie category when present; otherwise infer conservatively. */
+  function resolveCategory(c) {
+    const raw = c && c.category != null ? String(c.category).trim() : "";
+    if (raw && CATEGORY_META[raw]) return raw;
+    if (raw === "ev" || raw === "mach_e" || raw === "suv_hyundai" || raw === "suv_mazda" || raw === "suv_toyota")
+      return raw;
+    const hay = [c && c.make, c && c.model, c && c.title, c && c.trim, c && c.notes, c && c.id]
+      .map((x) => String(x || "").toLowerCase())
+      .join(" ");
+    if (/mach[\s\-]?e\b|mustang\s+mach|mach-e/.test(hay) || /mache/.test(hay.replace(/\s+/g, ""))) {
+      return "mach_e";
+    }
+    // Ford Mustang Mach-E VIN prefix (existing watchlist rows lack category/make/model)
+    if (c && c.vin && /^3FMT/i.test(String(c.vin))) return "mach_e";
+    return "other";
+  }
+
+  function categoryLabel(cat) {
+    return (CATEGORY_META[cat] && CATEGORY_META[cat].label) || "Unknown";
+  }
+
+  function categoryChipClass(cat) {
+    return (CATEGORY_META[cat] && CATEGORY_META[cat].chip) || "cat-other";
+  }
+
+  function displayTitle(c) {
+    const year = c.year != null ? String(c.year) : "";
+    const make = c.make ? String(c.make).trim() : "";
+    const model = c.model ? String(c.model).trim() : "";
+    const trim = c.trim ? String(c.trim).trim() : "";
+    if (make || model) {
+      return [year, make, model, trim].filter(Boolean).join(" ").trim();
+    }
+    const cat = resolveCategory(c);
+    if (cat === "mach_e" && (year || trim)) {
+      return [year, "Mach-E", trim].filter(Boolean).join(" ").trim();
+    }
+    return [year, trim].filter(Boolean).join(" ").trim() || c.id;
+  }
+
+  function geoPreferScore(c) {
+    // Lower is better. geo_tier 1 = Las Vegas / Southern Nevada.
+    if (c.geo_tier != null && c.geo_tier !== "") {
+      const t = Number(c.geo_tier);
+      if (!Number.isNaN(t)) return t;
+    }
+    const loc = String(c.location || "").toLowerCase();
+    if (/\blas vegas\b|\bhenderson\b|\bmesquite\b|\bnevada\b|\bnv\b/.test(loc)) return 1;
+    if (c.distance_mi != null && !Number.isNaN(Number(c.distance_mi))) {
+      const d = Number(c.distance_mi);
+      if (d <= 80) return 1;
+      if (d <= 250) return 2;
+      return 3;
+    }
+    return 9;
+  }
 
   function assessmentChip(assessment) {
     if (assessment === "EXCEPTIONAL DEAL") return "exceptional";
@@ -49,12 +157,13 @@
 
   function initialsPlaceholder(c) {
     const y = c.year != null ? String(c.year).slice(-2) : "??";
-    const trim = String(c.trim || "ME").trim();
-    const parts = trim.split(/\s+/).filter(Boolean);
+    const make = String(c.make || "").trim();
+    const model = String(c.model || c.trim || "VE").trim();
+    const parts = (make ? make + " " + model : model).split(/\s+/).filter(Boolean);
     const letters =
-      (parts[0] ? parts[0][0] : "M") +
+      (parts[0] ? parts[0][0] : "V") +
       (parts[1] ? parts[1][0] : parts[0] && parts[0][1] ? parts[0][1] : "E");
-    return { mono: (y + letters).toUpperCase().slice(0, 4), label: `${c.year || ""} ${c.trim || ""}`.trim() };
+    return { mono: (y + letters).toUpperCase().slice(0, 4), label: displayTitle(c) };
   }
 
   function uniqueValues(candidates, key) {
@@ -65,13 +174,32 @@
     return Array.from(set).sort();
   }
 
-  function applyFilters(candidates) {
+  function categoryCounts(candidates) {
+    const counts = { all: candidates.length };
+    for (const chip of FILTER_CHIPS) {
+      if (chip.id === "all") continue;
+      counts[chip.id] = 0;
+    }
+    counts.other = 0;
+    for (const c of candidates) {
+      const cat = resolveCategory(c);
+      if (counts[cat] == null) counts[cat] = 0;
+      counts[cat] += 1;
+    }
+    return counts;
+  }
+
+  function applyFilters(candidates, budget) {
     const f = state.filters;
     return candidates.filter((c) => {
       if (f.assessment && c.assessment !== f.assessment) return false;
       if (f.status && c.status !== f.status) return false;
       if (f.seller_type && String(c.seller_type).toLowerCase() !== f.seller_type.toLowerCase())
         return false;
+      if (f.category && f.category !== "all") {
+        if (resolveCategory(c) !== f.category) return false;
+      }
+      if (!f.include_over_budget && isOverBudget(c, budget)) return false;
       if (f.max_distance !== "" && f.max_distance != null) {
         const maxD = Number(f.max_distance);
         if (!Number.isNaN(maxD) && (c.distance_mi == null || Number(c.distance_mi) > maxD))
@@ -90,6 +218,8 @@
         const q = f.q.toLowerCase();
         const hay = [
           c.id,
+          c.make,
+          c.model,
           c.trim,
           c.location,
           c.vin,
@@ -98,6 +228,9 @@
           c.status,
           c.why_interesting,
           c.concerns,
+          c.category,
+          resolveCategory(c),
+          categoryLabel(resolveCategory(c)),
         ]
           .map((x) => String(x || "").toLowerCase())
           .join(" ");
@@ -107,28 +240,56 @@
     });
   }
 
-  function sortCandidates(list) {
+  /**
+   * Ranking: active-ish first; then assessment tier; private > dealer;
+   * estimated_savings desc; price asc; Las Vegas / Southern Nevada (geo) first on ties.
+   * Over-budget sorts below in-budget when both are shown.
+   */
+  function sortCandidates(list, budget) {
+    const cap = budget != null ? budget : PRODUCT_BUDGET;
     return list.slice().sort((a, b) => {
+      const aDead = DEADISH.has(a.status) ? 1 : 0;
+      const bDead = DEADISH.has(b.status) ? 1 : 0;
+      if (aDead !== bDead) return aDead - bDead;
+
       const aActive = ACTIVEish.has(a.status) ? 0 : 1;
       const bActive = ACTIVEish.has(b.status) ? 0 : 1;
       if (aActive !== bActive) return aActive - bActive;
+
+      const aOver = isOverBudget(a, cap) ? 1 : 0;
+      const bOver = isOverBudget(b, cap) ? 1 : 0;
+      if (aOver !== bOver) return aOver - bOver;
+
       const ra = ASSESSMENT_RANK[a.assessment] != null ? ASSESSMENT_RANK[a.assessment] : 9;
       const rb = ASSESSMENT_RANK[b.assessment] != null ? ASSESSMENT_RANK[b.assessment] : 9;
       if (ra !== rb) return ra - rb;
-      // Within tier: estimated_savings desc if present, else ask_price asc
+
+      const privA = isPrivate(a.seller_type) ? 0 : 1;
+      const privB = isPrivate(b.seller_type) ? 0 : 1;
+      if (privA !== privB) return privA - privB;
+
       const savA = a.estimated_savings != null ? Number(a.estimated_savings) : null;
       const savB = b.estimated_savings != null ? Number(b.estimated_savings) : null;
       if (savA != null && savB != null && savA !== savB) return savB - savA;
       if (savA != null && savB == null) return -1;
       if (savA == null && savB != null) return 1;
-      const pa = a.ask_price != null ? Number(a.ask_price) : 999999;
-      const pb = b.ask_price != null ? Number(b.ask_price) : 999999;
-      return pa - pb;
+
+      const pa = realAsk(a);
+      const pb = realAsk(b);
+      const priceA = pa != null && !Number.isNaN(pa) ? pa : 999999;
+      const priceB = pb != null && !Number.isNaN(pb) ? pb : 999999;
+      if (priceA !== priceB) return priceA - priceB;
+
+      const ga = geoPreferScore(a);
+      const gb = geoPreferScore(b);
+      if (ga !== gb) return ga - gb;
+
+      return 0;
     });
   }
 
   function marketValueHtml(c) {
-    const { money, escapeHtml } = MartinData;
+    const { money } = MartinData;
     if (c.market_value_low != null && c.market_value_high != null) {
       return `<span class="mv-band">Market ${money(c.market_value_low)}–${money(c.market_value_high)}</span>`;
     }
@@ -224,8 +385,22 @@
       </div>`;
   }
 
-  function renderFilters(candidates) {
+  function renderCategoryChips(candidates) {
     const { escapeHtml } = MartinData;
+    const counts = categoryCounts(candidates);
+    const cur = state.filters.category || "all";
+    const buttons = FILTER_CHIPS.filter((chip) => chip.id === "all" || (counts[chip.id] || 0) > 0)
+      .map((chip) => {
+        const n = counts[chip.id] || 0;
+        const active = cur === chip.id ? "active" : "";
+        return `<button type="button" class="cat-filter-chip ${active}" data-category="${escapeHtml(chip.id)}">${escapeHtml(chip.label)} <span class="cat-count">${n}</span></button>`;
+      })
+      .join("");
+    return `<div class="cat-filter-bar" role="toolbar" aria-label="Vehicle category">${buttons}</div>`;
+  }
+
+  function renderFilters(candidates, budget) {
+    const { escapeHtml, money } = MartinData;
     const assessments = uniqueValues(candidates, "assessment");
     const statuses = uniqueValues(candidates, "status");
     const sellers = uniqueValues(candidates, "seller_type");
@@ -238,7 +413,10 @@
         )
         .join("");
 
+    const overCount = candidates.filter((c) => isOverBudget(c, budget)).length;
+
     return `
+      ${renderCategoryChips(candidates)}
       <form class="filter-bar" id="mp-filters" autocomplete="off">
         <label>Assessment
           <select name="assessment">
@@ -270,19 +448,23 @@
         <label class="check-label">
           <input type="checkbox" name="favorites_only" ${f.favorites_only ? "checked" : ""} /> Favorites
         </label>
+        <label class="check-label" title="${overCount} listings above ${money(budget)}">
+          <input type="checkbox" name="include_over_budget" ${f.include_over_budget ? "checked" : ""} /> Include over budget
+        </label>
         <label class="grow">Search
-          <input type="search" name="q" placeholder="trim, VIN, location…" value="${escapeHtml(f.q)}" />
+          <input type="search" name="q" placeholder="make, model, VIN, location…" value="${escapeHtml(f.q)}" />
         </label>
         <button type="button" class="btn-ghost" id="mp-clear-filters">Clear</button>
       </form>`;
   }
 
-  function renderListRow(c) {
+  function renderListRow(c, budget) {
     const { money, miles, escapeHtml } = MartinData;
-    const title = `${c.year || ""} ${c.trim || ""}`.trim() || c.id;
+    const title = displayTitle(c);
     const chip = assessmentChip(c.assessment);
     const fav = MartinData.isFavorite(c.id);
     const selected = state.selectedId === c.id ? "selected" : "";
+    const over = isOverBudget(c, budget);
     const dist = c.distance_mi != null ? `${c.distance_mi} mi` : "—";
     const src = photoUrl(c);
     const ph = initialsPlaceholder(c);
@@ -293,13 +475,23 @@
       c.estimated_savings != null
         ? `<span class="save-chip">~${money(c.estimated_savings)} under</span>`
         : "";
+    const cat = resolveCategory(c);
+    const makeModel = [c.make, c.model].filter(Boolean).join(" ");
+    const privBadge = isPrivate(c.seller_type) ? `<span class="badge private-badge">Private</span>` : "";
+    const overBadge = over ? `<span class="badge over-budget-badge">Over budget</span>` : "";
+    const deadClass = DEADISH.has(c.status) ? "is-dead" : "";
     return `
-      <button type="button" class="mp-row mp-row-card ${selected}" data-id="${escapeHtml(c.id)}">
+      <button type="button" class="mp-row mp-row-card ${selected} ${over ? "is-over-budget" : ""} ${deadClass}" data-id="${escapeHtml(c.id)}">
         ${thumb}
         <span class="mp-row-main">
           <span class="mp-row-title">${fav ? "★ " : ""}${escapeHtml(title)}</span>
-          <span class="mp-row-sub">${escapeHtml(c.location || "—")} · ${escapeHtml(c.seller_type || "—")} · ${escapeHtml(dist)}${c.geo_tier != null ? ` · geo ${escapeHtml(String(c.geo_tier))}` : ""}</span>
-          <span class="mp-row-mv">${marketValueHtml(c)} ${save}</span>
+          <span class="mp-row-sub">${escapeHtml(c.location || "—")} · ${escapeHtml(c.seller_type || "—")} · ${escapeHtml(dist)}${c.geo_tier != null ? ` · geo ${escapeHtml(String(c.geo_tier))}` : ""}${makeModel ? ` · ${escapeHtml(makeModel)}` : ""}</span>
+          <span class="mp-row-mv">
+            <span class="badge category-chip ${categoryChipClass(cat)}">${escapeHtml(categoryLabel(cat))}</span>
+            ${privBadge}
+            ${overBadge}
+            ${marketValueHtml(c)} ${save}
+          </span>
         </span>
         <span class="mp-row-meta">
           <span class="mp-row-price">${money(c.ask_price)}</span>
@@ -329,17 +521,17 @@
       )
       .join("");
     return `<div class="photo-gallery">
-      <div class="photo-hero"><img id="mp-hero-img" src="${escapeHtml(hero)}" alt="${escapeHtml((c.year || "") + " " + (c.trim || ""))}" referrerpolicy="no-referrer" /></div>
+      <div class="photo-hero"><img id="mp-hero-img" src="${escapeHtml(hero)}" alt="${escapeHtml(displayTitle(c))}" referrerpolicy="no-referrer" /></div>
       <div class="photo-strip">${strip}</div>
     </div>`;
   }
 
-  function renderDetail(c, watchlist) {
+  function renderDetail(c, watchlist, budget) {
     const { money, miles, escapeHtml, formatTs, formatDate } = MartinData;
     if (!c) {
       return `<div class="detail-empty"><p class="empty-state">Select a candidate to see photos, notes, price history, and deal context.</p></div>`;
     }
-    const title = `${c.year || ""} ${c.trim || ""}`.trim() || c.id;
+    const title = displayTitle(c);
     const chip = assessmentChip(c.assessment);
     const fav = MartinData.isFavorite(c.id);
     const spark = sparklineSvg(c.price_history);
@@ -350,6 +542,10 @@
       c.estimated_savings != null
         ? `<div class="save-lg">Est. savings ${money(c.estimated_savings)}</div>`
         : "";
+    const cat = resolveCategory(c);
+    const over = isOverBudget(c, budget);
+    const privBadge = isPrivate(c.seller_type) ? `<span class="badge private-badge">Private</span>` : "";
+    const overBadge = over ? `<span class="badge over-budget-badge">Over budget</span>` : "";
 
     const why = c.why_interesting
       ? `<section class="detail-section why"><h4>Why interesting</h4><p class="notes-body">${escapeHtml(c.why_interesting)}</p></section>`
@@ -359,13 +555,16 @@
       : "";
 
     return `
-      <div class="detail-pane" data-detail-id="${escapeHtml(c.id)}">
+      <div class="detail-pane ${over ? "is-over-budget" : ""}" data-detail-id="${escapeHtml(c.id)}">
         ${renderPhotoGallery(c)}
         <div class="detail-header">
           <div>
             <h3>${escapeHtml(title)}</h3>
             <div class="detail-sub">
               <span class="badge ${chip} deal-badge">${escapeHtml(c.assessment || "")}</span>
+              <span class="badge category-chip ${categoryChipClass(cat)}">${escapeHtml(categoryLabel(cat))}</span>
+              ${privBadge}
+              ${overBadge}
               <span class="status-pill">${escapeHtml(c.status || "")}</span>
               <span>${escapeHtml(c.seller_type || "—")}</span>
               <span>${escapeHtml(c.location || "—")}</span>
@@ -382,7 +581,7 @@
         <div class="detail-price-row">
           <div>
             <div class="price-lg">${money(c.ask_price)}</div>
-            <div class="muted">ask · est ${money(c.real_price_est)}</div>
+            <div class="muted">ask · est ${money(c.real_price_est)} · budget ${money(budget)}</div>
             ${save}
             <div class="mv-detail">${marketValueHtml(c)}</div>
           </div>
@@ -391,6 +590,9 @@
         </div>
         ${medianHint(c, watchlist)}
         <dl class="detail-grid">
+          <div><dt>Make</dt><dd>${escapeHtml(c.make || "—")}</dd></div>
+          <div><dt>Model</dt><dd>${escapeHtml(c.model || "—")}</dd></div>
+          <div><dt>Category</dt><dd>${escapeHtml(categoryLabel(cat))}${c.category ? "" : " <span class=\"muted\">(inferred)</span>"}</dd></div>
           <div><dt>VIN</dt><dd>${escapeHtml(c.vin || "—")}</dd></div>
           <div><dt>Title</dt><dd>${escapeHtml(c.title_status || "—")}</dd></div>
           <div><dt>Drivetrain</dt><dd>${escapeHtml(c.drivetrain || "—")}</dd></div>
@@ -420,7 +622,7 @@
     return (data.watchlist.candidates || []).find((c) => c.id === id) || null;
   }
 
-  function bindEvents(data) {
+  function bindEvents(data, budget) {
     const form = document.getElementById("mp-filters");
     if (form) {
       const applyFromForm = () => {
@@ -432,6 +634,8 @@
         state.filters.max_miles = String(fd.get("max_miles") || "");
         state.filters.min_year = String(fd.get("min_year") || "");
         state.filters.favorites_only = form.querySelector('[name="favorites_only"]').checked;
+        const overEl = form.querySelector('[name="include_over_budget"]');
+        state.filters.include_over_budget = overEl ? overEl.checked : false;
         state.filters.q = String(fd.get("q") || "");
         paint(data);
       };
@@ -456,15 +660,24 @@
           assessment: "",
           status: "",
           seller_type: "",
+          category: "all",
           max_distance: "",
           max_miles: "",
           min_year: "",
           favorites_only: false,
+          include_over_budget: false,
           q: "",
         };
         paint(data);
       });
     }
+
+    document.querySelectorAll(".cat-filter-chip").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        state.filters.category = btn.getAttribute("data-category") || "all";
+        paint(data);
+      });
+    });
 
     document.querySelectorAll(".mp-row").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -501,8 +714,10 @@
       root.innerHTML = `<p class="empty-state">Watchlist missing from dist/data/marketplace/watchlist.json</p>`;
       return;
     }
+    const budget = budgetCap(wl);
     const all = Array.isArray(wl.candidates) ? wl.candidates : [];
-    const filtered = sortCandidates(applyFilters(all));
+    const filtered = sortCandidates(applyFilters(all, budget), budget);
+    const inBudgetCount = all.filter((c) => !isOverBudget(c, budget)).length;
 
     let selected = findCandidate(data, state.selectedId);
 
@@ -515,28 +730,30 @@
 
     root.innerHTML = `
       ${renderRunCoverage(data.dailyHunt)}
-      ${renderFilters(all)}
+      ${renderFilters(all, budget)}
       <div class="mp-layout">
         <div class="mp-list-pane">
           <div class="mp-list-header">
             <strong>${filtered.length}</strong> of ${all.length} candidates
-            · ranked Exceptional → Avoid
+            · budget ${MartinData.money(budget)}
+            · ${inBudgetCount} ≤ budget
+            · ranked deal quality · private first
             · <a href="#/">← Home</a>
           </div>
           <div class="mp-list" role="list">
             ${
               filtered.length
-                ? filtered.map(renderListRow).join("")
+                ? filtered.map((c) => renderListRow(c, budget)).join("")
                 : `<p class="empty-state">No candidates match these filters.</p>`
             }
           </div>
         </div>
         <div class="mp-detail-pane" id="mp-detail">
-          ${missingFavNote || renderDetail(selected, wl)}
+          ${missingFavNote || renderDetail(selected, wl, budget)}
         </div>
       </div>`;
 
-    bindEvents(data);
+    bindEvents(data, budget);
   }
 
   function render(data, route) {
@@ -545,10 +762,19 @@
     const lead = document.querySelector("#view-marketplace > .lead");
     if (lead) {
       lead.textContent =
-        "Mach-E watchlist from Maggie — photo cards, deal ranking, market value bands. Favorites stay in localStorage.";
+        "Vehicle deals from Maggie — EVs, Hyundai/Mazda/Toyota SUVs, and Mach-E when it fits. $21k max · Las Vegas focus · private-party weighted. Favorites stay in localStorage.";
     }
     paint(data);
   }
 
-  global.MarketplaceModule = { render, state, sortCandidates };
+  global.MarketplaceModule = {
+    render,
+    state,
+    sortCandidates,
+    resolveCategory,
+    budgetCap,
+    PRODUCT_BUDGET,
+    isOverBudget,
+    displayTitle,
+  };
 })(window);
