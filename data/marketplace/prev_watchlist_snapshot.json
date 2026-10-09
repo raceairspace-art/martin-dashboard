@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-07T12:30:00-07:00",
+  "updated_at": "2026-10-09T07:40:00-07:00",
   "search_base": "Las Vegas, NV",
   "max_purchase_price": 21000,
   "preferred_max_miles": null,
-  "criteria_notes": "REFACTORED 2026-10-07 per Michael: Las Vegas metro / Southern Nevada first (geo_tier 1); tier 2 (~250 mi) only for exceptional private or clearly under-market cars; skip distant SoCal/UT unless exceptional. Max real purchase price $21,000 (cash OTD target). Clean title only (salvage/rebuilt = AVOID). Targets: any EV <= $21k; Hyundai SUVs (Tucson, Santa Fe, Kona, Venue, Palisade); Mazda SUVs (CX-3/CX-30/CX-5/CX-50/CX-9/CX-90); Toyota SUVs (RAV4, Highlander, Corolla Cross, Venza, 4Runner); Mach-E only if <= $21k. Rank by best deal overall; private-party ranked above comparable dealer deals. No hard mileage cap (judged vs year/price). Prior Mach-E ($25k) history retained: over-$21k Mach-Es set status over_budget/AVOID with prior_assessment_25k_budget kept; non-local flagged deprioritized=true.",
+  "criteria_notes": "REFACTORED 2026-10-07 per Michael: Las Vegas metro / Southern Nevada first (geo_tier 1); tier 2 (~250 mi) only for exceptional private or clearly under-market cars; skip distant SoCal/UT unless exceptional. Max real purchase price $21,000 (cash OTD target). Clean title only (salvage/rebuilt = AVOID). Targets: any EV <= $21k; Hyundai SUVs (Tucson, Santa Fe, Kona, Venue, Palisade); Mazda SUVs (CX-3/CX-30/CX-5/CX-50/CX-9/CX-90); Toyota SUVs (RAV4, Highlander, Corolla Cross, Venza, 4Runner); Mach-E only if <= $21k. Rank by best deal overall; private-party ranked above comparable dealer deals. No hard mileage cap (judged vs year/price). Prior Mach-E ($25k) history retained: over-$21k Mach-Es set status over_budget/AVOID with prior_assessment_25k_budget kept; non-local flagged deprioritized=true. | 2026-10-09: daily run (catch-up for failed 10-08 run).",
   "market_snapshot": {
     "as_of": "2026-10-07",
     "sources": [
@@ -123,7 +123,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cl-phoenix-2024-select-24988",
@@ -207,7 +208,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "teamford-3FMTK1RM5MMA20455",
@@ -228,7 +230,7 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-07T07:20:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-09-30",
@@ -266,7 +268,7 @@
         }
       ],
       "status": "active",
-      "notes": "Local. Cash price $20,687 stated. Miles over 50k preferred. 2021 Select national median ~$23.6k mixed miles. Confirm doc fees/OTD, Carfax, open recalls 22S41/23S56/25S14 for 2021-2022. | 2026-10-04: recheck live. | 2026-10-05: Team Ford VDP re-verified price $20,687; CarGurus LV $20,687 Fair Deal | 2026-10-06: Team Ford VDP live; CarGurus LV $20,687 Fair Deal | 2026-10-07: PRICE DROP on CarGurus LV $20,687 -> $20,316 (-$371) \"price includes fees\"; Team Ford VDP JSON still $20,687 \u2014 confirm which is current",
+      "notes": "Local. Cash price $20,687 stated. Miles over 50k preferred. 2021 Select national median ~$23.6k mixed miles. Confirm doc fees/OTD, Carfax, open recalls 22S41/23S56/25S14 for 2021-2022. | 2026-10-04: recheck live. | 2026-10-05: Team Ford VDP re-verified price $20,687; CarGurus LV $20,687 Fair Deal | 2026-10-06: Team Ford VDP live; CarGurus LV $20,687 Fair Deal | 2026-10-07: PRICE DROP on CarGurus LV $20,687 -> $20,316 (-$371) \"price includes fees\"; Team Ford VDP JSON still $20,687 \u2014 confirm which is current | 2026-10-09: VDP still live (HTTP 200); price string $20,316 still on page.",
       "geo_tier": 1,
       "why_interesting": "Local Team Ford 2021 Select cash $20,687; notes cite 2021 Select national median ~$23.6k mixed miles.",
       "concerns": "Miles over 50k preferred (65,483); confirm doc fees/OTD, Carfax, open recalls 22S41/23S56/25S14.",
@@ -280,10 +282,11 @@
         "https://content.homenetiol.com/2000157/2065512/0x0/c92da8a93ade4faba67146d0a652ecaa.jpg",
         "https://content.homenetiol.com/2000157/2065512/0x0/cdb210a7b1ea43b3b23514acb7c65111.jpg"
       ],
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": 24
     },
     {
       "id": "teamford-3FMTK1RM6NMA17680",
@@ -360,7 +363,8 @@
       "make": "Ford",
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
-      "prior_status": "active"
+      "prior_status": "active",
+      "priority_rank": null
     },
     {
       "id": "cargurus-mesquite-445358242",
@@ -409,7 +413,8 @@
       "concerns": "",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-fontana-3FMTK1RM7PMA31025",
@@ -464,7 +469,8 @@
       "photos": [],
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-simi-28876mi",
@@ -554,7 +560,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-simi-20340mi-3FMTK1RM2PMA46211",
@@ -603,7 +610,8 @@
       "concerns": "",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-noho-3FMTK1R40PMA63900",
@@ -661,7 +669,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-chino-3FMTK1RM0PMA14552",
@@ -721,7 +730,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active_possibly_stale",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cl-norco-3FMTK1RM4MMA25274",
@@ -806,7 +816,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cl-lv-globul-3FMTK3RM1NMA16206",
@@ -894,7 +905,8 @@
       "make": "Ford",
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
-      "prior_status": "active"
+      "prior_status": "active",
+      "priority_rank": null
     },
     {
       "id": "gaudin-3FMTK3R70NMA11783",
@@ -942,7 +954,8 @@
       "concerns": "",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-lv-447127468-UNVERIFIED",
@@ -995,7 +1008,8 @@
       "concerns": "",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cl-scam-bait-santa-rosa-monthly",
@@ -1031,7 +1045,8 @@
       "concerns": "",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "gaudin-3FMTK1R42PMA92816",
@@ -1106,7 +1121,8 @@
       "updated_at": "2026-10-04T07:20:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-lv-3FMTK1RM7PMA45961",
@@ -1175,7 +1191,8 @@
       "concerns": "",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-lv-3FMTK1RM4PMA18362",
@@ -1254,7 +1271,8 @@
       "make": "Ford",
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
-      "prior_status": "active"
+      "prior_status": "active",
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-vannuys-3FMTK1RM1PMA17346",
@@ -1323,7 +1341,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cl-norco-2023-3FMTK1RM9PMA39997",
@@ -1404,7 +1423,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "findmyelectric-la-private-3FMTK1SS2NMA45534",
@@ -1477,7 +1497,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active_possibly_stale",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-valencia-premium-3FMTK3RM2NMA02332",
@@ -1553,7 +1574,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-simi-20447mi-3FMTK1RM6PMA30660",
@@ -1633,7 +1655,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "desert215-3FMTK1RM0NMA44504",
@@ -1711,7 +1734,8 @@
       "make": "Ford",
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
-      "prior_status": "active"
+      "prior_status": "active",
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-yucca-3FMTK3RM9MMA45662",
@@ -1775,7 +1799,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-cerritos-3FMTK1RM0NMA17965",
@@ -1852,7 +1877,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-ontario-3FMTK3R77PMA68355",
@@ -1911,7 +1937,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-vannuys-awd-3FMTK1SS0MMA43635",
@@ -1961,7 +1988,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-hb-3FMTK1RM1PMA40612",
@@ -2028,7 +2056,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-norco-premium-3FMTK3R48PMA73909",
@@ -2099,7 +2128,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-orange-3FMTK1R49PMA63071",
@@ -2163,7 +2193,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cl-sd-autofinders-3FMTK2R77MMA36401",
@@ -2240,7 +2271,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cl-sd-autofinders-3FMTK2R75MMA26160",
@@ -2313,7 +2345,8 @@
       "concerns": "60,153 mi; 2021 MY; ~330 mi; financing-bait style ad.",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
@@ -2372,7 +2405,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-longbeach-3FMTK1RMXPMA29351",
@@ -2434,7 +2468,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-longbeach-3FMTK1R48PMA67435",
@@ -2491,7 +2526,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-noho-3FMTK1R46PMA68437",
@@ -2558,7 +2594,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-santana-3FMTK3SU6NMA11416",
@@ -2606,7 +2643,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active_possibly_stale",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-chino-3FMTK1R42PMA62408",
@@ -2673,7 +2711,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-anaheim-3FMTK1RM4NMA17483",
@@ -2740,7 +2779,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-buenapark-3FMTK1RM1MMA55171",
@@ -2801,7 +2841,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "friendlyford-3FMTK1R48PMA69069",
@@ -2851,7 +2892,8 @@
       "estimated_savings": null,
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-lv-henderson-3FMTK3SU3PMA06077",
@@ -2909,7 +2951,8 @@
       "make": "Ford",
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
-      "prior_status": "active"
+      "prior_status": "active",
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM2PMA46659",
@@ -2966,7 +3009,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM4PMA30821",
@@ -3021,7 +3065,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK3R74MMA39228",
@@ -3081,7 +3126,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM4PMA14764",
@@ -3141,7 +3187,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM0PMA46613",
@@ -3195,7 +3242,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active_possibly_stale",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM7PMA40680",
@@ -3250,7 +3298,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM1PMA13202",
@@ -3305,7 +3354,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1SS1PMA09367",
@@ -3360,7 +3410,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM1MMA06049",
@@ -3422,7 +3473,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM4NMA40066",
@@ -3482,7 +3534,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM7PMA18128",
@@ -3536,7 +3589,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active_possibly_stale",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM9PMA17949",
@@ -3591,7 +3645,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK3RM1NMA43258",
@@ -3646,7 +3701,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK3SU1MMA07014",
@@ -3701,7 +3757,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK3RMXNMA40410",
@@ -3761,7 +3818,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-3FMTK1R44PMA65245",
@@ -3817,7 +3875,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-3FMTK1RMXPMA17846",
@@ -3875,7 +3934,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-3FMTK1R49PMA64981",
@@ -3936,7 +3996,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-3FMTK1R40PMA76954",
@@ -3984,7 +4045,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-3FMTK1RM6PMA28312",
@@ -4050,7 +4112,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-3FMTK1RM9NMA08049",
@@ -4116,7 +4179,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-3FMTK1RM7NMA40479",
@@ -4180,7 +4244,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-3FMTK2R75MMA42309",
@@ -4246,7 +4311,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "fb-phx-18000-2021-select",
@@ -4292,7 +4358,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "fb-lv-21999-2022",
@@ -4344,7 +4411,8 @@
       "estimated_savings": null,
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-22999-2022",
@@ -4396,7 +4464,8 @@
       "estimated_savings": null,
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-woodlake-17900-2021",
@@ -4437,7 +4506,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "anderson-kingman-3FMTK1R41RMA02946",
@@ -4502,7 +4572,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM1PMA30128",
@@ -4555,7 +4626,8 @@
       "updated_at": "2026-10-06T08:05:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-montebello-3FMTK1RM6PMA15320",
@@ -4607,7 +4679,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active_possibly_stale",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "automatch-3FMTK1SU6RMA19574",
@@ -4672,7 +4745,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "STRONG DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "driveline-3FMTK3SU2PMA98170",
@@ -4721,7 +4795,8 @@
       "updated_at": "2026-10-05T07:45:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cl-scottsdale-private-3FMTK1RMXNMA14376",
@@ -4782,7 +4857,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1R47PMA65367",
@@ -4844,7 +4920,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM1PMA13264",
@@ -4906,7 +4983,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM2PMA40361",
@@ -4968,7 +5046,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM4PMA01335",
@@ -5021,7 +5100,8 @@
       "updated_at": "2026-10-06T08:05:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM8PMA46066",
@@ -5073,7 +5153,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM0PMA41024",
@@ -5125,7 +5206,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM8PMA28702",
@@ -5177,7 +5259,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1R43PMA63597",
@@ -5221,7 +5304,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM8PMA17621",
@@ -5265,7 +5349,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM1PMA40254",
@@ -5309,7 +5394,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM8PMA18266",
@@ -5353,7 +5439,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1R43PMA88337",
@@ -5405,7 +5492,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1RM7PMA27766",
@@ -5449,7 +5537,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK3R4XPMA74026",
@@ -5501,7 +5590,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1R44RMA16467",
@@ -5553,7 +5643,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK1SS0MMA10523",
@@ -5611,7 +5702,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK3RM9NMA04319",
@@ -5663,7 +5755,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK3RM5PMA26904",
@@ -5715,7 +5808,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "carscom-3FMTK3SU5MMA10577",
@@ -5767,7 +5861,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-chino-3FMTK1R41PMA92466",
@@ -5811,7 +5906,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-calabasas-3FMTK3R77MMA56170",
@@ -5865,7 +5961,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-lv-3FMTK3SU1MMA03531",
@@ -5911,7 +6008,8 @@
       "updated_at": "2026-10-06T08:05:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cl-elmonte-2025-select-premiumautos",
@@ -5975,7 +6073,8 @@
       "updated_at": "2026-10-07T07:20:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-23999-2021-premium-43074",
@@ -6028,7 +6127,8 @@
       "updated_at": "2026-10-07T12:30:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-nlv-23999-2021-premium",
@@ -6068,7 +6168,8 @@
       "updated_at": "2026-10-07T12:30:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-24598-2021-premium-rwd",
@@ -6113,7 +6214,8 @@
       "updated_at": "2026-10-07T12:30:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-22999-2022-premium",
@@ -6158,7 +6260,8 @@
       "updated_at": "2026-10-07T12:30:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-23999-2021-premium-43182",
@@ -6210,7 +6313,8 @@
       "updated_at": "2026-10-07T12:30:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-rsm-23900-2022-premium",
@@ -6251,7 +6355,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-ontario-3FMTK1R42PMA67561",
@@ -6300,7 +6405,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-lvdel-pacoima-3FMTK1RM8MMA35550",
@@ -6349,7 +6455,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-lvdel-fl-3FMTK1RM1NMA38341",
@@ -6398,7 +6505,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-lvdel-fl-3FMTK1R40PMB04283",
@@ -6447,7 +6555,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-carson-3FMTK3R73PMA55702",
@@ -6491,7 +6600,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-bloomington-3FMTK1RM2NMA44570",
@@ -6533,7 +6643,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-lvdel-sd-3FMTK3R73MMA47143",
@@ -6582,7 +6693,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-lvdel-mesa-3FMTK3RM8NMA57352",
@@ -6631,7 +6743,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-lvdel-fullerton-3FMTK3R72PMA13442",
@@ -6675,7 +6788,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-lvdel-to-3FMTK3SU6NMA17331",
@@ -6724,7 +6838,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-phx-3FMTK3R77MMA08734",
@@ -6773,7 +6888,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-phx-gilbert-3FMTK3R7XPMA63473",
@@ -6822,7 +6938,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-lv-3FMTK3R70NMA19267",
@@ -6868,7 +6985,8 @@
       "updated_at": "2026-10-07T07:20:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cl-mesa-3FMTK3SU0MMA03438",
@@ -6927,7 +7045,8 @@
       "updated_at": "2026-10-07T07:20:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-22999-2022-mustang-57461",
@@ -6968,7 +7087,8 @@
       "updated_at": "2026-10-07T12:30:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-23999-2021-premium-2177865613158353",
@@ -7009,7 +7129,8 @@
       "updated_at": "2026-10-07T12:30:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-phx-24688-2024-select",
@@ -7051,7 +7172,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "fb-mesa-18991-2021-premium",
@@ -7093,7 +7215,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "fb-phx-21000-2021-premium",
@@ -7135,7 +7258,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "fb-mesa-19794-2021-first-edition",
@@ -7181,7 +7305,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "fb-mesa-24100-2025-premium",
@@ -7223,7 +7348,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "fb-phx-100-2021-select-bait",
@@ -7264,7 +7390,8 @@
       "updated_at": "2026-10-06T07:34:53-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-jurupa-687-2025-gt-bait",
@@ -7305,7 +7432,8 @@
       "updated_at": "2026-10-06T07:34:53-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-vannuys-3FMTK1RM6PMA46308",
@@ -7349,7 +7477,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "FAIR DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-utah-provo-3FMTK1RMXNMA25619",
@@ -7391,7 +7520,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-fontana-3FMTK1RM0MMA06396",
@@ -7433,7 +7563,8 @@
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-orange-3FMTK3R73NMA26732",
@@ -7477,7 +7608,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-ca-pacoima-3FMTK3R45PMA65993",
@@ -7521,7 +7653,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-lvdel-hollywoodfl-3FMTK1SS8MMA25657",
@@ -7565,7 +7698,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-slc-3FMTK3SU3MMA10691",
@@ -7609,7 +7743,8 @@
       "model": "Mustang Mach-E",
       "prior_assessment_25k_budget": "WEAK DEAL",
       "prior_status": "active",
-      "deprioritized": true
+      "deprioritized": true,
+      "priority_rank": null
     },
     {
       "id": "cargurus-slc-draper-3FMTK3SS9MMA19507",
@@ -7650,7 +7785,8 @@
       "updated_at": "2026-10-07T07:20:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-slc-3FMTK1SS2NMA07995",
@@ -7691,7 +7827,8 @@
       "updated_at": "2026-10-07T07:20:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cargurus-phx-chandler-3FMTK1RM6PMA14927",
@@ -7732,7 +7869,8 @@
       "updated_at": "2026-10-07T07:20:00-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-26376-2023-premium-rwd-48508",
@@ -7775,7 +7913,8 @@
       "updated_at": "2026-10-07T07:23:28-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-henderson-28815-2023-premium-16105",
@@ -7818,7 +7957,8 @@
       "updated_at": "2026-10-07T07:23:28-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-32269-2023-gt",
@@ -7859,7 +7999,8 @@
       "updated_at": "2026-10-07T07:23:28-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-36779-2023-gt",
@@ -7900,7 +8041,8 @@
       "updated_at": "2026-10-07T07:23:28-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "fb-lv-34299-2025-select",
@@ -7941,7 +8083,8 @@
       "updated_at": "2026-10-07T07:23:28-07:00",
       "category": "mach_e",
       "make": "Ford",
-      "model": "Mustang Mach-E"
+      "model": "Mustang Mach-E",
+      "priority_rank": null
     },
     {
       "id": "cl-lv-1N4AZ1CPXKC308583",
@@ -7966,7 +8109,7 @@
       "title_status": "clean (CL attr; seller: clean title in hand)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -7975,7 +8118,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-09-27. Duplicate CL post: https://www.craigslist.org/view/d/las-vegas-2019-nissan-leaf-sv-all/2ZVECbrjSb4TDXmE1c81Hj . Comps: CarGurus 2019 LEAF avg $12,143 (nationwide, all trims/miles); VinAssessment 2019 median $12,543.",
+      "notes": "Posted 2026-09-27. Duplicate CL post: https://www.craigslist.org/view/d/las-vegas-2019-nissan-leaf-sv-all/2ZVECbrjSb4TDXmE1c81Hj . Comps: CarGurus 2019 LEAF avg $12,143 (nationwide, all trims/miles); VinAssessment 2019 median $12,543. | 2026-10-09: re-verified live on Craigslist at same price ($9,995).",
       "photos": [
         "https://images.craigslist.org/00t0t_3a9C2Z7bGYw_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/00g0g_hD6Ab6rE4j9_0CI0t2_600x450.jpg",
@@ -7988,7 +8131,7 @@
       "market_value_low": 12143,
       "market_value_high": 12543,
       "estimated_savings": 2348,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": 1
     },
     {
@@ -8014,7 +8157,7 @@
       "title_status": "clean (CL attr; seller: clean Nevada title, smog in hand)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8023,7 +8166,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-10-04. Market band UNKNOWN for 2008 (VinAssessment table starts its visible rows at 2010 $15,500).",
+      "notes": "Posted 2026-10-04. Market band UNKNOWN for 2008 (VinAssessment table starts its visible rows at 2010 $15,500). | 2026-10-09: re-verified live on Craigslist at same price ($11,499).",
       "photos": [
         "https://images.craigslist.org/00f0f_ft0VB7ZzhML_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/01616_6donrvDpD9W_0CI0t2_600x450.jpg",
@@ -8043,8 +8186,8 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 12
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 14
     },
     {
       "id": "cl-lv-bolt-2020-xosiJxpR",
@@ -8069,7 +8212,7 @@
       "title_status": "lien (Capital One loan; seller will handle payoff/transfer)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8078,7 +8221,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-10-01. Comps: CarGurus LV dealer 2020 Bolt 53,587 mi $15,596; VinAssessment 2020 Bolt EV median $16,458.",
+      "notes": "Posted 2026-10-01. Comps: CarGurus LV dealer 2020 Bolt 53,587 mi $15,596; VinAssessment 2020 Bolt EV median $16,458. | 2026-10-09: re-verified live on Craigslist at same price ($15,800).",
       "photos": [
         "https://images.craigslist.org/00p0p_aUBJrYDc3ap_0t20CI_600x450.jpg",
         "https://images.craigslist.org/00u0u_jud3IvidRH3_0t20CI_600x450.jpg",
@@ -8096,8 +8239,8 @@
       "market_value_low": 15596,
       "market_value_high": 16458,
       "estimated_savings": 227,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 13
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 15
     },
     {
       "id": "cl-lv-models-2014-1PmbKVfH",
@@ -8120,7 +8263,7 @@
       "battery": "UNKNOWN size; seller: charges to 260 mi, drive unit replaced ($7k) with warranty",
       "fuel": "electric",
       "title_status": "clean (CL attr)",
-      "assessment": "FAIR DEAL",
+      "assessment": "SOLD/REMOVED",
       "first_seen": "2026-10-07T12:30:00-07:00",
       "last_seen": "2026-10-07T12:30:00-07:00",
       "price_history": [
@@ -8128,10 +8271,15 @@
           "date": "2026-10-07",
           "price": 15500,
           "note": "first seen (local refactor run)"
+        },
+        {
+          "date": "2026-10-09",
+          "price": 15500,
+          "note": "listing gone (HTTP 410)"
         }
       ],
-      "status": "active",
-      "notes": "Posted 2026-09-07 (30 days). VinAssessment 2014 Model S median $14,942.",
+      "status": "sold_or_removed",
+      "notes": "Posted 2026-09-07 (30 days). VinAssessment 2014 Model S median $14,942. | 2026-10-09: Craigslist URL returns HTTP 410 (posting deleted/expired) and the post no longer appears in the SAPI search results \u2014 treated as sold/removed (could also be reposted under a new post id).",
       "photos": [
         "https://images.craigslist.org/00X0X_fJLkBqVeYEm_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/00T0T_eXR8SbdedcF_0CI0t2_600x450.jpg",
@@ -8151,8 +8299,10 @@
       "market_value_low": null,
       "market_value_high": 14942,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 14
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "prior_assessment_before_removal": "FAIR DEAL",
+      "prior_status": "active"
     },
     {
       "id": "cl-lv-leaf-unknownyr-kKhkTTX3",
@@ -8177,7 +8327,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8186,7 +8336,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-09-18, updated 09-23.",
+      "notes": "Posted 2026-09-18, updated 09-23. | 2026-10-09: re-verified live on Craigslist at same price ($5,500).",
       "photos": [
         "https://images.craigslist.org/00b0b_leVIzlqjvWU_0yY0t2_600x450.jpg",
         "https://images.craigslist.org/00E0E_8Nq04xUtJnJ_0t20CI_600x450.jpg",
@@ -8203,8 +8353,8 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": null
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 17
     },
     {
       "id": "cl-lv-santafe-2020-gtc4W8zQ",
@@ -8229,7 +8379,7 @@
       "title_status": "clean (CL attr; seller: clean Nevada title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8238,7 +8388,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-09-26. VinAssessment 2020 Santa Fe median $16,998 (not mileage-adjusted).",
+      "notes": "Posted 2026-09-26. VinAssessment 2020 Santa Fe median $16,998 (not mileage-adjusted). | 2026-10-09: re-verified live on Craigslist at same price ($10,990).",
       "photos": [
         "https://images.craigslist.org/00U0U_dpNNzZKPiCk_0t20CI_600x450.jpg",
         "https://images.craigslist.org/00a0a_2j2TuW21EcT_0t20CI_600x450.jpg",
@@ -8258,22 +8408,22 @@
       "market_value_low": null,
       "market_value_high": 16998,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": null
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 16
     },
     {
       "id": "cl-hen-JTMWFREV8JD116820",
       "source": "craigslist",
-      "url": "https://www.craigslist.org/view/d/henderson-toyota-rav4-xle-2018/6toZ9PDDsCj1BSzvGRN9ij",
+      "url": "https://www.craigslist.org/view/d/henderson-toyota-rav4-xle/3qpnzec2xk1eA44BP1186A",
       "vin": "JTMWFREV8JD116820",
       "year": 2018,
       "make": "Toyota",
       "model": "RAV4",
       "trim": "XLE FWD",
       "category": "suv_toyota",
-      "miles": 158000,
-      "ask_price": 13500,
-      "real_price_est": 13500,
+      "miles": 156000,
+      "ask_price": 12900,
+      "real_price_est": 12900,
       "seller_type": "private",
       "location": "Henderson, NV",
       "distance_mi": 10,
@@ -8284,33 +8434,39 @@
       "title_status": "clean (CL attr)",
       "assessment": "WEAK DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
           "price": 13500,
           "note": "first seen (local refactor run)"
+        },
+        {
+          "date": "2026-10-09",
+          "price": 12900,
+          "note": "reposted at lower price (new CL post 3qpnzec2xk1eA44BP1186A; old post 6toZ9PDDsCj1BSzvGRN9ij still live at $13,500)"
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-10-03.",
+      "notes": "Posted 2026-10-03. | 2026-10-09: NEW repost of same VIN at $12,900 / 156k mi (old post still live at $13,500 / 158k mi).",
       "photos": [
-        "https://images.craigslist.org/00303_aEpAvyiQpC7_0CI0t2_600x450.jpg",
-        "https://images.craigslist.org/00S0S_j2Q8S7cytrc_0CI0t2_600x450.jpg",
-        "https://images.craigslist.org/00C0C_eGqDZA3XRKT_0CI0t2_600x450.jpg",
-        "https://images.craigslist.org/00K0K_fokQMJVLRJV_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00y0y_j8lczqIxjCg_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/01111_lFRoRrbDzCP_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00C0C_eGqDZA3XRKT_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00S0S_j2Q8S7cytrc_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00m0m_b1ycCjSVDyl_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/01212_iHonrWVxMT1_0CI0t2_600x450.jpg",
-        "https://images.craigslist.org/00707_gvBgJy5kgd1_0t20CI_600x450.jpg",
-        "https://images.craigslist.org/00T0T_4oQtcUoWwsR_0t20CI_600x450.jpg",
-        "https://images.craigslist.org/00x0x_jpQGZGoI59C_0t20CI_600x450.jpg"
+        "https://images.craigslist.org/00y0y_Sa0WssUL7Z_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00q0q_5O5fUFpaTpW_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00x0x_jpQGZGoI59C_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00t0t_ewXaIIQNG9j_0CI0t2_600x450.jpg"
       ],
       "why_interesting": "Private RAV4 XLE, new tires, passes smog.",
       "concerns": "158k mi; priced at/above local dealer RAV4s with fewer miles (2018 LE 146.5k $13,055; 2018 LE 101.7k $14,499 on CarGurus LV).",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -8444,7 +8600,7 @@
       "battery": "Long Range pack; Tesla 8yr/120k battery warranty runs to ~2030 (verify in-service date)",
       "fuel": "electric",
       "title_status": "clean (CL attr)",
-      "assessment": "STRONG DEAL",
+      "assessment": "SOLD/REMOVED",
       "first_seen": "2026-10-07T12:30:00-07:00",
       "last_seen": "2026-10-07T12:30:00-07:00",
       "price_history": [
@@ -8452,10 +8608,15 @@
           "date": "2026-10-07",
           "price": 19498,
           "note": "first seen (local refactor run)"
+        },
+        {
+          "date": "2026-10-09",
+          "price": 19498,
+          "note": "listing gone (HTTP 410)"
         }
       ],
-      "status": "active",
-      "notes": "Comp: VinAssessment 2022 Model 3 median $25,525 (not mileage/trim adjusted). Battery warranty remainder inferred from Tesla 8yr/120k LR terms \u2014 verify.",
+      "status": "sold_or_removed",
+      "notes": "Comp: VinAssessment 2022 Model 3 median $25,525 (not mileage/trim adjusted). Battery warranty remainder inferred from Tesla 8yr/120k LR terms \u2014 verify. | 2026-10-09: Craigslist URL returns HTTP 410 (posting deleted/expired) and the post no longer appears in the SAPI search results \u2014 treated as sold/removed (could also be reposted under a new post id).",
       "photos": [
         "https://images.craigslist.org/00V0V_5foLqSSxTwY_0jm0cW_600x450.jpg",
         "https://images.craigslist.org/01616_1YZCQSlB2st_0jm0cW_600x450.jpg",
@@ -8475,8 +8636,10 @@
       "market_value_low": null,
       "market_value_high": 25525,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 4
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "prior_assessment_before_removal": "STRONG DEAL",
+      "prior_status": "active"
     },
     {
       "id": "cl-lv-5TDJZRFHXKS615571",
@@ -8501,7 +8664,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8510,7 +8673,7 @@
         }
       ],
       "status": "active",
-      "notes": "Reposted 2026-10-07. Comp: VinAssessment 2019 Highlander median $24,487 (not mileage-adjusted; 99k mi pulls value down).",
+      "notes": "Reposted 2026-10-07. Comp: VinAssessment 2019 Highlander median $24,487 (not mileage-adjusted; 99k mi pulls value down). | 2026-10-09: re-verified live on Craigslist at same price ($16,994).",
       "photos": [
         "https://images.craigslist.org/00909_5gc3ub3pmHw_0jm09K_600x450.jpg",
         "https://images.craigslist.org/00e0e_7Z8A7NQjDmE_0jm0cU_600x450.jpg",
@@ -8530,8 +8693,8 @@
       "market_value_low": null,
       "market_value_high": 24487,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 5
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 9
     },
     {
       "id": "cl-lv-2T3H1RFV4MC094880",
@@ -8556,7 +8719,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8565,7 +8728,7 @@
         }
       ],
       "status": "active",
-      "notes": "Local comps: CarGurus LV 2022 RAV4 109.7k $22,089 / 2020 RAV4 65.5k $22,594; VinAssessment 2021 median $26,210.",
+      "notes": "Local comps: CarGurus LV 2022 RAV4 109.7k $22,089 / 2020 RAV4 65.5k $22,594; VinAssessment 2021 median $26,210. | 2026-10-09: re-verified live on Craigslist at same price ($19,998).",
       "photos": [
         "https://images.craigslist.org/01616_h5MQ5z3ENf8_0jm0cU_600x450.jpg",
         "https://images.craigslist.org/00H0H_51l6thHUUfP_0jm0cU_600x450.jpg",
@@ -8585,7 +8748,7 @@
       "market_value_low": 22089,
       "market_value_high": 26210,
       "estimated_savings": 4152,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -8611,7 +8774,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8620,7 +8783,7 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2020 RAV4 median $24,705.",
+      "notes": "VinAssessment 2020 RAV4 median $24,705. | 2026-10-09: re-verified live on Craigslist at same price ($19,494).",
       "photos": [
         "https://images.craigslist.org/00w0w_7ttK3EEum1Z_0jm0cU_600x450.jpg",
         "https://images.craigslist.org/00505_lR76cJlgIqm_0jm0cU_600x450.jpg",
@@ -8640,7 +8803,7 @@
       "market_value_low": null,
       "market_value_high": 24705,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -8664,7 +8827,7 @@
       "battery": "SR+ pack; 8yr/100k battery warranty \u2014 near mileage cap",
       "fuel": "electric",
       "title_status": "clean (CL attr)",
-      "assessment": "FAIR DEAL",
+      "assessment": "SOLD/REMOVED",
       "first_seen": "2026-10-07T12:30:00-07:00",
       "last_seen": "2026-10-07T12:30:00-07:00",
       "price_history": [
@@ -8672,10 +8835,15 @@
           "date": "2026-10-07",
           "price": 18998,
           "note": "first seen (local refactor run)"
+        },
+        {
+          "date": "2026-10-09",
+          "price": 18998,
+          "note": "listing gone (HTTP 410)"
         }
       ],
-      "status": "active",
-      "notes": "VinAssessment 2019 Model 3 median $20,992.",
+      "status": "sold_or_removed",
+      "notes": "VinAssessment 2019 Model 3 median $20,992. | 2026-10-09: Craigslist URL returns HTTP 410 (posting deleted/expired) and the post no longer appears in the SAPI search results \u2014 treated as sold/removed (could also be reposted under a new post id).",
       "photos": [
         "https://images.craigslist.org/00I0I_cBYQ3Z7ot08_0jm0cU_600x450.jpg",
         "https://images.craigslist.org/00l0l_jGvp07QKyP1_0jm0cU_600x450.jpg",
@@ -8695,8 +8863,10 @@
       "market_value_low": null,
       "market_value_high": 20992,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": null
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "prior_assessment_before_removal": "FAIR DEAL",
+      "prior_status": "active"
     },
     {
       "id": "cl-lv-LPSED3KA7ML019112",
@@ -8721,7 +8891,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8730,7 +8900,7 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2021 Polestar 2 median $20,182.",
+      "notes": "VinAssessment 2021 Polestar 2 median $20,182. | 2026-10-09: re-verified live on Craigslist at same price ($17,999).",
       "photos": [
         "https://images.craigslist.org/00K0K_ef3T1NQJ5iZ_0jm0ew_600x450.jpg",
         "https://images.craigslist.org/00505_2bsRKeyJzDm_0hj0ew_600x450.jpg",
@@ -8750,7 +8920,7 @@
       "market_value_low": null,
       "market_value_high": 20182,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -8776,7 +8946,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8785,7 +8955,7 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2019 Bolt EV median $15,036.",
+      "notes": "VinAssessment 2019 Bolt EV median $15,036. | 2026-10-09: re-verified live on Craigslist at same price ($16,999). | 2026-10-09: also on CarGurus LV EV page as 2019 Bolt EV Premier 27,644 mi $16,998 incl. fees, rated \"Good Deal\".",
       "photos": [
         "https://images.craigslist.org/00o0o_34aGjQMS9Dy_0jm0ew_600x450.jpg",
         "https://images.craigslist.org/00505_2bsRKeyJzDm_0hj0ew_600x450.jpg",
@@ -8805,7 +8975,7 @@
       "market_value_low": null,
       "market_value_high": 15036,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -8831,7 +9001,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "WEAK DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8840,7 +9010,7 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2018 Santa Fe median $14,477.",
+      "notes": "VinAssessment 2018 Santa Fe median $14,477. | 2026-10-09: re-verified live on Craigslist at same price ($16,994).",
       "photos": [
         "https://images.craigslist.org/00000_c9H3sBvxxaW_0jm09H_600x450.jpg",
         "https://images.craigslist.org/00e0e_73AdqQriTQ8_0jm0cU_600x450.jpg",
@@ -8860,7 +9030,7 @@
       "market_value_low": null,
       "market_value_high": 14477,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -8886,7 +9056,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8895,7 +9065,7 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2015 Highlander median $16,995.",
+      "notes": "VinAssessment 2015 Highlander median $16,995. | 2026-10-09: re-verified live on Craigslist at same price ($16,777).",
       "photos": [
         "https://images.craigslist.org/00C0C_2QpaAveskzu_0g80c6_600x450.jpg",
         "https://images.craigslist.org/01515_6cvRpCSMY8q_0g80c6_600x450.jpg",
@@ -8915,7 +9085,7 @@
       "market_value_low": null,
       "market_value_high": 16995,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -8950,15 +9120,15 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2025 Tucson median $25,670 (not mileage-adjusted). Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2025 Tucson median $25,670 (not mileage-adjusted). Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Hyundai page sample (page returns only ~20 cards). Third-party VinAssessment snapshot (undated, listed 2026-09-12) shows the same VIN at EchoPark Henderson $20,196 / alt row $19,497 with 47,306 mi (CarGurus card on 10-07 showed $18,596 incl fees) \u2014 price conflict, verify with dealer before relying on STRONG.",
       "photos": [],
       "why_interesting": "2025 Tucson SEL under $18.6k incl. fees; CarGurus \"Great Deal\"; 2025 Tucson median $25,670. Remaining Hyundai factory warranty likely (verify).",
       "concerns": "47k mi in ~1 year \u2014 likely ex-rental/fleet; confirm Carfax; Hyundai 10yr/100k powertrain applies to original owner only (5yr/60k for 2nd owner).",
       "market_value_low": null,
       "market_value_high": 25670,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 2
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 12
     },
     {
       "id": "cargurus-lv-JN1AF0BA8RM431218",
@@ -8983,7 +9153,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "before 2026-10-07",
@@ -8997,15 +9167,15 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2024 Ariya median $26,245 (12 listings). Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": "VinAssessment 2024 Ariya median $26,245 (12 listings). Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2024 Ariya at $19,799 after \u2212$1,299 cut; 2024 Ariya median $26,245 (small sample).",
       "concerns": "Trim/battery not shown \u2014 verify range; fees unknown; thin comp sample (12 listings).",
       "market_value_low": null,
       "market_value_high": 26245,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 3
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 6
     },
     {
       "id": "cargurus-lv-1G1FW6S01P4186779",
@@ -9030,7 +9200,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9039,15 +9209,15 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2023 Bolt EV median $20,798. Battery warranty end inferred from 8yr in-service. Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2023 Bolt EV median $20,798. Battery warranty end inferred from 8yr in-service. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Last-year Bolt, CarGurus \"Good Deal\", fees included; 2023 Bolt EV median $20,798.",
       "concerns": "Confirm Carfax; DC fast charging is slow (~55 kW).",
       "market_value_low": null,
       "market_value_high": 20798,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 6
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 7
     },
     {
       "id": "cargurus-lv-1V2BMPE8XRC016818",
@@ -9072,7 +9242,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9081,15 +9251,15 @@
         }
       ],
       "status": "active",
-      "notes": "Comps: CarGurus 2024 ID.4 market value $20,137 (540 listings); KBB FPP 2024 ID.4 Standard $20,740 (TX ZIP, Sep 2026). Price shown as including fees on CarGurus.",
+      "notes": "Comps: CarGurus 2024 ID.4 market value $20,137 (540 listings); KBB FPP 2024 ID.4 Standard $20,740 (TX ZIP, Sep 2026). Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Low-mile 2024 ID.4 under $19k incl. fees; KBB Fair Purchase Price (Standard) $20,740; CarGurus 2024 ID.4 market value $20,137.",
       "concerns": "Standard = smaller 62 kWh pack (~206 mi EPA); verify Carfax.",
       "market_value_low": 20137,
       "market_value_high": 20740,
       "estimated_savings": 1452,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 7
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 5
     },
     {
       "id": "cargurus-lv-7MUCAAAG4NV008074",
@@ -9123,15 +9293,15 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2022 Corolla Cross median $23,995. Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2022 Corolla Cross median $23,995. Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Toyota page sample \u2014 unverified (may be sold or just outside the ~20-card sample).",
       "photos": [],
       "why_interesting": "CarGurus \"Great Deal\", fees included; 2022 Corolla Cross median $23,995.",
       "concerns": "75.6k mi; $990 under the $21k ceiling \u2014 tax/title will push OTD near/over $21k.",
       "market_value_low": null,
       "market_value_high": 23995,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 9
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 11
     },
     {
       "id": "cargurus-lv-cx5-2021-touring-70749",
@@ -9156,7 +9326,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9165,14 +9335,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2021 CX-5 median $22,314. Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2021 CX-5 median $22,314. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "CarGurus \"Great Deal\", fees included; 2021 CX-5 median $22,314.",
       "concerns": "VIN not in CarGurus card \u2014 get VIN + Carfax; 70.7k mi.",
       "market_value_low": null,
       "market_value_high": 22314,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": 8
     },
     {
@@ -9212,15 +9382,15 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus EV page sample. Web-search snapshot of Hyundai of Las Vegas VDP shows $15,500 + $799 dealer fee (~$16,299) and conflicting odometer data (149 mi vs 15,635 mi) \u2014 verify price/miles before relying on STRONG.",
       "photos": [],
       "why_interesting": "Nearly-new 2025 Leaf S; 2025 LEAF median $16,990 / CarGurus avg ~$17.1\u201317.2k.",
       "concerns": "Short range (~149 mi EPA), CHAdeMO fast-charge standard is fading; verify Carfax (likely ex-rental).",
       "market_value_low": null,
       "market_value_high": 16990,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 11
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 13
     },
     {
       "id": "cargurus-lv-1N4AZ1BV6SC566289",
@@ -9245,7 +9415,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9254,14 +9424,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Nearly-new 2025 Leaf S; 2025 LEAF median $16,990 / CarGurus avg ~$17.1\u201317.2k.",
       "concerns": "Short range (~149 mi EPA), CHAdeMO fast-charge standard is fading; verify Carfax (likely ex-rental).",
       "market_value_low": null,
       "market_value_high": 16990,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": 10
     },
     {
@@ -9301,14 +9471,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus EV page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Nearly-new 2025 Leaf S; 2025 LEAF median $16,990 / CarGurus avg ~$17.1\u201317.2k.",
       "concerns": "Short range (~149 mi EPA), CHAdeMO fast-charge standard is fading; verify Carfax (likely ex-rental).",
       "market_value_low": null,
       "market_value_high": 16990,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9348,14 +9518,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus EV page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Nearly-new 2025 Leaf S; 2025 LEAF median $16,990 / CarGurus avg ~$17.1\u201317.2k.",
       "concerns": "Short range (~149 mi EPA), CHAdeMO fast-charge standard is fading; verify Carfax (likely ex-rental).",
       "market_value_low": null,
       "market_value_high": 16990,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9369,8 +9539,8 @@
       "trim": "SV Plus FWD",
       "category": "ev",
       "miles": 9325,
-      "ask_price": 17999,
-      "real_price_est": 17999,
+      "ask_price": 17799,
+      "real_price_est": 17799,
       "seller_type": "dealer",
       "location": "Las Vegas, NV",
       "distance_mi": 2,
@@ -9381,23 +9551,28 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
           "price": 17999,
           "note": "first seen (local refactor run)"
+        },
+        {
+          "date": "2026-10-09",
+          "price": 17799,
+          "note": "price changed 17999 -> 17799"
         }
       ],
       "status": "active",
-      "notes": "Local comp: CarGurus LV 2023 SV Plus 45,527 mi $18,310; VinAssessment 2023 LEAF median $16,998 (all trims). Price shown as including fees on CarGurus.",
+      "notes": "Local comp: CarGurus LV 2023 SV Plus 45,527 mi $18,310; VinAssessment 2023 LEAF median $16,998 (all trims). Price shown as including fees on CarGurus. | 2026-10-09: CarGurus price changed $17,999 -> $17,799.",
       "photos": [],
       "why_interesting": "Very low-mile 2023 SV Plus (212-mi pack) at $17,999 incl. fees.",
       "concerns": "Compare: LV 2023 SV Plus 45.5k mi $18,310 (Good Deal); CHAdeMO.",
       "market_value_low": null,
       "market_value_high": 18310,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9423,7 +9598,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "before 2026-10-07",
@@ -9437,14 +9612,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2024 LEAF median $19,772. Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2024 LEAF median $19,772. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2024 SV Plus, 7.7k mi, CarGurus \"Good Deal\", fees incl.",
       "concerns": "At 2024 median ($19,772).",
       "market_value_low": null,
       "market_value_high": 19772,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9470,7 +9645,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9479,14 +9654,14 @@
         }
       ],
       "status": "active",
-      "notes": "No 2023 Ariya comp pulled this run. Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": "No 2023 Ariya comp pulled this run. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2023 Ariya Engage under $19.3k \u2014 likely strong but no 2023 Ariya comp pulled.",
       "concerns": "Fees unknown; Engage = smaller pack.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9521,14 +9696,14 @@
         }
       ],
       "status": "active",
-      "notes": " Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": " Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus EV page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Kona Electric Limited, 258-mi EPA range.",
       "concerns": "No comp pulled; fees unknown.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9554,7 +9729,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9563,14 +9738,14 @@
         }
       ],
       "status": "active",
-      "notes": " Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": " Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Kona Electric SEL, 34.5k mi.",
       "concerns": "No comp pulled; fees unknown.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9584,8 +9759,8 @@
       "trim": "LT (VIN pattern)",
       "category": "ev",
       "miles": 53587,
-      "ask_price": 15596,
-      "real_price_est": 15596,
+      "ask_price": 16155,
+      "real_price_est": 16155,
       "seller_type": "dealer",
       "location": "Las Vegas, NV",
       "distance_mi": 10,
@@ -9596,23 +9771,28 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
           "price": 15596,
           "note": "first seen (local refactor run)"
+        },
+        {
+          "date": "2026-10-09",
+          "price": 16155,
+          "note": "price changed 15596 -> 16155"
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2020 Bolt EV median $16,458. Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": "VinAssessment 2020 Bolt EV median $16,458. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: CarGurus price changed $15,596 -> $16,155.",
       "photos": [],
       "why_interesting": "Dealer 2020 Bolt \u2014 benchmark for the private Bolt.",
       "concerns": "Fees unknown.",
       "market_value_low": null,
       "market_value_high": 16458,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9652,14 +9832,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2022 CX-5 median $24,198 (not mileage-adjusted). Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": "VinAssessment 2022 CX-5 median $24,198 (not mileage-adjusted). Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus Mazda page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "2022 CX-5 AWD under $19.2k after \u2212$430.",
       "concerns": "90.7k mi; fees unknown.",
       "market_value_low": null,
       "market_value_high": 24198,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9685,7 +9865,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9694,14 +9874,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2021 CX-30 median $19,500. Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2021 CX-30 median $19,500. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Mazda-certified CX-30 AWD, fees incl.",
       "concerns": "At 2021 CX-30 median ($19,500).",
       "market_value_low": null,
       "market_value_high": 19500,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9736,14 +9916,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2024 Venue median $19,590. Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": "VinAssessment 2024 Venue median $19,590. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus Hyundai page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Near-new 2024 Venue, 16k mi.",
       "concerns": "At 2024 Venue median ($19,590); small SUV.",
       "market_value_low": null,
       "market_value_high": 19590,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9769,7 +9949,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9778,14 +9958,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2023 Kona median $20,519. Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": "VinAssessment 2023 Kona median $20,519. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2023 Kona, 24k mi.",
       "concerns": "~$1.4k under 2023 median; VIN not in card.",
       "market_value_low": null,
       "market_value_high": 20519,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9811,7 +9991,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "before 2026-10-07",
@@ -9825,14 +10005,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2017 RAV4 median $18,122. Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": "VinAssessment 2017 RAV4 median $18,122. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Low-mile 2017 RAV4 AWD after \u2212$500 cut.",
       "concerns": "At 2017 median ($18,122).",
       "market_value_low": null,
       "market_value_high": 18122,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9867,14 +10047,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2018 RAV4 median $19,592 (not mileage-adjusted). Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2018 RAV4 median $19,592 (not mileage-adjusted). Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Toyota page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "CarGurus \"Great Deal\", fees incl.",
       "concerns": "101.7k mi.",
       "market_value_low": null,
       "market_value_high": 19592,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9909,14 +10089,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2020 Tucson median $16,000. Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2020 Tucson median $16,000. Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Hyundai page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Cheap AWD Tucson, CarGurus \"Great Deal\", fees incl.",
       "concerns": "107.5k mi.",
       "market_value_low": null,
       "market_value_high": 16000,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9942,7 +10122,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9951,14 +10131,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2021 Tucson median $17,725. Price shown as including fees on CarGurus.",
+      "notes": "VinAssessment 2021 Tucson median $17,725. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2021 Tucson, fees incl.",
       "concerns": "83.6k mi; old-generation body.",
       "market_value_low": null,
       "market_value_high": 17725,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -9984,7 +10164,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9993,14 +10173,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2019 CX-5 median $18,998. Fees UNKNOWN (CarGurus did not flag \"includes fees\").",
+      "notes": "VinAssessment 2019 CX-5 median $18,998. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2019 CX-5 Sport.",
       "concerns": "82k mi; ~2k under median.",
       "market_value_low": null,
       "market_value_high": 18998,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-09T07:40:00-07:00",
       "priority_rank": null
     },
     {
@@ -10026,7 +10206,7 @@
       "title_status": "clean (CL attr; seller: clean title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10035,7 +10215,7 @@
         }
       ],
       "status": "active",
-      "notes": "Tier 2 \u2014 only worth the drive if VIN/history check out.",
+      "notes": "Tier 2 \u2014 only worth the drive if VIN/history check out. | 2026-10-09: re-verified live on Craigslist at same price ($17,000). | Tier 2 (~220 mi) kept as STRONG private under-market tier-2 exception.",
       "photos": [
         "https://images.craigslist.org/00k0k_dAqaZrmNv2l_0oc0i9_600x450.jpg",
         "https://images.craigslist.org/00G0G_6QAKhK3TEUw_0oc0i9_600x450.jpg",
@@ -10055,8 +10235,8 @@
       "market_value_low": null,
       "market_value_high": 24705,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": 15
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 2
     },
     {
       "id": "cl-chino-KNDCR3L12P5022703",
@@ -10081,7 +10261,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10090,7 +10270,7 @@
         }
       ],
       "status": "active",
-      "notes": "Tier 2 \u2014 noted, not recommended over local.",
+      "notes": "Tier 2 \u2014 noted, not recommended over local. | 2026-10-09: re-verified live on Craigslist at same price ($16,000).",
       "photos": [
         "https://images.craigslist.org/00P0P_8nS0f3a4AQm_0gw0oM_600x450.jpg",
         "https://images.craigslist.org/01414_5L0qROYeR4P_0k80CI_600x450.jpg",
@@ -10110,8 +10290,8 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": null
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 20
     },
     {
       "id": "cl-cardiff-leaf-2025-59dipZuB",
@@ -10136,7 +10316,7 @@
       "title_status": "clean (CL attr; title in hand)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10145,7 +10325,7 @@
         }
       ],
       "status": "active",
-      "notes": "Tier 2 \u2014 skip in favor of local.",
+      "notes": "Tier 2 \u2014 skip in favor of local. | 2026-10-09: re-verified live on Craigslist at same price ($15,000).",
       "photos": [
         "https://images.craigslist.org/00r0r_iHjFVEgsQGh_0x20oM_600x450.jpg",
         "https://images.craigslist.org/01616_f7i76lzSQyb_0x20oM_600x450.jpg",
@@ -10165,8 +10345,8 @@
       "market_value_low": null,
       "market_value_high": 16990,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": null
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 19
     },
     {
       "id": "cl-sd-1N4CZ1CV9PC552708",
@@ -10179,8 +10359,8 @@
       "trim": "SV Plus",
       "category": "ev",
       "miles": 28000,
-      "ask_price": 17400,
-      "real_price_est": 17400,
+      "ask_price": 16900,
+      "real_price_est": 16900,
       "seller_type": "private",
       "location": "San Diego, CA",
       "distance_mi": 244,
@@ -10191,16 +10371,21 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
           "price": 17400,
           "note": "first seen (local refactor run)"
+        },
+        {
+          "date": "2026-10-09",
+          "price": 16900,
+          "note": "price changed 17400 -> 16900"
         }
       ],
       "status": "active",
-      "notes": "Tier 2 \u2014 skip in favor of local.",
+      "notes": "Tier 2 \u2014 skip in favor of local. | 2026-10-09: price dropped $17,400 -> $16,900 (CL).",
       "photos": [
         "https://images.craigslist.org/00x0x_bklE8pWiFbZ_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/00X0X_dRMDS7g7tFS_0CI0t2_600x450.jpg",
@@ -10220,8 +10405,8 @@
       "market_value_low": null,
       "market_value_high": 18310,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
-      "priority_rank": null
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 18
     },
     {
       "id": "cl-ramona-KNDC34LA0R5205043",
@@ -10495,44 +10680,1127 @@
       "estimated_savings": null,
       "updated_at": "2026-10-07T12:30:00-07:00",
       "priority_rank": null
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
+      "vin": "KMHRC8A37SU403065",
+      "year": 2025,
+      "make": "Hyundai",
+      "model": "Venue",
+      "trim": "SEL FWD",
+      "category": "suv_hyundai",
+      "miles": 29211,
+      "ask_price": 17596,
+      "real_price_est": 17596,
+      "seller_type": "dealer",
+      "location": "Henderson, NV",
+      "distance_mi": 17,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "STRONG DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 17596,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus rating \"Great Deal\". No local comp pulled beyond CarGurus rating.",
+      "photos": [],
+      "why_interesting": "2025 Venue SEL with ~29k mi at $17.6k fees-included; CarGurus \"Great Deal\"; newest model-year in the Hyundai SUV set under $21k.",
+      "concerns": "Dealer, title/accident history not yet checked; price is CarGurus-card value, not re-confirmed on dealer site; subcompact SUV.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 3,
+      "id": "cargurus-lv-KMHRC8A37SU403065"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
+      "vin": "KMHRC8A30SU350841",
+      "year": 2025,
+      "make": "Hyundai",
+      "model": "Venue",
+      "trim": "SEL FWD",
+      "category": "suv_hyundai",
+      "miles": 33868,
+      "ask_price": 18198,
+      "real_price_est": 18198,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 2,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 18198,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus \"New arrival\"; no deal rating or fees flag shown. Fees UNKNOWN.",
+      "photos": [],
+      "why_interesting": "2025 Venue SEL, 34k mi, $18.2k, 2 mi from downtown.",
+      "concerns": "Fees unknown; ~$600 more than the Henderson 2025 Venue SEL with 4.6k fewer miles.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-KMHRC8A30SU350841"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
+      "vin": "5NMJA3AE1NH057828",
+      "year": 2022,
+      "make": "Hyundai",
+      "model": "Tucson",
+      "trim": "UNKNOWN trim (2.5L FWD)",
+      "category": "suv_hyundai",
+      "miles": 46130,
+      "ask_price": 18299,
+      "real_price_est": 18299,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 7,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 18299,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. No deal rating shown.",
+      "photos": [],
+      "why_interesting": "2022 Tucson with 46k mi under $18.5k fees-in.",
+      "concerns": "Trim unknown; no deal rating; priced about the same as the 2025 Venue SEL.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-5NMJA3AE1NH057828"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Mazda-Under-20000-Las-Vegas-m42_spt379_L21230",
+      "vin": "3MVDMBDM6MM218234",
+      "year": 2021,
+      "make": "Mazda",
+      "model": "CX-30",
+      "trim": "Premium AWD",
+      "category": "suv_mazda",
+      "miles": 43968,
+      "ask_price": 19978,
+      "real_price_est": 19978,
+      "seller_type": "dealer",
+      "location": "Henderson, NV",
+      "distance_mi": 18,
+      "geo_tier": 1,
+      "drivetrain": "AWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "STRONG DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 19978,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Great Deal\"; price dropped $1,433 (was $21,411 before fees-in drop) \u2014 just crossed under the $21k ceiling.",
+      "photos": [],
+      "why_interesting": "2021 CX-30 Premium AWD (top-ish trim) with 44k mi under $20k fees-in; CarGurus \"Great Deal\" + fresh $1,433 drop.",
+      "concerns": "Close to the $21k ceiling after tax/title; dealer, history unchecked.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 4,
+      "id": "cargurus-lv-3MVDMBDM6MM218234"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Mazda-Under-20000-Las-Vegas-m42_spt379_L21230",
+      "vin": "JM1DKFB71K1431856",
+      "year": 2019,
+      "make": "Mazda",
+      "model": "CX-3",
+      "trim": "Sport AWD",
+      "category": "suv_mazda",
+      "miles": 80975,
+      "ask_price": 15990,
+      "real_price_est": 15990,
+      "seller_type": "dealer",
+      "location": "Henderson, NV",
+      "distance_mi": 18,
+      "geo_tier": 1,
+      "drivetrain": "AWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 15990,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Fair Deal\".",
+      "photos": [],
+      "why_interesting": "Cheapest Mazda SUV AWD under $16k with <81k mi.",
+      "concerns": "Small SUV, 81k mi; only \"Fair Deal\".",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-JM1DKFB71K1431856"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230",
+      "vin": "2T3DFREV5FW260391",
+      "year": 2015,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "Limited AWD",
+      "category": "suv_toyota",
+      "miles": 65670,
+      "ask_price": 19299,
+      "real_price_est": 19299,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 7,
+      "geo_tier": 1,
+      "drivetrain": "AWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 19299,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Good Deal\".",
+      "photos": [],
+      "why_interesting": "Low-mile (66k) top-trim AWD RAV4.",
+      "concerns": "2015 model year at $19.3k is expensive vs newer options (2017 RAV4 LE AWD 60k mi at $18.2k).",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-2T3DFREV5FW260391"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "WVGRMPE21MP041809",
+      "year": 2021,
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "trim": "Pro RWD",
+      "category": "ev",
+      "miles": 38417,
+      "ask_price": 18299,
+      "real_price_est": 18299,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 10,
+      "geo_tier": 1,
+      "drivetrain": "RWD",
+      "battery": "~77 kWh (ID.4 Pro) per model spec; verify",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 18299,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Good Deal\".",
+      "photos": [],
+      "why_interesting": "38k-mi 2021 ID.4 Pro at $18.3k fees-in; larger battery than the Standard-trim 2024.",
+      "concerns": "ID.4 software/recall history to check; 2024 ID.4 Standard (18k mi) is only ~$700 more.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-WVGRMPE21MP041809"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "KNDCE3LG0N5149110",
+      "year": 2022,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "UNKNOWN",
+      "category": "ev",
+      "miles": 30754,
+      "ask_price": 19999,
+      "real_price_est": 19999,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 3,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "64.8 kWh (Niro EV model spec); verify",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 19999,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card: $19,999 (was $21,574, -$1,575). Fees UNKNOWN.",
+      "photos": [],
+      "why_interesting": "Niro EV 31k mi just dropped into the under-$20k band.",
+      "concerns": "Fees unknown; near ceiling.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-KNDCE3LG0N5149110"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "1G1FZ6S07L4138527",
+      "year": 2020,
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "trim": "Premier FWD",
+      "category": "ev",
+      "miles": 29882,
+      "ask_price": 17399,
+      "real_price_est": 17399,
+      "seller_type": "dealer",
+      "location": "Henderson, NV",
+      "distance_mi": 20,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "66 kWh (verify recall replacement)",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 17399,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check.",
+      "photos": [],
+      "why_interesting": "Low-mile 2020 Bolt Premier (30k mi).",
+      "concerns": "$1.4k over the 2023 Bolt 1LT (43k mi) which is newer.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-1G1FZ6S07L4138527"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "1G1FZ6S07L4105253",
+      "year": 2020,
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "trim": "Premier FWD",
+      "category": "ev",
+      "miles": 69270,
+      "ask_price": 15699,
+      "real_price_est": 15699,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 7,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "66 kWh (verify recall replacement)",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 15699,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Fair Deal\".",
+      "photos": [],
+      "why_interesting": "Premier-trim Bolt under $16k fees-in.",
+      "concerns": "69k mi.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-1G1FZ6S07L4105253"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "1G1FZ6S04M4114896",
+      "year": 2021,
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "trim": "Premier FWD (manufacturer certified)",
+      "category": "ev",
+      "miles": 66554,
+      "ask_price": 17399,
+      "real_price_est": 17399,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 12,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "66 kWh",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 17399,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Manufacturer certified; \"New arrival\".",
+      "photos": [],
+      "why_interesting": "Certified 2021 Bolt Premier.",
+      "concerns": "66k mi; priced above same-age lower-mile Bolt Premier.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-1G1FZ6S04M4114896"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "1G1FY6S0XL4106593",
+      "year": 2020,
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "trim": "LT FWD",
+      "category": "ev",
+      "miles": 77902,
+      "ask_price": 12990,
+      "real_price_est": 12990,
+      "seller_type": "dealer",
+      "location": "Henderson, NV",
+      "distance_mi": 18,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "66 kWh (verify recall replacement)",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 12990,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check.",
+      "photos": [],
+      "why_interesting": "Cheapest dealer Bolt ($12,990 fees-in).",
+      "concerns": "78k mi is above the EV <50-70k preference.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-1G1FY6S0XL4106593"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "1N4CZ1CV1RC556416",
+      "year": 2024,
+      "make": "Nissan",
+      "model": "LEAF",
+      "trim": "SV Plus FWD",
+      "category": "ev",
+      "miles": 10896,
+      "ask_price": 19099,
+      "real_price_est": 19099,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 7,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "60 kWh (SV Plus)",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 19099,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Good Deal\".",
+      "photos": [],
+      "why_interesting": "10.9k-mi 2024 Leaf SV Plus (60 kWh) at $19.1k fees-in, $700 under the 7.7k-mi sister car.",
+      "concerns": "Near ceiling; Leaf CHAdeMO charging.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-1N4CZ1CV1RC556416"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "5YJ3E1EA8MF028724",
+      "year": 2021,
+      "make": "Tesla",
+      "model": "Model 3",
+      "trim": "Standard Range Plus RWD",
+      "category": "ev",
+      "miles": 118254,
+      "ask_price": 18998,
+      "real_price_est": 18998,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 9,
+      "geo_tier": 1,
+      "drivetrain": "RWD",
+      "battery": "UNKNOWN",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 18998,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Same car also on Craigslist dealer posts at $16,999/$17,999 (stock 028724) \u2014 CL price may be pre-fees.",
+      "photos": [],
+      "why_interesting": "Model 3 under $19k.",
+      "concerns": "118k mi \u2014 far above the EV <50-70k preference.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-5YJ3E1EA8MF028724"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "WVWKR7AU7KW902783",
+      "year": 2019,
+      "make": "Volkswagen",
+      "model": "e-Golf",
+      "trim": "UNKNOWN",
+      "category": "ev",
+      "miles": 84042,
+      "ask_price": 9999,
+      "real_price_est": 9999,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 10,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "35.8 kWh (2019 e-Golf)",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 9999,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check.",
+      "photos": [],
+      "why_interesting": "Cheap EV.",
+      "concerns": "84k mi, short range commuter car.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-WVWKR7AU7KW902783"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "WVWPP7AU1GW909070",
+      "year": 2016,
+      "make": "Volkswagen",
+      "model": "e-Golf",
+      "trim": "UNKNOWN",
+      "category": "ev",
+      "miles": 46969,
+      "ask_price": 11485,
+      "real_price_est": 11485,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 3,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "24.2 kWh (2016 e-Golf; short range)",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 11485,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Fair Deal\".",
+      "photos": [],
+      "why_interesting": "Low-mile cheap EV.",
+      "concerns": "Old 24 kWh pack, short range, 10 years old.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-WVWPP7AU1GW909070"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/las-vegas-2014-hyundai-tucson-se/sW1HUxcg6KBip12Jezdjfu",
+      "vin": "UNKNOWN",
+      "year": 2014,
+      "make": "Hyundai",
+      "model": "Tucson",
+      "trim": "SE",
+      "category": "suv_hyundai",
+      "miles": 133731,
+      "ask_price": 8995,
+      "real_price_est": "UNKNOWN",
+      "seller_type": "dealer (buy-here-pay-here)",
+      "location": "Las Vegas, NV",
+      "distance_mi": 4,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "clean (CL attr)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 8995,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "BHPH dealer (CarCoLV). CL header $8,995 but body says \"ONLY $9,995\" and advertises \"$599 DN / $249 MO\" financing bait \u2014 real purchase price UNKNOWN. Multiple duplicate CL posts.",
+      "photos": [
+        "https://images.craigslist.org/00u0u_iAFyfYvBTxp_0cU09G_600x450.jpg",
+        "https://images.craigslist.org/00606_4FAu55g2SxR_0cU09G_600x450.jpg",
+        "https://images.craigslist.org/00E0E_fr3ntpSziEE_0cU09G_600x450.jpg"
+      ],
+      "why_interesting": "Cheap Tucson.",
+      "concerns": "134k mi, BHPH, bait pricing; header vs body price mismatch.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cl-lv-dealer-tucson-2014-sW1HUxcg"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/encinitas-2022-mini-cooper-se-iconic-ev/goUAK8KU31dcBwKUUYn3eB",
+      "vin": "UNKNOWN",
+      "year": 2022,
+      "make": "Mini",
+      "model": "Cooper SE",
+      "trim": "Iconic EV (Chesterfield leather, panoramic roof)",
+      "category": "ev",
+      "miles": 15023,
+      "ask_price": 19500,
+      "real_price_est": 19500,
+      "seller_type": "private",
+      "location": "Encinitas, CA",
+      "distance_mi": 247,
+      "geo_tier": 2,
+      "drivetrain": "FWD",
+      "battery": "32.6 kWh (2022 Cooper SE); seller shows battery SOH 100%",
+      "fuel": "electric",
+      "title_status": "clean (CL attr)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 19500,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "Private seller (\"no brokers, no dealers\"). Reposted 2026-10-09 06:10 PT (earlier post gone). No comp pulled.",
+      "photos": [
+        "https://images.craigslist.org/00a0a_l0hXLpdUGbT_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00l0l_g5dUXnaiZE_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00J0J_es4BYEAXjmW_0dw0pN_600x450.jpg",
+        "https://images.craigslist.org/00M0M_jvMCZC1lYpf_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00e0e_e7nhgsWr5E1_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00202_8ttreEqFKTn_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00s0s_9VxV3m1izO3_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00K0K_1ilPa0c6GTQ_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00303_aHZ1DLEow56_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00T0T_hDnMTPQbavc_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00r0r_5ogeKPeqgn9_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00Y0Y_lhpiahrpbU0_0CI0t2_600x450.jpg"
+      ],
+      "why_interesting": "Very low-mile (15k) near-new Mini SE, battery health report shown.",
+      "concerns": "Tier 2 (~247 mi); small battery / ~110 mi EPA range; no market comp pulled.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 21,
+      "id": "cl-mini-se-2022-encinitas-goUAK8KU"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/woodland-hills-2019-hyundai-kona-se-for/9TWDcP6UaKMtuuYa4L17TE",
+      "vin": "KM8K12AA2KU314944",
+      "year": 2019,
+      "make": "Hyundai",
+      "model": "Kona",
+      "trim": "SE (gas)",
+      "category": "suv_hyundai",
+      "miles": 27000,
+      "ask_price": 13500,
+      "real_price_est": 13500,
+      "seller_type": "private",
+      "location": "Woodland Hills, CA",
+      "distance_mi": 240,
+      "geo_tier": 2,
+      "drivetrain": "FWD (per VIN pattern; verify)",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "clean (CL attr)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 13500,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "Short post, 3 photos, no phone-visible detail. Posted 2026-10-08. No comp pulled.",
+      "photos": [
+        "https://images.craigslist.org/00V0V_1Vg5AG2wzdm_0lM0t2_600x450.jpg",
+        "https://images.craigslist.org/00B0B_lhJr33oYmjG_0lM0t2_600x450.jpg",
+        "https://images.craigslist.org/00R0R_cephCBMBgmu_0CI0t2_600x450.jpg"
+      ],
+      "why_interesting": "27k-mi 2019 Kona at $13.5k.",
+      "concerns": "Tier 2 (~240 mi); thin listing, no comp pulled so not rated above FAIR.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 22,
+      "id": "cl-kona-se-2019-woodlandhills-9TWDcP6U"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/tarzana-2016-hyundai-tucson-40k-miles/4FGL8pJ8QK6EXzydajv5fS",
+      "vin": "KM8J23A43GU101033",
+      "year": 2016,
+      "make": "Hyundai",
+      "model": "Tucson",
+      "trim": "UNKNOWN",
+      "category": "suv_hyundai",
+      "miles": 40000,
+      "ask_price": 10995,
+      "real_price_est": 10995,
+      "seller_type": "private",
+      "location": "Woodland Hills, CA",
+      "distance_mi": 238,
+      "geo_tier": 2,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "clean (CL attr; seller: clean title, one owner, Carfax available)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 10995,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "Registered owner; new smog 9/2026. Duplicate CL posts exist. No comp pulled.",
+      "photos": [
+        "https://images.craigslist.org/00x0x_5rrDYFZhXwL_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00t0t_f49N7CAA41p_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00M0M_83fbmH9v1Cc_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00c0c_hZkczm4WX2s_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00505_ff6qyPmJVfH_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00q0q_8kWpIYyqVIk_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00F0F_lgKAQSCvi5f_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00L0L_jFqHcgC4wkt_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00X0X_3x1uvVve6EG_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00u0u_bhQKBa2wzoe_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00F0F_dVF9siv4xl1_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00o0o_5f6SY8naf4V_0CI0t2_600x450.jpg"
+      ],
+      "why_interesting": "One-owner 40k-mi 2016 Tucson at $11k.",
+      "concerns": "Tier 2 (~238 mi); old model year.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cl-tucson-2016-tarzana-4FGL8pJ8"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/el-toro-2018-mazda-cx-36k-miles/31dNFakcS68SBwv1vQX7m3",
+      "vin": "JM3KFACM3J0391844",
+      "year": 2018,
+      "make": "Mazda",
+      "model": "CX-5",
+      "trim": "Touring 2.5L",
+      "category": "suv_mazda",
+      "miles": 36000,
+      "ask_price": 16800,
+      "real_price_est": 16800,
+      "seller_type": "private",
+      "location": "Laguna Hills / El Toro, CA",
+      "distance_mi": 230,
+      "geo_tier": 2,
+      "drivetrain": "FWD (verify)",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "clean (CL attr; seller: original clean title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 16800,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "Posted 2026-10-08. No comp pulled. Short listing.",
+      "photos": [
+        "https://images.craigslist.org/00I0I_doGCyFLoiMu_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/01616_eP3R1BX7Y5D_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00l0l_jD7tRH52ksi_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00j0j_4fRvUKdE5vi_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00o0o_3sO3ZwzVicy_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00b0b_4uUwsRsa4NF_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00P0P_6yU3lVofjtX_0t20CI_600x450.jpg"
+      ],
+      "why_interesting": "36k-mi 2018 CX-5 Touring, private.",
+      "concerns": "Tier 2 (~230 mi); no comp, thin listing.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": 23,
+      "id": "cl-cx5-2018-eltoro-31dNFakc"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/san-diego-2020-hyundai-santa-fe/rnAQtLsLgAxQocsSiqcnjg",
+      "vin": "5NMS23AD9LH147475",
+      "year": 2020,
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "trim": "UNKNOWN (2.4L FWD)",
+      "category": "suv_hyundai",
+      "miles": 83000,
+      "ask_price": 14599,
+      "real_price_est": 14599,
+      "seller_type": "private",
+      "location": "San Diego, CA",
+      "distance_mi": 238,
+      "geo_tier": 2,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "clean (CL attr; seller: title in hand)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 14599,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "Seller states no accidents, new Michelins. Compare LV: 2020 Santa Fe SEL 116k mi at $10,990 (private).",
+      "photos": [
+        "https://images.craigslist.org/00606_6d33rPkpMou_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00909_ddLaIkFMB3A_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00F0F_i5rfG0nYeNl_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00O0O_czkUFaxVXX3_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00y0y_h6mqsquNPRO_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/01717_59TJYWhYebT_0t20CI_600x450.jpg"
+      ],
+      "why_interesting": "83k-mi 2020 Santa Fe, private.",
+      "concerns": "Tier 2 (~238 mi).",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cl-santafe-2020-sandiego-rnAQtLsL"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/lawndale-toyota-rav4-xle-2018/p42LxeCRysU2JnZpJpUwwF",
+      "vin": "UNKNOWN",
+      "year": 2018,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "XLE",
+      "category": "suv_toyota",
+      "miles": 66500,
+      "ask_price": 13650,
+      "real_price_est": 13650,
+      "seller_type": "private",
+      "location": "Lawndale, CA",
+      "distance_mi": 241,
+      "geo_tier": 2,
+      "drivetrain": "FWD (verify)",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "CONFLICT: CL attr says clean, seller text (Spanish) says \"T\u00edtulo Salvage\"",
+      "assessment": "AVOID",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 13650,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "rejected",
+      "notes": "Body text states Salvage title while the CL attribute says clean \u2014 salvage = auto-reject.",
+      "photos": [
+        "https://images.craigslist.org/00S0S_9TvZ2W5EhW9_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00e0e_5sKhBBy71NM_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00N0N_9aKAqJj3fU3_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00C0C_79tQgRhFOD2_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00O0O_3xO7wHkKDpy_0lM0t2_600x450.jpg",
+        "https://images.craigslist.org/00K0K_8i31uPKrOqZ_0lM0t2_600x450.jpg",
+        "https://images.craigslist.org/01717_hWvE6N26RnA_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00v0v_cY8C4mHzaZ3_0lM0t2_600x450.jpg",
+        "https://images.craigslist.org/01111_VecjNMrAtP_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00R0R_9FGNZdPSMuB_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00h0h_bsVsYndWtVH_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00B0B_2YCew2H302E_0CI0t2_600x450.jpg"
+      ],
+      "why_interesting": "Logged so reposts are filtered.",
+      "concerns": "Salvage title stated by seller.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cl-lawndale-rav4-2018-p42LxeCR"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/chatsworth-2016-toyota-4runner/pTXFqjf5qoUnR8Z42NH2wJ",
+      "vin": "UNKNOWN",
+      "year": 2016,
+      "make": "Toyota",
+      "model": "4Runner",
+      "trim": "UNKNOWN (7-seat RWD per seller)",
+      "category": "suv_toyota",
+      "miles": 87953,
+      "ask_price": 17900,
+      "real_price_est": 17900,
+      "seller_type": "private",
+      "location": "Chatsworth, CA",
+      "distance_mi": 236,
+      "geo_tier": 2,
+      "drivetrain": "RWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "claimed clean (CL attr; unverified)",
+      "assessment": "AVOID",
+      "first_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-09T07:40:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-09",
+          "price": 17900,
+          "note": "first seen (10-09 run)"
+        }
+      ],
+      "status": "rejected",
+      "notes": "Spanish-language post with partly obfuscated phone, no VIN; says \"6 cilindros 3.5\" but a 2016 4Runner has a 4.0L V6 \u2014 inconsistent description; previous version priced $18,500 (reposted lower). Treated as scam/mismatch risk.",
+      "photos": [
+        "https://images.craigslist.org/00n0n_gPgMt21eDcD_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00A0A_NprxXSsZql_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00o0o_eNlUmZoCNvS_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/01717_658Qf5sSFSw_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00E0E_FpJF38f4mj_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00P0P_cms4jdsWfGC_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00o0o_hzDtLkBDOml_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00707_eY3POK9PAQ9_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00C0C_6pamQHa3sJv_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00a0a_eJMHSGsSqMx_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00d0d_5GuzzWbkLZD_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/01212_pjzRaIfy2H_0CI0t2_600x450.jpg"
+      ],
+      "why_interesting": "Logged so clones are filtered.",
+      "concerns": "Engine claim inconsistent with model, no VIN, obfuscated phone, price below typical 4Runner market.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-09T07:40:00-07:00",
+      "priority_rank": null,
+      "id": "cl-chatsworth-4runner-2016-pTXFqjf5"
     }
   ],
   "search_coverage": {
-    "checked_at": "2026-10-07T12:30:00-07:00",
+    "checked_at": "2026-10-09T07:40:00-07:00",
+    "run": "2026-10-09 daily (catch-up for failed 10-08 run; compared against 2026-10-07 state)",
     "craigslist_sapi": {
       "status": "ok (all HTTP 200)",
       "queries": 66,
-      "detail_pages": 32,
-      "notes": "lasvegas postal 89101; 80 mi all sellers + 250 mi owner-only; 145=owner/146=dealer category codes; results filtered by title regex, dedup by posting id"
+      "filtered_listings": 316,
+      "detail_pages": "12 new/changed posts + 29 tracked-URL liveness checks (3 returned HTTP 410)",
+      "notes": "lasvegas postal 89101; 80 mi all sellers + 250 mi owner-only; no Mach-E on CL LV (mach-e owner search = 0 hits)"
     },
     "cargurus": {
-      "status": "ok via WebFetch",
+      "status": "ok via WebFetch (curl gets HTTP 406)",
       "pages": [
         "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
         "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
         "https://www.cargurus.com/Cars/s-Used-Mazda-Under-20000-Las-Vegas-m42_spt379_L21230",
-        "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230",
-        "https://www.cargurus.com/Cars/l-Used-Toyota-RAV4-Las-Vegas-d306_L21230"
+        "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230"
       ],
-      "note": "search cards give VIN/price/miles but no per-listing URLs in fetch output; under-$20k filters (no $21k bucket) \u2014 $20\u201321k cars partly missed"
+      "note": "each page returns only the first ~20 cards; previously tracked cards not shown are flagged unverified (not assumed sold). RAV4 LV page (d306) not re-fetched this run (Toyota page used)."
     },
     "cars_com": {
-      "status": "blocked_403",
-      "checked": "2026-10-07"
+      "status": "blocked_403 (Cloudflare \"Just a moment\")",
+      "checked": "2026-10-09"
     },
     "facebook_marketplace": {
-      "status": "not checked this run (no browser in this subagent run)"
+      "status": "not checked (no browser session in this run)"
     },
     "offerup": {
-      "status": "HTTP 200 but geolocated to Oklahoma/Kansas by IP \u2014 unusable without a browser location",
-      "checked": "2026-10-07"
+      "status": "HTTP 200 but IP-geolocated to Kansas/Oklahoma \u2014 unusable without a browser location",
+      "checked": "2026-10-09"
     },
     "dealer_sites": {
-      "status": "not crawled this run (CarGurus used as aggregator)"
+      "status": "only Team Ford Las Vegas Mach-E VDP re-checked (200, $20,316 still on page); other dealer inventories not crawled; Hyundai of Las Vegas/EchoPark data came from undated web-search snapshots only"
     },
-    "comps": {
-      "vinassessment": "ok (20 model pages)",
-      "kbb": "via search snippet (ID.4 Standard FPP $20,740)"
+    "web_search": {
+      "status": "2 VIN lookups (VinAssessment/dealer snapshots) used only to flag conflicts on two STRONG CarGurus cards; undated, not treated as verification"
     }
   },
   "categories": [
@@ -10741,6 +12009,82 @@
       "autolist": {
         "status": "http_404 on search URL",
         "checked": "2026-10-07"
+      }
+    },
+    "2026-10-07_local_refactor": {
+      "checked_at": "2026-10-07T12:30:00-07:00",
+      "craigslist_sapi": {
+        "status": "ok (all HTTP 200)",
+        "queries": 66,
+        "detail_pages": 32,
+        "notes": "lasvegas postal 89101; 80 mi all sellers + 250 mi owner-only; 145=owner/146=dealer category codes; results filtered by title regex, dedup by posting id"
+      },
+      "cargurus": {
+        "status": "ok via WebFetch",
+        "pages": [
+          "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+          "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
+          "https://www.cargurus.com/Cars/s-Used-Mazda-Under-20000-Las-Vegas-m42_spt379_L21230",
+          "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230",
+          "https://www.cargurus.com/Cars/l-Used-Toyota-RAV4-Las-Vegas-d306_L21230"
+        ],
+        "note": "search cards give VIN/price/miles but no per-listing URLs in fetch output; under-$20k filters (no $21k bucket) \u2014 $20\u201321k cars partly missed"
+      },
+      "cars_com": {
+        "status": "blocked_403",
+        "checked": "2026-10-07"
+      },
+      "facebook_marketplace": {
+        "status": "not checked this run (no browser in this subagent run)"
+      },
+      "offerup": {
+        "status": "HTTP 200 but geolocated to Oklahoma/Kansas by IP \u2014 unusable without a browser location",
+        "checked": "2026-10-07"
+      },
+      "dealer_sites": {
+        "status": "not crawled this run (CarGurus used as aggregator)"
+      },
+      "comps": {
+        "vinassessment": "ok (20 model pages)",
+        "kbb": "via search snippet (ID.4 Standard FPP $20,740)"
+      }
+    },
+    "2026-10-09_daily": {
+      "checked_at": "2026-10-09T07:40:00-07:00",
+      "run": "2026-10-09 daily (catch-up for failed 10-08 run; compared against 2026-10-07 state)",
+      "craigslist_sapi": {
+        "status": "ok (all HTTP 200)",
+        "queries": 66,
+        "filtered_listings": 316,
+        "detail_pages": "12 new/changed posts + 29 tracked-URL liveness checks (3 returned HTTP 410)",
+        "notes": "lasvegas postal 89101; 80 mi all sellers + 250 mi owner-only; no Mach-E on CL LV (mach-e owner search = 0 hits)"
+      },
+      "cargurus": {
+        "status": "ok via WebFetch (curl gets HTTP 406)",
+        "pages": [
+          "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+          "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
+          "https://www.cargurus.com/Cars/s-Used-Mazda-Under-20000-Las-Vegas-m42_spt379_L21230",
+          "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230"
+        ],
+        "note": "each page returns only the first ~20 cards; previously tracked cards not shown are flagged unverified (not assumed sold). RAV4 LV page (d306) not re-fetched this run (Toyota page used)."
+      },
+      "cars_com": {
+        "status": "blocked_403 (Cloudflare \"Just a moment\")",
+        "checked": "2026-10-09"
+      },
+      "facebook_marketplace": {
+        "status": "not checked (no browser session in this run)"
+      },
+      "offerup": {
+        "status": "HTTP 200 but IP-geolocated to Kansas/Oklahoma \u2014 unusable without a browser location",
+        "checked": "2026-10-09"
+      },
+      "dealer_sites": {
+        "status": "only Team Ford Las Vegas Mach-E VDP re-checked (200, $20,316 still on page); other dealer inventories not crawled; Hyundai of Las Vegas/EchoPark data came from undated web-search snapshots only"
+      },
+      "web_search": {
+        "status": "2 VIN lookups (VinAssessment/dealer snapshots) used only to flag conflicts on two STRONG CarGurus cards; undated, not treated as verification"
       }
     }
   }

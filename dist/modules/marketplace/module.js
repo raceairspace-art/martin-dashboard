@@ -503,6 +503,38 @@
       </form>`;
   }
 
+
+  /* Daily-hunt quality flags (changed_questionable[] {id, type, note}) → card badges */
+  let huntFlags = new Map();
+
+  function buildHuntFlags(daily) {
+    const map = new Map();
+    const rows = daily && Array.isArray(daily.changed_questionable) ? daily.changed_questionable : [];
+    for (const r of rows) {
+      if (!r || !r.id || !r.type) continue;
+      const type = String(r.type).toUpperCase();
+      let label = null;
+      let cls = "flag-badge";
+      if (type.startsWith("QUESTIONABLE") || type.includes("FAKE") || type.includes("BAIT")) {
+        label = "Price unverified";
+        cls += " flag-warn";
+      } else if (type.startsWith("NOT RE-SEEN")) {
+        label = "Not re-seen";
+        cls += " flag-muted";
+      }
+      if (!label) continue;
+      map.set(String(r.id).trim(), { label, cls, type: String(r.type), note: r.note ? String(r.note) : "" });
+    }
+    return map;
+  }
+
+  function flagBadge(c) {
+    const f = c && huntFlags.get(c.id);
+    if (!f) return "";
+    const { escapeHtml } = MartinData;
+    return `<span class="badge ${f.cls}" title="${escapeHtml(f.type + (f.note ? " — " + f.note : ""))}">${escapeHtml(f.label)}</span>`;
+  }
+
   function renderListRow(c, budget) {
     const { money, miles, escapeHtml } = MartinData;
     const title = displayTitle(c);
@@ -535,6 +567,7 @@
             <span class="badge category-chip ${categoryChipClass(cat)}">${escapeHtml(categoryLabel(cat))}</span>
             ${privBadge}
             ${overBadge}
+            ${flagBadge(c)}
             ${marketValueHtml(c)} ${save}
           </span>
         </span>
@@ -610,6 +643,7 @@
               <span class="badge category-chip ${categoryChipClass(cat)}">${escapeHtml(categoryLabel(cat))}</span>
               ${privBadge}
               ${overBadge}
+              ${flagBadge(c)}
               <span class="status-pill">${escapeHtml(c.status || "")}</span>
               <span>${escapeHtml(c.seller_type || "—")}</span>
               <span>${escapeHtml(c.location || "—")}</span>
@@ -761,6 +795,7 @@
       return;
     }
     const budget = budgetCap(wl);
+    huntFlags = buildHuntFlags(data.dailyHunt);
     const all = Array.isArray(wl.candidates) ? wl.candidates : [];
     const filtered = sortCandidates(applyFilters(all, budget), budget);
     const inBudgetCount = all.filter((c) => !isOverBudget(c, budget)).length;
@@ -814,6 +849,7 @@
   }
 
   global.MarketplaceModule = {
+    buildHuntFlags,
     render,
     state,
     sortCandidates,

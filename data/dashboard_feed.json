@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-10-07T11:52:57-07:00",
+  "updated_at": "2026-10-09T07:42:06-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-09-maggie-sold-3",
+      "ts": "2026-10-09T07:42:06-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "status",
+      "severity": "info",
+      "title": "3 sold/removed",
+      "summary": "Listings left active under-budget pool or marked sold.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-09-maggie-drops-3",
+      "ts": "2026-10-09T07:42:06-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "recommendation",
+      "severity": "medium",
+      "title": "3 price drop(s)",
+      "summary": "Ask price decreased vs previous snapshot.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-09-maggie-new-cargurus-lv-3MVDMBDM6MM218234",
+      "ts": "2026-10-09T07:42:06-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-3MVDMBDM6MM218234 at $19978",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-3MVDMBDM6MM218234"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-3MVDMBDM6MM218234",
+        "assessment": "STRONG DEAL",
+        "ask_price": 19978,
+        "status": "active"
+      }
+    },
+    {
+      "id": "feed-2026-10-09-maggie-new-cargurus-lv-KMHRC8A37SU403065",
+      "ts": "2026-10-09T07:42:06-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-KMHRC8A37SU403065 at $17596",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-KMHRC8A37SU403065"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-KMHRC8A37SU403065",
+        "assessment": "STRONG DEAL",
+        "ask_price": 17596,
+        "status": "active"
+      }
+    },
     {
       "id": "feed-2026-10-07-maggie-new-cl-ontario-rav4-2020-ptWyW4Yu",
       "ts": "2026-10-07T11:52:57-07:00",
