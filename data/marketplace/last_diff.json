@@ -1,1039 +1,126 @@
 {
-  "diffed_at": "2026-10-07T11:52:57-07:00",
-  "watchlist_updated_at": "2026-10-07T12:30:00-07:00",
+  "diffed_at": "2026-10-09T07:42:06-07:00",
+  "watchlist_updated_at": "2026-10-09T07:40:00-07:00",
   "had_previous": true,
   "counts": {
-    "new_listings": 52,
+    "new_listings": 24,
     "removed_listings": 0,
-    "new_strong_or_exceptional": 12,
-    "price_drops": 0,
-    "sold_or_removed": 0,
-    "status_changes": 89,
-    "assessment_changes": 89
+    "new_strong_or_exceptional": 2,
+    "price_drops": 3,
+    "sold_or_removed": 3,
+    "status_changes": 3,
+    "assessment_changes": 3
   },
   "new_ids": [
-    "cl-lv-1N4AZ1CPXKC308583",
-    "cl-lv-4runner-2008-qXE3BbH3",
-    "cl-lv-bolt-2020-xosiJxpR",
-    "cl-lv-models-2014-1PmbKVfH",
-    "cl-lv-leaf-unknownyr-kKhkTTX3",
-    "cl-lv-santafe-2020-gtc4W8zQ",
-    "cl-hen-JTMWFREV8JD116820",
-    "cl-lv-rav4-rebuilt-sPZJDVRP",
-    "cl-lv-rav4-rebuilt-jt5AMUYy",
-    "cl-lv-5YJ3E1EB7NF252125",
-    "cl-lv-5TDJZRFHXKS615571",
-    "cl-lv-2T3H1RFV4MC094880",
-    "cl-lv-2T3W1RFVXLC045589",
-    "cl-lv-5YJ3E1EA9KF309685",
-    "cl-lv-LPSED3KA7ML019112",
-    "cl-lv-1G1FZ6S0XK4111935",
-    "cl-lv-5XYZW4LA9JG541920",
-    "cl-lv-5TDDKRFHXFS094715",
-    "cargurus-lv-5NMJB3DE0SH494403",
-    "cargurus-lv-JN1AF0BA8RM431218",
-    "cargurus-lv-1G1FW6S01P4186779",
-    "cargurus-lv-1V2BMPE8XRC016818",
-    "cargurus-lv-7MUCAAAG4NV008074",
-    "cargurus-lv-cx5-2021-touring-70749",
-    "cargurus-lv-1N4AZ1BV6SC561285",
-    "cargurus-lv-1N4AZ1BV6SC566289",
-    "cargurus-lv-1N4AZ1BV9SC566710",
-    "cargurus-lv-1N4AZ1BV5SC550004",
-    "cargurus-lv-1N4CZ1CV5PC559218",
-    "cargurus-lv-1N4CZ1CV7RC556422",
-    "cargurus-lv-JN1AF0BA6PM402572",
-    "cargurus-lv-KM8K53AG6PU167405",
-    "cargurus-lv-KM8K33AG8PU183529",
-    "cargurus-lv-1G1FY6S0XL4150691",
-    "cargurus-lv-JM3KFBBM9N1579064",
-    "cargurus-lv-3MVDMBBL6MM239241",
-    "cargurus-lv-KMHRC8A34RU287348",
-    "cargurus-lv-kona-2023-24006",
-    "cargurus-lv-JTMBFREV2HD205260",
-    "cargurus-lv-2T3ZFREV8JW416583",
-    "cargurus-lv-KM8J3CA4XLU198500",
-    "cargurus-lv-KM8J33A42MU296034",
-    "cargurus-lv-JM3KFABM0K0537099",
-    "cl-ontario-rav4-2020-ptWyW4Yu",
-    "cl-chino-KNDCR3L12P5022703",
-    "cl-cardiff-leaf-2025-59dipZuB",
-    "cl-sd-1N4CZ1CV9PC552708",
-    "cl-ramona-KNDC34LA0R5205043",
-    "cl-southgate-KM8JECA12NU039229",
-    "cl-montereypark-rav4-2025-ts9ggBcw",
-    "cl-sylmar-rav4-2022-rAcJdsRp",
-    "cl-downey-cx9-2022-jWc7FcuoA"
+    "cargurus-lv-KMHRC8A37SU403065",
+    "cargurus-lv-KMHRC8A30SU350841",
+    "cargurus-lv-5NMJA3AE1NH057828",
+    "cargurus-lv-3MVDMBDM6MM218234",
+    "cargurus-lv-JM1DKFB71K1431856",
+    "cargurus-lv-2T3DFREV5FW260391",
+    "cargurus-lv-WVGRMPE21MP041809",
+    "cargurus-lv-KNDCE3LG0N5149110",
+    "cargurus-lv-1G1FZ6S07L4138527",
+    "cargurus-lv-1G1FZ6S07L4105253",
+    "cargurus-lv-1G1FZ6S04M4114896",
+    "cargurus-lv-1G1FY6S0XL4106593",
+    "cargurus-lv-1N4CZ1CV1RC556416",
+    "cargurus-lv-5YJ3E1EA8MF028724",
+    "cargurus-lv-WVWKR7AU7KW902783",
+    "cargurus-lv-WVWPP7AU1GW909070",
+    "cl-lv-dealer-tucson-2014-sW1HUxcg",
+    "cl-mini-se-2022-encinitas-goUAK8KU",
+    "cl-kona-se-2019-woodlandhills-9TWDcP6U",
+    "cl-tucson-2016-tarzana-4FGL8pJ8",
+    "cl-cx5-2018-eltoro-31dNFakc",
+    "cl-santafe-2020-sandiego-rnAQtLsL",
+    "cl-lawndale-rav4-2018-p42LxeCR",
+    "cl-chatsworth-4runner-2016-pTXFqjf5"
   ],
   "removed_ids": [],
   "new_strong_or_exceptional": [
     {
-      "id": "cl-lv-1N4AZ1CPXKC308583",
+      "id": "cargurus-lv-KMHRC8A37SU403065",
       "assessment": "STRONG DEAL",
-      "ask_price": 9995,
+      "ask_price": 17596,
       "status": "active"
     },
     {
-      "id": "cl-lv-5YJ3E1EB7NF252125",
+      "id": "cargurus-lv-3MVDMBDM6MM218234",
       "assessment": "STRONG DEAL",
-      "ask_price": 19498,
-      "status": "active"
-    },
-    {
-      "id": "cl-lv-5TDJZRFHXKS615571",
-      "assessment": "STRONG DEAL",
-      "ask_price": 16994,
-      "status": "active"
-    },
-    {
-      "id": "cargurus-lv-5NMJB3DE0SH494403",
-      "assessment": "STRONG DEAL",
-      "ask_price": 18596,
-      "status": "active"
-    },
-    {
-      "id": "cargurus-lv-JN1AF0BA8RM431218",
-      "assessment": "STRONG DEAL",
-      "ask_price": 19799,
-      "status": "active"
-    },
-    {
-      "id": "cargurus-lv-1G1FW6S01P4186779",
-      "assessment": "STRONG DEAL",
-      "ask_price": 18038,
-      "status": "active"
-    },
-    {
-      "id": "cargurus-lv-1V2BMPE8XRC016818",
-      "assessment": "STRONG DEAL",
-      "ask_price": 18987,
-      "status": "active"
-    },
-    {
-      "id": "cargurus-lv-7MUCAAAG4NV008074",
-      "assessment": "STRONG DEAL",
-      "ask_price": 19990,
-      "status": "active"
-    },
-    {
-      "id": "cargurus-lv-cx5-2021-touring-70749",
-      "assessment": "STRONG DEAL",
-      "ask_price": 18794,
-      "status": "active"
-    },
-    {
-      "id": "cargurus-lv-1N4AZ1BV6SC561285",
-      "assessment": "STRONG DEAL",
-      "ask_price": 15299,
-      "status": "active"
-    },
-    {
-      "id": "cargurus-lv-1N4AZ1BV6SC566289",
-      "assessment": "STRONG DEAL",
-      "ask_price": 15699,
-      "status": "active"
-    },
-    {
-      "id": "cl-ontario-rav4-2020-ptWyW4Yu",
-      "assessment": "STRONG DEAL",
-      "ask_price": 17000,
+      "ask_price": 19978,
       "status": "active"
     }
   ],
-  "price_drops": [],
-  "sold_or_removed": [],
+  "price_drops": [
+    {
+      "id": "cl-hen-JTMWFREV8JD116820",
+      "from": 13500,
+      "to": 12900,
+      "delta": -600.0
+    },
+    {
+      "id": "cargurus-lv-1N4CZ1CV5PC559218",
+      "from": 17999,
+      "to": 17799,
+      "delta": -200.0
+    },
+    {
+      "id": "cl-sd-1N4CZ1CV9PC552708",
+      "from": 17400,
+      "to": 16900,
+      "delta": -500.0
+    }
+  ],
+  "sold_or_removed": [
+    {
+      "id": "cl-lv-models-2014-1PmbKVfH",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cl-lv-5YJ3E1EB7NF252125",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cl-lv-5YJ3E1EA9KF309685",
+      "from": "active",
+      "to": "sold_or_removed"
+    }
+  ],
   "status_changes": [
     {
-      "id": "cl-redlands-3FMTK3SS8NMA40995",
+      "id": "cl-lv-models-2014-1PmbKVfH",
       "from": "active",
-      "to": "over_budget"
+      "to": "sold_or_removed"
     },
     {
-      "id": "cl-phoenix-2024-select-24988",
+      "id": "cl-lv-5YJ3E1EB7NF252125",
       "from": "active",
-      "to": "over_budget"
+      "to": "sold_or_removed"
     },
     {
-      "id": "teamford-3FMTK1RM6NMA17680",
+      "id": "cl-lv-5YJ3E1EA9KF309685",
       "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-simi-28876mi",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-chino-3FMTK1RM0PMA14552",
-      "from": "active_possibly_stale",
-      "to": "over_budget"
-    },
-    {
-      "id": "cl-norco-3FMTK1RM4MMA25274",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cl-lv-globul-3FMTK3RM1NMA16206",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-lv-3FMTK1RM4PMA18362",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-vannuys-3FMTK1RM1PMA17346",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cl-norco-2023-3FMTK1RM9PMA39997",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "findmyelectric-la-private-3FMTK1SS2NMA45534",
-      "from": "active_possibly_stale",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-valencia-premium-3FMTK3RM2NMA02332",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-simi-20447mi-3FMTK1RM6PMA30660",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "desert215-3FMTK1RM0NMA44504",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-yucca-3FMTK3RM9MMA45662",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-cerritos-3FMTK1RM0NMA17965",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-ontario-3FMTK3R77PMA68355",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-hb-3FMTK1RM1PMA40612",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-norco-premium-3FMTK3R48PMA73909",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cl-sd-autofinders-3FMTK2R77MMA36401",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-longbeach-3FMTK1RMXPMA29351",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-longbeach-3FMTK1R48PMA67435",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-noho-3FMTK1R46PMA68437",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-santana-3FMTK3SU6NMA11416",
-      "from": "active_possibly_stale",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-chino-3FMTK1R42PMA62408",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-anaheim-3FMTK1RM4NMA17483",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-buenapark-3FMTK1RM1MMA55171",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-lv-henderson-3FMTK3SU3PMA06077",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM4PMA30821",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK3R74MMA39228",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM4PMA14764",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM0PMA46613",
-      "from": "active_possibly_stale",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM7PMA40680",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM1PMA13202",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1SS1PMA09367",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM4NMA40066",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM7PMA18128",
-      "from": "active_possibly_stale",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM9PMA17949",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK3RM1NMA43258",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK3SU1MMA07014",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK3RMXNMA40410",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-3FMTK1R44PMA65245",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-3FMTK1RMXPMA17846",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-3FMTK1R49PMA64981",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-3FMTK1R40PMA76954",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-3FMTK1RM6PMA28312",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-3FMTK1RM9NMA08049",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-3FMTK2R75MMA42309",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "anderson-kingman-3FMTK1R41RMA02946",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-montebello-3FMTK1RM6PMA15320",
-      "from": "active_possibly_stale",
-      "to": "over_budget"
-    },
-    {
-      "id": "automatch-3FMTK1SU6RMA19574",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cl-scottsdale-private-3FMTK1RMXNMA14376",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1R47PMA65367",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM1PMA13264",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM2PMA40361",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM8PMA46066",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM0PMA41024",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM8PMA28702",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1R43PMA63597",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM8PMA17621",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM1PMA40254",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM8PMA18266",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1R43PMA88337",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1RM7PMA27766",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK3R4XPMA74026",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1R44RMA16467",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK1SS0MMA10523",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK3RM9NMA04319",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK3RM5PMA26904",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "carscom-3FMTK3SU5MMA10577",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-chino-3FMTK1R41PMA92466",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-calabasas-3FMTK3R77MMA56170",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-ontario-3FMTK1R42PMA67561",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-lvdel-pacoima-3FMTK1RM8MMA35550",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-lvdel-fl-3FMTK1RM1NMA38341",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-lvdel-fl-3FMTK1R40PMB04283",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-carson-3FMTK3R73PMA55702",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-lvdel-sd-3FMTK3R73MMA47143",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-lvdel-mesa-3FMTK3RM8NMA57352",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-lvdel-fullerton-3FMTK3R72PMA13442",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-lvdel-to-3FMTK3SU6NMA17331",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-phx-3FMTK3R77MMA08734",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-phx-gilbert-3FMTK3R7XPMA63473",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-vannuys-3FMTK1RM6PMA46308",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-orange-3FMTK3R73NMA26732",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-ca-pacoima-3FMTK3R45PMA65993",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-lvdel-hollywoodfl-3FMTK1SS8MMA25657",
-      "from": "active",
-      "to": "over_budget"
-    },
-    {
-      "id": "cargurus-slc-3FMTK3SU3MMA10691",
-      "from": "active",
-      "to": "over_budget"
+      "to": "sold_or_removed"
     }
   ],
   "assessment_changes": [
     {
-      "id": "cl-redlands-3FMTK3SS8NMA40995",
+      "id": "cl-lv-models-2014-1PmbKVfH",
+      "from": "FAIR DEAL",
+      "to": "SOLD/REMOVED"
+    },
+    {
+      "id": "cl-lv-5YJ3E1EB7NF252125",
       "from": "STRONG DEAL",
-      "to": "AVOID"
+      "to": "SOLD/REMOVED"
     },
     {
-      "id": "cl-phoenix-2024-select-24988",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "teamford-3FMTK1RM6NMA17680",
+      "id": "cl-lv-5YJ3E1EA9KF309685",
       "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-simi-28876mi",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-chino-3FMTK1RM0PMA14552",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cl-norco-3FMTK1RM4MMA25274",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cl-lv-globul-3FMTK3RM1NMA16206",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-lv-3FMTK1RM4PMA18362",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-vannuys-3FMTK1RM1PMA17346",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cl-norco-2023-3FMTK1RM9PMA39997",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "findmyelectric-la-private-3FMTK1SS2NMA45534",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-valencia-premium-3FMTK3RM2NMA02332",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-simi-20447mi-3FMTK1RM6PMA30660",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "desert215-3FMTK1RM0NMA44504",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-yucca-3FMTK3RM9MMA45662",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-cerritos-3FMTK1RM0NMA17965",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-ontario-3FMTK3R77PMA68355",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-hb-3FMTK1RM1PMA40612",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-norco-premium-3FMTK3R48PMA73909",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cl-sd-autofinders-3FMTK2R77MMA36401",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-longbeach-3FMTK1RMXPMA29351",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-longbeach-3FMTK1R48PMA67435",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-noho-3FMTK1R46PMA68437",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-santana-3FMTK3SU6NMA11416",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-chino-3FMTK1R42PMA62408",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-anaheim-3FMTK1RM4NMA17483",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-buenapark-3FMTK1RM1MMA55171",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-lv-henderson-3FMTK3SU3PMA06077",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM4PMA30821",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK3R74MMA39228",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM4PMA14764",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM0PMA46613",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM7PMA40680",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM1PMA13202",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1SS1PMA09367",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM4NMA40066",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM7PMA18128",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM9PMA17949",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK3RM1NMA43258",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK3SU1MMA07014",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK3RMXNMA40410",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-3FMTK1R44PMA65245",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-3FMTK1RMXPMA17846",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-3FMTK1R49PMA64981",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-3FMTK1R40PMA76954",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-3FMTK1RM6PMA28312",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-3FMTK1RM9NMA08049",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-3FMTK2R75MMA42309",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "anderson-kingman-3FMTK1R41RMA02946",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-montebello-3FMTK1RM6PMA15320",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "automatch-3FMTK1SU6RMA19574",
-      "from": "STRONG DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cl-scottsdale-private-3FMTK1RMXNMA14376",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1R47PMA65367",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM1PMA13264",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM2PMA40361",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM8PMA46066",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM0PMA41024",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM8PMA28702",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1R43PMA63597",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM8PMA17621",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM1PMA40254",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM8PMA18266",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1R43PMA88337",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1RM7PMA27766",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK3R4XPMA74026",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1R44RMA16467",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK1SS0MMA10523",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK3RM9NMA04319",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK3RM5PMA26904",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "carscom-3FMTK3SU5MMA10577",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-chino-3FMTK1R41PMA92466",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-calabasas-3FMTK3R77MMA56170",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-ontario-3FMTK1R42PMA67561",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-lvdel-pacoima-3FMTK1RM8MMA35550",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-lvdel-fl-3FMTK1RM1NMA38341",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-lvdel-fl-3FMTK1R40PMB04283",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-carson-3FMTK3R73PMA55702",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-lvdel-sd-3FMTK3R73MMA47143",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-lvdel-mesa-3FMTK3RM8NMA57352",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-lvdel-fullerton-3FMTK3R72PMA13442",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-lvdel-to-3FMTK3SU6NMA17331",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-phx-3FMTK3R77MMA08734",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-phx-gilbert-3FMTK3R7XPMA63473",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-vannuys-3FMTK1RM6PMA46308",
-      "from": "FAIR DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-orange-3FMTK3R73NMA26732",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-ca-pacoima-3FMTK3R45PMA65993",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-lvdel-hollywoodfl-3FMTK1SS8MMA25657",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
-    },
-    {
-      "id": "cargurus-slc-3FMTK3SU3MMA10691",
-      "from": "WEAK DEAL",
-      "to": "AVOID"
+      "to": "SOLD/REMOVED"
     }
   ]
 }

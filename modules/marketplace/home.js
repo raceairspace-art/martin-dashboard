@@ -195,6 +195,15 @@
     return out;
   }
 
+  let homeFlags = new Map();
+
+  function homeFlagBadge(c) {
+    const f = c && homeFlags.get(c.id);
+    if (!f) return "";
+    const { escapeHtml } = MartinData;
+    return `<span class="badge ${f.cls}" title="${escapeHtml(f.type + (f.note ? " — " + f.note : ""))}">${escapeHtml(f.label)}</span>`;
+  }
+
   function renderListingCard(c) {
     const { money, miles, escapeHtml } = MartinData;
     const title = displayTitle(c);
@@ -233,6 +242,7 @@
             <span class="badge ${chip}">${escapeHtml(c.assessment || "")}</span>
             <span class="badge category-chip">${escapeHtml(categoryLabel(cat))}</span>
             ${privBadge}
+            ${homeFlagBadge(c)}
             ${listing}
           </div>
         </div>
@@ -251,6 +261,10 @@
     }
 
     const budget = budgetCap(wl);
+    homeFlags =
+      global.MarketplaceModule && typeof MarketplaceModule.buildHuntFlags === "function"
+        ? MarketplaceModule.buildHuntFlags(data.dailyHunt)
+        : new Map();
     const activeBudget = countActiveInBudget(wl);
     const best = bestCurrent(wl);
     const counts = huntCounts(data.dailyHunt, data.lastDiff);
