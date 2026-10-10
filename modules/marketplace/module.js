@@ -515,10 +515,16 @@
       const type = String(r.type).toUpperCase();
       let label = null;
       let cls = "flag-badge";
-      if (type.startsWith("QUESTIONABLE") || type.includes("FAKE") || type.includes("BAIT")) {
+      // Price/data conflicts outrank "not re-seen" when both appear in one type
+      if (
+        type.includes("QUESTIONABLE") ||
+        type.includes("PRICE CONFLICT") ||
+        type.includes("FAKE") ||
+        type.includes("BAIT")
+      ) {
         label = "Price unverified";
         cls += " flag-warn";
-      } else if (type.startsWith("NOT RE-SEEN")) {
+      } else if (type.includes("NOT RE-SEEN")) {
         label = "Not re-seen";
         cls += " flag-muted";
       }

@@ -1,6 +1,47 @@
 {
-  "updated_at": "2026-10-09T07:42:06-07:00",
+  "updated_at": "2026-10-10T07:17:41-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-10-maggie-drops-3",
+      "ts": "2026-10-10T07:17:41-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "recommendation",
+      "severity": "medium",
+      "title": "3 price drop(s)",
+      "summary": "Ask price decreased vs previous snapshot.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-10-maggie-new-cargurus-lv-1G1FZ6S07L4105253",
+      "ts": "2026-10-10T07:17:41-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-1G1FZ6S07L4105253 at $14699",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-1G1FZ6S07L4105253"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-1G1FZ6S07L4105253",
+        "assessment": "STRONG DEAL",
+        "ask_price": 14699,
+        "status": "active",
+        "via": "assessment_upgrade"
+      }
+    },
     {
       "id": "feed-2026-10-09-maggie-sold-3",
       "ts": "2026-10-09T07:42:06-07:00",
