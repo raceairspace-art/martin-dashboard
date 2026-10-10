@@ -212,7 +212,7 @@ Observed / expected fields (from live 2026-10-02 file; treat as contract):
 | `price_drops` | array | `{ id, from, to, delta, note, url }` |
 | `sold_or_removed` | array | (name may vary slightly — ingest should accept common aliases) |
 | *other buckets* | array | Pass through for module “run coverage” |
-| `changed_questionable` | array | `{ id, type, note }`; UI badges `QUESTIONABLE*`/`FAKE`/`BAIT` → “Price unverified”, `NOT RE-SEEN*` → “Not re-seen” |
+| `changed_questionable` | array | `{ id, type, note }`; UI badges from today’s hunt only: type containing `QUESTIONABLE` / `PRICE CONFLICT` / `FAKE` / `BAIT` → “Price unverified” (wins over not-re-seen); else containing `NOT RE-SEEN` → “Not re-seen” |
 
 **Martin diff keys vs watchlist:** `id` + `ask_price` + `status` (and assessment changes → feed).
 

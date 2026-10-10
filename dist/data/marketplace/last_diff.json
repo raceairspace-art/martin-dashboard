@@ -1,126 +1,75 @@
 {
-  "diffed_at": "2026-10-09T07:42:06-07:00",
-  "watchlist_updated_at": "2026-10-09T07:40:00-07:00",
+  "diffed_at": "2026-10-10T07:17:41-07:00",
+  "watchlist_updated_at": "2026-10-10T08:00:00-07:00",
   "had_previous": true,
   "counts": {
-    "new_listings": 24,
+    "new_listings": 20,
     "removed_listings": 0,
-    "new_strong_or_exceptional": 2,
+    "new_strong_or_exceptional": 1,
     "price_drops": 3,
-    "sold_or_removed": 3,
-    "status_changes": 3,
-    "assessment_changes": 3
+    "sold_or_removed": 0,
+    "status_changes": 0,
+    "assessment_changes": 1
   },
   "new_ids": [
-    "cargurus-lv-KMHRC8A37SU403065",
-    "cargurus-lv-KMHRC8A30SU350841",
-    "cargurus-lv-5NMJA3AE1NH057828",
-    "cargurus-lv-3MVDMBDM6MM218234",
-    "cargurus-lv-JM1DKFB71K1431856",
-    "cargurus-lv-2T3DFREV5FW260391",
-    "cargurus-lv-WVGRMPE21MP041809",
-    "cargurus-lv-KNDCE3LG0N5149110",
-    "cargurus-lv-1G1FZ6S07L4138527",
-    "cargurus-lv-1G1FZ6S07L4105253",
-    "cargurus-lv-1G1FZ6S04M4114896",
-    "cargurus-lv-1G1FY6S0XL4106593",
-    "cargurus-lv-1N4CZ1CV1RC556416",
-    "cargurus-lv-5YJ3E1EA8MF028724",
-    "cargurus-lv-WVWKR7AU7KW902783",
-    "cargurus-lv-WVWPP7AU1GW909070",
-    "cl-lv-dealer-tucson-2014-sW1HUxcg",
-    "cl-mini-se-2022-encinitas-goUAK8KU",
-    "cl-kona-se-2019-woodlandhills-9TWDcP6U",
-    "cl-tucson-2016-tarzana-4FGL8pJ8",
-    "cl-cx5-2018-eltoro-31dNFakc",
-    "cl-santafe-2020-sandiego-rnAQtLsL",
-    "cl-lawndale-rav4-2018-p42LxeCR",
-    "cl-chatsworth-4runner-2016-pTXFqjf5"
+    "cargurus-lv-1N4AZ1BV2SC550722",
+    "cargurus-lv-1N4AZ1BV6NC555846",
+    "cargurus-lv-1G1FW6S07P4182378",
+    "cargurus-lv-WA1VAAGE2KB024134",
+    "cargurus-lv-5YJSA1E24KF311652",
+    "cargurus-lv-5YJSA1E26GF170672",
+    "cargurus-lv-KMHRC8A36SU362363",
+    "cargurus-lv-KM8HB3AB6SU207675",
+    "cargurus-lv-5NMS33AD5LH185721",
+    "cargurus-lv-3MVDMBDL8NM438726",
+    "cargurus-lv-JM3TCACYXH0136957",
+    "cargurus-lv-3MVDMACL6LM107006",
+    "cargurus-lv-2T3ZFREV1EW124604",
+    "cargurus-lv-JTMZFREVXHJ715260",
+    "cargurus-lv-2T3H1RFV4MW173528",
+    "cargurus-lv-JTNKHMBXXK1029341",
+    "cargurus-lv-JTNKHMBX3K1021985",
+    "cl-irvine-ipace-2020-wvxFX",
+    "cl-southgate-bolt-2020-5o51X",
+    "cl-ramona-cx50-7MMVABBMXRN238632"
   ],
   "removed_ids": [],
   "new_strong_or_exceptional": [
     {
-      "id": "cargurus-lv-KMHRC8A37SU403065",
+      "id": "cargurus-lv-1G1FZ6S07L4105253",
       "assessment": "STRONG DEAL",
-      "ask_price": 17596,
-      "status": "active"
-    },
-    {
-      "id": "cargurus-lv-3MVDMBDM6MM218234",
-      "assessment": "STRONG DEAL",
-      "ask_price": 19978,
-      "status": "active"
+      "ask_price": 14699,
+      "status": "active",
+      "via": "assessment_upgrade"
     }
   ],
   "price_drops": [
     {
-      "id": "cl-hen-JTMWFREV8JD116820",
-      "from": 13500,
-      "to": 12900,
-      "delta": -600.0
-    },
-    {
-      "id": "cargurus-lv-1N4CZ1CV5PC559218",
-      "from": 17999,
-      "to": 17799,
-      "delta": -200.0
-    },
-    {
-      "id": "cl-sd-1N4CZ1CV9PC552708",
-      "from": 17400,
-      "to": 16900,
+      "id": "cargurus-lv-1N4AZ1BV6SC566289",
+      "from": 15699,
+      "to": 15199,
       "delta": -500.0
+    },
+    {
+      "id": "cargurus-lv-1G1FZ6S07L4105253",
+      "from": 15699,
+      "to": 14699,
+      "delta": -1000.0
+    },
+    {
+      "id": "cl-tucson-2016-tarzana-4FGL8pJ8",
+      "from": 10995,
+      "to": 9995,
+      "delta": -1000.0
     }
   ],
-  "sold_or_removed": [
-    {
-      "id": "cl-lv-models-2014-1PmbKVfH",
-      "from": "active",
-      "to": "sold_or_removed"
-    },
-    {
-      "id": "cl-lv-5YJ3E1EB7NF252125",
-      "from": "active",
-      "to": "sold_or_removed"
-    },
-    {
-      "id": "cl-lv-5YJ3E1EA9KF309685",
-      "from": "active",
-      "to": "sold_or_removed"
-    }
-  ],
-  "status_changes": [
-    {
-      "id": "cl-lv-models-2014-1PmbKVfH",
-      "from": "active",
-      "to": "sold_or_removed"
-    },
-    {
-      "id": "cl-lv-5YJ3E1EB7NF252125",
-      "from": "active",
-      "to": "sold_or_removed"
-    },
-    {
-      "id": "cl-lv-5YJ3E1EA9KF309685",
-      "from": "active",
-      "to": "sold_or_removed"
-    }
-  ],
+  "sold_or_removed": [],
+  "status_changes": [],
   "assessment_changes": [
     {
-      "id": "cl-lv-models-2014-1PmbKVfH",
+      "id": "cargurus-lv-1G1FZ6S07L4105253",
       "from": "FAIR DEAL",
-      "to": "SOLD/REMOVED"
-    },
-    {
-      "id": "cl-lv-5YJ3E1EB7NF252125",
-      "from": "STRONG DEAL",
-      "to": "SOLD/REMOVED"
-    },
-    {
-      "id": "cl-lv-5YJ3E1EA9KF309685",
-      "from": "FAIR DEAL",
-      "to": "SOLD/REMOVED"
+      "to": "STRONG DEAL"
     }
   ]
 }

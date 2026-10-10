@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-09T07:40:00-07:00",
+  "updated_at": "2026-10-10T08:00:00-07:00",
   "search_base": "Las Vegas, NV",
   "max_purchase_price": 21000,
   "preferred_max_miles": null,
-  "criteria_notes": "REFACTORED 2026-10-07 per Michael: Las Vegas metro / Southern Nevada first (geo_tier 1); tier 2 (~250 mi) only for exceptional private or clearly under-market cars; skip distant SoCal/UT unless exceptional. Max real purchase price $21,000 (cash OTD target). Clean title only (salvage/rebuilt = AVOID). Targets: any EV <= $21k; Hyundai SUVs (Tucson, Santa Fe, Kona, Venue, Palisade); Mazda SUVs (CX-3/CX-30/CX-5/CX-50/CX-9/CX-90); Toyota SUVs (RAV4, Highlander, Corolla Cross, Venza, 4Runner); Mach-E only if <= $21k. Rank by best deal overall; private-party ranked above comparable dealer deals. No hard mileage cap (judged vs year/price). Prior Mach-E ($25k) history retained: over-$21k Mach-Es set status over_budget/AVOID with prior_assessment_25k_budget kept; non-local flagged deprioritized=true. | 2026-10-09: daily run (catch-up for failed 10-08 run).",
+  "criteria_notes": "REFACTORED 2026-10-07 per Michael: Las Vegas metro / Southern Nevada first (geo_tier 1); tier 2 (~250 mi) only for exceptional private or clearly under-market cars; skip distant SoCal/UT unless exceptional. Max real purchase price $21,000 (cash OTD target). Clean title only (salvage/rebuilt = AVOID). Targets: any EV <= $21k; Hyundai SUVs (Tucson, Santa Fe, Kona, Venue, Palisade); Mazda SUVs (CX-3/CX-30/CX-5/CX-50/CX-9/CX-90); Toyota SUVs (RAV4, Highlander, Corolla Cross, Venza, 4Runner); Mach-E only if <= $21k. Rank by best deal overall; private-party ranked above comparable dealer deals. No hard mileage cap (judged vs year/price). Prior Mach-E ($25k) history retained: over-$21k Mach-Es set status over_budget/AVOID with prior_assessment_25k_budget kept; non-local flagged deprioritized=true. | 2026-10-09: daily run (catch-up for failed 10-08 run). | 2026-10-10: daily run.",
   "market_snapshot": {
     "as_of": "2026-10-07",
     "sources": [
@@ -230,7 +230,7 @@
       "title_status": "UNKNOWN",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-09-30T23:45:29-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-09-30",
@@ -268,7 +268,7 @@
         }
       ],
       "status": "active",
-      "notes": "Local. Cash price $20,687 stated. Miles over 50k preferred. 2021 Select national median ~$23.6k mixed miles. Confirm doc fees/OTD, Carfax, open recalls 22S41/23S56/25S14 for 2021-2022. | 2026-10-04: recheck live. | 2026-10-05: Team Ford VDP re-verified price $20,687; CarGurus LV $20,687 Fair Deal | 2026-10-06: Team Ford VDP live; CarGurus LV $20,687 Fair Deal | 2026-10-07: PRICE DROP on CarGurus LV $20,687 -> $20,316 (-$371) \"price includes fees\"; Team Ford VDP JSON still $20,687 \u2014 confirm which is current | 2026-10-09: VDP still live (HTTP 200); price string $20,316 still on page.",
+      "notes": "Local. Cash price $20,687 stated. Miles over 50k preferred. 2021 Select national median ~$23.6k mixed miles. Confirm doc fees/OTD, Carfax, open recalls 22S41/23S56/25S14 for 2021-2022. | 2026-10-04: recheck live. | 2026-10-05: Team Ford VDP re-verified price $20,687; CarGurus LV $20,687 Fair Deal | 2026-10-06: Team Ford VDP live; CarGurus LV $20,687 Fair Deal | 2026-10-07: PRICE DROP on CarGurus LV $20,687 -> $20,316 (-$371) \"price includes fees\"; Team Ford VDP JSON still $20,687 \u2014 confirm which is current | 2026-10-09: VDP still live (HTTP 200); price string $20,316 still on page. | 2026-10-10: VDP still live (HTTP 200); VDP JSON price now \"20316\" (matches CarGurus $20,316 fees-in; earlier VDP JSON showed $20,687).",
       "geo_tier": 1,
       "why_interesting": "Local Team Ford 2021 Select cash $20,687; notes cite 2021 Select national median ~$23.6k mixed miles.",
       "concerns": "Miles over 50k preferred (65,483); confirm doc fees/OTD, Carfax, open recalls 22S41/23S56/25S14.",
@@ -282,11 +282,11 @@
         "https://content.homenetiol.com/2000157/2065512/0x0/c92da8a93ade4faba67146d0a652ecaa.jpg",
         "https://content.homenetiol.com/2000157/2065512/0x0/cdb210a7b1ea43b3b23514acb7c65111.jpg"
       ],
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "category": "mach_e",
       "make": "Ford",
       "model": "Mustang Mach-E",
-      "priority_rank": 24
+      "priority_rank": 27
     },
     {
       "id": "teamford-3FMTK1RM6NMA17680",
@@ -8109,7 +8109,7 @@
       "title_status": "clean (CL attr; seller: clean title in hand)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8118,7 +8118,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-09-27. Duplicate CL post: https://www.craigslist.org/view/d/las-vegas-2019-nissan-leaf-sv-all/2ZVECbrjSb4TDXmE1c81Hj . Comps: CarGurus 2019 LEAF avg $12,143 (nationwide, all trims/miles); VinAssessment 2019 median $12,543. | 2026-10-09: re-verified live on Craigslist at same price ($9,995).",
+      "notes": "Posted 2026-09-27. Duplicate CL post: https://www.craigslist.org/view/d/las-vegas-2019-nissan-leaf-sv-all/2ZVECbrjSb4TDXmE1c81Hj . Comps: CarGurus 2019 LEAF avg $12,143 (nationwide, all trims/miles); VinAssessment 2019 median $12,543. | 2026-10-09: re-verified live on Craigslist at same price ($9,995). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $9,995.",
       "photos": [
         "https://images.craigslist.org/00t0t_3a9C2Z7bGYw_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/00g0g_hD6Ab6rE4j9_0CI0t2_600x450.jpg",
@@ -8131,7 +8131,7 @@
       "market_value_low": 12143,
       "market_value_high": 12543,
       "estimated_savings": 2348,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": 1
     },
     {
@@ -8157,7 +8157,7 @@
       "title_status": "clean (CL attr; seller: clean Nevada title, smog in hand)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8166,7 +8166,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-10-04. Market band UNKNOWN for 2008 (VinAssessment table starts its visible rows at 2010 $15,500). | 2026-10-09: re-verified live on Craigslist at same price ($11,499).",
+      "notes": "Posted 2026-10-04. Market band UNKNOWN for 2008 (VinAssessment table starts its visible rows at 2010 $15,500). | 2026-10-09: re-verified live on Craigslist at same price ($11,499). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $11,499.",
       "photos": [
         "https://images.craigslist.org/00f0f_ft0VB7ZzhML_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/01616_6donrvDpD9W_0CI0t2_600x450.jpg",
@@ -8186,8 +8186,8 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 14
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 15
     },
     {
       "id": "cl-lv-bolt-2020-xosiJxpR",
@@ -8212,7 +8212,7 @@
       "title_status": "lien (Capital One loan; seller will handle payoff/transfer)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8221,7 +8221,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-10-01. Comps: CarGurus LV dealer 2020 Bolt 53,587 mi $15,596; VinAssessment 2020 Bolt EV median $16,458. | 2026-10-09: re-verified live on Craigslist at same price ($15,800).",
+      "notes": "Posted 2026-10-01. Comps: CarGurus LV dealer 2020 Bolt 53,587 mi $15,596; VinAssessment 2020 Bolt EV median $16,458. | 2026-10-09: re-verified live on Craigslist at same price ($15,800). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $15,800.",
       "photos": [
         "https://images.craigslist.org/00p0p_aUBJrYDc3ap_0t20CI_600x450.jpg",
         "https://images.craigslist.org/00u0u_jud3IvidRH3_0t20CI_600x450.jpg",
@@ -8239,8 +8239,8 @@
       "market_value_low": 15596,
       "market_value_high": 16458,
       "estimated_savings": 227,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 15
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 16
     },
     {
       "id": "cl-lv-models-2014-1PmbKVfH",
@@ -8327,7 +8327,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8336,7 +8336,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-09-18, updated 09-23. | 2026-10-09: re-verified live on Craigslist at same price ($5,500).",
+      "notes": "Posted 2026-09-18, updated 09-23. | 2026-10-09: re-verified live on Craigslist at same price ($5,500). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $5,500.",
       "photos": [
         "https://images.craigslist.org/00b0b_leVIzlqjvWU_0yY0t2_600x450.jpg",
         "https://images.craigslist.org/00E0E_8Nq04xUtJnJ_0t20CI_600x450.jpg",
@@ -8353,8 +8353,8 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 17
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 19
     },
     {
       "id": "cl-lv-santafe-2020-gtc4W8zQ",
@@ -8379,7 +8379,7 @@
       "title_status": "clean (CL attr; seller: clean Nevada title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8388,7 +8388,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-09-26. VinAssessment 2020 Santa Fe median $16,998 (not mileage-adjusted). | 2026-10-09: re-verified live on Craigslist at same price ($10,990).",
+      "notes": "Posted 2026-09-26. VinAssessment 2020 Santa Fe median $16,998 (not mileage-adjusted). | 2026-10-09: re-verified live on Craigslist at same price ($10,990). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $10,990.",
       "photos": [
         "https://images.craigslist.org/00U0U_dpNNzZKPiCk_0t20CI_600x450.jpg",
         "https://images.craigslist.org/00a0a_2j2TuW21EcT_0t20CI_600x450.jpg",
@@ -8408,8 +8408,8 @@
       "market_value_low": null,
       "market_value_high": 16998,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 16
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 17
     },
     {
       "id": "cl-hen-JTMWFREV8JD116820",
@@ -8434,7 +8434,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "WEAK DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8448,7 +8448,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-10-03. | 2026-10-09: NEW repost of same VIN at $12,900 / 156k mi (old post still live at $13,500 / 158k mi).",
+      "notes": "Posted 2026-10-03. | 2026-10-09: NEW repost of same VIN at $12,900 / 156k mi (old post still live at $13,500 / 158k mi). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $12,900.",
       "photos": [
         "https://images.craigslist.org/00y0y_j8lczqIxjCg_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/01111_lFRoRrbDzCP_0CI0t2_600x450.jpg",
@@ -8466,7 +8466,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -8492,7 +8492,7 @@
       "title_status": "REBUILT (CL attr + seller text)",
       "assessment": "AVOID",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8521,7 +8521,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -8547,7 +8547,7 @@
       "title_status": "REBUILT (CL attr + seller text)",
       "assessment": "AVOID",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8576,7 +8576,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -8664,7 +8664,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8673,7 +8673,7 @@
         }
       ],
       "status": "active",
-      "notes": "Reposted 2026-10-07. Comp: VinAssessment 2019 Highlander median $24,487 (not mileage-adjusted; 99k mi pulls value down). | 2026-10-09: re-verified live on Craigslist at same price ($16,994).",
+      "notes": "Reposted 2026-10-07. Comp: VinAssessment 2019 Highlander median $24,487 (not mileage-adjusted; 99k mi pulls value down). | 2026-10-09: re-verified live on Craigslist at same price ($16,994). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $16,994.",
       "photos": [
         "https://images.craigslist.org/00909_5gc3ub3pmHw_0jm09K_600x450.jpg",
         "https://images.craigslist.org/00e0e_7Z8A7NQjDmE_0jm0cU_600x450.jpg",
@@ -8693,7 +8693,7 @@
       "market_value_low": null,
       "market_value_high": 24487,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": 9
     },
     {
@@ -8719,7 +8719,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8728,7 +8728,7 @@
         }
       ],
       "status": "active",
-      "notes": "Local comps: CarGurus LV 2022 RAV4 109.7k $22,089 / 2020 RAV4 65.5k $22,594; VinAssessment 2021 median $26,210. | 2026-10-09: re-verified live on Craigslist at same price ($19,998).",
+      "notes": "Local comps: CarGurus LV 2022 RAV4 109.7k $22,089 / 2020 RAV4 65.5k $22,594; VinAssessment 2021 median $26,210. | 2026-10-09: re-verified live on Craigslist at same price ($19,998). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $19,998.",
       "photos": [
         "https://images.craigslist.org/01616_h5MQ5z3ENf8_0jm0cU_600x450.jpg",
         "https://images.craigslist.org/00H0H_51l6thHUUfP_0jm0cU_600x450.jpg",
@@ -8748,7 +8748,7 @@
       "market_value_low": 22089,
       "market_value_high": 26210,
       "estimated_savings": 4152,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -8774,7 +8774,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8783,7 +8783,7 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2020 RAV4 median $24,705. | 2026-10-09: re-verified live on Craigslist at same price ($19,494).",
+      "notes": "VinAssessment 2020 RAV4 median $24,705. | 2026-10-09: re-verified live on Craigslist at same price ($19,494). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $19,494.",
       "photos": [
         "https://images.craigslist.org/00w0w_7ttK3EEum1Z_0jm0cU_600x450.jpg",
         "https://images.craigslist.org/00505_lR76cJlgIqm_0jm0cU_600x450.jpg",
@@ -8803,7 +8803,7 @@
       "market_value_low": null,
       "market_value_high": 24705,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -8891,7 +8891,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8900,7 +8900,7 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2021 Polestar 2 median $20,182. | 2026-10-09: re-verified live on Craigslist at same price ($17,999).",
+      "notes": "VinAssessment 2021 Polestar 2 median $20,182. | 2026-10-09: re-verified live on Craigslist at same price ($17,999). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $17,999.",
       "photos": [
         "https://images.craigslist.org/00K0K_ef3T1NQJ5iZ_0jm0ew_600x450.jpg",
         "https://images.craigslist.org/00505_2bsRKeyJzDm_0hj0ew_600x450.jpg",
@@ -8920,7 +8920,7 @@
       "market_value_low": null,
       "market_value_high": 20182,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -8946,7 +8946,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -8955,7 +8955,7 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2019 Bolt EV median $15,036. | 2026-10-09: re-verified live on Craigslist at same price ($16,999). | 2026-10-09: also on CarGurus LV EV page as 2019 Bolt EV Premier 27,644 mi $16,998 incl. fees, rated \"Good Deal\".",
+      "notes": "VinAssessment 2019 Bolt EV median $15,036. | 2026-10-09: re-verified live on Craigslist at same price ($16,999). | 2026-10-09: also on CarGurus LV EV page as 2019 Bolt EV Premier 27,644 mi $16,998 incl. fees, rated \"Good Deal\". | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $16,999. | 2026-10-10: CarGurus LV EV page shows this VIN at $16,998 (CL post $16,999) \u2014 unchanged in substance.",
       "photos": [
         "https://images.craigslist.org/00o0o_34aGjQMS9Dy_0jm0ew_600x450.jpg",
         "https://images.craigslist.org/00505_2bsRKeyJzDm_0hj0ew_600x450.jpg",
@@ -8975,7 +8975,7 @@
       "market_value_low": null,
       "market_value_high": 15036,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9001,7 +9001,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "WEAK DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9010,7 +9010,7 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2018 Santa Fe median $14,477. | 2026-10-09: re-verified live on Craigslist at same price ($16,994).",
+      "notes": "VinAssessment 2018 Santa Fe median $14,477. | 2026-10-09: re-verified live on Craigslist at same price ($16,994). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $16,994.",
       "photos": [
         "https://images.craigslist.org/00000_c9H3sBvxxaW_0jm09H_600x450.jpg",
         "https://images.craigslist.org/00e0e_73AdqQriTQ8_0jm0cU_600x450.jpg",
@@ -9030,7 +9030,7 @@
       "market_value_low": null,
       "market_value_high": 14477,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9056,7 +9056,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9065,7 +9065,7 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2015 Highlander median $16,995. | 2026-10-09: re-verified live on Craigslist at same price ($16,777).",
+      "notes": "VinAssessment 2015 Highlander median $16,995. | 2026-10-09: re-verified live on Craigslist at same price ($16,777). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $16,777.",
       "photos": [
         "https://images.craigslist.org/00C0C_2QpaAveskzu_0g80c6_600x450.jpg",
         "https://images.craigslist.org/01515_6cvRpCSMY8q_0g80c6_600x450.jpg",
@@ -9085,7 +9085,7 @@
       "market_value_low": null,
       "market_value_high": 16995,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9120,15 +9120,15 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2025 Tucson median $25,670 (not mileage-adjusted). Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Hyundai page sample (page returns only ~20 cards). Third-party VinAssessment snapshot (undated, listed 2026-09-12) shows the same VIN at EchoPark Henderson $20,196 / alt row $19,497 with 47,306 mi (CarGurus card on 10-07 showed $18,596 incl fees) \u2014 price conflict, verify with dealer before relying on STRONG.",
+      "notes": "VinAssessment 2025 Tucson median $25,670 (not mileage-adjusted). Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Hyundai page sample (page returns only ~20 cards). Third-party VinAssessment snapshot (undated, listed 2026-09-12) shows the same VIN at EchoPark Henderson $20,196 / alt row $19,497 with 47,306 mi (CarGurus card on 10-07 showed $18,596 incl fees) \u2014 price conflict, verify with dealer before relying on STRONG. | 2026-10-10: NOT on the 10-10 CarGurus Hyundai page sample \u2014 still unverified (price conflict from 10-09 unresolved).",
       "photos": [],
       "why_interesting": "2025 Tucson SEL under $18.6k incl. fees; CarGurus \"Great Deal\"; 2025 Tucson median $25,670. Remaining Hyundai factory warranty likely (verify).",
       "concerns": "47k mi in ~1 year \u2014 likely ex-rental/fleet; confirm Carfax; Hyundai 10yr/100k powertrain applies to original owner only (5yr/60k for 2nd owner).",
       "market_value_low": null,
       "market_value_high": 25670,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 12
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 13
     },
     {
       "id": "cargurus-lv-JN1AF0BA8RM431218",
@@ -9153,7 +9153,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "before 2026-10-07",
@@ -9167,14 +9167,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2024 Ariya median $26,245 (12 listings). Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "VinAssessment 2024 Ariya median $26,245 (12 listings). Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2024 Ariya at $19,799 after \u2212$1,299 cut; 2024 Ariya median $26,245 (small sample).",
       "concerns": "Trim/battery not shown \u2014 verify range; fees unknown; thin comp sample (12 listings).",
       "market_value_low": null,
       "market_value_high": 26245,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": 6
     },
     {
@@ -9200,7 +9200,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9209,14 +9209,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2023 Bolt EV median $20,798. Battery warranty end inferred from 8yr in-service. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "VinAssessment 2023 Bolt EV median $20,798. Battery warranty end inferred from 8yr in-service. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Last-year Bolt, CarGurus \"Good Deal\", fees included; 2023 Bolt EV median $20,798.",
       "concerns": "Confirm Carfax; DC fast charging is slow (~55 kW).",
       "market_value_low": null,
       "market_value_high": 20798,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": 7
     },
     {
@@ -9242,7 +9242,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9251,14 +9251,14 @@
         }
       ],
       "status": "active",
-      "notes": "Comps: CarGurus 2024 ID.4 market value $20,137 (540 listings); KBB FPP 2024 ID.4 Standard $20,740 (TX ZIP, Sep 2026). Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "Comps: CarGurus 2024 ID.4 market value $20,137 (540 listings); KBB FPP 2024 ID.4 Standard $20,740 (TX ZIP, Sep 2026). Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Low-mile 2024 ID.4 under $19k incl. fees; KBB Fair Purchase Price (Standard) $20,740; CarGurus 2024 ID.4 market value $20,137.",
       "concerns": "Standard = smaller 62 kWh pack (~206 mi EPA); verify Carfax.",
       "market_value_low": 20137,
       "market_value_high": 20740,
       "estimated_savings": 1452,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": 5
     },
     {
@@ -9284,7 +9284,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9293,15 +9293,15 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2022 Corolla Cross median $23,995. Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Toyota page sample \u2014 unverified (may be sold or just outside the ~20-card sample).",
+      "notes": "VinAssessment 2022 Corolla Cross median $23,995. Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Toyota page sample \u2014 unverified (may be sold or just outside the ~20-card sample). | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "CarGurus \"Great Deal\", fees included; 2022 Corolla Cross median $23,995.",
       "concerns": "75.6k mi; $990 under the $21k ceiling \u2014 tax/title will push OTD near/over $21k.",
       "market_value_low": null,
       "market_value_high": 23995,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 11
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 12
     },
     {
       "id": "cargurus-lv-cx5-2021-touring-70749",
@@ -9335,14 +9335,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2021 CX-5 median $22,314. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "VinAssessment 2021 CX-5 median $22,314. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: NOT on the 10-10 CarGurus Mazda page sample (was re-seen 10-09) \u2014 unverified, not assumed sold.",
       "photos": [],
       "why_interesting": "CarGurus \"Great Deal\", fees included; 2021 CX-5 median $22,314.",
       "concerns": "VIN not in CarGurus card \u2014 get VIN + Carfax; 70.7k mi.",
       "market_value_low": null,
       "market_value_high": 22314,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": 8
     },
     {
@@ -9382,15 +9382,15 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus EV page sample. Web-search snapshot of Hyundai of Las Vegas VDP shows $15,500 + $799 dealer fee (~$16,299) and conflicting odometer data (149 mi vs 15,635 mi) \u2014 verify price/miles before relying on STRONG.",
+      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus EV page sample. Web-search snapshot of Hyundai of Las Vegas VDP shows $15,500 + $799 dealer fee (~$16,299) and conflicting odometer data (149 mi vs 15,635 mi) \u2014 verify price/miles before relying on STRONG. | 2026-10-10: NOT on the 10-10 CarGurus EV page sample \u2014 unverified. Hyundai of Las Vegas snapshot from web search (undated): $15,500 + $799 doc fee; conflicting odometer data from 10-09 still unresolved.",
       "photos": [],
       "why_interesting": "Nearly-new 2025 Leaf S; 2025 LEAF median $16,990 / CarGurus avg ~$17.1\u201317.2k.",
       "concerns": "Short range (~149 mi EPA), CHAdeMO fast-charge standard is fading; verify Carfax (likely ex-rental).",
       "market_value_low": null,
       "market_value_high": 16990,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 13
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 14
     },
     {
       "id": "cargurus-lv-1N4AZ1BV6SC566289",
@@ -9403,8 +9403,8 @@
       "trim": "S FWD",
       "category": "ev",
       "miles": 13966,
-      "ask_price": 15699,
-      "real_price_est": 15699,
+      "ask_price": 15199,
+      "real_price_est": 15199,
       "seller_type": "dealer",
       "location": "Las Vegas, NV",
       "distance_mi": 7,
@@ -9415,23 +9415,28 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
           "price": 15699,
           "note": "first seen (local refactor run)"
+        },
+        {
+          "date": "2026-10-10",
+          "price": 15199,
+          "note": "CarGurus LV EV page: price $15,699 -> $15,199 (fees included; card badge \"-$1,199\"). CONFLICT: an undated autostoday.com snapshot of the same VIN at Sahara Chrysler Dodge Ram shows $19,199 \u2014 verify with dealer (Sahara CDJR, stock N566289A) before relying on this price."
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: CarGurus LV EV page: price $15,699 -> $15,199 (fees included; card badge \"-$1,199\"). CONFLICT: an undated autostoday.com snapshot of the same VIN at Sahara Chrysler Dodge Ram shows $19,199 \u2014 verify with dealer (Sahara CDJR, stock N566289A) before relying on this price.",
       "photos": [],
       "why_interesting": "Nearly-new 2025 Leaf S; 2025 LEAF median $16,990 / CarGurus avg ~$17.1\u201317.2k.",
       "concerns": "Short range (~149 mi EPA), CHAdeMO fast-charge standard is fading; verify Carfax (likely ex-rental).",
       "market_value_low": null,
       "market_value_high": 16990,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": 10
     },
     {
@@ -9471,14 +9476,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus EV page sample \u2014 unverified.",
+      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus EV page sample \u2014 unverified. | 2026-10-10: not on 10-10 EV page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Nearly-new 2025 Leaf S; 2025 LEAF median $16,990 / CarGurus avg ~$17.1\u201317.2k.",
       "concerns": "Short range (~149 mi EPA), CHAdeMO fast-charge standard is fading; verify Carfax (likely ex-rental).",
       "market_value_low": null,
       "market_value_high": 16990,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9518,14 +9523,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus EV page sample \u2014 unverified.",
+      "notes": "VinAssessment 2025 LEAF median $16,990; CarGurus 2025 avg $17,129\u201317,236. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus EV page sample \u2014 unverified. | 2026-10-10: not on 10-10 EV page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Nearly-new 2025 Leaf S; 2025 LEAF median $16,990 / CarGurus avg ~$17.1\u201317.2k.",
       "concerns": "Short range (~149 mi EPA), CHAdeMO fast-charge standard is fading; verify Carfax (likely ex-rental).",
       "market_value_low": null,
       "market_value_high": 16990,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9565,14 +9570,14 @@
         }
       ],
       "status": "active",
-      "notes": "Local comp: CarGurus LV 2023 SV Plus 45,527 mi $18,310; VinAssessment 2023 LEAF median $16,998 (all trims). Price shown as including fees on CarGurus. | 2026-10-09: CarGurus price changed $17,999 -> $17,799.",
+      "notes": "Local comp: CarGurus LV 2023 SV Plus 45,527 mi $18,310; VinAssessment 2023 LEAF median $16,998 (all trims). Price shown as including fees on CarGurus. | 2026-10-09: CarGurus price changed $17,999 -> $17,799. | 2026-10-10: not on 10-10 EV page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Very low-mile 2023 SV Plus (212-mi pack) at $17,999 incl. fees.",
       "concerns": "Compare: LV 2023 SV Plus 45.5k mi $18,310 (Good Deal); CHAdeMO.",
       "market_value_low": null,
       "market_value_high": 18310,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9598,7 +9603,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "before 2026-10-07",
@@ -9612,14 +9617,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2024 LEAF median $19,772. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "VinAssessment 2024 LEAF median $19,772. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2024 SV Plus, 7.7k mi, CarGurus \"Good Deal\", fees incl.",
       "concerns": "At 2024 median ($19,772).",
       "market_value_low": null,
       "market_value_high": 19772,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9645,7 +9650,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9654,14 +9659,14 @@
         }
       ],
       "status": "active",
-      "notes": "No 2023 Ariya comp pulled this run. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "No 2023 Ariya comp pulled this run. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2023 Ariya Engage under $19.3k \u2014 likely strong but no 2023 Ariya comp pulled.",
       "concerns": "Fees unknown; Engage = smaller pack.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9696,14 +9701,14 @@
         }
       ],
       "status": "active",
-      "notes": " Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus EV page sample \u2014 unverified.",
+      "notes": " Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus EV page sample \u2014 unverified. | 2026-10-10: not on 10-10 EV page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Kona Electric Limited, 258-mi EPA range.",
       "concerns": "No comp pulled; fees unknown.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9729,7 +9734,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9738,14 +9743,14 @@
         }
       ],
       "status": "active",
-      "notes": " Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": " Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Kona Electric SEL, 34.5k mi.",
       "concerns": "No comp pulled; fees unknown.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9771,7 +9776,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9785,14 +9790,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2020 Bolt EV median $16,458. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: CarGurus price changed $15,596 -> $16,155.",
+      "notes": "VinAssessment 2020 Bolt EV median $16,458. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: CarGurus price changed $15,596 -> $16,155. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Dealer 2020 Bolt \u2014 benchmark for the private Bolt.",
       "concerns": "Fees unknown.",
       "market_value_low": null,
       "market_value_high": 16458,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9832,14 +9837,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2022 CX-5 median $24,198 (not mileage-adjusted). Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus Mazda page sample \u2014 unverified.",
+      "notes": "VinAssessment 2022 CX-5 median $24,198 (not mileage-adjusted). Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus Mazda page sample \u2014 unverified. | 2026-10-10: not on 10-10 Mazda page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "2022 CX-5 AWD under $19.2k after \u2212$430.",
       "concerns": "90.7k mi; fees unknown.",
       "market_value_low": null,
       "market_value_high": 24198,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9865,7 +9870,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -9874,14 +9879,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2021 CX-30 median $19,500. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "VinAssessment 2021 CX-30 median $19,500. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Mazda-certified CX-30 AWD, fees incl.",
       "concerns": "At 2021 CX-30 median ($19,500).",
       "market_value_low": null,
       "market_value_high": 19500,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9916,14 +9921,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2024 Venue median $19,590. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus Hyundai page sample \u2014 unverified.",
+      "notes": "VinAssessment 2024 Venue median $19,590. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: NOT on the 10-09 CarGurus Hyundai page sample \u2014 unverified. | 2026-10-10: not on 10-10 Hyundai page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Near-new 2024 Venue, 16k mi.",
       "concerns": "At 2024 Venue median ($19,590); small SUV.",
       "market_value_low": null,
       "market_value_high": 19590,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -9958,14 +9963,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2023 Kona median $20,519. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "VinAssessment 2023 Kona median $20,519. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: not on 10-10 Hyundai page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "2023 Kona, 24k mi.",
       "concerns": "~$1.4k under 2023 median; VIN not in card.",
       "market_value_low": null,
       "market_value_high": 20519,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10005,14 +10010,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2017 RAV4 median $18,122. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "VinAssessment 2017 RAV4 median $18,122. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: not on 10-10 Toyota/RAV4 pages \u2014 unverified.",
       "photos": [],
       "why_interesting": "Low-mile 2017 RAV4 AWD after \u2212$500 cut.",
       "concerns": "At 2017 median ($18,122).",
       "market_value_low": null,
       "market_value_high": 18122,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10047,14 +10052,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2018 RAV4 median $19,592 (not mileage-adjusted). Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Toyota page sample \u2014 unverified.",
+      "notes": "VinAssessment 2018 RAV4 median $19,592 (not mileage-adjusted). Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Toyota page sample \u2014 unverified. | 2026-10-10: not on 10-10 Toyota/RAV4 pages \u2014 unverified.",
       "photos": [],
       "why_interesting": "CarGurus \"Great Deal\", fees incl.",
       "concerns": "101.7k mi.",
       "market_value_low": null,
       "market_value_high": 19592,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10089,14 +10094,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2020 Tucson median $16,000. Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Hyundai page sample \u2014 unverified.",
+      "notes": "VinAssessment 2020 Tucson median $16,000. Price shown as including fees on CarGurus. | 2026-10-09: NOT on the 10-09 CarGurus Hyundai page sample \u2014 unverified. | 2026-10-10: not on 10-10 Hyundai page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "Cheap AWD Tucson, CarGurus \"Great Deal\", fees incl.",
       "concerns": "107.5k mi.",
       "market_value_low": null,
       "market_value_high": 16000,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10122,7 +10127,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10131,14 +10136,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2021 Tucson median $17,725. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "VinAssessment 2021 Tucson median $17,725. Price shown as including fees on CarGurus. | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2021 Tucson, fees incl.",
       "concerns": "83.6k mi; old-generation body.",
       "market_value_low": null,
       "market_value_high": 17725,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10164,7 +10169,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10173,14 +10178,14 @@
         }
       ],
       "status": "active",
-      "notes": "VinAssessment 2019 CX-5 median $18,998. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price.",
+      "notes": "VinAssessment 2019 CX-5 median $18,998. Fees UNKNOWN (CarGurus did not flag \"includes fees\"). | 2026-10-09: re-seen on CarGurus LV page at same price. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2019 CX-5 Sport.",
       "concerns": "82k mi; ~2k under median.",
       "market_value_low": null,
       "market_value_high": 18998,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10206,7 +10211,7 @@
       "title_status": "clean (CL attr; seller: clean title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10215,7 +10220,7 @@
         }
       ],
       "status": "active",
-      "notes": "Tier 2 \u2014 only worth the drive if VIN/history check out. | 2026-10-09: re-verified live on Craigslist at same price ($17,000). | Tier 2 (~220 mi) kept as STRONG private under-market tier-2 exception.",
+      "notes": "Tier 2 \u2014 only worth the drive if VIN/history check out. | 2026-10-09: re-verified live on Craigslist at same price ($17,000). | Tier 2 (~220 mi) kept as STRONG private under-market tier-2 exception. | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $17,000.",
       "photos": [
         "https://images.craigslist.org/00k0k_dAqaZrmNv2l_0oc0i9_600x450.jpg",
         "https://images.craigslist.org/00G0G_6QAKhK3TEUw_0oc0i9_600x450.jpg",
@@ -10235,7 +10240,7 @@
       "market_value_low": null,
       "market_value_high": 24705,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": 2
     },
     {
@@ -10261,7 +10266,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10270,7 +10275,7 @@
         }
       ],
       "status": "active",
-      "notes": "Tier 2 \u2014 noted, not recommended over local. | 2026-10-09: re-verified live on Craigslist at same price ($16,000).",
+      "notes": "Tier 2 \u2014 noted, not recommended over local. | 2026-10-09: re-verified live on Craigslist at same price ($16,000). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $16,000.",
       "photos": [
         "https://images.craigslist.org/00P0P_8nS0f3a4AQm_0gw0oM_600x450.jpg",
         "https://images.craigslist.org/01414_5L0qROYeR4P_0k80CI_600x450.jpg",
@@ -10290,8 +10295,8 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 20
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 22
     },
     {
       "id": "cl-cardiff-leaf-2025-59dipZuB",
@@ -10316,7 +10321,7 @@
       "title_status": "clean (CL attr; title in hand)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10325,7 +10330,7 @@
         }
       ],
       "status": "active",
-      "notes": "Tier 2 \u2014 skip in favor of local. | 2026-10-09: re-verified live on Craigslist at same price ($15,000).",
+      "notes": "Tier 2 \u2014 skip in favor of local. | 2026-10-09: re-verified live on Craigslist at same price ($15,000). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $15,000.",
       "photos": [
         "https://images.craigslist.org/00r0r_iHjFVEgsQGh_0x20oM_600x450.jpg",
         "https://images.craigslist.org/01616_f7i76lzSQyb_0x20oM_600x450.jpg",
@@ -10345,8 +10350,8 @@
       "market_value_low": null,
       "market_value_high": 16990,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 19
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 21
     },
     {
       "id": "cl-sd-1N4CZ1CV9PC552708",
@@ -10371,7 +10376,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10385,7 +10390,7 @@
         }
       ],
       "status": "active",
-      "notes": "Tier 2 \u2014 skip in favor of local. | 2026-10-09: price dropped $17,400 -> $16,900 (CL).",
+      "notes": "Tier 2 \u2014 skip in favor of local. | 2026-10-09: price dropped $17,400 -> $16,900 (CL). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $16,900.",
       "photos": [
         "https://images.craigslist.org/00x0x_bklE8pWiFbZ_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/00X0X_dRMDS7g7tFS_0CI0t2_600x450.jpg",
@@ -10405,8 +10410,8 @@
       "market_value_low": null,
       "market_value_high": 18310,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 18
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 20
     },
     {
       "id": "cl-ramona-KNDC34LA0R5205043",
@@ -10431,7 +10436,7 @@
       "title_status": "SALVAGE (CL attr + ad text)",
       "assessment": "AVOID",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10460,7 +10465,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10486,7 +10491,7 @@
       "title_status": "SALVAGE (CL attr)",
       "assessment": "AVOID",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10515,7 +10520,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10541,7 +10546,7 @@
       "title_status": "claimed clean (unverified)",
       "assessment": "AVOID",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10570,7 +10575,7 @@
       "market_value_low": null,
       "market_value_high": 33272,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10596,7 +10601,7 @@
       "title_status": "claimed clean (unverified)",
       "assessment": "AVOID",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10623,7 +10628,7 @@
       "market_value_low": null,
       "market_value_high": 28800,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10649,7 +10654,7 @@
       "title_status": "claimed clean (unverified)",
       "assessment": "AVOID",
       "first_seen": "2026-10-07T12:30:00-07:00",
-      "last_seen": "2026-10-07T12:30:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-07",
@@ -10678,7 +10683,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-07T12:30:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null
     },
     {
@@ -10712,14 +10717,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus rating \"Great Deal\". No local comp pulled beyond CarGurus rating.",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus rating \"Great Deal\". No local comp pulled beyond CarGurus rating. | 2026-10-10: NOT on the 10-10 CarGurus Hyundai page sample (page shows ~20 cards; two other 2025 Venues were present: SEL 33.9k mi $18,198 and SEL 48.8k mi $16,699). A web search finds the VIN on a Capital One (Henderson, NV) listing but no dated price \u2014 unverified, NOT assumed sold. STRONG status retained pending re-check.",
       "photos": [],
       "why_interesting": "2025 Venue SEL with ~29k mi at $17.6k fees-included; CarGurus \"Great Deal\"; newest model-year in the Hyundai SUV set under $21k.",
       "concerns": "Dealer, title/accident history not yet checked; price is CarGurus-card value, not re-confirmed on dealer site; subcompact SUV.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": 3,
       "id": "cargurus-lv-KMHRC8A37SU403065"
     },
@@ -10745,7 +10750,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -10754,14 +10759,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus \"New arrival\"; no deal rating or fees flag shown. Fees UNKNOWN.",
+      "notes": "CarGurus \"New arrival\"; no deal rating or fees flag shown. Fees UNKNOWN. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2025 Venue SEL, 34k mi, $18.2k, 2 mi from downtown.",
       "concerns": "Fees unknown; ~$600 more than the Henderson 2025 Venue SEL with 4.6k fewer miles.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cargurus-lv-KMHRC8A30SU350841"
     },
@@ -10796,14 +10801,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. No deal rating shown.",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. No deal rating shown. | 2026-10-10: not on 10-10 Hyundai page sample \u2014 unverified.",
       "photos": [],
       "why_interesting": "2022 Tucson with 46k mi under $18.5k fees-in.",
       "concerns": "Trim unknown; no deal rating; priced about the same as the 2025 Venue SEL.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cargurus-lv-5NMJA3AE1NH057828"
     },
@@ -10829,7 +10834,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "STRONG DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -10838,14 +10843,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Great Deal\"; price dropped $1,433 (was $21,411 before fees-in drop) \u2014 just crossed under the $21k ceiling.",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Great Deal\"; price dropped $1,433 (was $21,411 before fees-in drop) \u2014 just crossed under the $21k ceiling. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "2021 CX-30 Premium AWD (top-ish trim) with 44k mi under $20k fees-in; CarGurus \"Great Deal\" + fresh $1,433 drop.",
       "concerns": "Close to the $21k ceiling after tax/title; dealer, history unchecked.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": 4,
       "id": "cargurus-lv-3MVDMBDM6MM218234"
     },
@@ -10871,7 +10876,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -10880,14 +10885,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Fair Deal\".",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Fair Deal\". | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Cheapest Mazda SUV AWD under $16k with <81k mi.",
       "concerns": "Small SUV, 81k mi; only \"Fair Deal\".",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cargurus-lv-JM1DKFB71K1431856"
     },
@@ -10922,14 +10927,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Good Deal\".",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Good Deal\". | 2026-10-10: not on 10-10 RAV4 page \u2014 unverified.",
       "photos": [],
       "why_interesting": "Low-mile (66k) top-trim AWD RAV4.",
       "concerns": "2015 model year at $19.3k is expensive vs newer options (2017 RAV4 LE AWD 60k mi at $18.2k).",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cargurus-lv-2T3DFREV5FW260391"
     },
@@ -10943,8 +10948,8 @@
       "trim": "Pro RWD",
       "category": "ev",
       "miles": 38417,
-      "ask_price": 18299,
-      "real_price_est": 18299,
+      "ask_price": 18616,
+      "real_price_est": 18616,
       "seller_type": "dealer",
       "location": "Las Vegas, NV",
       "distance_mi": 10,
@@ -10955,23 +10960,28 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
           "price": 18299,
           "note": "first seen (10-09 run)"
+        },
+        {
+          "date": "2026-10-10",
+          "price": 18616,
+          "note": "CarGurus LV EV page: price $18,299 -> $18,616 (fees-in)."
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Good Deal\".",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Good Deal\". | 2026-10-10: CarGurus LV EV page: price $18,299 -> $18,616 (fees-in).",
       "photos": [],
       "why_interesting": "38k-mi 2021 ID.4 Pro at $18.3k fees-in; larger battery than the Standard-trim 2024.",
       "concerns": "ID.4 software/recall history to check; 2024 ID.4 Standard (18k mi) is only ~$700 more.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cargurus-lv-WVGRMPE21MP041809"
     },
@@ -11039,7 +11049,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11048,14 +11058,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check.",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Low-mile 2020 Bolt Premier (30k mi).",
       "concerns": "$1.4k over the 2023 Bolt 1LT (43k mi) which is newer.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cargurus-lv-1G1FZ6S07L4138527"
     },
@@ -11069,8 +11079,8 @@
       "trim": "Premier FWD",
       "category": "ev",
       "miles": 69270,
-      "ask_price": 15699,
-      "real_price_est": 15699,
+      "ask_price": 14699,
+      "real_price_est": 14699,
       "seller_type": "dealer",
       "location": "Las Vegas, NV",
       "distance_mi": 7,
@@ -11079,27 +11089,33 @@
       "battery": "66 kWh (verify recall replacement)",
       "fuel": "electric",
       "title_status": "UNKNOWN (verify Carfax/title)",
-      "assessment": "FAIR DEAL",
+      "assessment": "STRONG DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
           "price": 15699,
           "note": "first seen (10-09 run)"
+        },
+        {
+          "date": "2026-10-10",
+          "price": 14699,
+          "note": "CarGurus LV EV page: price $15,699 -> $14,699 (-$1,000, fees included), rated \"Great Deal\". 2020 Bolt EV Premier FWD 69,270 mi, stock L4105253T, LV 7 mi."
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Fair Deal\".",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Fair Deal\". | 2026-10-10: CarGurus LV EV page: price $15,699 -> $14,699 (-$1,000, fees included), rated \"Great Deal\". 2020 Bolt EV Premier FWD 69,270 mi, stock L4105253T, LV 7 mi. | UPGRADED FAIR -> STRONG on 10-10 (price drop + Great Deal + local comp spread). Comp band = local asking prices, not a Blue Book appraisal.",
       "photos": [],
-      "why_interesting": "Premier-trim Bolt under $16k fees-in.",
-      "concerns": "69k mi.",
-      "market_value_low": null,
-      "market_value_high": null,
-      "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": null,
-      "id": "cargurus-lv-1G1FZ6S07L4105253"
+      "why_interesting": "Cheapest local Bolt Premier under 70k mi; $14,699 fees-in vs local Bolt asks $16,155 (2020 LT 53.6k mi) to $17,399 (2021 Premier 66.6k mi); CarGurus \"Great Deal\". Premier trim = leather, DC fast charge, better equipped than LT.",
+      "concerns": "Dealer; title/Carfax UNKNOWN; 69k mi (upper end of EV preference); verify GM battery-recall replacement status (2020 Bolt) and price on dealer site (CarGurus card only).",
+      "market_value_low": 16155,
+      "market_value_high": 17399,
+      "estimated_savings": 2078,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 11,
+      "id": "cargurus-lv-1G1FZ6S07L4105253",
+      "prior_assessment": "FAIR DEAL"
     },
     {
       "source": "cargurus",
@@ -11123,7 +11139,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11132,14 +11148,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Manufacturer certified; \"New arrival\".",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Manufacturer certified; \"New arrival\". | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Certified 2021 Bolt Premier.",
       "concerns": "66k mi; priced above same-age lower-mile Bolt Premier.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cargurus-lv-1G1FZ6S04M4114896"
     },
@@ -11207,7 +11223,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11216,14 +11232,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Good Deal\".",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Good Deal\". | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "10.9k-mi 2024 Leaf SV Plus (60 kWh) at $19.1k fees-in, $700 under the 7.7k-mi sister car.",
       "concerns": "Near ceiling; Leaf CHAdeMO charging.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cargurus-lv-1N4CZ1CV1RC556416"
     },
@@ -11249,7 +11265,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "WEAK DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11258,14 +11274,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Same car also on Craigslist dealer posts at $16,999/$17,999 (stock 028724) \u2014 CL price may be pre-fees.",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Same car also on Craigslist dealer posts at $16,999/$17,999 (stock 028724) \u2014 CL price may be pre-fees. | 2026-10-10: re-seen on CarGurus LV page at same price. | 2026-10-10: CL dealer posts (Globul Cars) list the same 118,254-mi Model 3 SR+ at $16,999 / $17,999 vs CarGurus $18,998 \u2014 still WEAK on miles.",
       "photos": [],
       "why_interesting": "Model 3 under $19k.",
       "concerns": "118k mi \u2014 far above the EV <50-70k preference.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cargurus-lv-5YJ3E1EA8MF028724"
     },
@@ -11333,7 +11349,7 @@
       "title_status": "UNKNOWN (verify Carfax/title)",
       "assessment": "WEAK DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11342,14 +11358,14 @@
         }
       ],
       "status": "active",
-      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Fair Deal\".",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg still extra). Single-page sample, no per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Fair Deal\". | 2026-10-10: re-seen on CarGurus LV page at same price.",
       "photos": [],
       "why_interesting": "Low-mile cheap EV.",
       "concerns": "Old 24 kWh pack, short range, 10 years old.",
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cargurus-lv-WVWPP7AU1GW909070"
     },
@@ -11375,7 +11391,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "WEAK DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11384,7 +11400,7 @@
         }
       ],
       "status": "active",
-      "notes": "BHPH dealer (CarCoLV). CL header $8,995 but body says \"ONLY $9,995\" and advertises \"$599 DN / $249 MO\" financing bait \u2014 real purchase price UNKNOWN. Multiple duplicate CL posts.",
+      "notes": "BHPH dealer (CarCoLV). CL header $8,995 but body says \"ONLY $9,995\" and advertises \"$599 DN / $249 MO\" financing bait \u2014 real purchase price UNKNOWN. Multiple duplicate CL posts. | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $8,995.",
       "photos": [
         "https://images.craigslist.org/00u0u_iAFyfYvBTxp_0cU09G_600x450.jpg",
         "https://images.craigslist.org/00606_4FAu55g2SxR_0cU09G_600x450.jpg",
@@ -11395,7 +11411,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cl-lv-dealer-tucson-2014-sW1HUxcg"
     },
@@ -11421,7 +11437,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11430,7 +11446,7 @@
         }
       ],
       "status": "active",
-      "notes": "Private seller (\"no brokers, no dealers\"). Reposted 2026-10-09 06:10 PT (earlier post gone). No comp pulled.",
+      "notes": "Private seller (\"no brokers, no dealers\"). Reposted 2026-10-09 06:10 PT (earlier post gone). No comp pulled. | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $19,500.",
       "photos": [
         "https://images.craigslist.org/00a0a_l0hXLpdUGbT_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/00l0l_g5dUXnaiZE_0t20CI_600x450.jpg",
@@ -11450,8 +11466,8 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 21,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 23,
       "id": "cl-mini-se-2022-encinitas-goUAK8KU"
     },
     {
@@ -11476,7 +11492,7 @@
       "title_status": "clean (CL attr)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11485,7 +11501,7 @@
         }
       ],
       "status": "active",
-      "notes": "Short post, 3 photos, no phone-visible detail. Posted 2026-10-08. No comp pulled.",
+      "notes": "Short post, 3 photos, no phone-visible detail. Posted 2026-10-08. No comp pulled. | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $13,500.",
       "photos": [
         "https://images.craigslist.org/00V0V_1Vg5AG2wzdm_0lM0t2_600x450.jpg",
         "https://images.craigslist.org/00B0B_lhJr33oYmjG_0lM0t2_600x450.jpg",
@@ -11496,13 +11512,13 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 22,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 25,
       "id": "cl-kona-se-2019-woodlandhills-9TWDcP6U"
     },
     {
       "source": "craigslist",
-      "url": "https://www.craigslist.org/view/d/tarzana-2016-hyundai-tucson-40k-miles/4FGL8pJ8QK6EXzydajv5fS",
+      "url": "https://www.craigslist.org/view/d/tarzana-2016-hyundai-tucson-40k-miles/9JppnpjpZ7fDjqip7o3Ek4",
       "vin": "KM8J23A43GU101033",
       "year": 2016,
       "make": "Hyundai",
@@ -11510,8 +11526,8 @@
       "trim": "UNKNOWN",
       "category": "suv_hyundai",
       "miles": 40000,
-      "ask_price": 10995,
-      "real_price_est": 10995,
+      "ask_price": 9995,
+      "real_price_est": 9995,
       "seller_type": "private",
       "location": "Woodland Hills, CA",
       "distance_mi": 238,
@@ -11522,19 +11538,24 @@
       "title_status": "clean (CL attr; seller: clean title, one owner, Carfax available)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
           "price": 10995,
           "note": "first seen (10-09 run)"
+        },
+        {
+          "date": "2026-10-10",
+          "price": 9995,
+          "note": "new duplicate CL post at $9,995 (same VIN KM8J23A43GU101033); old post 4FGL8pJ8QK6EXzydajv5fS still live at $10,995"
         }
       ],
       "status": "active",
-      "notes": "Registered owner; new smog 9/2026. Duplicate CL posts exist. No comp pulled.",
+      "notes": "Registered owner; new smog 9/2026. Duplicate CL posts exist. No comp pulled. | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $10,995. | 2026-10-10: NEW repost at $9,995 / 40,000 mi (same VIN); older post still live at $10,995. Tier 2 (~238 mi), FAIR only.",
       "photos": [
-        "https://images.craigslist.org/00x0x_5rrDYFZhXwL_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/00t0t_f49N7CAA41p_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00x0x_5rrDYFZhXwL_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/00M0M_83fbmH9v1Cc_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/00c0c_hZkczm4WX2s_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/00505_ff6qyPmJVfH_0CI0t2_600x450.jpg",
@@ -11551,7 +11572,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cl-tucson-2016-tarzana-4FGL8pJ8"
     },
@@ -11577,7 +11598,7 @@
       "title_status": "clean (CL attr; seller: original clean title)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11586,7 +11607,7 @@
         }
       ],
       "status": "active",
-      "notes": "Posted 2026-10-08. No comp pulled. Short listing.",
+      "notes": "Posted 2026-10-08. No comp pulled. Short listing. | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $16,800.",
       "photos": [
         "https://images.craigslist.org/00I0I_doGCyFLoiMu_0CI0t2_600x450.jpg",
         "https://images.craigslist.org/01616_eP3R1BX7Y5D_0CI0t2_600x450.jpg",
@@ -11601,8 +11622,8 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
-      "priority_rank": 23,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 26,
       "id": "cl-cx5-2018-eltoro-31dNFakc"
     },
     {
@@ -11627,7 +11648,7 @@
       "title_status": "clean (CL attr; seller: title in hand)",
       "assessment": "FAIR DEAL",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11636,7 +11657,7 @@
         }
       ],
       "status": "active",
-      "notes": "Seller states no accidents, new Michelins. Compare LV: 2020 Santa Fe SEL 116k mi at $10,990 (private).",
+      "notes": "Seller states no accidents, new Michelins. Compare LV: 2020 Santa Fe SEL 116k mi at $10,990 (private). | 2026-10-10: re-verified live on Craigslist (HTTP 200) at $14,599.",
       "photos": [
         "https://images.craigslist.org/00606_6d33rPkpMou_0t20CI_600x450.jpg",
         "https://images.craigslist.org/00909_ddLaIkFMB3A_0t20CI_600x450.jpg",
@@ -11650,7 +11671,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cl-santafe-2020-sandiego-rnAQtLsL"
     },
@@ -11676,7 +11697,7 @@
       "title_status": "CONFLICT: CL attr says clean, seller text (Spanish) says \"T\u00edtulo Salvage\"",
       "assessment": "AVOID",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11705,7 +11726,7 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cl-lawndale-rav4-2018-p42LxeCR"
     },
@@ -11731,7 +11752,7 @@
       "title_status": "claimed clean (CL attr; unverified)",
       "assessment": "AVOID",
       "first_seen": "2026-10-09T07:40:00-07:00",
-      "last_seen": "2026-10-09T07:40:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
       "price_history": [
         {
           "date": "2026-10-09",
@@ -11760,20 +11781,900 @@
       "market_value_low": null,
       "market_value_high": null,
       "estimated_savings": null,
-      "updated_at": "2026-10-09T07:40:00-07:00",
+      "updated_at": "2026-10-10T08:00:00-07:00",
       "priority_rank": null,
       "id": "cl-chatsworth-4runner-2016-pTXFqjf5"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "1N4AZ1BV2SC550722",
+      "year": 2025,
+      "make": "Nissan",
+      "model": "LEAF",
+      "trim": "S FWD (Manufacturer certified)",
+      "category": "ev",
+      "miles": 13282,
+      "ask_price": 16898,
+      "real_price_est": 16898,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 2,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "40 kWh (EPA ~149 mi); Nissan 8yr/100k battery warranty",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 16898,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Fair Deal\"; manufacturer-certified.",
+      "photos": [],
+      "why_interesting": "2025 Leaf S, 13k mi, factory-certified (extra warranty), 2 mi from downtown, $16.9k fees-in.",
+      "concerns": "~$1.7k more than the 2025 Leaf S 14k mi at $15,199; short range (~149 mi); CHAdeMO.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-1N4AZ1BV2SC550722"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "1N4AZ1BV6NC555846",
+      "year": 2022,
+      "make": "Nissan",
+      "model": "LEAF",
+      "trim": "S FWD",
+      "category": "ev",
+      "miles": 55916,
+      "ask_price": 12999,
+      "real_price_est": 12999,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 7,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "40 kWh (EPA ~149 mi); Nissan 8yr/100k battery warranty",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 12999,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Card shows price drop -$999 ($13,499 -> $12,999).",
+      "photos": [],
+      "why_interesting": "One of the cheapest dealer EVs locally (under $13k fees-in); 2022 Leaf S, 56k mi.",
+      "concerns": "56k mi on 40 kWh battery (verify battery health / SOH); short range; no deal rating shown.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-1N4AZ1BV6NC555846"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "1G1FW6S07P4182378",
+      "year": 2023,
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "trim": "1LT/UNKNOWN FWD",
+      "category": "ev",
+      "miles": 48394,
+      "ask_price": 17696,
+      "real_price_est": 17696,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": null,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "~259 mi EPA (66 kWh); GM battery warranty 8yr/100k",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 17696,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Card shows -$1,099 badge: $18,096 struck through, now $17,696 (fees-in flag not shown). Distance not shown on card.",
+      "photos": [],
+      "why_interesting": "2023 Bolt (new-gen pack, 259 mi EPA) with 48k mi at $17.7k.",
+      "concerns": "$342 less than the 2023 Bolt 1LT 43k mi (STRONG) but 5k more miles; trim not shown.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-1G1FW6S07P4182378"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "WA1VAAGE2KB024134",
+      "year": 2019,
+      "make": "Audi",
+      "model": "e-tron",
+      "trim": "Prestige quattro AWD",
+      "category": "ev",
+      "miles": 101208,
+      "ask_price": 16926,
+      "real_price_est": 16926,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 7,
+      "geo_tier": 1,
+      "drivetrain": "AWD",
+      "battery": "95 kWh (~204 mi EPA new)",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 16926,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"price as shown\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Card shows -$499 drop ($17,425 -> $16,926).",
+      "photos": [],
+      "why_interesting": "Luxury electric SUV under $17k.",
+      "concerns": "101k mi (past EV preference), ~204 mi EPA, battery warranty (8yr/100k) likely expired on miles; Audi repair costs.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-WA1VAAGE2KB024134"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "5YJSA1E24KF311652",
+      "year": 2019,
+      "make": "Tesla",
+      "model": "Model S",
+      "trim": "Standard Range AWD",
+      "category": "ev",
+      "miles": 136673,
+      "ask_price": 19698,
+      "real_price_est": 19698,
+      "seller_type": "dealer",
+      "location": "Henderson, NV",
+      "distance_mi": 18,
+      "geo_tier": 1,
+      "drivetrain": "AWD",
+      "battery": "n/a",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 19698,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check.",
+      "photos": [],
+      "why_interesting": "Model S under $20k.",
+      "concerns": "136k mi; Tesla repair costs; battery/drive-unit risk past warranty.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-5YJSA1E24KF311652"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+      "vin": "5YJSA1E26GF170672",
+      "year": 2016,
+      "make": "Tesla",
+      "model": "Model S",
+      "trim": "AWD (trim UNKNOWN)",
+      "category": "ev",
+      "miles": 122460,
+      "ask_price": 16289,
+      "real_price_est": 16289,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 14,
+      "geo_tier": 1,
+      "drivetrain": "AWD",
+      "battery": "n/a",
+      "fuel": "electric",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 16289,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card, price w/o \"fees included\" flag. Title UNKNOWN.",
+      "photos": [],
+      "why_interesting": "Cheap Model S.",
+      "concerns": "122k mi, 2016 vintage; battery degradation / MCU / drive-unit risk.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-5YJSA1E26GF170672"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
+      "vin": "KMHRC8A36SU362363",
+      "year": 2025,
+      "make": "Hyundai",
+      "model": "Venue",
+      "trim": "SEL FWD",
+      "category": "suv_hyundai",
+      "miles": 48837,
+      "ask_price": 16699,
+      "real_price_est": 16699,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": null,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 16699,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus card shows $17,199 struck through, now $16,699 incl. fees (badge -$1,199). No deal rating shown.",
+      "photos": [],
+      "why_interesting": "Newest-model-year Hyundai SUV at $16.7k fees-in; cheaper than the 33.9k-mi Venue SEL at $18,198.",
+      "concerns": "48.8k mi on a 2025 (likely ex-rental/fleet); subcompact SUV; no deal rating shown.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-KMHRC8A36SU362363"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
+      "vin": "KM8HB3AB6SU207675",
+      "year": 2025,
+      "make": "Hyundai",
+      "model": "Kona (gas)",
+      "trim": "trim UNKNOWN (FWD 2.0L)",
+      "category": "suv_hyundai",
+      "miles": 45937,
+      "ask_price": 18784,
+      "real_price_est": 18784,
+      "seller_type": "dealer",
+      "location": "Henderson, NV",
+      "distance_mi": 18,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 18784,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Card shows -$498 ($19,282 -> $18,784).",
+      "photos": [],
+      "why_interesting": "2025 Kona with 46k mi under $19k.",
+      "concerns": "Little discount vs the 34k-mi 2025 Venue SEL; 46k mi on a 2025; trim not shown.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-KM8HB3AB6SU207675"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
+      "vin": "5NMS33AD5LH185721",
+      "year": 2020,
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "trim": "2.4L SEL FWD",
+      "category": "suv_hyundai",
+      "miles": 30895,
+      "ask_price": 19299,
+      "real_price_est": 19299,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 13,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 19299,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"New arrival\", \"Fair Deal\".",
+      "photos": [],
+      "why_interesting": "2020 Santa Fe SEL with only 30.9k mi \u2014 unusually low miles for age; $19.3k fees-in.",
+      "concerns": "Fair (not great) price; top of budget; Carfax/accident history UNKNOWN; compare private LV 2020 Santa Fe SEL 116k mi at $10,990.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 18,
+      "id": "cargurus-lv-5NMS33AD5LH185721"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Mazda-Under-20000-Las-Vegas-m42_spt379_L21230",
+      "vin": "3MVDMBDL8NM438726",
+      "year": 2022,
+      "make": "Mazda",
+      "model": "CX-30",
+      "trim": "2.5 S Premium AWD",
+      "category": "suv_mazda",
+      "miles": 77579,
+      "ask_price": 19794,
+      "real_price_est": 19794,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 12,
+      "geo_tier": 1,
+      "drivetrain": "AWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 19794,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. No deal rating shown.",
+      "photos": [],
+      "why_interesting": "2022 CX-30 Premium AWD.",
+      "concerns": "77.6k mi at $19.8k is ~ the same money as the 2021 CX-30 Premium AWD with 44k mi (STRONG).",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-3MVDMBDL8NM438726"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Mazda-Under-20000-Las-Vegas-m42_spt379_L21230",
+      "vin": "JM3TCACYXH0136957",
+      "year": 2017,
+      "make": "Mazda",
+      "model": "CX-9",
+      "trim": "Touring FWD",
+      "category": "suv_mazda",
+      "miles": 92700,
+      "ask_price": 13498,
+      "real_price_est": 13498,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 8,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 13498,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"price shown (no \"fees included\" flag)\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. CarGurus \"Great Deal\".",
+      "photos": [],
+      "why_interesting": "3-row SUV at $13.5k, CarGurus \"Great Deal\".",
+      "concerns": "92.7k mi (upper end of ICE preference); 2017 vintage; fees may be extra; Carfax UNKNOWN.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-JM3TCACYXH0136957"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Mazda-Under-20000-Las-Vegas-m42_spt379_L21230",
+      "vin": "3MVDMACL6LM107006",
+      "year": 2020,
+      "make": "Mazda",
+      "model": "CX-30",
+      "trim": "Select FWD (home delivery from Bakersfield, CA)",
+      "category": "suv_mazda",
+      "miles": 62146,
+      "ask_price": 16287,
+      "real_price_est": 16287,
+      "seller_type": "dealer",
+      "location": "Home delivery from Bakersfield, CA",
+      "distance_mi": 280,
+      "geo_tier": 2,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 16287,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. Price includes $222 shipping to LV. CarGurus \"Good Deal\", \"New arrival\". Other Mazda home-delivery cards seen (2018 CX-5 Touring AWD 62k mi $18,713 Park City UT; 2021 CX-5 Touring 81.6k mi $18,752 Costa Mesa; 2017 CX-5 66.7k $18,096 Long Beach; 2021 CX-30 81.6k $16,578 Fontana; 2020 CX-5 75k $18,527 Tucson; 2020 CX-5 GT 117k $14,785 Billings) \u2014 not tracked individually (not exceptional).",
+      "photos": [],
+      "why_interesting": "Delivered-to-LV 2020 CX-30 at $16.3k incl. shipping, Good Deal.",
+      "concerns": "Tier 2 (dealer ships from ~280 mi); FWD; 62k mi; cannot inspect before shipping.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-3MVDMACL6LM107006"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/l-Used-Toyota-RAV4-Las-Vegas-d306_L21230",
+      "vin": "2T3ZFREV1EW124604",
+      "year": 2014,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "LE FWD",
+      "category": "suv_toyota",
+      "miles": 82021,
+      "ask_price": 17299,
+      "real_price_est": 17299,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 13,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 17299,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. (RAV4 page).",
+      "photos": [],
+      "why_interesting": "Low-ish miles for 2014.",
+      "concerns": "CarGurus 2014 RAV4 avg price $13,687 -> this is ~$3.6k over the average; overpriced.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-2T3ZFREV1EW124604"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230",
+      "vin": "JTMZFREVXHJ715260",
+      "year": 2017,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "LE FWD",
+      "category": "suv_toyota",
+      "miles": 116073,
+      "ask_price": 17714,
+      "real_price_est": 17714,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 10,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 17714,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card, no fees flag.",
+      "photos": [],
+      "why_interesting": "RAV4 under $18k.",
+      "concerns": "116k mi; CarGurus 2017 RAV4 avg $17,684 \u2014 at market despite 116k mi.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-JTMZFREVXHJ715260"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/l-Used-Toyota-RAV4-Las-Vegas-d306_L21230",
+      "vin": "2T3H1RFV4MW173528",
+      "year": 2021,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "LE FWD (trim UNKNOWN)",
+      "category": "suv_toyota",
+      "miles": 115903,
+      "ask_price": 20717,
+      "real_price_est": 20717,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 7,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 20717,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card says \"Price includes fees\" (dealer fees in; tax/title/reg extra). No per-listing URL in fetch output; title status UNKNOWN until Carfax/VDP check. (RAV4 page).",
+      "photos": [],
+      "why_interesting": "2021 RAV4 inside the $21k ceiling.",
+      "concerns": "115.9k mi; $20.7k is near the ceiling; CarGurus 2021 avg $24,869 but mileage is ~2x typical.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-2T3H1RFV4MW173528"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230",
+      "vin": "JTNKHMBXXK1029341",
+      "year": 2019,
+      "make": "Toyota",
+      "model": "C-HR",
+      "trim": "XLE FWD",
+      "category": "suv_toyota",
+      "miles": 41597,
+      "ask_price": 18988,
+      "real_price_est": 18988,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 3,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 18988,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card shows -$1,495 ($19,988 -> $18,988). C-HR is a subcompact crossover (not on core RAV4/Highlander/Corolla Cross/Venza/4Runner list but is a Toyota SUV/crossover). No fees flag.",
+      "photos": [],
+      "why_interesting": "2019 C-HR XLE with 41.6k mi, $1.5k price drop.",
+      "concerns": "Subcompact; 144 hp; ~market price; fees UNKNOWN.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-JTNKHMBXXK1029341"
+    },
+    {
+      "source": "cargurus",
+      "url": "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230",
+      "vin": "JTNKHMBX3K1021985",
+      "year": 2019,
+      "make": "Toyota",
+      "model": "C-HR",
+      "trim": "trim UNKNOWN FWD",
+      "category": "suv_toyota",
+      "miles": 45977,
+      "ask_price": 19429,
+      "real_price_est": 19429,
+      "seller_type": "dealer",
+      "location": "Las Vegas, NV",
+      "distance_mi": 7,
+      "geo_tier": 1,
+      "drivetrain": "FWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "UNKNOWN (verify Carfax/title)",
+      "assessment": "WEAK DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 19429,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "CarGurus card shows $19,997 struck through, now $19,429 (badge -$1,654).",
+      "photos": [],
+      "why_interesting": "C-HR 46k mi.",
+      "concerns": "$19.4k is high for a 2019 C-HR with 46k mi; subcompact.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cargurus-lv-JTNKHMBX3K1021985"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/irvine-2020-jaguar-pace-ev400-se-awd/wvxFX9seZNw39v2JXgX9wP",
+      "vin": "SADHC2S1XL1F83923",
+      "year": 2020,
+      "make": "Jaguar",
+      "model": "I-PACE",
+      "trim": "EV400 SE AWD",
+      "category": "ev",
+      "miles": 50721,
+      "ask_price": 18500,
+      "real_price_est": 18500,
+      "seller_type": "private",
+      "location": "Irvine, CA",
+      "distance_mi": 225,
+      "geo_tier": 2,
+      "drivetrain": "AWD",
+      "battery": "90 kWh (EPA ~234 mi new) \u2014 health UNKNOWN",
+      "fuel": "electric",
+      "title_status": "clean (CL attr; seller states clean title)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 18500,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "Posted 2026-10-09. 12 photos. No battery health/SOH info or service history stated. Jaguar I-PACE had a 2019\u201320 battery recall (HV pack) \u2014 verify completion by VIN. No comp pulled; not clearly under market.",
+      "photos": [
+        "https://images.craigslist.org/00W0W_gOFy6UXwpk6_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00000_cORomLp0eEB_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00I0I_jmHUI8FZks7_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/01212_dQtDRA2JqnZ_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00n0n_2kidy3HMEvF_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00Z0Z_iiFA3EFOz9U_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00k0k_bFuqj5kw6hi_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/01010_gFo3W7kgR64_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00w0w_c2d3PsPPfny_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/01414_2gR9hrDPlgX_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00404_88BftbfmNpT_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00d0d_bdlGEgWXa9r_0CI0t2_600x450.jpg"
+      ],
+      "why_interesting": "Luxury 394 hp AWD electric SUV, 50.7k mi, clean title, private, $18.5k.",
+      "concerns": "Tier 2 (~225 mi); not clearly under market; Jaguar parts/repair costs; recall/battery SOH unknown.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": 24,
+      "id": "cl-irvine-ipace-2020-wvxFX"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/south-gate-2020-chevrolet-bolt-ev-lt/5o51XdPeUo7S2Pc875E1EQ",
+      "vin": "UNKNOWN",
+      "year": 2020,
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "trim": "LT FWD",
+      "category": "ev",
+      "miles": 67000,
+      "ask_price": 11000,
+      "real_price_est": 11000,
+      "seller_type": "private",
+      "location": "South Gate, CA",
+      "distance_mi": 231,
+      "geo_tier": 2,
+      "drivetrain": "FWD",
+      "battery": "66 kWh (EPA 259 mi new) \u2014 health/recall status UNKNOWN",
+      "fuel": "electric",
+      "title_status": "clean (CL attr only; no VIN given)",
+      "assessment": "FAIR DEAL",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 11000,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "active",
+      "notes": "Posted 2026-10-09. 2020 Bolt LT 67k mi at $11,000 is below LV comps (dealer 2020 Bolt Premier 69k $14,699; LV private Bolt LT $15,800) but that gap is a typical private-vs-dealer spread and it is ~231 mi away \u2014 not exceptional. No VIN in post.",
+      "photos": [
+        "https://images.craigslist.org/00000_1lB4gIVUQxq_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00L0L_4egVcjV7Eff_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00q0q_gcEkZasbG2T_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00808_69uiTohLdbZ_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00S0S_haGEM0sxweZ_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00U0U_jBR0RzS1lkQ_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00s0s_iE3PVXYPVdV_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00Q0Q_5CiNrYsQ9Jt_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00x0x_cKK7XnEFEIA_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00k0k_8PqeRgjT0vw_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00b0b_33sfnDaC8xo_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00808_lpSUcsQ0Gqt_0CI0t2_600x450.jpg"
+      ],
+      "why_interesting": "Low-priced clean-title private Bolt LT.",
+      "concerns": "Tier 2 (~231 mi); no VIN/title proof; CL fuel attr says gas (seller typo?); battery recall status unknown.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cl-southgate-bolt-2020-5o51X"
+    },
+    {
+      "source": "craigslist",
+      "url": "https://www.craigslist.org/view/d/ramona-2024-mazda-cx-50-preferred/izsVsgy5p1TaENmwDLtgy8",
+      "vin": "7MMVABBMXRN238632",
+      "year": 2024,
+      "make": "Mazda",
+      "model": "CX-50",
+      "trim": "Preferred AWD",
+      "category": "suv_mazda",
+      "miles": 31000,
+      "ask_price": 19900,
+      "real_price_est": 19900,
+      "seller_type": "private/dealer-unclear (Spanish \"Se Habla Espa\u00f1ol\", same style as the Ramona salvage EV6 post)",
+      "location": "Ramona, CA",
+      "distance_mi": 240,
+      "geo_tier": 2,
+      "drivetrain": "AWD",
+      "battery": "n/a",
+      "fuel": "gas",
+      "title_status": "SALVAGE (CL attr and body text)",
+      "assessment": "AVOID",
+      "first_seen": "2026-10-10T08:00:00-07:00",
+      "last_seen": "2026-10-10T08:00:00-07:00",
+      "price_history": [
+        {
+          "date": "2026-10-10",
+          "price": 19900,
+          "note": "first seen (10-10 run)"
+        }
+      ],
+      "status": "rejected",
+      "notes": "Salvage title stated in the body and CL attribute. Same posting pattern as the rejected Ramona salvage 2024 Kia EV6.",
+      "photos": [
+        "https://images.craigslist.org/00U0U_43rjVqtOSOa_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/01313_fyZeD1R8pNu_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00I0I_h8127cVAFXp_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/01515_7yI0JuoKM2C_0gw0co_600x450.jpg",
+        "https://images.craigslist.org/00J0J_92qbRuemIXy_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00404_cxW2qHGgybP_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00I0I_BUed9o1vp1_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00t0t_j4uD5wpA7nR_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00m0m_9eRJ4ZRjbpZ_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00u0u_2jMuuw2l5Rq_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00M0M_bhBwTV3ggcg_0gw0co_600x450.jpg",
+        "https://images.craigslist.org/00E0E_1rkfyzJgPww_0gw0co_600x450.jpg"
+      ],
+      "why_interesting": "Logged so reposts are filtered.",
+      "concerns": "Salvage title = auto-reject.",
+      "market_value_low": null,
+      "market_value_high": null,
+      "estimated_savings": null,
+      "updated_at": "2026-10-10T08:00:00-07:00",
+      "priority_rank": null,
+      "id": "cl-ramona-cx50-7MMVABBMXRN238632"
     }
   ],
   "search_coverage": {
-    "checked_at": "2026-10-09T07:40:00-07:00",
-    "run": "2026-10-09 daily (catch-up for failed 10-08 run; compared against 2026-10-07 state)",
+    "checked_at": "2026-10-10T08:00:00-07:00",
+    "run": "2026-10-10 daily (compared against 2026-10-09 state)",
     "craigslist_sapi": {
-      "status": "ok (all HTTP 200)",
+      "status": "ok (all HTTP 200; needed retry/guard for empty-result responses)",
       "queries": 66,
-      "filtered_listings": 316,
-      "detail_pages": "12 new/changed posts + 29 tracked-URL liveness checks (3 returned HTTP 410)",
-      "notes": "lasvegas postal 89101; 80 mi all sellers + 250 mi owner-only; no Mach-E on CL LV (mach-e owner search = 0 hits)"
+      "filtered_listings": 328,
+      "new_vs_10_09": 35,
+      "detail_pages": "8 new-post detail pages + 34 tracked-URL liveness checks (0 returned HTTP 410/removed)",
+      "notes": "lasvegas postal 89101; 80 mi all sellers + 250 mi owner-only; no Mach-E on CL LV/nearby (mach-e queries returned only unrelated cars); no new Tier-1 private target listings of interest (only 2005\u20132007-era SUVs, one 2007 RAV4 with rebuilt title)"
     },
     "cargurus": {
       "status": "ok via WebFetch (curl gets HTTP 406)",
@@ -11781,26 +12682,27 @@
         "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
         "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
         "https://www.cargurus.com/Cars/s-Used-Mazda-Under-20000-Las-Vegas-m42_spt379_L21230",
-        "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230"
+        "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230",
+        "https://www.cargurus.com/Cars/l-Used-Toyota-RAV4-Las-Vegas-d306_L21230"
       ],
-      "note": "each page returns only the first ~20 cards; previously tracked cards not shown are flagged unverified (not assumed sold). RAV4 LV page (d306) not re-fetched this run (Toyota page used)."
+      "note": "each page returns only the first ~20 cards; previously tracked cards not shown are flagged unverified (not assumed sold). RAV4 LV page (d306) fetched this run (first time since 10-07)."
     },
     "cars_com": {
       "status": "blocked_403 (Cloudflare \"Just a moment\")",
-      "checked": "2026-10-09"
+      "checked": "2026-10-10"
     },
     "facebook_marketplace": {
       "status": "not checked (no browser session in this run)"
     },
     "offerup": {
-      "status": "HTTP 200 but IP-geolocated to Kansas/Oklahoma \u2014 unusable without a browser location",
-      "checked": "2026-10-09"
+      "status": "HTTP 200 but page is a generic/geo-mismatched search shell (previously IP-geolocated to Kansas/Oklahoma) \u2014 unusable without a browser location",
+      "checked": "2026-10-10"
     },
     "dealer_sites": {
-      "status": "only Team Ford Las Vegas Mach-E VDP re-checked (200, $20,316 still on page); other dealer inventories not crawled; Hyundai of Las Vegas/EchoPark data came from undated web-search snapshots only"
+      "status": "only Team Ford Las Vegas Mach-E VDP re-checked (HTTP 200, JSON price 20316); other dealer inventories not crawled"
     },
     "web_search": {
-      "status": "2 VIN lookups (VinAssessment/dealer snapshots) used only to flag conflicts on two STRONG CarGurus cards; undated, not treated as verification"
+      "status": "2 VIN lookups (Venue SU403065, Leaf 561285/566289) \u2014 undated snapshots only; used to flag a possible $15,199 vs $19,199 price conflict on the 2025 Leaf 566289; not treated as verification"
     }
   },
   "categories": [
@@ -11817,7 +12719,7 @@
   },
   "new_fields_note": "New candidates add: make, model, category, fuel, priority_rank (1 = best current, private first). Existing fields unchanged.",
   "market_snapshot_local": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-10",
     "sources": [
       "Craigslist SAPI (lasvegas, postal 89101, 80 mi all sellers + 250 mi owner-only), 33 queries x 2",
       "CarGurus LV: electric under $20k, Hyundai/Mazda/Toyota under $20k, RAV4 LV page",
@@ -11825,7 +12727,8 @@
       "CarGurus/KBB value pages (ID.4)"
     ],
     "method_note": "market_value_high = national model-year median (VinAssessment or CarGurus avg) unless noted; market_value_low = local or trim-specific comp when available. estimated_savings only when both bands exist (midpoint - real_price_est). Not a Blue Book appraisal; medians are not mileage-adjusted.",
-    "note": "Local LV EV supply under $21k is deep in 2023\u20132025 Leafs/Bolts plus a few ID.4/Ariya/Kona Electric; private EVs are mostly older Leafs/Bolt/Model S. Local private SUVs under $21k skew 100k+ mi; best SUV values are dealer (CarGurus \"Great Deal\" fees-included cards)."
+    "note": "Local LV EV supply under $21k is deep in 2023\u20132025 Leafs/Bolts plus a few ID.4/Ariya/Kona Electric; private EVs are mostly older Leafs/Bolt/Model S. Local private SUVs under $21k skew 100k+ mi; best SUV values are dealer (CarGurus \"Great Deal\" fees-included cards).",
+    "note_2026_10_10": "LV dealer EV/small-SUV supply under $21k remains deep; CarGurus RAV4 LV page: only 4 in-budget RAVs (2009 $12.1k 93k mi; 2014 $17.3k 82k mi; 2021 $20.7k 116k mi; 2019 XLE $21.5k 91k mi is over) \u2014 RAV4 market well above $21k for <80k-mi cars (CarGurus 10-06/08 averages: 2019 $22.5k, 2020 $23.5k, 2021 $24.9k, 2018 $18.8k, 2017 $17.7k). Private LV supply still thin; no new Tier-1 private target listings 10-10."
   },
   "search_coverage_history": {
     "2026-10-07_mache_morning": {
@@ -12085,6 +12988,46 @@
       },
       "web_search": {
         "status": "2 VIN lookups (VinAssessment/dealer snapshots) used only to flag conflicts on two STRONG CarGurus cards; undated, not treated as verification"
+      }
+    },
+    "2026-10-10_daily": {
+      "checked_at": "2026-10-10T08:00:00-07:00",
+      "run": "2026-10-10 daily (compared against 2026-10-09 state)",
+      "craigslist_sapi": {
+        "status": "ok (all HTTP 200; needed retry/guard for empty-result responses)",
+        "queries": 66,
+        "filtered_listings": 328,
+        "new_vs_10_09": 35,
+        "detail_pages": "8 new-post detail pages + 34 tracked-URL liveness checks (0 returned HTTP 410/removed)",
+        "notes": "lasvegas postal 89101; 80 mi all sellers + 250 mi owner-only; no Mach-E on CL LV/nearby (mach-e queries returned only unrelated cars); no new Tier-1 private target listings of interest (only 2005\u20132007-era SUVs, one 2007 RAV4 with rebuilt title)"
+      },
+      "cargurus": {
+        "status": "ok via WebFetch (curl gets HTTP 406)",
+        "pages": [
+          "https://www.cargurus.com/Cars/spt-electric-cars-under-20000-Las-Vegas_L21230",
+          "https://www.cargurus.com/Cars/s-Used-Hyundai-Under-20000-Las-Vegas-m28_spt379_L21230",
+          "https://www.cargurus.com/Cars/s-Used-Mazda-Under-20000-Las-Vegas-m42_spt379_L21230",
+          "https://www.cargurus.com/Cars/s-Used-Toyota-Under-20000-Las-Vegas-m7_spt379_L21230",
+          "https://www.cargurus.com/Cars/l-Used-Toyota-RAV4-Las-Vegas-d306_L21230"
+        ],
+        "note": "each page returns only the first ~20 cards; previously tracked cards not shown are flagged unverified (not assumed sold). RAV4 LV page (d306) fetched this run (first time since 10-07)."
+      },
+      "cars_com": {
+        "status": "blocked_403 (Cloudflare \"Just a moment\")",
+        "checked": "2026-10-10"
+      },
+      "facebook_marketplace": {
+        "status": "not checked (no browser session in this run)"
+      },
+      "offerup": {
+        "status": "HTTP 200 but page is a generic/geo-mismatched search shell (previously IP-geolocated to Kansas/Oklahoma) \u2014 unusable without a browser location",
+        "checked": "2026-10-10"
+      },
+      "dealer_sites": {
+        "status": "only Team Ford Las Vegas Mach-E VDP re-checked (HTTP 200, JSON price 20316); other dealer inventories not crawled"
+      },
+      "web_search": {
+        "status": "2 VIN lookups (Venue SU403065, Leaf 561285/566289) \u2014 undated snapshots only; used to flag a possible $15,199 vs $19,199 price conflict on the 2025 Leaf 566289; not treated as verification"
       }
     }
   }
