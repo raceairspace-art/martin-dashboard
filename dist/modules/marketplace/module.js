@@ -6,8 +6,9 @@
     "likely_sold_or_stale",
     "possibly_sold_or_stale",
     "rejected",
-    "unverified_stale",
   ]);
+  // Not re-seen for days; not assumed sold. Visible but de-emphasized, ranked below active.
+  const STALEISH = new Set(["unverified_stale"]);
   const PRODUCT_BUDGET = 21000;
 
   const ASSESSMENT_RANK = {
@@ -284,8 +285,8 @@
   function sortCandidates(list, budget) {
     const cap = budget != null ? budget : PRODUCT_BUDGET;
     return list.slice().sort((a, b) => {
-      const aDead = DEADISH.has(a.status) ? 1 : 0;
-      const bDead = DEADISH.has(b.status) ? 1 : 0;
+      const aDead = DEADISH.has(a.status) ? 2 : STALEISH.has(a.status) ? 1 : 0;
+      const bDead = DEADISH.has(b.status) ? 2 : STALEISH.has(b.status) ? 1 : 0;
       if (aDead !== bDead) return aDead - bDead;
 
       const aActive = ACTIVEish.has(a.status) ? 0 : 1;
@@ -534,6 +535,11 @@
     return map;
   }
 
+  function staleBadge(c) {
+    if (!c || !STALEISH.has(c.status)) return "";
+    return `<span class="badge flag-badge flag-stale" title="Not re-seen for several days — not assumed sold; verify before relying">Unverified · stale</span>`;
+  }
+
   function flagBadge(c) {
     const f = c && huntFlags.get(c.id);
     if (!f) return "";
@@ -562,7 +568,7 @@
     const makeModel = [c.make, c.model].filter(Boolean).join(" ");
     const privBadge = isPrivate(c.seller_type) ? `<span class="badge private-badge">Private</span>` : "";
     const overBadge = over ? `<span class="badge over-budget-badge">Over budget</span>` : "";
-    const deadClass = DEADISH.has(c.status) ? "is-dead" : "";
+    const deadClass = DEADISH.has(c.status) ? "is-dead" : STALEISH.has(c.status) ? "is-stale" : "";
     return `
       <button type="button" class="mp-row mp-row-card ${selected} ${over ? "is-over-budget" : ""} ${deadClass}" data-id="${escapeHtml(c.id)}">
         ${thumb}
@@ -574,6 +580,7 @@
             ${privBadge}
             ${overBadge}
             ${flagBadge(c)}
+            ${staleBadge(c)}
             ${marketValueHtml(c)} ${save}
           </span>
         </span>
@@ -650,6 +657,7 @@
               ${privBadge}
               ${overBadge}
               ${flagBadge(c)}
+            ${staleBadge(c)}
               <span class="status-pill">${escapeHtml(c.status || "")}</span>
               <span>${escapeHtml(c.seller_type || "—")}</span>
               <span>${escapeHtml(c.location || "—")}</span>

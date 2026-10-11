@@ -122,6 +122,7 @@ def diff_watchlists(prev: dict | None, curr: dict) -> dict:
             "sold_or_removed",
             "likely_sold_or_stale",
             "possibly_sold_or_stale",
+            "unverified_stale",
         }
     ] + [{"id": i, "from": prev_idx[i].get("status"), "to": "missing"} for i in removed_ids]
 
@@ -196,8 +197,8 @@ def feed_items_from_diff(diff: dict) -> list[dict]:
                 "bot_id": "maggie_marketplace",
                 "type": "status",
                 "severity": "info",
-                "title": f"{diff['counts']['sold_or_removed']} sold/removed",
-                "summary": "Listings left active under-budget pool or marked sold.",
+                "title": f"{diff['counts']['sold_or_removed']} sold/removed/stale",
+                "summary": "Listings marked sold/removed or demoted to stale/unverified (not assumed sold).",
                 "cta": {"label": "Open Marketplace", "route": "#/marketplace"},
                 "dismissed": False,
             }
