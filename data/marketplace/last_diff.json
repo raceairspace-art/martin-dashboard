@@ -1,108 +1,190 @@
 {
-  "diffed_at": "2026-10-11T07:13:33-07:00",
-  "watchlist_updated_at": "2026-10-11T07:30:00-07:00",
+  "diffed_at": "2026-10-14T07:13:55-07:00",
+  "watchlist_updated_at": "2026-10-14T07:11:00-07:00",
   "had_previous": true,
   "counts": {
     "new_listings": 29,
     "removed_listings": 0,
     "new_strong_or_exceptional": 1,
-    "price_drops": 3,
-    "sold_or_removed": 3,
-    "status_changes": 3,
+    "price_drops": 10,
+    "sold_or_removed": 7,
+    "status_changes": 7,
     "assessment_changes": 0
   },
   "new_ids": [
-    "cargurus-lv-1N4AZ1BV3SC562863",
-    "cargurus-lv-1N4AZ1BV7PC556197",
-    "cargurus-lv-1N4AZ0CP8FC306010",
-    "cargurus-lv-5YJ3E1EA6KF396719",
-    "cargurus-lv-KM8KN4AE8NU063029",
-    "cargurus-lv-KNDCR3L12P5032048",
-    "cargurus-lv-KM8K23AG7PU171262",
-    "cargurus-lv-5NMS3DAJ6NH467395",
-    "cargurus-lv-KM8K22AA4JU186539",
-    "cargurus-lv-KM8J23A43GU141631",
-    "cargurus-lv-KM8JU3AG5FU978156",
-    "cargurus-lv-KM8J33A21GU227080",
-    "cargurus-lv-JM3TCABY3L0413068",
-    "cargurus-lv-JM3KE2DY9G0817376",
-    "cargurus-lv-JM3KFBDY7K0580098",
-    "cargurus-lv-JM1DKDB71M1515781",
-    "cargurus-lv-JM3KFADM4J0371598",
-    "cargurus-lv-JM3KFBCM5J0426745",
-    "cargurus-lv-3MVDMAAL2MM254332",
-    "cargurus-lv-JM3KFBCM3M0488309",
-    "cargurus-lv-JM3KFADM5L0765131",
-    "cargurus-lv-JM3KFACM0J0338647",
-    "cargurus-lv-JM3TCBCY7G0108411",
-    "cargurus-lv-JM3TCBCY0G0123686",
-    "cargurus-lv-5TDKKRFH0FS074836",
-    "cargurus-lv-NMTKHMBXXJR057094",
-    "cargurus-lv-2T3ZK33V39W002683",
-    "cl-lv-rav4-2007-axDyG37e",
-    "cl-torrance-modely-iVbPqpen"
+    "cargurus-lv-KM8R3DHE4LU112668",
+    "cargurus-lv-5NMJE3AE2NH075131",
+    "cargurus-lv-5NMS2DAJ3NH396191",
+    "cargurus-lv-KMHRC8A36NU207512",
+    "cargurus-lv-JM1DKFD72K0402997",
+    "cargurus-lv-JM3KFADM4K0695412",
+    "cargurus-lv-JM3KFACM5L0858443",
+    "cargurus-lv-JM3KE4DY9G0677776",
+    "cargurus-lv-JM3KFACM0K0677409",
+    "cargurus-lv-2T3ZFREV5GW243890",
+    "cargurus-lv-JTMBFREV3HD205042",
+    "cargurus-lv-2T3H1RFV9LW094659",
+    "cargurus-lv-JM3KFBEY9M0346921",
+    "cargurus-lv-KNDCR3L18P5022396",
+    "cargurus-lv-JM3KFACM3K1596401",
+    "cargurus-lv-JTMWFREV6JJ204461",
+    "cargurus-lv-JM3KFBCM9J0357932",
+    "cargurus-lv-JM3KFACMXK1679369",
+    "cargurus-lv-2T3H1RFV7KC013674",
+    "cargurus-lv-5TDKKRFH7FS068189",
+    "cargurus-lv-5YJ3E1EAXKF424618",
+    "cargurus-lv-JM3KE4DY3F0539617",
+    "cargurus-lv-KM8KN4DEXRU289624",
+    "teamford-3FMTK1RMXNMA08934",
+    "cl-lv-LPSED3KA0ML017119",
+    "cl-lv-2T3H1RFV9NC192448",
+    "cl-phx-rav4-2017-sBR6YXKS",
+    "cl-rowland-JTMWFREV8JD117840",
+    "cl-stgeorge-wuling-macaron-i7UUrug7"
   ],
   "removed_ids": [],
   "new_strong_or_exceptional": [
     {
-      "id": "cargurus-lv-JM3TCABY3L0413068",
+      "id": "cargurus-lv-JM3KFBEY9M0346921",
       "assessment": "STRONG DEAL",
-      "ask_price": 17696,
+      "ask_price": 19497,
       "status": "active"
     }
   ],
   "price_drops": [
     {
       "id": "cl-phoenix-2024-select-24988",
-      "from": 23988,
-      "to": 23588,
+      "from": 23588,
+      "to": 23388,
+      "delta": -200.0
+    },
+    {
+      "id": "cl-elmonte-2025-select-premiumautos",
+      "from": 26585,
+      "to": 26380,
+      "delta": -205.0
+    },
+    {
+      "id": "cargurus-lv-1N4CZ1CV7RC556422",
+      "from": 19799,
+      "to": 19599,
+      "delta": -200.0
+    },
+    {
+      "id": "cargurus-lv-3MVDMBBL6MM239241",
+      "from": 19844,
+      "to": 19694,
+      "delta": -150.0
+    },
+    {
+      "id": "cargurus-lv-JTMBFREV2HD205260",
+      "from": 18196,
+      "to": 17896,
+      "delta": -300.0
+    },
+    {
+      "id": "cl-sd-1N4CZ1CV9PC552708",
+      "from": 16900,
+      "to": 16500,
       "delta": -400.0
     },
     {
-      "id": "cargurus-lv-1V2BMPE8XRC016818",
-      "from": 18987,
-      "to": 18487,
+      "id": "cargurus-lv-5NMS33AD5LH185721",
+      "from": 19299,
+      "to": 19049,
+      "delta": -250.0
+    },
+    {
+      "id": "cargurus-lv-3MVDMBDL8NM438726",
+      "from": 19794,
+      "to": 19694,
+      "delta": -100.0
+    },
+    {
+      "id": "cargurus-lv-KM8J33A21GU227080",
+      "from": 12799,
+      "to": 12299,
       "delta": -500.0
     },
     {
-      "id": "cl-irvine-ipace-2020-wvxFX",
-      "from": 18500,
-      "to": 18400,
-      "delta": -100.0
+      "id": "cargurus-lv-JM3KFBDY7K0580098",
+      "from": 19999,
+      "to": 19985,
+      "delta": -14.0
     }
   ],
   "sold_or_removed": [
     {
-      "id": "cl-scottsdale-private-3FMTK1RMXNMA14376",
+      "id": "teamford-3FMTK1RM5MMA20455",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cl-norco-3FMTK1RM4MMA25274",
       "from": "over_budget",
       "to": "sold_or_removed"
     },
     {
-      "id": "cargurus-lv-5NMJB3DE0SH494403",
+      "id": "cl-lv-4runner-2008-qXE3BbH3",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cl-lv-santafe-2020-gtc4W8zQ",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cargurus-lv-cx5-2021-touring-70749",
       "from": "active",
       "to": "unverified_stale"
     },
     {
-      "id": "cargurus-lv-1N4AZ1BV6SC561285",
+      "id": "cargurus-lv-KMHRC8A37SU403065",
       "from": "active",
       "to": "unverified_stale"
+    },
+    {
+      "id": "cl-tucson-2016-tarzana-4FGL8pJ8",
+      "from": "active",
+      "to": "sold_or_removed"
     }
   ],
   "status_changes": [
     {
-      "id": "cl-scottsdale-private-3FMTK1RMXNMA14376",
+      "id": "teamford-3FMTK1RM5MMA20455",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cl-norco-3FMTK1RM4MMA25274",
       "from": "over_budget",
       "to": "sold_or_removed"
     },
     {
-      "id": "cargurus-lv-5NMJB3DE0SH494403",
+      "id": "cl-lv-4runner-2008-qXE3BbH3",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cl-lv-santafe-2020-gtc4W8zQ",
+      "from": "active",
+      "to": "sold_or_removed"
+    },
+    {
+      "id": "cargurus-lv-cx5-2021-touring-70749",
       "from": "active",
       "to": "unverified_stale"
     },
     {
-      "id": "cargurus-lv-1N4AZ1BV6SC561285",
+      "id": "cargurus-lv-KMHRC8A37SU403065",
       "from": "active",
       "to": "unverified_stale"
+    },
+    {
+      "id": "cl-tucson-2016-tarzana-4FGL8pJ8",
+      "from": "active",
+      "to": "sold_or_removed"
     }
   ],
   "assessment_changes": []

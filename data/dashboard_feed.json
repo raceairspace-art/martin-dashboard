@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-11T07:13:33-07:00",
+  "updated_at": "2026-10-14T07:13:55-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-14-maggie-sold-7",
+      "ts": "2026-10-14T07:13:55-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "status",
+      "severity": "info",
+      "title": "7 sold/removed/stale",
+      "summary": "Listings marked sold/removed or demoted to stale/unverified (not assumed sold).",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-14-maggie-drops-10",
+      "ts": "2026-10-14T07:13:55-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "recommendation",
+      "severity": "medium",
+      "title": "10 price drop(s)",
+      "summary": "Ask price decreased vs previous snapshot.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-14-maggie-new-cargurus-lv-JM3KFBEY9M0346921",
+      "ts": "2026-10-14T07:13:55-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-JM3KFBEY9M0346921 at $19497",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-JM3KFBEY9M0346921"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-JM3KFBEY9M0346921",
+        "assessment": "STRONG DEAL",
+        "ask_price": 19497,
+        "status": "active"
+      }
+    },
     {
       "id": "feed-2026-10-11-maggie-sold-3",
       "ts": "2026-10-11T07:13:33-07:00",
