@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-14T07:13:55-07:00",
+  "updated_at": "2026-10-18T07:20:08-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-18-maggie-sold-16",
+      "ts": "2026-10-18T07:20:08-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "status",
+      "severity": "info",
+      "title": "16 sold/removed/stale",
+      "summary": "Listings marked sold/removed or demoted to stale/unverified (not assumed sold).",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-18-maggie-drops-36",
+      "ts": "2026-10-18T07:20:08-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "recommendation",
+      "severity": "medium",
+      "title": "36 price drop(s)",
+      "summary": "Ask price decreased vs previous snapshot.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-18-maggie-new-cl-southgate-cx5gt-2020-xv4v96Mz",
+      "ts": "2026-10-18T07:20:08-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cl-southgate-cx5gt-2020-xv4v96Mz at $13500",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cl-southgate-cx5gt-2020-xv4v96Mz"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cl-southgate-cx5gt-2020-xv4v96Mz",
+        "assessment": "STRONG DEAL",
+        "ask_price": 13500,
+        "status": "active"
+      }
+    },
     {
       "id": "feed-2026-10-14-maggie-sold-7",
       "ts": "2026-10-14T07:13:55-07:00",
