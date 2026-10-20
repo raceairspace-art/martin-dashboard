@@ -130,6 +130,58 @@ else
   echo "==> No daily hunt file found (NEW/drops/sold will be placeholders)"
 fi
 
+# One-off special searches: /workspace/<slug>-search-YYYY-MM-DD.json (+ optional .md)
+# Copied read-only into dist/data/marketplace/searches/ with an index.json.
+# Never merged into the watchlist, never diffed/snapshotted.
+SEARCH_GLOB="${SEARCH_GLOB:-/workspace/*-search-[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].json}"
+SEARCH_OUT="$DIST/data/marketplace/searches"
+mkdir -p "$SEARCH_OUT"
+export SEARCH_GLOB SEARCH_OUT
+python3 - <<'PY'
+import glob, json, os, re, shutil
+pat = os.environ["SEARCH_GLOB"]; out = os.environ["SEARCH_OUT"]
+rx = re.compile(r"^(?P<slug>.+-search-(?P<date>\d{4}-\d{2}-\d{2}))\.json$")
+entries = []
+for src in sorted(glob.glob(pat)):
+    base = os.path.basename(src)
+    m = rx.match(base)
+    if not m or not os.path.isfile(src):
+        continue
+    try:
+        with open(src) as f:
+            doc = json.load(f)
+    except Exception as e:
+        print(f"    skip {base}: {e}")
+        continue
+    slug = m.group("slug")
+    shutil.copyfile(src, os.path.join(out, base))
+    md_src = src[:-5] + ".md"
+    md_name = None
+    if os.path.isfile(md_src):
+        md_name = os.path.basename(md_src)
+        shutil.copyfile(md_src, os.path.join(out, md_name))
+    def n(key):
+        v = doc.get(key) if isinstance(doc, dict) else None
+        return len(v) if isinstance(v, list) else None
+    entries.append({
+        "slug": slug,
+        "date": m.group("date"),
+        "file": base,
+        "md": md_name,
+        "scope": doc.get("scope") if isinstance(doc, dict) else None,
+        "generated": doc.get("generated") if isinstance(doc, dict) else None,
+        "ranked_count": n("ranked"),
+        "rejects_count": n("rejects"),
+        "candidates_count": n("candidates"),
+    })
+    print(f"    search: {base}" + (f" (+ {md_name})" if md_name else ""))
+entries.sort(key=lambda e: (e["date"], e["slug"]), reverse=True)
+with open(os.path.join(out, "index.json"), "w") as f:
+    json.dump({"searches": entries}, f, indent=2)
+    f.write("\n")
+print(f"==> Special searches baked: {len(entries)}")
+PY
+
 echo "==> Done. Serve with:"
 echo "    cd $DIST && python3 -m http.server 8765"
 echo "    Open http://127.0.0.1:8765/"

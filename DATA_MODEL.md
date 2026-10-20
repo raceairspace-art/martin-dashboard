@@ -274,3 +274,12 @@ If a favorite’s listing disappears from watchlist, UI shows “missing from wa
 - **A-D1:** Greg’s first on-disk sample may arrive after Marketplace UI; Training ingest uses schema above and soft-fails missing files.
 - **A-D2:** Daily hunt bucket names beyond those listed are displayed as raw run coverage, not Home-critical.
 - **A-D3:** `max_purchase_price: 25000` on watchlist root is the budget signal source for Home.
+
+## Special one-off searches (`data/marketplace/searches/`)
+
+Maggie's one-off hunts (e.g. `/workspace/tesla-equinox-search-2026-10-20.json`) are **not** part of the daily watchlist:
+no diff, no snapshot, no $21k cap, no 250 mi rule. `scripts/build_dist.sh` copies every
+`/workspace/*-search-YYYY-MM-DD.json` (+ matching `.md`) verbatim into `dist/data/marketplace/searches/` and writes
+`index.json` (`{searches:[{slug,date,file,md,scope,generated,ranked_count,rejects_count,candidates_count}]}`, newest first).
+UI: `modules/marketplace/searches.js`, routes `#/marketplace/search/<slug>[/<recordId>]` (ranked → `r<rank>`, rejects → `x<n>`).
+Schema `{scope, ranked[], rejects[], coverage_gaps[]}` (or a watchlist-like `candidates[]`); null stays null.

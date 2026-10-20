@@ -827,6 +827,7 @@
         : "";
 
     root.innerHTML = `
+      <div id="mp-special-searches"></div>
       ${renderRunCoverage(data.dailyHunt)}
       ${renderFilters(all, budget)}
       <div class="mp-layout">
@@ -852,9 +853,17 @@
       </div>`;
 
     bindEvents(data, budget);
+    if (global.MarketplaceSearches) MarketplaceSearches.renderLinks("mp-special-searches");
   }
 
   function render(data, route) {
+    const parts = (route && route.parts) || [];
+    if (parts[1] === "search" && global.MarketplaceSearches) {
+      const slug = parts[2] ? decodeURIComponent(parts[2]) : "";
+      const rec = parts[3] ? decodeURIComponent(parts[3]) : null;
+      MarketplaceSearches.renderSearch(data, slug, rec);
+      return;
+    }
     const idPart = route && route.parts && route.parts[1] ? decodeURIComponent(route.parts[1]) : null;
     state.selectedId = idPart || null;
     const lead = document.querySelector("#view-marketplace > .lead");

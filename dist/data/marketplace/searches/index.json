@@ -1,0 +1,15 @@
+{
+  "searches": [
+    {
+      "slug": "tesla-equinox-search-2026-10-20",
+      "date": "2026-10-20",
+      "file": "tesla-equinox-search-2026-10-20.json",
+      "md": "tesla-equinox-search-2026-10-20.md",
+      "scope": "Tesla Model 3, Tesla Model Y, Chevrolet Equinox EV; < $26,000; within 300 mi of Las Vegas 89101; clean title",
+      "generated": "2026-10-20 (America/Los_Angeles)",
+      "ranked_count": 17,
+      "rejects_count": 10,
+      "candidates_count": null
+    }
+  ]
+}
