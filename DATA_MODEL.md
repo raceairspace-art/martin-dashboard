@@ -187,7 +187,7 @@ Full session files (brief contract) still expected under `sessions/{session_id}.
 
 **`status`:**  
 `active` | `active_possibly_stale` | `sold_or_removed` | `likely_sold_or_stale` | `possibly_sold_or_stale` | `possibly_sold_or_over_budget` | `over_budget` | `rejected` | `unverified_stale`  
-UI: `unverified_stale` = not re-seen for days, not assumed sold → excluded from active counts, shown de-emphasized with an “Unverified · stale” badge, ranked below active and above sold/rejected; ingest counts it in the sold/removed/stale feed bucket.
+UI: `unverified_stale` = not re-seen for days, not assumed sold → excluded from active counts, shown de-emphasized with an “Unverified · stale” badge, ranked below active and above sold/rejected; ingest counts it in the sold/removed/stale feed bucket. `active_possibly_stale` stays active (counted, ranked normally) with a “Possibly stale” badge.
 
 **Watchlist root (also Maggie-owned):**  
 `updated_at`, `search_base`, `max_purchase_price` (product budget **$21,000** as of 2026-10-07; file may lag), `preferred_max_miles` (50000), `criteria_notes`, `market_snapshot`, `candidates[]`.
