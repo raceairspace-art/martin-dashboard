@@ -536,6 +536,9 @@
   }
 
   function staleBadge(c) {
+    if (c && c.status === "active_possibly_stale") {
+      return `<span class="badge flag-badge flag-muted" title="Still counted active; missed recent re-checks — verify before relying">Possibly stale</span>`;
+    }
     if (!c || !STALEISH.has(c.status)) return "";
     return `<span class="badge flag-badge flag-stale" title="Not re-seen for several days — not assumed sold; verify before relying">Unverified · stale</span>`;
   }
