@@ -1,215 +1,130 @@
 {
-  "diffed_at": "2026-10-20T07:12:19-07:00",
-  "watchlist_updated_at": "2026-10-20T07:10:00-07:00",
+  "diffed_at": "2026-10-21T07:13:32-07:00",
+  "watchlist_updated_at": "2026-10-21T07:11:00-07:00",
   "had_previous": true,
   "counts": {
-    "new_listings": 24,
+    "new_listings": 7,
     "removed_listings": 0,
-    "new_strong_or_exceptional": 1,
-    "price_drops": 14,
-    "sold_or_removed": 7,
-    "status_changes": 8,
-    "assessment_changes": 0
+    "new_strong_or_exceptional": 3,
+    "price_drops": 7,
+    "sold_or_removed": 3,
+    "status_changes": 3,
+    "assessment_changes": 1
   },
   "new_ids": [
-    "cl-prescott-rav4-2015-qX4Vhsx2",
-    "cl-riverside-rav4-2008-tqB8UPeg",
-    "cl-pasadena-i3-2017-tmkdtS5o",
-    "cl-missionviejo-cx5-2018-5pGVuNKp",
-    "cl-sfv-model3-2018-v7CpBHP1",
-    "cargurus-lv-KM8K62AB3NU820734",
-    "cargurus-lv-JTMRFREV4EJ003130",
-    "cargurus-lv-5TDKKRFH0FS067336",
-    "cargurus-lv-5XYZW4LA6HG492038",
-    "cargurus-lv-5YJSA1CN5DFP25846",
-    "cargurus-lv-5YJ3E1EA5JF108882",
-    "cargurus-lv-KNDCC3LG0N5117022",
-    "cargurus-lv-KM8HB3AB6RU168614",
-    "cargurus-lv-JM3KFBCM8M0431409",
-    "cargurus-lv-3MVDMBCL0NM433019",
-    "cargurus-lv-JM3KFBBM5L0737032",
-    "cargurus-lv-JM1DKFC77H0143241",
-    "cargurus-lv-2T3ZFREV7DW014011",
-    "cargurus-lv-NMTKHMBX9JR041114",
-    "cl-torrance-JTMZFREVXJJ171946",
-    "cl-hb-5YJ3E1EAXKF431892",
-    "cl-lv-santafe-sport-2017-qusjUwpi",
-    "cl-palmdale-kona-2021-we3VsTsv",
-    "cl-phx-equinoxev-2025-ocWfYtjd"
+    "cargurus-lv-KM8K33AG4MU130791",
+    "cargurus-lv-KM8KM4AE2PU133470",
+    "cargurus-lv-JTMRFREV9JJ192741",
+    "cargurus-lv-5XYZT3LB4EG217145",
+    "cargurus-lv-JM3KE2CY4E0387299",
+    "cargurus-lv-JM1DKBC7XG0111438",
+    "cargurus-lv-JTEES42A482040168"
   ],
   "removed_ids": [],
   "new_strong_or_exceptional": [
     {
-      "id": "cargurus-lv-KNDCC3LG0N5117022",
+      "id": "cargurus-lv-KNDCR3L18P5022396",
       "assessment": "STRONG DEAL",
-      "ask_price": 14799,
+      "ask_price": 16990,
+      "status": "active",
+      "via": "assessment_upgrade"
+    },
+    {
+      "id": "cargurus-lv-KM8K33AG4MU130791",
+      "assessment": "STRONG DEAL",
+      "ask_price": 15990,
+      "status": "active"
+    },
+    {
+      "id": "cargurus-lv-KM8KM4AE2PU133470",
+      "assessment": "STRONG DEAL",
+      "ask_price": 18990,
       "status": "active"
     }
   ],
   "price_drops": [
     {
-      "id": "cargurus-ca-hb-3FMTK1RM1PMA40612",
-      "from": 21569,
-      "to": 21162,
-      "delta": -407.0
+      "id": "cargurus-lv-1G1FW6S01P4186779",
+      "from": 18038,
+      "to": 16999,
+      "delta": -1039.0
     },
     {
-      "id": "carscom-3FMTK1RM7PMA40680",
-      "from": 21371,
-      "to": 21144,
-      "delta": -227.0
-    },
-    {
-      "id": "cargurus-lv-JTMBFREV2HD205260",
-      "from": 17896,
-      "to": 17696,
+      "id": "cargurus-lv-7MUCAAAG4NV008074",
+      "from": 19990,
+      "to": 19790,
       "delta": -200.0
     },
     {
-      "id": "cargurus-lv-WVGRMPE21MP041809",
-      "from": 18616,
-      "to": 17447,
-      "delta": -1169.0
+      "id": "cargurus-lv-KNDCE3LG0N5149110",
+      "from": 19999,
+      "to": 19601,
+      "delta": -398.0
     },
     {
-      "id": "cargurus-lv-1G1FW6S07P4182378",
-      "from": 17196,
-      "to": 17186,
-      "delta": -10.0
-    },
-    {
-      "id": "cargurus-lv-1N4AZ1BV7PC556197",
-      "from": 14497,
-      "to": 14083,
-      "delta": -414.0
-    },
-    {
-      "id": "cargurus-lv-JTMBFREV3HD205042",
-      "from": 16798,
-      "to": 15998,
-      "delta": -800.0
-    },
-    {
-      "id": "cargurus-lv-2T3H1RFV9LW094659",
-      "from": 17078,
-      "to": 16978,
-      "delta": -100.0
-    },
-    {
-      "id": "cargurus-lv-JM3KFACM3K1596401",
+      "id": "cargurus-lv-JM3KFBEY9M0346921",
       "from": 19196,
-      "to": 19096,
-      "delta": -100.0
+      "to": 18696,
+      "delta": -500.0
     },
     {
-      "id": "cl-phx-rav4-2017-sBR6YXKS",
-      "from": 14900,
-      "to": 14700,
-      "delta": -200.0
+      "id": "cargurus-lv-KNDCR3L18P5022396",
+      "from": 18990,
+      "to": 16990,
+      "delta": -2000.0
     },
     {
-      "id": "cargurus-lv-5NMJF3AE8NH147690",
-      "from": 19737,
-      "to": 19186,
-      "delta": -551.0
-    },
-    {
-      "id": "cl-lv-4runner-2008-gtEGnfe5",
-      "from": 11499,
-      "to": 10900,
-      "delta": -599.0
+      "id": "cargurus-lv-JM3KE2CY9G0837063",
+      "from": 8799,
+      "to": 8549,
+      "delta": -250.0
     },
     {
       "id": "cl-glendale-rav4-2019-7R8mAEri",
-      "from": 18900,
-      "to": 18200,
-      "delta": -700.0
-    },
-    {
-      "id": "cl-valencia-KM8S6DA24NU028152",
-      "from": 20999,
-      "to": 19999,
-      "delta": -1000.0
+      "from": 18200,
+      "to": 17950,
+      "delta": -250.0
     }
   ],
   "sold_or_removed": [
     {
-      "id": "cl-elmonte-2025-select-premiumautos",
-      "from": "over_budget",
-      "to": "sold_or_removed"
-    },
-    {
-      "id": "cargurus-lv-JN1AF0BA8RM431218",
-      "from": "unverified_stale",
-      "to": "likely_sold_or_stale"
-    },
-    {
-      "id": "cl-ontario-rav4-2020-ptWyW4Yu",
+      "id": "cl-lv-5XYZW4LA9JG541920",
       "from": "active",
       "to": "sold_or_removed"
     },
     {
-      "id": "cl-cardiff-leaf-2025-59dipZuB",
+      "id": "cl-kona-se-2019-woodlandhills-9TWDcP6U",
       "from": "active",
       "to": "sold_or_removed"
     },
     {
-      "id": "cl-lv-2T3H1RFV9NC192448",
-      "from": "active",
-      "to": "sold_or_removed"
-    },
-    {
-      "id": "cl-lv-5YJYGDEF7MF244609",
-      "from": "active",
-      "to": "sold_or_removed"
-    },
-    {
-      "id": "cl-foothill-model3-2023-6KU3SMvo",
+      "id": "cl-missionviejo-cx5-2018-5pGVuNKp",
       "from": "active",
       "to": "sold_or_removed"
     }
   ],
   "status_changes": [
     {
-      "id": "cl-elmonte-2025-select-premiumautos",
-      "from": "over_budget",
-      "to": "sold_or_removed"
-    },
-    {
-      "id": "cargurus-lv-JN1AF0BA8RM431218",
-      "from": "unverified_stale",
-      "to": "likely_sold_or_stale"
-    },
-    {
-      "id": "cargurus-lv-1V2BMPE8XRC016818",
-      "from": "active",
-      "to": "active_possibly_stale"
-    },
-    {
-      "id": "cl-ontario-rav4-2020-ptWyW4Yu",
+      "id": "cl-lv-5XYZW4LA9JG541920",
       "from": "active",
       "to": "sold_or_removed"
     },
     {
-      "id": "cl-cardiff-leaf-2025-59dipZuB",
+      "id": "cl-kona-se-2019-woodlandhills-9TWDcP6U",
       "from": "active",
       "to": "sold_or_removed"
     },
     {
-      "id": "cl-lv-2T3H1RFV9NC192448",
-      "from": "active",
-      "to": "sold_or_removed"
-    },
-    {
-      "id": "cl-lv-5YJYGDEF7MF244609",
-      "from": "active",
-      "to": "sold_or_removed"
-    },
-    {
-      "id": "cl-foothill-model3-2023-6KU3SMvo",
+      "id": "cl-missionviejo-cx5-2018-5pGVuNKp",
       "from": "active",
       "to": "sold_or_removed"
     }
   ],
-  "assessment_changes": []
+  "assessment_changes": [
+    {
+      "id": "cargurus-lv-KNDCR3L18P5022396",
+      "from": "FAIR DEAL",
+      "to": "STRONG DEAL"
+    }
+  ]
 }
