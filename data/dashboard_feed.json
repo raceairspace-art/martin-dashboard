@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-21T07:13:32-07:00",
+  "updated_at": "2026-10-23T07:13:10-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-23-maggie-sold-3",
+      "ts": "2026-10-23T07:13:10-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "status",
+      "severity": "info",
+      "title": "3 sold/removed/stale",
+      "summary": "Listings marked sold/removed or demoted to stale/unverified (not assumed sold).",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-23-maggie-drops-19",
+      "ts": "2026-10-23T07:13:10-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "recommendation",
+      "severity": "medium",
+      "title": "19 price drop(s)",
+      "summary": "Ask price decreased vs previous snapshot.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-23-maggie-new-cargurus-lv-3MVDMBCL5MM254764",
+      "ts": "2026-10-23T07:13:10-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cargurus-lv-3MVDMBCL5MM254764 at $19299",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cargurus-lv-3MVDMBCL5MM254764"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cargurus-lv-3MVDMBCL5MM254764",
+        "assessment": "STRONG DEAL",
+        "ask_price": 19299,
+        "status": "active"
+      }
+    },
     {
       "id": "feed-2026-10-21-maggie-sold-3",
       "ts": "2026-10-21T07:13:32-07:00",
@@ -983,61 +1038,6 @@
       "type": "recommendation",
       "severity": "medium",
       "title": "3 price drop(s)",
-      "summary": "Ask price decreased vs previous snapshot.",
-      "cta": {
-        "label": "Open Marketplace",
-        "route": "#/marketplace"
-      },
-      "dismissed": false
-    },
-    {
-      "id": "feed-2026-10-04-maggie-new-carscom-3FMTK1RM2PMA46659",
-      "ts": "2026-10-04T07:18:38-07:00",
-      "module_id": "marketplace",
-      "bot_id": "maggie_marketplace",
-      "type": "alert",
-      "severity": "high",
-      "title": "New STRONG DEAL",
-      "summary": "Listing carscom-3FMTK1RM2PMA46659 at $21000",
-      "entity_ref": {
-        "kind": "marketplace_listing",
-        "id": "carscom-3FMTK1RM2PMA46659"
-      },
-      "cta": {
-        "label": "Open Marketplace",
-        "route": "#/marketplace"
-      },
-      "dismissed": false,
-      "payload": {
-        "id": "carscom-3FMTK1RM2PMA46659",
-        "assessment": "STRONG DEAL",
-        "ask_price": 21000,
-        "status": "active"
-      }
-    },
-    {
-      "id": "feed-2026-10-03-maggie-sold-4",
-      "ts": "2026-10-03T07:14:17-07:00",
-      "module_id": "marketplace",
-      "bot_id": "maggie_marketplace",
-      "type": "status",
-      "severity": "info",
-      "title": "4 sold/removed",
-      "summary": "Listings left active under-budget pool or marked sold.",
-      "cta": {
-        "label": "Open Marketplace",
-        "route": "#/marketplace"
-      },
-      "dismissed": false
-    },
-    {
-      "id": "feed-2026-10-03-maggie-drops-1",
-      "ts": "2026-10-03T07:14:17-07:00",
-      "module_id": "marketplace",
-      "bot_id": "maggie_marketplace",
-      "type": "recommendation",
-      "severity": "medium",
-      "title": "1 price drop(s)",
       "summary": "Ask price decreased vs previous snapshot.",
       "cta": {
         "label": "Open Marketplace",
