@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-23T07:13:10-07:00",
+  "updated_at": "2026-10-25T07:19:37-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-25-maggie-sold-5",
+      "ts": "2026-10-25T07:19:37-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "status",
+      "severity": "info",
+      "title": "5 sold/removed/stale",
+      "summary": "Listings marked sold/removed or demoted to stale/unverified (not assumed sold).",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-25-maggie-drops-14",
+      "ts": "2026-10-25T07:19:37-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "recommendation",
+      "severity": "medium",
+      "title": "14 price drop(s)",
+      "summary": "Ask price decreased vs previous snapshot.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-25-maggie-new-cl-riverside-rav4-2022-iDHReMKu",
+      "ts": "2026-10-25T07:19:37-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cl-riverside-rav4-2022-iDHReMKu at $19000",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cl-riverside-rav4-2022-iDHReMKu"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cl-riverside-rav4-2022-iDHReMKu",
+        "assessment": "STRONG DEAL",
+        "ask_price": 19000,
+        "status": "active"
+      }
+    },
     {
       "id": "feed-2026-10-23-maggie-sold-3",
       "ts": "2026-10-23T07:13:10-07:00",
@@ -988,62 +1043,6 @@
         "ask_price": 22525,
         "status": "active"
       }
-    },
-    {
-      "id": "feed-2026-10-05-maggie-new-cargurus-ca-montebello-3FMTK1R44PMA86483",
-      "ts": "2026-10-05T07:37:58-07:00",
-      "module_id": "marketplace",
-      "bot_id": "maggie_marketplace",
-      "type": "alert",
-      "severity": "high",
-      "title": "New STRONG DEAL",
-      "summary": "Listing cargurus-ca-montebello-3FMTK1R44PMA86483 at $21972",
-      "entity_ref": {
-        "kind": "marketplace_listing",
-        "id": "cargurus-ca-montebello-3FMTK1R44PMA86483"
-      },
-      "cta": {
-        "label": "Open Marketplace",
-        "route": "#/marketplace"
-      },
-      "dismissed": false,
-      "payload": {
-        "id": "cargurus-ca-montebello-3FMTK1R44PMA86483",
-        "assessment": "STRONG DEAL",
-        "ask_price": 21972,
-        "status": "active",
-        "via": "assessment_upgrade"
-      }
-    },
-    {
-      "id": "feed-2026-10-04-maggie-sold-3",
-      "ts": "2026-10-04T07:18:38-07:00",
-      "module_id": "marketplace",
-      "bot_id": "maggie_marketplace",
-      "type": "status",
-      "severity": "info",
-      "title": "3 sold/removed",
-      "summary": "Listings left active under-budget pool or marked sold.",
-      "cta": {
-        "label": "Open Marketplace",
-        "route": "#/marketplace"
-      },
-      "dismissed": false
-    },
-    {
-      "id": "feed-2026-10-04-maggie-drops-3",
-      "ts": "2026-10-04T07:18:38-07:00",
-      "module_id": "marketplace",
-      "bot_id": "maggie_marketplace",
-      "type": "recommendation",
-      "severity": "medium",
-      "title": "3 price drop(s)",
-      "summary": "Ask price decreased vs previous snapshot.",
-      "cta": {
-        "label": "Open Marketplace",
-        "route": "#/marketplace"
-      },
-      "dismissed": false
     }
   ]
 }
