@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-25T07:19:37-07:00",
+  "updated_at": "2026-10-27T07:21:51-07:00",
   "items": [
+    {
+      "id": "feed-2026-10-27-maggie-sold-4",
+      "ts": "2026-10-27T07:21:51-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "status",
+      "severity": "info",
+      "title": "4 sold/removed/stale",
+      "summary": "Listings marked sold/removed or demoted to stale/unverified (not assumed sold).",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-27-maggie-drops-17",
+      "ts": "2026-10-27T07:21:51-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "recommendation",
+      "severity": "medium",
+      "title": "17 price drop(s)",
+      "summary": "Ask price decreased vs previous snapshot.",
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false
+    },
+    {
+      "id": "feed-2026-10-27-maggie-new-cl-mesquite-kona-2020-g6U96qnu",
+      "ts": "2026-10-27T07:21:51-07:00",
+      "module_id": "marketplace",
+      "bot_id": "maggie_marketplace",
+      "type": "alert",
+      "severity": "high",
+      "title": "New STRONG DEAL",
+      "summary": "Listing cl-mesquite-kona-2020-g6U96qnu at $16000",
+      "entity_ref": {
+        "kind": "marketplace_listing",
+        "id": "cl-mesquite-kona-2020-g6U96qnu"
+      },
+      "cta": {
+        "label": "Open Marketplace",
+        "route": "#/marketplace"
+      },
+      "dismissed": false,
+      "payload": {
+        "id": "cl-mesquite-kona-2020-g6U96qnu",
+        "assessment": "STRONG DEAL",
+        "ask_price": 16000,
+        "status": "active"
+      }
+    },
     {
       "id": "feed-2026-10-25-maggie-sold-5",
       "ts": "2026-10-25T07:19:37-07:00",
@@ -966,81 +1021,6 @@
         "id": "automatch-3FMTK1SU6RMA19574",
         "assessment": "STRONG DEAL",
         "ask_price": 24594,
-        "status": "active"
-      }
-    },
-    {
-      "id": "feed-2026-10-05-maggie-new-cargurus-ca-montebello-3FMTK1RM6PMA15320",
-      "ts": "2026-10-05T07:37:58-07:00",
-      "module_id": "marketplace",
-      "bot_id": "maggie_marketplace",
-      "type": "alert",
-      "severity": "high",
-      "title": "New STRONG DEAL",
-      "summary": "Listing cargurus-ca-montebello-3FMTK1RM6PMA15320 at $21972",
-      "entity_ref": {
-        "kind": "marketplace_listing",
-        "id": "cargurus-ca-montebello-3FMTK1RM6PMA15320"
-      },
-      "cta": {
-        "label": "Open Marketplace",
-        "route": "#/marketplace"
-      },
-      "dismissed": false,
-      "payload": {
-        "id": "cargurus-ca-montebello-3FMTK1RM6PMA15320",
-        "assessment": "STRONG DEAL",
-        "ask_price": 21972,
-        "status": "active"
-      }
-    },
-    {
-      "id": "feed-2026-10-05-maggie-new-carscom-3FMTK1RM1PMA30128",
-      "ts": "2026-10-05T07:37:58-07:00",
-      "module_id": "marketplace",
-      "bot_id": "maggie_marketplace",
-      "type": "alert",
-      "severity": "high",
-      "title": "New STRONG DEAL",
-      "summary": "Listing carscom-3FMTK1RM1PMA30128 at $21884",
-      "entity_ref": {
-        "kind": "marketplace_listing",
-        "id": "carscom-3FMTK1RM1PMA30128"
-      },
-      "cta": {
-        "label": "Open Marketplace",
-        "route": "#/marketplace"
-      },
-      "dismissed": false,
-      "payload": {
-        "id": "carscom-3FMTK1RM1PMA30128",
-        "assessment": "STRONG DEAL",
-        "ask_price": 21884,
-        "status": "active"
-      }
-    },
-    {
-      "id": "feed-2026-10-05-maggie-new-anderson-kingman-3FMTK1R41RMA02946",
-      "ts": "2026-10-05T07:37:58-07:00",
-      "module_id": "marketplace",
-      "bot_id": "maggie_marketplace",
-      "type": "alert",
-      "severity": "high",
-      "title": "New STRONG DEAL",
-      "summary": "Listing anderson-kingman-3FMTK1R41RMA02946 at $22525",
-      "entity_ref": {
-        "kind": "marketplace_listing",
-        "id": "anderson-kingman-3FMTK1R41RMA02946"
-      },
-      "cta": {
-        "label": "Open Marketplace",
-        "route": "#/marketplace"
-      },
-      "dismissed": false,
-      "payload": {
-        "id": "anderson-kingman-3FMTK1R41RMA02946",
-        "assessment": "STRONG DEAL",
-        "ask_price": 22525,
         "status": "active"
       }
     }
