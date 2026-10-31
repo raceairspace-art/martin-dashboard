@@ -283,3 +283,12 @@ no diff, no snapshot, no $21k cap, no 250 mi rule. `scripts/build_dist.sh` copie
 `index.json` (`{searches:[{slug,date,file,md,scope,generated,ranked_count,rejects_count,candidates_count}]}`, newest first).
 UI: `modules/marketplace/searches.js`, routes `#/marketplace/search/<slug>[/<recordId>]` (ranked → `r<rank>`, rejects → `x<n>`).
 Schema `{scope, ranked[], rejects[], coverage_gaps[]}` (or a watchlist-like `candidates[]`); null stays null.
+
+## Source outages (display-only)
+
+When the baked daily hunt's `search_coverage.<source>.status` starts with `FAILED`, `DOWN` or `BLOCKED` (for example, `cargurus` on 2026-10-28 to 10-31), the Marketplace UI:
+
+- adds a "Source down" line to the Latest hunt panel that quotes Maggie's status text verbatim;
+- adds a neutral dashed "Source down · last seen MM-DD" chip to active / active_possibly_stale listings whose `source` or `id` names that source and whose `last_seen` is before the hunt date.
+
+This never changes `status`, sorting, counts or stale badges. Stale badges come only from Maggie's `status` field (`active_possibly_stale`, `unverified_stale`), never from `last_seen` age. Listings re-seen on the hunt date through another site get no chip.

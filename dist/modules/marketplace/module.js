@@ -427,6 +427,13 @@
         <div class="run-lead"><strong>Latest hunt</strong> · ${escapeHtml(formatTs(daily.run_at))}
           ${daily.quiet ? ' · <span class="badge quiet">quiet</span>' : ""}</div>
         <p class="run-alert">${escapeHtml(daily.alert_lead || "—")}</p>
+        ${(() => {
+          const o = buildSourceOutages(daily).list;
+          if (!o.length) return "";
+          return `<p class="run-outage">${o
+            .map((x) => `<span class="badge flag-badge flag-outage">Source down</span> <strong>${escapeHtml(x.key)}</strong>: ${escapeHtml(x.status)}`)
+            .join("<br>")} Listings from that source keep their last status; they are not marked stale.</p>`;
+        })()}
         <div class="run-buckets">${buckets.map((b) => `<span class="bucket-chip">${escapeHtml(b)}</span>`).join("")}</div>
       </div>`;
   }
@@ -535,6 +542,42 @@
     return map;
   }
 
+  /* Source outages, read verbatim from the daily hunt's search_coverage (Maggie's flag).
+   * Display-only: never changes status, never adds a stale badge. */
+  let sourceOutages = { list: [], runDate: null };
+
+  function buildSourceOutages(daily) {
+    const out = { list: [], runDate: null };
+    if (!daily || !daily.search_coverage || typeof daily.search_coverage !== "object") return out;
+    out.runDate = daily.run_at ? String(daily.run_at).slice(0, 10) : null;
+    for (const [key, v] of Object.entries(daily.search_coverage)) {
+      const status = v && typeof v === "object" ? v.status : null;
+      if (typeof status !== "string" || !/^\s*(failed|down|blocked)\b/i.test(status)) continue;
+      const base = key.toLowerCase().replace(/_com$/, ".com").replace(/_.*$/, "");
+      out.list.push({ key, match: base.replace(/\.com$/, ""), status });
+    }
+    return out;
+  }
+
+  function outageFor(c) {
+    if (!c || !ACTIVEish.has(String(c.status || "")) || !sourceOutages.list.length) return null;
+    const src = (String(c.source || "") + " " + String(c.id || "")).toLowerCase();
+    const hit = sourceOutages.list.find((o) => o.match && src.includes(o.match));
+    if (!hit) return null;
+    const seen = c.last_seen ? String(c.last_seen).slice(0, 10) : null;
+    if (seen && sourceOutages.runDate && seen >= sourceOutages.runDate) return null; // re-seen today elsewhere
+    return { hit, seen };
+  }
+
+  function outageNote(c) {
+    const o = outageFor(c);
+    if (!o) return "";
+    const { escapeHtml } = MartinData;
+    const label = o.seen ? `Source down · last seen ${o.seen.slice(5)}` : "Source down";
+    const tip = `${o.hit.key} unreachable on the latest hunt: ${o.hit.status} Status unchanged; not treated as stale.`;
+    return `<span class="badge flag-badge flag-outage" title="${escapeHtml(tip)}">${escapeHtml(label)}</span>`;
+  }
+
   function staleBadge(c) {
     if (c && c.status === "active_possibly_stale") {
       return `<span class="badge flag-badge flag-muted" title="Still counted active; missed recent re-checks — verify before relying">Possibly stale</span>`;
@@ -583,7 +626,7 @@
             ${privBadge}
             ${overBadge}
             ${flagBadge(c)}
-            ${staleBadge(c)}
+            ${staleBadge(c)}${outageNote(c)}
             ${marketValueHtml(c)} ${save}
           </span>
         </span>
@@ -660,7 +703,7 @@
               ${privBadge}
               ${overBadge}
               ${flagBadge(c)}
-            ${staleBadge(c)}
+            ${staleBadge(c)}${outageNote(c)}
               <span class="status-pill">${escapeHtml(c.status || "")}</span>
               <span>${escapeHtml(c.seller_type || "—")}</span>
               <span>${escapeHtml(c.location || "—")}</span>
@@ -813,6 +856,7 @@
     }
     const budget = budgetCap(wl);
     huntFlags = buildHuntFlags(data.dailyHunt);
+    sourceOutages = buildSourceOutages(data.dailyHunt);
     const all = Array.isArray(wl.candidates) ? wl.candidates : [];
     const filtered = sortCandidates(applyFilters(all, budget), budget);
     const inBudgetCount = all.filter((c) => !isOverBudget(c, budget)).length;
@@ -874,7 +918,7 @@
     paint(data);
   }
 
-  global.MarketplaceModule = {
+  global.MarketplaceModule = {buildSourceOutages, outageFor, 
     buildHuntFlags,
     render,
     state,
