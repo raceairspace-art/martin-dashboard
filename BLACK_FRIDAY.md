@@ -46,12 +46,14 @@ Adding a category or section is a one-line edit there; rebuild to apply. Empty s
 
 Current order: Vegas Local (`vegas_local`) · Concerts & Theater (`concerts_theater`: concert_ticket,
 concert_pass, theater, vip_package, travel_package) · Gear & tech (Jet skis, Motorcycles, RC aircraft, Drones,
-FPV goggles, Maker gear, New tech) · Trending robots · Computers & TVs · Winter ski (`ski_gear` + `ski_travel`) ·
+FPV goggles, Maker gear, New tech) · Trending robots · Computers & TVs · Gaming (`gaming`: Games, Consoles,
+Gaming PCs, Accessories, Hardware; matched on `subcategory` `games`, `consoles`, `gaming_pcs`, `accessories`,
+`hardware`) · Winter ski (`ski_gear` + `ski_travel`) ·
 Season passes (`season_passes`: Ski passes, Amusement parks, Museums & attractions, Memberships) · Travel
 (Flights, Cruises, Hotels, Packages) · Wildcard. Reorder by moving entries in the `sections` array.
 
 Icons available: pass ferris museum dice gift robot monitor ski plane ship bed suitcase ticket music masks crown star wave
-moto rcplane drone goggles maker chip (see `ICONS` in `modules/black-friday/module.js`).
+moto rcplane drone goggles maker chip gamepad disc handheld pc headset (see `ICONS` in `modules/black-friday/module.js`).
 
 ## Files
 - `scripts/ingest_black_friday.py`, `config/black_friday_sections.json`

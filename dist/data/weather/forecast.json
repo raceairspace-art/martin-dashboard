@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T11:45:38-08:00",
+ "updated_at": "2026-11-03T12:00:09-08:00",
  "source": "open-meteo+gordon",
  "fetch_error": null,
  "timezone": "America/Los_Angeles",
@@ -205,10 +205,10 @@
    "locations": {
     "las_vegas": {
      "sustained": 6,
-     "sustained_avg": 5,
-     "gust": 10,
-     "diff": 4,
-     "direction": 99,
+     "sustained_avg": 4,
+     "gust": 9,
+     "diff": 3,
+     "direction": 107,
      "rain": 1,
      "high": 69,
      "low": 51,
@@ -235,51 +235,51 @@
       },
       {
        "h": 10,
-       "w": 4,
-       "g": 10,
-       "dir": 104
+       "w": 1,
+       "g": 9,
+       "dir": 130
       },
       {
        "h": 11,
-       "w": 6,
+       "w": 4,
        "g": 8,
-       "dir": 49
+       "dir": 65
       },
       {
        "h": 12,
        "w": 6,
        "g": 7,
-       "dir": 71
+       "dir": 75
       },
       {
        "h": 13,
        "w": 5,
        "g": 6,
-       "dir": 84
+       "dir": 94
       },
       {
        "h": 14,
        "w": 5,
        "g": 5,
-       "dir": 119
+       "dir": 124
       },
       {
        "h": 15,
-       "w": 5,
+       "w": 6,
        "g": 6,
        "dir": 124
       },
       {
        "h": 16,
        "w": 5,
-       "g": 7,
-       "dir": 112
+       "g": 6,
+       "dir": 107
       },
       {
        "h": 17,
-       "w": 5,
-       "g": 7,
-       "dir": 79
+       "w": 6,
+       "g": 8,
+       "dir": 95
       }
      ],
      "condition": "Overcast",
@@ -295,9 +295,9 @@
     "lake_las_vegas": {
      "sustained": 7,
      "sustained_avg": 4,
-     "gust": 8,
-     "diff": 2,
-     "direction": 81,
+     "gust": 7,
+     "diff": 0,
+     "direction": 82,
      "rain": 1,
      "high": 70,
      "low": 53,
@@ -324,39 +324,39 @@
       },
       {
        "h": 10,
-       "w": 4,
-       "g": 8,
-       "dir": 57
+       "w": 2,
+       "g": 6,
+       "dir": 26
       },
       {
        "h": 11,
-       "w": 4,
+       "w": 5,
        "g": 6,
-       "dir": 46
+       "dir": 45
       },
       {
        "h": 12,
        "w": 5,
        "g": 5,
-       "dir": 52
+       "dir": 56
       },
       {
        "h": 13,
-       "w": 3,
+       "w": 4,
        "g": 5,
-       "dir": 75
+       "dir": 83
       },
       {
        "h": 14,
        "w": 3,
-       "g": 5,
+       "g": 4,
        "dir": 79
       },
       {
        "h": 15,
-       "w": 3,
-       "g": 5,
-       "dir": 75
+       "w": 4,
+       "g": 6,
+       "dir": 72
       },
       {
        "h": 16,
@@ -367,8 +367,8 @@
       {
        "h": 17,
        "w": 5,
-       "g": 7,
-       "dir": 90
+       "g": 6,
+       "dir": 93
       }
      ],
      "condition": "Overcast",
@@ -382,11 +382,11 @@
      }
     },
     "lake_mead": {
-     "sustained": 6,
+     "sustained": 5,
      "sustained_avg": 4,
-     "gust": 9,
+     "gust": 8,
      "diff": 3,
-     "direction": 28,
+     "direction": 31,
      "rain": 1,
      "high": 70,
      "low": 55,
@@ -414,72 +414,72 @@
       {
        "h": 10,
        "w": 4,
-       "g": 9,
-       "dir": 24
+       "g": 8,
+       "dir": 13
       },
       {
        "h": 11,
-       "w": 6,
-       "g": 8,
-       "dir": 6
+       "w": 5,
+       "g": 6,
+       "dir": 22
       },
       {
        "h": 12,
-       "w": 6,
-       "g": 6,
-       "dir": 18
+       "w": 5,
+       "g": 5,
+       "dir": 12
       },
       {
        "h": 13,
-       "w": 3,
-       "g": 3,
-       "dir": 40
+       "w": 4,
+       "g": 4,
+       "dir": 29
       },
       {
        "h": 14,
-       "w": 2,
-       "g": 6,
-       "dir": 53
+       "w": 3,
+       "g": 8,
+       "dir": 51
       },
       {
        "h": 15,
-       "w": 4,
+       "w": 5,
        "g": 7,
-       "dir": 51
+       "dir": 58
       },
       {
        "h": 16,
        "w": 4,
-       "g": 6,
-       "dir": 57
+       "g": 5,
+       "dir": 54
       },
       {
        "h": 17,
-       "w": 1,
-       "g": 3,
-       "dir": 110
+       "w": 2,
+       "g": 4,
+       "dir": 129
       }
      ],
      "condition": "Overcast",
      "low_wind": true,
      "ratings": {
       "outdoors": "BEST",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD"
+      "lake": "BEST",
+      "drones": "BEST",
+      "rc": "BEST",
+      "paramotor": "BEST"
      }
     },
     "lake_mohave": {
      "sustained": 12,
      "sustained_avg": 7,
      "gust": 19,
-     "diff": 8,
-     "direction": 2,
+     "diff": 7,
+     "direction": 356,
      "rain": 1,
-     "high": 75,
+     "high": 74,
      "low": 56,
-     "day_temp_max": 75,
+     "day_temp_max": 74,
      "code": 3,
      "hourly": [
       {
@@ -502,51 +502,51 @@
       },
       {
        "h": 10,
-       "w": 12,
+       "w": 11,
        "g": 16,
-       "dir": 354
+       "dir": 355
       },
       {
        "h": 11,
-       "w": 10,
-       "g": 13,
+       "w": 12,
+       "g": 16,
        "dir": 357
       },
       {
        "h": 12,
-       "w": 9,
-       "g": 10,
-       "dir": 1
+       "w": 10,
+       "g": 11,
+       "dir": 352
       },
       {
        "h": 13,
-       "w": 4,
+       "w": 5,
        "g": 5,
-       "dir": 26
+       "dir": 1
       },
       {
        "h": 14,
        "w": 2,
        "g": 2,
-       "dir": 136
+       "dir": 93
       },
       {
        "h": 15,
-       "w": 4,
-       "g": 6,
-       "dir": 163
+       "w": 2,
+       "g": 4,
+       "dir": 151
       },
       {
        "h": 16,
-       "w": 5,
-       "g": 6,
-       "dir": 158
+       "w": 4,
+       "g": 5,
+       "dir": 160
       },
       {
        "h": 17,
-       "w": 4,
-       "g": 6,
-       "dir": 164
+       "w": 3,
+       "g": 5,
+       "dir": 194
       }
      ],
      "condition": "Overcast",
@@ -576,81 +576,81 @@
    "locations": {
     "las_vegas": {
      "sustained": 11,
-     "sustained_avg": 7,
-     "gust": 15,
-     "diff": 4,
-     "direction": 42,
+     "sustained_avg": 8,
+     "gust": 18,
+     "diff": 7,
+     "direction": 35,
      "rain": 0,
-     "high": 71,
+     "high": 70,
      "low": 48,
-     "day_temp_max": 71,
+     "day_temp_max": 70,
      "code": 0,
      "hourly": [
       {
        "h": 7,
        "w": 7,
-       "g": 10,
-       "dir": 274
+       "g": 9,
+       "dir": 264
       },
       {
        "h": 8,
        "w": 7,
        "g": 12,
-       "dir": 285
+       "dir": 308
       },
       {
        "h": 9,
-       "w": 9,
-       "g": 15,
-       "dir": 355
+       "w": 10,
+       "g": 18,
+       "dir": 353
       },
       {
        "h": 10,
-       "w": 6,
-       "g": 7,
-       "dir": 26
+       "w": 10,
+       "g": 11,
+       "dir": 5
       },
       {
        "h": 11,
-       "w": 4,
-       "g": 4,
-       "dir": 97
+       "w": 5,
+       "g": 9,
+       "dir": 36
       },
       {
        "h": 12,
-       "w": 4,
-       "g": 9,
-       "dir": 117
+       "w": 5,
+       "g": 12,
+       "dir": 70
       },
       {
        "h": 13,
-       "w": 4,
-       "g": 7,
-       "dir": 68
+       "w": 9,
+       "g": 11,
+       "dir": 67
       },
       {
        "h": 14,
-       "w": 6,
-       "g": 12,
-       "dir": 75
+       "w": 10,
+       "g": 16,
+       "dir": 63
       },
       {
        "h": 15,
        "w": 11,
-       "g": 14,
-       "dir": 60
+       "g": 13,
+       "dir": 63
       },
       {
        "h": 16,
        "w": 11,
        "g": 14,
-       "dir": 60
+       "dir": 61
       },
       {
        "h": 17,
        "w": 4,
-       "g": 14,
-       "dir": 64
+       "g": 12,
+       "dir": 54
       }
      ],
      "condition": "Clear",
@@ -664,82 +664,82 @@
      }
     },
     "lake_las_vegas": {
-     "sustained": 12,
-     "sustained_avg": 7,
-     "gust": 13,
-     "diff": 2,
-     "direction": 23,
+     "sustained": 11,
+     "sustained_avg": 8,
+     "gust": 15,
+     "diff": 4,
+     "direction": 11,
      "rain": 0,
-     "high": 74,
-     "low": 50,
-     "day_temp_max": 74,
+     "high": 73,
+     "low": 49,
+     "day_temp_max": 73,
      "code": 0,
      "hourly": [
       {
        "h": 7,
        "w": 8,
        "g": 9,
-       "dir": 225
+       "dir": 242
       },
       {
        "h": 8,
-       "w": 7,
+       "w": 6,
        "g": 8,
-       "dir": 254
+       "dir": 251
       },
       {
        "h": 9,
-       "w": 2,
-       "g": 7,
-       "dir": 252
+       "w": 4,
+       "g": 5,
+       "dir": 239
       },
       {
        "h": 10,
        "w": 3,
-       "g": 9,
-       "dir": 37
+       "g": 12,
+       "dir": 24
       },
       {
        "h": 11,
-       "w": 5,
-       "g": 12,
-       "dir": 50
+       "w": 6,
+       "g": 13,
+       "dir": 29
       },
       {
        "h": 12,
-       "w": 7,
-       "g": 11,
-       "dir": 39
+       "w": 10,
+       "g": 13,
+       "dir": 13
       },
       {
        "h": 13,
-       "w": 9,
+       "w": 10,
        "g": 11,
-       "dir": 30
+       "dir": 20
       },
       {
        "h": 14,
        "w": 10,
-       "g": 11,
-       "dir": 27
+       "g": 12,
+       "dir": 18
       },
       {
        "h": 15,
-       "w": 12,
+       "w": 11,
        "g": 13,
-       "dir": 22
+       "dir": 21
       },
       {
        "h": 16,
        "w": 10,
-       "g": 13,
-       "dir": 33
+       "g": 15,
+       "dir": 37
       },
       {
        "h": 17,
        "w": 5,
        "g": 12,
-       "dir": 42
+       "dir": 38
       }
      ],
      "condition": "Clear",
@@ -755,80 +755,80 @@
     "lake_mead": {
      "sustained": 10,
      "sustained_avg": 6,
-     "gust": 12,
-     "diff": 2,
-     "direction": 28,
+     "gust": 13,
+     "diff": 3,
+     "direction": 29,
      "rain": 0,
-     "high": 73,
-     "low": 55,
-     "day_temp_max": 73,
+     "high": 72,
+     "low": 54,
+     "day_temp_max": 72,
      "code": 0,
      "hourly": [
       {
        "h": 7,
        "w": 2,
        "g": 3,
-       "dir": 233
+       "dir": 236
       },
       {
        "h": 8,
        "w": 4,
        "g": 4,
-       "dir": 106
+       "dir": 76
       },
       {
        "h": 9,
        "w": 5,
-       "g": 7,
-       "dir": 46
+       "g": 6,
+       "dir": 45
       },
       {
        "h": 10,
-       "w": 6,
-       "g": 10,
-       "dir": 22
+       "w": 7,
+       "g": 8,
+       "dir": 34
       },
       {
        "h": 11,
-       "w": 8,
-       "g": 11,
-       "dir": 4
+       "w": 6,
+       "g": 13,
+       "dir": 30
       },
       {
        "h": 12,
-       "w": 7,
-       "g": 10,
-       "dir": 29
+       "w": 6,
+       "g": 12,
+       "dir": 19
       },
       {
        "h": 13,
        "w": 6,
-       "g": 10,
-       "dir": 29
+       "g": 11,
+       "dir": 26
       },
       {
        "h": 14,
-       "w": 5,
-       "g": 10,
-       "dir": 31
+       "w": 6,
+       "g": 12,
+       "dir": 34
       },
       {
        "h": 15,
-       "w": 7,
-       "g": 11,
-       "dir": 28
+       "w": 10,
+       "g": 12,
+       "dir": 27
       },
       {
        "h": 16,
-       "w": 10,
+       "w": 9,
        "g": 12,
-       "dir": 31
+       "dir": 23
       },
       {
        "h": 17,
-       "w": 8,
-       "g": 12,
-       "dir": 12
+       "w": 7,
+       "g": 11,
+       "dir": 8
       }
      ],
      "condition": "Clear",
@@ -842,81 +842,81 @@
      }
     },
     "lake_mohave": {
-     "sustained": 15,
-     "sustained_avg": 11,
-     "gust": 19,
+     "sustained": 14,
+     "sustained_avg": 10,
+     "gust": 18,
      "diff": 4,
-     "direction": 357,
+     "direction": 352,
      "rain": 0,
-     "high": 78,
+     "high": 77,
      "low": 54,
-     "day_temp_max": 78,
+     "day_temp_max": 77,
      "code": 0,
      "hourly": [
       {
        "h": 7,
-       "w": 7,
-       "g": 10,
-       "dir": 314
+       "w": 6,
+       "g": 7,
+       "dir": 330
       },
       {
        "h": 8,
        "w": 6,
-       "g": 15,
-       "dir": 349
+       "g": 13,
+       "dir": 315
       },
       {
        "h": 9,
        "w": 8,
-       "g": 12,
-       "dir": 358
+       "g": 14,
+       "dir": 330
       },
       {
        "h": 10,
        "w": 10,
-       "g": 14,
-       "dir": 358
+       "g": 17,
+       "dir": 356
       },
       {
        "h": 11,
-       "w": 14,
-       "g": 17,
-       "dir": 2
+       "w": 12,
+       "g": 15,
+       "dir": 3
       },
       {
        "h": 12,
-       "w": 15,
-       "g": 18,
-       "dir": 1
+       "w": 13,
+       "g": 16,
+       "dir": 359
       },
       {
        "h": 13,
-       "w": 14,
-       "g": 17,
-       "dir": 7
+       "w": 13,
+       "g": 16,
+       "dir": 359
       },
       {
        "h": 14,
-       "w": 15,
-       "g": 18,
-       "dir": 1
+       "w": 14,
+       "g": 17,
+       "dir": 358
       },
       {
        "h": 15,
-       "w": 14,
-       "g": 18,
-       "dir": 357
+       "w": 13,
+       "g": 17,
+       "dir": 355
       },
       {
        "h": 16,
        "w": 12,
-       "g": 19,
-       "dir": 349
+       "g": 18,
+       "dir": 347
       },
       {
        "h": 17,
-       "w": 7,
-       "g": 14,
+       "w": 6,
+       "g": 13,
        "dir": 358
       }
      ],
@@ -946,40 +946,40 @@
    "top_pick_rank": 4,
    "locations": {
     "las_vegas": {
-     "sustained": 7,
+     "sustained": 10,
      "sustained_avg": 5,
-     "gust": 7,
-     "diff": 0,
-     "direction": 77,
+     "gust": 14,
+     "diff": 5,
+     "direction": 85,
      "rain": 0,
      "high": 68,
-     "low": 52,
+     "low": 49,
      "day_temp_max": 68,
-     "code": 3,
+     "code": 0,
      "hourly": [
       {
        "h": 7,
-       "w": 4,
-       "g": 2,
-       "dir": 86
+       "w": 1,
+       "g": 7,
+       "dir": 124
       },
       {
        "h": 8,
-       "w": 4,
-       "g": 1,
-       "dir": 74
+       "w": 10,
+       "g": 14,
+       "dir": 270
       },
       {
        "h": 9,
-       "w": 4,
-       "g": 3,
-       "dir": 65
+       "w": 8,
+       "g": 9,
+       "dir": 204
       },
       {
        "h": 10,
-       "w": 4,
-       "g": 5,
-       "dir": 52
+       "w": 5,
+       "g": 7,
+       "dir": 40
       },
       {
        "h": 11,
@@ -1024,51 +1024,51 @@
        "dir": 90
       }
      ],
-     "condition": "Overcast",
-     "low_wind": true,
+     "condition": "Clear",
+     "low_wind": false,
      "ratings": {
-      "outdoors": "BEST",
+      "outdoors": "GOOD",
       "lake": "GOOD",
       "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD"
+      "rc": "MARGINAL",
+      "paramotor": "MARGINAL"
      }
     },
     "lake_las_vegas": {
      "sustained": 8,
-     "sustained_avg": 5,
-     "gust": 10,
-     "diff": 3,
-     "direction": 36,
+     "sustained_avg": 6,
+     "gust": 12,
+     "diff": 4,
+     "direction": 44,
      "rain": 0,
      "high": 70,
-     "low": 54,
+     "low": 50,
      "day_temp_max": 70,
      "code": 3,
      "hourly": [
       {
        "h": 7,
-       "w": 4,
-       "g": 4,
-       "dir": 29
+       "w": 7,
+       "g": 7,
+       "dir": 239
       },
       {
        "h": 8,
-       "w": 4,
+       "w": 5,
        "g": 6,
-       "dir": 19
+       "dir": 191
       },
       {
        "h": 9,
-       "w": 5,
-       "g": 8,
-       "dir": 24
+       "w": 6,
+       "g": 12,
+       "dir": 192
       },
       {
        "h": 10,
-       "w": 6,
-       "g": 9,
-       "dir": 30
+       "w": 7,
+       "g": 10,
+       "dir": 28
       },
       {
        "h": 11,
@@ -1124,40 +1124,40 @@
      }
     },
     "lake_mead": {
-     "sustained": 6,
-     "sustained_avg": 5,
-     "gust": 8,
-     "diff": 2,
-     "direction": 3,
+     "sustained": 9,
+     "sustained_avg": 6,
+     "gust": 14,
+     "diff": 5,
+     "direction": 348,
      "rain": 0,
      "high": 70,
-     "low": 57,
+     "low": 55,
      "day_temp_max": 69,
      "code": 3,
      "hourly": [
       {
        "h": 7,
-       "w": 3,
-       "g": 4,
-       "dir": 356
+       "w": 9,
+       "g": 14,
+       "dir": 312
       },
       {
        "h": 8,
-       "w": 4,
-       "g": 6,
-       "dir": 336
+       "w": 8,
+       "g": 11,
+       "dir": 330
       },
       {
        "h": 9,
-       "w": 4,
-       "g": 8,
-       "dir": 342
+       "w": 7,
+       "g": 10,
+       "dir": 341
       },
       {
        "h": 10,
        "w": 5,
-       "g": 8,
-       "dir": 346
+       "g": 9,
+       "dir": 263
       },
       {
        "h": 11,
@@ -1203,49 +1203,49 @@
       }
      ],
      "condition": "Overcast",
-     "low_wind": true,
+     "low_wind": false,
      "ratings": {
-      "outdoors": "BEST",
+      "outdoors": "GOOD",
       "lake": "GOOD",
       "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD"
+      "rc": "MARGINAL",
+      "paramotor": "MARGINAL"
      }
     },
     "lake_mohave": {
      "sustained": 15,
      "sustained_avg": 12,
-     "gust": 16,
-     "diff": 2,
-     "direction": 0,
+     "gust": 21,
+     "diff": 6,
+     "direction": 1,
      "rain": 0,
      "high": 72,
-     "low": 60,
+     "low": 55,
      "day_temp_max": 72,
      "code": 3,
      "hourly": [
       {
        "h": 7,
        "w": 10,
-       "g": 13,
-       "dir": 344
+       "g": 17,
+       "dir": 339
       },
       {
        "h": 8,
-       "w": 11,
-       "g": 15,
-       "dir": 351
+       "w": 12,
+       "g": 21,
+       "dir": 355
       },
       {
        "h": 9,
-       "w": 13,
-       "g": 16,
-       "dir": 356
+       "w": 14,
+       "g": 19,
+       "dir": 179
       },
       {
        "h": 10,
-       "w": 14,
-       "g": 16,
+       "w": 15,
+       "g": 18,
        "dir": 360
       },
       {
@@ -1295,8 +1295,8 @@
      "low_wind": false,
      "ratings": {
       "outdoors": "GOOD",
-      "lake": "MARGINAL",
-      "drones": "MARGINAL",
+      "lake": "NO-GO",
+      "drones": "NO-GO",
       "rc": "NO-GO",
       "paramotor": "NO-GO"
      }

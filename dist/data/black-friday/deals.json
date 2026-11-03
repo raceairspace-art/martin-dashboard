@@ -94,6 +94,38 @@
       "subsections": []
     },
     {
+      "id": "gaming",
+      "title": "Gaming",
+      "icon": "gamepad",
+      "subsections": [
+        {
+          "id": "games",
+          "title": "Games",
+          "icon": "disc"
+        },
+        {
+          "id": "consoles",
+          "title": "Consoles",
+          "icon": "handheld"
+        },
+        {
+          "id": "gaming_pcs",
+          "title": "Gaming PCs",
+          "icon": "pc"
+        },
+        {
+          "id": "accessories",
+          "title": "Accessories",
+          "icon": "headset"
+        },
+        {
+          "id": "hardware",
+          "title": "Hardware",
+          "icon": "monitor"
+        }
+      ]
+    },
+    {
       "id": "winter_ski",
       "title": "Winter ski",
       "icon": "ski",
@@ -172,6 +204,12 @@
       "section": "gear_tech",
       "swept_at": "2026-11-03T11:31:00-08:00",
       "deals": 18
+    },
+    {
+      "file": "gear-tech-sweep-2026-11-03-3.json",
+      "section": "gear_tech",
+      "swept_at": "2026-11-03T11:58:29-08:00",
+      "deals": 13
     },
     {
       "file": "travel-sweep-2026-11-03.json",
@@ -2071,6 +2109,409 @@
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
       "image": null
+    },
+    {
+      "item_key": "logitech-g915-x-lightspeed-amazon",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "accessories",
+      "category": "gaming",
+      "subcategory": "accessories",
+      "item": "Logitech G915 X Lightspeed Wireless Keyboard (Clicky)",
+      "retailer": "Amazon",
+      "price": 116.99,
+      "price_label": null,
+      "price_raw": 116.99,
+      "regular_price": 259.99,
+      "discount": "55% off ($129.99 + 10% at checkout)",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20221161-ac-116-99-logitech-g915-x-lightspeed-wireless-gaming-keyboard-clicky-black-at-amazon",
+      "image_url": "https://slickdeals.net/attachment/1/1/7/1/5/2/7/450x450/22118217.thumb",
+      "image_alt": "Logitech G915 X Lightspeed black keyboard",
+      "new_release": false,
+      "notes": "ASIN B0DB1XBRBK; 10% off applied at checkout. Posted Oct 28.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 116.99
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/b14884ebdd002889.webp"
+    },
+    {
+      "item_key": "steelseries-arctis-nova-pro-wireless-amazon",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "accessories",
+      "category": "gaming",
+      "subcategory": "accessories",
+      "item": "SteelSeries Arctis Nova Pro Wireless Headset (Xbox)",
+      "retailer": "Amazon",
+      "price": 249.99,
+      "price_label": null,
+      "price_raw": 249.99,
+      "regular_price": 379.99,
+      "discount": "34% off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.amazon.com/s?k=steelseries+arctis+nova+pro+wireless",
+      "image_url": null,
+      "image_alt": "SteelSeries Arctis Nova Pro Wireless headset",
+      "new_release": false,
+      "notes": "Price read directly from Amazon search results this run. Xbox/multi-platform black version.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 249.99
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": null
+    },
+    {
+      "item_key": "xbox-elite-series-2-core-white-amazon",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "accessories",
+      "category": "gaming",
+      "subcategory": "accessories",
+      "item": "Xbox Elite Series 2 Core Wireless Controller (White)",
+      "retailer": "Amazon",
+      "price": 109.99,
+      "price_label": null,
+      "price_raw": 109.99,
+      "regular_price": 149.99,
+      "discount": "27% off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20212326-109-99-microsoft-xbox-elite-series-2-core-wireless-controller-white-at-amazon",
+      "image_url": "https://slickdeals.net/attachment/4/2/8/1/6/450x450/22156608.thumb",
+      "image_alt": "White Xbox Elite Series 2 Core controller",
+      "new_release": false,
+      "notes": "ASIN B0B789CGGQ. Posted Oct 26.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 109.99
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/7c2bca11ec1b37dc.webp"
+    },
+    {
+      "item_key": "rog-xbox-ally-open-box-best-buy",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "consoles",
+      "category": "gaming",
+      "subcategory": "consoles",
+      "item": "ASUS ROG Xbox Ally 512GB handheld (Open Box)",
+      "retailer": "Best Buy",
+      "price": 461.99,
+      "price_label": null,
+      "price_raw": 461.99,
+      "regular_price": 599.99,
+      "discount": "23% off (open box, from)",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20213340-best-buy-open-box-asus-rog-xbox-ally-7-fhd-ryzen-z2-a-16gb-ram-512gb-ssd-from-461-99",
+      "image_url": "https://slickdeals.net/attachment/1/3/0/6/8/2/0/7/450x450/22100472.thumb",
+      "image_alt": "ASUS ROG Xbox Ally handheld",
+      "new_release": true,
+      "notes": "Open-box price 'from' $461.99 (condition varies); free store pickup. New on Amazon only via ~$735 third-party bundles. Posted Oct 26.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 461.99
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/b6f80c819eda314c.webp"
+    },
+    {
+      "item_key": "legion-go-s-steamos-open-box-best-buy",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "consoles",
+      "category": "gaming",
+      "subcategory": "consoles",
+      "item": "Lenovo Legion Go S SteamOS 16GB/512GB (Open Box)",
+      "retailer": "Best Buy",
+      "price": 593.99,
+      "price_label": null,
+      "price_raw": 593.99,
+      "regular_price": 989.99,
+      "discount": "40% off (open box, from)",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20210817-best-buy-open-box-legion-go-s-8-120hz-gaming-handheld-amd-ryzen-z2-go-steamos-16gb-with-512gb-ssd-from-593-99",
+      "image_url": "https://slickdeals.net/attachment/5/4/6/0/7/3/450x450/22098741.thumb",
+      "image_alt": "Lenovo Legion Go S handheld running SteamOS",
+      "new_release": false,
+      "notes": "Open-box 'from' price; Excellent ships free, Good/Fair store pickup. Posted Oct 26.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 593.99
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/abc84db24f909f2d.webp"
+    },
+    {
+      "item_key": "007-first-light-collectors-edition-antonline",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "games",
+      "category": "gaming",
+      "subcategory": "games",
+      "item": "007 First Light Collector's Edition (PS5/Xbox/PC)",
+      "retailer": "Antonline",
+      "price": 99.99,
+      "price_label": null,
+      "price_raw": 99.99,
+      "regular_price": 200.0,
+      "discount": "50% off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20240805-007-first-light-collector-s-edition-ps5-xbox-series-x-pc-99-free-shipping",
+      "image_url": "https://slickdeals.net/attachment/3/5/8/2/5/6/8/8/450x450/22171497.thumb",
+      "image_alt": "007 First Light Collector's Edition contents",
+      "new_release": true,
+      "notes": "2026 release; free shipping. Posted Nov 1.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 99.99
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/63dbfbc39c1c795b.webp"
+    },
+    {
+      "item_key": "mgs-delta-snake-eater-tactical-ps5-amazon",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "games",
+      "category": "gaming",
+      "subcategory": "games",
+      "item": "Metal Gear Solid Delta: Snake Eater Tactical Ed. (PS5)",
+      "retailer": "Amazon",
+      "price": 25.0,
+      "price_label": null,
+      "price_raw": 25.0,
+      "regular_price": 49.99,
+      "discount": "50% off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20243424-25-metal-gear-solid-delta-snake-eater-tactical-edition-playstation-5-at-amazon",
+      "image_url": "https://slickdeals.net/attachment/1/1/7/1/5/2/7/450x450/22177452.thumb",
+      "image_alt": "Metal Gear Solid Delta Snake Eater Tactical Edition PS5 box",
+      "new_release": false,
+      "notes": "Amazon ASIN B0D4RJGFDT; posted on Slickdeals Nov 2. Walmart also listed.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 25.0
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/c402490d6d2504cb.webp"
+    },
+    {
+      "item_key": "playstation-store-black-friday-2026",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "games",
+      "category": "gaming",
+      "subcategory": "games",
+      "item": "PlayStation Store Black Friday Sale (PS5/PS4/PS VR2)",
+      "retailer": "PlayStation Store",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": "Up to 75% off",
+      "deal_status": "announced",
+      "date_found": "2026-11-03",
+      "source_url": "https://blog.playstation.com/2026/11/03/playstations-black-friday-deals-2026/",
+      "image_url": null,
+      "image_alt": "PlayStation Black Friday 2026 promo art",
+      "new_release": false,
+      "notes": "Thousands of games and DLC discounted; runs Nov 4–Nov 30, refresh Nov 16, some deals end Nov 20. Official PlayStation Blog.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": null
+    },
+    {
+      "item_key": "asus-rog-strix-g18-rtx-5070-walmart",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "gaming_pcs",
+      "category": "gaming",
+      "subcategory": "gaming_pcs",
+      "item": "ASUS ROG Strix G18 RTX 5070 Ryzen 9 32GB/1TB",
+      "retailer": "Walmart",
+      "price": 1849.0,
+      "price_label": null,
+      "price_raw": 1849.0,
+      "regular_price": 2699.0,
+      "discount": "$850 off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20205639-asus-rog-strix-g18-2025-gaming-laptop-18-wqxga-240hz-ryzen-9-9955hx-rtx-5070-32gb-1tb-ssd-1849-00-free-shipping",
+      "image_url": "https://slickdeals.net/attachment/3/2/7/7/8/7/4/9/450x450/22082220.thumb",
+      "image_alt": "ASUS ROG Strix G18 gaming laptop",
+      "new_release": false,
+      "notes": "18\" WQXGA 240Hz. Posted Oct 25 with low stock noted; may sell out.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 1849.0
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/7333cf1d06b86901.webp"
+    },
+    {
+      "item_key": "cyberpowerpc-gamer-supreme-9800x3d-costco",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "gaming_pcs",
+      "category": "gaming",
+      "subcategory": "gaming_pcs",
+      "item": "CyberPowerPC Ryzen 7 9800X3D + RX 9070 XT Desktop",
+      "retailer": "Costco",
+      "price": 2199.99,
+      "price_label": null,
+      "price_raw": 2199.99,
+      "regular_price": 2599.99,
+      "discount": "$400 off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20250105-cyberpowerpc-gamer-supreme-gaming-desktop-ryzen-7-9800x3d-rx-9070-xt-32gb-ddr5-1tb-ssd-2199-99",
+      "image_url": "https://slickdeals.net/attachment/8/4/0/9/0/5/1/450x450/22196637.thumb",
+      "image_alt": "CyberPowerPC Gamer Supreme gaming desktop",
+      "new_release": false,
+      "notes": "32GB DDR5, 1TB SSD. Posted Nov 3. Costco membership required; Las Vegas has Costco warehouses.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 2199.99
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/14c4b5b245713014.webp"
+    },
+    {
+      "item_key": "lenovo-legion-pro-5i-rtx-5070-best-buy",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "gaming_pcs",
+      "category": "gaming",
+      "subcategory": "gaming_pcs",
+      "item": "Lenovo Legion Pro 5i 16\" RTX 5070 Ultra 7 255HX 1TB",
+      "retailer": "Best Buy",
+      "price": 1799.99,
+      "price_label": null,
+      "price_raw": 1799.99,
+      "regular_price": 2649.99,
+      "discount": "$850 off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20186283-lenovo-legion-pro-5i-16-3k-lcd-gaming-laptop-intel-core-ultra-7-255hx-2025-16gb-ram-nvidia-geforce-rtx-5070-1tb-eclipse-black-1799-99-bestbuy-com",
+      "image_url": "https://slickdeals.net/attachment/1/8/2/8/3/4/450x450/22036992.thumb",
+      "image_alt": "Lenovo Legion Pro 5i gaming laptop",
+      "new_release": false,
+      "notes": "16GB RAM, 3K display. Posted Oct 20; Best Buy page doesn't render prices to our fetcher, price per Slickdeals listing.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 1799.99
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/c9185a0dc27ba986.webp"
+    },
+    {
+      "item_key": "acer-predator-26-5-qd-oled-240hz-amazon",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "hardware",
+      "category": "gaming",
+      "subcategory": "hardware",
+      "item": "Acer Predator 26.5\" WQHD QD-OLED 240Hz Monitor",
+      "retailer": "Amazon",
+      "price": 308.38,
+      "price_label": null,
+      "price_raw": 308.38,
+      "regular_price": null,
+      "discount": null,
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20248455-308-38-26-5-acer-predator-wqhd-qd-oled-240hz-freesync-gaming-monitor-at-amazon",
+      "image_url": "https://slickdeals.net/attachment/1/1/7/1/5/2/7/450x450/22191078.thumb",
+      "image_alt": "Acer Predator 26.5-inch QD-OLED monitor",
+      "new_release": false,
+      "notes": "ASIN B0G5Z5N274. No list price shown; one of the cheapest 1440p QD-OLEDs (prior deal $315). Posted Nov 3.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 308.38
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/eaba8d433d4561ad.webp"
+    },
+    {
+      "item_key": "samsung-odyssey-oled-g6-360hz-amazon",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "hardware",
+      "category": "gaming",
+      "subcategory": "hardware",
+      "item": "Samsung 27\" Odyssey OLED G6 QHD 360Hz Monitor",
+      "retailer": "Amazon",
+      "price": 600.0,
+      "price_label": null,
+      "price_raw": 600.0,
+      "regular_price": 899.99,
+      "discount": "33% off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20251071-samsung-27-odyssey-oled-g6-g60sd-series-gaming-monitor-with-qhd-qd-oled-360hz-0-03ms-amd-freesync-premium-pro-600",
+      "image_url": "https://slickdeals.net/attachment/1/1/1/4/0/3/1/6/450x450/22199523.thumb",
+      "image_alt": "Samsung Odyssey OLED G6 27-inch gaming monitor",
+      "new_release": false,
+      "notes": "ASIN B0D1DPFZLZ (LS27DG602SNXZA). Posted Nov 3.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:58:29-08:00",
+          "price": 600.0
+        }
+      ],
+      "first_seen": "2026-11-03T11:58:29-08:00",
+      "last_seen": "2026-11-03T11:58:29-08:00",
+      "image": "data/black-friday/img/18cfb00bad4a98a1.webp"
     },
     {
       "item_key": "brighton-cyber-2-day-go-card-2026",

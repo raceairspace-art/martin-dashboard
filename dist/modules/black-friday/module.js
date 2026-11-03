@@ -38,6 +38,11 @@
     drone: '<circle cx="5" cy="6" r="2.5"/><circle cx="19" cy="6" r="2.5"/><circle cx="5" cy="18" r="2.5"/><circle cx="19" cy="18" r="2.5"/><rect x="9" y="9.5" width="6" height="5" rx="1"/><path d="M7 7.5l2 2.5M17 7.5l-2 2.5M7 16.5l2-2M17 16.5l-2-2"/>',
     goggles: '<path d="M2 9h20v6a2 2 0 0 1-2 2h-4l-2-2h-4l-2 2H4a2 2 0 0 1-2-2z"/><path d="M6 12h3M15 12h3"/>',
     maker: '<rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M4 8h16M8 8v4l4 4 4-4V8M9 21v-3h6v3"/>',
+    gamepad: '<path d="M7 7h10a5 5 0 0 1 4.9 6l-.7 3.4a2.4 2.4 0 0 1-4.1 1.1L15 15.5H9l-2.1 2a2.4 2.4 0 0 1-4.1-1.1L2.1 13A5 5 0 0 1 7 7z"/><path d="M7 10v3M5.5 11.5h3M15.5 11h.01M17.5 12.5h.01"/>',
+    disc: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/><path d="M12 6a6 6 0 0 0-6 6"/>',
+    handheld: '<rect x="2" y="7" width="20" height="10" rx="4"/><rect x="7.5" y="9" width="9" height="6" rx="1"/><path d="M4.5 12h1.5M5.25 11.25v1.5M18.5 11h.01M19.5 13h.01"/>',
+    pc: '<rect x="3" y="4" width="12" height="9" rx="1"/><path d="M6 17h6M9 13v4"/><rect x="17" y="4" width="4" height="16" rx="1"/><path d="M18.5 7h1M18.5 9.5h1"/>',
+    headset: '<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/><path d="M19 20c0 1-2 2-5 2"/>',
     chip: '<rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/>',
   };
   const icon = (name, cls = "bf-ico") =>
