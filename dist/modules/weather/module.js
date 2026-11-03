@@ -58,6 +58,11 @@
     if (!ts) return null;
     return new Date(ts).toLocaleString("en-US", { timeZone: TZ, month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " PT";
   }
+  // Gordon's "issued" may be a date ("2026-11-03") or date + time ("2026-11-03 15:40 PT"); unknown formats show as-is.
+  function issuedLabel(v) {
+    const m = /^(\d{4}-\d{2}-\d{2})(?:[ T](.+))?$/.exec(String(v).trim());
+    return m ? dayLabel(m[1]) + (m[2] ? ", " + m[2] : "") : String(v);
+  }
   function visibleDays(doc) {
     const t = todayPT();
     return ((doc && doc.days) || []).filter((d) => d.date >= t && (!doc.window || !doc.window.end || d.date <= doc.window.end));
@@ -166,7 +171,7 @@
         <div class="wx-hero-ic">${condIcon(days[0] && days[0].locations.las_vegas ? days[0].locations.las_vegas.code : null, "wx-hero-svg")}</div>
         <div class="wx-hero-txt"><p class="wx-kicker">Las Vegas area · daytime 7am–5pm PT</p>
           <h3>Wind &amp; weather outlook${range ? ` · ${esc(range)}` : ""}</h3>
-          <p class="wx-updated">Updated ${upd ? esc(upd) : dash}${g.issued ? ` · Gordon's ratings issued ${esc(dayLabel(g.issued))}` : ""}</p>
+          <p class="wx-updated">Updated ${upd ? esc(upd) : dash}${g.issued ? ` · Gordon's ratings issued ${esc(issuedLabel(g.issued))}` : ""}</p>
           ${g.all_days ? `<p class="wx-hero-note">${esc(g.all_days)}</p>` : ""}</div>
       </section>
       ${live ? "" : `<div class="wx-warn" role="status">Live forecast unavailable${doc.fetch_error ? ` (${esc(doc.fetch_error)})` : ""}. Showing GoodWeatherGordon's headline ratings only; per-location numbers are “—”.</div>`}
