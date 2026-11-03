@@ -38,7 +38,7 @@ OUT_DIR = ROOT / "data" / "black-friday"
 IMG_DIR = OUT_DIR / "img"
 IMG_INDEX = OUT_DIR / "img_index.json"
 SRC_DEFAULT = os.environ.get("BF_SRC", "/workspace/black-friday-2026")
-FILE_RE = re.compile(r"^(gear-tech|travel)-sweep-(\d{4}-\d{2}-\d{2})\.json$")
+FILE_RE = re.compile(r"^(gear-tech|travel)-sweep-(\d{4}-\d{2}-\d{2})(?:-(\d{1,2}))?\.json$")
 UA = "MartinDashboard/1.0 (personal deals page; image mirror; polite single fetch)"
 EXT = {"image/jpeg": "jpg", "image/jpg": "jpg", "image/png": "png", "image/webp": "webp",
        "image/gif": "gif", "image/avif": "avif", "image/svg+xml": "svg"}

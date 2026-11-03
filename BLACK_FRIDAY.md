@@ -8,6 +8,7 @@ price history stay in the data (`dist/data/black-friday/deals.json`), not on til
 `/workspace/black-friday-2026/` (override with `BF_SRC=/path`):
 - `gear-tech-sweep-YYYY-MM-DD.json`: BlackFridayFrank (Mon/Wed/Fri)
 - `travel-sweep-YYYY-MM-DD.json`: Travelin Sam
+- Extra same-day sweeps may add a numeric suffix: `gear-tech-sweep-YYYY-MM-DD-2.json`, `-3`, … (all are merged; per `item_key` the newest `swept_at` wins)
 
 Any other file name (e.g. `*.bak.json`, `gear-tech-sweep-2026-11-03b.json`) is ignored: a second
 same-day sweep needs its own `swept_at`, so ask the agent to use the contract name/fields.
@@ -43,11 +44,11 @@ to each section, and optional subsections (matched on category **or** subcategor
 file can land in any section. A category listed nowhere goes to **Wildcard** (`"fallback": true`).
 Adding a category or section is a one-line edit there; rebuild to apply. Empty sections are hidden.
 
-Current order: Gear & tech (Jet skis, Motorcycles, RC aircraft, Drones, FPV goggles, Maker gear,
-New tech) · Trending robots · Computers & TVs · Winter ski (`ski_gear` + `ski_travel`) · Season passes (`season_passes`: Ski passes, Amusement parks,
-Museums & attractions, Memberships) · Travel
-(Flights, Cruises, Hotels, Packages) · Vegas Local (`vegas_local`) · Concerts & Theater (`concerts_theater`: concert_ticket,
-concert_pass, theater, vip_package, travel_package) · Wildcard.
+Current order: Vegas Local (`vegas_local`) · Concerts & Theater (`concerts_theater`: concert_ticket,
+concert_pass, theater, vip_package, travel_package) · Gear & tech (Jet skis, Motorcycles, RC aircraft, Drones,
+FPV goggles, Maker gear, New tech) · Trending robots · Computers & TVs · Winter ski (`ski_gear` + `ski_travel`) ·
+Season passes (`season_passes`: Ski passes, Amusement parks, Museums & attractions, Memberships) · Travel
+(Flights, Cruises, Hotels, Packages) · Wildcard. Reorder by moving entries in the `sections` array.
 
 Icons available: pass ferris museum dice gift robot monitor ski plane ship bed suitcase ticket music masks crown star wave
 moto rcplane drone goggles maker chip (see `ICONS` in `modules/black-friday/module.js`).

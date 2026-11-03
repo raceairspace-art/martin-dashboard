@@ -1,6 +1,15 @@
 {
   "_doc": "Black Friday sections, in display order. One entry per section: id, title, icon, and the deal `category` values (from either sweep file) that land there. Optional subsections match a deal's category OR subcategory. A category listed nowhere goes to the section with \"fallback\": true. Matching ignores case, spaces/dashes and a trailing 's'. Icons: see ICONS in modules/black-friday/module.js.",
   "sections": [
+    {"id": "vegas_local", "title": "Vegas Local", "icon": "dice", "categories": ["vegas_local"]},
+    {"id": "concerts_theater", "title": "Concerts & Theater", "icon": "ticket", "categories": ["concerts_theater"],
+     "subsections": [
+       {"id": "concert_ticket", "title": "Concert tickets", "icon": "music", "match": ["concert_ticket"]},
+       {"id": "concert_pass", "title": "Concert passes", "icon": "ticket", "match": ["concert_pass"]},
+       {"id": "theater", "title": "Theater", "icon": "masks", "match": ["theater"]},
+       {"id": "vip_package", "title": "VIP packages", "icon": "crown", "match": ["vip_package"]},
+       {"id": "travel_package", "title": "Concert travel packages", "icon": "suitcase", "match": ["travel_package"]}
+     ]},
     {"id": "gear_tech", "title": "Gear & tech", "icon": "gift",
      "categories": ["gear_tech", "jet_skis", "jet_skis_pwc", "jet_ski", "pwc", "watercraft", "motorcycles", "moto", "dirt_bike", "rc_aircraft", "rc_plane", "drones", "fpv_goggles", "fpv", "maker", "maker_gear", "3d_printer", "new_tech", "other_tech", "tech", "gadgets"],
      "subsections": [
@@ -29,15 +38,6 @@
        {"id": "cruises", "title": "Cruises", "icon": "ship", "match": ["cruises"]},
        {"id": "hotels", "title": "Hotels", "icon": "bed", "match": ["hotels", "vacation_rentals"]},
        {"id": "packages", "title": "Packages", "icon": "suitcase", "match": ["packages", "tours", "rail", "car_rental"]}
-     ]},
-    {"id": "vegas_local", "title": "Vegas Local", "icon": "dice", "categories": ["vegas_local"]},
-    {"id": "concerts_theater", "title": "Concerts & Theater", "icon": "ticket", "categories": ["concerts_theater"],
-     "subsections": [
-       {"id": "concert_ticket", "title": "Concert tickets", "icon": "music", "match": ["concert_ticket"]},
-       {"id": "concert_pass", "title": "Concert passes", "icon": "ticket", "match": ["concert_pass"]},
-       {"id": "theater", "title": "Theater", "icon": "masks", "match": ["theater"]},
-       {"id": "vip_package", "title": "VIP packages", "icon": "crown", "match": ["vip_package"]},
-       {"id": "travel_package", "title": "Concert travel packages", "icon": "suitcase", "match": ["travel_package"]}
      ]},
     {"id": "wildcard", "title": "Wildcard", "icon": "star", "categories": ["wildcard"], "fallback": true}
   ]

@@ -126,6 +126,18 @@ else
   echo "==> No Black Friday data (tab shows an empty state)"
 fi
 
+# Weather: Open-Meteo forecast (fetched now) + GoodWeatherGordon's newest
+# /workspace/weather/low-wind-YYYY-MM-DD.json (read-only) -> data/weather/forecast.json.
+# Non-fatal: if Open-Meteo is down the page shows Gordon's headline ratings only.
+# WEATHER_NO_FETCH=1 skips the network fetch.
+python3 "$ROOT/scripts/fetch_weather.py" || echo "WARNING: weather step failed; using last data"
+mkdir -p "$DIST/data/weather"
+if [[ -f "$ROOT/data/weather/forecast.json" ]]; then
+  cp "$ROOT/data/weather/forecast.json" "$DIST/data/weather/forecast.json"
+else
+  echo "==> No weather data (Weather tab shows an empty state)"
+fi
+
 # Marketplace status (always written; the SPA reads it before any car data).
 python3 - "$DIST/data/marketplace/status.json" <<'PY'
 import json, os, sys

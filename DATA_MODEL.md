@@ -314,3 +314,11 @@ Built by `scripts/ingest_black_friday.py` from the read-only sweeps in `/workspa
 Each item keeps the sweep fields plus `shelf`, `sub`, `price` (number|null), `price_label`, `price_raw`,
 `image` (mirrored path|null), `price_history:[{swept_at,price}]`, `first_seen` and `last_seen`.
 Section mapping: `config/black_friday_sections.json`. See BLACK_FRIDAY.md.
+
+## Weather (`data/weather/forecast.json`)
+Written by `scripts/fetch_weather.py` (see WEATHER.md). `{updated_at|null, source: "open-meteo+gordon"|"gordon-only"|"none",
+fetch_error, timezone, window{start,end,daytime}, low_wind_rule{sustained_max, gust_diff_lt}, locations[{id,name,lat,lon,lake}],
+activities[{id,name,tiers[{rating,sustained?,gust?,diff?,rain?}]}], gordon{file,issued,source,window,definitions,all_days,top_picks}|null,
+days[{date, headline{rating,label,note,wind_mph,gust_mph,gust_diff_mph,highs_f}|null, top_pick_rank|null,
+locations{<id>: {sustained, sustained_avg, gust, diff, direction, rain, high, low, day_temp_max, code, condition,
+low_wind, ratings{outdoors,lake,drones,rc,paramotor}, hourly[{h,w,g,dir}]} | null}}]}`. Unknown values are null.

@@ -2,6 +2,44 @@
   "updated_at": "2026-11-03T12:05:00-08:00",
   "sections": [
     {
+      "id": "vegas_local",
+      "title": "Vegas Local",
+      "icon": "dice",
+      "subsections": []
+    },
+    {
+      "id": "concerts_theater",
+      "title": "Concerts & Theater",
+      "icon": "ticket",
+      "subsections": [
+        {
+          "id": "concert_ticket",
+          "title": "Concert tickets",
+          "icon": "music"
+        },
+        {
+          "id": "concert_pass",
+          "title": "Concert passes",
+          "icon": "ticket"
+        },
+        {
+          "id": "theater",
+          "title": "Theater",
+          "icon": "masks"
+        },
+        {
+          "id": "vip_package",
+          "title": "VIP packages",
+          "icon": "crown"
+        },
+        {
+          "id": "travel_package",
+          "title": "Concert travel packages",
+          "icon": "suitcase"
+        }
+      ]
+    },
+    {
       "id": "gear_tech",
       "title": "Gear & tech",
       "icon": "gift",
@@ -116,44 +154,6 @@
       ]
     },
     {
-      "id": "vegas_local",
-      "title": "Vegas Local",
-      "icon": "dice",
-      "subsections": []
-    },
-    {
-      "id": "concerts_theater",
-      "title": "Concerts & Theater",
-      "icon": "ticket",
-      "subsections": [
-        {
-          "id": "concert_ticket",
-          "title": "Concert tickets",
-          "icon": "music"
-        },
-        {
-          "id": "concert_pass",
-          "title": "Concert passes",
-          "icon": "ticket"
-        },
-        {
-          "id": "theater",
-          "title": "Theater",
-          "icon": "masks"
-        },
-        {
-          "id": "vip_package",
-          "title": "VIP packages",
-          "icon": "crown"
-        },
-        {
-          "id": "travel_package",
-          "title": "Concert travel packages",
-          "icon": "suitcase"
-        }
-      ]
-    },
-    {
       "id": "wildcard",
       "title": "Wildcard",
       "icon": "star",
@@ -168,6 +168,12 @@
       "deals": 44
     },
     {
+      "file": "gear-tech-sweep-2026-11-03-2.json",
+      "section": "gear_tech",
+      "swept_at": "2026-11-03T11:31:00-08:00",
+      "deals": 18
+    },
+    {
       "file": "travel-sweep-2026-11-03.json",
       "section": "travel",
       "swept_at": "2026-11-03T12:05:00-08:00",
@@ -175,6 +181,347 @@
     }
   ],
   "items": [
+    {
+      "item_key": "doms-giftcard",
+      "section": "gear_tech",
+      "shelf": "vegas_local",
+      "sub": null,
+      "category": "vegas_local",
+      "subcategory": "restaurant",
+      "item": "Dom DeMarco's: $15 voucher per $100 gift card",
+      "retailer": "Dom DeMarco's (W. Charleston, Summerlin)",
+      "price": 100.0,
+      "price_label": null,
+      "price_raw": 100.0,
+      "regular_price": null,
+      "discount": "$15 voucher in Nov ($10 in Dec)",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://domdemarcos.com/event/doms-annual-gift-card-offer/",
+      "image_url": null,
+      "image_alt": "Dom DeMarco's",
+      "new_release": false,
+      "notes": "Buy on-site only",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 100.0
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
+    },
+    {
+      "item_key": "vgk-kids-day-nov-28-2026",
+      "section": "travel",
+      "shelf": "vegas_local",
+      "sub": null,
+      "category": "vegas_local",
+      "subcategory": "experience",
+      "item": "Golden Knights Kids Day ticket offer, Nov 28",
+      "retailer": "Vegas Golden Knights",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": "Ticket + limited-edition mini stick & puck set",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.nhl.com/goldenknights/tickets/special-ticket-offers",
+      "image_url": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/v1791405506/prd/assets/goldenknights/assets/VGK2627_Share_ngvxch.jpg",
+      "image_alt": "Vegas Golden Knights 2026-27 ticket offers",
+      "new_release": false,
+      "notes": "Sat Nov 28, 2026, 1pm PT vs. Montreal (Black Friday weekend). Country & Rodeo offer Dec 3 vs. Utah. No BF price promo found.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T12:05:00-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-03T12:05:00-08:00",
+      "last_seen": "2026-11-03T12:05:00-08:00",
+      "image": "data/black-friday/img/7d685b0c2fd7b07d.webp"
+    },
+    {
+      "item_key": "gray-line-hoover-dam-express-2026",
+      "section": "travel",
+      "shelf": "vegas_local",
+      "sub": null,
+      "category": "vegas_local",
+      "subcategory": "experience",
+      "item": "Gray Line Hoover Dam Express tour $96 (from $129)",
+      "retailer": "Gray Line Las Vegas",
+      "price": 96,
+      "price_label": null,
+      "price_raw": 96,
+      "regular_price": 129,
+      "discount": "$33 off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://graylinelasvegas.com/special-offers/",
+      "image_url": "https://graylinelasvegas.com/wp-content/uploads/2023/02/1-3.jpg",
+      "image_alt": "Gray Line Las Vegas tour",
+      "new_release": false,
+      "notes": "4.5-hour bus tour from Las Vegas; current special offer, not Black Friday-branded.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T12:05:00-08:00",
+          "price": 96
+        }
+      ],
+      "first_seen": "2026-11-03T12:05:00-08:00",
+      "last_seen": "2026-11-03T12:05:00-08:00",
+      "image": "data/black-friday/img/121373e4383ad2e2.webp"
+    },
+    {
+      "item_key": "lawrys-giftcard",
+      "section": "gear_tech",
+      "shelf": "vegas_local",
+      "sub": null,
+      "category": "vegas_local",
+      "subcategory": "restaurant",
+      "item": "Lawry's The Prime Rib LV: $25 bonus per $125",
+      "retailer": "Lawry's The Prime Rib (Howard Hughes Pkwy)",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": "$25 bonus card (20%)",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.lawrysonline.com/lawrys-the-prime-rib-las-vegas/happenings/holiday-gift-card-promotion-2026/",
+      "image_url": "https://www.lawrysonline.com/wp-content/uploads/2026/10/LV-Holiday-Gift-Bonus-Social-Now-Dec-31.webp",
+      "image_alt": "Lawry's holiday gift card bonus",
+      "new_release": false,
+      "notes": "Bonus redeemable Jan 2-Mar 31, 2027; price detail: $125 gift cards; status detail: live Nov 1-Dec 31",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": "data/black-friday/img/decc8a399004955a.webp"
+    },
+    {
+      "item_key": "omega-mart-nv-resident-discount-2026",
+      "section": "travel",
+      "shelf": "vegas_local",
+      "sub": null,
+      "category": "vegas_local",
+      "subcategory": "attraction",
+      "item": "Omega Mart GA from $45; NV resident discount",
+      "retailer": "Meow Wolf Omega Mart (AREA15)",
+      "price": 45,
+      "price_label": null,
+      "price_raw": 45,
+      "regular_price": null,
+      "discount": "Nevada residents: discounted GA via ZIP at checkout",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://meowwolf.com/visit/las-vegas/tickets",
+      "image_url": "https://webassets.meowwolf.com/cdn.prod/5dad7a19f43e6f31a9e92718/6605ca49076b8ddf76a4bd4b_LAS_front-of-house-omega-mart.webp",
+      "image_alt": "Omega Mart storefront at AREA15",
+      "new_release": false,
+      "notes": "Ongoing local discount, not a Black Friday promo. Anytime admission from $75.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T12:05:00-08:00",
+          "price": 45
+        }
+      ],
+      "first_seen": "2026-11-03T12:05:00-08:00",
+      "last_seen": "2026-11-03T12:05:00-08:00",
+      "image": "data/black-friday/img/2fce99c6c284ba6f.webp"
+    },
+    {
+      "item_key": "strat-giftcard",
+      "section": "gear_tech",
+      "shelf": "vegas_local",
+      "sub": null,
+      "category": "vegas_local",
+      "subcategory": "restaurant",
+      "item": "The STRAT gift cards: 30% bonus ($130 for $100)",
+      "retailer": "The STRAT",
+      "price": 100.0,
+      "price_label": null,
+      "price_raw": 100.0,
+      "regular_price": null,
+      "discount": "30% bonus",
+      "deal_status": "announced",
+      "date_found": "2026-11-03",
+      "source_url": "https://thestrat.com/special-offers/black-friday-cyber-monday-1",
+      "image_url": null,
+      "image_alt": "The STRAT",
+      "new_release": false,
+      "notes": "Good for rooms and STRAT restaurants (Top of the World, McCall's Steakhouse); status detail: announced Nov 27-Dec 1",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 100.0
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
+    },
+    {
+      "item_key": "eagles-sphere-vibee-package-2026-27",
+      "section": "travel",
+      "shelf": "concerts_theater",
+      "sub": "travel_package",
+      "category": "concerts_theater",
+      "subcategory": "travel_package",
+      "item": "Eagles at Sphere: ticket + 2 nights Venetian from $990pp",
+      "retailer": "Vibee",
+      "price": 990,
+      "price_label": null,
+      "price_raw": 990,
+      "regular_price": null,
+      "discount": null,
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://eagles.vibee.com/",
+      "image_url": null,
+      "image_alt": null,
+      "new_release": false,
+      "notes": "Official package partner. VIP from $1,400pp. Dates Nov 13/14/27/28, Dec 4/5/11/12, Jan 8/9/15/16/22/23. Prices per person, double occupancy, incl. taxes/fees; resort fee extra. 4-night Thanksgiving (Nov 27) options.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T12:05:00-08:00",
+          "price": 990
+        }
+      ],
+      "first_seen": "2026-11-03T12:05:00-08:00",
+      "last_seen": "2026-11-03T12:05:00-08:00",
+      "image": null
+    },
+    {
+      "item_key": "metallica-m72-2027-travel-packages",
+      "section": "travel",
+      "shelf": "concerts_theater",
+      "sub": "travel_package",
+      "category": "concerts_theater",
+      "subcategory": "travel_package",
+      "item": "Metallica 2027 M72 tour official travel packages",
+      "retailer": "Metallica Travel (Superfan)",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": null,
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.metallica.com/news/2026-09-16-2027-m72-world-tour-faq.html",
+      "image_url": null,
+      "image_alt": null,
+      "new_release": false,
+      "notes": "Hotel + ticket + merch + local transit packages in every market via metallicatravel.com; on sale since Sept 23, 2026. Prices not captured.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T12:05:00-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-03T12:05:00-08:00",
+      "last_seen": "2026-11-03T12:05:00-08:00",
+      "image": null
+    },
+    {
+      "item_key": "metallica-sphere-vibee-package-2026-27",
+      "section": "travel",
+      "shelf": "concerts_theater",
+      "sub": "travel_package",
+      "category": "concerts_theater",
+      "subcategory": "travel_package",
+      "item": "Metallica at Sphere: 2 shows + 3 nights from $1,077pp",
+      "retailer": "Vibee / Superfan",
+      "price": 1077,
+      "price_label": null,
+      "price_raw": 1077,
+      "regular_price": null,
+      "discount": null,
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://metallica.vibee.com/",
+      "image_url": null,
+      "image_alt": null,
+      "new_release": false,
+      "notes": "Official No Repeat Weekend package: Thu+Sat tickets + 3 nights Venetian or Virgin Hotels. Diamond from $1,742pp adds airport motorcoach + priority entry. Remaining weekends Nov 5&7, 2026; Jan 28-Mar 13, 2027. Per-person pricing may assume double occupancy; check solo rate.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T12:05:00-08:00",
+          "price": 1077
+        }
+      ],
+      "first_seen": "2026-11-03T12:05:00-08:00",
+      "last_seen": "2026-11-03T12:05:00-08:00",
+      "image": null
+    },
+    {
+      "item_key": "caesars-thomas-rhett-ticket-hotel-2026",
+      "section": "travel",
+      "shelf": "concerts_theater",
+      "sub": "travel_package",
+      "category": "concerts_theater",
+      "subcategory": "travel_package",
+      "item": "Thomas Rhett Colosseum ticket + hotel pkgs, Dec 10/12",
+      "retailer": "Caesars Palace / Live Nation",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": null,
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.livenation.com/event/17C8v0G62Njx6Wm/thomas-rhett-official-caesars-ticket-hotel-packages",
+      "image_url": "https://s1.ticketm.net/dam/a/462/7fafe3b5-78c3-4e68-82e9-5f6287d08462_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "image_alt": "Thomas Rhett event artwork",
+      "new_release": false,
+      "notes": "Official Caesars ticket + hotel package (country). Price not shown without checkout.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T12:05:00-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-03T12:05:00-08:00",
+      "last_seen": "2026-11-03T12:05:00-08:00",
+      "image": "data/black-friday/img/2e192f891bf44fa1.webp"
+    },
+    {
+      "item_key": "caesars-tim-mcgraw-ticket-hotel-2026",
+      "section": "travel",
+      "shelf": "concerts_theater",
+      "sub": "travel_package",
+      "category": "concerts_theater",
+      "subcategory": "travel_package",
+      "item": "Tim McGraw Colosseum ticket + hotel packages, Nov",
+      "retailer": "Caesars Palace / Ticketmaster",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": null,
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.ticketmaster.com/explore/lv-shows-pod-packages",
+      "image_url": null,
+      "image_alt": null,
+      "new_release": false,
+      "notes": "Official Caesars Ticket + Hotel Packages listed for Nov 4, 6, 7, 12, 2026+ shows. Price not captured.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T12:05:00-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-03T12:05:00-08:00",
+      "last_seen": "2026-11-03T12:05:00-08:00",
+      "image": null
+    },
     {
       "item_key": "betafpv-pavo360-fpv-quad-betafpv",
       "section": "gear_tech",
@@ -184,9 +531,9 @@
       "subcategory": null,
       "item": "BetaFPV Pavo360 FPV quad",
       "retailer": "BetaFPV (priority)",
-      "price": 208.99,
-      "price_label": "from $208.99",
-      "price_raw": "from $208.99",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
       "regular_price": 469.99,
       "discount": "was $469.99",
       "deal_status": "live",
@@ -195,11 +542,11 @@
       "image_url": null,
       "image_alt": "BetaFPV Pavo360 FPV quad",
       "new_release": false,
-      "notes": "Also Beta95X V3 HD from $88.99 (was $289.99); Pavo20 Pro from $83.99; status detail: live (on-sale page, not BF-labeled)",
+      "notes": "Also Beta95X V3 HD from $88.99 (was $289.99); Pavo20 Pro from $83.99; status detail: live (on-sale page, not BF-labeled); price detail: from $208.99",
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 208.99
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -215,27 +562,27 @@
       "subcategory": null,
       "item": "DJI Avata 360 bundle (RC-2)",
       "retailer": "Adorama",
-      "price": 719,
+      "price": 719.0,
       "price_label": null,
-      "price_raw": "$719",
+      "price_raw": 719.0,
       "regular_price": 832.0,
       "discount": "was $832",
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.tomsguide.com/cameras-photography/drones/dji-drone-deals-before-black-friday-2026",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/kJ8BoQCQnqGrqJAit93zjL-1920-80.jpg",
+      "image_url": null,
       "image_alt": "DJI Avata 360 bundle (RC-2)",
       "new_release": false,
       "notes": "Not on DJI's US store, so this is a third-party seller. Check the warranty",
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 719
+          "price": 719.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
-      "image": "data/black-friday/img/e9e568838edf9a79.webp"
+      "image": null
     },
     {
       "item_key": "dji-mavic-4-pro-fly-more-combo-amazon",
@@ -246,27 +593,27 @@
       "subcategory": null,
       "item": "DJI Mavic 4 Pro Fly More Combo",
       "retailer": "Amazon",
-      "price": 2699,
+      "price": 2699.0,
       "price_label": null,
-      "price_raw": "$2,699",
+      "price_raw": 2699.0,
       "regular_price": 2899.0,
       "discount": "was $2,899",
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.tomsguide.com/cameras-photography/drones/dji-drone-deals-before-black-friday-2026",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/kJ8BoQCQnqGrqJAit93zjL-1920-80.jpg",
+      "image_url": null,
       "image_alt": "DJI Mavic 4 Pro Fly More Combo",
       "new_release": false,
       "notes": "Hit $2,500 in October, so wait for that price",
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 2699
+          "price": 2699.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
-      "image": "data/black-friday/img/e9e568838edf9a79.webp"
+      "image": null
     },
     {
       "item_key": "dji-neo-amazon",
@@ -277,27 +624,58 @@
       "subcategory": null,
       "item": "DJI Neo",
       "retailer": "Amazon",
-      "price": 169,
+      "price": 169.0,
       "price_label": null,
-      "price_raw": "$169",
+      "price_raw": 169.0,
       "regular_price": null,
       "discount": "15% off $199",
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.tomsguide.com/cameras-photography/drones/dji-drone-deals-before-black-friday-2026",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/kJ8BoQCQnqGrqJAit93zjL-1920-80.jpg",
+      "image_url": null,
       "image_alt": "DJI Neo",
       "new_release": false,
       "notes": "Was $139 on Prime Big Deal Days",
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 169
+          "price": 169.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
-      "image": "data/black-friday/img/e9e568838edf9a79.webp"
+      "image": null
+    },
+    {
+      "item_key": "newbee-geprc-cinelog35",
+      "section": "gear_tech",
+      "shelf": "gear_tech",
+      "sub": "drones",
+      "category": "drones",
+      "subcategory": null,
+      "item": "GEPRC CineLog 35 HD cinewhoop (Nebula Pro)",
+      "retailer": "NewBeeDrone",
+      "price": 379.99,
+      "price_label": null,
+      "price_raw": 379.99,
+      "regular_price": 447.99,
+      "discount": "$68 off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://newbeedrone.com/collections/daily-deals",
+      "image_url": null,
+      "image_alt": "GEPRC CineLog 35",
+      "new_release": false,
+      "notes": "iFlight iH3 O3 4S HD BNF $459.99 (was $559.99). BF 2025 pattern: 10-30% off select; status detail: live (daily deals)",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 379.99
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
     },
     {
       "item_key": "dji-avata-2-fly-smart-combo-goggles-n3-1-battery-dji-store-us",
@@ -308,9 +686,9 @@
       "subcategory": null,
       "item": "DJI Avata 2 Fly Smart Combo (Goggles N3, 1 battery)",
       "retailer": "DJI Store US",
-      "price": 619,
+      "price": 619.0,
       "price_label": null,
-      "price_raw": "$619",
+      "price_raw": 619.0,
       "regular_price": null,
       "discount": "Regular DJI US price; 2025 BF had Avata 2 Fly More at $849",
       "deal_status": "live",
@@ -323,7 +701,7 @@
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 619
+          "price": 619.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -339,9 +717,9 @@
       "subcategory": null,
       "item": "Walksnail Avatar HD Goggles X",
       "retailer": "CADDXFPV Halloween Sale",
-      "price": 419,
+      "price": 419.0,
       "price_label": null,
-      "price_raw": "$419",
+      "price_raw": 419.0,
       "regular_price": 459.0,
       "discount": "was $459; 6% sitewide on regular-price items",
       "deal_status": "live",
@@ -354,7 +732,7 @@
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 419
+          "price": 419.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -370,9 +748,9 @@
       "subcategory": null,
       "item": "2026 Yamaha VX (stock #Y0573), Las Vegas",
       "retailer": "Factory Powersports Las Vegas, 7202 S. Jones Blvd",
-      "price": 9999,
-      "price_label": "$9,999",
-      "price_raw": "$9,999 ($11,362 out-the-door before tax/title)",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
       "regular_price": null,
       "discount": "$2,400 off $12,399 MSRP",
       "deal_status": "live",
@@ -381,11 +759,11 @@
       "image_url": null,
       "image_alt": "2026 Yamaha VX (stock #Y0573), Las Vegas",
       "new_release": false,
-      "notes": "Page image is a signed URL that expires about Nov 9, so it's left out",
+      "notes": "Page image is a signed URL that expires about Nov 9, so it's left out; price detail: $9,999 ($11,362 out-the-door before tax/title)",
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 9999
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -494,9 +872,9 @@
       "subcategory": null,
       "item": "Anycubic Kobra S1 Max Combo",
       "retailer": "Anycubic US",
-      "price": 799,
+      "price": 799.0,
       "price_label": null,
-      "price_raw": "$799",
+      "price_raw": 799.0,
       "regular_price": null,
       "discount": "27%",
       "deal_status": "live",
@@ -509,7 +887,7 @@
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 799
+          "price": 799.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -525,9 +903,9 @@
       "subcategory": null,
       "item": "Bambu Lab H2C Combo",
       "retailer": "Bambu Lab US (priority)",
-      "price": 1899,
+      "price": 1899.0,
       "price_label": null,
-      "price_raw": "$1,899",
+      "price_raw": 1899.0,
       "regular_price": 2199.0,
       "discount": "was $2,199; up to $450 off H2C Laser Full Combo",
       "deal_status": "live",
@@ -540,7 +918,7 @@
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 1899
+          "price": 1899.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -556,9 +934,9 @@
       "subcategory": null,
       "item": "Creality K2 Combo (with CFS)",
       "retailer": "Creality store",
-      "price": 549,
+      "price": 549.0,
       "price_label": null,
-      "price_raw": "$549",
+      "price_raw": 549.0,
       "regular_price": 899.0,
       "discount": "$149 less than buying K2 + CFS separately",
       "deal_status": "live",
@@ -571,7 +949,7 @@
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 549
+          "price": 549.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -587,9 +965,9 @@
       "subcategory": null,
       "item": "Elegoo Saturn 4 Ultra 16K resin printer",
       "retailer": "Elegoo US",
-      "price": 399,
+      "price": 399.0,
       "price_label": null,
-      "price_raw": "$399",
+      "price_raw": 399.0,
       "regular_price": 649.99,
       "discount": "was $649.99",
       "deal_status": "live",
@@ -602,12 +980,43 @@
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 399
+          "price": 399.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
       "image": "data/black-friday/img/65b6b58cd51125a9.webp"
+    },
+    {
+      "item_key": "flashforge-ad5x",
+      "section": "gear_tech",
+      "shelf": "gear_tech",
+      "sub": "maker_gear",
+      "category": "maker",
+      "subcategory": null,
+      "item": "Flashforge Adventurer 5X (AD5X) multicolor",
+      "retailer": "Flashforge",
+      "price": 329.0,
+      "price_label": null,
+      "price_raw": 329.0,
+      "regular_price": 499.0,
+      "discount": "$170 off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.flashforge.com/pages/black-friday-sale-2026",
+      "image_url": null,
+      "image_alt": "Flashforge AD5X",
+      "new_release": false,
+      "notes": "BF Lucky Draw; AD5X enclosure kit $39.20 (was $49). og:image is a 2024 generic banner",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 329.0
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
     },
     {
       "item_key": "harbor-freight-early-bf-hercules-10in-jobsite-table-saw-359-99-bauer-20v-compact",
@@ -616,24 +1025,24 @@
       "sub": "maker_gear",
       "category": "maker",
       "subcategory": null,
-      "item": "Harbor Freight early BF: Hercules 10in jobsite table saw...",
+      "item": "Harbor Freight early deals: 10in table saw $359.99",
       "retailer": "Harbor Freight (priority)",
-      "price": null,
+      "price": 359.99,
       "price_label": null,
-      "price_raw": "see item",
+      "price_raw": 359.99,
       "regular_price": null,
       "discount": "No coupon needed",
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://go.harborfreight.com/cpi/digital/2026/10/early-black-friday-deals-now-thru-11-25/",
       "image_url": null,
-      "image_alt": "Harbor Freight early BF: Hercules 10in jobsite table saw...",
+      "image_alt": "Harbor Freight early deals: 10in table saw $359.99",
       "new_release": false,
-      "notes": "The main BF ad (Inside Track Nov 23-25, everyone Nov 26-30) is from aggregator sites only, not an official page; ends 2026-11-25; full: Harbor Freight early BF: Hercules 10in jobsite table saw $359.99; Bauer 20V compact band saw $79.99; Pittsburgh 2-ton trolley jack $39.99",
+      "notes": "The main BF ad (Inside Track Nov 23-25, everyone Nov 26-30) is from aggregator sites only, not an official page; ends 2026-11-25; full: Harbor Freight early BF: Hercules 10in jobsite table saw $359.99; Bauer 20V compact band saw $79.99; Pittsburgh 2-ton trolley jack $39.99; price detail: see item",
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": null
+          "price": 359.99
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -672,13 +1081,75 @@
       "image": "data/black-friday/img/576b037ae265ec80.webp"
     },
     {
+      "item_key": "snapmaker-artisan",
+      "section": "gear_tech",
+      "shelf": "gear_tech",
+      "sub": "maker_gear",
+      "category": "maker",
+      "subcategory": null,
+      "item": "Snapmaker Artisan 3-in-1 (3D print/laser/CNC)",
+      "retailer": "Snapmaker US",
+      "price": 2199,
+      "price_label": null,
+      "price_raw": 2199,
+      "regular_price": 3499,
+      "discount": "$1,300 off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://us.snapmaker.com/pages/snapmaker-black-friday-sale",
+      "image_url": null,
+      "image_alt": "Snapmaker Artisan",
+      "new_release": false,
+      "notes": "Standard version $1,799; price detail: $2,199 (Premium)",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 2199
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
+    },
+    {
+      "item_key": "snapmaker-u1",
+      "section": "gear_tech",
+      "shelf": "gear_tech",
+      "sub": "maker_gear",
+      "category": "maker",
+      "subcategory": null,
+      "item": "Snapmaker U1 toolchanger 3D printer",
+      "retailer": "Snapmaker US",
+      "price": 699.0,
+      "price_label": null,
+      "price_raw": 699.0,
+      "regular_price": 999.0,
+      "discount": "$300 off; lowest yet",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://us.snapmaker.com/pages/snapmaker-black-friday-sale",
+      "image_url": null,
+      "image_alt": "Snapmaker U1",
+      "new_release": false,
+      "notes": "Sale Nov 2-Dec 1; 30-day price guarantee. Page og:image is old generic, so null",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 699.0
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
+    },
+    {
       "item_key": "xtool-sitewide-tiers-e-g-f1-ultra-2-299-to-250-off-p3-80w-co2-5-899-to-700-off-x",
       "section": "gear_tech",
       "shelf": "gear_tech",
       "sub": "maker_gear",
       "category": "maker",
       "subcategory": null,
-      "item": "xTool sitewide tiers (e.g. F1 Ultra $2,299 to $250 off; P...",
+      "item": "xTool sitewide Black Friday tiers",
       "retailer": "xTool US (priority)",
       "price": null,
       "price_label": null,
@@ -689,7 +1160,7 @@
       "date_found": "2026-11-03",
       "source_url": "https://www.xtool.com/pages/black-friday-cyber-monday",
       "image_url": "https://www.xtool.com/cdn/shop/files/20250416-174018_1200x1200.jpg?v=1744796685",
-      "image_alt": "xTool sitewide tiers (e.g. F1 Ultra $2,299 to $250 off; P...",
+      "image_alt": "xTool sitewide Black Friday tiers",
       "new_release": false,
       "notes": "Excludes C1, X1, P2S, and refurbished units. Weekly themes: Metalworking Week is Nov 16-22; ends 2026-12-04; full: xTool sitewide tiers (e.g. F1 Ultra $2,299 to $250 off; P3 80W CO2 $5,899 to $700 off)",
       "price_history": [
@@ -775,7 +1246,7 @@
       "retailer": "Cycle Gear (Black Friday page)",
       "price": 419.4,
       "price_label": null,
-      "price_raw": "$419.40",
+      "price_raw": 419.4,
       "regular_price": 699.0,
       "discount": "was $699",
       "deal_status": "live",
@@ -802,7 +1273,7 @@
       "sub": "motorcycles",
       "category": "motorcycles",
       "subcategory": null,
-      "item": "Harley-Davidson Grand American Touring (Street Glide/Road...",
+      "item": "Harley-Davidson Grand American Touring offer",
       "retailer": "H-D dealers",
       "price": null,
       "price_label": null,
@@ -812,8 +1283,8 @@
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.harley-davidson.com/us/en/tools/offers.html",
-      "image_url": "https://www.harley-davidson.com/ctfasset/5vy1mse9fkav/7hj632bB2ATb9f3ffxw5ji/85ec9a2308cc666cb8842c22a9e12cf2/bar-and-shield-1x1.jpeg",
-      "image_alt": "Harley-Davidson Grand American Touring (Street Glide/Road...",
+      "image_url": null,
+      "image_alt": "Harley-Davidson Grand American Touring offer",
       "new_release": false,
       "notes": "The image is the H-D logo (page og:image); ends 2026-12-30; full: Harley-Davidson Grand American Touring (Street Glide/Road Glide)",
       "price_history": [
@@ -824,7 +1295,7 @@
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
-      "image": "data/black-friday/img/487a06a35cd5e1e2.webp"
+      "image": null
     },
     {
       "item_key": "ktm-select-street-and-off-road-models-ktm-dealers",
@@ -868,7 +1339,7 @@
       "retailer": "RevZilla",
       "price": 549.99,
       "price_label": null,
-      "price_raw": "$549.99",
+      "price_raw": 549.99,
       "regular_price": 1399.99,
       "discount": "28% off ($679.99-$759.99)",
       "deal_status": "live",
@@ -897,9 +1368,9 @@
       "subcategory": null,
       "item": "EcoFlow DELTA 3 Ultra + 2x220W solar + free Trail 200DC",
       "retailer": "EcoFlow US (72-hr flash)",
-      "price": 1699,
+      "price": 1699.0,
       "price_label": null,
-      "price_raw": "$1,699",
+      "price_raw": 1699.0,
       "regular_price": 1999.0,
       "discount": "was $1,999",
       "deal_status": "live",
@@ -912,7 +1383,7 @@
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 1699
+          "price": 1699.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -928,9 +1399,9 @@
       "subcategory": null,
       "item": "INMOTION V14 Pro EUC",
       "retailer": "INMOTION",
-      "price": 2499,
+      "price": 2499.0,
       "price_label": null,
-      "price_raw": "$2,499",
+      "price_raw": 2499.0,
       "regular_price": 2899.0,
       "discount": "was $2,899",
       "deal_status": "live",
@@ -943,7 +1414,7 @@
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 2499
+          "price": 2499.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -959,9 +1430,9 @@
       "subcategory": null,
       "item": "XREAL Aura (Android XR glasses) 12GB/256GB",
       "retailer": "XREAL / Best Buy (preorder)",
-      "price": 1099,
+      "price": 1099.0,
       "price_label": null,
-      "price_raw": "$1,099",
+      "price_raw": 1099.0,
       "regular_price": 1499.0,
       "discount": "$180 off $1,279 (16GB/512GB is $1,299, was $1,499)",
       "deal_status": "live",
@@ -974,7 +1445,7 @@
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 1099
+          "price": 1099.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -992,7 +1463,7 @@
       "retailer": "Horizon Hobby",
       "price": 409.99,
       "price_label": null,
-      "price_raw": "$409.99",
+      "price_raw": 409.99,
       "regular_price": 479.99,
       "discount": "was $479.99",
       "deal_status": "live",
@@ -1023,7 +1494,7 @@
       "retailer": "Horizon Hobby (Pre-Black Friday Sale)",
       "price": 499.99,
       "price_label": null,
-      "price_raw": "$499.99",
+      "price_raw": 499.99,
       "regular_price": 599.99,
       "discount": "was $599.99",
       "deal_status": "live",
@@ -1054,7 +1525,7 @@
       "retailer": "RadioMaster (Specials)",
       "price": 179.99,
       "price_label": null,
-      "price_raw": "$179.99",
+      "price_raw": 179.99,
       "regular_price": null,
       "discount": "40% off $299.99",
       "deal_status": "live",
@@ -1083,27 +1554,89 @@
       "subcategory": "vacuum_mop",
       "item": "Dreame X60 Max Ultra Complete",
       "retailer": "Dreame",
-      "price": 1699.99,
-      "price_label": "$1,699.99",
-      "price_raw": "$1,699.99 now",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
       "regular_price": null,
       "discount": "Undisclosed deal Nov 9-18; extra 8% subscriber code",
       "deal_status": "announced",
       "date_found": "2026-11-03",
       "source_url": "https://www.vacubots.com/early-black-friday-robot-vacuum-deals-have-arrived-are-you-a-turkey-if-you-buy-now/",
-      "image_url": "https://storage.ghost.io/c/69/d5/69d51699-d072-45ac-9ab4-d45efbe74012/content/images/size/w1200/2026/11/vacubots-black-friday-thanksgiving-hero.png",
+      "image_url": null,
       "image_alt": "Dreame X60 Max Ultra Complete",
       "new_release": false,
-      "notes": "Tracker shows a $1,179 low on Prime Big Deal Days, so wait for that",
+      "notes": "Tracker shows a $1,179 low on Prime Big Deal Days, so wait for that; price detail: $1,699.99 now",
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 1699.99
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
-      "image": "data/black-friday/img/241bb3c28701fcc6.webp"
+      "image": null
+    },
+    {
+      "item_key": "ecovacs-x12s",
+      "section": "gear_tech",
+      "shelf": "robots",
+      "sub": null,
+      "category": "trending_robots",
+      "subcategory": "vacuum_mop",
+      "item": "ECOVACS DEEBOT X12S OmniCyclone",
+      "retailer": "Amazon",
+      "price": 999.0,
+      "price_label": null,
+      "price_raw": 999.0,
+      "regular_price": null,
+      "discount": "Technobezz: below list",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.technobezz.com/best/ecovacs-deebot-x12s-omnicyclone-robot-vacuum-drops-to-999-ahead-of-black-friday",
+      "image_url": "https://cdn.technobezz.com/deals-branded/8f9e87958502b970_branded.jpg",
+      "image_alt": "ECOVACS DEEBOT X12S",
+      "new_release": false,
+      "notes": "No end date listed",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 999.0
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": "data/black-friday/img/06cd9dd16ecbbd4a.webp"
+    },
+    {
+      "item_key": "eufy-omni-c30-edge",
+      "section": "gear_tech",
+      "shelf": "robots",
+      "sub": null,
+      "category": "trending_robots",
+      "subcategory": "vacuum_mop",
+      "item": "eufy Omni C30 Edge robot vacuum (new)",
+      "retailer": "eufy US",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": "$300 off early-bird",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.eufy.com/eufy-sales",
+      "image_url": null,
+      "image_alt": "eufy Omni C30 Edge",
+      "new_release": true,
+      "notes": "Page also says 'Black Friday Exclusive Save Up to $1,100'; price detail: $300 off (price not shown)",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
     },
     {
       "item_key": "irobot-roomba-plus-575-combo-autowash-dock-irobot",
@@ -1116,13 +1649,13 @@
       "retailer": "iRobot",
       "price": 499.99,
       "price_label": null,
-      "price_raw": "$499.99",
+      "price_raw": 499.99,
       "regular_price": 799.99,
       "discount": "was $799.99",
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.vacubots.com/early-black-friday-robot-vacuum-deals-have-arrived-are-you-a-turkey-if-you-buy-now/",
-      "image_url": "https://storage.ghost.io/c/69/d5/69d51699-d072-45ac-9ab4-d45efbe74012/content/images/size/w1200/2026/11/vacubots-black-friday-thanksgiving-hero.png",
+      "image_url": null,
       "image_alt": "iRobot Roomba Plus 575 Combo + AutoWash dock",
       "new_release": false,
       "notes": "Roomba 105 Combo $169.99 (was $319.99); ends 2026-11-07",
@@ -1134,7 +1667,7 @@
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
-      "image": "data/black-friday/img/241bb3c28701fcc6.webp"
+      "image": null
     },
     {
       "item_key": "makeblock-mbot2-coding-robot-makeblock",
@@ -1145,9 +1678,9 @@
       "subcategory": "educational",
       "item": "Makeblock mBot2 coding robot",
       "retailer": "Makeblock",
-      "price": 120,
+      "price": 120.0,
       "price_label": null,
-      "price_raw": "$120",
+      "price_raw": 120.0,
       "regular_price": 177.99,
       "discount": "was $177.99; codes BFCM20 (20% under $1k) / BFCM25",
       "deal_status": "live",
@@ -1160,7 +1693,7 @@
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 120
+          "price": 120.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
@@ -1178,7 +1711,7 @@
       "retailer": "Narwal US",
       "price": 900.99,
       "price_label": null,
-      "price_raw": "$900.99",
+      "price_raw": 900.99,
       "regular_price": 1299.98,
       "discount": "was $1,299.98",
       "deal_status": "live",
@@ -1199,6 +1732,37 @@
       "image": "data/black-friday/img/04aa3c7b44ad0d80.webp"
     },
     {
+      "item_key": "roborock-bf",
+      "section": "gear_tech",
+      "shelf": "robots",
+      "sub": null,
+      "category": "trending_robots",
+      "subcategory": "vacuum_mop",
+      "item": "Roborock US Black Friday (Saros 20 etc.)",
+      "retailer": "Roborock US",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": "Up to $1,650 off",
+      "deal_status": "announced",
+      "date_found": "2026-11-03",
+      "source_url": "https://us.roborock.com/pages/roborock-deals",
+      "image_url": null,
+      "image_alt": "Roborock Saros 20",
+      "new_release": false,
+      "notes": "Prices hidden until reveal. Reg: Qrevo S Pro $699.99, Qrevo 2 Pro $799.99. Technobezz has 2026 Qrevo S Pro at $399.99 (Amazon); price detail: hidden ($????); regular price detail: Saros 20 $1,599.99",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
+    },
+    {
       "item_key": "weave-isaac-1-home-robot-weave-robotics",
       "section": "gear_tech",
       "shelf": "robots",
@@ -1208,17 +1772,17 @@
       "item": "Weave Isaac 1 home robot",
       "retailer": "Weave Robotics",
       "price": null,
-      "price_label": "$250 deposit",
-      "price_raw": "$250 refundable deposit",
+      "price_label": null,
+      "price_raw": null,
       "regular_price": null,
       "discount": "none",
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.weaverobotics.com/isaac-1/order",
-      "image_url": "https://weaverobotics.com/images/lifestyle/sage/studio.webp",
+      "image_url": null,
       "image_alt": "Weave Isaac 1 home robot",
       "new_release": true,
-      "notes": "$7,999 price per third-party list; not on the fetched page; status detail: preorder (CA deliveries fall 2026)",
+      "notes": "$7,999 price per third-party list; not on the fetched page; status detail: preorder (CA deliveries fall 2026); price detail: $250 refundable deposit",
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
@@ -1240,7 +1804,7 @@
       "retailer": "Amazon",
       "price": 179.99,
       "price_label": null,
-      "price_raw": "$179.99",
+      "price_raw": 179.99,
       "regular_price": null,
       "discount": null,
       "deal_status": "live",
@@ -1261,6 +1825,37 @@
       "image": "data/black-friday/img/67ce92df1917d139.webp"
     },
     {
+      "item_key": "bb-alienware-15",
+      "section": "gear_tech",
+      "shelf": "computers_tvs",
+      "sub": null,
+      "category": "computers_tvs",
+      "subcategory": "laptop",
+      "item": "Alienware 15.3\" 2K RTX 5050 gaming laptop",
+      "retailer": "Best Buy",
+      "price": 1240.0,
+      "price_label": null,
+      "price_raw": 1240.0,
+      "regular_price": 1925.0,
+      "discount": "$685 off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://9to5toys.com/2026/10/30/windows-laptops-pcs-nearly-1000-off-best-buy-early-black-friday-deals/",
+      "image_url": null,
+      "image_alt": "Best Buy laptop sale",
+      "new_release": false,
+      "notes": "Ryzen R7 260/16GB/1TB",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 1240.0
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
+    },
+    {
       "item_key": "apple-15-m5-macbook-air-16gb-512gb-amazon",
       "section": "gear_tech",
       "shelf": "computers_tvs",
@@ -1271,7 +1866,7 @@
       "retailer": "Amazon",
       "price": 1299.99,
       "price_label": null,
-      "price_raw": "$1,299.99",
+      "price_raw": 1299.99,
       "regular_price": null,
       "discount": "$199.01 off",
       "deal_status": "live",
@@ -1302,13 +1897,13 @@
       "retailer": "Amazon",
       "price": 2299.99,
       "price_label": null,
-      "price_raw": "$2,299.99",
+      "price_raw": 2299.99,
       "regular_price": 2499.0,
       "discount": "was $2,499",
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.macrumors.com/2026/11/02/best-early-black-friday-deals-2026/",
-      "image_url": "https://images.macrumors.com/t/WFhU3_aXXy5DzgUYuu6roYRdJew=/2500x/article-new/2026/11/Black-Friday-Deals-26-10.jpg",
+      "image_url": null,
       "image_alt": "Apple M5 Max Mac Studio 36GB/512GB",
       "new_release": true,
       "notes": "M6 Mac mini from $779.99",
@@ -1320,7 +1915,7 @@
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
-      "image": "data/black-friday/img/a5ce7bc21e8ff6ab.webp"
+      "image": null
     },
     {
       "item_key": "gigabyte-rtx-5080-windforce-sff-16gb-micro-center",
@@ -1333,7 +1928,7 @@
       "retailer": "Micro Center (in-store pickup only)",
       "price": 1979.99,
       "price_label": null,
-      "price_raw": "$1,979.99",
+      "price_raw": 1979.99,
       "regular_price": null,
       "discount": "$370 off $2,349.99",
       "deal_status": "live",
@@ -1354,6 +1949,37 @@
       "image": null
     },
     {
+      "item_key": "bb-yoga-slim-7x",
+      "section": "gear_tech",
+      "shelf": "computers_tvs",
+      "sub": null,
+      "category": "computers_tvs",
+      "subcategory": "laptop",
+      "item": "Lenovo Yoga Slim 7x 14\" OLED X2 Elite 16/1TB",
+      "retailer": "Best Buy",
+      "price": 950.0,
+      "price_label": null,
+      "price_raw": 950.0,
+      "regular_price": 1650.0,
+      "discount": "$700 off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://9to5toys.com/2026/10/30/windows-laptops-pcs-nearly-1000-off-best-buy-early-black-friday-deals/",
+      "image_url": null,
+      "image_alt": "Best Buy laptop sale",
+      "new_release": false,
+      "notes": "Dell 14S OLED $900 (reg $1,450); Galaxy Book 4 Edge $600 (reg $1,000)",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 950.0
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
+    },
+    {
       "item_key": "lg-55-c6-oled-evo-2026-best-buy-amazon-b-h",
       "section": "gear_tech",
       "shelf": "computers_tvs",
@@ -1364,7 +1990,7 @@
       "retailer": "Best Buy / Amazon / B&H",
       "price": 999.99,
       "price_label": null,
-      "price_raw": "$999.99",
+      "price_raw": 999.99,
       "regular_price": null,
       "discount": "Lowest ever (Slickdeals: $1,000 off the $1,799.99 launch price)",
       "deal_status": "live",
@@ -1395,7 +2021,7 @@
       "retailer": "Best Buy",
       "price": 1399.99,
       "price_label": null,
-      "price_raw": "$1,399.99",
+      "price_raw": 1399.99,
       "regular_price": null,
       "discount": "ties its low",
       "deal_status": "live",
@@ -1426,7 +2052,7 @@
       "retailer": "Micro Center",
       "price": 1599.99,
       "price_label": null,
-      "price_raw": "$1,599.99",
+      "price_raw": 1599.99,
       "regular_price": null,
       "discount": "$400 off",
       "deal_status": "live",
@@ -1506,6 +2132,37 @@
       ],
       "first_seen": "2026-11-03T12:05:00-08:00",
       "last_seen": "2026-11-03T12:05:00-08:00",
+      "image": null
+    },
+    {
+      "item_key": "house-libtech-apex",
+      "section": "gear_tech",
+      "shelf": "winter_ski",
+      "sub": null,
+      "category": "ski_gear",
+      "subcategory": "skis_snowboards",
+      "item": "Lib Tech Apex Orca Blem snowboard",
+      "retailer": "The House",
+      "price": 779.99,
+      "price_label": null,
+      "price_raw": 779.99,
+      "regular_price": 1299.99,
+      "discount": "40% off",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.the-house.com/search?pmid=on-sale-now",
+      "image_url": null,
+      "image_alt": "Lib Tech Apex Orca",
+      "new_release": false,
+      "notes": "Also Rossignol Ampage Vol.2 $179.97 (was $349.95); Lib Tech T. Rice Pro $489.99 (was $699.99); status detail: live (unverified: prices from search index; page is JS-rendered)",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 779.99
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
       "image": null
     },
     {
@@ -1693,6 +2350,37 @@
       "first_seen": "2026-11-03T12:05:00-08:00",
       "last_seen": "2026-11-03T12:05:00-08:00",
       "image": null
+    },
+    {
+      "item_key": "utahskis-ebf",
+      "section": "gear_tech",
+      "shelf": "winter_ski",
+      "sub": null,
+      "category": "ski_gear",
+      "subcategory": "skis_snowboards",
+      "item": "UtahSkis Early Black Friday sale",
+      "retailer": "UtahSkis (Utah)",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": "Early BF deals live; lowest-price guarantee",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://utahskis.com/pages/sale",
+      "image_url": "https://utahskis.com/cdn/shop/files/UtahSkis-preview.jpg?v=1665396306",
+      "image_alt": "UtahSkis",
+      "new_release": false,
+      "notes": "No item prices on the landing page; price detail: varies",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": "data/black-friday/img/fed67d27e94cc9a7.webp"
     },
     {
       "item_key": "disneyland-magic-key-explore-2026",
@@ -1910,6 +2598,130 @@
       "first_seen": "2026-11-03T12:05:00-08:00",
       "last_seen": "2026-11-03T12:05:00-08:00",
       "image": null
+    },
+    {
+      "item_key": "costco-membership",
+      "section": "gear_tech",
+      "shelf": "season_passes",
+      "sub": "membership",
+      "category": "season_passes",
+      "subcategory": "membership",
+      "item": "Costco Gold Star/Executive + $45 Shop Card",
+      "retailer": "Costco",
+      "price": 65,
+      "price_label": null,
+      "price_raw": 65,
+      "regular_price": null,
+      "discount": "$45 digital Shop Card (new members, auto-renew)",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.passionforsavings.com/online/costco-membership-deals/",
+      "image_url": "https://www.passionforsavings.com/content/uploads/2024/12/costco.jpg",
+      "image_alt": "Costco",
+      "new_release": false,
+      "notes": "Yahoo/Penny Hoarder: through Dec 20, 2026. Costco Las Vegas warehouses are local; price detail: $65 / $130; regular price detail: $65 / $130",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 65
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": "data/black-friday/img/2b15e104705279f3.webp"
+    },
+    {
+      "item_key": "crunch-bf",
+      "section": "gear_tech",
+      "shelf": "season_passes",
+      "sub": "membership",
+      "category": "season_passes",
+      "subcategory": "fitness",
+      "item": "Crunch Fitness Black Friday Sale",
+      "retailer": "Crunch",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": "BF page live, no terms rendered",
+      "deal_status": "announced",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.crunch.com/black-friday-sale",
+      "image_url": "https://www.crunch.com/og-image.jpg",
+      "image_alt": "Crunch Fitness",
+      "new_release": false,
+      "notes": "Check a local Vegas club for the offer; price detail: not shown",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": "data/black-friday/img/8ebfb196d34e4931.webp"
+    },
+    {
+      "item_key": "eos-november",
+      "section": "gear_tech",
+      "shelf": "season_passes",
+      "sub": "membership",
+      "category": "season_passes",
+      "subcategory": "fitness",
+      "item": "EoS Fitness $1 to join (November)",
+      "retailer": "EoS Fitness",
+      "price": 1,
+      "price_label": null,
+      "price_raw": 1,
+      "regular_price": null,
+      "discount": "$1 join; $59.99 annual fee",
+      "deal_status": "live",
+      "date_found": "2026-11-03",
+      "source_url": "https://www.eosfitness.com/monthlypo",
+      "image_url": null,
+      "image_alt": "EoS Fitness",
+      "new_release": false,
+      "notes": "EoS has many Las Vegas gyms. Select gyms, ACH only; price detail: $1 enrollment + $29.99/mo; status detail: live (November)",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 1
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": null
+    },
+    {
+      "item_key": "sams-giftcards",
+      "section": "gear_tech",
+      "shelf": "season_passes",
+      "sub": "membership",
+      "category": "season_passes",
+      "subcategory": "membership",
+      "item": "Sam's Club member gift-card sale",
+      "retailer": "Sam's Club",
+      "price": 270,
+      "price_label": null,
+      "price_raw": 270,
+      "regular_price": 300,
+      "discount": "10% off; Nintendo $100 for $79.98",
+      "deal_status": "announced",
+      "date_found": "2026-11-03",
+      "source_url": "https://slickdeals.net/f/20176887-sam-s-club-gift-card-deals-nov-6-8",
+      "image_url": "https://slickdeals.net/attachment/3/0/4/6/9/6/450x450/22012245.thumb",
+      "image_alt": "Sam's Club gift cards",
+      "new_release": false,
+      "notes": "Requires membership ($60 Club). Also $100 Landry's eGift $75, which is usable at Vegas Landry's restaurants; price detail: $270 for $300 Disney eGift; status detail: announced Nov 6-8 (Plus Nov 5 9 PM ET)",
+      "price_history": [
+        {
+          "swept_at": "2026-11-03T11:31:00-08:00",
+          "price": 270
+        }
+      ],
+      "first_seen": "2026-11-03T11:31:00-08:00",
+      "last_seen": "2026-11-03T11:31:00-08:00",
+      "image": "data/black-friday/img/e0381cd7b238b5d5.webp"
     },
     {
       "item_key": "aquarium-of-the-pacific-membership-2026",
@@ -2749,254 +3561,6 @@
       "image": null
     },
     {
-      "item_key": "vgk-kids-day-nov-28-2026",
-      "section": "travel",
-      "shelf": "vegas_local",
-      "sub": null,
-      "category": "vegas_local",
-      "subcategory": "experience",
-      "item": "Golden Knights Kids Day ticket offer, Nov 28",
-      "retailer": "Vegas Golden Knights",
-      "price": null,
-      "price_label": null,
-      "price_raw": null,
-      "regular_price": null,
-      "discount": "Ticket + limited-edition mini stick & puck set",
-      "deal_status": "live",
-      "date_found": "2026-11-03",
-      "source_url": "https://www.nhl.com/goldenknights/tickets/special-ticket-offers",
-      "image_url": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/v1791405506/prd/assets/goldenknights/assets/VGK2627_Share_ngvxch.jpg",
-      "image_alt": "Vegas Golden Knights 2026-27 ticket offers",
-      "new_release": false,
-      "notes": "Sat Nov 28, 2026, 1pm PT vs. Montreal (Black Friday weekend). Country & Rodeo offer Dec 3 vs. Utah. No BF price promo found.",
-      "price_history": [
-        {
-          "swept_at": "2026-11-03T12:05:00-08:00",
-          "price": null
-        }
-      ],
-      "first_seen": "2026-11-03T12:05:00-08:00",
-      "last_seen": "2026-11-03T12:05:00-08:00",
-      "image": "data/black-friday/img/7d685b0c2fd7b07d.webp"
-    },
-    {
-      "item_key": "gray-line-hoover-dam-express-2026",
-      "section": "travel",
-      "shelf": "vegas_local",
-      "sub": null,
-      "category": "vegas_local",
-      "subcategory": "experience",
-      "item": "Gray Line Hoover Dam Express tour $96 (from $129)",
-      "retailer": "Gray Line Las Vegas",
-      "price": 96,
-      "price_label": null,
-      "price_raw": 96,
-      "regular_price": 129,
-      "discount": "$33 off",
-      "deal_status": "live",
-      "date_found": "2026-11-03",
-      "source_url": "https://graylinelasvegas.com/special-offers/",
-      "image_url": "https://graylinelasvegas.com/wp-content/uploads/2023/02/1-3.jpg",
-      "image_alt": "Gray Line Las Vegas tour",
-      "new_release": false,
-      "notes": "4.5-hour bus tour from Las Vegas; current special offer, not Black Friday-branded.",
-      "price_history": [
-        {
-          "swept_at": "2026-11-03T12:05:00-08:00",
-          "price": 96
-        }
-      ],
-      "first_seen": "2026-11-03T12:05:00-08:00",
-      "last_seen": "2026-11-03T12:05:00-08:00",
-      "image": "data/black-friday/img/121373e4383ad2e2.webp"
-    },
-    {
-      "item_key": "omega-mart-nv-resident-discount-2026",
-      "section": "travel",
-      "shelf": "vegas_local",
-      "sub": null,
-      "category": "vegas_local",
-      "subcategory": "attraction",
-      "item": "Omega Mart GA from $45; NV resident discount",
-      "retailer": "Meow Wolf Omega Mart (AREA15)",
-      "price": 45,
-      "price_label": null,
-      "price_raw": 45,
-      "regular_price": null,
-      "discount": "Nevada residents: discounted GA via ZIP at checkout",
-      "deal_status": "live",
-      "date_found": "2026-11-03",
-      "source_url": "https://meowwolf.com/visit/las-vegas/tickets",
-      "image_url": "https://webassets.meowwolf.com/cdn.prod/5dad7a19f43e6f31a9e92718/6605ca49076b8ddf76a4bd4b_LAS_front-of-house-omega-mart.webp",
-      "image_alt": "Omega Mart storefront at AREA15",
-      "new_release": false,
-      "notes": "Ongoing local discount, not a Black Friday promo. Anytime admission from $75.",
-      "price_history": [
-        {
-          "swept_at": "2026-11-03T12:05:00-08:00",
-          "price": 45
-        }
-      ],
-      "first_seen": "2026-11-03T12:05:00-08:00",
-      "last_seen": "2026-11-03T12:05:00-08:00",
-      "image": "data/black-friday/img/2fce99c6c284ba6f.webp"
-    },
-    {
-      "item_key": "eagles-sphere-vibee-package-2026-27",
-      "section": "travel",
-      "shelf": "concerts_theater",
-      "sub": "travel_package",
-      "category": "concerts_theater",
-      "subcategory": "travel_package",
-      "item": "Eagles at Sphere: ticket + 2 nights Venetian from $990pp",
-      "retailer": "Vibee",
-      "price": 990,
-      "price_label": null,
-      "price_raw": 990,
-      "regular_price": null,
-      "discount": null,
-      "deal_status": "live",
-      "date_found": "2026-11-03",
-      "source_url": "https://eagles.vibee.com/",
-      "image_url": null,
-      "image_alt": null,
-      "new_release": false,
-      "notes": "Official package partner. VIP from $1,400pp. Dates Nov 13/14/27/28, Dec 4/5/11/12, Jan 8/9/15/16/22/23. Prices per person, double occupancy, incl. taxes/fees; resort fee extra. 4-night Thanksgiving (Nov 27) options.",
-      "price_history": [
-        {
-          "swept_at": "2026-11-03T12:05:00-08:00",
-          "price": 990
-        }
-      ],
-      "first_seen": "2026-11-03T12:05:00-08:00",
-      "last_seen": "2026-11-03T12:05:00-08:00",
-      "image": null
-    },
-    {
-      "item_key": "metallica-m72-2027-travel-packages",
-      "section": "travel",
-      "shelf": "concerts_theater",
-      "sub": "travel_package",
-      "category": "concerts_theater",
-      "subcategory": "travel_package",
-      "item": "Metallica 2027 M72 tour official travel packages",
-      "retailer": "Metallica Travel (Superfan)",
-      "price": null,
-      "price_label": null,
-      "price_raw": null,
-      "regular_price": null,
-      "discount": null,
-      "deal_status": "live",
-      "date_found": "2026-11-03",
-      "source_url": "https://www.metallica.com/news/2026-09-16-2027-m72-world-tour-faq.html",
-      "image_url": null,
-      "image_alt": null,
-      "new_release": false,
-      "notes": "Hotel + ticket + merch + local transit packages in every market via metallicatravel.com; on sale since Sept 23, 2026. Prices not captured.",
-      "price_history": [
-        {
-          "swept_at": "2026-11-03T12:05:00-08:00",
-          "price": null
-        }
-      ],
-      "first_seen": "2026-11-03T12:05:00-08:00",
-      "last_seen": "2026-11-03T12:05:00-08:00",
-      "image": null
-    },
-    {
-      "item_key": "metallica-sphere-vibee-package-2026-27",
-      "section": "travel",
-      "shelf": "concerts_theater",
-      "sub": "travel_package",
-      "category": "concerts_theater",
-      "subcategory": "travel_package",
-      "item": "Metallica at Sphere: 2 shows + 3 nights from $1,077pp",
-      "retailer": "Vibee / Superfan",
-      "price": 1077,
-      "price_label": null,
-      "price_raw": 1077,
-      "regular_price": null,
-      "discount": null,
-      "deal_status": "live",
-      "date_found": "2026-11-03",
-      "source_url": "https://metallica.vibee.com/",
-      "image_url": null,
-      "image_alt": null,
-      "new_release": false,
-      "notes": "Official No Repeat Weekend package: Thu+Sat tickets + 3 nights Venetian or Virgin Hotels. Diamond from $1,742pp adds airport motorcoach + priority entry. Remaining weekends Nov 5&7, 2026; Jan 28-Mar 13, 2027. Per-person pricing may assume double occupancy; check solo rate.",
-      "price_history": [
-        {
-          "swept_at": "2026-11-03T12:05:00-08:00",
-          "price": 1077
-        }
-      ],
-      "first_seen": "2026-11-03T12:05:00-08:00",
-      "last_seen": "2026-11-03T12:05:00-08:00",
-      "image": null
-    },
-    {
-      "item_key": "caesars-thomas-rhett-ticket-hotel-2026",
-      "section": "travel",
-      "shelf": "concerts_theater",
-      "sub": "travel_package",
-      "category": "concerts_theater",
-      "subcategory": "travel_package",
-      "item": "Thomas Rhett Colosseum ticket + hotel pkgs, Dec 10/12",
-      "retailer": "Caesars Palace / Live Nation",
-      "price": null,
-      "price_label": null,
-      "price_raw": null,
-      "regular_price": null,
-      "discount": null,
-      "deal_status": "live",
-      "date_found": "2026-11-03",
-      "source_url": "https://www.livenation.com/event/17C8v0G62Njx6Wm/thomas-rhett-official-caesars-ticket-hotel-packages",
-      "image_url": "https://s1.ticketm.net/dam/a/462/7fafe3b5-78c3-4e68-82e9-5f6287d08462_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "image_alt": "Thomas Rhett event artwork",
-      "new_release": false,
-      "notes": "Official Caesars ticket + hotel package (country). Price not shown without checkout.",
-      "price_history": [
-        {
-          "swept_at": "2026-11-03T12:05:00-08:00",
-          "price": null
-        }
-      ],
-      "first_seen": "2026-11-03T12:05:00-08:00",
-      "last_seen": "2026-11-03T12:05:00-08:00",
-      "image": "data/black-friday/img/2e192f891bf44fa1.webp"
-    },
-    {
-      "item_key": "caesars-tim-mcgraw-ticket-hotel-2026",
-      "section": "travel",
-      "shelf": "concerts_theater",
-      "sub": "travel_package",
-      "category": "concerts_theater",
-      "subcategory": "travel_package",
-      "item": "Tim McGraw Colosseum ticket + hotel packages, Nov",
-      "retailer": "Caesars Palace / Ticketmaster",
-      "price": null,
-      "price_label": null,
-      "price_raw": null,
-      "regular_price": null,
-      "discount": null,
-      "deal_status": "live",
-      "date_found": "2026-11-03",
-      "source_url": "https://www.ticketmaster.com/explore/lv-shows-pod-packages",
-      "image_url": null,
-      "image_alt": null,
-      "new_release": false,
-      "notes": "Official Caesars Ticket + Hotel Packages listed for Nov 4, 6, 7, 12, 2026+ shows. Price not captured.",
-      "price_history": [
-        {
-          "swept_at": "2026-11-03T12:05:00-08:00",
-          "price": null
-        }
-      ],
-      "first_seen": "2026-11-03T12:05:00-08:00",
-      "last_seen": "2026-11-03T12:05:00-08:00",
-      "image": null
-    },
-    {
       "item_key": "apple-watch-ultra-4-amazon",
       "section": "gear_tech",
       "shelf": "wildcard",
@@ -3007,13 +3571,13 @@
       "retailer": "Amazon",
       "price": 699.99,
       "price_label": null,
-      "price_raw": "$699.99",
+      "price_raw": 699.99,
       "regular_price": null,
       "discount": "per MacRumors early-BF roundup",
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.macrumors.com/2026/11/02/best-early-black-friday-deals-2026/",
-      "image_url": "https://images.macrumors.com/t/WFhU3_aXXy5DzgUYuu6roYRdJew=/2500x/article-new/2026/11/Black-Friday-Deals-26-10.jpg",
+      "image_url": null,
       "image_alt": "Apple Watch Ultra 4",
       "new_release": false,
       "notes": "AirTag 2 $23 (all-time low)",
@@ -3025,7 +3589,7 @@
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
-      "image": "data/black-friday/img/a5ce7bc21e8ff6ab.webp"
+      "image": null
     },
     {
       "item_key": "segway-ninebot-f3-e-scooter-amazon",
@@ -3038,13 +3602,13 @@
       "retailer": "Amazon",
       "price": 649.99,
       "price_label": null,
-      "price_raw": "$649.99",
+      "price_raw": 649.99,
       "regular_price": 849.99,
       "discount": "was $849.99",
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.popsci.com/gear/amazon-early-black-friday-deals-2026-year-lows/",
-      "image_url": "https://www.popsci.com/wp-content/uploads/2026/11/early-black-friday-deals-amazon.jpg?w=1200",
+      "image_url": null,
       "image_alt": "Segway Ninebot F3 e-scooter",
       "new_release": false,
       "notes": null,
@@ -3056,7 +3620,7 @@
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
-      "image": "data/black-friday/img/1ee2c204b951c49c.webp"
+      "image": null
     },
     {
       "item_key": "weber-smoque-22-pellet-smoker-amazon",
@@ -3067,27 +3631,27 @@
       "subcategory": null,
       "item": "Weber Smoque 22\" pellet smoker",
       "retailer": "Amazon",
-      "price": 599,
+      "price": 599.0,
       "price_label": null,
-      "price_raw": "$599",
+      "price_raw": 599.0,
       "regular_price": 799.0,
       "discount": "was $799 (2026 low)",
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.popsci.com/gear/amazon-early-black-friday-deals-2026-year-lows/",
-      "image_url": "https://www.popsci.com/wp-content/uploads/2026/11/early-black-friday-deals-amazon.jpg?w=1200",
+      "image_url": null,
       "image_alt": "Weber Smoque 22\" pellet smoker",
       "new_release": false,
       "notes": null,
       "price_history": [
         {
           "swept_at": "2026-11-03T11:25:00-08:00",
-          "price": 599
+          "price": 599.0
         }
       ],
       "first_seen": "2026-11-03T11:25:00-08:00",
       "last_seen": "2026-11-03T11:25:00-08:00",
-      "image": "data/black-friday/img/1ee2c204b951c49c.webp"
+      "image": null
     }
   ]
 }
