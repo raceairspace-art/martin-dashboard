@@ -82,6 +82,38 @@
       ]
     },
     {
+      "id": "euc_onewheel",
+      "title": "EUC & Onewheel",
+      "icon": "euc",
+      "subsections": [
+        {
+          "id": "euc",
+          "title": "Electric unicycles",
+          "icon": "euc"
+        },
+        {
+          "id": "onewheel",
+          "title": "Onewheel",
+          "icon": "onewheel"
+        },
+        {
+          "id": "gear",
+          "title": "Gear",
+          "icon": "helmet"
+        },
+        {
+          "id": "parts_upgrades",
+          "title": "Parts & upgrades",
+          "icon": "wrench"
+        },
+        {
+          "id": "events",
+          "title": "Events",
+          "icon": "flag"
+        }
+      ]
+    },
+    {
       "id": "robots",
       "title": "Trending robots",
       "icon": "robot",

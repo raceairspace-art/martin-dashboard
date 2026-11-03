@@ -58,7 +58,8 @@ Adding a category or section is a one-line edit there; rebuild to apply. Empty s
 
 Current order: Vegas Local (`vegas_local`) · Concerts & Theater (`concerts_theater`: concert_ticket,
 concert_pass, theater, vip_package, travel_package) · Gear & tech (Jet skis, Motorcycles, RC aircraft, Drones,
-FPV goggles, Maker gear, New tech) · Trending robots · Computers & TVs · Gaming (`gaming`: Games, Consoles,
+FPV goggles, Maker gear, New tech) · EUC & Onewheel (`euc_onewheel`: Electric unicycles `euc`, Onewheel
+`onewheel`, Gear `gear`, Parts & upgrades `parts_upgrades`, Events `events`; hidden while empty) · Trending robots · Computers & TVs · Gaming (`gaming`: Games, Consoles,
 Gaming PCs, Accessories, Hardware; matched on `subcategory` `games`, `consoles`, `gaming_pcs`, `accessories`,
 `hardware`) · Winter ski (`ski_gear` + `ski_travel`) ·
 Season passes (`season_passes`: Ski passes, Amusement parks, Museums & attractions, Memberships) · Travel
@@ -66,11 +67,14 @@ Season passes (`season_passes`: Ski passes, Amusement parks, Museums & attractio
 
 Gear & tech parts, accessories, apparel and safety gear stay in their activity's subsection, because that
 subsection matches on the deal's `category` (e.g. `jet_skis_pwc` / `parts` → Jet skis). Subcategory aliases:
-`sim_racing` and `racing_wheels` → Gaming › Accessories; `ski_pass` → Season passes › Ski passes. A deal whose
+`sim_racing` and `racing_wheels` → Gaming › Accessories; `ski_pass` → Season passes › Ski passes. EUC & Onewheel aliases: section categories `euc`, `onewheel`,
+`electric_unicycle`, `unicycle`; Gear also matches `protective_gear`, `safety`, `helmet`, `apparel`, `armor`; Parts &
+upgrades matches `parts`, `upgrades`, `tires`, `batteries`; Events matches `event`, `group_ride`, `meetup`, `course`,
+`training`. A deal whose
 subcategory matches nothing shows under "More" at the end of its section; an unknown category goes to Wildcard.
 
 Icons available: pass ferris museum dice gift robot monitor ski plane ship bed suitcase ticket music masks crown star wave
-moto rcplane drone goggles maker chip gamepad disc handheld pc headset (see `ICONS` in `modules/black-friday/module.js`).
+moto rcplane drone goggles maker chip gamepad disc handheld pc headset euc onewheel helmet wrench flag (see `ICONS` in `modules/black-friday/module.js`).
 
 ## Files
 - `scripts/ingest_black_friday.py`, `config/black_friday_sections.json`

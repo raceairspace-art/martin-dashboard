@@ -43,6 +43,11 @@
     handheld: '<rect x="2" y="7" width="20" height="10" rx="4"/><rect x="7.5" y="9" width="9" height="6" rx="1"/><path d="M4.5 12h1.5M5.25 11.25v1.5M18.5 11h.01M19.5 13h.01"/>',
     pc: '<rect x="3" y="4" width="12" height="9" rx="1"/><path d="M6 17h6M9 13v4"/><rect x="17" y="4" width="4" height="16" rx="1"/><path d="M18.5 7h1M18.5 9.5h1"/>',
     headset: '<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/><path d="M19 20c0 1-2 2-5 2"/>',
+    euc: '<circle cx="12" cy="15" r="6"/><circle cx="12" cy="15" r="1.5"/><path d="M8 9.5V5.5a1.5 1.5 0 0 1 1.5-1.5h5A1.5 1.5 0 0 1 16 5.5v4M10 4V2.5h4V4M5.5 13H8M16 13h2.5"/>',
+    onewheel: '<path d="M2.5 13.5h19M3 13.5l-1 -2M21 13.5l1-2"/><circle cx="12" cy="13.5" r="4.5"/><circle cx="12" cy="13.5" r="1.2"/><path d="M4 21h16"/>',
+    helmet: '<path d="M4 16a8 8 0 0 1 16 0v1H4z"/><path d="M12 8v4M8 9.5l2 3M16 9.5l-2 3M4 17v2h7"/>',
+    wrench: '<path d="M14.7 6.3a4 4 0 0 0-5.4 5l-6 6a1.8 1.8 0 0 0 2.6 2.6l6-6a4 4 0 0 0 5-5.4l-2.4 2.4-2.2-.6-.6-2.2z"/>',
+    flag: '<path d="M5 21V4M5 4h11l-2 4 2 4H5"/><path d="M9 4v8M13 4v8" stroke-dasharray="2 2"/>',
     chip: '<rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/>',
   };
   const icon = (name, cls = "bf-ico") =>

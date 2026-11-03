@@ -159,6 +159,80 @@
       ]
     },
     {
+      "id": "euc_onewheel",
+      "title": "EUC & Onewheel",
+      "icon": "euc",
+      "categories": [
+        "euc_onewheel",
+        "euc",
+        "onewheel",
+        "electric_unicycle",
+        "electric_unicycles",
+        "unicycle"
+      ],
+      "subsections": [
+        {
+          "id": "euc",
+          "title": "Electric unicycles",
+          "icon": "euc",
+          "match": [
+            "euc",
+            "electric_unicycle",
+            "electric_unicycles",
+            "unicycle"
+          ]
+        },
+        {
+          "id": "onewheel",
+          "title": "Onewheel",
+          "icon": "onewheel",
+          "match": [
+            "onewheel",
+            "onewheel_board"
+          ]
+        },
+        {
+          "id": "gear",
+          "title": "Gear",
+          "icon": "helmet",
+          "match": [
+            "gear",
+            "protective_gear",
+            "safety",
+            "helmet",
+            "apparel",
+            "armor"
+          ]
+        },
+        {
+          "id": "parts_upgrades",
+          "title": "Parts & upgrades",
+          "icon": "wrench",
+          "match": [
+            "parts_upgrades",
+            "parts",
+            "upgrades",
+            "tires",
+            "batteries"
+          ]
+        },
+        {
+          "id": "events",
+          "title": "Events",
+          "icon": "flag",
+          "match": [
+            "events",
+            "event",
+            "group_ride",
+            "meetup",
+            "course",
+            "courses",
+            "training"
+          ]
+        }
+      ]
+    },
+    {
       "id": "robots",
       "title": "Trending robots",
       "icon": "robot",
