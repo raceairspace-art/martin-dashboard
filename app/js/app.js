@@ -19,7 +19,7 @@
   }
 
   function showView(id) {
-    ["view-home", "view-marketplace", "view-training"].forEach((vid) => {
+    ["view-home", "view-marketplace", "view-training", "view-calendar"].forEach((vid) => {
       const el = document.getElementById(vid);
       if (el) el.classList.toggle("hidden", vid !== id);
     });
@@ -114,6 +114,7 @@
     if (!cache) return;
     const market = MarketplaceHome.renderHomeStrip(cache);
     const train = TrainingHome.renderHomeStrip(cache);
+    if (globalThis.CalendarHome) CalendarHome.renderHomeStrip(cache);
     renderBanner(pickBanner(market, train));
     renderFeed(cache.feed);
     updateFreshness(cache);
@@ -137,6 +138,12 @@
     if (root === "training") {
       showView("view-training");
       if (cache && globalThis.TrainingModule) TrainingModule.render(cache, route);
+      updateFreshness(cache || {});
+      return;
+    }
+    if (root === "calendar") {
+      showView("view-calendar");
+      if (cache && globalThis.CalendarModule) CalendarModule.render(cache, route);
       updateFreshness(cache || {});
       return;
     }

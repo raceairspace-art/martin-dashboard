@@ -103,6 +103,16 @@ with open(out, "w") as f:
     json.dump(feed, f, indent=2); f.write("\n")
 PY
 
+# Calendar: minimal public projection made by scripts/ingest_calendar.py
+# (title/start/end/all_day only). Raw connector dumps never enter the repo.
+mkdir -p "$DIST/data/calendar"
+if [[ -f "$ROOT/data/calendar/events.json" ]]; then
+  cp "$ROOT/data/calendar/events.json" "$DIST/data/calendar/events.json"
+  echo "==> Calendar baked: $(python3 -c 'import json,sys;d=json.load(open(sys.argv[1]));print(len(d["events"]),"events,",", ".join(d["months"]))' "$ROOT/data/calendar/events.json")"
+else
+  echo "==> No data/calendar/events.json (Calendar tab will show an empty state)"
+fi
+
 # Marketplace status (always written; the SPA reads it before any car data).
 python3 - "$DIST/data/marketplace/status.json" <<'PY'
 import json, os, sys

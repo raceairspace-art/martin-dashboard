@@ -299,3 +299,11 @@ This never changes `status`, sorting, counts or stale badges. Stale badges come 
 `build_dist.sh` always writes `dist/data/marketplace/status.json` (`{"paused": bool, "since", "message"}`), and the SPA reads that file before any car data.
 While paused, no car data is baked or fetched, marketplace feed items are filtered out of the built feed, and ingest refuses to run.
 See `PAUSED.md` for restore steps.
+
+## Calendar (`data/calendar/events.json`)
+
+Minimal public projection of Michael's Google Calendar, produced by
+`scripts/ingest_calendar.py` from a raw `list_events` dump kept outside the repo.
+Fields per event: `title`, `start`, `end` (inclusive, YYYY-MM-DD, LA dates), `all_day`.
+Top level: `generated_at`, `timezone`, `end_is_inclusive`, `months` (baked months; the
+UI only offers prev/next within these). See `CALENDAR.md` for the refresh procedure.
