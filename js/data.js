@@ -15,8 +15,11 @@
 
   const FAV_LS_KEY = "martin-dashboard-favorites";
 
+  // Cache-busting: build_dist.sh stamps window.MARTIN_BUILD (content hash of the build) into index.html.
+  const withBuild = (path) => (global.MARTIN_BUILD ? path + (path.indexOf("?") < 0 ? "?" : "&") + "v=" + encodeURIComponent(global.MARTIN_BUILD) : path);
+
   async function fetchJson(path) {
-    const res = await fetch(path, { cache: "no-store" });
+    const res = await fetch(withBuild(path), { cache: "no-store" });
     if (!res.ok) throw new Error(`${path} → ${res.status}`);
     return res.json();
   }
