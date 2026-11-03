@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T11:42:44-08:00",
+ "updated_at": "2026-11-03T11:45:38-08:00",
  "source": "open-meteo+gordon",
  "fetch_error": null,
  "timezone": "America/Los_Angeles",
@@ -1311,7 +1311,7 @@
     "note": "Fine for general outdoors, sunny",
     "wind_mph": "11 (Vegas), 16-18 (lakes)",
     "gust_mph": "17-21",
-    "gust_diff_mph": null,
+    "gust_diff_mph": "4-8",
     "highs_f": "72-74"
    },
    "top_pick_rank": null,
