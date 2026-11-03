@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Weather for the Martin Dashboard (#/weather + Home widget).
 
-Pulls Open-Meteo hourly + daily forecasts for 4 Las Vegas-area spots, computes daytime
+Pulls Open-Meteo hourly + daily forecasts for the Las Vegas-area spots in Gordon's "locations" list
+(fallback: config/weather_locations.json `default`), computes daytime
 (7am-5pm PT) wind numbers per day, derives activity ratings from documented thresholds,
 and overlays GoodWeatherGordon's headline file (/workspace/weather/low-wind-YYYY-MM-DD.json,
 newest wins, read-only). Writes data/weather/forecast.json.
@@ -22,12 +23,45 @@ TZ = "America/Los_Angeles"
 DAY_START, DAY_END = 7, 17          # daytime window: 07:00 .. 17:00 PT inclusive
 LOW_WIND_SUSTAINED, LOW_WIND_DIFF = 8, 10   # qualifies: sustained <= 8 AND gust diff < 10
 
-LOCATIONS = [
-    {"id": "las_vegas", "name": "Las Vegas", "lat": 36.1699, "lon": -115.1398, "lake": False},
-    {"id": "lake_las_vegas", "name": "Lake Las Vegas", "lat": 36.1050, "lon": -114.9270, "lake": True},
-    {"id": "lake_mead", "name": "Lake Mead (Boulder Beach)", "lat": 36.0310, "lon": -114.7980, "lake": True},
-    {"id": "lake_mohave", "name": "Lake Mohave (Cottonwood Cove)", "lat": 35.4910, "lon": -114.6840, "lake": True},
-]
+LOC_CONFIG = ROOT / "config" / "weather_locations.json"
+LOC_KEYS = ("id", "name", "lat", "lon", "lake", "rc_field")
+
+
+def norm_name(s):
+    return re.sub(r"\s+", " ", str(s or "")).strip().lower()
+
+
+def resolve_locations(gordon):
+    """Locations to show, in order: Gordon's "locations" names if present, else config `default`.
+    Coordinates and flags always come from config/weather_locations.json. A name Gordon lists that
+    the config doesn't know is kept (shown as "—") but not fetched, since there are no coordinates."""
+    cfg = json.loads(LOC_CONFIG.read_text())
+    cat = cfg["catalog"]
+    by_id = {c["id"]: c for c in cat}
+    by_name = {}
+    for c in cat:
+        for n in [c["name"], *c.get("aliases", [])]:
+            by_name.setdefault(norm_name(n), c)
+    names = (gordon or {}).get("locations")
+    out, src, unknown = [], "config", []
+    if isinstance(names, list) and any(isinstance(n, str) and n.strip() for n in names):
+        src = "gordon"
+        for n in names:
+            if not isinstance(n, str) or not n.strip():
+                continue
+            c = by_name.get(norm_name(n))
+            if c is None:
+                unknown.append(n)
+                slug = re.sub(r"[^a-z0-9]+", "_", norm_name(n)).strip("_") or "loc"
+                c = {"id": slug, "name": n.strip(), "lat": None, "lon": None, "lake": False, "rc_field": False}
+            if all(o["id"] != c["id"] for o in out):
+                out.append(c)
+    else:
+        out = [by_id[i] for i in cfg["default"] if i in by_id]
+    return [{k: c.get(k, False if k in ("lake", "rc_field") else None) for k in LOC_KEYS} for c in out], src, unknown
+
+
+LOCATIONS = []  # set in main() via resolve_locations()
 
 # Activity thresholds (all mph / %). A day gets the first tier whose limits it meets; else NO-GO.
 # sustained = max daytime sustained wind, gust = max daytime gust, diff = gust - sustained,
@@ -102,10 +136,10 @@ def load_gordon():
         return None, best[1].name
 
 
-def fetch(start, end):
+def fetch(start, end, locs):
     q = {
-        "latitude": ",".join(str(l["lat"]) for l in LOCATIONS),
-        "longitude": ",".join(str(l["lon"]) for l in LOCATIONS),
+        "latitude": ",".join(str(l["lat"]) for l in locs),
+        "longitude": ",".join(str(l["lon"]) for l in locs),
         "hourly": "wind_speed_10m,wind_gusts_10m,wind_direction_10m,temperature_2m,precipitation_probability,weather_code",
         "daily": "temperature_2m_max,temperature_2m_min,weather_code,precipitation_probability_max",
         "wind_speed_unit": "mph", "temperature_unit": "fahrenheit", "timezone": TZ,
@@ -152,6 +186,10 @@ def main():
     now = datetime.now(ZoneInfo(TZ))
     today = now.date()
     gordon, gordon_file = load_gordon()
+    global LOCATIONS
+    LOCATIONS, loc_source, loc_unknown = resolve_locations(gordon)
+    for n in loc_unknown:
+        print(f"  WARNING: Gordon location {n!r} is not in config/weather_locations.json (no coordinates; shown as \"—\")")
     gdays = {d.get("date"): d for d in (gordon or {}).get("days", []) if isinstance(d, dict) and d.get("date")}
     if gdays:
         w_start, w_end = min(gdays), max(gdays)
@@ -168,8 +206,9 @@ def main():
     source, error, per_loc = "open-meteo+gordon", None, {}
     if dates and os.environ.get("WEATHER_NO_FETCH") != "1":
         try:
-            res = fetch(dates[0], dates[-1])
-            for loc, r in zip(LOCATIONS, res):
+            geo = [l for l in LOCATIONS if l["lat"] is not None and l["lon"] is not None]
+            res = fetch(dates[0], dates[-1], geo) if geo else []
+            for loc, r in zip(geo, res):
                 h, dd = r["hourly"], r["daily"]
                 per_loc[loc["id"]] = {day: day_metrics(h, dd, dd["time"].index(day), day)
                                       for day in dates if day in dd["time"]}
@@ -200,7 +239,8 @@ def main():
         "timezone": TZ,
         "window": {"start": w_start, "end": w_end, "daytime": f"{DAY_START:02d}:00-{DAY_END:02d}:00"},
         "low_wind_rule": {"sustained_max": LOW_WIND_SUSTAINED, "gust_diff_lt": LOW_WIND_DIFF},
-        "locations": [{k: l[k] for k in ("id", "name", "lat", "lon", "lake")} for l in LOCATIONS],
+        "locations": [{k: l[k] for k in LOC_KEYS} for l in LOCATIONS],
+        "locations_source": loc_source,
         "activities": [{"id": a["id"], "name": a["name"],
                         "tiers": [{"rating": n, **lim} for n, lim in a["tiers"]]} for a in ACTIVITIES],
         "gordon": None if not gordon else {
@@ -212,8 +252,9 @@ def main():
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(doc, indent=1, ensure_ascii=False) + "\n")
-    lv = [(d["date"][5:], (d["locations"]["las_vegas"] or {}).get("sustained"), (d["locations"]["las_vegas"] or {}).get("gust"),
+    lv = [(d["date"][5:], (d["locations"].get("las_vegas") or {}).get("sustained"), (d["locations"].get("las_vegas") or {}).get("gust"),
            (d["headline"] or {}).get("rating")) for d in days]
+    print(f"==> Weather locations ({loc_source}): {[l['name'] for l in LOCATIONS]}")
     print(f"==> Weather: {len(days)} day(s) {dates[0] if dates else '-'}..{dates[-1] if dates else '-'}, source={source}, "
           f"Gordon={gordon_file or 'none'}; Las Vegas (day, sust, gust, headline): {lv}")
 

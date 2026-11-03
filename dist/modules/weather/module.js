@@ -201,7 +201,10 @@
       const r = m && m.ratings && m.ratings.lake;
       if (r && (!lake || RANK[r] > RANK[lake.r])) lake = { r, name: l.name.replace(/ \(.*\)$/, "") };
     });
-    const fly = (day.headline && day.headline.rating) || (lv && lv.ratings && lv.ratings.rc) || null;
+    // Flying: Gordon's headline; fallback = derived RC rating at the RC field (Desert Breeze), else Las Vegas.
+    const rcLoc = (doc.locations || []).find((l) => l.rc_field);
+    const rcm = rcLoc ? day.locations && day.locations[rcLoc.id] : lv;
+    const fly = (day.headline && day.headline.rating) || (rcm && rcm.ratings && rcm.ratings.rc) || null;
     return `<a class="wx-hd" href="#/weather">
       <div class="wx-hd-top"><span class="wx-hd-lab">${esc(label)}<small>${esc(dayLabel(day.date))}</small></span>${lv ? condIcon(lv.code, "wx-hd-ic") : condIcon(null, "wx-hd-ic")}</div>
       <div class="wx-hd-temp"><strong>${num(lv && lv.high, "°")}</strong><span>/ ${num(lv && lv.low, "°F")}</span><em>${esc((lv && lv.condition) || "")}</em></div>
@@ -212,6 +215,15 @@
         <li>${svg(P.plane, "wx-ic")}<span>Low-wind flying</span>${chip(fly)}</li>
       </ul></a>`;
   }
+  const short = (n) => String(n || "").replace(/ \(.*\)$/, "");
+  function lakeNote(doc) {
+    const lakes = (doc.locations || []).filter((l) => l.lake);
+    return lakes.length === 1 ? `lake = ${short(lakes[0].name)}` : `lake = best of ${lakes.length} lakes`;
+  }
+  function flyNote(doc) {
+    const rc = (doc.locations || []).find((l) => l.rc_field);
+    return `flying = Gordon's headline${rc ? ` (else ${short(rc.name)} RC)` : ""}`;
+  }
   function renderHomeStrip(data) {
     const el = document.getElementById("weather-strip-body");
     if (!el) return;
@@ -220,7 +232,7 @@
     if (!days.length) { el.innerHTML = `<p class="empty-state">No forecast for today. <a href="#/weather">Open weather →</a></p>`; return; }
     const upd = fmtUpdated(doc.updated_at);
     el.innerHTML = `<div class="wx-home">${homeDay(days[0], doc, days[0].date === todayPT() ? "Today" : "Next")}${days[1] ? homeDay(days[1], doc, "Tomorrow") : ""}</div>
-      <p class="wx-home-meta">Las Vegas · daytime 7am–5pm · lake = best of 3 lakes · flying = Gordon's headline · Updated ${upd ? esc(upd) : dash}</p>`;
+      <p class="wx-home-meta">Las Vegas · daytime 7am–5pm · ${esc(lakeNote(doc))} · ${esc(flyNote(doc))} · Updated ${upd ? esc(upd) : dash}</p>`;
   }
 
   global.WeatherModule = { render };

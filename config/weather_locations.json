@@ -1,0 +1,11 @@
+{
+  "_doc": "Weather locations. Gordon's file decides which spots are shown and in what order (its \"locations\" list of names, matched case-insensitively to `name` or `aliases`). Without that field, `default` is used. Coordinates always come from here. `lake`: counts for the Home Lake flag. `rc_field`: its RC rating is the fallback for the Home low-wind flying flag.",
+  "default": ["las_vegas", "lake_mead", "desert_breeze"],
+  "catalog": [
+    {"id": "las_vegas", "name": "Las Vegas", "lat": 36.1699, "lon": -115.1398, "lake": false, "rc_field": false},
+    {"id": "lake_mead", "name": "Lake Mead (Boulder Beach)", "aliases": ["Lake Mead", "Boulder Beach"], "lat": 36.0310, "lon": -114.7980, "lake": true, "rc_field": false},
+    {"id": "desert_breeze", "name": "Desert Breeze Park", "aliases": ["Desert Breeze", "Desert Breeze Park (Spring Valley RC field)"], "lat": 36.123, "lon": -115.272, "lake": false, "rc_field": true},
+    {"id": "lake_las_vegas", "name": "Lake Las Vegas", "lat": 36.1050, "lon": -114.9270, "lake": true, "rc_field": false},
+    {"id": "lake_mohave", "name": "Lake Mohave (Cottonwood Cove)", "aliases": ["Lake Mohave", "Cottonwood Cove"], "lat": 35.4910, "lon": -114.6840, "lake": true, "rc_field": false}
+  ]
+}

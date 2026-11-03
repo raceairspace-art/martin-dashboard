@@ -6,11 +6,17 @@ Requested by GoodWeatherGordon. Las Vegas-area wind & weather for low-wind activ
 1. **Open-Meteo forecast** (no key), fetched at build time by `scripts/fetch_weather.py`:
    hourly `wind_speed_10m`, `wind_gusts_10m` (mph), `wind_direction_10m`, `temperature_2m` (°F),
    `precipitation_probability`, `weather_code`, plus daily high/low, timezone America/Los_Angeles.
-   Locations: Las Vegas (36.170, -115.140) · Lake Las Vegas (36.105, -114.927) ·
-   Lake Mead / Boulder Beach (36.031, -114.798) · Lake Mohave / Cottonwood Cove (35.491, -114.684).
+   Locations (since Nov 3, Gordon's change): **Las Vegas** (36.170, -115.140) · **Lake Mead (Boulder Beach)**
+   (36.031, -114.798, lake) · **Desert Breeze Park** (Spring Valley RC field, 36.123, -115.272, RC field).
+   Lake Las Vegas and Lake Mohave (Cottonwood Cove) were removed from the page; they stay in the config catalog.
 2. **Gordon's headline file**: `/workspace/weather/low-wind-YYYY-MM-DD.json` (newest date in the file name wins;
    **read-only**, never modified). Supplies the headline rating per day (BEST | GOOD | MARGINAL | NO-GO), label,
-   note, his wind/gust/highs ranges (shown verbatim), `all_days` and `top_picks`.
+   note, his wind/gust/highs ranges (shown verbatim), `all_days`, `top_picks` and `locations`.
+3. **`config/weather_locations.json`**: the location list. Gordon's `locations` (names) decides which spots are
+   shown and in what order. Names are matched case-insensitively against `name` or `aliases`. If his file has no
+   `locations` field, the config's `default` list is used. Coordinates and flags (`lake`, `rc_field`) always come
+   from the config. A name the config doesn't know is still shown, but its card reads "—" (it has no coordinates, so it isn't fetched) and the build logs a warning:
+   add it to `catalog` with lat/lon. `forecast.json` records `locations_source` (`gordon` | `config`).
 
 ## Refresh (Gordon refreshes ~6am PT daily through Nov 9)
 1. Gordon drops the new `/workspace/weather/low-wind-YYYY-MM-DD.json`.
@@ -46,11 +52,13 @@ always matches. **Gordon's headline rating is shown as-is** and is never recompu
 ## Display
 - `#/weather`: hero with "Updated" time (forecast fetch, PT) and Gordon's issue date, Top picks bar (Gordon's ranked
   dates), one card per day (past days hidden client-side by PT date) with Gordon's headline chip/label/ranges/note and
-  four location cards (icon, high/low, wind, gusts, gust diff, direction arrow, rain, gust gauge with the 8 mph
+  one location card per configured spot (3 now) (icon, high/low, wind, gusts, gust diff, direction arrow, rain, gust gauge with the 8 mph
   limit, hourly bars, five activity chips), then a definitions/thresholds legend.
 - Home widget: Today + Tomorrow for Las Vegas (icon, high/low, wind/gusts + arrow) with flags: **Outdoors**
-  (Las Vegas outdoors rating), **Lake** (best lake rating among the 3 lakes, lake named), **Low-wind flying**
-  (Gordon's headline rating; falls back to the derived RC rating). Links to `#/weather`.
+  (Las Vegas outdoors rating), **Lake** (lake rating of the `lake` spots, now Lake Mead only, lake named),
+  **Low-wind flying** (Gordon's headline rating; falls back to the derived RC rating at the `rc_field` spot, Desert
+  Breeze Park, or Las Vegas if there is none). The footer line reflects this ("lake = Lake Mead · flying = Gordon's
+  headline (else Desert Breeze Park RC)"). Links to `#/weather`.
 - Chips: BEST green, GOOD teal, MARGINAL amber (dark text), NO-GO red, "—" grey = unknown.
 
 ## Failure behaviour
@@ -60,6 +68,6 @@ show "—". Nothing is estimated. If Gordon's file is missing, days show "No hea
 The step never fails the build.
 
 ## Files
-`scripts/fetch_weather.py` · `data/weather/forecast.json` · `modules/weather/module.js` (WeatherModule,
+`scripts/fetch_weather.py` · `config/weather_locations.json` · `data/weather/forecast.json` · `modules/weather/module.js` (WeatherModule,
 WeatherHome) · CSS block "Weather" in `app/css/styles.css` · wiring in `app/index.html`, `app/js/app.js`, `app/js/data.js`,
 `scripts/build_dist.sh`.
