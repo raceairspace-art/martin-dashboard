@@ -1,11 +1,80 @@
 {
-  "_doc": "Weather locations. Gordon's file decides which spots are shown and in what order (its \"locations\" list of names, matched case-insensitively to `name` or `aliases`). Without that field, `default` is used. Coordinates always come from here. `lake`: counts for the Home Lake flag. `rc_field`: its RC rating is the fallback for the Home low-wind flying flag.",
-  "default": ["las_vegas", "lake_mead", "desert_breeze"],
+  "_doc": "Weather locations. Gordon's file decides which spots are shown and in what order (its \"locations\" list of names, matched case-insensitively to `name` or `aliases`). Without that field, `default` is used. Coordinates always come from here. `lake`: counts for the Home Lake flag. `rc_field`: its RC rating is the fallback for the Home low-wind flying flag. Optional: `elevation_m` (sent to Open-Meteo so temps/wind are correct for that height), `snow` (fetch snowfall + snow depth and show them), `gordon_key` (per-day block in Gordon's file, e.g. brian_head: his skiing rating/note and low_wind are shown as-is), `gordon_info` (top-level note shown on the card).",
+  "default": [
+    "las_vegas",
+    "lake_mead",
+    "desert_breeze",
+    "brian_head"
+  ],
   "catalog": [
-    {"id": "las_vegas", "name": "Las Vegas", "lat": 36.1699, "lon": -115.1398, "lake": false, "rc_field": false},
-    {"id": "lake_mead", "name": "Lake Mead (Boulder Beach)", "aliases": ["Lake Mead", "Boulder Beach"], "lat": 36.0310, "lon": -114.7980, "lake": true, "rc_field": false},
-    {"id": "desert_breeze", "name": "Desert Breeze Park", "aliases": ["Desert Breeze", "Desert Breeze Park (Spring Valley RC field)"], "lat": 36.123, "lon": -115.272, "lake": false, "rc_field": true},
-    {"id": "lake_las_vegas", "name": "Lake Las Vegas", "lat": 36.1050, "lon": -114.9270, "lake": true, "rc_field": false},
-    {"id": "lake_mohave", "name": "Lake Mohave (Cottonwood Cove)", "aliases": ["Lake Mohave", "Cottonwood Cove"], "lat": 35.4910, "lon": -114.6840, "lake": true, "rc_field": false}
+    {
+      "id": "las_vegas",
+      "name": "Las Vegas",
+      "lat": 36.1699,
+      "lon": -115.1398,
+      "lake": false,
+      "rc_field": false
+    },
+    {
+      "id": "lake_mead",
+      "name": "Lake Mead (Boulder Beach)",
+      "aliases": [
+        "Lake Mead",
+        "Boulder Beach"
+      ],
+      "lat": 36.031,
+      "lon": -114.798,
+      "lake": true,
+      "rc_field": false
+    },
+    {
+      "id": "desert_breeze",
+      "name": "Desert Breeze Park",
+      "aliases": [
+        "Desert Breeze",
+        "Desert Breeze Park (Spring Valley RC field)"
+      ],
+      "lat": 36.123,
+      "lon": -115.272,
+      "lake": false,
+      "rc_field": true
+    },
+    {
+      "id": "brian_head",
+      "name": "Brian Head, UT",
+      "aliases": [
+        "Brian Head",
+        "Brian Head Resort",
+        "Brian Head Resort, UT"
+      ],
+      "lat": 37.7,
+      "lon": -112.85,
+      "elevation_m": 2957,
+      "lake": false,
+      "rc_field": false,
+      "snow": true,
+      "gordon_key": "brian_head",
+      "gordon_info": "brian_head_info"
+    },
+    {
+      "id": "lake_las_vegas",
+      "name": "Lake Las Vegas",
+      "lat": 36.105,
+      "lon": -114.927,
+      "lake": true,
+      "rc_field": false
+    },
+    {
+      "id": "lake_mohave",
+      "name": "Lake Mohave (Cottonwood Cove)",
+      "aliases": [
+        "Lake Mohave",
+        "Cottonwood Cove"
+      ],
+      "lat": 35.491,
+      "lon": -114.684,
+      "lake": true,
+      "rc_field": false
+    }
   ]
 }

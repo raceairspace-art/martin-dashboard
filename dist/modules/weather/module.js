@@ -91,13 +91,30 @@
     return `<div class="wx-hourly" aria-label="Hourly wind 7am to 5pm"><div class="wx-hbars">${bars}</div><div class="wx-hlab"><span>7a</span><span>noon</span><span>5p</span></div></div>`;
   }
 
-  function locCard(loc, m, doc) {
+  const inch = (v) => (v == null || Number.isNaN(Number(v)) ? dash : (Math.round(Number(v) * 10) / 10) + "″");
+  // Gordon's per-location block (e.g. Brian Head): skiing rating/note, low_wind and his numbers, all shown as-is.
+  function gordonBits(loc, gb, doc) {
+    const info = doc.gordon && doc.gordon.info && doc.gordon.info[loc.id];
+    if (!gb && !info) return { ski: "", line: "", info: "" };
+    const v = (x, u) => (x == null ? dash : esc(x) + (u || ""));
+    const ski = gb && ("skiing" in gb) ? `<li class="wx-ski"><span>Skiing <small class="wx-muted">(Gordon)</small></span>${chip(gb.skiing)}</li>
+      ${gb.skiing_note ? `<li class="wx-ski-note">${esc(gb.skiing_note)}</li>` : ""}` : "";
+    const line = gb ? `<p class="wx-gline"><em>Gordon</em> wind ${v(gb.wind_mph)} · gusts ${v(gb.gust_mph)} · diff ${v(gb.gust_diff_mph)} mph · ${v(gb.high_f, "°")}/${v(gb.low_f, "°F")} · snow ${v(gb.snowfall_in, "″")}</p>` : "";
+    return { ski, line, info: info ? `<p class="wx-loc-info">${esc(info)}</p>` : "" };
+  }
+  function locCard(loc, m, doc, gb) {
     const acts = doc.activities || [];
+    const G = gordonBits(loc, gb, doc);
     if (!m) {
       return `<article class="wx-loc wx-loc-na"><h4>${svg(P.pin, "wx-ic wx-pin")}${esc(loc.name)}</h4>
-        <p class="wx-na-msg">Live forecast unavailable ${dash} see the day headline above.</p></article>`;
+        <p class="wx-na-msg">Live forecast unavailable ${dash} see the day headline above.</p>${G.line}${G.ski ? `<ul class="wx-acts">${G.ski}</ul>` : ""}${G.info}</article>`;
     }
-    const lw = m.low_wind === true ? `<span class="wx-lw yes">Low wind ✓</span>` : m.low_wind === false ? `<span class="wx-lw no">Not low wind</span>` : `<span class="wx-lw">Low wind ${dash}</span>`;
+    const glw = gb && typeof gb.low_wind === "string" ? gb.low_wind.toUpperCase() : null;
+    const lw = glw ? `<span class="wx-lw ${glw === "YES" ? "yes" : glw === "NO" ? "no" : ""}" title="Gordon's call">Low wind: ${esc(gb.low_wind)}</span>`
+      : m.low_wind === true ? `<span class="wx-lw yes">Low wind ✓</span>` : m.low_wind === false ? `<span class="wx-lw no">Not low wind</span>` : `<span class="wx-lw">Low wind ${dash}</span>`;
+    const snow = loc.snow ? `<dl class="wx-metrics wx-snow">
+        <div><dt>Snowfall</dt><dd><strong>${inch(m.snowfall_in)}</strong></dd></div>
+        <div><dt>Snow depth</dt><dd><strong>${inch(m.snow_depth_in)}</strong></dd></div></dl>` : "";
     return `<article class="wx-loc">
       <header><h4>${svg(P.pin, "wx-ic wx-pin")}${esc(loc.name)}</h4>${lw}</header>
       <div class="wx-now">${condIcon(m.code)}<div><div class="wx-temp"><strong>${num(m.high, "°")}</strong><span>/ ${num(m.low, "°F")}</span></div>
@@ -109,9 +126,12 @@
         <div><dt>From</dt><dd class="wx-dir">${arrow(m.direction)}<strong>${compass(m.direction)}</strong></dd></div>
         <div><dt>Rain</dt><dd><strong>${num(m.rain, "%")}</strong></dd></div>
       </dl>
+      ${snow}
+      ${G.line}
       ${gauge(m, doc.low_wind_rule)}
       ${hourly(m)}
-      <ul class="wx-acts">${acts.map((a) => `<li><span>${esc(a.name.replace(/ \(.*\)$/, ""))}</span>${chip(m.ratings && m.ratings[a.id])}</li>`).join("")}</ul>
+      <ul class="wx-acts">${acts.map((a) => `<li><span>${esc(a.name.replace(/ \(.*\)$/, ""))}</span>${chip(m.ratings && m.ratings[a.id])}</li>`).join("")}${G.ski}</ul>
+      ${G.info}
     </article>`;
   }
 
@@ -186,7 +206,7 @@
               ${day.top_pick_rank ? `<em class="wx-pick">${svg(P.star, "wx-ic")}Top pick #${day.top_pick_rank}</em>` : ""}</div>
             ${headline(day)}
           </header>
-          <div class="wx-locs">${(doc.locations || []).map((loc) => locCard(loc, day.locations && day.locations[loc.id], doc)).join("")}</div>
+          <div class="wx-locs">${(doc.locations || []).map((loc) => locCard(loc, day.locations && day.locations[loc.id], doc, day.gordon_locations && day.gordon_locations[loc.id])).join("")}</div>
         </section>`).join("") : `<div class="wx-empty">${svg(P.sun, "wx-empty-ic")}<p>No upcoming days in this forecast window. Gordon refreshes around 6am PT.</p></div>`}
       ${legend(doc)}
       </div>`;
@@ -218,7 +238,7 @@
         <li>${svg(P.hike, "wx-ic")}<span>Outdoors</span>${chip(lv && lv.ratings && lv.ratings.outdoors)}</li>
         <li>${svg(P.wave, "wx-ic")}<span>Lake${lake ? ` <small>(${esc(lake.name)})</small>` : ""}</span>${chip(lake && lake.r)}</li>
         <li>${svg(P.plane, "wx-ic")}<span>Low-wind flying</span>${chip(fly)}</li>
-      </ul></a>`;
+      </ul>${snowLines(day, doc)}</a>`;
   }
   const short = (n) => String(n || "").replace(/ \(.*\)$/, "");
   function lakeNote(doc) {
@@ -228,6 +248,15 @@
   function flyNote(doc) {
     const rc = (doc.locations || []).find((l) => l.rc_field);
     return `flying = Gordon's headline${rc ? ` (else ${short(rc.name)} RC)` : ""}`;
+  }
+  // Compact line per snow spot (Brian Head): Gordon's ski rating + snowfall (Open-Meteo, else Gordon's), never estimated.
+  function snowLines(day, doc) {
+    return (doc.locations || []).filter((l) => l.snow).map((l) => {
+      const gb = day.gordon_locations && day.gordon_locations[l.id];
+      const m = day.locations && day.locations[l.id];
+      const sf = m && m.snowfall_in != null ? m.snowfall_in : gb && gb.snowfall_in != null ? gb.snowfall_in : null;
+      return `<p class="wx-hd-snow">${esc(short(l.name).replace(/, [A-Z]{2}$/, ""))}: ski ${chip(gb && gb.skiing, "wx-chip-sm")} · snow ${inch(sf)}</p>`;
+    }).join("");
   }
   function renderHomeStrip(data) {
     const el = document.getElementById("weather-strip-body");

@@ -7,11 +7,19 @@ Requested by GoodWeatherGordon. Las Vegas-area wind & weather for low-wind activ
    hourly `wind_speed_10m`, `wind_gusts_10m` (mph), `wind_direction_10m`, `temperature_2m` (°F),
    `precipitation_probability`, `weather_code`, plus daily high/low, timezone America/Los_Angeles.
    Locations (since Nov 3, Gordon's change): **Las Vegas** (36.170, -115.140) · **Lake Mead (Boulder Beach)**
-   (36.031, -114.798, lake) · **Desert Breeze Park** (Spring Valley RC field, 36.123, -115.272, RC field).
+   (36.031, -114.798, lake) · **Desert Breeze Park** (Spring Valley RC field, 36.123, -115.272, RC field) ·
+   **Brian Head, UT** (37.70, -112.85, fetched at `elevation=2957` m ≈ 9,700 ft so temps/wind are mountain values;
+   other spots send `nan` = Open-Meteo's own terrain height). For Brian Head (`snow: true`) we also pull
+   hourly `snowfall` + `snow_depth` and daily `snowfall_sum` (`precipitation_unit=inch`; Open-Meteo returns
+   snow depth in ft, converted to inches). **Snowfall** = daily total (in), **Snow depth** = max daytime model depth (in),
+   "—" when Open-Meteo has none.
    Lake Las Vegas and Lake Mohave (Cottonwood Cove) were removed from the page; they stay in the config catalog.
 2. **Gordon's headline file**: `/workspace/weather/low-wind-YYYY-MM-DD.json` (newest date in the file name wins;
    **read-only**, never modified). Supplies the headline rating per day (BEST | GOOD | MARGINAL | NO-GO), label,
-   note, his wind/gust/highs ranges (shown verbatim), `all_days`, `top_picks` and `locations`.
+   note, his wind/gust/highs ranges (shown verbatim), `all_days`, `top_picks` and `locations`. Per-location
+   blocks named by the config's `gordon_key` (`brian_head`: wind, gust, diff, high/low, snowfall_in, low_wind,
+   skiing, skiing_note) are copied verbatim to `days[].gordon_locations`, and the top-level note named by
+   `gordon_info` (`brian_head_info`) goes to `gordon.info`.
 3. **`config/weather_locations.json`**: the location list. Gordon's `locations` (names) decides which spots are
    shown and in what order. Names are matched case-insensitively against `name` or `aliases`. If his file has no
    `locations` field, the config's `default` list is used. Coordinates and flags (`lake`, `rc_field`) always come
@@ -52,13 +60,17 @@ always matches. **Gordon's headline rating is shown as-is** and is never recompu
 ## Display
 - `#/weather`: hero with "Updated" time (forecast fetch, PT) and Gordon's issue date, Top picks bar (Gordon's ranked
   dates), one card per day (past days hidden client-side by PT date) with Gordon's headline chip/label/ranges/note and
-  one location card per configured spot (3 now) (icon, high/low, wind, gusts, gust diff, direction arrow, rain, gust gauge with the 8 mph
+  one location card per configured spot (4 now) (icon, high/low, wind, gusts, gust diff, direction arrow, rain, gust gauge with the 8 mph
   limit, hourly bars, five activity chips), then a definitions/thresholds legend.
 - Home widget: Today + Tomorrow for Las Vegas (icon, high/low, wind/gusts + arrow) with flags: **Outdoors**
   (Las Vegas outdoors rating), **Lake** (lake rating of the `lake` spots, now Lake Mead only, lake named),
   **Low-wind flying** (Gordon's headline rating; falls back to the derived RC rating at the `rc_field` spot, Desert
   Breeze Park, or Las Vegas if there is none). The footer line reflects this ("lake = Lake Mead · flying = Gordon's
-  headline (else Desert Breeze Park RC)"). Links to `#/weather`.
+  headline (else Desert Breeze Park RC)"). Under each day's flags is a compact line per snow spot:
+  "Brian Head: ski [Gordon's skiing chip] · snow N″" (Open-Meteo snowfall, else Gordon's). Links to `#/weather`.
+- Brian Head card: the usual card plus a Snowfall / Snow depth row, a "Gordon" line with his numbers verbatim,
+  his **low_wind YES/NO shown as-is** in the low-wind pill (instead of the computed one), a **Skiing** chip with
+  his rating and `skiing_note` as-is, and `brian_head_info` as a note at the bottom. Skiing is never computed by us.
 - Chips: BEST green, GOOD teal, MARGINAL amber (dark text), NO-GO red, "—" grey = unknown.
 
 ## Failure behaviour

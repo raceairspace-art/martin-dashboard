@@ -24,7 +24,8 @@ DAY_START, DAY_END = 7, 17          # daytime window: 07:00 .. 17:00 PT inclusiv
 LOW_WIND_SUSTAINED, LOW_WIND_DIFF = 8, 10   # qualifies: sustained <= 8 AND gust diff < 10
 
 LOC_CONFIG = ROOT / "config" / "weather_locations.json"
-LOC_KEYS = ("id", "name", "lat", "lon", "lake", "rc_field")
+LOC_KEYS = ("id", "name", "lat", "lon", "elevation_m", "lake", "rc_field", "snow", "gordon_key", "gordon_info")
+LOC_BOOL = ("lake", "rc_field", "snow")
 
 
 def norm_name(s):
@@ -53,12 +54,12 @@ def resolve_locations(gordon):
             if c is None:
                 unknown.append(n)
                 slug = re.sub(r"[^a-z0-9]+", "_", norm_name(n)).strip("_") or "loc"
-                c = {"id": slug, "name": n.strip(), "lat": None, "lon": None, "lake": False, "rc_field": False}
+                c = {"id": slug, "name": n.strip(), "lat": None, "lon": None}
             if all(o["id"] != c["id"] for o in out):
                 out.append(c)
     else:
         out = [by_id[i] for i in cfg["default"] if i in by_id]
-    return [{k: c.get(k, False if k in ("lake", "rc_field") else None) for k in LOC_KEYS} for c in out], src, unknown
+    return [{k: c.get(k, False if k in LOC_BOOL else None) for k in LOC_KEYS} for c in out], src, unknown
 
 
 LOCATIONS = []  # set in main() via resolve_locations()
@@ -140,9 +141,11 @@ def fetch(start, end, locs):
     q = {
         "latitude": ",".join(str(l["lat"]) for l in locs),
         "longitude": ",".join(str(l["lon"]) for l in locs),
-        "hourly": "wind_speed_10m,wind_gusts_10m,wind_direction_10m,temperature_2m,precipitation_probability,weather_code",
-        "daily": "temperature_2m_max,temperature_2m_min,weather_code,precipitation_probability_max",
-        "wind_speed_unit": "mph", "temperature_unit": "fahrenheit", "timezone": TZ,
+        # elevation: "nan" = Open-Meteo's own terrain height; set elevation_m for mountain spots (Brian Head).
+        "elevation": ",".join("nan" if l.get("elevation_m") is None else str(l["elevation_m"]) for l in locs),
+        "hourly": "wind_speed_10m,wind_gusts_10m,wind_direction_10m,temperature_2m,precipitation_probability,weather_code,snowfall,snow_depth",
+        "daily": "temperature_2m_max,temperature_2m_min,weather_code,precipitation_probability_max,snowfall_sum",
+        "wind_speed_unit": "mph", "temperature_unit": "fahrenheit", "precipitation_unit": "inch", "timezone": TZ,
         "start_date": start, "end_date": end,
     }
     url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(q)
@@ -152,7 +155,7 @@ def fetch(start, end, locs):
     return data if isinstance(data, list) else [data]
 
 
-def day_metrics(h, d, i_day, day):
+def day_metrics(h, d, i_day, day, snow=False, units=None):
     idx = [i for i, t in enumerate(h["time"]) if t.startswith(day) and DAY_START <= int(t[11:13]) <= DAY_END]
     pick = lambda k: [h[k][i] for i in idx if h[k][i] is not None]
     ws, wg = pick("wind_speed_10m"), pick("wind_gusts_10m")
@@ -176,6 +179,13 @@ def day_metrics(h, d, i_day, day):
                     "dir": h["wind_direction_10m"][i]} for i in idx],
     }
     m["condition"] = WMO.get(m["code"]) if m["code"] is not None else None
+    if snow:
+        # snowfall = daily total (inches); snow depth = max daytime model depth, converted to inches.
+        sf = d.get("snowfall_sum", [None] * (i_day + 1))[i_day]
+        m["snowfall_in"] = None if sf is None else round(sf, 1)
+        sd = [v for v in pick("snow_depth")] if "snow_depth" in h else []
+        mult = {"ft": 12, "m": 39.3701, "cm": 0.393701, "inch": 1, "in": 1}.get((units or {}).get("snow_depth"))
+        m["snow_depth_in"] = round(max(sd) * mult, 1) if sd and mult else None
     m["low_wind"] = (None if m["sustained"] is None or m["diff"] is None
                      else bool(m["sustained"] <= LOW_WIND_SUSTAINED and m["diff"] < LOW_WIND_DIFF))
     m["ratings"] = {a["id"]: rate(m, a["tiers"]) for a in ACTIVITIES}
@@ -210,7 +220,7 @@ def main():
             res = fetch(dates[0], dates[-1], geo) if geo else []
             for loc, r in zip(geo, res):
                 h, dd = r["hourly"], r["daily"]
-                per_loc[loc["id"]] = {day: day_metrics(h, dd, dd["time"].index(day), day)
+                per_loc[loc["id"]] = {day: day_metrics(h, dd, dd["time"].index(day), day, loc.get("snow"), r.get("hourly_units"))
                                       for day in dates if day in dd["time"]}
         except Exception as e:  # network, HTTP, schema
             error = f"{type(e).__name__}: {str(e)[:120]}"
@@ -230,6 +240,9 @@ def main():
             "headline": {k: g.get(k) for k in ("rating", "label", "note", "wind_mph", "gust_mph", "gust_diff_mph", "highs_f")} if g else None,
             "top_pick_rank": (picks.index(day) + 1) if day in picks else None,
             "locations": {loc["id"]: per_loc.get(loc["id"], {}).get(day) for loc in LOCATIONS},
+            # Gordon's per-location blocks (e.g. brian_head), copied verbatim; null if he has none for this day.
+            "gordon_locations": {loc["id"]: (g.get(loc["gordon_key"]) if isinstance(g.get(loc["gordon_key"]), dict) else None)
+                                 for loc in LOCATIONS if loc.get("gordon_key")},
         })
 
     doc = {
@@ -247,6 +260,8 @@ def main():
             "file": gordon_file, "issued": gordon.get("issued"), "source": gordon.get("source"),
             "window": gordon.get("window"), "definitions": gordon.get("definitions"),
             "all_days": gordon.get("all_days"), "top_picks": gordon.get("top_picks"),
+            "info": {l["id"]: gordon.get(l["gordon_info"]) for l in LOCATIONS
+                     if l.get("gordon_info") and isinstance(gordon.get(l["gordon_info"]), str)},
         },
         "days": days,
     }
