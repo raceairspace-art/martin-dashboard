@@ -1178,3 +1178,9 @@ a.mp-row { color: inherit; text-decoration: none; }
 /* Source outage note (neutral; display-only) */
 .badge.flag-outage { background: #eef2f7; color: #475569; border: 1px dashed #94a3b8; }
 .run-outage { margin: 0 0 0.5rem; font-size: 0.85rem; color: var(--muted, #64748b); }
+
+/* Marketplace paused state (config/marketplace.env) */
+.mp-paused { padding: 2rem 1rem; text-align: center; border: 1px dashed var(--border, #cbd5e1); border-radius: 10px; }
+.mp-paused.compact { padding: 1rem; text-align: left; }
+.mp-paused-title { margin: 0 0 0.25rem; font-weight: 600; }
+.mp-paused-sub { margin: 0; font-size: 0.9rem; color: var(--muted, #64748b); }

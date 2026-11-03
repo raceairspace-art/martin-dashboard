@@ -902,6 +902,21 @@
 
   function render(data, route) {
     const parts = (route && route.parts) || [];
+    if (MartinData.isMarketplacePaused && MartinData.isMarketplacePaused(data)) {
+      // Every marketplace route (list, #/marketplace/<id>, #/marketplace/search/...)
+      // falls back to the neutral paused state; no car data is loaded.
+      state.selectedId = null;
+      const lead = document.querySelector("#view-marketplace > .lead");
+      if (lead) lead.textContent = "";
+      const root = document.getElementById("marketplace-module-body");
+      if (root) {
+        root.innerHTML =
+          global.MarketplaceHome && MarketplaceHome.pausedHtml
+            ? MarketplaceHome.pausedHtml(data, false)
+            : `<p class="empty-state">Marketplace paused — no active searches</p>`;
+      }
+      return;
+    }
     if (parts[1] === "search" && global.MarketplaceSearches) {
       const slug = parts[2] ? decodeURIComponent(parts[2]) : "";
       const rec = parts[3] ? decodeURIComponent(parts[3]) : null;
