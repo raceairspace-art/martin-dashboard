@@ -118,7 +118,7 @@
     DATA.marketplaceStatus = marketplaceStatus;
     const paused = !!(marketplaceStatus && marketplaceStatus.paused === true);
     const skip = () => Promise.resolve(null);
-    const [watchlist, dailyHunt, favoritesSeed, lastDiff, progress, feed, sessionsIndex] =
+    const [watchlist, dailyHunt, favoritesSeed, lastDiff, progress, feed, sessionsIndex, calendar] =
       await Promise.all([
         paused ? skip() : fetchJson("data/marketplace/watchlist.json"),
         paused ? skip() : fetchJsonOptional("data/marketplace/daily_hunt.json"),
@@ -127,6 +127,7 @@
         fetchJsonOptional("data/systems-training/progress.json"),
         fetchJsonOptional("data/dashboard_feed.json"),
         fetchJsonOptional("data/systems-training/sessions_index.json"),
+        fetchJsonOptional("data/calendar/events.json"),
       ]);
     DATA.watchlist = watchlist;
     DATA.dailyHunt = dailyHunt;
@@ -134,6 +135,7 @@
     DATA.lastDiff = lastDiff;
     DATA.progress = progress;
     DATA.feed = feed || { updated_at: null, items: [] };
+    DATA.calendar = calendar;
     DATA.sessionsIndex = sessionsIndex || { updated_at: null, session_ids: [] };
     DATA.sessions = await loadSessions(DATA.sessionsIndex);
     DATA.loadedAt = new Date().toISOString();

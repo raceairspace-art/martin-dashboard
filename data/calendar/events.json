@@ -1,0 +1,667 @@
+{
+  "generated_at": "2026-11-03T11:12:51-08:00",
+  "timezone": "America/Los_Angeles",
+  "end_is_inclusive": true,
+  "months": [
+    "2026-10",
+    "2026-11",
+    "2026-12",
+    "2027-01"
+  ],
+  "events": [
+    {
+      "title": "The Big E",
+      "start": "2026-09-18",
+      "end": "2026-10-04",
+      "all_day": false
+    },
+    {
+      "title": "State Fair of Texas",
+      "start": "2026-09-25",
+      "end": "2026-10-18",
+      "all_day": false
+    },
+    {
+      "title": "Arizona State Fair",
+      "start": "2026-10-01",
+      "end": "2026-11-01",
+      "all_day": false
+    },
+    {
+      "title": "Aftershock Festival",
+      "start": "2026-10-01",
+      "end": "2026-10-04",
+      "all_day": false
+    },
+    {
+      "title": "Nall in the Fall",
+      "start": "2026-10-02",
+      "end": "2026-10-09",
+      "all_day": false
+    },
+    {
+      "title": "Austin City Limits Music Festival — Weekend 1",
+      "start": "2026-10-02",
+      "end": "2026-10-04",
+      "all_day": false
+    },
+    {
+      "title": "Hardly Strictly Bluegrass",
+      "start": "2026-10-02",
+      "end": "2026-10-04",
+      "all_day": false
+    },
+    {
+      "title": "Pacific Airshow Huntington Beach",
+      "start": "2026-10-02",
+      "end": "2026-10-04",
+      "all_day": true
+    },
+    {
+      "title": "IJSBA World Finals",
+      "start": "2026-10-03",
+      "end": "2026-10-11",
+      "all_day": false
+    },
+    {
+      "title": "Las Vegas BikeFest",
+      "start": "2026-10-08",
+      "end": "2026-10-11",
+      "all_day": false
+    },
+    {
+      "title": "Austin City Limits Music Festival — Weekend 2",
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "all_day": false
+    },
+    {
+      "title": "San Francisco Fleet Week",
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "all_day": false
+    },
+    {
+      "title": "Friday Night Flights | SquadFlight Labs | Session 06",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "all_day": false
+    },
+    {
+      "title": "Arizona High Desert Pattern Challenge",
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "all_day": true
+    },
+    {
+      "title": "REggie RiseUp (Vegas Vibes)",
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "all_day": true
+    },
+    {
+      "title": "Apple Valley Airshow + NAPA Car Show",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "all_day": false
+    },
+    {
+      "title": "Fall Swap Meet",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "all_day": true
+    },
+    {
+      "title": "Sedona Wings & Wheels",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "all_day": true
+    },
+    {
+      "title": "Las Vegas BiWeekly Drone Race Event",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "all_day": false
+    },
+    {
+      "title": "Los Angeles Tech Week",
+      "start": "2026-10-12",
+      "end": "2026-10-18",
+      "all_day": false
+    },
+    {
+      "title": "Indian National Finals Rodeo",
+      "start": "2026-10-13",
+      "end": "2026-10-17",
+      "all_day": false
+    },
+    {
+      "title": "Tucson Aerobatic Shootout",
+      "start": "2026-10-14",
+      "end": "2026-10-18",
+      "all_day": false
+    },
+    {
+      "title": "Daytona Biketoberfest",
+      "start": "2026-10-15",
+      "end": "2026-10-18",
+      "all_day": false
+    },
+    {
+      "title": "MultiGP Championship",
+      "start": "2026-10-15",
+      "end": "2026-10-17",
+      "all_day": false
+    },
+    {
+      "title": "Grapevine Fly-In Weekend",
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "all_day": true
+    },
+    {
+      "title": "Minden-Tahoe SkyFest",
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "all_day": true
+    },
+    {
+      "title": "Las Vegas Drones Monthly Meetup",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "all_day": false
+    },
+    {
+      "title": "Perkins Field Open House + Young Eagles",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "all_day": true
+    },
+    {
+      "title": "Vintage and Valor Over Vegas",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "all_day": true
+    },
+    {
+      "title": "NBAA-BACE",
+      "start": "2026-10-20",
+      "end": "2026-10-22",
+      "all_day": true
+    },
+    {
+      "title": "ADV Pahrump Rally",
+      "start": "2026-10-21",
+      "end": "2026-10-25",
+      "all_day": true
+    },
+    {
+      "title": "AMPS Warbirds and Classics",
+      "start": "2026-10-22",
+      "end": "2026-10-24",
+      "all_day": true
+    },
+    {
+      "title": "Sun Valley Jets",
+      "start": "2026-10-22",
+      "end": "2026-10-24",
+      "all_day": true
+    },
+    {
+      "title": "Las Vegas 300 Dual Sport Adventure",
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "all_day": true
+    },
+    {
+      "title": "Las Vegas BiWeekly Drone Race Event",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "all_day": false
+    },
+    {
+      "title": "Sin City FPV – Sunday Race (MultiGP)",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "all_day": false
+    },
+    {
+      "title": "Prop Nuts of Las Vegas Meeting",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "all_day": false
+    },
+    {
+      "title": "Circle Burners Top Gun Challenge",
+      "start": "2026-10-29",
+      "end": "2026-11-01",
+      "all_day": true
+    },
+    {
+      "title": "NHRA Drags",
+      "start": "2026-10-30",
+      "end": "2026-11-01",
+      "all_day": true
+    },
+    {
+      "title": "Wings Over Houston Airshow",
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "all_day": false
+    },
+    {
+      "title": "Vintage Wings & Wheels (CAF Mesa)",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "all_day": true
+    },
+    {
+      "title": "SEMA CAr Show open to public on 6th",
+      "start": "2026-11-03",
+      "end": "2026-11-06",
+      "all_day": true
+    },
+    {
+      "title": "R.A.D. Rally (Rubber Against Dirt)",
+      "start": "2026-11-04",
+      "end": "2026-11-08",
+      "all_day": true
+    },
+    {
+      "title": "Vegas Drone Meetup (3rd annual)",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "all_day": true
+    },
+    {
+      "title": "Southern Utah Jr High Rodeo",
+      "start": "2026-11-06",
+      "end": "2026-11-07",
+      "all_day": true
+    },
+    {
+      "title": "SEMA Fest",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "all_day": false
+    },
+    {
+      "title": "Howlin' at the Moon",
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "all_day": true
+    },
+    {
+      "title": "MAX POWER Aerospace Expo",
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "all_day": false
+    },
+    {
+      "title": "Boulder City Airport Day",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "all_day": false
+    },
+    {
+      "title": "Greatest Southwest Swap and Shop",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "all_day": true
+    },
+    {
+      "title": "Mighty Motor Mania",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "all_day": false
+    },
+    {
+      "title": "Prodigy RC 1-Year Anniversary Drift Meetup",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "all_day": false
+    },
+    {
+      "title": "Las Vegas BiWeekly Drone Race Event",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "all_day": false
+    },
+    {
+      "title": "Arizona Jet Rally",
+      "start": "2026-11-12",
+      "end": "2026-11-15",
+      "all_day": true
+    },
+    {
+      "title": "RMPRA Finals Rodeo",
+      "start": "2026-11-12",
+      "end": "2026-11-13",
+      "all_day": true
+    },
+    {
+      "title": "NGPC Round 10 – Desert MC Mesquite Grand Prix",
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "all_day": true
+    },
+    {
+      "title": "Dixie 6 High School Rodeo",
+      "start": "2026-11-13",
+      "end": "2026-11-14",
+      "all_day": true
+    },
+    {
+      "title": "Helldorado Days Rodeo",
+      "start": "2026-11-13",
+      "end": "2026-11-14",
+      "all_day": true
+    },
+    {
+      "title": "Beech Aero Club SW Region Fly-In",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "all_day": true
+    },
+    {
+      "title": "LVRC Fall Float Fly",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "all_day": false
+    },
+    {
+      "title": "Las Vegas Formula 1 Grand Prix",
+      "start": "2026-11-19",
+      "end": "2026-11-21",
+      "all_day": true
+    },
+    {
+      "title": "Coyote Crawl UTV Adventure",
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "all_day": true
+    },
+    {
+      "title": "Grapevine Fly-In (Roosevelt Lake)",
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "all_day": true
+    },
+    {
+      "title": "CFMOTO Demo Rides – Carter Powersports",
+      "start": "2026-11-20",
+      "end": "2026-11-21",
+      "all_day": true
+    },
+    {
+      "title": "Grassroots Off-Road + FASST 440 Team Race",
+      "start": "2026-11-20",
+      "end": "2026-11-21",
+      "all_day": true
+    },
+    {
+      "title": "Las Vegas Drones Meetup – Black Fire Innovation",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "all_day": false
+    },
+    {
+      "title": "Las Vegas Drones Monthly Meetup",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "all_day": true
+    },
+    {
+      "title": "LV Harley Local Legends Breakfast",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "all_day": false
+    },
+    {
+      "title": "Tech Alley Vegas",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "all_day": false
+    },
+    {
+      "title": "Toys for Tots Ride – Zion Harley-Davidson",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "all_day": false
+    },
+    {
+      "title": "Las Vegas BiWeekly Drone Race Event",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "all_day": false
+    },
+    {
+      "title": "Thanksgiving MX (AMA Thanksgiving Classic)",
+      "start": "2026-11-25",
+      "end": "2026-11-28",
+      "all_day": true
+    },
+    {
+      "title": "Prop Nuts of Las Vegas Meeting",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "all_day": false
+    },
+    {
+      "title": "LA–Barstow–Vegas Dual Sport",
+      "start": "2026-11-27",
+      "end": "2026-11-28",
+      "all_day": true
+    },
+    {
+      "title": "Casa Grande Airport Fly-In Breakfast",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "all_day": false
+    },
+    {
+      "title": "AWS re:Invent",
+      "start": "2026-11-30",
+      "end": "2026-12-04",
+      "all_day": false
+    },
+    {
+      "title": "NFR",
+      "start": "2026-12-03",
+      "end": "2026-12-12",
+      "all_day": true
+    },
+    {
+      "title": "Wrangler National Finals Rodeo",
+      "start": "2026-12-03",
+      "end": "2026-12-12",
+      "all_day": false
+    },
+    {
+      "title": "Terry Buckley Turbine Rodeo",
+      "start": "2026-12-03",
+      "end": "2026-12-05",
+      "all_day": true
+    },
+    {
+      "title": "DC-3 Society Operators Conference & Showcase",
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "all_day": true
+    },
+    {
+      "title": "TRCC Winter Scale Classic",
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "all_day": true
+    },
+    {
+      "title": "EAA Ch 1 Young Eagles Pancake Breakfast",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "all_day": false
+    },
+    {
+      "title": "Fly 4 Tots RC Fun-Fly (AMPS)",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "all_day": true
+    },
+    {
+      "title": "Planes of Fame B-25J Hangar Talk & Flight",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "all_day": false
+    },
+    {
+      "title": "SWRA Warbird Race",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "all_day": true
+    },
+    {
+      "title": "Las Vegas BiWeekly Drone Race Event",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "all_day": false
+    },
+    {
+      "title": "Toys for Tots AMA Fun-Fly (Encino)",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "all_day": true
+    },
+    {
+      "title": "ICAS Convention",
+      "start": "2026-12-07",
+      "end": "2026-12-10",
+      "all_day": true
+    },
+    {
+      "title": "AI Agents Summit",
+      "start": "2026-12-08",
+      "end": "2026-12-10",
+      "all_day": true
+    },
+    {
+      "title": "Lake Havasu Dock Glow",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "all_day": true
+    },
+    {
+      "title": "EAA 81 Breakfast Fly-In",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "all_day": true
+    },
+    {
+      "title": "Lake Havasu Boat Parade of Lights",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "all_day": true
+    },
+    {
+      "title": "Grapevine Fly-In (Roosevelt Lake)",
+      "start": "2026-12-18",
+      "end": "2026-12-20",
+      "all_day": true
+    },
+    {
+      "title": "Tech Alley Vegas",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "all_day": false
+    },
+    {
+      "title": "Las Vegas BiWeekly Drone Race Event",
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "all_day": false
+    },
+    {
+      "title": "Prop Nuts of Las Vegas Meeting",
+      "start": "2026-12-23",
+      "end": "2026-12-23",
+      "all_day": false
+    },
+    {
+      "title": "Casa Grande Airport Fly-In Breakfast",
+      "start": "2026-12-26",
+      "end": "2026-12-26",
+      "all_day": false
+    },
+    {
+      "title": "Las Vegas BiWeekly Drone Race Event",
+      "start": "2027-01-03",
+      "end": "2027-01-03",
+      "all_day": false
+    },
+    {
+      "title": "CES 2027",
+      "start": "2027-01-06",
+      "end": "2027-01-09",
+      "all_day": false
+    },
+    {
+      "title": "Grapevine Fly-In (Roosevelt Lake)",
+      "start": "2027-01-15",
+      "end": "2027-01-17",
+      "all_day": true
+    },
+    {
+      "title": "Whooptopia 2027 — FPV Whoop Race",
+      "start": "2027-01-16",
+      "end": "2027-01-18",
+      "all_day": true
+    },
+    {
+      "title": "Las Vegas BiWeekly Drone Race Event",
+      "start": "2027-01-17",
+      "end": "2027-01-17",
+      "all_day": false
+    },
+    {
+      "title": "Havasu Balloon Festival & Fair",
+      "start": "2027-01-21",
+      "end": "2027-01-24",
+      "all_day": true
+    },
+    {
+      "title": "MLDR Drone Race – Laveen",
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "all_day": true
+    },
+    {
+      "title": "Wickenburg Fly-In & Classic Car Show",
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "all_day": false
+    },
+    {
+      "title": "Prop Nuts of Las Vegas Meeting",
+      "start": "2027-01-27",
+      "end": "2027-01-27",
+      "all_day": false
+    },
+    {
+      "title": "Winter Warbirds 15",
+      "start": "2027-01-28",
+      "end": "2027-01-30",
+      "all_day": true
+    },
+    {
+      "title": "London Bridge RC Boat Race (24th annual)",
+      "start": "2027-01-29",
+      "end": "2027-01-31",
+      "all_day": true
+    },
+    {
+      "title": "Las Vegas BiWeekly Drone Race Event",
+      "start": "2027-01-31",
+      "end": "2027-01-31",
+      "all_day": false
+    }
+  ]
+}
