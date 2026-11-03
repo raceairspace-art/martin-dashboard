@@ -63,17 +63,45 @@
 
   const safeHref = (u) => (/^https?:\/\//i.test(u || "") ? u : null);
 
+  // Discount badge: the sweep's `discount` text as given, shortened for length only (never computed).
+  const EMPTY_DISCOUNT = /^(none|n\/?a|null|-+|—)$/i;
+  function shortDiscount(raw) {
+    const t = String(raw == null ? "" : raw).replace(/\s+/g, " ").trim();
+    if (!t || EMPTY_DISCOUNT.test(t)) return null;
+    let out = t;
+    if (out.length > 24) {
+      // cut at the first clause break that leaves a meaningful head
+      const seps = ["; ", " (", ", ", " + ", " OR ", " or ", ": ", " — ", " - "];
+      let best = -1;
+      for (const sep of seps) {
+        const min = sep === "; " ? 6 : 10; // a semicolon is a hard break; others need a meaningful head
+        const i = out.indexOf(sep, min);
+        if (i >= min && (best < 0 || i < best)) best = i;
+      }
+      if (best > 0) out = out.slice(0, best);
+    }
+    if (out.length > 28) {
+      const cut = out.slice(0, 27);
+      const sp = cut.lastIndexOf(" ");
+      out = (sp >= 12 ? cut.slice(0, sp) : cut).replace(/[\s,;:+\-–—]+$/, "") + "…";
+    }
+    out = out.replace(/[\s,;:]+$/, "");
+    return { text: out, full: t, savings: /(\d\s*%|\$\s*\d|\boff\b|\bsave|\bfree\b|\bbonus\b|\blow(est)?\b|\bwas\b|\bless\b)/i.test(t) };
+  }
+
   function tile(it, sections) {
     const href = safeHref(it.source_url);
     const pic = it.image
       ? `<img src="${esc(it.image)}" alt="${esc(it.image_alt || it.item)}" decoding="async" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'bf-ph-fallback'}));this.closest('.bf-pic')&&this.closest('.bf-pic').classList.add('bf-ph')">`
       : "";
     const ph = `<span class="bf-ph-inner" aria-hidden="true">${icon(iconFor(it, sections), "bf-ph-ico")}<span class="bf-ph-bow"></span></span>`;
+    const d = shortDiscount(it.discount);
+    const badge = d ? `<span class="bf-off${d.savings ? "" : " bf-off-note"}" title="${esc(d.full)}">${esc(d.text)}</span>` : "";
     const ribbon = it.new_release ? `<span class="bf-ribbon">New release</span>` : "";
     const inner = `
       <span class="bf-pic${it.image ? "" : " bf-ph"}">${pic}${ph}${ribbon}</span>
       <span class="bf-name">${esc(it.item)}</span>
-      <span class="bf-price${it.price == null && !it.price_label ? " bf-see" : ""}">${esc(priceText(it))}</span>`;
+      <span class="bf-priceline"><span class="bf-price${it.price == null && !it.price_label ? " bf-see" : ""}">${esc(priceText(it))}</span>${badge}</span>`;
     const cls = `bf-tile${it.deal_status === "expired" ? " bf-expired" : ""}`;
     return href
       ? `<a class="${cls}" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="${esc(it.item)}">${inner}</a>`

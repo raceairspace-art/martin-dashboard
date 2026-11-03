@@ -38,6 +38,15 @@ The ingest is non-fatal: if it fails, the last committed `data/black-friday/deal
 - Hidden by default: `deal_status: "expired"` (a "Show N expired" toggle sits at the bottom).
 - "Last updated" = newest `swept_at` across all sweeps.
 
+## Discount badge
+Each tile shows the deal's `discount` text next to the price as a small pill (hidden when null, empty or
+"none"/"n/a"). The text is shown as given and only shortened for length, never computed: whitespace is collapsed;
+text over 24 chars is cut at its first clause break (`; `, ` (`, `, `, ` + `, ` or `, `: `, ` — `, ` - `); anything
+still over 28 chars is cut at a word boundary with "…". The full text is in the pill's tooltip. Text with no
+savings wording (no %, $, off, save, free, bonus, was, low, less) gets a muted beige pill instead of green.
+Shortening happens in `modules/black-friday/module.js` (`shortDiscount`); `deals.json` keeps the raw text.
+Sweep files that fail to parse (e.g. mid-edit) are retried 6× at 5 s before being skipped with a warning.
+
 ## Sections: one config file
 `config/black_friday_sections.json` holds the display order, title, icon, the `category` values that map
 to each section, and optional subsections (matched on category **or** subcategory). Deals from either

@@ -210,10 +210,16 @@ def main() -> int:
         if not m:
             warnings.append(f"ignored file name: {p.name}")
             continue
-        try:
-            doc = json.loads(p.read_text())
-        except (OSError, json.JSONDecodeError) as e:
-            warnings.append(f"unreadable {p.name}: {e}")
+        doc, err = None, None
+        for attempt in range(6):  # files may be mid-edit by the sweep agent: wait briefly and retry
+            try:
+                doc = json.loads(p.read_text())
+                break
+            except (OSError, json.JSONDecodeError) as e:
+                err = e
+                time.sleep(5)
+        if doc is None:
+            warnings.append(f"unreadable {p.name} after retries: {err}")
             continue
         exp = "gear_tech" if m.group(1) == "gear-tech" else "travel"
         sec = doc.get("section") or exp
