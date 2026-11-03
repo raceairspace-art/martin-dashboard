@@ -218,6 +218,21 @@ def merge_feed(existing: dict | None, new_items: list[dict]) -> dict:
     return {"updated_at": now_pt_iso(), "items": items[:50]}
 
 
+def marketplace_paused() -> bool:
+    """Pause switch shared with build_dist.sh: env MARKETPLACE_PAUSED wins, else config/marketplace.env."""
+    import os
+    env = os.environ.get("MARKETPLACE_PAUSED")
+    if env is not None and env.strip() != "":
+        return env.strip() == "1"
+    cfg = ROOT / "config" / "marketplace.env"
+    if cfg.is_file():
+        for line in cfg.read_text().splitlines():
+            line = line.strip()
+            if line.startswith("MARKETPLACE_PAUSED="):
+                return line.split("=", 1)[1].strip().strip('"').strip("'") == "1"
+    return False
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--watchlist", type=Path, default=DEFAULT_WATCHLIST)
@@ -227,6 +242,10 @@ def main() -> int:
         help="Overwrite previous snapshot without emitting feed (bootstrap).",
     )
     args = ap.parse_args()
+    if marketplace_paused():
+        print("Marketplace is PAUSED (config/marketplace.env MARKETPLACE_PAUSED=1); "
+              "not ingesting. See PAUSED.md to restore.")
+        return 3
 
     if not args.watchlist.is_file():
         raise SystemExit(f"Watchlist not found: {args.watchlist}")

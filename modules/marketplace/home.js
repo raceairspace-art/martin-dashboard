@@ -249,10 +249,33 @@
       </a>`;
   }
 
+  /* Paused state (config/marketplace.env MARKETPLACE_PAUSED=1 → data/marketplace/status.json). */
+  function pausedHtml(data, compact) {
+    const { escapeHtml, formatDate } = MartinData;
+    const st = (data && data.marketplaceStatus) || {};
+    const msg = st.message || "Marketplace paused — no active searches";
+    const since = st.since ? ` since ${escapeHtml(formatDate(st.since))}` : "";
+    return `
+      <div class="mp-paused${compact ? " compact" : ""}" role="status">
+        <p class="mp-paused-title">${escapeHtml(msg)}</p>
+        <p class="mp-paused-sub muted">Paused${since}. Nothing is being tracked right now.</p>
+      </div>`;
+  }
+
   function renderHomeStrip(data) {
     const { money, escapeHtml, parseTs, hoursAgo } = MartinData;
     const el = document.getElementById("marketplace-strip-body");
     if (!el) return { banner: null };
+
+    if (MartinData.isMarketplacePaused && MartinData.isMarketplacePaused(data)) {
+      const h = document.querySelector("#strip-marketplace h2");
+      if (h) h.textContent = "Marketplace";
+      el.innerHTML = pausedHtml(data, true);
+      return { banner: null };
+    }
+
+    const stripTitle = document.querySelector("#strip-marketplace h2");
+    if (stripTitle) stripTitle.textContent = "Marketplace — Vehicle deals";
 
     const wl = data.watchlist;
     if (!wl) {
@@ -333,5 +356,6 @@
     resolveCategory,
     displayTitle,
     renderHomeStrip,
+    pausedHtml,
   };
 })(window);

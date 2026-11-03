@@ -60,7 +60,10 @@
       .slice(0, 10);
 
     if (!items.length) {
-      el.innerHTML = `<li class="empty-state">No alerts yet. Marketplace ingest will populate this feed.</li>`;
+      const paused = MartinData.isMarketplacePaused && MartinData.isMarketplacePaused();
+      el.innerHTML = paused
+        ? `<li class="empty-state">No recent activity.</li>`
+        : `<li class="empty-state">No alerts yet. Marketplace ingest will populate this feed.</li>`;
       return;
     }
 

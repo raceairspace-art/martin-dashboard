@@ -1,6 +1,7 @@
 /* Shared data loading + formatting helpers */
 (function (global) {
   const DATA = {
+    marketplaceStatus: null,
     watchlist: null,
     dailyHunt: null,
     favorites: null,
@@ -105,13 +106,24 @@
     return map;
   }
 
+  function isMarketplacePaused(data) {
+    const st = (data || DATA).marketplaceStatus;
+    return !!(st && st.paused === true);
+  }
+
   async function loadAll() {
+    // Pause switch baked by build_dist.sh (config/marketplace.env). When paused,
+    // no car data is requested at all (those files are not published).
+    const marketplaceStatus = await fetchJsonOptional("data/marketplace/status.json");
+    DATA.marketplaceStatus = marketplaceStatus;
+    const paused = !!(marketplaceStatus && marketplaceStatus.paused === true);
+    const skip = () => Promise.resolve(null);
     const [watchlist, dailyHunt, favoritesSeed, lastDiff, progress, feed, sessionsIndex] =
       await Promise.all([
-        fetchJson("data/marketplace/watchlist.json"),
-        fetchJsonOptional("data/marketplace/daily_hunt.json"),
-        fetchJsonOptional("data/marketplace/favorites.json"),
-        fetchJsonOptional("data/marketplace/last_diff.json"),
+        paused ? skip() : fetchJson("data/marketplace/watchlist.json"),
+        paused ? skip() : fetchJsonOptional("data/marketplace/daily_hunt.json"),
+        paused ? skip() : fetchJsonOptional("data/marketplace/favorites.json"),
+        paused ? skip() : fetchJsonOptional("data/marketplace/last_diff.json"),
         fetchJsonOptional("data/systems-training/progress.json"),
         fetchJsonOptional("data/dashboard_feed.json"),
         fetchJsonOptional("data/systems-training/sessions_index.json"),
@@ -207,6 +219,7 @@
     DATA,
     FAV_LS_KEY,
     loadAll,
+    isMarketplacePaused,
     fetchJson,
     fetchJsonOptional,
     mergeFavorites,

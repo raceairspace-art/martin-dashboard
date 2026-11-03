@@ -7,6 +7,18 @@ DIST="$ROOT/dist"
 WATCHLIST_SRC="${WATCHLIST_SRC:-/workspace/mach-e-watchlist.json}"
 HUNT_GLOB="${HUNT_GLOB:-/workspace/mach-e-daily-hunt-*.json}"
 
+# Marketplace pause switch: config/marketplace.env (exported env var wins).
+_ENV_PAUSED="${MARKETPLACE_PAUSED:-}"
+if [[ -f "$ROOT/config/marketplace.env" ]]; then
+  # shellcheck disable=SC1091
+  source "$ROOT/config/marketplace.env"
+fi
+[[ -n "$_ENV_PAUSED" ]] && MARKETPLACE_PAUSED="$_ENV_PAUSED"
+MARKETPLACE_PAUSED="${MARKETPLACE_PAUSED:-0}"
+MARKETPLACE_PAUSED_SINCE="${MARKETPLACE_PAUSED_SINCE:-}"
+MARKETPLACE_PAUSED_MESSAGE="${MARKETPLACE_PAUSED_MESSAGE:-Marketplace paused — no active searches}"
+export MARKETPLACE_PAUSED MARKETPLACE_PAUSED_SINCE MARKETPLACE_PAUSED_MESSAGE
+
 echo "==> Cleaning $DIST"
 rm -rf "$DIST"
 mkdir -p "$DIST/data/marketplace" \
@@ -72,6 +84,41 @@ out.write_text(json.dumps(index, indent=2) + "\n")
 print(f"sessions_index: {len(ids)} session(s) → {out}")
 PY
 
+# Activity feed: copied as-is when live; marketplace items dropped when paused.
+FEED_SRC="$ROOT/data/dashboard_feed.json" FEED_OUT="$DIST/data/dashboard_feed.json" python3 - <<'PY'
+import json, os
+src, out = os.environ["FEED_SRC"], os.environ["FEED_OUT"]
+paused = os.environ.get("MARKETPLACE_PAUSED") == "1"
+try:
+    feed = json.load(open(src)) if os.path.isfile(src) else {"updated_at": None, "items": []}
+except (OSError, json.JSONDecodeError):
+    feed = {"updated_at": None, "items": []}
+items = feed.get("items") or []
+if paused:
+    kept = [i for i in items if not (isinstance(i, dict) and (i.get("module_id") == "marketplace" or i.get("bot_id") == "maggie_marketplace"))]
+    print(f"==> Feed: dropped {len(items) - len(kept)} marketplace item(s) (paused), kept {len(kept)}")
+    stamps = sorted(str(i.get("ts")) for i in kept if isinstance(i, dict) and i.get("ts"))
+    feed = dict(feed, items=kept, updated_at=(stamps[-1] if stamps else None))
+with open(out, "w") as f:
+    json.dump(feed, f, indent=2); f.write("\n")
+PY
+
+# Marketplace status (always written; the SPA reads it before any car data).
+python3 - "$DIST/data/marketplace/status.json" <<'PY'
+import json, os, sys
+paused = os.environ.get("MARKETPLACE_PAUSED") == "1"
+doc = {"paused": paused}
+if paused:
+    doc.update(since=os.environ.get("MARKETPLACE_PAUSED_SINCE") or None,
+               message=os.environ.get("MARKETPLACE_PAUSED_MESSAGE"))
+json.dump(doc, open(sys.argv[1], "w"), indent=2, ensure_ascii=False)
+print(f"==> Marketplace status: {'PAUSED' if paused else 'live'}")
+PY
+
+if [[ "$MARKETPLACE_PAUSED" == "1" ]]; then
+  echo "==> Marketplace PAUSED (config/marketplace.env): skipping watchlist, daily hunt,"
+  echo "    special searches, last_diff and favorites. Sources in /workspace untouched."
+else
 # Marketplace Martin-owned overlays
 if [[ -f "$ROOT/data/marketplace/favorites.json" ]]; then
   cp "$ROOT/data/marketplace/favorites.json" "$DIST/data/marketplace/favorites.json"
@@ -80,11 +127,6 @@ else
 fi
 if [[ -f "$ROOT/data/marketplace/last_diff.json" ]]; then
   cp "$ROOT/data/marketplace/last_diff.json" "$DIST/data/marketplace/last_diff.json"
-fi
-if [[ -f "$ROOT/data/dashboard_feed.json" ]]; then
-  cp "$ROOT/data/dashboard_feed.json" "$DIST/data/dashboard_feed.json"
-else
-  printf '%s\n' '{"updated_at":null,"items":[]}' > "$DIST/data/dashboard_feed.json"
 fi
 
 echo "==> Baking Maggie watchlist (read-only copy; does not modify source)"
@@ -181,6 +223,7 @@ with open(os.path.join(out, "index.json"), "w") as f:
     f.write("\n")
 print(f"==> Special searches baked: {len(entries)}")
 PY
+fi
 
 echo "==> Done. Serve with:"
 echo "    cd $DIST && python3 -m http.server 8765"

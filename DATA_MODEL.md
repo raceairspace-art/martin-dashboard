@@ -292,3 +292,10 @@ When the baked daily hunt's `search_coverage.<source>.status` starts with `FAILE
 - adds a neutral dashed "Source down · last seen MM-DD" chip to active / active_possibly_stale listings whose `source` or `id` names that source and whose `last_seen` is before the hunt date.
 
 This never changes `status`, sorting, counts or stale badges. Stale badges come only from Maggie's `status` field (`active_possibly_stale`, `unverified_stale`), never from `last_seen` age. Listings re-seen on the hunt date through another site get no chip.
+
+## Marketplace pause switch
+
+`config/marketplace.env` sets `MARKETPLACE_PAUSED` (1 = paused). An exported environment variable of the same name overrides it.
+`build_dist.sh` always writes `dist/data/marketplace/status.json` (`{"paused": bool, "since", "message"}`), and the SPA reads that file before any car data.
+While paused, no car data is baked or fetched, marketplace feed items are filtered out of the built feed, and ingest refuses to run.
+See `PAUSED.md` for restore steps.
