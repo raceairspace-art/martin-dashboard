@@ -24,8 +24,8 @@ DAY_START, DAY_END = 7, 17          # daytime window: 07:00 .. 17:00 PT inclusiv
 LOW_WIND_SUSTAINED, LOW_WIND_DIFF = 8, 10   # qualifies: sustained <= 8 AND gust diff < 10
 
 LOC_CONFIG = ROOT / "config" / "weather_locations.json"
-LOC_KEYS = ("id", "name", "lat", "lon", "elevation_m", "lake", "rc_field", "snow", "gordon_key", "gordon_info")
-LOC_BOOL = ("lake", "rc_field", "snow")
+LOC_KEYS = ("id", "name", "lat", "lon", "elevation_m", "lake", "rc_field", "snow", "skiing", "gordon_key", "gordon_info")
+LOC_BOOL = ("lake", "rc_field", "snow", "skiing")
 
 
 def norm_name(s):
@@ -89,6 +89,30 @@ ACTIVITIES = [
         ("GOOD", {"sustained": 8, "gust": 12, "diff": 6, "rain": 10}),
         ("MARGINAL", {"sustained": 10, "gust": 15, "diff": 9.99, "rain": 20})]},
 ]
+
+# Skiing (6th activity) only applies to locations with "skiing": true (Brian Head); elsewhere the rating is "N/A".
+# Gordon's per-day `skiing` for that spot wins. Otherwise derived from Open-Meteo snow (inches), never estimated:
+#   BEST  = fresh snowfall >= 4" AND snow depth >= 24"
+#   GOOD  = fresh snowfall >= 1" OR  snow depth >= 12"   (fresh snow or a usable base)
+#   NO-GO = anything less (no snow, or only a trace / thin base)
+#   null  = snowfall or snow depth unknown
+SKI = {"best_snowfall": 4, "best_depth": 24, "good_snowfall": 1, "good_depth": 12}
+SKIING_ACTIVITY = {"id": "skiing", "name": "Skiing", "applies_to": "skiing locations (Brian Head)", "tiers": [
+    {"rating": "BEST", "snowfall_min_in": SKI["best_snowfall"], "snow_depth_min_in": SKI["best_depth"], "rule": "all"},
+    {"rating": "GOOD", "snowfall_min_in": SKI["good_snowfall"], "snow_depth_min_in": SKI["good_depth"], "rule": "any"}],
+    "otherwise": "NO-GO", "source_first": "Gordon's skiing rating", "not_applicable": "N/A"}
+
+
+def ski_rating(m):
+    sf, sd = m.get("snowfall_in"), m.get("snow_depth_in")
+    if sf is None or sd is None:
+        return None
+    if sf >= SKI["best_snowfall"] and sd >= SKI["best_depth"]:
+        return "BEST"
+    if sf >= SKI["good_snowfall"] or sd >= SKI["good_depth"]:
+        return "GOOD"
+    return "NO-GO"
+
 
 WMO = {0: "Clear", 1: "Mostly clear", 2: "Partly cloudy", 3: "Overcast", 45: "Fog", 48: "Rime fog",
        51: "Light drizzle", 53: "Drizzle", 55: "Heavy drizzle", 56: "Freezing drizzle", 57: "Freezing drizzle",
@@ -192,6 +216,21 @@ def day_metrics(h, d, i_day, day, snow=False, units=None):
     return m
 
 
+def with_skiing(loc, m, g):
+    """Add ratings.skiing (+ skiing_source / skiing_derived) to a location-day; m None stays None."""
+    if m is None:
+        return None
+    if not loc.get("skiing"):
+        m["ratings"]["skiing"], m["skiing_source"] = "N/A", None
+        return m
+    gb = g.get(loc.get("gordon_key")) if loc.get("gordon_key") else None
+    gr = gb.get("skiing") if isinstance(gb, dict) and isinstance(gb.get("skiing"), str) and gb.get("skiing").strip() else None
+    m["skiing_derived"] = ski_rating(m)
+    m["ratings"]["skiing"] = gr if gr else m["skiing_derived"]
+    m["skiing_source"] = "gordon" if gr else ("derived" if m["skiing_derived"] else None)
+    return m
+
+
 def main():
     now = datetime.now(ZoneInfo(TZ))
     today = now.date()
@@ -239,7 +278,7 @@ def main():
             "date": day,
             "headline": {k: g.get(k) for k in ("rating", "label", "note", "wind_mph", "gust_mph", "gust_diff_mph", "highs_f")} if g else None,
             "top_pick_rank": (picks.index(day) + 1) if day in picks else None,
-            "locations": {loc["id"]: per_loc.get(loc["id"], {}).get(day) for loc in LOCATIONS},
+            "locations": {loc["id"]: with_skiing(loc, per_loc.get(loc["id"], {}).get(day), g) for loc in LOCATIONS},
             # Gordon's per-location blocks (e.g. brian_head), copied verbatim; null if he has none for this day.
             "gordon_locations": {loc["id"]: (g.get(loc["gordon_key"]) if isinstance(g.get(loc["gordon_key"]), dict) else None)
                                  for loc in LOCATIONS if loc.get("gordon_key")},
@@ -255,7 +294,7 @@ def main():
         "locations": [{k: l[k] for k in LOC_KEYS} for l in LOCATIONS],
         "locations_source": loc_source,
         "activities": [{"id": a["id"], "name": a["name"],
-                        "tiers": [{"rating": n, **lim} for n, lim in a["tiers"]]} for a in ACTIVITIES],
+                        "tiers": [{"rating": n, **lim} for n, lim in a["tiers"]]} for a in ACTIVITIES] + [SKIING_ACTIVITY],
         "gordon": None if not gordon else {
             "file": gordon_file, "issued": gordon.get("issued"), "source": gordon.get("source"),
             "window": gordon.get("window"), "definitions": gordon.get("definitions"),

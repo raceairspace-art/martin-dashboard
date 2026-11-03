@@ -44,8 +44,14 @@
     if (dir == null) return `<span class="wx-arrow wx-arrow-na" aria-hidden="true">${dash}</span>`;
     return `<span class="wx-arrow" title="Wind from ${compass(dir)} (${Math.round(dir)}°)"><svg viewBox="0 0 24 24" aria-hidden="true" style="transform:rotate(${(dir + 180) % 360}deg)"><circle cx="12" cy="12" r="10.5" fill="#eef5fc" stroke="#bcd3ea"/><path d="M12 4.5l4.2 9.5-4.2-2.4-4.2 2.4z" fill="#1f5f99"/><path d="M12 12v7" stroke="#1f5f99" stroke-width="2" stroke-linecap="round"/></svg></span>`;
   }
-  const RCLS = { BEST: "best", GOOD: "good", MARGINAL: "marginal", "NO-GO": "nogo" };
-  const chip = (r, extra) => `<span class="wx-chip wx-${RCLS[r] || "na"}${extra ? " " + extra : ""}">${esc(r || dash)}</span>`;
+  const RCLS = { BEST: "best", GOOD: "good", MARGINAL: "marginal", "NO-GO": "nogo", "N/A": "na" };
+  const chip = (r, extra, title) => `<span class="wx-chip wx-${RCLS[r] || "na"}${extra ? " " + extra : ""}"${title ? ` title="${esc(title)}"` : ""}>${esc(r || dash)}</span>`;
+  const RANKS = { BEST: 4, GOOD: 3, MARGINAL: 2, "NO-GO": 1 };
+  const ACT_LS = "martin-weather-activity";
+  let actFilter = null;
+  try { actFilter = localStorage.getItem(ACT_LS) || null; } catch (_) { /* private mode */ }
+  let lastData = null;
+  const actShort = (a) => a.name.replace(/ \(.*\)$/, "");
 
   function todayPT() {
     return new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
@@ -97,10 +103,21 @@
     const info = doc.gordon && doc.gordon.info && doc.gordon.info[loc.id];
     if (!gb && !info) return { ski: "", line: "", info: "" };
     const v = (x, u) => (x == null ? dash : esc(x) + (u || ""));
-    const ski = gb && ("skiing" in gb) ? `<li class="wx-ski"><span>Skiing <small class="wx-muted">(Gordon)</small></span>${chip(gb.skiing)}</li>
-      ${gb.skiing_note ? `<li class="wx-ski-note">${esc(gb.skiing_note)}</li>` : ""}` : "";
+    const ski = gb && loc.skiing && ("skiing" in gb) ? `<li data-act="skiing"><span>Skiing</span>${chip(gb.skiing, "", gb.skiing_note ? "Gordon: " + gb.skiing_note : "Gordon's rating")}</li>
+      ${gb.skiing_note ? `<li class="wx-ski-note" data-act="skiing">${esc(gb.skiing_note)}</li>` : ""}` : "";
     const line = gb ? `<p class="wx-gline"><em>Gordon</em> wind ${v(gb.wind_mph)} · gusts ${v(gb.gust_mph)} · diff ${v(gb.gust_diff_mph)} mph · ${v(gb.high_f, "°")}/${v(gb.low_f, "°F")} · snow ${v(gb.snowfall_in, "″")}</p>` : "";
     return { ski, line, info: info ? `<p class="wx-loc-info">${esc(info)}</p>` : "" };
+  }
+  // One activity row. Skiing: Gordon's rating first (his note shown under the chip); "N/A" where it doesn't apply.
+  function actRow(a, loc, m, gb) {
+    const r = m.ratings && m.ratings[a.id];
+    const on = actFilter === a.id ? " on" : "";
+    if (a.id !== "skiing") return `<li data-act="${a.id}" class="${on.trim()}"><span>${esc(actShort(a))}</span>${chip(r)}</li>`;
+    const src = m.skiing_source === "gordon" ? "Gordon's rating" : m.skiing_source === "derived" ? "derived from snowfall / snow depth" : "";
+    const note = m.skiing_source === "gordon" && gb && gb.skiing_note ? gb.skiing_note : "";
+    const tip = r === "N/A" ? "Skiing only applies to snow locations" : [src, note].filter(Boolean).join(": ");
+    return `<li data-act="skiing" class="wx-ski-row${on}"><span>Skiing${src && r !== "N/A" ? ` <small class="wx-muted">${m.skiing_source === "gordon" ? "Gordon" : "derived"}</small>` : ""}</span>${chip(r, "", tip)}</li>
+      ${note ? `<li class="wx-ski-note${on}" data-act="skiing">${esc(note)}</li>` : ""}`;
   }
   function locCard(loc, m, doc, gb) {
     const acts = doc.activities || [];
@@ -130,7 +147,7 @@
       ${G.line}
       ${gauge(m, doc.low_wind_rule)}
       ${hourly(m)}
-      <ul class="wx-acts">${acts.map((a) => `<li><span>${esc(a.name.replace(/ \(.*\)$/, ""))}</span>${chip(m.ratings && m.ratings[a.id])}</li>`).join("")}${G.ski}</ul>
+      <ul class="wx-acts">${acts.map((a) => actRow(a, loc, m, gb)).join("")}</ul>
       ${G.info}
     </article>`;
   }
@@ -144,9 +161,17 @@
       <div class="wx-ranges">${bits}</div>${h.note ? `<p class="wx-note">${esc(h.note)}</p>` : ""}</div>`;
   }
 
+  function skiLegendRow(a) {
+    const t = (r) => (a.tiers || []).find((x) => x.rating === r);
+    const b = t("BEST"), g = t("GOOD");
+    return `<tr class="wx-ski-leg"><th scope="row">${esc(a.name)} <small class="wx-muted">(snow spots only; ${chip("N/A")} elsewhere)</small></th>
+      <td>${b ? `new snow ≥ ${b.snowfall_min_in}″ and depth ≥ ${b.snow_depth_min_in}″` : dash}</td>
+      <td>${g ? `new snow ≥ ${g.snowfall_min_in}″ or depth ≥ ${g.snow_depth_min_in}″` : dash}</td>
+      <td>—</td><td>less snow / no snow. Gordon's skiing rating, when given, is used as-is.</td></tr>`;
+  }
   function legend(doc) {
     const rule = doc.low_wind_rule || {};
-    const rows = (doc.activities || []).map((a) => `<tr><th scope="row">${esc(a.name)}</th>${["BEST", "GOOD", "MARGINAL"].map((r) => {
+    const rows = (doc.activities || []).map((a) => a.id === "skiing" ? skiLegendRow(a) : `<tr><th scope="row">${esc(a.name)}</th>${["BEST", "GOOD", "MARGINAL"].map((r) => {
       const t = (a.tiers || []).find((x) => x.rating === r);
       if (!t) return "<td>—</td>";
       const parts = [];
@@ -167,14 +192,53 @@
           <li><strong>Gust diff</strong>: max gust minus sustained wind.</li>
           <li><strong>Low wind qualifies</strong>: sustained ≤ ${rule.sustained_max ?? 8} mph <em>and</em> gust diff &lt; ${rule.gust_diff_lt ?? 10} mph.</li>
           <li><strong>Gauge</strong>: bar = sustained wind, dark tick = max gust, dashed line = ${rule.sustained_max ?? 8} mph low-wind limit. Arrow points where the wind is blowing.</li>
-          <li><strong>Rain</strong>: highest daytime precipitation probability.</li></ul></div>
+          <li><strong>Rain</strong>: highest daytime precipitation probability.</li>
+          <li><strong>Skiing</strong>: snow spots only (Brian Head). Gordon's rating first; otherwise from Open-Meteo snowfall (daily, in) and snow depth (max daytime, in). Unknown snow ⇒ “—”.</li></ul></div>
       </div>
       <div class="wx-table-wrap"><table class="wx-table"><thead><tr><th>Activity (mph)</th><th>${chip("BEST")}</th><th>${chip("GOOD")}</th><th>${chip("MARGINAL")}</th><th>${chip("NO-GO")}</th></tr></thead><tbody>${rows}</tbody></table></div>
       <p class="wx-src">Sources: Open-Meteo forecast (computed at build time) · GoodWeatherGordon${g.file ? ` (<code>${esc(g.file)}</code>, issued ${esc(g.issued || dash)})` : " (no file)"}.</p>
     </section>`;
   }
 
+  // Best rating for an activity on a day across locations where it applies (ignores N/A / unknown).
+  function bestOf(doc, day, actId) {
+    let best = null;
+    (doc.locations || []).forEach((l) => {
+      const m = day.locations && day.locations[l.id];
+      const r = m && m.ratings && m.ratings[actId];
+      if (RANKS[r] && (!best || RANKS[r] > RANKS[best.r])) best = { r, name: l.name.replace(/ \(.*\)$/, "") };
+    });
+    return best;
+  }
+  // Activity-specific highlights (separate from Gordon's headline picks, which stay exactly as he wrote them):
+  // the days reaching the week's best rating for each activity, if that is GOOD or better.
+  function actPicks(doc, days) {
+    const acts = (doc.activities || []).filter((a) => !actFilter || a.id === actFilter);
+    const rows = acts.map((a) => {
+      const per = days.map((d) => ({ d, b: bestOf(doc, d, a.id) })).filter((x) => x.b);
+      if (!per.length) return `<li><span>${esc(actShort(a))}</span><em class="wx-muted">no data</em></li>`;
+      const top = Math.max(...per.map((x) => RANKS[x.b.r]));
+      const topR = Object.keys(RANKS).find((k) => RANKS[k] === top);
+      if (top < RANKS.GOOD) return `<li data-act="${a.id}"><span>${esc(actShort(a))}</span><em class="wx-muted">no good days this week (best ${esc(topR)})</em></li>`;
+      const hits = per.filter((x) => RANKS[x.b.r] === top).slice(0, 4);
+      return `<li data-act="${a.id}"><span>${esc(actShort(a))}</span>${hits.map((x) => `<a href="#wx-${x.d.date}" data-wx-jump="${x.d.date}">${esc(dayLabel(x.d.date))}</a>`).join(", ")} ${chip(topR)}</li>`;
+    }).join("");
+    return `<div class="wx-actpicks"><span class="wx-muted">Best days by activity (computed; Gordon's picks above are unchanged)</span><ul>${rows}</ul></div>`;
+  }
+  function filterRow(doc) {
+    const acts = doc.activities || [];
+    const btn = (id, label) => `<button type="button" class="wx-fbtn${(actFilter || "") === id ? " on" : ""}" data-wx-act="${id}" aria-pressed="${(actFilter || "") === id}">${esc(label)}</button>`;
+    return `<div class="wx-filter" role="toolbar" aria-label="Activity filter"><span class="wx-muted">Activity</span>${btn("", "All")}${acts.map((a) => btn(a.id, actShort(a))).join("")}</div>`;
+  }
+  function dayActBadge(doc, day) {
+    if (!actFilter) return "";
+    const a = (doc.activities || []).find((x) => x.id === actFilter);
+    if (!a) return "";
+    const b = bestOf(doc, day, a.id);
+    return `<em class="wx-actbest">${esc(actShort(a))}: ${chip(b && b.r, "wx-chip-sm")}${b ? ` <small>${esc(b.name)}</small>` : ""}</em>`;
+  }
   function render(data) {
+    lastData = data;
     const el = document.getElementById("weather-module-body");
     if (!el) return;
     const doc = data && data.weather;
@@ -185,8 +249,9 @@
     const upd = fmtUpdated(doc.updated_at);
     const live = doc.source && doc.source.indexOf("open-meteo") === 0;
     const range = doc.window ? `${dayLabel(doc.window.start, { weekday: undefined })} – ${dayLabel(doc.window.end, { weekday: undefined })}` : "";
+    if (actFilter && !(doc.activities || []).some((a) => a.id === actFilter)) actFilter = null;
     el.innerHTML = `
-      <div class="wx">
+      <div class="wx${actFilter ? " wx-f-on" : ""}">
       <section class="wx-hero">
         <div class="wx-hero-ic">${condIcon(days[0] && days[0].locations.las_vegas ? days[0].locations.las_vegas.code : null, "wx-hero-svg")}</div>
         <div class="wx-hero-txt"><p class="wx-kicker">Las Vegas area · daytime 7am–5pm PT</p>
@@ -197,19 +262,27 @@
       ${live ? "" : `<div class="wx-warn" role="status">Live forecast unavailable${doc.fetch_error ? ` (${esc(doc.fetch_error)})` : ""}. Showing GoodWeatherGordon's headline ratings only; per-location numbers are “—”.</div>`}
       ${picks.length ? `<section class="wx-picks" aria-label="Top picks"><div class="wx-picks-h">${svg(P.star, "wx-ic wx-star")}<strong>Top picks</strong>${g.top_picks && g.top_picks.activities ? `<span class="wx-muted">for ${esc(g.top_picks.activities)}</span>` : ""}</div>
         <ol>${picks.map((p) => { const d = (doc.days || []).find((x) => x.date === p); const r = d && d.headline && d.headline.rating;
-          return `<li><a href="#wx-${p}" data-wx-jump="${p}">${esc(dayLabel(p))} ${chip(r)}</a></li>`; }).join("")}</ol></section>` : ""}
+          return `<li><a href="#wx-${p}" data-wx-jump="${p}">${esc(dayLabel(p))} ${chip(r)}</a></li>`; }).join("")}</ol>
+        ${actPicks(doc, days)}</section>` : ""}
+      ${filterRow(doc)}
       ${days.length ? days.map((day) => `
         <section class="wx-day${day.top_pick_rank ? " wx-top" : ""}" id="wx-${day.date}">
           <header class="wx-day-h">
             <div class="wx-date"><span>${esc(dayLabel(day.date, { month: undefined, day: undefined, weekday: "long" }))}</span><strong>${esc(dayLabel(day.date, { weekday: undefined }))}</strong>
               ${day.date === todayPT() ? `<em class="wx-today">Today</em>` : ""}
-              ${day.top_pick_rank ? `<em class="wx-pick">${svg(P.star, "wx-ic")}Top pick #${day.top_pick_rank}</em>` : ""}</div>
+              ${day.top_pick_rank ? `<em class="wx-pick">${svg(P.star, "wx-ic")}Top pick #${day.top_pick_rank}</em>` : ""}
+              ${dayActBadge(doc, day)}</div>
             ${headline(day)}
           </header>
           <div class="wx-locs">${(doc.locations || []).map((loc) => locCard(loc, day.locations && day.locations[loc.id], doc, day.gordon_locations && day.gordon_locations[loc.id])).join("")}</div>
         </section>`).join("") : `<div class="wx-empty">${svg(P.sun, "wx-empty-ic")}<p>No upcoming days in this forecast window. Gordon refreshes around 6am PT.</p></div>`}
       ${legend(doc)}
       </div>`;
+    el.querySelectorAll("[data-wx-act]").forEach((b) => b.addEventListener("click", () => {
+      actFilter = b.getAttribute("data-wx-act") || null;
+      try { actFilter ? localStorage.setItem(ACT_LS, actFilter) : localStorage.removeItem(ACT_LS); } catch (_) { /* ignore */ }
+      const y = window.scrollY; render(lastData); window.scrollTo(0, y);
+    }));
     el.querySelectorAll("[data-wx-jump]").forEach((a) => a.addEventListener("click", (e) => {
       e.preventDefault();
       const t = document.getElementById("wx-" + a.getAttribute("data-wx-jump"));

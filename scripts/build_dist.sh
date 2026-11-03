@@ -260,6 +260,35 @@ print(f"==> Special searches baked: {len(entries)}")
 PY
 fi
 
+echo "==> Cache-busting"
+# Versioned query strings: each css/js tag in index.html gets ?v=<md5 of that file>; the build id (hash of
+# every file in dist except index.html) goes into <meta name="martin-build"> and window.MARTIN_BUILD, which
+# data.js appends to every JSON fetch. index.html itself carries no-cache meta tags.
+DIST="$DIST" python3 - <<'PY'
+import hashlib, os, re
+from pathlib import Path
+dist = Path(os.environ["DIST"])
+idx = dist / "index.html"
+h = hashlib.sha256()
+for p in sorted(x for x in dist.rglob("*") if x.is_file() and x != idx):
+    h.update(str(p.relative_to(dist)).encode()); h.update(hashlib.md5(p.read_bytes()).digest())
+build = h.hexdigest()[:12]
+s = idx.read_text()
+n = 0
+def ver(m):
+    global n
+    f = dist / m.group(2)
+    if not f.is_file():
+        return m.group(0)
+    n += 1
+    return f'{m.group(1)}="{m.group(2)}?v={hashlib.md5(f.read_bytes()).hexdigest()[:10]}"'
+s = re.sub(r'\b(href|src)="((?:css|js|modules)/[^"?#]+\.(?:css|js))"', ver, s)
+s = s.replace("</title>", f'</title>\n  <meta name="martin-build" content="{build}" />', 1)
+s = s.replace("  <script src=", f'  <script>window.MARTIN_BUILD = "{build}";</script>\n  <script src=', 1)
+idx.write_text(s)
+print(f"==> Build {build}: versioned {n} asset tag(s); data fetches use ?v={build}")
+PY
+
 echo "==> Done. Serve with:"
 echo "    cd $DIST && python3 -m http.server 8765"
 echo "    Open http://127.0.0.1:8765/"

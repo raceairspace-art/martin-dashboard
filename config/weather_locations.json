@@ -1,5 +1,5 @@
 {
-  "_doc": "Weather locations. Gordon's file decides which spots are shown and in what order (its \"locations\" list of names, matched case-insensitively to `name` or `aliases`). Without that field, `default` is used. Coordinates always come from here. `lake`: counts for the Home Lake flag. `rc_field`: its RC rating is the fallback for the Home low-wind flying flag. Optional: `elevation_m` (sent to Open-Meteo so temps/wind are correct for that height), `snow` (fetch snowfall + snow depth and show them), `gordon_key` (per-day block in Gordon's file, e.g. brian_head: his skiing rating/note and low_wind are shown as-is), `gordon_info` (top-level note shown on the card).",
+  "_doc": "Weather locations. Gordon's file decides which spots are shown and in what order (its \"locations\" list of names, matched case-insensitively to `name` or `aliases`). Without that field, `default` is used. Coordinates always come from here. `lake`: counts for the Home Lake flag. `rc_field`: its RC rating is the fallback for the Home low-wind flying flag. Optional: `elevation_m` (sent to Open-Meteo so temps/wind are correct for that height), `snow` (fetch snowfall + snow depth and show them), `skiing` (the Skiing activity applies here; everywhere else it shows N/A), `gordon_key` (per-day block in Gordon's file, e.g. brian_head: his skiing rating/note and low_wind are shown as-is), `gordon_info` (top-level note shown on the card).",
   "default": [
     "las_vegas",
     "lake_mead",
@@ -13,7 +13,8 @@
       "lat": 36.1699,
       "lon": -115.1398,
       "lake": false,
-      "rc_field": false
+      "rc_field": false,
+      "skiing": false
     },
     {
       "id": "lake_mead",
@@ -25,7 +26,8 @@
       "lat": 36.031,
       "lon": -114.798,
       "lake": true,
-      "rc_field": false
+      "rc_field": false,
+      "skiing": false
     },
     {
       "id": "desert_breeze",
@@ -37,7 +39,8 @@
       "lat": 36.123,
       "lon": -115.272,
       "lake": false,
-      "rc_field": true
+      "rc_field": true,
+      "skiing": false
     },
     {
       "id": "brian_head",
@@ -54,7 +57,8 @@
       "rc_field": false,
       "snow": true,
       "gordon_key": "brian_head",
-      "gordon_info": "brian_head_info"
+      "gordon_info": "brian_head_info",
+      "skiing": true
     },
     {
       "id": "lake_las_vegas",
@@ -62,7 +66,8 @@
       "lat": 36.105,
       "lon": -114.927,
       "lake": true,
-      "rc_field": false
+      "rc_field": false,
+      "skiing": false
     },
     {
       "id": "lake_mohave",
@@ -74,7 +79,8 @@
       "lat": 35.491,
       "lon": -114.684,
       "lake": true,
-      "rc_field": false
+      "rc_field": false,
+      "skiing": false
     }
   ]
 }

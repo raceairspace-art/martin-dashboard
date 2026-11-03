@@ -54,7 +54,16 @@ A day gets the first tier whose limits are all met, otherwise NO-GO. Any missing
 | RC airplanes | wind ≤ 5, diff ≤ 5, rain ≤ 10% | wind ≤ 8, diff < 10 (= low-wind rule), rain ≤ 20% | wind ≤ 12, gust ≤ 18, rain ≤ 30% |
 | Paramotoring | wind ≤ 5, gust ≤ 8, diff ≤ 4, rain ≤ 10% | wind ≤ 8, gust ≤ 12, diff ≤ 6, rain ≤ 10% | wind ≤ 10, gust ≤ 15, diff < 10, rain ≤ 20% |
 
-Thresholds live in `ACTIVITIES` in `scripts/fetch_weather.py` and are published in the JSON, so the page legend
+| Skiing (snow spots only) | new snow ≥ 4″ **and** snow depth ≥ 24″ | new snow ≥ 1″ **or** snow depth ≥ 12″ | — | less / no snow |
+
+**Skiing** is the 6th activity. It applies only to locations with `"skiing": true` in `config/weather_locations.json`
+(Brian Head now); every other location shows a grey **N/A** chip. Rating order: **Gordon's per-day `skiing` value
+first** (as-is, his `skiing_note` under the chip and as its tooltip); otherwise derived from Open-Meteo snowfall
+(daily total, in) and snow depth (max daytime, in) with the thresholds above (`SKI` in `fetch_weather.py`);
+unknown snow ⇒ "—". Each location-day carries `ratings.skiing`, `skiing_source` (`gordon` | `derived`) and
+`skiing_derived`. This week Gordon rates Brian Head NO-GO every day.
+
+Thresholds live in `ACTIVITIES` / `SKI` in `scripts/fetch_weather.py` and are published in the JSON, so the page legend
 always matches. **Gordon's headline rating is shown as-is** and is never recomputed.
 
 ## Display
@@ -71,7 +80,11 @@ always matches. **Gordon's headline rating is shown as-is** and is never recompu
 - Brian Head card: the usual card plus a Snowfall / Snow depth row, a "Gordon" line with his numbers verbatim,
   his **low_wind YES/NO shown as-is** in the low-wind pill (instead of the computed one), a **Skiing** chip with
   his rating and `skiing_note` as-is, and `brian_head_info` as a note at the bottom. Skiing is never computed by us.
-- Chips: BEST green, GOOD teal, MARGINAL amber (dark text), NO-GO red, "—" grey = unknown.
+- **Activity filter** row (All + the six activities, remembered in localStorage): highlights that activity's row
+  on every card, dims the others, and adds a "Skiing: [best chip] Brian Head"-style badge to each day.
+- **Best days by activity** (under Gordon's top picks): per activity, the days reaching that week's best computed
+  rating if GOOD or better, else "no good days this week". **Gordon's top picks are never changed by this.**
+- Chips: N/A grey = activity doesn't apply here. BEST green, GOOD teal, MARGINAL amber (dark text), NO-GO red, "—" grey = unknown.
 
 ## Failure behaviour
 If Open-Meteo fails, `forecast.json` has `source: "gordon-only"`, `updated_at: null`, `fetch_error`, and every
@@ -83,3 +96,10 @@ The step never fails the build.
 `scripts/fetch_weather.py` · `config/weather_locations.json` · `data/weather/forecast.json` · `modules/weather/module.js` (WeatherModule,
 WeatherHome) · CSS block "Weather" in `app/css/styles.css` · wiring in `app/index.html`, `app/js/app.js`, `app/js/data.js`,
 `scripts/build_dist.sh`.
+
+## Cache-busting
+`build_dist.sh` (last step) versions every css/js tag in `dist/index.html` with `?v=<md5 of the file>`, and stamps a
+build id (hash of all dist files) into `<meta name="martin-build">` and `window.MARTIN_BUILD`, which `app/js/data.js`
+appends as `?v=` to every JSON fetch (also `cache: "no-store"`). `index.html` carries no-cache meta tags.
+GitHub Pages still serves index.html with its own short HTTP cache (about 10 minutes); the meta tags and versioned URLs
+make sure that a normal refresh then loads the new assets and data. Mirrored Black Friday images aren't versioned.
