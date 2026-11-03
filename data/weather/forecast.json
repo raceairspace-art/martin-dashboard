@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T14:18:06-08:00",
+ "updated_at": "2026-11-03T15:03:16-08:00",
  "source": "open-meteo+gordon",
  "fetch_error": null,
  "timezone": "America/Los_Angeles",
@@ -208,10 +208,10 @@
      "sustained_avg": 4,
      "gust": 10,
      "diff": 3,
-     "direction": 116,
+     "direction": 113,
      "rain": 1,
      "high": 68,
-     "low": 50,
+     "low": 51,
      "day_temp_max": 68,
      "code": 3,
      "hourly": [
@@ -255,31 +255,31 @@
        "h": 13,
        "w": 4,
        "g": 5,
-       "dir": 117
+       "dir": 107
       },
       {
        "h": 14,
        "w": 6,
        "g": 6,
-       "dir": 118
+       "dir": 129
       },
       {
        "h": 15,
        "w": 7,
-       "g": 7,
-       "dir": 135
+       "g": 8,
+       "dir": 125
       },
       {
        "h": 16,
        "w": 5,
        "g": 6,
-       "dir": 118
+       "dir": 110
       },
       {
        "h": 17,
        "w": 5,
-       "g": 6,
-       "dir": 95
+       "g": 7,
+       "dir": 89
       }
      ],
      "condition": "Overcast",
@@ -297,10 +297,10 @@
      "sustained_avg": 4,
      "gust": 7,
      "diff": 0,
-     "direction": 82,
+     "direction": 87,
      "rain": 1,
      "high": 69,
-     "low": 53,
+     "low": 52,
      "day_temp_max": 69,
      "code": 3,
      "hourly": [
@@ -342,33 +342,33 @@
       },
       {
        "h": 13,
-       "w": 2,
-       "g": 5,
-       "dir": 69
+       "w": 4,
+       "g": 4,
+       "dir": 92
       },
       {
        "h": 14,
        "w": 5,
        "g": 6,
-       "dir": 68
+       "dir": 82
       },
       {
        "h": 15,
-       "w": 4,
-       "g": 6,
-       "dir": 97
+       "w": 6,
+       "g": 7,
+       "dir": 94
       },
       {
        "h": 16,
        "w": 5,
        "g": 6,
-       "dir": 66
+       "dir": 74
       },
       {
        "h": 17,
        "w": 4,
        "g": 6,
-       "dir": 79
+       "dir": 64
       }
      ],
      "condition": "Overcast",
@@ -383,10 +383,10 @@
     },
     "lake_mead": {
      "sustained": 5,
-     "sustained_avg": 4,
+     "sustained_avg": 3,
      "gust": 8,
      "diff": 3,
-     "direction": 26,
+     "direction": 32,
      "rain": 1,
      "high": 69,
      "low": 55,
@@ -431,33 +431,33 @@
       },
       {
        "h": 13,
-       "w": 4,
-       "g": 4,
-       "dir": 39
+       "w": 3,
+       "g": 3,
+       "dir": 62
       },
       {
        "h": 14,
        "w": 4,
        "g": 5,
-       "dir": 51
+       "dir": 53
       },
       {
        "h": 15,
        "w": 2,
-       "g": 7,
-       "dir": 65
+       "g": 6,
+       "dir": 69
       },
       {
        "h": 16,
-       "w": 3,
-       "g": 6,
-       "dir": 37
+       "w": 2,
+       "g": 7,
+       "dir": 79
       },
       {
        "h": 17,
        "w": 2,
-       "g": 4,
-       "dir": 79
+       "g": 3,
+       "dir": 119
       }
      ],
      "condition": "Overcast",
@@ -520,33 +520,33 @@
       },
       {
        "h": 13,
-       "w": 4,
-       "g": 4,
-       "dir": 21
+       "w": 5,
+       "g": 5,
+       "dir": 4
       },
       {
        "h": 14,
        "w": 2,
-       "g": 4,
-       "dir": 65
+       "g": 2,
+       "dir": 19
       },
       {
        "h": 15,
        "w": 2,
-       "g": 5,
-       "dir": 175
+       "g": 2,
+       "dir": 159
       },
       {
        "h": 16,
        "w": 5,
-       "g": 5,
-       "dir": 159
+       "g": 6,
+       "dir": 164
       },
       {
        "h": 17,
-       "w": 4,
+       "w": 3,
        "g": 5,
-       "dir": 188
+       "dir": 165
       }
      ],
      "condition": "Overcast",
@@ -582,15 +582,15 @@
      "direction": 35,
      "rain": 0,
      "high": 70,
-     "low": 49,
+     "low": 47,
      "day_temp_max": 70,
      "code": 0,
      "hourly": [
       {
        "h": 7,
-       "w": 7,
+       "w": 8,
        "g": 9,
-       "dir": 264
+       "dir": 261
       },
       {
        "h": 8,
@@ -665,21 +665,21 @@
     },
     "lake_las_vegas": {
      "sustained": 11,
-     "sustained_avg": 8,
+     "sustained_avg": 7,
      "gust": 15,
      "diff": 4,
-     "direction": 11,
+     "direction": 12,
      "rain": 0,
      "high": 73,
-     "low": 49,
+     "low": 48,
      "day_temp_max": 73,
      "code": 0,
      "hourly": [
       {
        "h": 7,
-       "w": 8,
-       "g": 9,
-       "dir": 242
+       "w": 7,
+       "g": 8,
+       "dir": 240
       },
       {
        "h": 8,
@@ -768,7 +768,7 @@
        "h": 7,
        "w": 2,
        "g": 3,
-       "dir": 236
+       "dir": 230
       },
       {
        "h": 8,
@@ -846,18 +846,18 @@
      "sustained_avg": 10,
      "gust": 18,
      "diff": 4,
-     "direction": 352,
+     "direction": 353,
      "rain": 0,
      "high": 77,
-     "low": 54,
+     "low": 53,
      "day_temp_max": 77,
      "code": 0,
      "hourly": [
       {
        "h": 7,
        "w": 6,
-       "g": 7,
-       "dir": 330
+       "g": 8,
+       "dir": 349
       },
       {
        "h": 8,
