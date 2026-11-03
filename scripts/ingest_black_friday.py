@@ -13,7 +13,7 @@ item_key wins for every field; price_history keeps one {swept_at, price} per swe
 Prices are copied as given (numbers, or null). Nothing is ever estimated.
 
 Images: https image_url files are mirrored into data/black-friday/img/<sha1>.<ext>
-(cache; the build copies them into dist), re-encoded to <=900px WebP when Pillow is present. Polite: 1 request at a time, 1 s apart,
+(cache; the build copies them into dist), re-encoded to <=900px WebP when Pillow is present. Polite: 1 request at a time, 1 s apart (3 s for Wikimedia; HTTP 429 backs off up to 2x),
 15 s timeout, 8 MB cap, image/* only; cached files are never re-fetched and failures
 are retried at most once a day. Any failure → image null → holiday placeholder.
 Never fails the build: errors are reported and the script exits 0.
@@ -29,6 +29,8 @@ import os
 import re
 import sys
 import time
+import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -160,17 +162,32 @@ def mirror(url: str, index: dict, fetch: bool, log: list) -> str | None:
     ent = index.get(url) or {}
     if not fetch:
         return None
-    if ent.get("error") and ent.get("tried_at"):
+    if ent.get("error") and ent.get("tried_at") and "429" not in ent["error"]:  # rate limits are transient: retry next run
         try:
             if datetime.now(timezone.utc) - datetime.fromisoformat(ent["tried_at"]) < timedelta(hours=24):
                 log.append(f"  skip (failed <24h ago: {ent['error']}): {url[:90]}")
                 return None
         except ValueError:
             pass
-    time.sleep(1.0)
+    host = urllib.parse.urlparse(url).netloc.lower()
+    time.sleep(3.0 if host.endswith("wikimedia.org") else 1.0)  # Wikimedia rate-limits bursts (HTTP 429)
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "image/avif,image/webp,image/*;q=0.9"})
-        with urllib.request.urlopen(req, timeout=15) as r:
+        # Wikimedia transcodes on the fly when avif/webp is requested and rate-limits that path (429): ask for the original format there.
+        accept = "image/*" if host.endswith("wikimedia.org") else "image/avif,image/webp,image/*;q=0.9"
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": accept})
+        for attempt in range(3):  # back off on HTTP 429, honouring Retry-After (capped at 30 s)
+            try:
+                r = urllib.request.urlopen(req, timeout=15)
+                break
+            except urllib.error.HTTPError as he:
+                if he.code != 429 or attempt == 2:
+                    raise
+                try:
+                    wait = min(float(he.headers.get("Retry-After") or 0), 30.0)
+                except ValueError:
+                    wait = 0.0
+                time.sleep(max(wait, 10.0 * (attempt + 1)))
+        with r:
             ctype = (r.headers.get("Content-Type") or "").split(";")[0].strip().lower()
             ext = EXT.get(ctype)
             if not ext:

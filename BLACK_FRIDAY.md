@@ -35,6 +35,9 @@ The ingest is non-fatal: if it fails, the last committed `data/black-friday/deal
   (committed, so builds don't re-download). Failures are retried at most once per 24 h
   (`img_index.json`) and fall back to a holiday placeholder with the section/subsection icon.
   Images no deal references any more are removed from the cache.
+- Wikimedia (`upload.wikimedia.org`): requests are 3 s apart and send `Accept: image/*`, because asking for
+  avif/webp makes Wikimedia convert the image on the fly, and those conversions get rate-limited (HTTP 429). Any 429 backs off
+  (Retry-After, 10 s then 20 s) and isn't held for 24 h — the next build tries again.
 - Hidden by default: `deal_status: "expired"` (a "Show N expired" toggle sits at the bottom).
 - "Last updated" = newest `swept_at` across all sweeps.
 
