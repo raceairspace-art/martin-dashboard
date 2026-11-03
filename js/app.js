@@ -19,7 +19,7 @@
   }
 
   function showView(id) {
-    ["view-home", "view-marketplace", "view-training", "view-calendar", "view-black-friday"].forEach((vid) => {
+    ["view-home", "view-marketplace", "view-training", "view-calendar", "view-black-friday", "view-weather"].forEach((vid) => {
       const el = document.getElementById(vid);
       if (el) el.classList.toggle("hidden", vid !== id);
     });
@@ -116,6 +116,7 @@
     const train = TrainingHome.renderHomeStrip(cache);
     if (globalThis.CalendarHome) CalendarHome.renderHomeStrip(cache);
     if (globalThis.BlackFridayHome) BlackFridayHome.renderHomeStrip(cache);
+    if (globalThis.WeatherHome) WeatherHome.renderHomeStrip(cache);
     renderBanner(pickBanner(market, train));
     renderFeed(cache.feed);
     updateFreshness(cache);
@@ -151,6 +152,12 @@
     if (root === "black-friday") {
       showView("view-black-friday");
       if (cache && globalThis.BlackFridayModule) BlackFridayModule.render(cache, route);
+      updateFreshness(cache || {});
+      return;
+    }
+    if (root === "weather") {
+      showView("view-weather");
+      if (cache && globalThis.WeatherModule) WeatherModule.render(cache, route);
       updateFreshness(cache || {});
       return;
     }
