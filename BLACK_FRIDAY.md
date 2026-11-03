@@ -64,6 +64,11 @@ Gaming PCs, Accessories, Hardware; matched on `subcategory` `games`, `consoles`,
 Season passes (`season_passes`: Ski passes, Amusement parks, Museums & attractions, Memberships) · Travel
 (Flights, Cruises, Hotels, Packages) · Wildcard. Reorder by moving entries in the `sections` array.
 
+Gear & tech parts, accessories, apparel and safety gear stay in their activity's subsection, because that
+subsection matches on the deal's `category` (e.g. `jet_skis_pwc` / `parts` → Jet skis). Subcategory aliases:
+`sim_racing` and `racing_wheels` → Gaming › Accessories; `ski_pass` → Season passes › Ski passes. A deal whose
+subcategory matches nothing shows under "More" at the end of its section; an unknown category goes to Wildcard.
+
 Icons available: pass ferris museum dice gift robot monitor ski plane ship bed suitcase ticket music masks crown star wave
 moto rcplane drone goggles maker chip gamepad disc handheld pc headset (see `ICONS` in `modules/black-friday/module.js`).
 

@@ -225,7 +225,9 @@
             "controllers",
             "headsets",
             "keyboards",
-            "mice"
+            "mice",
+            "sim_racing",
+            "racing_wheels"
           ]
         },
         {
@@ -264,7 +266,8 @@
           "title": "Ski passes",
           "icon": "ski",
           "match": [
-            "ski"
+            "ski",
+            "ski_pass"
           ]
         },
         {

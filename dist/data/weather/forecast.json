@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T13:22:07-08:00",
+ "updated_at": "2026-11-03T14:18:06-08:00",
  "source": "open-meteo+gordon",
  "fetch_error": null,
  "timezone": "America/Los_Angeles",
@@ -204,14 +204,14 @@
    "top_pick_rank": null,
    "locations": {
     "las_vegas": {
-     "sustained": 6,
+     "sustained": 7,
      "sustained_avg": 4,
      "gust": 10,
-     "diff": 4,
-     "direction": 109,
+     "diff": 3,
+     "direction": 116,
      "rain": 1,
      "high": 68,
-     "low": 51,
+     "low": 50,
      "day_temp_max": 68,
      "code": 3,
      "hourly": [
@@ -247,39 +247,39 @@
       },
       {
        "h": 12,
-       "w": 6,
-       "g": 7,
-       "dir": 70
+       "w": 4,
+       "g": 6,
+       "dir": 79
       },
       {
        "h": 13,
-       "w": 5,
+       "w": 4,
        "g": 5,
-       "dir": 92
+       "dir": 117
       },
       {
        "h": 14,
-       "w": 5,
-       "g": 5,
-       "dir": 122
+       "w": 6,
+       "g": 6,
+       "dir": 118
       },
       {
        "h": 15,
-       "w": 6,
-       "g": 6,
-       "dir": 129
+       "w": 7,
+       "g": 7,
+       "dir": 135
       },
       {
        "h": 16,
-       "w": 4,
+       "w": 5,
        "g": 6,
-       "dir": 116
+       "dir": 118
       },
       {
        "h": 17,
-       "w": 4,
-       "g": 5,
-       "dir": 99
+       "w": 5,
+       "g": 6,
+       "dir": 95
       }
      ],
      "condition": "Overcast",
@@ -297,11 +297,11 @@
      "sustained_avg": 4,
      "gust": 7,
      "diff": 0,
-     "direction": 79,
+     "direction": 82,
      "rain": 1,
-     "high": 70,
+     "high": 69,
      "low": 53,
-     "day_temp_max": 70,
+     "day_temp_max": 69,
      "code": 3,
      "hourly": [
       {
@@ -336,39 +336,39 @@
       },
       {
        "h": 12,
-       "w": 4,
+       "w": 2,
        "g": 4,
-       "dir": 51
+       "dir": 45
       },
       {
        "h": 13,
-       "w": 4,
-       "g": 5,
-       "dir": 65
-      },
-      {
-       "h": 14,
        "w": 2,
        "g": 5,
        "dir": 69
       },
       {
-       "h": 15,
-       "w": 3,
+       "h": 14,
+       "w": 5,
        "g": 6,
-       "dir": 70
+       "dir": 68
+      },
+      {
+       "h": 15,
+       "w": 4,
+       "g": 6,
+       "dir": 97
       },
       {
        "h": 16,
-       "w": 4,
+       "w": 5,
        "g": 6,
-       "dir": 71
+       "dir": 66
       },
       {
        "h": 17,
-       "w": 5,
-       "g": 5,
-       "dir": 93
+       "w": 4,
+       "g": 6,
+       "dir": 79
       }
      ],
      "condition": "Overcast",
@@ -386,11 +386,11 @@
      "sustained_avg": 4,
      "gust": 8,
      "diff": 3,
-     "direction": 25,
+     "direction": 26,
      "rain": 1,
-     "high": 70,
+     "high": 69,
      "low": 55,
-     "day_temp_max": 70,
+     "day_temp_max": 69,
      "code": 3,
      "hourly": [
       {
@@ -425,39 +425,39 @@
       },
       {
        "h": 12,
-       "w": 5,
-       "g": 6,
-       "dir": 1
+       "w": 4,
+       "g": 5,
+       "dir": 10
       },
       {
        "h": 13,
        "w": 4,
        "g": 4,
-       "dir": 29
+       "dir": 39
       },
       {
        "h": 14,
-       "w": 3,
+       "w": 4,
        "g": 5,
        "dir": 51
       },
       {
        "h": 15,
-       "w": 4,
+       "w": 2,
        "g": 7,
-       "dir": 53
+       "dir": 65
       },
       {
        "h": 16,
-       "w": 4,
+       "w": 3,
        "g": 6,
-       "dir": 49
+       "dir": 37
       },
       {
        "h": 17,
-       "w": 1,
+       "w": 2,
        "g": 4,
-       "dir": 124
+       "dir": 79
       }
      ],
      "condition": "Overcast",
@@ -514,39 +514,39 @@
       },
       {
        "h": 12,
-       "w": 9,
-       "g": 10,
-       "dir": 351
+       "w": 8,
+       "g": 9,
+       "dir": 352
       },
       {
        "h": 13,
-       "w": 6,
-       "g": 6,
-       "dir": 12
+       "w": 4,
+       "g": 4,
+       "dir": 21
       },
       {
        "h": 14,
-       "w": 1,
-       "g": 3,
-       "dir": 42
+       "w": 2,
+       "g": 4,
+       "dir": 65
       },
       {
        "h": 15,
-       "w": 1,
-       "g": 4,
-       "dir": 160
+       "w": 2,
+       "g": 5,
+       "dir": 175
       },
       {
        "h": 16,
-       "w": 4,
+       "w": 5,
        "g": 5,
-       "dir": 163
+       "dir": 159
       },
       {
        "h": 17,
        "w": 4,
        "g": 5,
-       "dir": 166
+       "dir": 188
       }
      ],
      "condition": "Overcast",
@@ -582,7 +582,7 @@
      "direction": 35,
      "rain": 0,
      "high": 70,
-     "low": 48,
+     "low": 49,
      "day_temp_max": 70,
      "code": 0,
      "hourly": [
