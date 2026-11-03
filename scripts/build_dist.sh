@@ -113,6 +113,19 @@ else
   echo "==> No data/calendar/events.json (Calendar tab will show an empty state)"
 fi
 
+# Black Friday 2026: merge read-only sweeps (/workspace/black-friday-2026 or $BF_SRC) into
+# data/black-friday/deals.json and mirror deal images (cached in data/black-friday/img).
+# Non-fatal: if the ingest fails, the last committed deals.json is published as-is.
+# BF_NO_FETCH=1 skips network image fetches (cached images only).
+python3 "$ROOT/scripts/ingest_black_friday.py" ${BF_NO_FETCH:+--no-fetch} || echo "WARNING: Black Friday ingest failed; using last data"
+mkdir -p "$DIST/data/black-friday/img"
+if [[ -f "$ROOT/data/black-friday/deals.json" ]]; then
+  cp "$ROOT/data/black-friday/deals.json" "$DIST/data/black-friday/deals.json"
+  cp "$ROOT"/data/black-friday/img/* "$DIST/data/black-friday/img/" 2>/dev/null || true
+else
+  echo "==> No Black Friday data (tab shows an empty state)"
+fi
+
 # Marketplace status (always written; the SPA reads it before any car data).
 python3 - "$DIST/data/marketplace/status.json" <<'PY'
 import json, os, sys

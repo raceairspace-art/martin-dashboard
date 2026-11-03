@@ -1,0 +1,44 @@
+{
+  "_doc": "Black Friday sections, in display order. One entry per section: id, title, icon, and the deal `category` values (from either sweep file) that land there. Optional subsections match a deal's category OR subcategory. A category listed nowhere goes to the section with \"fallback\": true. Matching ignores case, spaces/dashes and a trailing 's'. Icons: see ICONS in modules/black-friday/module.js.",
+  "sections": [
+    {"id": "gear_tech", "title": "Gear & tech", "icon": "gift",
+     "categories": ["gear_tech", "jet_skis", "jet_skis_pwc", "jet_ski", "pwc", "watercraft", "motorcycles", "moto", "dirt_bike", "rc_aircraft", "rc_plane", "drones", "fpv_goggles", "fpv", "maker", "maker_gear", "3d_printer", "new_tech", "other_tech", "tech", "gadgets"],
+     "subsections": [
+       {"id": "jet_skis", "title": "Jet skis", "icon": "wave", "match": ["jet_skis", "jet_skis_pwc", "jet_ski", "pwc", "watercraft"]},
+       {"id": "motorcycles", "title": "Motorcycles", "icon": "moto", "match": ["motorcycles", "moto", "dirt_bike"]},
+       {"id": "rc_aircraft", "title": "RC aircraft", "icon": "rcplane", "match": ["rc_aircraft", "rc_plane"]},
+       {"id": "drones", "title": "Drones", "icon": "drone", "match": ["drones"]},
+       {"id": "fpv_goggles", "title": "FPV goggles", "icon": "goggles", "match": ["fpv_goggles", "fpv"]},
+       {"id": "maker_gear", "title": "Maker gear", "icon": "maker", "match": ["maker", "maker_gear", "3d_printer"]},
+       {"id": "new_tech", "title": "New tech", "icon": "chip", "match": ["new_tech", "other_tech", "tech", "gadgets"]}
+     ]},
+    {"id": "robots", "title": "Trending robots", "icon": "robot", "categories": ["trending_robots", "robots"]},
+    {"id": "computers_tvs", "title": "Computers & TVs", "icon": "monitor", "categories": ["computers_tvs", "computers", "tvs"]},
+    {"id": "winter_ski", "title": "Winter ski", "icon": "ski", "categories": ["ski_gear", "ski_travel", "ski"]},
+    {"id": "season_passes", "title": "Season passes", "icon": "pass", "categories": ["season_passes"],
+     "subsections": [
+       {"id": "ski", "title": "Ski passes", "icon": "ski", "match": ["ski"]},
+       {"id": "amusement_park", "title": "Amusement parks", "icon": "ferris", "match": ["amusement_park"]},
+       {"id": "museum_attraction", "title": "Museums & attractions", "icon": "museum", "match": ["museum_attraction"]},
+       {"id": "membership", "title": "Memberships", "icon": "pass", "match": ["membership", "fitness"]}
+     ]},
+    {"id": "travel", "title": "Travel", "icon": "plane",
+     "categories": ["travel", "flights", "cruises", "hotels", "packages", "vacation_rentals", "rail", "car_rental", "tours"],
+     "subsections": [
+       {"id": "flights", "title": "Flights", "icon": "plane", "match": ["flights"]},
+       {"id": "cruises", "title": "Cruises", "icon": "ship", "match": ["cruises"]},
+       {"id": "hotels", "title": "Hotels", "icon": "bed", "match": ["hotels", "vacation_rentals"]},
+       {"id": "packages", "title": "Packages", "icon": "suitcase", "match": ["packages", "tours", "rail", "car_rental"]}
+     ]},
+    {"id": "vegas_local", "title": "Vegas Local", "icon": "dice", "categories": ["vegas_local"]},
+    {"id": "concerts_theater", "title": "Concerts & Theater", "icon": "ticket", "categories": ["concerts_theater"],
+     "subsections": [
+       {"id": "concert_ticket", "title": "Concert tickets", "icon": "music", "match": ["concert_ticket"]},
+       {"id": "concert_pass", "title": "Concert passes", "icon": "ticket", "match": ["concert_pass"]},
+       {"id": "theater", "title": "Theater", "icon": "masks", "match": ["theater"]},
+       {"id": "vip_package", "title": "VIP packages", "icon": "crown", "match": ["vip_package"]},
+       {"id": "travel_package", "title": "Concert travel packages", "icon": "suitcase", "match": ["travel_package"]}
+     ]},
+    {"id": "wildcard", "title": "Wildcard", "icon": "star", "categories": ["wildcard"], "fallback": true}
+  ]
+}

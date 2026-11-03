@@ -307,3 +307,10 @@ Minimal public projection of Michael's Google Calendar, produced by
 Fields per event: `title`, `start`, `end` (inclusive, YYYY-MM-DD, LA dates), `all_day`.
 Top level: `generated_at`, `timezone`, `end_is_inclusive`, `months` (baked months; the
 UI only offers prev/next within these). See `CALENDAR.md` for the refresh procedure.
+
+## Black Friday 2026 (`data/black-friday/deals.json`)
+Built by `scripts/ingest_black_friday.py` from the read-only sweeps in `/workspace/black-friday-2026/`.
+`{updated_at, sections:[{id,title,icon,subsections}], sweeps:[{file,section,swept_at,deals}], items:[...]}`.
+Each item keeps the sweep fields plus `shelf`, `sub`, `price` (number|null), `price_label`, `price_raw`,
+`image` (mirrored path|null), `price_history:[{swept_at,price}]`, `first_seen` and `last_seen`.
+Section mapping: `config/black_friday_sections.json`. See BLACK_FRIDAY.md.
