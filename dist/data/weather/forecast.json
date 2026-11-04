@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T09:10:53-08:00",
+ "updated_at": "2026-11-04T09:17:13-08:00",
  "source": "open-meteo+gordon",
  "fetch_error": null,
  "timezone": "America/Los_Angeles",
@@ -531,7 +531,7 @@
      "gust": 21,
      "diff": 6,
      "direction": 304,
-     "rain": 8,
+     "rain": 4,
      "high": 31,
      "low": 26,
      "day_temp_max": 30,
