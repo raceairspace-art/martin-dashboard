@@ -49,7 +49,7 @@ OUT_DIR = ROOT / "data" / "black-friday"
 IMG_DIR = OUT_DIR / "img"
 IMG_INDEX = OUT_DIR / "img_index.json"
 SRC_DEFAULT = os.environ.get("BF_SRC", "/workspace/black-friday-2026")
-FILE_RE = re.compile(r"^(gear-tech|travel)-sweep-(\d{4}-\d{2}-\d{2})(?:-(\d{1,2}))?\.json$")
+FILE_RE = re.compile(r"^(gear-tech|travel)-sweep-(\d{4}-\d{2}-\d{2})(?:-(\d{1,2})|-v(\d{1,2}))?\.json$")
 UA = "MartinDashboard/1.0 (personal deals page; image mirror; polite single fetch)"
 EXT = {"image/jpeg": "jpg", "image/jpg": "jpg", "image/png": "png", "image/webp": "webp",
        "image/gif": "gif", "image/avif": "avif", "image/svg+xml": "svg"}
@@ -253,7 +253,16 @@ def main() -> int:
             warnings.append(f"{p.name}: section {sec!r} != file name; using {exp!r}")
             sec = exp
         sweeps.append({"file": p.name, "section": sec, "swept_at": doc.get("swept_at") or m.group(2) + "T00:00:00",
-                       "deals": [d for d in doc.get("deals") or [] if isinstance(d, dict)]})
+                       "deals": [d for d in doc.get("deals") or [] if isinstance(d, dict)],
+                       "_kd": (m.group(1), m.group(2)), "_v": int(m.group(4) or 0), "_n": m.group(3)})
+    # A -vN file supersedes its base file (and lower -vN) for the same kind+date: drop the older ones.
+    top_v: dict[tuple, int] = {}
+    for sw in sweeps:
+        k, v = sw["_kd"], sw["_v"]
+        top_v[k] = max(top_v.get(k, 0), v)
+    for sw in [x for x in sweeps if top_v[x["_kd"]] > 0 and x["_v"] < top_v[x["_kd"]] and x["_n"] is None]:
+        warnings.append(f"superseded by -v{top_v[sw['_kd']]}: {sw['file']}")
+        sweeps.remove(sw)
     sweeps.sort(key=lambda s: (_ts(s["swept_at"]), s["file"]))
 
     items: dict[str, dict] = {}
