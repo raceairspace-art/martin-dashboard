@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T23:01:58.975774+00:00",
+  "updated_at": "2026-11-04T09:09:39-08:00",
   "sections": [
     {
       "id": "vegas_local",
@@ -260,6 +260,12 @@
       "section": "gear_tech",
       "swept_at": "2026-11-03T23:01:58.975774+00:00",
       "deals": 44
+    },
+    {
+      "file": "gear-tech-sweep-2026-11-04.json",
+      "section": "gear_tech",
+      "swept_at": "2026-11-04T09:09:39-08:00",
+      "deals": 159
     }
   ],
   "items": [
@@ -288,10 +294,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 100.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 100.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/785ea3807a8e09b9.webp"
     },
     {
@@ -381,10 +391,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 125.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 125.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/decc8a399004955a.webp"
     },
     {
@@ -443,11 +457,46 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 100.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 100.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/92ed26ccefa93449.webp"
+    },
+    {
+      "item_key": "mgm-resorts-black-friday-entertainment-sale",
+      "section": "gear_tech",
+      "shelf": "concerts_theater",
+      "sub": null,
+      "category": "concerts_theater",
+      "subcategory": "las_vegas_shows",
+      "item": "MGM Resorts Black Friday Entertainment Sale",
+      "retailer": "MGM Resorts",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": "Up to 50% off select shows",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.mgmresorts.com/en/entertainment/black-friday-cyber-sale.html",
+      "image_url": null,
+      "image_alt": "MGM Resorts Black Friday Entertainment Sale",
+      "new_release": false,
+      "notes": "Select dates and seats. Headliners include Journey, Jonas Brothers, PBR Team Series Championship, Teddy Swims, Mary J. Blige residency at Dolby Live; fan favorites include Tournament of Kings, Australian Bee Gees and Mac King. Up-to-50% figure from MGM entertainment pages; per-show prices not shown.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": null
     },
     {
       "item_key": "eagles-sphere-vibee-package-2026-27",
@@ -629,10 +678,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 1699.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1699.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/33374239dabf3eb2.webp"
     },
     {
@@ -660,10 +713,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 489.9
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 489.9
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/8a2c0788955b56a3.webp"
     },
     {
@@ -691,10 +748,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 98.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 98.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c128112c76d9f5bd.webp"
     },
     {
@@ -722,10 +783,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 204.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 204.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/5bcac545ad2f7fb2.webp"
     },
     {
@@ -753,10 +818,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 208.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 208.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/be4a98ae8393b937.webp"
     },
     {
@@ -784,10 +853,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 369.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 369.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/ad0998b77785fb10.webp"
     },
     {
@@ -815,10 +888,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 719.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 719.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/f4a523f7237a6e93.webp"
     },
     {
@@ -846,10 +923,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 2699.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 2699.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/ca30d02984e5e5bb.webp"
     },
     {
@@ -877,10 +958,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 169.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 169.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/8ea835058ca3492f.webp"
     },
     {
@@ -908,10 +993,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 379.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 379.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/82adf41958326d43.webp"
     },
     {
@@ -939,10 +1028,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 259.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 259.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/113dc1487f2d41fa.webp"
     },
     {
@@ -970,10 +1063,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 599.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 599.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/4734ef885483b333.webp"
     },
     {
@@ -1001,10 +1098,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 199.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 199.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/ed15d2c27bb5a8ff.webp"
     },
     {
@@ -1032,10 +1133,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 619.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 619.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/24b5f0dbf51b3e50.webp"
     },
     {
@@ -1063,10 +1168,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 489.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 489.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c05cab2c2aadf9fe.webp"
     },
     {
@@ -1094,10 +1203,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 79.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 79.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/d9cef6d09c860a98.webp"
     },
     {
@@ -1125,10 +1238,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 75.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 75.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/dd5180cb429e87ac.webp"
     },
     {
@@ -1156,10 +1273,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 139.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 139.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/91c4d6703af1f93b.webp"
     },
     {
@@ -1187,10 +1308,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 159.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 159.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/a3a07edf53a0a7c5.webp"
     },
     {
@@ -1218,10 +1343,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 219.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 219.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c086bf3cb2255b56.webp"
     },
     {
@@ -1249,10 +1378,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 419.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 419.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/a2d2247cb05e3b5e.webp"
     },
     {
@@ -1280,10 +1413,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 449.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 449.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/21afc541c0a1c8d4.webp"
     },
     {
@@ -1311,10 +1448,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 19995.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 19995.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c6ff4277218e29e7.webp"
     },
     {
@@ -1342,10 +1483,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 9999.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 9999.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/1cfd48445995dfd5.webp"
     },
     {
@@ -1373,10 +1518,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 92.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 92.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/88048b5778128461.webp"
     },
     {
@@ -1404,10 +1553,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 105.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 105.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/a7347605992d801b.webp"
     },
     {
@@ -1435,10 +1588,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/282da0b73b33ba27.webp"
     },
     {
@@ -1466,10 +1623,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 5999
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 5999
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/4c365ed7ab0c8579.webp"
     },
     {
@@ -1497,10 +1658,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 69.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 69.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/e85ace87f58d6ee8.webp"
     },
     {
@@ -1528,10 +1693,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 89.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 89.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/1789f21baf7cef9a.webp"
     },
     {
@@ -1559,10 +1728,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 149.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 149.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/547b5c5d778d5efc.webp"
     },
     {
@@ -1590,10 +1763,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 99.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 99.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/a4fba65cd4d05e60.webp"
     },
     {
@@ -1621,10 +1798,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 274.4
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 274.4
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/0db90ed8bbbe9ea0.webp"
     },
     {
@@ -1652,10 +1833,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/e69b36e6b2c97d8e.webp"
     },
     {
@@ -1683,10 +1868,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 799.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 799.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/f9d755fa4da16f6e.webp"
     },
     {
@@ -1714,10 +1903,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 1899.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1899.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/ffd5cb8ebd4aa28b.webp"
     },
     {
@@ -1745,10 +1938,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 259.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 259.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/45a6facefec6634d.webp"
     },
     {
@@ -1776,10 +1973,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 549.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 549.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/bace886d629772a7.webp"
     },
     {
@@ -1807,10 +2008,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 389.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 389.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/95bd75646a918b46.webp"
     },
     {
@@ -1838,10 +2043,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 394.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 394.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c0d93925a3086da1.webp"
     },
     {
@@ -1869,10 +2078,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 199.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 199.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/d82e20d1e2630699.webp"
     },
     {
@@ -1900,10 +2113,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 399.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 399.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c54f90f0adea2a0a.webp"
     },
     {
@@ -1931,10 +2148,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 329.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 329.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/d3a531748ad8d058.webp"
     },
     {
@@ -1962,10 +2183,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 359.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 359.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c9e2cf357d56ab18.webp"
     },
     {
@@ -1993,10 +2218,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 1299
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1299
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/f255fcfe45d2ad13.webp"
     },
     {
@@ -2024,10 +2253,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 2199
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 2199
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/f0366b9d64a870eb.webp"
     },
     {
@@ -2055,10 +2288,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 699.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 699.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c3166a26df678e02.webp"
     },
     {
@@ -2086,10 +2323,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 1099.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1099.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/6e2ea11ce010c640.webp"
     },
     {
@@ -2117,10 +2358,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/013edafc46591586.webp"
     },
     {
@@ -2148,10 +2393,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 499.97
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 499.97
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/e0c0a7be2e4cf3b6.webp"
     },
     {
@@ -2179,10 +2428,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 21295
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 21295
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/a386f79d6695112c.webp"
     },
     {
@@ -2210,11 +2463,46 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 16895
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 16895
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/f5f67de2869d0f36.webp"
+    },
+    {
+      "item_key": "jpcycles-charged-up-helmet-rack-fan-usb",
+      "section": "gear_tech",
+      "shelf": "gear_tech",
+      "sub": "motorcycles",
+      "category": "motorcycles",
+      "subcategory": "gear",
+      "item": "Charged Up wall helmet rack with fan and dual USB",
+      "retailer": "J&P Cycles",
+      "price": 49.98,
+      "price_label": null,
+      "price_raw": 49.98,
+      "regular_price": 99.95,
+      "discount": "$49.97 off (50%)",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.jpcycles.com/product/charged-up-wall-mounted-helmet-rack-with-fan-and-dual-usb-ports",
+      "image_url": "https://www.jpcycles.com/_a/product_images/2369/9333/charged_up_wall_mounted_helmet_rack_with_fanand_dual_usb_ports_480x480.jpg",
+      "image_alt": "Charged Up wall-mounted helmet rack with fan",
+      "new_release": false,
+      "notes": "Dries and charges helmet gear. Non-fan version $34.98 (was $69.95).",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 49.98
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": "data/black-friday/img/3a2522a1eb7e7219.webp"
     },
     {
       "item_key": "dainese-smart-airbag-jacket-cycle-gear",
@@ -2241,10 +2529,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 419.4
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 419.4
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/b3798dd7127930ca.webp"
     },
     {
@@ -2272,11 +2564,46 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 172.48
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 172.48
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/fd770cf01408bde6.webp"
+    },
+    {
+      "item_key": "jpcycles-garmin-zumo-xt3-gps",
+      "section": "gear_tech",
+      "shelf": "gear_tech",
+      "sub": "motorcycles",
+      "category": "motorcycles",
+      "subcategory": "gear",
+      "item": "Garmin Zumo XT3 motorcycle GPS",
+      "retailer": "J&P Cycles",
+      "price": 499.99,
+      "price_label": null,
+      "price_raw": 499.99,
+      "regular_price": 599.99,
+      "discount": "$100 off (17%)",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.jpcycles.com/product/garmin-zumo-xt3-motorcycle-gps",
+      "image_url": "https://www.jpcycles.com/_a/product_images/2574/9362/garmin_zumo_xt3_motorcycle_gps_480x480.jpg",
+      "image_alt": "Garmin Zumo XT3 motorcycle GPS",
+      "new_release": true,
+      "notes": "Listed \"from $499.99\" on J&P Black Friday Motorcycle Deals page.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 499.99
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": "data/black-friday/img/12dfbb6182799273.webp"
     },
     {
       "item_key": "harley-davidson-grand-american-touring-street-glide-road-glide-h-d-dealers",
@@ -2303,10 +2630,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 23499
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 23499
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/403964b1498c0f55.webp"
     },
     {
@@ -2334,10 +2665,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 399.97
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 399.97
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/8471b926e46f7b01.webp"
     },
     {
@@ -2365,10 +2700,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/adfcc04715d0638d.webp"
     },
     {
@@ -2396,11 +2735,46 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 219.5
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 219.5
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/8b40ec148d64edbe.webp"
+    },
+    {
+      "item_key": "jpcycles-quad-lock-motorcycle-handlebar-mount-pro",
+      "section": "gear_tech",
+      "shelf": "gear_tech",
+      "sub": "motorcycles",
+      "category": "motorcycles",
+      "subcategory": "gear",
+      "item": "Quad Lock Motorcycle Handlebar Mount Pro",
+      "retailer": "J&P Cycles",
+      "price": 69.99,
+      "price_label": null,
+      "price_raw": 69.99,
+      "regular_price": 99.99,
+      "discount": "$30 off (30%)",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.jpcycles.com/product/quad-lock-motorcycle-handlebar-mount-pro",
+      "image_url": "https://www.jpcycles.com/_a/product_images/2252/2136/quad_lock_motorcycle_handlebar_mount_pro_480x480.jpg",
+      "image_alt": "Quad Lock Motorcycle Handlebar Mount Pro",
+      "new_release": false,
+      "notes": "Listed \"from $69.99\" on J&P Black Friday Motorcycle Deals page, free shipping. Prices vary by size.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 69.99
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": "data/black-friday/img/dd2d00e24d522e6c.webp"
     },
     {
       "item_key": "cycle-gear-schuberth-c5-eclipse-modular-helmet-xs-only",
@@ -2427,10 +2801,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 499.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 499.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/5b32c9698eac6220.webp"
     },
     {
@@ -2458,10 +2836,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 663.2
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 663.2
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/6e1a76cd50ab4b8b.webp"
     },
     {
@@ -2489,10 +2871,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 299.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 299.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/0c0cd69792af0617.webp"
     },
     {
@@ -2520,10 +2906,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 699.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 699.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/b448de15e560fca7.webp"
     },
     {
@@ -2551,10 +2941,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 549.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 549.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/f60f35b2d1b48d45.webp"
     },
     {
@@ -2582,10 +2976,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 529.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 529.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/5524d3f6356a9f4d.webp"
     },
     {
@@ -2613,11 +3011,46 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 1699.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1699.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/f269a06b7e67c1c4.webp"
+    },
+    {
+      "item_key": "inmotion-rs-jet-scooter",
+      "section": "gear_tech",
+      "shelf": "gear_tech",
+      "sub": "new_tech",
+      "category": "other_tech",
+      "subcategory": "electric_scooter",
+      "item": "INMOTION RS JET electric scooter",
+      "retailer": "INMOTION",
+      "price": 1799.0,
+      "price_label": null,
+      "price_raw": 1799.0,
+      "regular_price": 2699.0,
+      "discount": "$900 off (33%)",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://inmotionworld.com/products/inmotion-rs-jet",
+      "image_url": "https://cdn.shopify.com/s/files/1/0630/1951/6082/files/20261029-_RS__08.png?v=1793276975",
+      "image_alt": "INMOTION RS JET electric scooter",
+      "new_release": false,
+      "notes": "Standard version, yellow or black. RideConnect version $1,999. Part of INMOTION Black Friday sale through Nov 30 with lowest-price guarantee; spin-to-win codes up to $200 off.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1799.0
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": "data/black-friday/img/a5368df34009324a.webp"
     },
     {
       "item_key": "jackery-jackery-homepower-1000-v2-power-station-white",
@@ -2644,10 +3077,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 549.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 549.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/4e9410668994d96c.webp"
     },
     {
@@ -2675,10 +3112,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 179.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 179.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c79986a8f1950ea8.webp"
     },
     {
@@ -2706,10 +3147,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 649.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 649.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/e9d444d1e055ab8e.avif"
     },
     {
@@ -2737,10 +3182,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 1099.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1099.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/46bcfdffe1576672.webp"
     },
     {
@@ -2768,10 +3217,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 29.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 29.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/35e006a7818f551e.webp"
     },
     {
@@ -2799,10 +3252,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 349.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 349.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/716c7444a1877f43.webp"
     },
     {
@@ -2830,10 +3287,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 279.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 279.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/0465868797d30e9a.webp"
     },
     {
@@ -2861,10 +3322,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 119.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 119.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/1eaf8a12e71c0627.webp"
     },
     {
@@ -2892,10 +3357,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 409.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 409.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/935478863a7d507e.webp"
     },
     {
@@ -2923,10 +3392,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 249.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 249.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/d1a9fc65b6a2423f.webp"
     },
     {
@@ -2954,10 +3427,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 499.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 499.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/13af37dd42b119b8.webp"
     },
     {
@@ -2985,10 +3462,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 299.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 299.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/38afbc4809f83d14.webp"
     },
     {
@@ -3016,10 +3497,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 38.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 38.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/947f5b95c1fb6760.webp"
     },
     {
@@ -3047,10 +3532,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 179.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 179.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/01d07813e103dc68.webp"
     },
     {
@@ -3078,10 +3567,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 69.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 69.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/b0a7229f0bef07ed.webp"
     },
     {
@@ -3109,10 +3602,14 @@
         {
           "swept_at": "2026-11-03T14:55:40-08:00",
           "price": 2199.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 2199.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-03T14:55:40-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/203232f947f8a947.webp"
     },
     {
@@ -3140,11 +3637,46 @@
         {
           "swept_at": "2026-11-03T14:55:40-08:00",
           "price": 3999.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 3999.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-03T14:55:40-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/5e5d5d458b275976.webp"
+    },
+    {
+      "item_key": "begode-x-way-flash-sale",
+      "section": "gear_tech",
+      "shelf": "euc_onewheel",
+      "sub": "euc",
+      "category": "euc_onewheel",
+      "subcategory": "euc",
+      "item": "Begode X-Way 3000Wh 168V suspension EUC flash sale",
+      "retailer": "Begode",
+      "price": 1500.0,
+      "price_label": null,
+      "price_raw": 1500.0,
+      "regular_price": null,
+      "discount": null,
+      "deal_status": "expired",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.begode.com/products/x-way-flash-sale",
+      "image_url": "https://cdn.shopify.com/s/files/1/0747/7231/6404/files/1_8daf5cfe-77d5-4469-8fbd-fb4b0f1fd5a8.jpg?v=1787321212",
+      "image_alt": "Begode X-Way suspension electric unicycle",
+      "new_release": true,
+      "notes": "Limited-allocation flash sale started Nov 2, 11 AM PT, with tiers at $1,500, $1,600, $1,700 and $1,900. On the Nov 4 check every tier showed unavailable, so it appears sold out; some orders ship from China in December. No regular price shown.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1500.0
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": "data/black-friday/img/9ed9ab21bb31541a.webp"
     },
     {
       "item_key": "inmotion-inmotion-v11y-electric-unicycle",
@@ -3171,10 +3703,14 @@
         {
           "swept_at": "2026-11-03T14:55:40-08:00",
           "price": 1299.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1299.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-03T14:55:40-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/fd634042f8509fc0.webp"
     },
     {
@@ -3202,11 +3738,46 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 2499.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 2499.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/fe8dc7226cbe4ccf.webp"
+    },
+    {
+      "item_key": "inmotion-x1-preorder",
+      "section": "gear_tech",
+      "shelf": "euc_onewheel",
+      "sub": "euc",
+      "category": "euc_onewheel",
+      "subcategory": "euc",
+      "item": "INMOTION X1 electric unicycle pre-order",
+      "retailer": "INMOTION",
+      "price": 3699.0,
+      "price_label": null,
+      "price_raw": 3699.0,
+      "regular_price": 3999.0,
+      "discount": "$300 off pre-order",
+      "deal_status": "announced",
+      "date_found": "2026-11-04",
+      "source_url": "https://inmotionworld.com/products/inmotion-x1",
+      "image_url": "https://cdn.shopify.com/s/files/1/0630/1951/6082/files/20261029-_-__23.png?v=1793275623",
+      "image_alt": "INMOTION X1 electric unicycle",
+      "new_release": true,
+      "notes": "New model on pre-order; price returns to $3,999 later. Includes $597 in pre-order benefits through Dec 31. INMOTION says it is not part of the Black Friday sale.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 3699.0
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": "data/black-friday/img/6874ca1c17d655db.webp"
     },
     {
       "item_key": "ewheels-king-song-s22-pro-1-776wh-4kw-euc",
@@ -3233,11 +3804,108 @@
         {
           "swept_at": "2026-11-03T14:55:40-08:00",
           "price": 2499.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 2499.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-03T14:55:40-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/d5e9104485afb2b6.webp"
+    },
+    {
+      "item_key": "kingsong-18xl-pro-euc",
+      "section": "gear_tech",
+      "shelf": "euc_onewheel",
+      "sub": "euc",
+      "category": "euc_onewheel",
+      "subcategory": "euc",
+      "item": "KingSong 18XL Pro electric unicycle",
+      "retailer": "KingSong",
+      "price": 1539.0,
+      "price_label": null,
+      "price_raw": 1539.0,
+      "regular_price": 2010.0,
+      "discount": "$471 off (23%)",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.kingsong.com/products/kingsong-18xl-pro",
+      "image_url": "https://cdn.shopify.com/s/files/1/0944/8911/6985/files/kingsong-18xl-pro-electric-unicycle-left-side-view.jpg?v=1792681357",
+      "image_alt": "KingSong 18XL Pro electric unicycle, left side",
+      "new_release": false,
+      "notes": "White or black, in stock on KingSong sale page Nov 4.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1539.0
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": "data/black-friday/img/bbcab35b1b840df6.webp"
+    },
+    {
+      "item_key": "kingsong-f18-euc",
+      "section": "gear_tech",
+      "shelf": "euc_onewheel",
+      "sub": "euc",
+      "category": "euc_onewheel",
+      "subcategory": "euc",
+      "item": "KingSong F18 electric unicycle",
+      "retailer": "KingSong",
+      "price": 3079.0,
+      "price_label": null,
+      "price_raw": 3079.0,
+      "regular_price": 4010.0,
+      "discount": "$931 off (23%)",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.kingsong.com/products/kingsong-f18",
+      "image_url": "https://cdn.shopify.com/s/files/1/0944/8911/6985/files/KS-F18-2.0.4.png?v=1792681141",
+      "image_alt": "KingSong F18 electric unicycle",
+      "new_release": true,
+      "notes": "Flagship KingSong wheel, in stock on the KingSong sale page Nov 4.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 3079.0
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": "data/black-friday/img/41a16ca03536ef5a.webp"
+    },
+    {
+      "item_key": "kingsong-s19-pro-euc",
+      "section": "gear_tech",
+      "shelf": "euc_onewheel",
+      "sub": "euc",
+      "category": "euc_onewheel",
+      "subcategory": "euc",
+      "item": "KingSong S19 Pro suspension electric unicycle",
+      "retailer": "KingSong",
+      "price": 1999.0,
+      "price_label": null,
+      "price_raw": 1999.0,
+      "regular_price": 2600.0,
+      "discount": "$601 off (23%)",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.kingsong.com/products/kingsong-s19-pro",
+      "image_url": "https://cdn.shopify.com/s/files/1/0944/8911/6985/files/s19-pro-wbg-1.jpg?v=1792681253",
+      "image_alt": "KingSong S19 Pro electric unicycle",
+      "new_release": false,
+      "notes": "In stock (spring or air suspension) on KingSong sale page, Nov 4. 6500W peak, 1776Wh. Other KingSong sale prices: 16S Pro $1,049 (reg $1,370), 16X Pro $1,649 (reg $2,150), S16 Pro $1,899 (reg $2,470), 14D Pro $659 (reg $860).",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1999.0
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": "data/black-friday/img/4677ccea5f4d6056.webp"
     },
     {
       "item_key": "ewheels-leaperkim-patton-s-2-220wh-3-000w-euc",
@@ -3264,10 +3932,14 @@
         {
           "swept_at": "2026-11-03T14:55:40-08:00",
           "price": 2899.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 2899.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-03T14:55:40-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/3e3a91c49202bf75.webp"
     },
     {
@@ -3295,10 +3967,14 @@
         {
           "swept_at": "2026-11-03T14:55:40-08:00",
           "price": 29.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 29.99
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-03T14:55:40-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/01ec77ad068de96b.webp"
     },
     {
@@ -3326,10 +4002,14 @@
         {
           "swept_at": "2026-11-03T14:55:40-08:00",
           "price": 199.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 199.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-03T14:55:40-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/d7e5f21408750a2f.webp"
     },
     {
@@ -3357,10 +4037,14 @@
         {
           "swept_at": "2026-11-03T14:55:40-08:00",
           "price": 275.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 275.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-03T14:55:40-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/25d8c8e0169aaa6c.webp"
     },
     {
@@ -3388,10 +4072,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 849.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 849.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/57d2199fb987c764.webp"
     },
     {
@@ -3419,10 +4107,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 469.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 469.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/fb596ba2e8d41f95.webp"
     },
     {
@@ -3450,10 +4142,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 1699.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1699.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/308740734d0c6656.webp"
     },
     {
@@ -3481,10 +4177,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 999.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 999.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/06cd9dd16ecbbd4a.webp"
     },
     {
@@ -3512,10 +4212,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/b05cdc9fedd30f29.webp"
     },
     {
@@ -3543,10 +4247,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 499.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 499.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/40bf49eaa24d8492.webp"
     },
     {
@@ -3574,10 +4282,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 120.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 120.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/e0bde0cd3f5407cb.webp"
     },
     {
@@ -3605,10 +4317,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 1799.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1799.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/0e27e8d898f4512f.webp"
     },
     {
@@ -3636,10 +4352,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 499.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 499.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/83692e5c0811411e.webp"
     },
     {
@@ -3667,10 +4387,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 900.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 900.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/04aa3c7b44ad0d80.webp"
     },
     {
@@ -3698,10 +4422,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/2fc1878a185db7ae.webp"
     },
     {
@@ -3729,10 +4457,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 7999
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 7999
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/de56a9b2fac076de.webp"
     },
     {
@@ -3760,10 +4492,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 179.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 179.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/09980de74449bcda.webp"
     },
     {
@@ -3791,10 +4527,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 1240.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1240.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/ff360b1fef5d61f2.webp"
     },
     {
@@ -3822,10 +4562,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 1299.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1299.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/b29e0d04ecc4653a.webp"
     },
     {
@@ -3853,10 +4597,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 2299.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 2299.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/61f0586dbc8490e4.webp"
     },
     {
@@ -3884,10 +4632,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 1169.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1169.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/8ddc3693da8b2b01.webp"
     },
     {
@@ -3915,10 +4667,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 1979.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1979.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/40bdb9b82e9c6239.webp"
     },
     {
@@ -3946,10 +4702,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 359.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 359.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/1e45d274a323aec7.webp"
     },
     {
@@ -3977,10 +4737,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 409.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 409.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/301d30e39d7df2b5.webp"
     },
     {
@@ -4008,10 +4772,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 950.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 950.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/4cc29c8cb3b3a575.webp"
     },
     {
@@ -4039,10 +4807,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 999.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 999.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c21392bf18467218.webp"
     },
     {
@@ -4070,10 +4842,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 1399.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1399.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/935826001b15843f.webp"
     },
     {
@@ -4101,10 +4877,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 463.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 463.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/104a4bfc62a9f223.webp"
     },
     {
@@ -4132,11 +4912,77 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 1599.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1599.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/91eeb098fdad4617.webp"
+    },
+    {
+      "item_key": "bestbuy-tcl-40-qled-tv",
+      "section": "gear_tech",
+      "shelf": "computers_tvs",
+      "sub": null,
+      "category": "computers_tvs",
+      "subcategory": "tvs",
+      "item": "TCL 40-inch QLED TV",
+      "retailer": "Best Buy",
+      "price": 150.0,
+      "price_label": null,
+      "price_raw": 150.0,
+      "regular_price": 300.0,
+      "discount": "$150 off (50%)",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.dealnews.com/Early-Black-Friday-Video-Game-Deals-at-Best-Buy-Up-to-1-150-off-free-shipping/22346320.html",
+      "image_url": null,
+      "image_alt": "TCL 40-inch QLED TV",
+      "new_release": false,
+      "notes": "Best Buy early Black Friday. Also AirTag 4-pack $80 (was $99) and Apple Pencil Pro $99 ($30 off).",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 150.0
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": null
+    },
+    {
+      "item_key": "bestbuy-gamesir-super-nova-controller",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "accessories",
+      "category": "gaming",
+      "subcategory": "controllers",
+      "item": "GameSir Super Nova wireless controller",
+      "retailer": "Best Buy",
+      "price": 29.99,
+      "price_label": null,
+      "price_raw": 29.99,
+      "regular_price": 49.99,
+      "discount": "$20 off (40%)",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.dealnews.com/Early-Black-Friday-Video-Game-Deals-at-Best-Buy-Up-to-1-150-off-free-shipping/22346320.html",
+      "image_url": null,
+      "image_alt": "GameSir Super Nova controller",
+      "new_release": false,
+      "notes": "From Best Buy early Black Friday gaming roundup (via dealnews). Same roundup: ASUS ROG Strix 27\" 2K OLED 280Hz monitor $250 off, CyberPowerPC 9800X3D/RTX 5070 desktop $300 off. Best Buy main sale starts Nov 19.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 29.99
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": null
     },
     {
       "item_key": "logitech-g915-x-lightspeed-amazon",
@@ -4163,10 +5009,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 116.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 116.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/b14884ebdd002889.webp"
     },
     {
@@ -4194,10 +5044,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 969.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 969.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/729082862bd84b6e.webp"
     },
     {
@@ -4225,10 +5079,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 869.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 869.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c4c9631e0acc4611.webp"
     },
     {
@@ -4256,11 +5114,46 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 229.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 229.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/5a6ebfd4e087c9f6.webp"
+    },
+    {
+      "item_key": "bestbuy-nintendo-switch-pro-controller",
+      "section": "gear_tech",
+      "shelf": "gaming",
+      "sub": "accessories",
+      "category": "gaming",
+      "subcategory": "controllers",
+      "item": "Nintendo Switch Pro Controller",
+      "retailer": "Best Buy",
+      "price": 56.0,
+      "price_label": null,
+      "price_raw": 56.0,
+      "regular_price": 80.0,
+      "discount": "$24 off (30%)",
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.dealnews.com/Early-Black-Friday-Video-Game-Deals-at-Best-Buy-Up-to-1-150-off-free-shipping/22346320.html",
+      "image_url": null,
+      "image_alt": "Nintendo Switch Pro Controller",
+      "new_release": false,
+      "notes": "Part of Nintendo Sales & Deals event at Best Buy; Zelda: Tears of the Kingdom $49. No Switch 2 or Steam Deck hardware discounts found.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 56.0
+        }
+      ],
+      "first_seen": "2026-11-04T09:09:39-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
+      "image": null
     },
     {
       "item_key": "steelseries-arctis-nova-pro-wireless-amazon",
@@ -4287,10 +5180,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 249.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 249.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/8317057c64e6dc8d.webp"
     },
     {
@@ -4318,10 +5215,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 109.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 109.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/7c2bca11ec1b37dc.webp"
     },
     {
@@ -4349,10 +5250,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 461.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 461.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/b6f80c819eda314c.webp"
     },
     {
@@ -4380,10 +5285,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 593.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 593.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/abc84db24f909f2d.webp"
     },
     {
@@ -4411,10 +5320,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 99.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 99.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/63dbfbc39c1c795b.webp"
     },
     {
@@ -4442,10 +5355,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 25.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 25.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c402490d6d2504cb.webp"
     },
     {
@@ -4462,21 +5379,25 @@
       "price_raw": null,
       "regular_price": null,
       "discount": "Up to 75% off",
-      "deal_status": "announced",
+      "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://blog.playstation.com/2026/11/03/playstations-black-friday-deals-2026/",
       "image_url": "https://i5.walmartimages.com/seo/PlayStation-5-Digital-Console-Slim_3d7b0255-6cf9-47e0-930b-7dd1eb46eacc.9ec69570d4fdcf76055b648b2bd52cae.png",
       "image_alt": "PlayStation 5 Digital Edition (Slim) console (Walmart product photo)",
       "new_release": false,
-      "notes": "Thousands of games and DLC discounted; runs Nov 4–Nov 30, refresh Nov 16, some deals end Nov 20. Official PlayStation Blog. Image is a Walmart PS5 Slim product photo; the PlayStation Blog image host is unreachable from our checker.",
+      "notes": "LIVE as of Nov 4 (confirmed on PlayStation Blog): up to 75% off thousands of PS5/PS4/PS VR2 games and DLC through Nov 30; new titles join Nov 16 and some discounts end Nov 20. Thousands of games and DLC discounted; runs Nov 4–Nov 30, refresh Nov 16, some deals end Nov 20. Official PlayStation Blog. Image is a Walmart PS5 Slim product photo; the PlayStation Blog image host is unreachable from our checker.",
       "price_history": [
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/661bd88460fb6a73.webp"
     },
     {
@@ -4504,10 +5425,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 1849.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1849.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/7333cf1d06b86901.webp"
     },
     {
@@ -4535,10 +5460,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 2199.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 2199.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/14c4b5b245713014.webp"
     },
     {
@@ -4566,10 +5495,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 1799.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1799.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/c9185a0dc27ba986.webp"
     },
     {
@@ -4597,10 +5530,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 308.38
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 308.38
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/eaba8d433d4561ad.webp"
     },
     {
@@ -4628,10 +5565,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 600.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 600.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/18cfb00bad4a98a1.webp"
     },
     {
@@ -4721,10 +5662,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 549.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 549.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/0912aba9482c3815.webp"
     },
     {
@@ -4752,10 +5697,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 779.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 779.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/5e2b9ba196e07c88.webp"
     },
     {
@@ -4876,10 +5825,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 499.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 499.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/6306067391ca58e8.webp"
     },
     {
@@ -4907,10 +5860,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 629.3
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 629.3
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/56bbf848b344b1f4.webp"
     },
     {
@@ -4938,10 +5895,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 703.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 703.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/4dc184a02bdcf033.webp"
     },
     {
@@ -5062,10 +6023,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/3bd50511bb56e36d.webp"
     },
     {
@@ -5310,10 +6275,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 65
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 65
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/2b15e104705279f3.webp"
     },
     {
@@ -5341,10 +6310,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/8ebfb196d34e4931.webp"
     },
     {
@@ -5372,10 +6345,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 1
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 1
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/f102ac5e791081a8.webp"
     },
     {
@@ -5403,10 +6380,14 @@
         {
           "swept_at": "2026-11-03T13:55:26-08:00",
           "price": 270
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 270
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-03T13:55:26-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/ff2701e0b080b4aa.webp"
     },
     {
@@ -5868,10 +6849,14 @@
         {
           "swept_at": "2026-11-03T14:13:34-08:00",
           "price": 679.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 679.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-03T14:13:34-08:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/965a82c9e1b50f02.webp"
     },
     {
@@ -6302,10 +7287,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 699.99
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 699.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/dbf72d0005a9fabe.webp"
     },
     {
@@ -6333,10 +7322,14 @@
         {
           "swept_at": "2026-11-03T23:01:58.975774+00:00",
           "price": 599.0
+        },
+        {
+          "swept_at": "2026-11-04T09:09:39-08:00",
+          "price": 599.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-03T23:01:58.975774+00:00",
+      "last_seen": "2026-11-04T09:09:39-08:00",
       "image": "data/black-friday/img/62def262ce161583.webp"
     }
   ]

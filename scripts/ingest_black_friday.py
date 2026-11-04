@@ -35,6 +35,15 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+
+def _ts(v):
+    """tz-aware sort key; naive times are treated as Pacific (UTC-8)."""
+    try:
+        d = datetime.fromisoformat(str(v).replace("Z", "+00:00"))
+    except ValueError:
+        return datetime.min.replace(tzinfo=timezone.utc)
+    return d if d.tzinfo else d.replace(tzinfo=timezone(timedelta(hours=-8)))
+
 ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "data" / "black-friday"
 IMG_DIR = OUT_DIR / "img"
@@ -245,7 +254,7 @@ def main() -> int:
             sec = exp
         sweeps.append({"file": p.name, "section": sec, "swept_at": doc.get("swept_at") or m.group(2) + "T00:00:00",
                        "deals": [d for d in doc.get("deals") or [] if isinstance(d, dict)]})
-    sweeps.sort(key=lambda s: (s["swept_at"], s["file"]))
+    sweeps.sort(key=lambda s: (_ts(s["swept_at"]), s["file"]))
 
     items: dict[str, dict] = {}
     for sw in sweeps:
@@ -309,7 +318,7 @@ def main() -> int:
     shelf_order = [s["id"] for s in sections]
     out_items = sorted(items.values(), key=lambda i: (shelf_order.index(i["shelf"]), str(i["sub"]), i["item"].lower()))
     doc = {
-        "updated_at": max((s["swept_at"] for s in sweeps), default=None),
+        "updated_at": max((s["swept_at"] for s in sweeps), key=_ts, default=None),
         "sections": public_sections(sections),
         "sweeps": [{"file": s["file"], "section": s["section"], "swept_at": s["swept_at"], "deals": len(s["deals"])} for s in sweeps],
         "items": out_items,
