@@ -7,6 +7,30 @@
     "fetched_at": "2026-11-03T19:26:32+00:00",
     "file": "f269a06b7e67c1c4.webp"
   },
+  "https://9to5toys.com/wp-content/uploads/sites/5/2026/03/MacBook-Air-M4-deals-clearance.jpg?quality=82&strip=all&resize=1200,628": {
+    "fetched_at": "2026-11-06T17:29:54+00:00",
+    "file": "120aa28547468262.webp"
+  },
+  "https://9to5toys.com/wp-content/uploads/sites/5/2026/09/Mac-Studio-2026-preorder-deal.jpg?quality=82&strip=all&resize=1200,628": {
+    "fetched_at": "2026-11-06T17:29:57+00:00",
+    "file": "1c1016f100d6756b.webp"
+  },
+  "https://9to5toys.com/wp-content/uploads/sites/5/2026/10/Best-Buy-Windows-laptop-sale.jpg?quality=82&strip=all&resize=1200,628": {
+    "fetched_at": "2026-11-06T17:30:20+00:00",
+    "file": "9874faec4f80e8f4.webp"
+  },
+  "https://9to5toys.com/wp-content/uploads/sites/5/2026/11/Best-Buy-early-Black-Friday-DOTD-Day-1.jpg?quality=82&strip=all&resize=1200,628": {
+    "fetched_at": "2026-11-06T17:30:18+00:00",
+    "file": "0c373d865275e0b5.webp"
+  },
+  "https://9to5toys.com/wp-content/uploads/sites/5/2026/11/Costco-1-Year-Gold-Star-Membership.jpg?quality=82&strip=all&resize=1200,628": {
+    "fetched_at": "2026-11-06T17:29:03+00:00",
+    "file": "c9d92ea192c42083.webp"
+  },
+  "https://9to5toys.com/wp-content/uploads/sites/5/2026/11/iBUYPOWER-RTX-5060-gaming-PC.jpg?quality=82&strip=all&resize=1200,628": {
+    "fetched_at": "2026-11-06T17:30:17+00:00",
+    "file": "7d98a5ef0e65238b.webp"
+  },
   "https://assets.caesars.com/asset/dd057eb9-d8c8-44fa-997d-2e620239fd25/clv-timmcgraw-1920x1080.jpg": {
     "fetched_at": "2026-11-03T22:16:38+00:00",
     "file": "854cc3bb8564d94a.webp"
@@ -22,6 +46,19 @@
   "https://assets.princess.com/is/image/princesscruises/ocho-rios-jamaica?qlt=82": {
     "fetched_at": "2026-11-04T17:15:08+00:00",
     "file": "e70405bb52f73de5.webp"
+  },
+  "https://blog.playstation.com/tachyon/2026/11/62bd61203b9e44f88de85cba81f10904e5757ed4.jpg": {
+    "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+    "file": null,
+    "tried_at": "2026-11-06T17:29:12+00:00"
+  },
+  "https://blowsion.com/cdn/shop/files/blowsion_2023_yamaha_superjet_tr1_1050_teal_white_for_sale_002.jpg?v=1715380006": {
+    "fetched_at": "2026-11-06T17:29:19+00:00",
+    "file": "b3aa3ed5bd342f68.webp"
+  },
+  "https://blowsion.com/cdn/shop/files/solas_yamaha_impeller_housing_148mm.jpg?v=1715378872": {
+    "fetched_at": "2026-11-06T17:29:20+00:00",
+    "file": "c2048f8346cbd650.webp"
   },
   "https://cache.marriott.com/is/image/marriotts7prod/jw-lasjw-deluxe-king-room-25152:Wide-Hor?wid=1336&fit=constrain": {
     "fetched_at": "2026-11-03T22:16:04+00:00",
@@ -87,6 +124,10 @@
     "fetched_at": "2026-11-03T22:16:53+00:00",
     "file": "21afc541c0a1c8d4.webp"
   },
+  "https://cdn.shopify.com/s/files/1/0036/3921/4169/files/X.webp?v=1766210409": {
+    "fetched_at": "2026-11-06T17:29:47+00:00",
+    "file": "7957c0845f8d7c32.webp"
+  },
   "https://cdn.shopify.com/s/files/1/0051/5548/7832/files/SV08MAX_5.jpg?v=1768890670": {
     "fetched_at": "2026-11-03T22:17:36+00:00",
     "file": "6e2ea11ce010c640.webp"
@@ -106,6 +147,10 @@
   "https://cdn.shopify.com/s/files/1/0274/7219/files/FASTFORWARD_CorduroyKillers_COLLECTION-PAGE.png?v=1783437292": {
     "fetched_at": "2026-11-03T22:18:04+00:00",
     "file": "0912aba9482c3815.webp"
+  },
+  "https://cdn.shopify.com/s/files/1/0279/0277/1337/files/CertSweat-F3Q-PinkGlossy-Visor.png?v=1709053054": {
+    "fetched_at": "2026-11-06T17:29:39+00:00",
+    "file": "c7cf69336037fac0.webp"
   },
   "https://cdn.shopify.com/s/files/1/0279/0277/1337/files/CertSweat-F3Q-RedGlossy-Visor.png?v=1709052914": {
     "fetched_at": "2026-11-03T23:03:06+00:00",
@@ -142,6 +187,14 @@
   "https://cdn.shopify.com/s/files/1/0544/4249/2085/files/Patton-S--Front-Oblique-Right_ad52473a-38c9-46f0-ad36-d2687728d6b5.jpg?v=1764364212": {
     "fetched_at": "2026-11-03T23:03:01+00:00",
     "file": "3e3a91c49202bf75.webp"
+  },
+  "https://cdn.shopify.com/s/files/1/0544/4249/2085/files/Sherman-L_-Front-Oblique-Right.jpg?v=1720375300": {
+    "fetched_at": "2026-11-06T17:30:14+00:00",
+    "file": "0e4afe81f398dee0.webp"
+  },
+  "https://cdn.shopify.com/s/files/1/0544/4249/2085/files/begode-extreme-electric-unicycle-600x600.jpg?v=1717580050": {
+    "fetched_at": "2026-11-06T17:29:38+00:00",
+    "file": "220b161ba0058d31.webp"
   },
   "https://cdn.shopify.com/s/files/1/0544/4249/2085/products/S20-Right-Oblique.jpg?v=1669861844": {
     "fetched_at": "2026-11-03T23:03:03+00:00",
@@ -207,6 +260,14 @@
     "fetched_at": "2026-11-03T21:10:59+00:00",
     "file": "fe8dc7226cbe4ccf.webp"
   },
+  "https://cdn.shopify.com/s/files/1/0630/1951/6082/files/20261029-_-__03.png?v=1793275623": {
+    "fetched_at": "2026-11-06T17:29:37+00:00",
+    "file": "eb2a8758d320d3ec.webp"
+  },
+  "https://cdn.shopify.com/s/files/1/0630/1951/6082/files/20261029-_-__19_13a1f7f2-82b3-4dda-a2dc-daff52be07df.png?v=1793277209": {
+    "fetched_at": "2026-11-06T17:30:13+00:00",
+    "file": "08a92427b95e0140.webp"
+  },
   "https://cdn.shopify.com/s/files/1/0630/1951/6082/files/20261029-_-__23.png?v=1793275623": {
     "fetched_at": "2026-11-04T17:10:31+00:00",
     "file": "6874ca1c17d655db.webp"
@@ -243,9 +304,17 @@
     "fetched_at": "2026-11-03T21:10:53+00:00",
     "file": "c54f90f0adea2a0a.webp"
   },
+  "https://cdn.shopify.com/s/files/1/0687/7151/2385/files/40-43Q3L_UI-Front.jpg?v=1": {
+    "fetched_at": "2026-11-06T17:30:06+00:00",
+    "file": "38c7bca3ec9564ab.webp"
+  },
   "https://cdn.shopify.com/s/files/1/0687/7151/2385/files/40-43Q3L_UI-Front.jpg?v=1790745254": {
     "fetched_at": "2026-11-04T17:15:52+00:00",
     "file": "4db2bed34b435471.webp"
+  },
+  "https://cdn.shopify.com/s/files/1/0701/8066/7584/files/TX16S-MAX_V3_-C-1.jpg?v=1750063076": {
+    "fetched_at": "2026-11-06T17:29:45+00:00",
+    "file": "b73c56426e12e289.webp"
   },
   "https://cdn.shopify.com/s/files/1/0715/1314/5498/files/1_748ef588-9135-4740-a389-b2ef1dc568ec.png?v=1784801460": {
     "fetched_at": "2026-11-03T22:17:47+00:00",
@@ -286,6 +355,10 @@
   "https://cdn.shopify.com/s/files/1/0893/0603/8637/articles/creality-black-friday-3d-printer-buying-guide.jpg?v=1793696669": {
     "fetched_at": "2026-11-03T19:26:29+00:00",
     "file": "8b22a8f7b348a69f.webp"
+  },
+  "https://cdn.shopify.com/s/files/1/0893/0603/8637/files/K2_Combo-_1.png?v=1762073455": {
+    "fetched_at": "2026-11-06T17:29:49+00:00",
+    "file": "b275afd09006b25d.webp"
   },
   "https://cdn.shopify.com/s/files/1/0937/0802/6176/files/MOZA_TSW_Truck_Wheel-1.webp?v=1752135363": {
     "fetched_at": "2026-11-03T22:17:52+00:00",
@@ -351,6 +424,10 @@
     "fetched_at": "2026-11-03T22:16:46+00:00",
     "file": "4734ef885483b333.webp"
   },
+  "https://cdn.shopify.com/s/files/1/1126/9610/products/Maple-Wireless-Combo-C4-DJI-Goggles-Antenna-Upgrade-install.jpg": {
+    "fetched_at": "2026-11-06T17:29:13+00:00",
+    "file": "296c4a97f24b8936.webp"
+  },
   "https://cdn.shopify.com/s/files/1/1126/9610/products/Maple-Wireless-Combo-C4-DJI-Goggles-Antenna-Upgrade-install.jpg?v=1728783323": {
     "fetched_at": "2026-11-03T22:16:56+00:00",
     "file": "d9cef6d09c860a98.webp"
@@ -399,6 +476,10 @@
     "fetched_at": "2026-11-03T19:26:43+00:00",
     "file": "67ce92df1917d139.webp"
   },
+  "https://cdn.technobezz.com/deals-branded/3e618a8ea2b5a674_branded.jpg": {
+    "fetched_at": "2026-11-06T17:30:00+00:00",
+    "file": "36bdd5ba60653728.webp"
+  },
   "https://cdn.technobezz.com/deals-branded/8f9e87958502b970_branded.jpg": {
     "fetched_at": "2026-11-03T19:37:26+00:00",
     "file": "06cd9dd16ecbbd4a.webp"
@@ -423,6 +504,14 @@
     "fetched_at": "2026-11-03T19:26:18+00:00",
     "file": "bdabc874c55907ea.webp"
   },
+  "https://content.backcountry.com/images/items/1200/ELA/ELAC0GC/GRBLSABL.jpg": {
+    "fetched_at": "2026-11-06T17:30:22+00:00",
+    "file": "8933cedabac53fbe.webp"
+  },
+  "https://d.dlnws.com/64599/1793965878-5bde583f-0709-494e-89d5-44885b290078.webp?h=568&w=900": {
+    "fetched_at": "2026-11-06T17:30:15+00:00",
+    "file": "1ca674148de63d6f.webp"
+  },
   "https://d1x7ckegjixjni.cloudfront.net/shows/Carrot-Top500x500.jpg": {
     "fetched_at": "2026-11-04T17:22:50+00:00",
     "file": "bcf125642ad0c8f8.webp"
@@ -438,6 +527,18 @@
   "https://domdemarcos.com/wp-content/uploads/2025/09/Dom-DeMacros-Pizzeria-and-Wine-Bar.jpg": {
     "fetched_at": "2026-11-03T21:11:30+00:00",
     "file": "785ea3807a8e09b9.webp"
+  },
+  "https://domdemarcos.com/wp-content/uploads/2026/09/The-Football-Feast-at-Doms.jpg": {
+    "fetched_at": "2026-11-06T17:29:08+00:00",
+    "file": "761af1420b33649a.webp"
+  },
+  "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/BCJK_STG/on/demandware.static/-/Sites-global-master-catalog/default/dw44f8d922/images/large/1157859_1.jpg?sw=800&sh=800": {
+    "fetched_at": "2026-11-06T17:29:01+00:00",
+    "file": "797912e4009261e2.webp"
+  },
+  "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/BCJK_STG/on/demandware.static/-/Sites-global-master-catalog/default/dw5fc9735b/images/large/1159218_1.jpg?sw=400&sh=400": {
+    "fetched_at": "2026-11-06T17:30:21+00:00",
+    "file": "aa1f4ec283a42b10.webp"
   },
   "https://framerusercontent.com/images/3PyDgjJQFwqbNT9fIOVSX9rTDU.png": {
     "fetched_at": "2026-11-03T22:16:37+00:00",
@@ -483,6 +584,10 @@
     "fetched_at": "2026-11-03T21:11:00+00:00",
     "file": "40bf49eaa24d8492.webp"
   },
+  "https://jetpilot.com/cdn/shop/files/JP26221F-86SabreEvopreneSide-EntryPFD_CLCAMO_F.jpg?v=1776360415": {
+    "fetched_at": "2026-11-06T17:29:32+00:00",
+    "file": "75d886decbc9c3fc.webp"
+  },
   "https://kawasaki-global-admin.com/ContentStorage/KMC/Products/9791/49d27db6-cf9c-429d-ab94-147c549ed25e.webp": {
     "fetched_at": "2026-11-03T23:03:12+00:00",
     "file": "282da0b73b33ba27.webp"
@@ -507,6 +612,10 @@
     "fetched_at": "2026-11-04T17:22:46+00:00",
     "file": "796e75c3267ad92c.webp"
   },
+  "https://mmx.prnewswire.com/media/MS2029217/REI-Co-op-sale.jpg?id=OA3063149&p=facebook": {
+    "fetched_at": "2026-11-06T17:30:23+00:00",
+    "file": "34b3c827a6b0af81.webp"
+  },
   "https://mountaincollective.com/wp-content/uploads/2025/07/RS46951_Sunny-Laps-11-of-12_lpr-wpv_500x500_center_center.jpg": {
     "fetched_at": "2026-11-03T22:16:15+00:00",
     "file": "fa432dfb7b34460b.webp"
@@ -522,6 +631,11 @@
   "https://portal.bblmw.com/nav/product/h2c-h2e4s63566c.png": {
     "fetched_at": "2026-11-03T21:10:51+00:00",
     "file": "ffd5cb8ebd4aa28b.webp"
+  },
+  "https://productimages.microcenter.com/0690477_805440.jpg": {
+    "error": "HTTPError: HTTP Error 403: Forbidden",
+    "file": null,
+    "tried_at": "2026-11-06T17:29:59+00:00"
   },
   "https://radiomasterrc.com/cdn/shop/files/TX16S-MAX_V3_-C-1.jpg?v=1750063076": {
     "fetched_at": "2026-11-03T21:10:43+00:00",
@@ -579,6 +693,31 @@
     "fetched_at": "2026-11-03T22:15:42+00:00",
     "file": "24b5f0dbf51b3e50.webp"
   },
+  "https://sea-doo.brp.com/content/dam/global/en/sea-doo/my26/studio/rec-lite/spark/SEA-MY26-SPARK-Base-2up-NoSS-M-60-SUNRISE-ORANGE-DRAGON-RED-00061TA00-STUDIO-661x480-SHADOW-SD-NA.png": {
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "file": null,
+    "tried_at": "2026-11-06T17:29:41+00:00"
+  },
+  "https://seadoopwc.com/cdn/shop/files/285984-90-_5.png?v=1741361193": {
+    "fetched_at": "2026-11-06T17:29:22+00:00",
+    "file": "95178f7281fde94c.webp"
+  },
+  "https://seadoopwc.com/cdn/shop/files/286815_07_ft_9485_3.webp?v=1761055474": {
+    "fetched_at": "2026-11-06T17:29:23+00:00",
+    "file": "26aa2c7d308bea6d.webp"
+  },
+  "https://seadoopwc.com/cdn/shop/files/295100379-_1.jpg?v=1741361414": {
+    "fetched_at": "2026-11-06T17:29:25+00:00",
+    "file": "b0a0788b1f06240c.webp"
+  },
+  "https://seadoopwc.com/cdn/shop/files/295100924_frt.webp?v=1761673603": {
+    "fetched_at": "2026-11-06T17:29:28+00:00",
+    "file": "9359800259f75b85.webp"
+  },
+  "https://seadoopwc.com/cdn/shop/files/Sea-DooImpeller_05e3b704-da16-4b84-b057-217974d488b5.jpg?v=1729014914": {
+    "fetched_at": "2026-11-06T17:29:26+00:00",
+    "file": "8545d3412cf691fd.webp"
+  },
   "https://seaworld.com/san-diego/-/media/migrated-media/seaworld-san-diego/images/shows/orca-encounter/357x229-swc-shows-orcaencounter.jpg": {
     "fetched_at": "2026-11-03T22:16:24+00:00",
     "file": "170634221936f176.webp"
@@ -607,6 +746,10 @@
     "fetched_at": "2026-11-03T19:59:59+00:00",
     "file": "b6f80c819eda314c.webp"
   },
+  "https://slickdeals.net/attachment/1/4/8/5/3/3/0/450x450/22186113.thumb": {
+    "fetched_at": "2026-11-06T17:29:58+00:00",
+    "file": "054af3b936750a6e.webp"
+  },
   "https://slickdeals.net/attachment/1/8/2/8/3/4/450x450/22036992.thumb": {
     "fetched_at": "2026-11-03T20:00:02+00:00",
     "file": "c9185a0dc27ba986.webp"
@@ -622,6 +765,10 @@
   "https://slickdeals.net/attachment/3/5/8/2/5/6/8/8/450x450/22171497.thumb": {
     "fetched_at": "2026-11-03T19:59:58+00:00",
     "file": "63dbfbc39c1c795b.webp"
+  },
+  "https://slickdeals.net/attachment/3/5/9/4/0/2/8/450x450/22238217.thumb": {
+    "fetched_at": "2026-11-06T17:29:04+00:00",
+    "file": "cdea70d1c6f5a2bd.webp"
   },
   "https://slickdeals.net/attachment/4/2/8/1/6/450x450/22156608.thumb": {
     "fetched_at": "2026-11-03T20:00:07+00:00",
@@ -639,17 +786,29 @@
     "fetched_at": "2026-11-03T22:16:29+00:00",
     "file": "42140504d3ea6c85.webp"
   },
+  "https://storage.ghost.io/c/69/d5/69d51699-d072-45ac-9ab4-d45efbe74012/content/images/size/w1200/2026/11/Black-Friday-More-Sales-Storefront.png": {
+    "fetched_at": "2026-11-06T17:30:08+00:00",
+    "file": "afffe3297c3d28bd.webp"
+  },
   "https://storage.ghost.io/c/69/d5/69d51699-d072-45ac-9ab4-d45efbe74012/content/images/size/w1200/2026/11/vacubots-black-friday-thanksgiving-hero.png": {
     "fetched_at": "2026-11-03T19:26:36+00:00",
     "file": "241bb3c28701fcc6.webp"
   },
   "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2026/10/8c6ec947-bf2026_blog_cover-1.jpg": {
-    "fetched_at": "2026-11-03T19:26:30+00:00",
+    "fetched_at": "2026-11-06T17:29:51+00:00",
     "file": "576b037ae265ec80.webp"
   },
   "https://store.anycubic.com/cdn/shop/files/1500x1500-S1MC_de495f98-0760-4106-990e-94da2e604020.jpg?v=1775641769": {
     "fetched_at": "2026-11-03T21:10:54+00:00",
     "file": "f9d755fa4da16f6e.webp"
+  },
+  "https://store.bblcdn.com/s7/default/a4292ae568074a55b76b31835ec5700a/H2CC.jpg": {
+    "fetched_at": "2026-11-06T17:29:48+00:00",
+    "file": "119f2d108602dd04.webp"
+  },
+  "https://thelibrary.mgmresorts.com/transform/Ev3U6c9NFy712y9l/PMGM156113436.tif": {
+    "fetched_at": "2026-11-06T17:30:04+00:00",
+    "file": "7c4249b94b255c85.webp"
   },
   "https://thelibrary.mgmresorts.com/transform/MVmorZnPnK02Q1XA/MAN147402747.jpg": {
     "fetched_at": "2026-11-03T22:16:31+00:00",
@@ -658,6 +817,10 @@
   "https://themobmuseum.org/wp-content/uploads/2015/03/Mob-Museum-Building-Angle_FB.jpg": {
     "fetched_at": "2026-11-03T19:32:25+00:00",
     "file": "1a1c40ddfb3af8b9.webp"
+  },
+  "https://thestrat.com/images/LSTR-TOW-2024-Black-crop.png": {
+    "fetched_at": "2026-11-06T17:29:07+00:00",
+    "file": "c9f8c7c88c996f36.webp"
   },
   "https://thestrat.com/userfiles/social/opengraph/121/Picture1.png": {
     "fetched_at": "2026-11-03T22:15:00+00:00",
@@ -855,6 +1018,10 @@
     "fetched_at": "2026-11-03T21:14:55+00:00",
     "file": "cfe8b4e262a208a9.webp"
   },
+  "https://us.ecoflow.com/cdn/shop/files/10_5a13be20-2930-4c5c-8736-89f96ffc0d61.jpg?v=1741686539": {
+    "fetched_at": "2026-11-06T17:30:09+00:00",
+    "file": "9e4a5fafcee5a0d3.webp"
+  },
   "https://us.elegoo.com/cdn/shop/files/Black_Friday_Sale-Header-Menu-200x150.jpg?v=1793518771&width=670": {
     "fetched_at": "2026-11-03T19:26:27+00:00",
     "file": "65b6b58cd51125a9.webp"
@@ -870,7 +1037,7 @@
   "https://weaverobotics.com/images/lifestyle/sage/studio.webp": {
     "error": "HTTPError: HTTP Error 404: Not Found",
     "file": null,
-    "tried_at": "2026-11-03T19:26:37+00:00"
+    "tried_at": "2026-11-06T17:29:52+00:00"
   },
   "https://weaverobotics.com/og-isaac-1.jpg": {
     "fetched_at": "2026-11-03T21:11:03+00:00",
@@ -926,9 +1093,17 @@
     "fetched_at": "2026-11-04T17:22:52+00:00",
     "file": "7fb123e51aa4e96d.avif"
   },
+  "https://www.cirquedusoleil.com/-/media/cds/images/seasonal/black_friday/2025/tagline/cds-bf25-tagline-magenta-en.svg?db=web&vs=1&hash=C9BB20434C40103F3FBD41B63BD9676F": {
+    "fetched_at": "2026-11-06T17:30:07+00:00",
+    "file": "4edd6a1e3dc9566a.svg"
+  },
   "https://www.crunch.com/og-image.jpg": {
     "fetched_at": "2026-11-03T19:37:31+00:00",
     "file": "8ebfb196d34e4931.webp"
+  },
+  "https://www.cyclegear.com/_a/product_images/0102/8658/leatt55_body_protector_480x480.jpg": {
+    "fetched_at": "2026-11-06T17:30:10+00:00",
+    "file": "99c2185aa4a538e7.webp"
   },
   "https://www.cyclegear.com/_a/product_images/1666/5633/sena_stryker_mesh_helmet.jpg": {
     "fetched_at": "2026-11-03T22:17:18+00:00",
@@ -941,6 +1116,10 @@
   "https://www.deervalley.com/-/media/deer-valley/skiing/powder-skiing/woman-skiing-powder-at-deer-valley-in-park-city.jpg": {
     "fetched_at": "2026-11-04T17:15:09+00:00",
     "file": "104489607aefbbeb.webp"
+  },
+  "https://www.eosfitness.com/_next/static/media/eos-full-white.7334ea12.png": {
+    "fetched_at": "2026-11-06T17:29:06+00:00",
+    "file": "7de69e3059d5a772.webp"
   },
   "https://www.govolition.com/assets/2a13f6b96cadbd59fdb16207435053058846791b": {
     "fetched_at": "2026-11-03T21:10:57+00:00",
@@ -958,6 +1137,11 @@
     "fetched_at": "2026-11-04T17:22:45+00:00",
     "file": "19b0b877708e7ea3.webp"
   },
+  "https://www.horizonhobby.com/dw/image/v2/BFBR_PRD/on/demandware.static/-/Sites-horizon-master/default/dw00000000/Images/EFL/EFL120050__A1.jpg": {
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "file": null,
+    "tried_at": "2026-11-06T17:29:44+00:00"
+  },
   "https://www.horizonhobby.com/dw/image/v2/BFBR_PRD/on/demandware.static/-/Sites-horizon-master/default/dw062e65b4/Images/EFL/EFL120050_A1_0J7UEYQR.jpg?sw=1200&sh=1200&sm=fit": {
     "fetched_at": "2026-11-03T21:10:42+00:00",
     "file": "935478863a7d507e.webp"
@@ -965,6 +1149,11 @@
   "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw378abc46/Images/EFL/EFL17750_A00_HBPWGZNU.jpg": {
     "fetched_at": "2026-11-03T21:10:41+00:00",
     "file": "13af37dd42b119b8.webp"
+  },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw378abc46/Images/EFL/EFL17750__A1.jpg": {
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "file": null,
+    "tried_at": "2026-11-06T17:29:42+00:00"
   },
   "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw59735463/Images/EFL/EFLU7050__A1_0UWHC8UE.jpg": {
     "fetched_at": "2026-11-03T22:16:59+00:00",
@@ -974,17 +1163,45 @@
     "fetched_at": "2026-11-03T22:17:04+00:00",
     "file": "38afbc4809f83d14.webp"
   },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwadb5a877/Images/HBZ/HBZ32001SE__A1.jpg": {
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "file": null,
+    "tried_at": "2026-11-06T17:29:18+00:00"
+  },
   "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwb6257c4a/Images/BLH/BLH01400_A1_EOKQMH89.jpg": {
     "fetched_at": "2026-11-03T22:17:02+00:00",
     "file": "0465868797d30e9a.webp"
+  },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwb6257c4a/Images/BLH/BLH01400__A1.jpg": {
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "file": null,
+    "tried_at": "2026-11-06T17:29:17+00:00"
   },
   "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwc70c7f24/Images/BLH/BLH01250B_A2_IBGE437S.jpg": {
     "fetched_at": "2026-11-03T22:17:01+00:00",
     "file": "716c7444a1877f43.webp"
   },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwc70c7f24/Images/BLH/BLH01250B__A1.jpg": {
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "file": null,
+    "tried_at": "2026-11-06T17:29:15+00:00"
+  },
   "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwe2711b2f/Images/EFL/EFL07750_A0_LHRQ3F4A.jpg": {
     "fetched_at": "2026-11-03T22:17:00+00:00",
     "file": "d1a9fc65b6a2423f.webp"
+  },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwe2711b2f/Images/EFL/EFL07750__A1.jpg": {
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "file": null,
+    "tried_at": "2026-11-06T17:29:14+00:00"
+  },
+  "https://www.jackery.com/cdn/shop/files/jackery-homepower-1000-v2-4606550.webp?v=1786088949": {
+    "fetched_at": "2026-11-06T17:29:33+00:00",
+    "file": "6b22d99a3d5f20f1.webp"
+  },
+  "https://www.jackery.com/cdn/shop/files/jackery-solarsaga-100-light-2350840.png?v=1758263214": {
+    "fetched_at": "2026-11-06T17:29:34+00:00",
+    "file": "b0bca82338edc5d0.webp"
   },
   "https://www.jpcycles.com/_a/product_images/2252/2136/quad_lock_motorcycle_handlebar_mount_pro_480x480.jpg": {
     "fetched_at": "2026-11-04T17:10:34+00:00",
@@ -1022,6 +1239,10 @@
     "fetched_at": "2026-11-03T19:32:24+00:00",
     "file": "b7e95c4cc25ff5c4.webp"
   },
+  "https://www.livingrichwithcoupons.com/wp-content/uploads/2026/11/Blank-1000-x-615-copy-185-6.png": {
+    "fetched_at": "2026-11-06T17:30:25+00:00",
+    "file": "a6008068ecb22882.webp"
+  },
   "https://www.mammothmountain.com/-/media/project/mammoth/library/winter-photos/lifestyle/2024-03-19_mm_cm_demos_0024_2400x1350.jpg": {
     "fetched_at": "2026-11-04T17:22:48+00:00",
     "file": "72f4c29cce61d44f.webp"
@@ -1029,6 +1250,10 @@
   "https://www.mthigh.com/site/connect/connect/photos/dailyphotos2225/MTR01016.jpg/listing": {
     "fetched_at": "2026-11-03T22:18:06+00:00",
     "file": "965a82c9e1b50f02.webp"
+  },
+  "https://www.mthigh.com/site/tickets-and-groups/season-passes/season-pass.html/Affirm/fullsize": {
+    "fetched_at": "2026-11-06T17:29:35+00:00",
+    "file": "11fe3ba6c8b065df.webp"
   },
   "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/IMG_5351.JPG": {
     "fetched_at": "2026-11-03T21:10:55+00:00",
@@ -1054,6 +1279,10 @@
     "fetched_at": "2026-11-03T19:26:44+00:00",
     "file": "1ee2c204b951c49c.webp"
   },
+  "https://www.popsci.com/wp-content/uploads/2026/11/weber-grilling-early-black-friday-deals.jpg?w=1200": {
+    "fetched_at": "2026-11-06T17:30:01+00:00",
+    "file": "1c18eb039c353154.webp"
+  },
   "https://www.prusa3d.com/content/images/product/34f8abbf-a37b-4e6d-9277-397558ff7e25.jpg": {
     "fetched_at": "2026-11-03T21:10:56+00:00",
     "file": "f255fcfe45d2ad13.webp"
@@ -1073,6 +1302,10 @@
   "https://www.revzilla.com/product_images/1498/8747/shoei_rf1400_helmet_480x480.jpg": {
     "fetched_at": "2026-11-03T19:26:24+00:00",
     "file": "f60f35b2d1b48d45.webp"
+  },
+  "https://www.revzilla.com/product_images/2109/2092/rizoma_stealth_mirrors_mv_agusta_f38002021_black_480x480.jpg": {
+    "fetched_at": "2026-11-06T17:30:11+00:00",
+    "file": "58121a6a3a54040a.webp"
   },
   "https://www.revzilla.com/product_images/2208/6425/bell_racestar_dlx_flex_xenon_helmet_black_kryptonite.jpg": {
     "fetched_at": "2026-11-03T22:17:11+00:00",
