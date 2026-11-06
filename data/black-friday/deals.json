@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T09:33:49-08:00",
+  "updated_at": "2026-11-06T09:44:19-08:00",
   "sections": [
     {
       "id": "vegas_local",
@@ -280,9 +280,9 @@
       "deals": 178
     },
     {
-      "file": "travel-sweep-2026-11-06.json",
+      "file": "travel-sweep-2026-11-06-v2.json",
       "section": "travel",
-      "swept_at": "2026-11-06T09:33:49-08:00",
+      "swept_at": "2026-11-06T09:44:19-08:00",
       "deals": 67
     }
   ],
@@ -318,12 +318,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/7fb123e51aa4e96d.avif"
     },
     {
@@ -427,12 +427,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/04cac6aeab59f82b.webp"
     },
     {
@@ -466,12 +466,12 @@
           "price": 96
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 96
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/3a3c47cbb5ff264a.webp"
     },
     {
@@ -544,12 +544,12 @@
           "price": 45
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 45
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/2fce99c6c284ba6f.webp"
     },
     {
@@ -618,12 +618,12 @@
           "price": 74
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 74
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/bcf125642ad0c8f8.webp"
     },
     {
@@ -723,12 +723,12 @@
           "price": 990
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 990
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/35bf64dcdc7d6be9.webp"
     },
     {
@@ -762,12 +762,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": null
     },
     {
@@ -801,12 +801,12 @@
           "price": 1077
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 1077
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/67c7ec94023bb28e.webp"
     },
     {
@@ -840,12 +840,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/2e192f891bf44fa1.webp"
     },
     {
@@ -879,12 +879,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/854cc3bb8564d94a.webp"
     },
     {
@@ -6884,12 +6884,12 @@
           "price": 199
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 199
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/eb3b7f51cfc1fc58.webp"
     },
     {
@@ -6923,12 +6923,12 @@
           "price": 299
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 299
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/7ca2bf2a0dd14332.webp"
     },
     {
@@ -6958,12 +6958,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/104489607aefbbeb.webp"
     },
     {
@@ -6993,12 +6993,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/f812eb0da622b091.webp"
     },
     {
@@ -7141,12 +7141,12 @@
           "price": 119
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 119
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/2d7e2940d53dc78b.webp"
     },
     {
@@ -7176,12 +7176,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/72f4c29cce61d44f.webp"
     },
     {
@@ -7215,12 +7215,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/380d9ec8de1948f0.webp"
     },
     {
@@ -7254,12 +7254,12 @@
           "price": 125
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 125
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/aec1e5f8704e48b4.webp"
     },
     {
@@ -7437,12 +7437,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/7b9abdb7314a2ed7.webp"
     },
     {
@@ -7476,12 +7476,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/3ee9f5f02c2a323b.webp"
     },
     {
@@ -7511,12 +7511,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/26c79e3e48b75d76.webp"
     },
     {
@@ -7628,20 +7628,20 @@
       "discount": "33% off",
       "deal_status": "live",
       "date_found": "2026-11-06",
-      "source_url": "https://www.snowbird.com/deals/",
-      "image_url": null,
-      "image_alt": null,
+      "source_url": "https://www.snowbird.com/lodging-amenities/lodging/lodging-specials/",
+      "image_url": "https://cms.snowbird.com/sites/default/files/2026-10/3.7.26.Otto-8_cliff-lodge_snowbird_sunset_1000x667.jpg",
+      "image_alt": "Snowbird Cliff Lodge at sunset",
       "new_release": false,
-      "notes": "NEW. Save 33% on lodging Nov 26-Dec 24, 2026. Flex-5 multi-day pass also promoted. Official lodging photo returned 500 on fetch — image null.",
+      "notes": "NEW. Save 33% on lodging Nov 26-Dec 24, 2026. Flex-5 multi-day pass also promoted. Image is the official Cliff Lodge photo from snowbird.com. source_url updated from /deals/ (404) to the official lodging-specials page.",
       "price_history": [
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
-      "first_seen": "2026-11-06T09:33:49-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
-      "image": null
+      "first_seen": "2026-11-06T09:44:19-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
+      "image": "data/black-friday/img/4197d6b43941bd26.webp"
     },
     {
       "item_key": "solitude-ski-and-stay-20-off-2026-27",
@@ -7666,12 +7666,12 @@
       "notes": "NEW. Save 20% on lodging and lift tickets for stays Nov 12, 2026-May 15, 2027. Ikon Pass lodging discount up to 25% also listed.",
       "price_history": [
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
-      "first_seen": "2026-11-06T09:33:49-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "first_seen": "2026-11-06T09:44:19-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/a8e94b0e91b55981.webp"
     },
     {
@@ -7705,12 +7705,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/a17ef8f43e873d86.webp"
     },
     {
@@ -7744,12 +7744,12 @@
           "price": 119
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 119
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/32fd4cdc25a71525.webp"
     },
     {
@@ -7822,12 +7822,12 @@
           "price": 999
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 999
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/9ee9fd553ae2affa.avif"
     },
     {
@@ -7861,12 +7861,12 @@
           "price": 120
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 120
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/ba96ce5802cea55d.webp"
     },
     {
@@ -7900,12 +7900,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/288d9ba8edabe8ba.webp"
     },
     {
@@ -7939,12 +7939,12 @@
           "price": 139
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/b7e95c4cc25ff5c4.webp"
     },
     {
@@ -7978,12 +7978,12 @@
           "price": 104.99
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 77.99
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/170634221936f176.webp"
     },
     {
@@ -8017,12 +8017,12 @@
           "price": 79
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 79
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/886c5f9a5a0120dc.webp"
     },
     {
@@ -8056,12 +8056,12 @@
           "price": 179
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 179
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/2279dd3f22733e1e.webp"
     },
     {
@@ -8251,12 +8251,12 @@
           "price": 119
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 119
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/17fd554314fbc67d.webp"
     },
     {
@@ -8290,12 +8290,12 @@
           "price": 95
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 95
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/a507e1a418f6ad5c.webp"
     },
     {
@@ -8329,12 +8329,12 @@
           "price": 40
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 40
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/42140504d3ea6c85.webp"
     },
     {
@@ -8368,12 +8368,12 @@
           "price": 55
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 55
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/1a1c40ddfb3af8b9.webp"
     },
     {
@@ -8407,12 +8407,12 @@
           "price": 99
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 99
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/c9aae0e8429b6057.webp"
     },
     {
@@ -8446,12 +8446,12 @@
           "price": 45
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 45
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/c5b1eab4d9bd5c2a.webp"
     },
     {
@@ -8485,12 +8485,12 @@
           "price": 144
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 144
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/c58619c603051775.webp"
     },
     {
@@ -8524,12 +8524,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/c6c75729c74c04ba.webp"
     },
     {
@@ -8563,12 +8563,12 @@
           "price": 30
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 30
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/5b92308773d3de59.webp"
     },
     {
@@ -8602,12 +8602,12 @@
           "price": 1169
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 1169
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/b056b62d070fe058.webp"
     },
     {
@@ -8641,12 +8641,12 @@
           "price": 1529
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 1529
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/88ed3d6f9f3f55a9.webp"
     },
     {
@@ -8680,12 +8680,12 @@
           "price": 499
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 499
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/13512764f9873420.webp"
     },
     {
@@ -8719,12 +8719,12 @@
           "price": 1149
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 1149
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/3bc8e47288b3178b.webp"
     },
     {
@@ -8758,12 +8758,12 @@
           "price": 729
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 729
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/fa432dfb7b34460b.webp"
     },
     {
@@ -8836,12 +8836,12 @@
           "price": 779
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 779
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/c84699cf02e3fbb1.webp"
     },
     {
@@ -8875,12 +8875,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/039569c55fec0501.webp"
     },
     {
@@ -8914,12 +8914,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/c6b439c3ca3ce055.webp"
     },
     {
@@ -8953,12 +8953,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/86f8ef96b6b59ef3.webp"
     },
     {
@@ -8992,12 +8992,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/35ff3fd47f0d8e76.webp"
     },
     {
@@ -9027,12 +9027,12 @@
           "price": 999
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 999
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/796e75c3267ad92c.webp"
     },
     {
@@ -9062,12 +9062,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/19b0b877708e7ea3.webp"
     },
     {
@@ -9101,12 +9101,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/b047583d40d7d842.webp"
     },
     {
@@ -9136,12 +9136,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/e70405bb52f73de5.webp"
     },
     {
@@ -9175,12 +9175,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/72848cbb19d2017b.webp"
     },
     {
@@ -9214,12 +9214,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/63e59415732d79aa.avif"
     },
     {
@@ -9253,12 +9253,12 @@
           "price": 59
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 59
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/88e690076d1cd0be.webp"
     },
     {
@@ -9292,12 +9292,12 @@
           "price": 69
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 69
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/626457b15c628e75.webp"
     },
     {
@@ -9331,12 +9331,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/0e9d9aef6d1a1efd.webp"
     },
     {
@@ -9370,12 +9370,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/39bd551a0b1fa496.webp"
     },
     {
@@ -9405,12 +9405,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/92ed26ccefa93449.webp"
     },
     {
@@ -9440,12 +9440,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/253bcd1f3cb2d650.webp"
     },
     {
@@ -9479,12 +9479,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/f2b55a0ca4661a14.webp"
     },
     {
@@ -9510,12 +9510,12 @@
       "notes": "NEW. 'From' price Insider Quad $599/person; Insider Double $699; Full Flex $1,499. Nov 6-9, 2026 Destin/Pensacola: 3 nights condo, VIP flight-line chalet, motorcoach. Airshow hobby trip; departing today.",
       "price_history": [
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": 599
         }
       ],
-      "first_seen": "2026-11-06T09:33:49-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "first_seen": "2026-11-06T09:44:19-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": "data/black-friday/img/31a29708439342eb.webp"
     },
     {
@@ -9545,12 +9545,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": null
     },
     {
@@ -9580,12 +9580,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-06T09:33:49-08:00",
+          "swept_at": "2026-11-06T09:44:19-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-06T09:33:49-08:00",
+      "last_seen": "2026-11-06T09:44:19-08:00",
       "image": null
     },
     {
