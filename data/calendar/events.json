@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:00:35-08:00",
+  "generated_at": "2026-11-06T06:18:31-08:00",
   "timezone": "America/Los_Angeles",
   "end_is_inclusive": true,
   "months": [
@@ -268,6 +268,12 @@
       "all_day": true
     },
     {
+      "title": "Metallica – Life Burns Faster at Sphere",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "all_day": false
+    },
+    {
       "title": "Vegas Drone Meetup (3rd annual)",
       "start": "2026-11-06",
       "end": "2026-11-08",
@@ -310,6 +316,12 @@
       "all_day": true
     },
     {
+      "title": "Metallica – Life Burns Faster at Sphere",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "all_day": false
+    },
+    {
       "title": "Mighty Motor Mania",
       "start": "2026-11-07",
       "end": "2026-11-07",
@@ -334,9 +346,9 @@
       "all_day": true
     },
     {
-      "title": "RMPRA Finals Rodeo",
+      "title": "Southwest Huckfest (RC 3D)",
       "start": "2026-11-12",
-      "end": "2026-11-13",
+      "end": "2026-11-15",
       "all_day": true
     },
     {
@@ -356,6 +368,12 @@
       "start": "2026-11-13",
       "end": "2026-11-14",
       "all_day": true
+    },
+    {
+      "title": "Rush Sphere tickets on sale (10 AM PT)",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "all_day": false
     },
     {
       "title": "Beech Aero Club SW Region Fly-In",
@@ -526,6 +544,12 @@
       "all_day": false
     },
     {
+      "title": "Santa Paula Chain of Hangars Open House",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "all_day": false
+    },
+    {
       "title": "Toys for Tots AMA Fun-Fly (Encino)",
       "start": "2026-12-06",
       "end": "2026-12-06",
@@ -592,6 +616,12 @@
       "all_day": false
     },
     {
+      "title": "Frosty Balls Poker Run (tentative)",
+      "start": "2027-01-02",
+      "end": "2027-01-02",
+      "all_day": true
+    },
+    {
       "title": "Las Vegas BiWeekly Drone Race Event",
       "start": "2027-01-03",
       "end": "2027-01-03",
@@ -604,9 +634,21 @@
       "all_day": false
     },
     {
+      "title": "Parker 400 (Best in the Desert)",
+      "start": "2027-01-13",
+      "end": "2027-01-17",
+      "all_day": true
+    },
+    {
       "title": "Grapevine Fly-In (Roosevelt Lake)",
       "start": "2027-01-15",
       "end": "2027-01-17",
+      "all_day": true
+    },
+    {
+      "title": "Southwest Regionals SAM RC",
+      "start": "2027-01-16",
+      "end": "2027-01-18",
       "all_day": true
     },
     {
@@ -628,6 +670,30 @@
       "all_day": true
     },
     {
+      "title": "King of the Motos 2027 (tentative schedule)",
+      "start": "2027-01-21",
+      "end": "2027-01-24",
+      "all_day": true
+    },
+    {
+      "title": "Desert Warbirds (15th annual, RC)",
+      "start": "2027-01-22",
+      "end": "2027-01-24",
+      "all_day": true
+    },
+    {
+      "title": "Barrett-Jackson Scottsdale 2027",
+      "start": "2027-01-23",
+      "end": "2027-01-31",
+      "all_day": true
+    },
+    {
+      "title": "Chandler Airport Day",
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "all_day": false
+    },
+    {
       "title": "MLDR Drone Race – Laveen",
       "start": "2027-01-23",
       "end": "2027-01-23",
@@ -646,15 +712,45 @@
       "all_day": false
     },
     {
+      "title": "King of the Hammers 2027 (tentative schedule)",
+      "start": "2027-01-28",
+      "end": "2027-02-06",
+      "all_day": true
+    },
+    {
       "title": "Winter Warbirds 15",
       "start": "2027-01-28",
       "end": "2027-01-30",
       "all_day": true
     },
     {
+      "title": "Metallica at Sphere",
+      "start": "2027-01-28",
+      "end": "2027-01-28",
+      "all_day": true
+    },
+    {
       "title": "London Bridge RC Boat Race (24th annual)",
       "start": "2027-01-29",
       "end": "2027-01-31",
+      "all_day": true
+    },
+    {
+      "title": "Havasu Rodeo – Delbert Days",
+      "start": "2027-01-30",
+      "end": "2027-01-31",
+      "all_day": true
+    },
+    {
+      "title": "Mesquite Balloon & Craft Festival",
+      "start": "2027-01-30",
+      "end": "2027-01-31",
+      "all_day": true
+    },
+    {
+      "title": "Metallica at Sphere",
+      "start": "2027-01-30",
+      "end": "2027-01-30",
       "all_day": true
     },
     {
