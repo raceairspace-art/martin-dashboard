@@ -488,6 +488,10 @@
     "fetched_at": "2026-11-03T21:11:07+00:00",
     "file": "40bdb9b82e9c6239.webp"
   },
+  "https://cdn.thefpsreview.com/wp-content/uploads/2026/04/feature.webp?v=bf": {
+    "fetched_at": "2026-11-06T17:54:01+00:00",
+    "file": "9678753f153ed802.webp"
+  },
   "https://cdn.tourcms.com/a/5881/8/1/large.jpg": {
     "fetched_at": "2026-11-03T22:16:33+00:00",
     "file": "3a3c47cbb5ff264a.webp"
@@ -701,6 +705,10 @@
     "fetched_at": "2026-11-03T22:15:42+00:00",
     "file": "24b5f0dbf51b3e50.webp"
   },
+  "https://sea-doo.brp.com/content/dam/global/en/sea-doo/my22/lifestyle/SEA-MY22-SPARK_BLUE_90-DRONE_44473-RGB-WEB-ALT.jpg": {
+    "fetched_at": "2026-11-06T17:53:52+00:00",
+    "file": "47da7c0902c554c7.webp"
+  },
   "https://sea-doo.brp.com/content/dam/global/en/sea-doo/my26/studio/rec-lite/spark/SEA-MY26-SPARK-Base-2up-NoSS-M-60-SUNRISE-ORANGE-DRAGON-RED-00061TA00-STUDIO-661x480-SHADOW-SD-NA.png": {
     "error": "HTTPError: HTTP Error 404: Not Found",
     "file": null,
@@ -794,6 +802,10 @@
     "fetched_at": "2026-11-03T22:16:29+00:00",
     "file": "42140504d3ea6c85.webp"
   },
+  "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/ps5-midnight-black.jpg": {
+    "fetched_at": "2026-11-06T17:53:45+00:00",
+    "file": "85e6694bca52dcbe.webp"
+  },
   "https://storage.ghost.io/c/69/d5/69d51699-d072-45ac-9ab4-d45efbe74012/content/images/size/w1200/2026/11/Black-Friday-More-Sales-Storefront.png": {
     "fetched_at": "2026-11-06T17:30:08+00:00",
     "file": "afffe3297c3d28bd.webp"
@@ -809,6 +821,14 @@
   "https://store.anycubic.com/cdn/shop/files/1500x1500-S1MC_de495f98-0760-4106-990e-94da2e604020.jpg?v=1775641769": {
     "fetched_at": "2026-11-03T21:10:54+00:00",
     "file": "f9d755fa4da16f6e.webp"
+  },
+  "https://store.anycubic.com/cdn/shop/files/1500x1500-S1MC_de495f98-0760-4106-990e-94da2e604020.jpg?v=1775641769&width=1200": {
+    "fetched_at": "2026-11-06T17:53:57+00:00",
+    "file": "fab83fccab18d64e.webp"
+  },
+  "https://store.bblcdn.com/s7/default/7295f2694b23422290eaba7d4ea66406/A1_C-compressed.jpg": {
+    "fetched_at": "2026-11-06T17:54:04+00:00",
+    "file": "b44adecdecda1163.webp"
   },
   "https://store.bblcdn.com/s7/default/a4292ae568074a55b76b31835ec5700a/H2CC.jpg": {
     "fetched_at": "2026-11-06T17:29:48+00:00",
@@ -1034,6 +1054,10 @@
     "fetched_at": "2026-11-03T19:26:27+00:00",
     "file": "65b6b58cd51125a9.webp"
   },
+  "https://us.elegoo.com/cdn/shop/files/S4U16K-_01_b0176288-f27d-4f4c-b922-84e67b87acae.jpg?v=1792635383": {
+    "fetched_at": "2026-11-06T17:53:56+00:00",
+    "file": "f6642287cf416a7a.webp"
+  },
   "https://utahskis.com/cdn/shop/files/UtahSkis-preview.jpg?v=1665396306": {
     "fetched_at": "2026-11-03T19:37:27+00:00",
     "file": "fed67d27e94cc9a7.webp"
@@ -1051,6 +1075,10 @@
     "fetched_at": "2026-11-03T21:11:03+00:00",
     "file": "de56a9b2fac076de.webp"
   },
+  "https://weaverobotics.com/og-isaac-1.jpg?v=bf2026": {
+    "fetched_at": "2026-11-06T17:54:00+00:00",
+    "file": "b97dcb1fbebce694.webp"
+  },
   "https://webassets.meowwolf.com/cdn.prod/5dad7a19f43e6f31a9e92718/6605ca49076b8ddf76a4bd4b_LAS_front-of-house-omega-mart.webp": {
     "fetched_at": "2026-11-03T19:32:30+00:00",
     "file": "2fce99c6c284ba6f.webp"
@@ -1066,6 +1094,10 @@
   "https://www.apple.com/v/mac-studio/o/images/meta/mac-studio_overview__eedzbosm1t26_og.png?202609211742": {
     "fetched_at": "2026-11-03T21:11:05+00:00",
     "file": "61f0586dbc8490e4.webp"
+  },
+  "https://www.apple.com/v/macbook-air/z/images/meta/macbook_air_mx__ez5y0k5yy7au_og.png?202610261111": {
+    "fetched_at": "2026-11-06T17:54:06+00:00",
+    "file": "4d77f15450bf0a62.webp"
   },
   "https://www.aquariumofpacific.org/images/made_new/images-membership-Ways_2_Membership_400_q85.jpg": {
     "fetched_at": "2026-11-03T19:32:28+00:00",
@@ -1102,7 +1134,7 @@
     "file": "7fb123e51aa4e96d.avif"
   },
   "https://www.cirquedusoleil.com/-/media/cds/images/seasonal/black_friday/2025/tagline/cds-bf25-tagline-magenta-en.svg?db=web&vs=1&hash=C9BB20434C40103F3FBD41B63BD9676F": {
-    "fetched_at": "2026-11-06T17:30:07+00:00",
+    "fetched_at": "2026-11-06T17:54:02+00:00",
     "file": "4edd6a1e3dc9566a.svg"
   },
   "https://www.crunch.com/og-image.jpg": {
@@ -1133,6 +1165,10 @@
     "fetched_at": "2026-11-03T21:10:57+00:00",
     "file": "c9e2cf357d56ab18.webp"
   },
+  "https://www.govolition.com/assets/2a13f6b96cadbd59fdb16207435053058846791b?format=jpg": {
+    "fetched_at": "2026-11-06T17:53:58+00:00",
+    "file": "f0783e5742472a0d.webp"
+  },
   "https://www.harley-davidson.com/ctfasset/5vy1mse9fkav/4KZWdgwAfFY7e5ShfxrSlF/f9082d04989df2aa33cef0a30fbd80b3/2026-street-glide-m75b-motorcycle-01.jpg": {
     "fetched_at": "2026-11-03T22:15:36+00:00",
     "file": "403964b1498c0f55.webp"
@@ -1154,6 +1190,14 @@
     "fetched_at": "2026-11-03T21:10:42+00:00",
     "file": "935478863a7d507e.webp"
   },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw06347b9d/Images/BLH/BLH01400_A2_EOKQMH89.jpg": {
+    "fetched_at": "2026-11-06T17:53:49+00:00",
+    "file": "965cdf03630f7b81.webp"
+  },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw100d8fb8/Images/EFL/EFL17750_A01_HBPWGZNU.jpg": {
+    "fetched_at": "2026-11-06T17:53:53+00:00",
+    "file": "54ab2210b87483e3.webp"
+  },
   "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw378abc46/Images/EFL/EFL17750_A00_HBPWGZNU.jpg": {
     "fetched_at": "2026-11-03T21:10:41+00:00",
     "file": "13af37dd42b119b8.webp"
@@ -1166,6 +1210,14 @@
   "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw59735463/Images/EFL/EFLU7050__A1_0UWHC8UE.jpg": {
     "fetched_at": "2026-11-03T22:16:59+00:00",
     "file": "1eaf8a12e71c0627.webp"
+  },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw6d177bb9/Images/EFL/EFL120050_A2_0J7UEYQR.jpg": {
+    "fetched_at": "2026-11-06T17:53:55+00:00",
+    "file": "0b780b67764c2fdb.webp"
+  },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwa4b4dbbd/Images/EFL/EFL07750_A1_LHRQ3F4A.jpg": {
+    "fetched_at": "2026-11-06T17:53:46+00:00",
+    "file": "4663d7bc8a68f440.webp"
   },
   "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwadb5a877/Images/HBZ/HBZ32001SE_A2_BXFT44ZQ.jpg": {
     "fetched_at": "2026-11-03T22:17:04+00:00",
@@ -1194,6 +1246,10 @@
     "file": null,
     "tried_at": "2026-11-06T17:29:15+00:00"
   },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwcc4c3bd5/Images/BLH/BLH01250B_A3_IBGE437S.jpg": {
+    "fetched_at": "2026-11-06T17:53:48+00:00",
+    "file": "52dce8fe9a7b6dfb.webp"
+  },
   "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwe2711b2f/Images/EFL/EFL07750_A0_LHRQ3F4A.jpg": {
     "fetched_at": "2026-11-03T22:17:00+00:00",
     "file": "d1a9fc65b6a2423f.webp"
@@ -1202,6 +1258,10 @@
     "error": "HTTPError: HTTP Error 404: Not Found",
     "file": null,
     "tried_at": "2026-11-06T17:29:14+00:00"
+  },
+  "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwe57a859b/Images/HBZ/HBZ32001SE_A5_BXFT44ZQ.jpg": {
+    "fetched_at": "2026-11-06T17:53:51+00:00",
+    "file": "4eb70a0e9cfe781a.webp"
   },
   "https://www.jackery.com/cdn/shop/files/jackery-homepower-1000-v2-4606550.webp?v=1786088949": {
     "fetched_at": "2026-11-06T17:29:33+00:00",
@@ -1298,6 +1358,10 @@
   "https://www.prusa3d.com/content/images/product/34f8abbf-a37b-4e6d-9277-397558ff7e25.jpg": {
     "fetched_at": "2026-11-03T21:10:56+00:00",
     "file": "f255fcfe45d2ad13.webp"
+  },
+  "https://www.revzilla.com/product_images/0229/5465/shoei_rfsr_helmet_solid_750x750.jpg": {
+    "fetched_at": "2026-11-06T17:54:05+00:00",
+    "file": "a0a918e7bbb919eb.webp"
   },
   "https://www.revzilla.com/product_images/0353/2605/shoei_neotec2_helmet.jpg": {
     "fetched_at": "2026-11-03T22:17:09+00:00",
