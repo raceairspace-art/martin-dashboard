@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T09:24:14-08:00",
+ "updated_at": "2026-11-09T09:44:12-08:00",
  "source": "open-meteo+gordon",
  "fetch_error": null,
  "timezone": "America/Los_Angeles",
@@ -251,11 +251,11 @@
    "top_pick_rank": 1,
    "locations": {
     "las_vegas": {
-     "sustained": 7,
+     "sustained": 6,
      "sustained_avg": 5,
      "gust": 10,
      "diff": 4,
-     "direction": 58,
+     "direction": 60,
      "rain": 0,
      "high": 74,
      "low": 48,
@@ -270,33 +270,33 @@
       },
       {
        "h": 8,
-       "w": 3,
-       "g": 4,
-       "dir": 279
+       "w": 4,
+       "g": 5,
+       "dir": 244
       },
       {
        "h": 9,
-       "w": 2,
-       "g": 7,
-       "dir": 86
+       "w": 1,
+       "g": 4,
+       "dir": 130
       },
       {
        "h": 10,
-       "w": 5,
+       "w": 4,
        "g": 10,
-       "dir": 84
+       "dir": 85
       },
       {
        "h": 11,
-       "w": 7,
+       "w": 6,
        "g": 8,
-       "dir": 67
+       "dir": 69
       },
       {
        "h": 12,
-       "w": 6,
+       "w": 5,
        "g": 6,
-       "dir": 73
+       "dir": 79
       },
       {
        "h": 13,
@@ -306,27 +306,27 @@
       },
       {
        "h": 14,
-       "w": 6,
-       "g": 6,
-       "dir": 67
+       "w": 5,
+       "g": 5,
+       "dir": 66
       },
       {
        "h": 15,
        "w": 6,
        "g": 6,
-       "dir": 56
+       "dir": 54
       },
       {
        "h": 16,
        "w": 6,
-       "g": 7,
-       "dir": 50
+       "g": 8,
+       "dir": 49
       },
       {
        "h": 17,
        "w": 6,
        "g": 8,
-       "dir": 32
+       "dir": 36
       }
      ],
      "condition": "Clear",
@@ -346,7 +346,7 @@
      "sustained_avg": 4,
      "gust": 5,
      "diff": 0,
-     "direction": 26,
+     "direction": 27,
      "rain": 0,
      "high": 74,
      "low": 53,
@@ -361,31 +361,31 @@
       },
       {
        "h": 8,
-       "w": 1,
-       "g": 2,
-       "dir": 98
+       "w": 3,
+       "g": 3,
+       "dir": 156
       },
       {
        "h": 9,
        "w": 3,
        "g": 5,
-       "dir": 53
+       "dir": 62
       },
       {
        "h": 10,
-       "w": 5,
+       "w": 4,
        "g": 5,
-       "dir": 34
+       "dir": 53
       },
       {
        "h": 11,
        "w": 5,
        "g": 5,
-       "dir": 29
+       "dir": 23
       },
       {
        "h": 12,
-       "w": 5,
+       "w": 4,
        "g": 5,
        "dir": 22
       },
@@ -393,31 +393,31 @@
        "h": 13,
        "w": 4,
        "g": 4,
-       "dir": 30
+       "dir": 27
       },
       {
        "h": 14,
        "w": 4,
        "g": 4,
-       "dir": 32
+       "dir": 29
       },
       {
        "h": 15,
-       "w": 3,
+       "w": 4,
        "g": 4,
-       "dir": 26
+       "dir": 16
       },
       {
        "h": 16,
        "w": 2,
-       "g": 4,
-       "dir": 341
+       "g": 5,
+       "dir": 337
       },
       {
        "h": 17,
        "w": 5,
        "g": 5,
-       "dir": 294
+       "dir": 302
       }
      ],
      "condition": "Clear",
@@ -433,15 +433,15 @@
      "skiing_source": null
     },
     "desert_breeze": {
-     "sustained": 5,
+     "sustained": 6,
      "sustained_avg": 4,
      "gust": 9,
      "diff": 4,
-     "direction": 71,
+     "direction": 74,
      "rain": 0,
-     "high": 72,
+     "high": 73,
      "low": 53,
-     "day_temp_max": 72,
+     "day_temp_max": 73,
      "code": 0,
      "hourly": [
       {
@@ -454,70 +454,70 @@
        "h": 8,
        "w": 3,
        "g": 3,
-       "dir": 301
+       "dir": 255
       },
       {
        "h": 9,
        "w": 2,
-       "g": 6,
-       "dir": 87
+       "g": 2,
+       "dir": 109
       },
       {
        "h": 10,
-       "w": 5,
-       "g": 5,
-       "dir": 90
+       "w": 6,
+       "g": 6,
+       "dir": 91
       },
       {
        "h": 11,
        "w": 5,
        "g": 6,
-       "dir": 79
+       "dir": 81
       },
       {
        "h": 12,
        "w": 4,
        "g": 5,
-       "dir": 73
+       "dir": 76
       },
       {
        "h": 13,
        "w": 3,
        "g": 5,
-       "dir": 88
+       "dir": 79
       },
       {
        "h": 14,
        "w": 4,
        "g": 5,
-       "dir": 96
+       "dir": 86
       },
       {
        "h": 15,
        "w": 4,
-       "g": 5,
-       "dir": 79
+       "g": 4,
+       "dir": 69
       },
       {
        "h": 16,
        "w": 4,
        "g": 6,
-       "dir": 64
+       "dir": 61
       },
       {
        "h": 17,
-       "w": 5,
+       "w": 6,
        "g": 9,
-       "dir": 34
+       "dir": 39
       }
      ],
      "condition": "Clear",
      "low_wind": true,
      "ratings": {
       "outdoors": "BEST",
-      "lake": "BEST",
-      "drones": "BEST",
-      "rc": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
       "paramotor": "GOOD",
       "skiing": "N/A"
      },
@@ -528,11 +528,11 @@
      "sustained_avg": 3,
      "gust": 6,
      "diff": 0,
-     "direction": 218,
+     "direction": 189,
      "rain": 0,
-     "high": 48,
+     "high": 47,
      "low": 35,
-     "day_temp_max": 48,
+     "day_temp_max": 47,
      "code": 0,
      "hourly": [
       {
@@ -543,63 +543,63 @@
       },
       {
        "h": 8,
-       "w": 4,
-       "g": 4,
-       "dir": 180
+       "w": 3,
+       "g": 3,
+       "dir": 158
       },
       {
        "h": 9,
-       "w": 2,
-       "g": 4,
-       "dir": 206
+       "w": 3,
+       "g": 3,
+       "dir": 175
       },
       {
        "h": 10,
-       "w": 3,
-       "g": 3,
-       "dir": 228
+       "w": 2,
+       "g": 2,
+       "dir": 281
       },
       {
        "h": 11,
-       "w": 4,
+       "w": 3,
        "g": 3,
-       "dir": 242
+       "dir": 253
       },
       {
        "h": 12,
-       "w": 3,
-       "g": 3,
+       "w": 2,
+       "g": 2,
        "dir": 289
       },
       {
        "h": 13,
-       "w": 3,
-       "g": 3,
-       "dir": 320
+       "w": 4,
+       "g": 4,
+       "dir": 329
       },
       {
        "h": 14,
-       "w": 1,
+       "w": 2,
        "g": 2,
-       "dir": 319
+       "dir": 338
       },
       {
        "h": 15,
        "w": 3,
        "g": 3,
-       "dir": 2
+       "dir": 11
       },
       {
        "h": 16,
        "w": 3,
        "g": 6,
-       "dir": 80
+       "dir": 68
       },
       {
        "h": 17,
-       "w": 2,
-       "g": 3,
-       "dir": 120
+       "w": 3,
+       "g": 4,
+       "dir": 105
       }
      ],
      "condition": "Clear",
