@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T09:25:00-08:00",
+  "updated_at": "2026-11-09T09:37:54-08:00",
   "sections": [
     {
       "id": "vegas_local",
@@ -286,19 +286,66 @@
       "deals": 178
     },
     {
-      "file": "travel-sweep-2026-11-09.json",
-      "section": "travel",
-      "swept_at": "2026-11-09T09:23:17-08:00",
-      "deals": 69
-    },
-    {
       "file": "gear-tech-sweep-2026-11-09.json",
       "section": "gear_tech",
-      "swept_at": "2026-11-09T09:25:00-08:00",
+      "swept_at": "2026-11-09T09:37:53-08:00",
       "deals": 227
+    },
+    {
+      "file": "travel-sweep-2026-11-09.json",
+      "section": "travel",
+      "swept_at": "2026-11-09T09:37:54-08:00",
+      "deals": 69
     }
   ],
   "items": [
+    {
+      "item_key": "cirque-black-friday-2026",
+      "section": "travel",
+      "shelf": "vegas_local",
+      "sub": null,
+      "category": "vegas_local",
+      "subcategory": "show",
+      "item": "Cirque du Soleil Black Friday deals (Las Vegas shows)",
+      "retailer": "Cirque du Soleil",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": null,
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.cirquedusoleil.com/campaign/black-friday",
+      "image_url": "https://www.cirquedusoleil.com/-/media/cds/images/las-vegas/shared/vegas_shared_op.jpg",
+      "image_alt": "Cirque du Soleil Las Vegas show",
+      "new_release": false,
+      "notes": "'Black Friday Deals are On!'; promotions vary; specific LV discounts still not in page text Nov 9.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:21:47-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-06T09:44:19-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-06T09:55:00-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-09T09:37:53-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-09T09:37:54-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-04T09:21:47-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
+      "image": "data/black-friday/img/7fb123e51aa4e96d.avif"
+    },
     {
       "item_key": "doms-giftcard",
       "section": "gear_tech",
@@ -316,8 +363,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://domdemarcos.com/event/doms-annual-gift-card-offer/",
-      "image_url": null,
-      "image_alt": "Dom DeMarco's: $15 voucher / $100 GC",
+      "image_url": "https://domdemarcos.com/wp-content/uploads/2026/09/The-Football-Feast-at-Doms.jpg",
+      "image_alt": "Dom DeMarco's Pizzeria",
       "new_release": false,
       "notes": "Reconfirmed Nov 9: Nov $15 voucher per $100 GC (Dec $10); on-site only, 9785 W Charleston.",
       "price_history": [
@@ -334,13 +381,13 @@
           "price": 100.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 100.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/761af1420b33649a.webp"
     },
     {
       "item_key": "downtown-summerlin-bf-2026",
@@ -369,12 +416,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": null
     },
     {
@@ -400,12 +447,12 @@
       "notes": "NEW this sweep. Oct 1–Dec 31, 2026. Classic LV Italian on Paradise Rd.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 100.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f8a26549aaa47839.webp"
     },
     {
@@ -443,12 +490,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/04cac6aeab59f82b.webp"
     },
     {
@@ -486,12 +533,12 @@
           "price": 96
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 96
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/3a3c47cbb5ff264a.webp"
     },
     {
@@ -511,8 +558,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.lawrysonline.com/lawrys-the-prime-rib-las-vegas/happenings/holiday-gift-card-promotion-2026/",
-      "image_url": null,
-      "image_alt": "Lawry's LV: $25 bonus per $125 GC",
+      "image_url": "https://www.lawrysonline.com/wp-content/uploads/2026/10/LV-Holiday-Gift-Bonus-Social-Now-Dec-31.webp",
+      "image_alt": "Lawry's The Prime Rib Las Vegas gift card promo",
       "new_release": false,
       "notes": "Reconfirmed Nov 9: $25 bonus per $125 Nov 1–Dec 31; bonus redeemable Jan 2–Mar 31 2027.",
       "price_history": [
@@ -529,13 +576,13 @@
           "price": 125.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 125.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/decc8a399004955a.webp"
     },
     {
       "item_key": "omega-mart-nv-resident-discount-2026",
@@ -572,12 +619,12 @@
           "price": 45
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 45
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/2fce99c6c284ba6f.webp"
     },
     {
@@ -615,12 +662,12 @@
           "price": 100.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 100.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c9f8c7c88c996f36.webp"
     },
     {
@@ -654,12 +701,12 @@
           "price": 74
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 74
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/bcf125642ad0c8f8.webp"
     },
     {
@@ -689,12 +736,12 @@
           "price": 100.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 100.0
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": null
     },
     {
@@ -714,19 +761,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://www.mgmresorts.com/en/entertainment/black-friday-cyber-sale.html",
-      "image_url": null,
-      "image_alt": "Journey concert",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_3_2.jpg",
+      "image_alt": "Live concert performance stage lights",
       "new_release": false,
       "notes": "NEW this sweep. Part of MGM BF Entertainment Sale (AXS promo). Classic rock. Select dates/seats.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/9539f1fa3e87f660.webp"
     },
     {
       "item_key": "mgm-resorts-black-friday-entertainment-sale",
@@ -745,8 +792,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.mgmresorts.com/en/entertainment/black-friday-cyber-sale.html",
-      "image_url": null,
-      "image_alt": "MGM Resorts BF Entertainment Sale",
+      "image_url": "https://thelibrary.mgmresorts.com/transform/Ev3U6c9NFy712y9l/PMGM156113436.tif",
+      "image_alt": "MGM Resorts entertainment venue",
       "new_release": false,
       "notes": "Reconfirmed Nov 9 live: up to 50% off select dates/seats across MGM venues (headliners, shows, attractions).",
       "price_history": [
@@ -759,13 +806,13 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/7c4249b94b255c85.webp"
     },
     {
       "item_key": "mgm-pbr-team-series-championship",
@@ -784,19 +831,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://www.mgmresorts.com/en/entertainment/black-friday-cyber-sale.html",
-      "image_url": null,
-      "image_alt": "PBR bull riding",
+      "image_url": "https://s1.ticketm.net/dam/c/3c2/23f6a973-82f1-4503-ab46-e890539e13c2_106101_RETINA_PORTRAIT_3_2.jpg",
+      "image_alt": "PBR Professional Bull Riders event",
       "new_release": false,
       "notes": "NEW this sweep. Bull riding at T-Mobile Arena via MGM BF sale (AXS). Rodeo/Western pick.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/aefe55f3de3cd135.webp"
     },
     {
       "item_key": "mgm-red-clay-strays",
@@ -815,66 +862,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://www.mgmresorts.com/en/entertainment/black-friday-cyber-sale.html",
-      "image_url": null,
-      "image_alt": "The Red Clay Strays concert",
+      "image_url": "https://images.genius.com/6a81a0c7e712384fa17e3ad8cc16bd70.1000x1000x1.png",
+      "image_alt": "Red Clay Strays band",
       "new_release": false,
       "notes": "NEW this sweep. Country/Southern rock \"Grateful Tour\"; MGM BF sale, select seats.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
-    },
-    {
-      "item_key": "cirque-black-friday-2026",
-      "section": "gear_tech",
-      "shelf": "concerts_theater",
-      "sub": "theater",
-      "category": "concerts_theater",
-      "subcategory": "theater",
-      "item": "Cirque du Soleil Black Friday deals",
-      "retailer": "Cirque du Soleil",
-      "price": null,
-      "price_label": null,
-      "price_raw": null,
-      "regular_price": null,
-      "discount": "Varies by show/date",
-      "deal_status": "announced",
-      "date_found": "2026-11-06",
-      "source_url": "https://www.cirquedusoleil.com/campaign/black-friday",
-      "image_url": null,
-      "image_alt": "Cirque du Soleil Black Friday deals",
-      "new_release": false,
-      "notes": "Status changed live→announced: Cirque BF page shows no show-level terms Nov 9 (creative is 2025 asset); ThingsVegas says 2026 terms not posted.",
-      "price_history": [
-        {
-          "swept_at": "2026-11-04T09:21:47-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-06T09:44:19-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-06T09:55:00-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-09T09:23:17-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-09T09:25:00-08:00",
-          "price": null
-        }
-      ],
-      "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/b1563dfe9ccc4b34.webp"
     },
     {
       "item_key": "eagles-sphere-vibee-package-2026-27",
@@ -911,12 +911,12 @@
           "price": 990
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 990
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/35bf64dcdc7d6be9.webp"
     },
     {
@@ -936,8 +936,8 @@
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.metallica.com/news/2026-09-16-2027-m72-world-tour-faq.html",
-      "image_url": null,
-      "image_alt": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Metallica_at_Ippodromo_San_Siro%2C_Milan%2C_May_8th%2C_2019.jpg/1280px-Metallica_at_Ippodromo_San_Siro%2C_Milan%2C_May_8th%2C_2019.jpg",
+      "image_alt": "Metallica live in concert",
       "new_release": false,
       "notes": "Hotel+ticket packages via metallicatravel.com; prices not captured. No official venue/tour photo — image null.",
       "price_history": [
@@ -954,13 +954,13 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:54-08:00",
+      "image": "data/black-friday/img/a9fbac383f99ffc3.webp"
     },
     {
       "item_key": "metallica-sphere-vibee-package-2026-27",
@@ -997,12 +997,12 @@
           "price": 1077
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 1077
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/67c7ec94023bb28e.webp"
     },
     {
@@ -1040,12 +1040,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/2e192f891bf44fa1.webp"
     },
     {
@@ -1083,12 +1083,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/854cc3bb8564d94a.webp"
     },
     {
@@ -1126,12 +1126,12 @@
           "price": 1699.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1699.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/33374239dabf3eb2.webp"
     },
     {
@@ -1169,12 +1169,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 465.4
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": null
     },
     {
@@ -1212,12 +1212,12 @@
           "price": 98.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 98.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c128112c76d9f5bd.webp"
     },
     {
@@ -1255,12 +1255,12 @@
           "price": 204.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 204.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/5bcac545ad2f7fb2.webp"
     },
     {
@@ -1298,12 +1298,12 @@
           "price": 208.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 208.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/be4a98ae8393b937.webp"
     },
     {
@@ -1341,12 +1341,12 @@
           "price": 369.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 369.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/ad0998b77785fb10.webp"
     },
     {
@@ -1384,12 +1384,12 @@
           "price": 719.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 719.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f4a523f7237a6e93.webp"
     },
     {
@@ -1427,12 +1427,12 @@
           "price": 2699.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2699.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/ca30d02984e5e5bb.webp"
     },
     {
@@ -1470,12 +1470,12 @@
           "price": 169.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 169.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/8ea835058ca3492f.webp"
     },
     {
@@ -1513,12 +1513,12 @@
           "price": 379.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 379.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/82adf41958326d43.webp"
     },
     {
@@ -1556,12 +1556,12 @@
           "price": 246.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 246.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/113dc1487f2d41fa.webp"
     },
     {
@@ -1599,12 +1599,12 @@
           "price": 569.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 569.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/4734ef885483b333.webp"
     },
     {
@@ -1642,12 +1642,12 @@
           "price": 199.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 199.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/ed15d2c27bb5a8ff.webp"
     },
     {
@@ -1673,12 +1673,12 @@
       "notes": "NEW this sweep. Lifetime access, pass guarantee, free Drone Maneuvers bonus course. Discount appears to be a standing sale; a deeper Black Friday price is possible.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 159.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f9b9c1228586b53b.webp"
     },
     {
@@ -1704,12 +1704,12 @@
       "notes": "NEW this sweep. RDQ clearance; TBS receiver variant only (PNP/ELRS variants at full price). Needs your own DJI O3 air unit.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 149.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/18e82f48dd1a03f7.webp"
     },
     {
@@ -1747,12 +1747,12 @@
           "price": 619.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 619.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/24b5f0dbf51b3e50.webp"
     },
     {
@@ -1790,12 +1790,12 @@
           "price": 489.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 489.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c05cab2c2aadf9fe.webp"
     },
     {
@@ -1833,12 +1833,12 @@
           "price": 75.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 75.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/296c4a97f24b8936.webp"
     },
     {
@@ -1876,12 +1876,12 @@
           "price": 75.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 75.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/dd5180cb429e87ac.webp"
     },
     {
@@ -1919,12 +1919,12 @@
           "price": 149.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 149.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/91c4d6703af1f93b.webp"
     },
     {
@@ -1962,12 +1962,12 @@
           "price": 159.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 159.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/a3a07edf53a0a7c5.webp"
     },
     {
@@ -2005,12 +2005,12 @@
           "price": 208.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 208.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c086bf3cb2255b56.webp"
     },
     {
@@ -2048,12 +2048,12 @@
           "price": 419.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 459.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/7957c0845f8d7c32.webp"
     },
     {
@@ -2091,12 +2091,12 @@
           "price": 449.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 479.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": null
     },
     {
@@ -2116,19 +2116,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://www.factorypowersportslasvegas.com/inventory/612165/2026-kawasaki-jet-ski-stx-160x",
-      "image_url": null,
-      "image_alt": "2026 Kawasaki Jet Ski STX 160X Surf Blue/White",
+      "image_url": "https://www.kawasaki.co.uk/content/dam/europe/countries/gb/studio-images/26my---jetski/26JN1500H_2M1BU1DLF3CG_A.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
+      "image_alt": "2026 Kawasaki Jet Ski STX 160X studio photo",
       "new_release": false,
       "notes": "NEW this sweep. All-in total $12,717 before tax/title. Several units (#K0364, K0409, K0201) at the same price.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 11199.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/c883c16f61af5150.webp"
     },
     {
       "item_key": "factory-lv-2026-kawasaki-ultra-310lx-k0450",
@@ -2147,19 +2147,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://www.factorypowersportslasvegas.com/inventory/356143/2026-kawasaki-jet-ski-ultra-310lx",
-      "image_url": null,
-      "image_alt": "2026 Kawasaki Jet Ski Ultra 310LX Deep Red/Ebony",
+      "image_url": "https://kawasaki-global-admin.com/ContentStorage/KMC/Products/9791/b9a48e38-51aa-4a77-b437-b60184149701.webp",
+      "image_alt": "Kawasaki Jet Ski Ultra 310LX studio photo",
       "new_release": false,
       "notes": "NEW this sweep. Supercharged luxury flagship. All-in total $19,717 before tax/title. Same deal on #K0447. Can stack with Kawasaki 0% APR / 60 mo (qualified).",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 18199.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/a09c29fe5dc689a1.webp"
     },
     {
       "item_key": "factory-lv-2026-sea-doo-gtx-limited-325-se5268",
@@ -2178,19 +2178,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://www.factorypowersportslasvegas.com/inventory/354552/2026-sea-doo-gtx-limited-325",
-      "image_url": null,
-      "image_alt": "2026 Sea-Doo GTX Limited 325 White Pearl",
+      "image_url": "https://sea-doo.brp.com/content/dam/global/en/sea-doo/my22/lifestyle/SEA-MY22-TOUR-GTX-LTD-1630ACE300-METALLICSAGE-Lifestyle-52831-WEB-ALT.jpg",
+      "image_alt": "Sea-Doo GTX Limited on the water",
       "new_release": false,
       "notes": "NEW this sweep. All-in total $22,098. Also ask about the BRP $1,000 rebate or 2-year coverage on 2026 Sea-Doo PWC through Nov 30 (check whether it stacks).",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 20999.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/a84a80300e7eddda.webp"
     },
     {
       "item_key": "blowsion-2026-yamaha-superjet-tr1-stand-up-teal-white",
@@ -2227,12 +2227,12 @@
           "price": 19995.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 19995.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b3aa3ed5bd342f68.webp"
     },
     {
@@ -2252,8 +2252,8 @@
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.factorypowersportslasvegas.com/inventory/287926/2026-yamaha-vx",
-      "image_url": null,
-      "image_alt": "2026 Yamaha VX White/Mint Las Vegas",
+      "image_url": "https://www.yamahawaverunners.com/globalassets/media/my24/wrs/mobile/hero-image-v-2.png",
+      "image_alt": "Yamaha WaveRunner VX",
       "new_release": false,
       "notes": "Rechecked Nov 9: still $9,999 vs MSRP $12,399; all-in total $11,362 before tax/title. Stock #Y0573, White/Mint.",
       "price_history": [
@@ -2270,13 +2270,13 @@
           "price": 9999.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 9999.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/1cfd48445995dfd5.webp"
     },
     {
       "item_key": "sea-doo-superstore-brp-oem-sea-doo-impeller-271000754",
@@ -2313,12 +2313,12 @@
           "price": 92.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 92.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/8545d3412cf691fd.webp"
     },
     {
@@ -2344,12 +2344,12 @@
       "notes": "NEW this sweep. OEM mooring cover for the Switch 16 pontoon.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 549.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/faaa2be895afc47b.webp"
     },
     {
@@ -2375,12 +2375,12 @@
       "notes": "NEW this sweep. $10,699 is the base configuration (Jet C 80cm, Nano battery); other configs about $1,900 off too.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 10699.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/d32855c232d73b3a.webp"
     },
     {
@@ -2418,12 +2418,12 @@
           "price": 105.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 105.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/75d886decbc9c3fc.webp"
     },
     {
@@ -2443,8 +2443,8 @@
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.ctspowersports.com/en/promotions/oem-october-2026-good-times-start-with-great-deals-jet-ski/",
-      "image_url": null,
-      "image_alt": null,
+      "image_url": "https://kawasaki-global-admin.com/ContentStorage/KMC/Products/9791/49d27db6-cf9c-429d-ab94-147c549ed25e.webp",
+      "image_alt": "Kawasaki Jet Ski Ultra 310LX profile",
       "new_release": false,
       "notes": "Rechecked Nov 9, unchanged. Up to $2,500 incentives; 0% APR for 60 months for well-qualified buyers on select new 2024+ Jet Ski through 12/31/2026. Model exclusions apply.",
       "price_history": [
@@ -2461,13 +2461,13 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/282da0b73b33ba27.webp"
     },
     {
       "item_key": "sea-doo-2026-spark-models-us-brp-via-participating-dealers",
@@ -2486,8 +2486,8 @@
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.motomember.com/en/promotions/oem-october-2026-get-1000-off-or-2-years-of-coverage-on-all-2026-models/",
-      "image_url": null,
-      "image_alt": "2026 Sea-Doo Spark",
+      "image_url": "https://sea-doo.brp.com/content/dam/global/en/sea-doo/my22/lifestyle/SEA-MY22-SPARK_BLUE_90-DRONE_44473-RGB-WEB-ALT.jpg",
+      "image_alt": "Sea-Doo Spark on the water",
       "new_release": false,
       "notes": "Rechecked Nov 9, unchanged. $1,000 rebate or 2 years coverage (12 mo BRP + 12 mo B.E.S.T.) on eligible new unused 2026 Sea-Doo PWC, Oct 1–Nov 30 2026; cannot combine. Spark MSRP starts $6,999. (Image removed Nov 9: BRP image URL now returns 404.)",
       "price_history": [
@@ -2504,13 +2504,13 @@
           "price": 5999
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 5999
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/47da7c0902c554c7.webp"
     },
     {
       "item_key": "sea-doo-superstore-sea-doo-airflow-life-jacket-black",
@@ -2547,12 +2547,12 @@
           "price": 69.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 69.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/95178f7281fde94c.webp"
     },
     {
@@ -2578,12 +2578,12 @@
       "notes": "NEW this sweep. OEM Bluetooth audio for compatible GTX/RXT/Wake Pro hulls; check fitment.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1099.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/e0cb6f17de5d06eb.webp"
     },
     {
@@ -2621,12 +2621,12 @@
           "price": 89.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 89.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/26aa2c7d308bea6d.webp"
     },
     {
@@ -2664,12 +2664,12 @@
           "price": 149.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 149.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/9359800259f75b85.webp"
     },
     {
@@ -2707,12 +2707,12 @@
           "price": 99.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 99.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b0a0788b1f06240c.webp"
     },
     {
@@ -2750,12 +2750,12 @@
           "price": 274.4
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 274.4
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c2048f8346cbd650.webp"
     },
     {
@@ -2775,8 +2775,8 @@
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.actionps.com/en/promotions/local-yamaha-waverunner-deals/",
-      "image_url": null,
-      "image_alt": null,
+      "image_url": "https://www.yamahawaverunners.com/globalassets/media/my26/wr/recreation/wr-profile-images/vx.png",
+      "image_alt": "Yamaha WaveRunner profile",
       "new_release": false,
       "notes": "Rechecked Nov 9, unchanged. US: $500 customer benefit on new unused MY2020–2026 WaveRunners excl. CrossWave, plus special finance rates, 10/1–12/31/2026. Canada dealers separately advertise $1,500 BF rebates — not US.",
       "price_history": [
@@ -2793,13 +2793,13 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/e69b36e6b2c97d8e.webp"
     },
     {
       "item_key": "anycubic-kobra-s1-max-combo-anycubic-us",
@@ -2836,12 +2836,12 @@
           "price": 899.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 899.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/fab83fccab18d64e.webp"
     },
     {
@@ -2871,12 +2871,12 @@
           "price": 359.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 359.0
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b44adecdecda1163.webp"
     },
     {
@@ -2914,12 +2914,12 @@
           "price": 1899.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1899.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/119f2d108602dd04.webp"
     },
     {
@@ -2939,19 +2939,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://www.microcenter.com/product/705069/bambu-lab-p2s-3d-printer",
-      "image_url": null,
-      "image_alt": "Bambu Lab P2S 3D printer",
+      "image_url": "https://store.bblcdn.com/s7/default/a83b8a21be45431682b72f8ae206e4fe/1.jpg",
+      "image_alt": "Bambu Lab P2S 3D printer front view",
       "new_release": false,
       "notes": "NEW this sweep. In-store pickup only (no Las Vegas Micro Center; nearest SoCal). Also xTool F2 $999.99 (was $1,299.99), X2D Combo $789.99, Anycubic Photon P1 $499.99 (was $649.99)",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 449.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/6bb2206a57629781.webp"
     },
     {
       "item_key": "sovol-comgrow-t300-3d-printer",
@@ -2988,12 +2988,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/45a6facefec6634d.webp"
     },
     {
@@ -3031,12 +3031,12 @@
           "price": 549.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 549.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b275afd09006b25d.webp"
     },
     {
@@ -3074,12 +3074,12 @@
           "price": 369.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 369.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/95bd75646a918b46.webp"
     },
     {
@@ -3099,19 +3099,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://us.elegoo.com/pages/black-friday",
-      "image_url": null,
+      "image_url": "https://us.elegoo.com/cdn/shop/files/JPT2-_02.jpg?v=1787637106",
       "image_alt": "Elegoo Jupiter 2 resin 3D printer",
       "new_release": true,
       "notes": "NEW this sweep. Listed on Elegoo BF hub \"HOT NEW\" -35%",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 849.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/1b7db6bbe519188d.webp"
     },
     {
       "item_key": "elegoo-elegoo-neptune-4-max-large-format-3d-printer",
@@ -3148,12 +3148,12 @@
           "price": 359.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 359.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c0d93925a3086da1.webp"
     },
     {
@@ -3191,12 +3191,12 @@
           "price": 199.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 199.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/d82e20d1e2630699.webp"
     },
     {
@@ -3234,12 +3234,12 @@
           "price": 399.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 399.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f6642287cf416a7a.webp"
     },
     {
@@ -3277,12 +3277,12 @@
           "price": 329.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 349.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/d3a531748ad8d058.webp"
     },
     {
@@ -3320,12 +3320,12 @@
           "price": 359.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 359.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f0783e5742472a0d.webp"
     },
     {
@@ -3345,8 +3345,8 @@
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://blog.prusa3d.com/prusa-black-friday-2026-is-here-grab-the-biggest-deals-of-the-year_138966/",
-      "image_url": null,
-      "image_alt": "Prusa Black Friday 2026 CORE One deals",
+      "image_url": "https://www.prusa3d.com/content/images/product/34f8abbf-a37b-4e6d-9277-397558ff7e25.jpg",
+      "image_alt": "Prusa CORE One 3D printer",
       "new_release": false,
       "notes": "Rechecked 11/9: gift-with-purchase, not price cuts — up to $450 (CORE One+), $550 (L+), $960 (XL+) extras; Prusament up to 40% off; ends Nov 30 11:59pm PT",
       "price_history": [
@@ -3363,13 +3363,13 @@
           "price": 1299.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1299.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/f255fcfe45d2ad13.webp"
     },
     {
       "item_key": "snapmaker-artisan",
@@ -3406,12 +3406,12 @@
           "price": 2199.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2199.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f0366b9d64a870eb.webp"
     },
     {
@@ -3449,12 +3449,12 @@
           "price": 699.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 699.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c3166a26df678e02.webp"
     },
     {
@@ -3492,12 +3492,12 @@
           "price": 1099.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1049.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/6e2ea11ce010c640.webp"
     },
     {
@@ -3523,12 +3523,12 @@
       "notes": "NEW this sweep. Page shows \"Saved $1,500\"; free gift; Versatile Bundle $4,169. Sitewide tiers stack per xTool. Also S1 40W Basic $1,448 (was $2,199)",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2999.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/76c700ea71861810.webp"
     },
     {
@@ -3566,12 +3566,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/013edafc46591586.webp"
     },
     {
@@ -3609,12 +3609,12 @@
           "price": 499.97
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 499.97
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/e0c0a7be2e4cf3b6.webp"
     },
     {
@@ -3652,12 +3652,12 @@
           "price": 21295
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 21295
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/a386f79d6695112c.webp"
     },
     {
@@ -3695,12 +3695,12 @@
           "price": 16895
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 16895
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f5f67de2869d0f36.webp"
     },
     {
@@ -3726,12 +3726,12 @@
       "notes": "NEW this sweep. The bundle costs $44 less than the Packtalk Edge alone ($439.95). Discount is against the bundle compare-at price.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 395.96
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/61cd10653155b54b.webp"
     },
     {
@@ -3765,12 +3765,12 @@
           "price": 49.98
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 49.98
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/3a2522a1eb7e7219.webp"
     },
     {
@@ -3796,12 +3796,12 @@
       "notes": "NEW this sweep. Closeout on Cycle Gear BF page.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 249.97
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c276e9afb2f72b62.webp"
     },
     {
@@ -3839,12 +3839,12 @@
           "price": 419.4
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 419.4
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b3798dd7127930ca.webp"
     },
     {
@@ -3882,12 +3882,12 @@
           "price": 172.48
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 172.48
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/fd770cf01408bde6.webp"
     },
     {
@@ -3921,12 +3921,12 @@
           "price": 499.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 499.99
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/12dfbb6182799273.webp"
     },
     {
@@ -3964,12 +3964,12 @@
           "price": 23499
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 23499
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/403964b1498c0f55.webp"
     },
     {
@@ -3989,19 +3989,19 @@
       "deal_status": "announced",
       "date_found": "2026-11-09",
       "source_url": "https://weeklyadhunters.com/harbor-freight-black-friday-deals-ad/",
-      "image_url": null,
-      "image_alt": null,
+      "image_url": "https://i5.walmartimages.com/seo/JEGS-Steel-Loading-Ramps-1000-lb-Capacity-72-in-Length_594697db-5701-41e5-b469-f1c40c907ef0.8dd27d79c2ee4ac3c878850e80410a37.jpeg",
+      "image_alt": "1000 lb steel loading ramps pair",
       "new_release": false,
       "notes": "NEW this sweep. Harbor Freight BF ad price for Nov 23–30 (72 x 9 in. ramps). Regular price unverified because harborfreight.com blocked fetches.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 59.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/12be1fc6106d5ae1.webp"
     },
     {
       "item_key": "revzilla-klim-tk1200-karbon-architek-helmet",
@@ -4038,12 +4038,12 @@
           "price": 399.97
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 399.97
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/8471b926e46f7b01.webp"
     },
     {
@@ -4081,12 +4081,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/adfcc04715d0638d.webp"
     },
     {
@@ -4116,12 +4116,12 @@
           "price": 149.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 149.99
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/99c2185aa4a538e7.webp"
     },
     {
@@ -4159,12 +4159,12 @@
           "price": 219.5
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 219.5
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/8b40ec148d64edbe.webp"
     },
     {
@@ -4190,12 +4190,12 @@
       "notes": "NEW this sweep. Closeout on RevZilla BF page; the Lightning graphic is $349.97 at Cycle Gear (was $729.98).",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 349.97
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b4585369df986edb.webp"
     },
     {
@@ -4229,12 +4229,12 @@
           "price": 69.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 69.99
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/dd2d00e24d522e6c.webp"
     },
     {
@@ -4260,12 +4260,12 @@
       "notes": "NEW this sweep. Gore-Tex ADV jacket closeout; matching pants $517.99 (was $739.99).",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 685.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/51440310d3d56f41.webp"
     },
     {
@@ -4295,12 +4295,12 @@
           "price": 239.5
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 239.5
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/58121a6a3a54040a.webp"
     },
     {
@@ -4338,12 +4338,12 @@
           "price": 499.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 499.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/5b32c9698eac6220.webp"
     },
     {
@@ -4381,12 +4381,12 @@
           "price": 663.2
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 663.2
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/6e1a76cd50ab4b8b.webp"
     },
     {
@@ -4412,12 +4412,12 @@
       "notes": "NEW this sweep. Helmet with Sena Bluetooth comms built in; closeout.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 199.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/4b98773ed358f77f.webp"
     },
     {
@@ -4455,12 +4455,12 @@
           "price": 299.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 299.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/0c0cd69792af0617.webp"
     },
     {
@@ -4498,12 +4498,12 @@
           "price": 699.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 699.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b448de15e560fca7.webp"
     },
     {
@@ -4541,12 +4541,12 @@
           "price": 549.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 549.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f60f35b2d1b48d45.webp"
     },
     {
@@ -4566,7 +4566,7 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.cyclegear.com/black-friday-motorcycle-gifts-and-deals",
-      "image_url": null,
+      "image_url": "https://www.revzilla.com/product_images/0229/5465/shoei_rfsr_helmet_solid_750x750.jpg",
       "image_alt": "Shoei RF-SR solid helmet",
       "new_release": false,
       "notes": "Rechecked Nov 9, unchanged. On Cycle Gear and RevZilla BF pages at $399.99 (was $499.99).",
@@ -4576,13 +4576,13 @@
           "price": 399.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 399.99
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/a0a918e7bbb919eb.webp"
     },
     {
       "item_key": "revrides-srpnt-mx-electric-dirt-bike",
@@ -4607,12 +4607,12 @@
       "notes": "NEW this sweep. Small motocross e-moto (Sur-Ron class), white or black. Discount is against the store compare-at price.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 3299.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/1336f9ccab1bc8d3.webp"
     },
     {
@@ -4632,7 +4632,7 @@
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://apolloscooters.co/products/apollo-dash",
-      "image_url": null,
+      "image_url": "https://cdn.shopify.com/s/files/1/0030/8183/0512/files/Dash_Street.jpg?v=1787163255",
       "image_alt": "Apollo Dash electric scooter",
       "new_release": false,
       "notes": "Rechecked 11/9: $529 (was $699); 2-yr warranty version $599",
@@ -4650,13 +4650,13 @@
           "price": 529.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 529.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/5524d3f6356a9f4d.webp"
     },
     {
       "item_key": "apple-watch-ultra-4-amazon",
@@ -4693,12 +4693,12 @@
           "price": 699.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 699.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/dbf72d0005a9fabe.webp"
     },
     {
@@ -4728,12 +4728,12 @@
           "price": 1299.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1299.0
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/9e4a5fafcee5a0d3.webp"
     },
     {
@@ -4771,12 +4771,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f269a06b7e67c1c4.webp"
     },
     {
@@ -4845,12 +4845,12 @@
           "price": 559.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 559.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/6b22d99a3d5f20f1.webp"
     },
     {
@@ -4888,12 +4888,12 @@
           "price": 179.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 179.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b0bca82338edc5d0.webp"
     },
     {
@@ -4931,12 +4931,12 @@
           "price": 649.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 649.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/e9d444d1e055ab8e.avif"
     },
     {
@@ -4974,12 +4974,12 @@
           "price": 1099.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1099.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/46bcfdffe1576672.webp"
     },
     {
@@ -5005,12 +5005,12 @@
       "notes": "NEW this sweep. Pre-Black Friday Sale, Blue and Red only; 2S/3S, 50+ mph. AMain matches $239.99 but sold out there.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 239.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/bde47661ff2a2e21.webp"
     },
     {
@@ -5048,12 +5048,12 @@
           "price": 29.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 29.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/35e006a7818f551e.webp"
     },
     {
@@ -5091,12 +5091,12 @@
           "price": 349.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 349.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/52dce8fe9a7b6dfb.webp"
     },
     {
@@ -5134,12 +5134,12 @@
           "price": 279.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 279.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/965cdf03630f7b81.webp"
     },
     {
@@ -5165,12 +5165,12 @@
       "notes": "NEW this sweep. Pre-Black Friday Sale, ends 11/16. Under 250g; 3S/4S brushless STOL.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 189.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/bff8931075af2977.webp"
     },
     {
@@ -5208,12 +5208,12 @@
           "price": 119.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 119.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/1eaf8a12e71c0627.webp"
     },
     {
@@ -5251,12 +5251,12 @@
           "price": 409.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 409.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/0b780b67764c2fdb.webp"
     },
     {
@@ -5294,12 +5294,12 @@
           "price": 249.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 249.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/4663d7bc8a68f440.webp"
     },
     {
@@ -5337,12 +5337,12 @@
           "price": 499.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 499.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/54ab2210b87483e3.webp"
     },
     {
@@ -5380,12 +5380,12 @@
           "price": 299.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 299.99
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/4eb70a0e9cfe781a.webp"
     },
     {
@@ -5423,12 +5423,12 @@
           "price": 37.04
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 37.04
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/947f5b95c1fb6760.webp"
     },
     {
@@ -5454,12 +5454,12 @@
       "notes": "NEW this sweep. RadioMaster Specials; FCC and LBT in stock. R84 V2 $8.99/$17.99 and R88 V2 $10.99/$19.99 also on Specials. Good spares for fixed-wing fleets.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 9.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/326578214e4823bb.webp"
     },
     {
@@ -5497,12 +5497,12 @@
           "price": 179.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 179.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b73c56426e12e289.webp"
     },
     {
@@ -5540,12 +5540,12 @@
           "price": 66.49
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 66.49
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b0a7229f0bef07ed.webp"
     },
     {
@@ -5583,12 +5583,12 @@
           "price": 2199.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2199.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/220b161ba0058d31.webp"
     },
     {
@@ -5626,12 +5626,12 @@
           "price": 3999.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 3999.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/5e5d5d458b275976.webp"
     },
     {
@@ -5657,12 +5657,12 @@
       "notes": "NEW this sweep. 2,400Wh 134V version; 3,000Wh 168V is $3,399 (was $3,799). Fills the gap left by the expired Begode flash sale.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2499.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/bc2c2d28c008329c.webp"
     },
     {
@@ -5696,12 +5696,12 @@
           "price": 1500.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1500.0
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/9ed9ab21bb31541a.webp"
     },
     {
@@ -5739,12 +5739,12 @@
           "price": 1299.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1299.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/eb2a8758d320d3ec.webp"
     },
     {
@@ -5774,12 +5774,12 @@
           "price": 1999.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1999.0
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/08a92427b95e0140.webp"
     },
     {
@@ -5817,12 +5817,12 @@
           "price": 2499.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2499.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/fe8dc7226cbe4ccf.webp"
     },
     {
@@ -5848,12 +5848,12 @@
       "notes": "NEW this sweep. INMOTION BF sale through Nov 30. Seat or power-pad bundles $848.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 799.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/1da1c5d04a21b79b.webp"
     },
     {
@@ -5887,12 +5887,12 @@
           "price": 3699.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 3699.0
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/6874ca1c17d655db.webp"
     },
     {
@@ -5930,12 +5930,12 @@
           "price": 2499.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2499.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/d5e9104485afb2b6.webp"
     },
     {
@@ -5961,12 +5961,12 @@
       "notes": "NEW this sweep. KingSong BF Early Bird pricing (Nov 6–23 PT).",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1499.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/05c7772e82187a09.webp"
     },
     {
@@ -6000,12 +6000,12 @@
           "price": 1539.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1459.0
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/bbcab35b1b840df6.webp"
     },
     {
@@ -6039,12 +6039,12 @@
           "price": 3079.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 3049.0
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/41a16ca03536ef5a.webp"
     },
     {
@@ -6078,12 +6078,12 @@
           "price": 1999.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1969.0
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/4677ccea5f4d6056.webp"
     },
     {
@@ -6109,12 +6109,12 @@
       "notes": "NEW this sweep. $190 less than eWheels ($2,499) for the same wheel.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2309.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/994f208de9b02b08.webp"
     },
     {
@@ -6152,12 +6152,12 @@
           "price": 2899.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2899.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/3e3a91c49202bf75.webp"
     },
     {
@@ -6187,12 +6187,12 @@
           "price": 3899.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 3899.0
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/0e4afe81f398dee0.webp"
     },
     {
@@ -6218,12 +6218,12 @@
       "notes": "NEW this sweep. On eWheels discounted collection.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 3299.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/21c27a3c2e0688fb.webp"
     },
     {
@@ -6261,12 +6261,12 @@
           "price": 29.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 29.99
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c7cf69336037fac0.webp"
     },
     {
@@ -6304,12 +6304,12 @@
           "price": 199.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 199.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/d7e5f21408750a2f.webp"
     },
     {
@@ -6335,12 +6335,12 @@
       "notes": "NEW this sweep. High Speed or High Torque winding.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 649.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/ca572605cd824584.webp"
     },
     {
@@ -6378,12 +6378,12 @@
           "price": 275.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 275.0
         }
       ],
       "first_seen": "2026-11-03T14:55:40-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/25d8c8e0169aaa6c.webp"
     },
     {
@@ -6421,12 +6421,12 @@
           "price": 849.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 849.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b2f9184461d9d0b0.webp"
     },
     {
@@ -6464,12 +6464,12 @@
           "price": 469.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 469.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/813cc4827eca7054.webp"
     },
     {
@@ -6507,12 +6507,12 @@
           "price": 1699.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1499.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/308740734d0c6656.webp"
     },
     {
@@ -6538,12 +6538,12 @@
       "notes": "NEW this sweep. Promo page: X12 PRO OMNI Care $799 (was $1,549.99); X12 OmniCyclone + Buddy Kit $899 (was $1,550)",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 799.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/2ea19f1b5baab031.webp"
     },
     {
@@ -6581,12 +6581,12 @@
           "price": 1299.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1299.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/06cd9dd16ecbbd4a.webp"
     },
     {
@@ -6624,12 +6624,12 @@
           "price": 604.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 604.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b05cdc9fedd30f29.webp"
     },
     {
@@ -6655,12 +6655,12 @@
       "notes": "NEW this sweep. iRobot deals page: also Plus 515 Combo $429.99 (was $699.99), Max 715 Vac $399.99 (was $699.99); 25% off accessories",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 699.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/8ba482e5d560d660.webp"
     },
     {
@@ -6698,12 +6698,12 @@
           "price": 499.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 499.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/40bf49eaa24d8492.webp"
     },
     {
@@ -6741,12 +6741,12 @@
           "price": 120.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 120.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/e0bde0cd3f5407cb.webp"
     },
     {
@@ -6784,12 +6784,12 @@
           "price": 1799.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1799.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/0e27e8d898f4512f.webp"
     },
     {
@@ -6827,12 +6827,12 @@
           "price": 499.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 499.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/83692e5c0811411e.webp"
     },
     {
@@ -6852,8 +6852,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.vacubots.com/more-early-black-friday-robot-vacuum-deals-arrive-as-mova-launches-sale-roborock-prepares-offers/",
-      "image_url": null,
-      "image_alt": "MOVA early Black Friday robot vacuum sale",
+      "image_url": "https://cdn.shopify.com/s/files/1/0708/9671/3967/files/P50ProUltra-Thumb-_1.png?v=1765173463",
+      "image_alt": "MOVA P50 Pro Ultra robot vacuum with dock",
       "new_release": false,
       "notes": "Not re-verifiable on MOVA site (JS); VacuBots 11/5 reopened: $449, sitewide up to $550 off; preview thru Nov 18; main Nov 19–30",
       "price_history": [
@@ -6862,13 +6862,13 @@
           "price": 449.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 449.0
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/9f2ab8fc1d3f2557.webp"
     },
     {
       "item_key": "narwal-freo-20-advanced-kit-narwal-us",
@@ -6905,12 +6905,12 @@
           "price": 900.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 900.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/04aa3c7b44ad0d80.webp"
     },
     {
@@ -6936,12 +6936,12 @@
       "notes": "NEW this sweep. Product page $1,299.99 now; Roborock deals page shows $949.99 (was $2,599.99), likely Nov 19 main-event price; 30-day price protection",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1299.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/6cf31aa752fb0cba.webp"
     },
     {
@@ -6979,12 +6979,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/2fc1878a185db7ae.webp"
     },
     {
@@ -7010,12 +7010,12 @@
       "notes": "NEW this sweep. Early BF Nov 4–18 ($200 off); terms say $270 off Nov 19–Dec 2. i206 AWD $899 (was $999), i210 AWD $1,099 (was $1,299; $300 off from Nov 19)",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1399.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/00cab3700169e643.webp"
     },
     {
@@ -7053,12 +7053,12 @@
           "price": 7999.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 7999.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b97dcb1fbebce694.webp"
     },
     {
@@ -7096,12 +7096,12 @@
           "price": 179.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 179.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/8ca5758826965575.webp"
     },
     {
@@ -7139,12 +7139,12 @@
           "price": 1240.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1199.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/ff360b1fef5d61f2.webp"
     },
     {
@@ -7170,12 +7170,12 @@
       "notes": "NEW this sweep. Amazon PDP $1,349.99 Nov 9; 9to5Toys calls the 1TB configs the best MacBook deals since June.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1349.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/8e0f03bd1434c4c2.webp"
     },
     {
@@ -7205,12 +7205,12 @@
           "price": 1549.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1549.99
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/6244643b877bced4.webp"
     },
     {
@@ -7248,12 +7248,12 @@
           "price": 1299.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1299.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/3b5bd154350b60d0.webp"
     },
     {
@@ -7291,12 +7291,12 @@
           "price": 2299.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2449.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/1e6f6ca478cf1bfc.webp"
     },
     {
@@ -7322,12 +7322,12 @@
       "notes": "NEW this sweep. Amazon PDP $779 Nov 9. 16GB/512GB $949, 24GB/512GB $1,149 also discounted.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 779.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/40492a1fd0337503.webp"
     },
     {
@@ -7382,8 +7382,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.microcenter.com/product/690477/gigabyte-nvidia-geforce-rtx-5080-windforce-sff-overclocked-triple-fan-16gb-gddr7-pcie-50-graphics-card",
-      "image_url": null,
-      "image_alt": "Gigabyte RTX 5080 Windforce SFF 16GB",
+      "image_url": "https://cdn.thefpsreview.com/wp-content/uploads/2026/04/feature.webp",
+      "image_alt": "Gigabyte RTX 5080 Windforce SFF 16GB graphics card",
       "new_release": false,
       "notes": "Reconfirmed Nov 9 on Micro Center PDP: $2,079.99 ($270 off). In-store pickup only; no Las Vegas Micro Center (nearest in SoCal/AZ).",
       "price_history": [
@@ -7400,13 +7400,13 @@
           "price": 2079.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2079.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/40bdb9b82e9c6239.webp"
     },
     {
       "item_key": "gmktec-gmktec-k12-ryzen-7-h-255-mini-pc-barebone",
@@ -7501,12 +7501,12 @@
       "notes": "NEW this sweep. First deal on an NVIDIA RTX Spark N1X Copilot+ PC; 3K OLED touch. Regular = Lenovo.com price. $150 less than the 32GB/1TB variant.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2949.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/7b1af6d521f95bdf.webp"
     },
     {
@@ -7544,12 +7544,12 @@
           "price": 950.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 950.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/4cc29c8cb3b3a575.webp"
     },
     {
@@ -7569,8 +7569,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://daily.slickdeals.net/black-friday/three-early-black-friday-tv-deals-from-best-buy/",
-      "image_url": null,
-      "image_alt": "LG 48\" B6 OLED 4K (2026)",
+      "image_url": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/661f5875-8a39-4eec-a80b-c3992368f3f7/TV-OLED48B6GUA-gallery-02_5000x5000",
+      "image_alt": "LG 48-inch OLED B6 TV on white background",
       "new_release": true,
       "notes": "Slickdeals BB thread still live (not expired) Nov 9; $599.99 retained. Great console/PC-monitor-size OLED.",
       "price_history": [
@@ -7579,13 +7579,13 @@
           "price": 599.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 599.99
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/e6f1a5bc6b8a2547.avif"
     },
     {
       "item_key": "lg-55-c6-oled-evo-2026-best-buy-amazon-b-h",
@@ -7622,12 +7622,12 @@
           "price": 999.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 999.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/cd55334c883fcea7.webp"
     },
     {
@@ -7653,12 +7653,12 @@
       "notes": "NEW this sweep. 9to5Toys flagged $999.99 ($1,000 off, Amazon all-time low) early Nov 9; Amazon PDP read $1,039.96 at recheck — price is bouncing. BB is ~$200 more.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1039.96
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/1efc5ec69b584eb0.webp"
     },
     {
@@ -7696,12 +7696,12 @@
           "price": 1399.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1399.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/935826001b15843f.webp"
     },
     {
@@ -7774,12 +7774,12 @@
           "price": 1599.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1599.99
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/054af3b936750a6e.webp"
     },
     {
@@ -7809,12 +7809,12 @@
           "price": 899.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 899.99
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/1ca674148de63d6f.webp"
     },
     {
@@ -7840,12 +7840,12 @@
       "notes": "NEW this sweep. Storage. $400 auto-applied coupon at B&H checkout (B&H daily deal). Regular = Amazon going rate since storage price hikes.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 649.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/7645c756b5e37a1a.webp"
     },
     {
@@ -7879,12 +7879,12 @@
           "price": 150.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 150.0
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/38c7bca3ec9564ab.webp"
     },
     {
@@ -7918,12 +7918,12 @@
           "price": 29.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 29.99
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/1530f0cf08f9a93d.webp"
     },
     {
@@ -7943,8 +7943,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://9to5toys.com/2026/10/30/windows-laptops-pcs-nearly-1000-off-best-buy-early-black-friday-deals/",
-      "image_url": null,
-      "image_alt": "Logitech G PRO X SUPERLIGHT mouse",
+      "image_url": "https://resource.logitechg.com/content/dam/gaming/en/products/pro-x-superlight/pro-x-superlight-black-gallery-1.png",
+      "image_alt": "Logitech G PRO X SUPERLIGHT black gaming mouse",
       "new_release": false,
       "notes": "Not reconfirmed Nov 9 (BB PDP not fetchable); Oct 30 9to5Toys price retained.",
       "price_history": [
@@ -7953,13 +7953,13 @@
           "price": 65.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 65.0
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/4379caab1dd7d786.webp"
     },
     {
       "item_key": "logitech-g915-x-lightspeed-amazon",
@@ -7996,12 +7996,12 @@
           "price": 116.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 116.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f96fac1b2f8afe9e.webp"
     },
     {
@@ -8074,12 +8074,12 @@
           "price": 869.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 869.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c4c9631e0acc4611.webp"
     },
     {
@@ -8148,12 +8148,12 @@
           "price": 56.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 56.0
         }
       ],
       "first_seen": "2026-11-04T09:14:27-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b9277e59a1a5226e.webp"
     },
     {
@@ -8179,12 +8179,12 @@
       "notes": "NEW this sweep. Amazon PDP $178 Nov 9 (black and white). ANC + 360 Spatial Sound; PS5/PC.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 178.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/2b29a9cbb6e950b4.webp"
     },
     {
@@ -8222,12 +8222,12 @@
           "price": 249.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 249.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/daf187d2ce7b34e5.webp"
     },
     {
@@ -8265,12 +8265,12 @@
           "price": 109.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 109.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/f765c511855931a9.webp"
     },
     {
@@ -8308,12 +8308,12 @@
           "price": 461.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 461.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/b6f80c819eda314c.webp"
     },
     {
@@ -8351,12 +8351,12 @@
           "price": 593.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 593.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/abc84db24f909f2d.webp"
     },
     {
@@ -8394,12 +8394,12 @@
           "price": 99.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 99.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/63dbfbc39c1c795b.webp"
     },
     {
@@ -8437,12 +8437,12 @@
           "price": 25.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 25.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c402490d6d2504cb.webp"
     },
     {
@@ -8462,8 +8462,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://blog.playstation.com/2026/11/03/playstations-black-friday-deals-2026/",
-      "image_url": null,
-      "image_alt": "PlayStation Store Black Friday Sale",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/ps5-midnight-black.jpg",
+      "image_alt": "PlayStation 5 console Midnight Black",
       "new_release": false,
       "notes": "Reconfirmed: live Nov 4–30, new titles Nov 16, some deals end Nov 20. No PS5 console discounts announced yet.",
       "price_history": [
@@ -8480,13 +8480,13 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/85e6694bca52dcbe.webp"
     },
     {
       "item_key": "asus-rog-strix-g18-rtx-5070-walmart",
@@ -8523,12 +8523,12 @@
           "price": 1849.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1849.0
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/7333cf1d06b86901.webp"
     },
     {
@@ -8566,12 +8566,12 @@
           "price": 2199.88
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2199.88
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/14c4b5b245713014.webp"
     },
     {
@@ -8597,12 +8597,12 @@
       "notes": "NEW this sweep. Amazon PDP $2,199 Nov 9 (list $2,649.99). 16\" 2560x1600 165Hz, RTX 5080 (115W).",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 2199.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/752eacc61acf030b.webp"
     },
     {
@@ -8632,12 +8632,12 @@
           "price": 899.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 899.99
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/7d98a5ef0e65238b.webp"
     },
     {
@@ -8663,12 +8663,12 @@
       "notes": "NEW this sweep. Slickdeals Popular thread (Nov 7), not expired Nov 9. 16\" QHD+ 240Hz OLED, Ultra 7 251HX, 16GB/1TB. Regular = Lenovo list.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1819.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/55146ef368f3004d.webp"
     },
     {
@@ -8706,12 +8706,12 @@
           "price": 1799.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1799.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c9185a0dc27ba986.webp"
     },
     {
@@ -8741,12 +8741,12 @@
           "price": 1450.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1450.0
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": null
     },
     {
@@ -8772,12 +8772,12 @@
       "notes": "NEW this sweep. Amazon PDP $1,599 Nov 9. Core Ultra 7 255HX, 140W RTX 5070 Ti, 16GB/512GB, FHD+ 144Hz. Regular = Newegg reference (The Gadgeteer).",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1599.0
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/ecae96c568f832fd.webp"
     },
     {
@@ -8815,12 +8815,12 @@
           "price": 308.38
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 319.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/056827d7756e682a.webp"
     },
     {
@@ -8850,12 +8850,12 @@
           "price": 169.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 169.99
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": null
     },
     {
@@ -8876,7 +8876,7 @@
       "date_found": "2026-11-06",
       "source_url": "https://www.amazon.com/dp/B0D1DPFZLZ",
       "image_url": "https://m.media-amazon.com/images/I/81or1b4EndL._AC_SL1500_.jpg",
-      "image_alt": "Samsung 27\" Odyssey OLED G6 360Hz",
+      "image_alt": "Samsung 27-inch Odyssey OLED G6 360Hz monitor",
       "new_release": false,
       "notes": "Price drop from $600 — Amazon PDP $589.99 Nov 9. 27\" QHD QD-OLED 360Hz.",
       "price_history": [
@@ -8893,13 +8893,13 @@
           "price": 600.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 589.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/15d4aa8dc392d195.webp"
     },
     {
       "item_key": "brighton-cyber-2-day-go-card-2026",
@@ -8936,12 +8936,12 @@
           "price": 199
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 199
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/eb3b7f51cfc1fc58.webp"
     },
     {
@@ -8979,12 +8979,12 @@
           "price": 299
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 299
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/7ca2bf2a0dd14332.webp"
     },
     {
@@ -9018,12 +9018,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/104489607aefbbeb.webp"
     },
     {
@@ -9057,12 +9057,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/f812eb0da622b091.webp"
     },
     {
@@ -9100,12 +9100,12 @@
           "price": 549.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 549.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/0912aba9482c3815.webp"
     },
     {
@@ -9143,12 +9143,12 @@
           "price": 779.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 779.99
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/797912e4009261e2.webp"
     },
     {
@@ -9178,12 +9178,12 @@
           "price": 509.99
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 509.99
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/00ff0a7106667865.webp"
     },
     {
@@ -9221,12 +9221,12 @@
           "price": 119
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 119
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/2d7e2940d53dc78b.webp"
     },
     {
@@ -9260,12 +9260,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/72f4c29cce61d44f.webp"
     },
     {
@@ -9303,12 +9303,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/380d9ec8de1948f0.webp"
     },
     {
@@ -9346,12 +9346,12 @@
           "price": 125
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 125
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/aec1e5f8704e48b4.webp"
     },
     {
@@ -9389,12 +9389,12 @@
           "price": 499.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 499.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/6306067391ca58e8.webp"
     },
     {
@@ -9432,12 +9432,12 @@
           "price": 629.3
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 629.3
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/56bbf848b344b1f4.webp"
     },
     {
@@ -9475,12 +9475,12 @@
           "price": 703.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 703.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/4dc184a02bdcf033.webp"
     },
     {
@@ -9510,12 +9510,12 @@
           "price": 287.95
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 287.95
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/aedbfb8a989d772f.webp"
     },
     {
@@ -9549,12 +9549,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/7b9abdb7314a2ed7.webp"
     },
     {
@@ -9592,12 +9592,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/3ee9f5f02c2a323b.webp"
     },
     {
@@ -9631,12 +9631,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/26c79e3e48b75d76.webp"
     },
     {
@@ -9656,8 +9656,8 @@
       "deal_status": "announced",
       "date_found": "2026-11-06",
       "source_url": "https://www.prnewswire.com/news-releases/rei-co-ops-biggest-sale-of-the-holiday-season-runs-november-13-23-302932086.html",
-      "image_url": null,
-      "image_alt": "REI Holiday Sale (Nov 13–23)",
+      "image_url": "https://mmx.prnewswire.com/media/MS2029217/REI-Co-op-sale.jpg?id=OA3063149&p=facebook",
+      "image_alt": "REI Co-op holiday sale",
       "new_release": false,
       "notes": "Announced: Nov 13–23. Member 20% off one full-price item; REI Outlet up to 60% off Nov 17–19.",
       "price_history": [
@@ -9666,13 +9666,13 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/34b3c827a6b0af81.webp"
     },
     {
       "item_key": "backcountry-rossignol-sender-soul-102-2026",
@@ -9691,19 +9691,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://www.backcountry.com/rc/sale-ski-gear",
-      "image_url": null,
-      "image_alt": "Rossignol Sender Soul 102 ski",
+      "image_url": "https://utahskis.com/cdn/shop/files/RANMR01_SENDER_SOUL_102_OPEN_72dpi_01.jpg?v=1763401832",
+      "image_alt": "Rossignol Sender Soul 102 skis 2026",
       "new_release": false,
       "notes": "NEW this sweep. Backcountry ski-gear sale grid Nov 9. Freeride all-mountain ski; Sender Soul 92 $389.97.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 487.47
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/ef98695c9ad0bf37.webp"
     },
     {
       "item_key": "backcountry-salomon-qst-x-shift-16-2026",
@@ -9722,19 +9722,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://www.backcountry.com/rc/sale-ski-gear",
-      "image_url": null,
-      "image_alt": "Salomon QST X ski with Shift binding",
+      "image_url": "https://utahskis.com/cdn/shop/files/L49188900__0_SKE_NSLABQSTX.jpg?v=1790893953",
+      "image_alt": "Salomon QST X skis",
       "new_release": false,
       "notes": "NEW this sweep. Backcountry sale grid Nov 9. Hybrid alpine/touring package with Shift 16 binding.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 989.94
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/d247058be311c9ab.webp"
     },
     {
       "item_key": "backcountry-smith-4d-mag-goggles",
@@ -9753,7 +9753,7 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.backcountry.com/rc/sale-ski-gear",
-      "image_url": null,
+      "image_url": "https://cdn.shopify.com/s/files/1/0751/8073/6750/files/4d-mag-goggles_royalNavy-cpEverydayBlueMirror_3Q.png?v=1765223563",
       "image_alt": "Smith 4D MAG ChromaPop goggles",
       "new_release": false,
       "notes": "Reconfirmed Nov 9 on Backcountry ski-gear sale grid. Squad MAG $144+ also on sale.",
@@ -9763,13 +9763,13 @@
           "price": 208.8
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 208.8
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/cde767512ac3234f.webp"
     },
     {
       "item_key": "backcountry-smith-method-pro-mips",
@@ -9788,7 +9788,7 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.backcountry.com/rc/sale-ski-gear",
-      "image_url": null,
+      "image_url": "https://cdn.shopify.com/s/files/1/0751/8073/6750/files/method-pro-mips-helmet_matteOlive_3Q.png?v=1784950882",
       "image_alt": "Smith Method Pro MIPS helmet",
       "new_release": false,
       "notes": "Reconfirmed Nov 9 on Backcountry ski-gear sale grid ($111–$185).",
@@ -9798,13 +9798,13 @@
           "price": 111.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 111.0
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/f43c8c6440e73b11.webp"
     },
     {
       "item_key": "snowbird-welcome-winter-lodging-2026",
@@ -9833,12 +9833,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-06T09:44:19-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/4197d6b43941bd26.webp"
     },
     {
@@ -9868,12 +9868,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-06T09:44:19-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/a8e94b0e91b55981.webp"
     },
     {
@@ -9911,12 +9911,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/a17ef8f43e873d86.webp"
     },
     {
@@ -9954,12 +9954,12 @@
           "price": 119
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 119
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/32fd4cdc25a71525.webp"
     },
     {
@@ -9979,8 +9979,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://utahskis.com/pages/sale",
-      "image_url": null,
-      "image_alt": "UtahSkis Early Black Friday sale",
+      "image_url": "https://cdn.shopify.com/s/files/1/0580/7410/3867/files/AA0030952_2_GHO_Bent_100.png.high-res.jpg?v=1788629597",
+      "image_alt": "UtahSkis sale ski gear",
       "new_release": false,
       "notes": "Early Black Friday sale hub still live Nov 9; item prices not listed on hub.",
       "price_history": [
@@ -9997,13 +9997,13 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/3bd50511bb56e36d.webp"
     },
     {
       "item_key": "disneyland-magic-key-explore-2026",
@@ -10040,12 +10040,12 @@
           "price": 999
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 999
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/9ee9fd553ae2affa.avif"
     },
     {
@@ -10083,12 +10083,12 @@
           "price": 120
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 120
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/ba96ce5802cea55d.webp"
     },
     {
@@ -10126,12 +10126,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/288d9ba8edabe8ba.webp"
     },
     {
@@ -10157,12 +10157,12 @@
       "notes": "NEW. Official homepage: park closed for 2026 season; Black Friday season pass sale starting November 18. Prices not posted yet.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
-      "first_seen": "2026-11-09T09:23:17-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "first_seen": "2026-11-09T09:37:54-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/a448dd1a6acaf82f.webp"
     },
     {
@@ -10200,12 +10200,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/b7e95c4cc25ff5c4.webp"
     },
     {
@@ -10243,12 +10243,12 @@
           "price": 77.99
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 77.99
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/170634221936f176.webp"
     },
     {
@@ -10286,12 +10286,12 @@
           "price": 79
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 79
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/886c5f9a5a0120dc.webp"
     },
     {
@@ -10329,12 +10329,12 @@
           "price": 179
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 179
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/2279dd3f22733e1e.webp"
     },
     {
@@ -10354,19 +10354,19 @@
       "deal_status": "live",
       "date_found": "2026-11-09",
       "source_url": "https://www.24hourfitness.com/promo/en",
-      "image_url": null,
-      "image_alt": "24 Hour Fitness promo",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/24_Hour_Fitness%2C_SE_Holgate%2C_PDX.jpg",
+      "image_alt": "24 Hour Fitness gym exterior",
       "new_release": false,
       "notes": "NEW this sweep. Live Nov 9: first month dues + initiation waived; pay last month; dues $31.99–$51.99/mo; $49.99 annual fee. Several LV clubs. BF-specific promo not posted yet.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/619d2b08b1a87921.webp"
     },
     {
       "item_key": "costco-membership",
@@ -10403,12 +10403,12 @@
           "price": 65
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 65
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/c9d92ea192c42083.webp"
     },
     {
@@ -10428,8 +10428,8 @@
       "deal_status": "announced",
       "date_found": "2026-11-06",
       "source_url": "https://www.crunch.com/black-friday-sale",
-      "image_url": null,
-      "image_alt": "Crunch Fitness Black Friday Sale",
+      "image_url": "https://www.crunch.com/og-image.jpg",
+      "image_alt": "Crunch Fitness",
       "new_release": false,
       "notes": "BF page still shows no 2026 terms Nov 9.",
       "price_history": [
@@ -10446,13 +10446,13 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/8ebfb196d34e4931.webp"
     },
     {
       "item_key": "eos-november",
@@ -10471,8 +10471,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.eosfitness.com/monthlypo",
-      "image_url": null,
-      "image_alt": "EoS Fitness $1 to join (November)",
+      "image_url": "https://eoswpprod-96920b9d3aea38f3-endpoint.azureedge.net/wp-content/uploads/2024/08/why-eos-thumbnail.jpg",
+      "image_alt": "EoS Fitness gym interior",
       "new_release": false,
       "notes": "Reconfirmed Nov 9: $1 enrollment with select $29.99/mo ACH plans; $59.99 annual fee. Many LV gyms.",
       "price_history": [
@@ -10489,13 +10489,13 @@
           "price": 1
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 1
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/dd52ec2e4cde66d9.webp"
     },
     {
       "item_key": "mountain-high-mountain-high-26-27-adult-season-pass-nov-price",
@@ -10514,8 +10514,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.mthigh.com/season-passes",
-      "image_url": null,
-      "image_alt": "Mountain High 26/27 adult pass (Nov)",
+      "image_url": "https://www.mthigh.com/site/connect/connect/photos/dailyphotos2225/MTR01016.jpg/listing",
+      "image_alt": "Mountain High ski resort",
       "new_release": false,
       "notes": "Ski season pass. Reconfirmed Nov 9: $679 Nov tier (regular $889); rises after 11/30.",
       "price_history": [
@@ -10532,13 +10532,13 @@
           "price": 679.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 679.0
         }
       ],
       "first_seen": "2026-11-03T14:13:34-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/965a82c9e1b50f02.webp"
     },
     {
       "item_key": "sams-giftcards",
@@ -10575,12 +10575,12 @@
           "price": 270
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 270
         }
       ],
       "first_seen": "2026-11-03T13:55:26-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": "data/black-friday/img/cdea70d1c6f5a2bd.webp"
     },
     {
@@ -10618,12 +10618,12 @@
           "price": 119
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 119
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/17fd554314fbc67d.webp"
     },
     {
@@ -10661,12 +10661,12 @@
           "price": 95
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 95
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/a507e1a418f6ad5c.webp"
     },
     {
@@ -10704,12 +10704,12 @@
           "price": 40
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 40
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/42140504d3ea6c85.webp"
     },
     {
@@ -10747,12 +10747,12 @@
           "price": 55
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 55
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/1a1c40ddfb3af8b9.webp"
     },
     {
@@ -10790,12 +10790,12 @@
           "price": 99
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 99
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/c9aae0e8429b6057.webp"
     },
     {
@@ -10833,12 +10833,12 @@
           "price": 45
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 45
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/c5b1eab4d9bd5c2a.webp"
     },
     {
@@ -10876,12 +10876,12 @@
           "price": 144
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 144
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/c58619c603051775.webp"
     },
     {
@@ -10919,12 +10919,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/c6c75729c74c04ba.webp"
     },
     {
@@ -10962,12 +10962,12 @@
           "price": 30
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 30
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/5b92308773d3de59.webp"
     },
     {
@@ -11005,12 +11005,12 @@
           "price": 1169
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 1169
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/b056b62d070fe058.webp"
     },
     {
@@ -11048,12 +11048,12 @@
           "price": 1529
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 1529
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/88ed3d6f9f3f55a9.webp"
     },
     {
@@ -11091,12 +11091,12 @@
           "price": 499
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 499
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/13512764f9873420.webp"
     },
     {
@@ -11134,12 +11134,12 @@
           "price": 1149
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 1149
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/3bc8e47288b3178b.webp"
     },
     {
@@ -11177,12 +11177,12 @@
           "price": 729
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 729
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/fa432dfb7b34460b.webp"
     },
     {
@@ -11220,12 +11220,12 @@
           "price": 779
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 779
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/c84699cf02e3fbb1.webp"
     },
     {
@@ -11263,12 +11263,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/039569c55fec0501.webp"
     },
     {
@@ -11306,12 +11306,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/c6b439c3ca3ce055.webp"
     },
     {
@@ -11349,12 +11349,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/86f8ef96b6b59ef3.webp"
     },
     {
@@ -11380,12 +11380,12 @@
       "notes": "NEW. Official terms: Flights by Celebrity air promotions book Nov 6-Dec 7, 2026 on select 2027 Caribbean/Europe/Alaska sailings (up to $50 Caribbean ticket savings; up to $600 Europe/Alaska). Requires booking air via Celebrity portal.",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
-      "first_seen": "2026-11-09T09:23:17-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "first_seen": "2026-11-09T09:37:54-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": null
     },
     {
@@ -11423,12 +11423,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/35ff3fd47f0d8e76.webp"
     },
     {
@@ -11462,12 +11462,12 @@
           "price": 999
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 999
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/796e75c3267ad92c.webp"
     },
     {
@@ -11501,12 +11501,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/19b0b877708e7ea3.webp"
     },
     {
@@ -11544,12 +11544,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/b047583d40d7d842.webp"
     },
     {
@@ -11583,12 +11583,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/e70405bb52f73de5.webp"
     },
     {
@@ -11626,12 +11626,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/72848cbb19d2017b.webp"
     },
     {
@@ -11669,12 +11669,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/63e59415732d79aa.avif"
     },
     {
@@ -11712,12 +11712,12 @@
           "price": 59
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 59
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/88e690076d1cd0be.webp"
     },
     {
@@ -11755,12 +11755,12 @@
           "price": 69
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 69
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/626457b15c628e75.webp"
     },
     {
@@ -11798,12 +11798,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/0e9d9aef6d1a1efd.webp"
     },
     {
@@ -11841,12 +11841,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/39bd551a0b1fa496.webp"
     },
     {
@@ -11880,12 +11880,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/92ed26ccefa93449.webp"
     },
     {
@@ -11919,12 +11919,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/253bcd1f3cb2d650.webp"
     },
     {
@@ -11962,12 +11962,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/f2b55a0ca4661a14.webp"
     },
     {
@@ -11997,12 +11997,12 @@
           "price": 599
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": 599
         }
       ],
       "first_seen": "2026-11-06T09:44:19-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": "data/black-friday/img/31a29708439342eb.webp"
     },
     {
@@ -12036,12 +12036,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": null
     },
     {
@@ -12075,12 +12075,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:23:17-08:00",
+          "swept_at": "2026-11-09T09:37:54-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-09T09:23:17-08:00",
+      "last_seen": "2026-11-09T09:37:54-08:00",
       "image": null
     },
     {
@@ -12100,19 +12100,19 @@
       "deal_status": "announced",
       "date_found": "2026-11-09",
       "source_url": "https://news.piratesandprincesses.net/p/costco-black-friday-2026-ad-round",
-      "image_url": null,
-      "image_alt": "Costco restaurant gift card deal",
+      "image_url": "https://fogodechao.com/wp-content/uploads/2023/08/Fogo-de-Chao-Dining-Group-700x467.jpg",
+      "image_alt": "Fogo de Chão dining room",
       "new_release": false,
       "notes": "NEW this sweep. Thanksgiving Nov 26, online only, membership required. Landry's brands have Las Vegas locations. Costco Round 2 starts Nov 16",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 74.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/1a7492ae763b889d.webp"
     },
     {
       "item_key": "harbor-freight-bf-predator-4200w-inverter-generator",
@@ -12131,19 +12131,19 @@
       "deal_status": "announced",
       "date_found": "2026-11-09",
       "source_url": "https://clarkdeals.com/black-friday/harbor-freight/",
-      "image_url": null,
-      "image_alt": "Predator 4200 watt dual-fuel inverter generator",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Predator_9500_Watt_Super_Quiet_Inverter_Generator.jpg",
+      "image_alt": "Harbor Freight Predator inverter generator",
       "new_release": false,
       "notes": "NEW this sweep. From leaked HF BF ad: Inside Track early access Nov 23; online Nov 26; stores Nov 27–30. Also Badland 3-ton off-road jack $274.99 (was $379.99)",
       "price_history": [
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 549.99
         }
       ],
-      "first_seen": "2026-11-09T09:25:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "first_seen": "2026-11-09T09:37:53-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/b305ab81c34d963a.webp"
     },
     {
       "item_key": "sams-topgolf-egift-4998",
@@ -12162,8 +12162,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.livingrichwithcoupons.com/2026/11/topgolf-75-email-delivery-gift-card-just-49-98-at-sams-club.html",
-      "image_url": null,
-      "image_alt": "Sam's Club Topgolf $75 eGC for $49.98",
+      "image_url": "https://s3.topgolf.com/uploads/images/cp/day/tg-cpa-bay-day-adult-group-iRjQJcTx-2.jpg",
+      "image_alt": "Topgolf bay with players",
       "new_release": false,
       "notes": "Source reopened 11/9 (Nov 6 post); not re-verified at Sam's (membership required)",
       "price_history": [
@@ -12172,13 +12172,13 @@
           "price": 49.98
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 49.98
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/9bbc9f2c0beb760e.webp"
     },
     {
       "item_key": "weber-smoque-22-pellet-smoker-amazon",
@@ -12197,8 +12197,8 @@
       "deal_status": "live",
       "date_found": "2026-11-03",
       "source_url": "https://www.popsci.com/gear/weber-early-black-friday-deals-smoker-griddle-amazon/",
-      "image_url": null,
-      "image_alt": "Weber Smoque 22\" pellet smoker",
+      "image_url": "https://www.smokedbbqsource.com/wp-content/uploads/2025/10/weber-smoque-pellet-grill-review.jpg",
+      "image_alt": "Weber Smoque 22-inch pellet smoker",
       "new_release": false,
       "notes": "PopSci reopened 11/9: $599 (was $799), lowest tracked; Weber.com also running $200 off Smoque",
       "price_history": [
@@ -12215,13 +12215,13 @@
           "price": 599.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 599.0
         }
       ],
       "first_seen": "2026-11-03T23:01:58.975774+00:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/62def262ce161583.webp"
     },
     {
       "item_key": "weber-smoque-xl-34-amazon",
@@ -12240,8 +12240,8 @@
       "deal_status": "live",
       "date_found": "2026-11-06",
       "source_url": "https://www.popsci.com/gear/weber-early-black-friday-deals-smoker-griddle-amazon/",
-      "image_url": null,
-      "image_alt": "Weber Smoque XL 34\" pellet smoker",
+      "image_url": "https://www.smokedbbqsource.com/wp-content/uploads/2025/10/weber-smoque-digital-controller-1024x576.jpg",
+      "image_alt": "Weber Smoque digital controller close-up",
       "new_release": false,
       "notes": "PopSci reopened 11/9: $799 (was $999)",
       "price_history": [
@@ -12250,13 +12250,13 @@
           "price": 799.0
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": 799.0
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
-      "image": null
+      "last_seen": "2026-11-09T09:37:53-08:00",
+      "image": "data/black-friday/img/ca22f818afbb0b89.webp"
     },
     {
       "item_key": "woot-open-box-clearance-nov6",
@@ -12285,12 +12285,12 @@
           "price": null
         },
         {
-          "swept_at": "2026-11-09T09:25:00-08:00",
+          "swept_at": "2026-11-09T09:37:53-08:00",
           "price": null
         }
       ],
       "first_seen": "2026-11-06T09:55:00-08:00",
-      "last_seen": "2026-11-09T09:25:00-08:00",
+      "last_seen": "2026-11-09T09:37:53-08:00",
       "image": null
     }
   ]
