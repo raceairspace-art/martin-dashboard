@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:12:09-08:00",
+  "generated_at": "2026-11-10T06:01:51-08:00",
   "timezone": "America/Los_Angeles",
   "end_is_inclusive": true,
   "months": [
@@ -346,6 +346,12 @@
       "all_day": true
     },
     {
+      "title": "PWC Adventure Ride – Laughlin / Lake Havasu / Mohave Weekend",
+      "start": "2026-11-12",
+      "end": "2026-11-15",
+      "all_day": true
+    },
+    {
       "title": "Southwest Huckfest (RC 3D)",
       "start": "2026-11-12",
       "end": "2026-11-15",
@@ -359,6 +365,12 @@
     },
     {
       "title": "Dixie 6 High School Rodeo",
+      "start": "2026-11-13",
+      "end": "2026-11-14",
+      "all_day": true
+    },
+    {
+      "title": "Eagles at Sphere",
       "start": "2026-11-13",
       "end": "2026-11-14",
       "all_day": true
@@ -382,7 +394,19 @@
       "all_day": true
     },
     {
+      "title": "Biker/Triker Breakfast – Retreat on Charleston Peak",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "all_day": false
+    },
+    {
       "title": "LVRC Fall Float Fly",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "all_day": false
+    },
+    {
+      "title": "Tribute to Our Veterans Car Show – St. George",
       "start": "2026-11-14",
       "end": "2026-11-14",
       "all_day": false
@@ -466,6 +490,12 @@
       "all_day": false
     },
     {
+      "title": "Eagles at Sphere",
+      "start": "2026-11-27",
+      "end": "2026-11-28",
+      "all_day": true
+    },
+    {
       "title": "LA–Barstow–Vegas Dual Sport",
       "start": "2026-11-27",
       "end": "2026-11-28",
@@ -514,6 +544,12 @@
       "all_day": true
     },
     {
+      "title": "Eagles at Sphere",
+      "start": "2026-12-04",
+      "end": "2026-12-05",
+      "all_day": true
+    },
+    {
       "title": "EAA Ch 1 Young Eagles Pancake Breakfast",
       "start": "2026-12-05",
       "end": "2026-12-05",
@@ -526,6 +562,12 @@
       "all_day": true
     },
     {
+      "title": "Happy Harley Days – Red Rock Harley-Davidson",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "all_day": false
+    },
+    {
       "title": "Planes of Fame B-25J Hangar Talk & Flight",
       "start": "2026-12-05",
       "end": "2026-12-05",
@@ -536,6 +578,12 @@
       "start": "2026-12-05",
       "end": "2026-12-05",
       "all_day": true
+    },
+    {
+      "title": "Toys for Tots Car, Truck & Bike Show – St. George",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "all_day": false
     },
     {
       "title": "Las Vegas BiWeekly Drone Race Event",
@@ -568,10 +616,28 @@
       "all_day": true
     },
     {
+      "title": "Eagles at Sphere",
+      "start": "2026-12-10",
+      "end": "2026-12-11",
+      "all_day": true
+    },
+    {
       "title": "Lake Havasu Dock Glow",
       "start": "2026-12-11",
       "end": "2026-12-11",
       "all_day": true
+    },
+    {
+      "title": "Luke Bryan & Jason Aldean – Double Down Tour",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "all_day": false
+    },
+    {
+      "title": "Biker/Triker Breakfast – Retreat on Charleston Peak",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "all_day": false
     },
     {
       "title": "EAA 81 Breakfast Fly-In",
@@ -586,10 +652,22 @@
       "all_day": true
     },
     {
+      "title": "Toys for Tots Car Show – Mesquite",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "all_day": true
+    },
+    {
       "title": "Grapevine Fly-In (Roosevelt Lake)",
       "start": "2026-12-18",
       "end": "2026-12-20",
       "all_day": true
+    },
+    {
+      "title": "Las Vegas Drones Monthly Meetup",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "all_day": false
     },
     {
       "title": "Tech Alley Vegas",
@@ -622,6 +700,12 @@
       "all_day": true
     },
     {
+      "title": "Palm Springs Air Museum – TOPGUN Super Hornet & Darkstar Evening",
+      "start": "2027-01-02",
+      "end": "2027-01-02",
+      "all_day": false
+    },
+    {
       "title": "Las Vegas BiWeekly Drone Race Event",
       "start": "2027-01-03",
       "end": "2027-01-03",
@@ -630,6 +714,24 @@
     {
       "title": "CES 2027",
       "start": "2027-01-06",
+      "end": "2027-01-09",
+      "all_day": false
+    },
+    {
+      "title": "Global Hardware Festival (CES week)",
+      "start": "2027-01-07",
+      "end": "2027-01-07",
+      "all_day": false
+    },
+    {
+      "title": "Eagles at Sphere",
+      "start": "2027-01-08",
+      "end": "2027-01-09",
+      "all_day": true
+    },
+    {
+      "title": "Biker/Triker Breakfast – Retreat on Charleston Peak",
+      "start": "2027-01-09",
       "end": "2027-01-09",
       "all_day": false
     },
@@ -646,6 +748,12 @@
       "all_day": true
     },
     {
+      "title": "Eagles at Sphere",
+      "start": "2027-01-15",
+      "end": "2027-01-16",
+      "all_day": true
+    },
+    {
       "title": "Southwest Regionals SAM RC",
       "start": "2027-01-16",
       "end": "2027-01-18",
@@ -656,6 +764,18 @@
       "start": "2027-01-16",
       "end": "2027-01-18",
       "all_day": true
+    },
+    {
+      "title": "Las Vegas Drones Monthly Meetup",
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "all_day": false
+    },
+    {
+      "title": "Palm Springs Air Museum – Walt Disney Grumman G-1 Interior Experience",
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "all_day": false
     },
     {
       "title": "Las Vegas BiWeekly Drone Race Event",
@@ -679,6 +799,12 @@
       "title": "Desert Warbirds (15th annual, RC)",
       "start": "2027-01-22",
       "end": "2027-01-24",
+      "all_day": true
+    },
+    {
+      "title": "Eagles at Sphere",
+      "start": "2027-01-22",
+      "end": "2027-01-23",
       "all_day": true
     },
     {
