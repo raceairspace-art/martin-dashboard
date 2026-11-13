@@ -96,6 +96,10 @@
     "fetched_at": "2026-11-06T17:29:20+00:00",
     "file": "c2048f8346cbd650.webp"
   },
+  "https://brookfieldproperties-fslv-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fbrookfieldproperties%2FLU5FNU3GDZGSXDMOCWLOBGXUUQ.jpg?smart=true&auth=a412f6ef70b6bfdbab281d830ed848b08b24a555c9b2587811453a499945caff&width=560": {
+    "fetched_at": "2026-11-13T17:34:11+00:00",
+    "file": "4d36e95d48614356.avif"
+  },
   "https://c1.neweggimages.com/ProductImageCompressAll1280/83-151-694-09.png": {
     "fetched_at": "2026-11-11T17:46:02+00:00",
     "file": "e2c392f40df19812.webp"
@@ -676,6 +680,15 @@
     "fetched_at": "2026-11-06T17:30:22+00:00",
     "file": "8933cedabac53fbe.webp"
   },
+  "https://content.backcountry.com/images/items/large/VKL/VKLI0FW/ONCOBLRE.jpg": {
+    "fetched_at": "2026-11-13T17:33:47+00:00",
+    "file": "d447499532d5ab41.webp"
+  },
+  "https://corporate.walmart.com/content/dam/corporate/images/newsroom/2026/10/memberships/Walmart%2B-SamsClubPlus-overhead-park.jpg": {
+    "error": "TimeoutError: The read operation timed out",
+    "file": null,
+    "tried_at": "2026-11-13T17:35:00+00:00"
+  },
   "https://d.dlnws.com/64599/1793965878-5bde583f-0709-494e-89d5-44885b290078.webp?h=568&w=900": {
     "fetched_at": "2026-11-06T17:30:15+00:00",
     "file": "1ca674148de63d6f.webp"
@@ -796,6 +809,10 @@
     "fetched_at": "2026-11-11T17:46:19+00:00",
     "file": "0dfd4a28d5196d64.webp"
   },
+  "https://imgix.vegas.com/https%3A%2F%2Forigin-assets.cyllenius.com%2Fmedia%2FPiano-ManMOB_960x465_071026.jpg?ixlib=js-3.8.0&width=960&height=465&auto=compress%2Cformat&ar=1%3A1&s=e1c4f81bb256d0723e1204234704535e": {
+    "fetched_at": "2026-11-13T17:34:13+00:00",
+    "file": "0bdb857093d2b812.avif"
+  },
   "https://irobotthailand.com/wp-content/uploads/2026/09/roomba-plus-575-combo-01.jpg": {
     "fetched_at": "2026-11-03T21:11:00+00:00",
     "file": "40bf49eaa24d8492.webp"
@@ -824,6 +841,10 @@
     "fetched_at": "2026-11-09T17:21:10+00:00",
     "file": "40492a1fd0337503.webp"
   },
+  "https://m.media-amazon.com/images/I/61B-A4JhE9L._SL1500_.jpg": {
+    "fetched_at": "2026-11-13T17:33:38+00:00",
+    "file": "e396bece37880d05.webp"
+  },
   "https://m.media-amazon.com/images/I/61Ujk32FPuL._AC_SL1500_.jpg": {
     "fetched_at": "2026-11-09T17:20:07+00:00",
     "file": "f96fac1b2f8afe9e.webp"
@@ -848,9 +869,21 @@
     "fetched_at": "2026-11-09T17:20:11+00:00",
     "file": "f765c511855931a9.webp"
   },
+  "https://m.media-amazon.com/images/I/61yrfsiKrSL._AC_SL1500_.jpg": {
+    "fetched_at": "2026-11-13T17:33:36+00:00",
+    "file": "1b45a67e169a733c.webp"
+  },
+  "https://m.media-amazon.com/images/I/710MzmBFzkL._AC_SL1500_.jpg": {
+    "fetched_at": "2026-11-13T17:33:40+00:00",
+    "file": "6464b996f46711b0.webp"
+  },
   "https://m.media-amazon.com/images/I/71N5EbSaQqL._AC_SL1500_.jpg": {
     "fetched_at": "2026-11-09T17:20:26+00:00",
     "file": "6244643b877bced4.webp"
+  },
+  "https://m.media-amazon.com/images/I/71QYGS-REBL._AC_SL1254_.jpg": {
+    "fetched_at": "2026-11-13T17:33:30+00:00",
+    "file": "20dbe14d4eb6d832.webp"
   },
   "https://m.media-amazon.com/images/I/71RgcUWG1XL._AC_SL1500_.jpg": {
     "fetched_at": "2026-11-09T17:21:06+00:00",
@@ -859,6 +892,10 @@
   "https://m.media-amazon.com/images/I/71SQwV0hF0L._AC_SL1271_.jpg": {
     "fetched_at": "2026-11-09T17:20:14+00:00",
     "file": "056827d7756e682a.webp"
+  },
+  "https://m.media-amazon.com/images/I/71igu9e9hFL._AC_SL1500_.jpg": {
+    "fetched_at": "2026-11-13T17:33:33+00:00",
+    "file": "f9ab989e4294653e.webp"
   },
   "https://m.media-amazon.com/images/I/71pkfQGcMKL._AC_SL1500_.jpg": {
     "fetched_at": "2026-11-09T17:21:08+00:00",
@@ -871,6 +908,14 @@
   "https://m.media-amazon.com/images/I/71yLESsmgmL._AC_SL1500_.jpg": {
     "fetched_at": "2026-11-09T17:21:15+00:00",
     "file": "ecae96c568f832fd.webp"
+  },
+  "https://m.media-amazon.com/images/I/81G59YFhmsL._SL1500_.jpg": {
+    "fetched_at": "2026-11-13T17:33:43+00:00",
+    "file": "b4d9b420d700bd6a.webp"
+  },
+  "https://m.media-amazon.com/images/I/81NM3JB89pL._SL1500_.jpg": {
+    "fetched_at": "2026-11-13T17:33:45+00:00",
+    "file": "fb3b117bfa05d59a.webp"
   },
   "https://m.media-amazon.com/images/I/81or1b4EndL._AC_SL1500_.jpg": {
     "fetched_at": "2026-11-09T17:39:26+00:00",
@@ -1074,6 +1119,10 @@
     "fetched_at": "2026-11-03T20:00:02+00:00",
     "file": "c9185a0dc27ba986.webp"
   },
+  "https://slickdeals.net/attachment/2/5/4/6/2/4/450x450/22289433.thumb": {
+    "fetched_at": "2026-11-13T17:33:31+00:00",
+    "file": "f2606ba0ea32754f.webp"
+  },
   "https://slickdeals.net/attachment/2/6/8/0/6/1/2/1/450x450/22253853.thumb": {
     "fetched_at": "2026-11-09T17:21:18+00:00",
     "file": "55146ef368f3004d.webp"
@@ -1125,6 +1174,10 @@
   "https://storage.ghost.io/c/69/d5/69d51699-d072-45ac-9ab4-d45efbe74012/content/images/size/w1200/2026/11/vacubots-black-friday-thanksgiving-hero.png": {
     "fetched_at": "2026-11-03T19:26:36+00:00",
     "file": "241bb3c28701fcc6.webp"
+  },
+  "https://storage.googleapis.com/monamigabi2023_bucket/wp-content/uploads/98eeaff6-mag-lv_exterior-patio_dscf3000-1.jpg": {
+    "fetched_at": "2026-11-13T17:34:12+00:00",
+    "file": "63c792e1b7f74295.webp"
   },
   "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2026/10/8c6ec947-bf2026_blog_cover-1.jpg": {
     "fetched_at": "2026-11-06T17:29:51+00:00",
@@ -1448,14 +1501,12 @@
     "file": "17fd554314fbc67d.webp"
   },
   "https://www.bmwmotorcycles.com/content/dam/bmwmotorradnsc/common/multiimages/images/models/adventure/r1300gs-adventure/2026-2/productstage/nsc-r1300gs-adventure-P0NA5-multiimage-2560x1440.jpg.asset.1767863591125.jpg": {
-    "error": "TimeoutError: The read operation timed out",
-    "file": null,
-    "tried_at": "2026-11-03T22:15:18+00:00"
+    "fetched_at": "2026-11-13T17:35:04+00:00",
+    "file": "0a6761126a05dd04.webp"
   },
   "https://www.bmwmotorcycles.com/content/dam/bmwmotorradnsc/common/multiimages/images/models/sport/s1000rr/2027/productstage/nsc-s1000rr-P0N3H-multiimage-2560x1440.jpg.asset.1781170266335.jpg": {
-    "error": "TimeoutError: The read operation timed out",
-    "file": null,
-    "tried_at": "2026-11-03T22:15:34+00:00"
+    "fetched_at": "2026-11-13T17:35:07+00:00",
+    "file": "656f0fcb7da76451.webp"
   },
   "https://www.caddxfpv.com/cdn/shop/files/WALKSNAILAvatarHDGogglesX.png?v=1761269514&width=2048": {
     "fetched_at": "2026-11-03T21:10:50+00:00",
@@ -1703,6 +1754,10 @@
     "fetched_at": "2026-11-09T17:39:29+00:00",
     "file": "965a82c9e1b50f02.webp"
   },
+  "https://www.mthigh.com/site/connect/connect/photos/dailyphotos2225/MTR01077.jpg/featured-media--xl": {
+    "fetched_at": "2026-11-13T17:34:09+00:00",
+    "file": "a0e6b01dd730c9b3.webp"
+  },
   "https://www.mthigh.com/site/tickets-and-groups/season-passes/season-pass.html/Affirm/fullsize": {
     "fetched_at": "2026-11-06T17:29:35+00:00",
     "file": "11fe3ba6c8b065df.webp"
@@ -1710,6 +1765,10 @@
   "https://www.ncl.com/adobe/dynamicmedia/deliver/dm-aid--da8e9d05-8383-4596-95fc-a08f578647ec/ncl-luna-lifestyle-oceanwalk-supporting-1.jpg": {
     "fetched_at": "2026-11-06T17:34:53+00:00",
     "file": "b047583d40d7d842.webp"
+  },
+  "https://www.ncl.com/adobe/dynamicmedia/deliver/dm-aid--e638275f-6d45-4767-b009-767ca6d257f5/4037400-ncl-fleet-horizontal-bf-preview-sale-nov-12.png": {
+    "fetched_at": "2026-11-13T17:34:17+00:00",
+    "file": "b50089bcafba8233.avif"
   },
   "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/IMG_5351.JPG": {
     "fetched_at": "2026-11-03T21:10:55+00:00",
