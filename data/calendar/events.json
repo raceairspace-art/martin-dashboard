@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T06:01:51-08:00",
+  "generated_at": "2026-11-13T05:53:55-08:00",
   "timezone": "America/Los_Angeles",
   "end_is_inclusive": true,
   "months": [
@@ -412,6 +412,18 @@
       "all_day": false
     },
     {
+      "title": "Bets & Bots: Robotic Dogs Meet Prediction Markets (CryptoMondays Vegas)",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "all_day": false
+    },
+    {
+      "title": "Vegas Bitcoiners Happy Hour",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "all_day": false
+    },
+    {
       "title": "Las Vegas Formula 1 Grand Prix",
       "start": "2026-11-19",
       "end": "2026-11-21",
@@ -514,6 +526,12 @@
       "all_day": false
     },
     {
+      "title": "Vegas Bitcoiners Happy Hour",
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "all_day": false
+    },
+    {
       "title": "NFR",
       "start": "2026-12-03",
       "end": "2026-12-12",
@@ -583,7 +601,7 @@
       "title": "Toys for Tots Car, Truck & Bike Show – St. George",
       "start": "2026-12-05",
       "end": "2026-12-05",
-      "all_day": false
+      "all_day": true
     },
     {
       "title": "Las Vegas BiWeekly Drone Race Event",
@@ -652,10 +670,16 @@
       "all_day": true
     },
     {
-      "title": "Toys for Tots Car Show – Mesquite",
+      "title": "Toys for Tots Car Show – Mesquite (tentative)",
       "start": "2026-12-12",
       "end": "2026-12-12",
       "all_day": true
+    },
+    {
+      "title": "Vegas Bitcoiners Happy Hour",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "all_day": false
     },
     {
       "title": "Grapevine Fly-In (Roosevelt Lake)",
@@ -715,6 +739,12 @@
       "title": "CES 2027",
       "start": "2027-01-06",
       "end": "2027-01-09",
+      "all_day": false
+    },
+    {
+      "title": "Vegas Bitcoiners Happy Hour",
+      "start": "2027-01-06",
+      "end": "2027-01-06",
       "all_day": false
     },
     {
@@ -781,6 +811,12 @@
       "title": "Las Vegas BiWeekly Drone Race Event",
       "start": "2027-01-17",
       "end": "2027-01-17",
+      "all_day": false
+    },
+    {
+      "title": "Vegas Bitcoiners Happy Hour",
+      "start": "2027-01-20",
+      "end": "2027-01-20",
       "all_day": false
     },
     {
