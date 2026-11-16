@@ -156,6 +156,10 @@
     "fetched_at": "2026-11-03T22:16:19+00:00",
     "file": "2279dd3f22733e1e.webp"
   },
+  "https://cdn.shopify.com/s/files/1/0030/8183/0512/files/A11_Black_springs_update_20250604_2.png?v=1773931411": {
+    "fetched_at": "2026-11-16T17:32:10+00:00",
+    "file": "73c4aba53d636adc.webp"
+  },
   "https://cdn.shopify.com/s/files/1/0030/8183/0512/files/Dash_Street.jpg?v=1787163255": {
     "fetched_at": "2026-11-09T17:39:27+00:00",
     "file": "5524d3f6356a9f4d.webp"
@@ -223,6 +227,10 @@
   "https://cdn.shopify.com/s/files/1/0401/1032/5921/files/Compressed_UM890_Pro.png?v=1783865886": {
     "fetched_at": "2026-11-03T22:17:44+00:00",
     "file": "104a4bfc62a9f223.webp"
+  },
+  "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/8.3_F2_Ultra_4k.jpg?v=1793447718": {
+    "fetched_at": "2026-11-16T17:31:53+00:00",
+    "file": "75791929e17d9af9.webp"
   },
   "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_p-black-standalone_8871-5776.webp?v=1790145559": {
     "fetched_at": "2026-11-09T17:20:58+00:00",
@@ -396,6 +404,14 @@
     "fetched_at": "2026-11-03T22:17:21+00:00",
     "file": "0db90ed8bbbe9ea0.webp"
   },
+  "https://cdn.shopify.com/s/files/1/0657/0023/3325/files/Osmo360EssentialCombo12-18.webp?v=1794469195": {
+    "fetched_at": "2026-11-16T17:32:12+00:00",
+    "file": "e2d81f038f674f1e.webp"
+  },
+  "https://cdn.shopify.com/s/files/1/0657/0023/3325/files/OsmoAction6AdventureCombo12-18.webp?v=1794469275": {
+    "fetched_at": "2026-11-16T17:31:39+00:00",
+    "file": "d720c30391af8f6a.webp"
+  },
   "https://cdn.shopify.com/s/files/1/0676/6896/7561/files/i215_Lidar_Front45_07_43ee32b6-4114-4e48-b7d6-e8170b359e1f.png?v=1788340075": {
     "fetched_at": "2026-11-09T17:21:04+00:00",
     "file": "00cab3700169e643.webp"
@@ -424,6 +440,14 @@
     "fetched_at": "2026-11-04T17:15:52+00:00",
     "file": "4db2bed34b435471.webp"
   },
+  "https://cdn.shopify.com/s/files/1/0696/2011/products/GT_SlickClipped_4ConfigModal_12ba3423-afd5-40c9-993b-62a707705fb1.png?v=1716570670": {
+    "fetched_at": "2026-11-16T17:31:46+00:00",
+    "file": "c76eb4ec3f76a559.webp"
+  },
+  "https://cdn.shopify.com/s/files/1/0696/2011/products/STDFootPad.png?v=1635100574": {
+    "fetched_at": "2026-11-16T17:31:49+00:00",
+    "file": "1127ab04a580c8a6.webp"
+  },
   "https://cdn.shopify.com/s/files/1/0701/8066/7584/files/R86C-V2-4.jpg?v=1750063102": {
     "fetched_at": "2026-11-09T17:20:56+00:00",
     "file": "326578214e4823bb.webp"
@@ -451,6 +475,10 @@
   "https://cdn.shopify.com/s/files/1/0722/5661/8800/products/fat-shark-dominator-hd-fpv-goggles-810832.jpg?v=1734516257": {
     "fetched_at": "2026-11-03T22:16:50+00:00",
     "file": "c05cab2c2aadf9fe.webp"
+  },
+  "https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA_3_right_side_view.png?v=1790136395": {
+    "fetched_at": "2026-11-16T17:31:55+00:00",
+    "file": "e3f8f0117257a5f0.webp"
   },
   "https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA_Mini_2_Radar_right_side_view.png?v=1790137812": {
     "fetched_at": "2026-11-03T22:17:40+00:00",
@@ -604,6 +632,10 @@
     "fetched_at": "2026-11-09T17:20:55+00:00",
     "file": "18e82f48dd1a03f7.webp"
   },
+  "https://cdn.shopify.com/s/files/1/1778/6615/files/Pavo20_Pro_O4_Pro.jpg?v=1748934804": {
+    "fetched_at": "2026-11-16T17:31:43+00:00",
+    "file": "4a82a37be343c9f9.webp"
+  },
   "https://cdn.shopify.com/s/files/1/1778/6615/files/Pavo_Femto_Brushless_Whoop_Quadcopter_DJI_O4_Version.jpg?v=1770862968": {
     "fetched_at": "2026-11-03T22:16:40+00:00",
     "file": "5bcac545ad2f7fb2.webp"
@@ -685,9 +717,8 @@
     "file": "d447499532d5ab41.webp"
   },
   "https://corporate.walmart.com/content/dam/corporate/images/newsroom/2026/10/memberships/Walmart%2B-SamsClubPlus-overhead-park.jpg": {
-    "error": "TimeoutError: The read operation timed out",
-    "file": null,
-    "tried_at": "2026-11-13T17:35:00+00:00"
+    "fetched_at": "2026-11-16T17:31:01+00:00",
+    "file": "4db8a90bf687c693.webp"
   },
   "https://d.dlnws.com/64599/1793965878-5bde583f-0709-494e-89d5-44885b290078.webp?h=568&w=900": {
     "fetched_at": "2026-11-06T17:30:15+00:00",
@@ -753,6 +784,10 @@
     "fetched_at": "2026-11-03T22:16:35+00:00",
     "file": "67c7ec94023bb28e.webp"
   },
+  "https://gmedia.playstation.com/is/image/SIEPDC/dualsense-edge-listing-thumb-01-en-23aug22?$facebook$": {
+    "fetched_at": "2026-11-16T17:32:04+00:00",
+    "file": "187638b273de1ebd.webp"
+  },
   "https://graylinelasvegas.com/wp-content/uploads/2023/02/1-3.jpg": {
     "fetched_at": "2026-11-03T19:32:31+00:00",
     "file": "121373e4383ad2e2.webp"
@@ -765,6 +800,10 @@
     "fetched_at": "2026-11-11T17:46:08+00:00",
     "file": "b9283c283fef387b.webp"
   },
+  "https://i0.wp.com/cms.magicmikelive.com/las-vegas/wp-content/uploads/sites/3/2025/12/MML-202512-Share-LV-1200x600-1.jpg?fit=1200%2C600&ssl=1": {
+    "fetched_at": "2026-11-16T17:32:13+00:00",
+    "file": "d8e2b8bb26b20458.webp"
+  },
   "https://i5.samsclubimages.com/asr/2d62d791-0251-40fb-a497-6b4daed9bb88.4ac9b22fee5b9ca83538c3bc88004a1d.jpeg": {
     "fetched_at": "2026-11-03T22:14:58+00:00",
     "file": "ff2701e0b080b4aa.webp"
@@ -776,6 +815,10 @@
   "https://i5.walmartimages.com/seo/PlayStation-5-Digital-Console-Slim_3d7b0255-6cf9-47e0-930b-7dd1eb46eacc.9ec69570d4fdcf76055b648b2bd52cae.png": {
     "fetched_at": "2026-11-03T22:15:01+00:00",
     "file": "661bd88460fb6a73.webp"
+  },
+  "https://image.api.playstation.com/vulcan/ap/rnd/202605/2215/a69481c5fa50fe19f42896d84fb7cbf37ab8646801a93322.png": {
+    "fetched_at": "2026-11-16T17:32:05+00:00",
+    "file": "fef52d417be07022.webp"
   },
   "https://images.ctfassets.net/hmm5mo4qf4mf/2LxHz3iYK8SBmJwBZc4OWH/7cec43c8bae8fc3ad6db62fd8ebf38b2/imgbuy_arctis_nova_pro_black_3_xbox_v2.png__1920x1080_crop-fit_optimize_subsampling-2-247.png?w=1200&h=600&fit=fill&fm=jpg&q=85": {
     "fetched_at": "2026-11-03T21:11:32+00:00",
@@ -808,6 +851,22 @@
   "https://images.samsung.com/is/image/samsung/p6pim/uk/ls27dg612suxxu/gallery/uk-odyssey-oled-g6-g61sd-ls27dg612suxxu-544376195?$1920_1440_JPG$": {
     "fetched_at": "2026-11-11T17:46:19+00:00",
     "file": "0dfd4a28d5196d64.webp"
+  },
+  "https://images.samsung.com/is/image/samsung/p6pim/us/qn65ls03hefxza/gallery/us-the-frame-qn65ls03hefxza----inch-class-the-frame-ls--he--k-vision-ai-smart-tv--------black-552109682?$1920_1440_JPG$": {
+    "fetched_at": "2026-11-16T17:31:59+00:00",
+    "file": "7b8a1880fda30598.webp"
+  },
+  "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbaatt-550992805?$1920_1440_JPG$": {
+    "fetched_at": "2026-11-16T17:32:19+00:00",
+    "file": "8e586dd760c434e1.webp"
+  },
+  "https://images.samsung.com/is/image/samsung/p6pim/us/un85m80hafxza/gallery/us-mini-led-m80h-un85m80hafxza-551365636?$1920_1440_JPG$": {
+    "fetched_at": "2026-11-16T17:32:02+00:00",
+    "file": "0c636c0aae1f61a4.avif"
+  },
+  "https://img.motionrc.com/web/image/product.template/17967/image_1920": {
+    "fetched_at": "2026-11-16T17:31:40+00:00",
+    "file": "e6216bdb261975a3.webp"
   },
   "https://imgix.vegas.com/https%3A%2F%2Forigin-assets.cyllenius.com%2Fmedia%2FPiano-ManMOB_960x465_071026.jpg?ixlib=js-3.8.0&width=960&height=465&auto=compress%2Cformat&ar=1%3A1&s=e1c4f81bb256d0723e1204234704535e": {
     "fetched_at": "2026-11-13T17:34:13+00:00",
@@ -1195,6 +1254,10 @@
     "fetched_at": "2026-11-06T17:54:04+00:00",
     "file": "b44adecdecda1163.webp"
   },
+  "https://store.bblcdn.com/s7/default/9f64a0718166427aa537d664f61c3dbd/X2D.jpg": {
+    "fetched_at": "2026-11-16T17:31:50+00:00",
+    "file": "a5af1ed8c2f67ab9.webp"
+  },
   "https://store.bblcdn.com/s7/default/a4292ae568074a55b76b31835ec5700a/H2CC.jpg": {
     "fetched_at": "2026-11-06T17:29:48+00:00",
     "file": "119f2d108602dd04.webp"
@@ -1206,6 +1269,10 @@
   "https://summerlin.com/wp-content/uploads/2026/05/Downtown-Summerlin-39-scaled.webp": {
     "fetched_at": "2026-11-11T17:46:05+00:00",
     "file": "009300e9843644ec.webp"
+  },
+  "https://taogroup.com/wp-content/uploads/2019/09/Classic-Gift-Cards.png": {
+    "fetched_at": "2026-11-16T17:32:15+00:00",
+    "file": "65ffae04272e5a17.webp"
   },
   "https://thelibrary.mgmresorts.com/transform/Ev3U6c9NFy712y9l/PMGM156113436.tif": {
     "fetched_at": "2026-11-09T17:39:53+00:00",
@@ -1234,6 +1301,10 @@
   "https://upload.wikimedia.org/wikipedia/commons/3/32/Predator_9500_Watt_Super_Quiet_Inverter_Generator.jpg": {
     "fetched_at": "2026-11-09T17:43:55+00:00",
     "file": "b305ab81c34d963a.webp"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/6/6f/Honda_Gold_Wing_GL1800_-_Indonesia_International_Motor_Show_2018_-_April_26_2018.jpg": {
+    "fetched_at": "2026-11-16T17:32:55+00:00",
+    "file": "8d51db781ca82970.webp"
   },
   "https://upload.wikimedia.org/wikipedia/commons/b/bd/24_Hour_Fitness%2C_SE_Holgate%2C_PDX.jpg": {
     "fetched_at": "2026-11-09T17:44:05+00:00",
@@ -1484,6 +1555,10 @@
     "fetched_at": "2026-11-03T21:11:27+00:00",
     "file": "f102ac5e791081a8.webp"
   },
+  "https://www.apple.com/v/airpods-pro/t/images/meta/og__c0ceegchesom_overview.png?202611101257": {
+    "fetched_at": "2026-11-16T17:32:07+00:00",
+    "file": "84f5949f1609421b.webp"
+  },
   "https://www.apple.com/v/apple-watch-ultra-4/b/images/meta/apple-watch-ultra-4__bzmdvy2wwb2a_og.png?202610060947": {
     "fetched_at": "2026-11-03T21:11:13+00:00",
     "file": "dbf72d0005a9fabe.webp"
@@ -1543,6 +1618,14 @@
   "https://www.cyclegear.com/_a/product_images/0102/8658/leatt55_body_protector_480x480.jpg": {
     "fetched_at": "2026-11-06T17:30:10+00:00",
     "file": "99c2185aa4a538e7.webp"
+  },
+  "https://www.cyclegear.com/_a/product_images/1575/5448/dainese_long_sleeve_smart_jacket_black_480x480.jpg": {
+    "fetched_at": "2026-11-16T17:31:35+00:00",
+    "file": "b57bc6b99067786d.webp"
+  },
+  "https://www.cyclegear.com/_a/product_images/1616/0025/dainese_x_ride_gloves_black_black_480x480.jpg": {
+    "fetched_at": "2026-11-16T17:31:36+00:00",
+    "file": "711149180100a68e.webp"
   },
   "https://www.cyclegear.com/_a/product_images/1628/4543/revit_defender3_gtx_jacket_red_blue.jpg": {
     "fetched_at": "2026-11-09T17:20:36+00:00",
