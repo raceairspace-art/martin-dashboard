@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T05:53:55-08:00",
+  "generated_at": "2026-11-17T06:00:01-08:00",
   "timezone": "America/Los_Angeles",
   "end_is_inclusive": true,
   "months": [
@@ -442,13 +442,13 @@
       "all_day": true
     },
     {
-      "title": "CFMOTO Demo Rides – Carter Powersports",
+      "title": "Grassroots Off-Road + FASST 440 Team Race",
       "start": "2026-11-20",
-      "end": "2026-11-21",
+      "end": "2026-11-22",
       "all_day": true
     },
     {
-      "title": "Grassroots Off-Road + FASST 440 Team Race",
+      "title": "CFMOTO Demo Rides – Carter Powersports",
       "start": "2026-11-20",
       "end": "2026-11-21",
       "all_day": true
@@ -482,6 +482,12 @@
       "start": "2026-11-21",
       "end": "2026-11-21",
       "all_day": false
+    },
+    {
+      "title": "Military World Finals Rodeo (tentative)",
+      "start": "2026-11-22",
+      "end": "2026-11-24",
+      "all_day": true
     },
     {
       "title": "Las Vegas BiWeekly Drone Race Event",
@@ -556,6 +562,12 @@
       "all_day": true
     },
     {
+      "title": "Desert Bash & Off-Road Poker Run (spectate free)",
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "all_day": true
+    },
+    {
       "title": "TRCC Winter Scale Classic",
       "start": "2026-12-04",
       "end": "2026-12-06",
@@ -604,6 +616,12 @@
       "all_day": true
     },
     {
+      "title": "Toys for Tots RC Fun Fly & Pancake Breakfast (PVMAC)",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "all_day": false
+    },
+    {
       "title": "Las Vegas BiWeekly Drone Race Event",
       "start": "2026-12-06",
       "end": "2026-12-06",
@@ -640,6 +658,18 @@
       "all_day": true
     },
     {
+      "title": "SNORE Rage at the River (off-road race)",
+      "start": "2026-12-11",
+      "end": "2026-12-13",
+      "all_day": true
+    },
+    {
+      "title": "Creed – Creedmas (BleauLive)",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "all_day": false
+    },
+    {
       "title": "Lake Havasu Dock Glow",
       "start": "2026-12-11",
       "end": "2026-12-11",
@@ -658,6 +688,12 @@
       "all_day": false
     },
     {
+      "title": "Creed – Creedmas (BleauLive)",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "all_day": false
+    },
+    {
       "title": "EAA 81 Breakfast Fly-In",
       "start": "2026-12-12",
       "end": "2026-12-12",
@@ -668,6 +704,12 @@
       "start": "2026-12-12",
       "end": "2026-12-12",
       "all_day": true
+    },
+    {
+      "title": "Ride for Dads – Hoover Dam Toy Ride (Dad Tribes LV)",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "all_day": false
     },
     {
       "title": "Toys for Tots Car Show – Mesquite (tentative)",
@@ -686,6 +728,12 @@
       "start": "2026-12-18",
       "end": "2026-12-20",
       "all_day": true
+    },
+    {
+      "title": "Havasu Hoedown (barrel racing fundraiser)",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "all_day": false
     },
     {
       "title": "Las Vegas Drones Monthly Meetup",
@@ -718,13 +766,31 @@
       "all_day": false
     },
     {
-      "title": "Frosty Balls Poker Run (tentative)",
+      "title": "Frosty Balls Poker Run",
       "start": "2027-01-02",
       "end": "2027-01-02",
       "all_day": true
     },
     {
+      "title": "Great White – CasaBlanca Showroom",
+      "start": "2027-01-02",
+      "end": "2027-01-02",
+      "all_day": false
+    },
+    {
       "title": "Palm Springs Air Museum – TOPGUN Super Hornet & Darkstar Evening",
+      "start": "2027-01-02",
+      "end": "2027-01-02",
+      "all_day": false
+    },
+    {
+      "title": "Planes of Fame Hangar Talk & Flight (aircraft TBA)",
+      "start": "2027-01-02",
+      "end": "2027-01-02",
+      "all_day": false
+    },
+    {
+      "title": "Valley of Fire Dawn Run (motorcycle)",
       "start": "2027-01-02",
       "end": "2027-01-02",
       "all_day": false
@@ -833,6 +899,12 @@
     },
     {
       "title": "Desert Warbirds (15th annual, RC)",
+      "start": "2027-01-22",
+      "end": "2027-01-24",
+      "all_day": true
+    },
+    {
+      "title": "Helzapoppin' PRCA Pro Rodeo (98th)",
       "start": "2027-01-22",
       "end": "2027-01-24",
       "all_day": true
