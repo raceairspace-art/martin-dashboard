@@ -1367,9 +1367,9 @@
     "file": "14c4b5b245713014.webp"
   },
   "https://spiegelworld.com/wp-content/uploads/2023/06/251104_ATS_BannerSelects_Horizontal_29.jpg": {
-    "error": "ValueError: not an image (text/html)",
-    "file": null,
-    "tried_at": "2026-11-20T17:42:53+00:00"
+    "fetched_at": "2026-11-20T17:47:37+00:00",
+    "file": "794c9f85a0b14bc5.webp",
+    "source": "local"
   },
   "https://static.antigravity.tech/assets/59e07d7803b5b36bc0a09065d75c8ce9/compressed_1200px_1795154931839.jpg": {
     "fetched_at": "2026-11-20T17:42:00+00:00",
@@ -1710,6 +1710,14 @@
   "https://utahskis.com/cdn/shop/files/UtahSkis-preview.jpg?v=1665396306": {
     "fetched_at": "2026-11-03T19:37:27+00:00",
     "file": "fed67d27e94cc9a7.webp"
+  },
+  "https://virginvoyages.imgix.net/dam/jcr:11a1d53f-f69c-48a1-97ff-01d8653cfd41/Black%20Friday_Desktop.jpg": {
+    "fetched_at": "2026-11-20T17:47:39+00:00",
+    "file": "48e9678abc39c9b3.webp"
+  },
+  "https://virginvoyages.imgix.net/dam/jcr:120c4c01-009c-48a5-9ca7-e15ec3604e9d/IMG-DEST-Juneau-96495538-600x400.jpg": {
+    "fetched_at": "2026-11-20T17:47:40+00:00",
+    "file": "2828efe500b9bf6a.webp"
   },
   "https://virginvoyages.imgix.net/dam/jcr:3c2ed3a9-7e6e-47bc-a117-cb0449cf11e0/786x585.png": {
     "fetched_at": "2026-11-03T22:15:55+00:00",
@@ -2089,6 +2097,10 @@
   "https://www.mthigh.com/site/tickets-and-groups/season-passes/season-pass.html/Affirm/fullsize": {
     "fetched_at": "2026-11-06T17:29:35+00:00",
     "file": "11fe3ba6c8b065df.webp"
+  },
+  "https://www.ncl.com/adobe/dynamicmedia/deliver/dm-aid--6b62c116-3fa7-4df9-ae8e-12f28d4b1a5d/4037750-ncl-fleet-new-horizontal-bf-starts-now-nov-19.png": {
+    "fetched_at": "2026-11-20T17:47:42+00:00",
+    "file": "a53a5c3d0112b132.avif"
   },
   "https://www.ncl.com/adobe/dynamicmedia/deliver/dm-aid--da8e9d05-8383-4596-95fc-a08f578647ec/ncl-luna-lifestyle-oceanwalk-supporting-1.jpg": {
     "fetched_at": "2026-11-06T17:34:53+00:00",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T09:39:57-08:00",
+  "updated_at": "2026-11-20T09:46:20-08:00",
   "sections": [
     {
       "id": "vegas_local",
@@ -350,6 +350,12 @@
       "section": "gear_tech",
       "swept_at": "2026-11-20T09:39:57-08:00",
       "deals": 375
+    },
+    {
+      "file": "travel-sweep-2026-11-20.json",
+      "section": "travel",
+      "swept_at": "2026-11-20T09:46:20-08:00",
+      "deals": 85
     }
   ],
   "items": [
@@ -399,6 +405,93 @@
       "first_seen": "2026-11-11T09:35:00-08:00",
       "last_seen": "2026-11-20T09:39:57-08:00",
       "image": "data/black-friday/img/08f5cd98e522680a.webp"
+    },
+    {
+      "item_key": "cirque-black-friday-2026",
+      "section": "travel",
+      "shelf": "vegas_local",
+      "sub": null,
+      "category": "vegas_local",
+      "subcategory": "show",
+      "item": "Cirque du Soleil Black Friday deals (Las Vegas shows)",
+      "retailer": "Cirque du Soleil",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": null,
+      "deal_status": "live",
+      "date_found": "2026-11-04",
+      "source_url": "https://www.cirquedusoleil.com/campaign/black-friday",
+      "image_url": "https://www.cirquedusoleil.com/-/media/cds/images/las-vegas/shared/vegas_shared_op.jpg",
+      "image_alt": "Cirque du Soleil Las Vegas show",
+      "new_release": false,
+      "notes": "'Black Friday Deals are On!' still marketed; specific official LV terms still not in page text Nov 20.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-04T09:21:47-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-06T09:44:19-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-06T09:55:00-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-09T09:37:53-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-09T09:37:54-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-11T09:35:00-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-11T09:42:53-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-13T09:25:00-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-13T09:32:32-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-16T09:29:02-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-16T09:34:59-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-18T09:31:05-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-18T09:38:20-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:39:57-08:00",
+          "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-04T09:21:47-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
+      "image": "data/black-friday/img/7fb123e51aa4e96d.avif"
     },
     {
       "item_key": "doms-giftcard",
@@ -632,7 +725,7 @@
       "image_url": "https://www.t-mobilearena.com/assets/img/10731345064_TMA_Website_EvergreenV2-54969db534.jpg",
       "image_alt": "T-Mobile Arena interior, Las Vegas (arena official)",
       "new_release": false,
-      "notes": "Sat Nov 28, 2026 vs Montreal. Ticket + mini stick & puck set. Still listed Nov 18.",
+      "notes": "Sat Nov 28, 2026 vs Montreal. Ticket + mini stick & puck set. Still listed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -665,10 +758,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/04cac6aeab59f82b.webp"
     },
     {
@@ -691,7 +788,7 @@
       "image_url": "https://cdn.tourcms.com/a/5881/8/1/large.jpg",
       "image_alt": "Hoover Dam and Lake Mead (Gray Line Las Vegas tour photo)",
       "new_release": false,
-      "notes": "Hoover Dam Express special still From $129 / $96 on official specials Nov 18. 'From' price.",
+      "notes": "Hoover Dam Express special still From $129 / $96 on official specials Nov 20. 'From' price.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -724,10 +821,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 96
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 96
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/3a3c47cbb5ff264a.webp"
     },
     {
@@ -949,7 +1050,7 @@
       "image_url": "https://webassets.meowwolf.com/cdn.prod/5dad7a19f43e6f31a9e92718/6605ca49076b8ddf76a4bd4b_LAS_front-of-house-omega-mart.webp",
       "image_alt": "Omega Mart storefront at AREA15",
       "new_release": false,
-      "notes": "NV resident Local GA starting at $45. Confirmed Nov 18.",
+      "notes": "NV resident Local GA starting at $45. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -982,10 +1083,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 45
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 45
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/2fce99c6c284ba6f.webp"
     },
     {
@@ -1188,7 +1293,7 @@
       "image_url": "https://d1x7ckegjixjni.cloudfront.net/shows/Carrot-Top500x500.jpg",
       "image_alt": "Carrot Top show, Las Vegas",
       "new_release": false,
-      "notes": "Holiday Sale: Carrot Top $74 (was $90.08). Confirmed Nov 18. End date not shown.",
+      "notes": "Holiday Sale: Carrot Top $74 (was $90.08). Confirmed Nov 20. End date not shown.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -1217,10 +1322,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 74
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 74
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/bcf125642ad0c8f8.webp"
     },
     {
@@ -1631,89 +1740,6 @@
       "image": "data/black-friday/img/a79437d9454a84db.webp"
     },
     {
-      "item_key": "cirque-black-friday-2026",
-      "section": "gear_tech",
-      "shelf": "concerts_theater",
-      "sub": "theater",
-      "category": "concerts_theater",
-      "subcategory": "theater",
-      "item": "Cirque du Soleil Vegas: up to 40% off tickets",
-      "retailer": "Cirque du Soleil",
-      "price": null,
-      "price_label": null,
-      "price_raw": null,
-      "regular_price": null,
-      "discount": "Up to 40% off",
-      "deal_status": "live",
-      "date_found": "2026-11-06",
-      "source_url": "https://www.vegas24seven.com/cirque-du-soleil-offers-exclusive-black-friday-and-cyber-monday-deals/",
-      "image_url": "https://www.cirquedusoleil.com/-/media/cds/images/las-vegas/shared/vegas_shared_op.jpg",
-      "image_alt": "Cirque du Soleil Las Vegas shows",
-      "new_release": false,
-      "notes": "Rechecked Nov 20: offer still up; KÀ 40% off, O and Michael Jackson ONE 20% off, book through Dec 4 for shows through Dec 31, 2027 (blackouts Dec 14–Jan 3). Now live (was announced): Cirque BF/CM sale Nov 17–Dec 4, 2026 — up to 40% off Mystère (Treasure Island) and KÀ (MGM Grand), up to 20% off \"O\" (Bellagio) and Michael Jackson ONE (Mandalay Bay); performances through Dec 31, 2027; blackout Dec 14, 2026–Jan 3, 2027.",
-      "price_history": [
-        {
-          "swept_at": "2026-11-04T09:21:47-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-06T09:44:19-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-06T09:55:00-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-09T09:37:53-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-09T09:37:54-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-11T09:35:00-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-11T09:42:53-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-13T09:25:00-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-13T09:32:32-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-16T09:29:02-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-16T09:34:59-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-18T09:31:05-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-18T09:38:20-08:00",
-          "price": null
-        },
-        {
-          "swept_at": "2026-11-20T09:39:57-08:00",
-          "price": null
-        }
-      ],
-      "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-20T09:39:57-08:00",
-      "image": "data/black-friday/img/7fb123e51aa4e96d.avif"
-    },
-    {
       "item_key": "magic-mike-live-cyber-sale-40-off",
       "section": "gear_tech",
       "shelf": "concerts_theater",
@@ -1824,7 +1850,7 @@
       ],
       "first_seen": "2026-11-20T09:39:57-08:00",
       "last_seen": "2026-11-20T09:39:57-08:00",
-      "image": null
+      "image": "data/black-friday/img/794c9f85a0b14bc5.webp"
     },
     {
       "item_key": "eagles-sphere-vibee-package-2026-27",
@@ -1846,7 +1872,7 @@
       "image_url": "https://framerusercontent.com/images/3PyDgjJQFwqbNT9fIOVSX9rTDU.png",
       "image_alt": "Eagles Live at Sphere key art (official)",
       "new_release": false,
-      "notes": "Starting at $990/person. Confirmed Nov 18. 'From' price.",
+      "notes": "Starting at $990/person. Confirmed Nov 20. 'From' price.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -1879,10 +1905,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 990
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 990
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/35bf64dcdc7d6be9.webp"
     },
     {
@@ -1905,7 +1935,7 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Metallica_at_Ippodromo_San_Siro%2C_Milan%2C_May_8th%2C_2019.jpg/1280px-Metallica_at_Ippodromo_San_Siro%2C_Milan%2C_May_8th%2C_2019.jpg",
       "image_alt": "Metallica live in concert",
       "new_release": false,
-      "notes": "Hotel+ticket packages via metallicatravel.com; prices not captured Nov 18. Image carried after curl-I verification.",
+      "notes": "Hotel+ticket packages via metallicatravel.com; prices not captured Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -1938,10 +1968,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/a9fbac383f99ffc3.webp"
     },
     {
@@ -1964,7 +1998,7 @@
       "image_url": "https://framerusercontent.com/images/pu1jXjHihU1TOouwUahAuUPpYKw.png",
       "image_alt": "Metallica Life Burns Faster at Sphere key art (official)",
       "new_release": false,
-      "notes": "Starting at $1,077/person. Confirmed Nov 18. 'From' price.",
+      "notes": "Starting at $1,077/person. Confirmed Nov 20. 'From' price.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -1997,10 +2031,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 1077
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 1077
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/67c7ec94023bb28e.webp"
     },
     {
@@ -2023,7 +2061,7 @@
       "image_url": "https://s1.ticketm.net/dam/a/462/7fafe3b5-78c3-4e68-82e9-5f6287d08462_TABLET_LANDSCAPE_LARGE_16_9.jpg",
       "image_alt": "Thomas Rhett event artwork",
       "new_release": false,
-      "notes": "Thomas Rhett Colosseum ticket + hotel packages, Dec 10/12. Carried; specific package prices not recaptured Nov 18.",
+      "notes": "Thomas Rhett Colosseum ticket + hotel packages, Dec 10/12. Carried; specific package prices not recaptured Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -2056,10 +2094,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/2e192f891bf44fa1.webp"
     },
     {
@@ -2082,7 +2124,7 @@
       "image_url": "https://assets.caesars.com/asset/dd057eb9-d8c8-44fa-997d-2e620239fd25/clv-timmcgraw-1920x1080.jpg",
       "image_alt": "Tim McGraw at Caesars Palace (Caesars official)",
       "new_release": false,
-      "notes": "Tim McGraw Colosseum ticket + hotel packages. Carried; specific dates/prices not recaptured Nov 18.",
+      "notes": "Tim McGraw Colosseum ticket + hotel packages. Carried; specific dates/prices not recaptured Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -2115,10 +2157,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/854cc3bb8564d94a.webp"
     },
     {
@@ -18490,7 +18536,7 @@
       "image_url": "https://cdn.sanity.io/images/8ts88bij/brighton/c78295414316abc2a4b5af4e611f35019d018832-2500x1406.jpg?w=1200",
       "image_alt": "Snowboarder carving powder at Brighton Resort (Brighton official)",
       "new_release": false,
-      "notes": "2-Day Go Card $199, no blackouts. Sale Nov 23-Dec 4, 2026. Still announced Nov 18 (5 days).",
+      "notes": "2-Day Go Card $199, no blackouts. Sale Nov 23-Dec 4, 2026. Still announced Nov 20 (3 days).",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -18523,10 +18569,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 199
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 199
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/eb3b7f51cfc1fc58.webp"
     },
     {
@@ -18549,7 +18599,7 @@
       "image_url": "https://cdn.sanity.io/images/8ts88bij/brighton/b988caeaee9431536dd7ff392d37f51b39c33766-2500x1406.jpg?w=1200&fm=png&fit=min",
       "image_alt": "Brighton Resort, Utah",
       "new_release": false,
-      "notes": "5-night Twilight Pack $299. Sale Nov 23-Dec 4, 2026. Still announced Nov 18 (5 days).",
+      "notes": "5-night Twilight Pack $299. Sale Nov 23-Dec 4, 2026. Still announced Nov 20 (3 days).",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -18582,10 +18632,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 299
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 299
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/7ca2bf2a0dd14332.webp"
     },
     {
@@ -18655,7 +18709,7 @@
       "image_url": "https://www.deervalley.com/-/media/deer-valley/skiing/powder-skiing/woman-skiing-powder-at-deer-valley-in-park-city.jpg",
       "image_alt": "Skier in powder at Deer Valley",
       "new_release": false,
-      "notes": "Up to 30% lodging + lifts. Carried Nov 18; deals page often JS-light.",
+      "notes": "Up to 30% lodging + lifts. Carried Nov 20; deals page often JS-light.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -18684,10 +18738,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/104489607aefbbeb.webp"
     },
     {
@@ -18741,7 +18799,7 @@
       "image_url": "https://scene7.vailresorts.com/is/image/vailresorts/20191209_HV_Cupaiuolo_033",
       "image_alt": "Heavenly ski slopes over Lake Tahoe",
       "new_release": false,
-      "notes": "Save up to $80/ticket buying 4+ weeks ahead. Deals page JS-light on curl Nov 18.",
+      "notes": "Save up to $80/ticket buying 4+ weeks ahead. Deals page JS-light on curl Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -18770,10 +18828,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/f812eb0da622b091.webp"
     },
     {
@@ -18977,7 +19039,7 @@
       "image_url": "https://sc.mammothmountain.com/-/media/project/mammoth/hp_images/2019-02-23_mm_pm_mountainscenic_0236_2400x1350.jpg",
       "image_alt": "Mammoth Mountain winter scenic",
       "new_release": false,
-      "notes": "Official page now lists January Monday–Thursday tickets at $129 when purchased at least 14 days in advance (was $119 on Nov 16). Leftover $119 wording remains in page JSON. Not a price drop.",
+      "notes": "Official page still lists January Monday–Thursday tickets at $129 when purchased at least 14 days in advance. Confirmed Nov 20. Not a price drop.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -19010,10 +19072,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 129
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 129
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/2d7e2940d53dc78b.webp"
     },
     {
@@ -19036,7 +19102,7 @@
       "image_url": "https://www.mammothmountain.com/-/media/project/mammoth/library/winter-photos/lifestyle/2024-03-19_mm_cm_demos_0024_2400x1350.jpg",
       "image_alt": "Skiers at Mammoth Mountain",
       "new_release": false,
-      "notes": "Kids 12 & under ski free Dec 5-11, 2026. Confirmed Nov 18. Little value solo.",
+      "notes": "Kids 12 & under ski free Dec 5-11, 2026. Confirmed Nov 20. Little value solo.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -19065,10 +19131,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/72f4c29cce61d44f.webp"
     },
     {
@@ -19091,7 +19161,7 @@
       "image_url": "https://sc.mammothmountain.com/-/media/project/mammoth/library/base-lodges/17-18_village_0011_2400x1350.jpg",
       "image_alt": "The Village at Mammoth in winter (Mammoth official)",
       "new_release": false,
-      "notes": "Official page updated Nov 18: save up to 25% on midweek lodging and 15% on weekends, plus 20% off lift tickets (was up to 35% off lodging). Not a price drop; the lodging discount was reduced.",
+      "notes": "Official page still: save up to 25% on midweek lodging and 15% on weekends, plus 20% off lift tickets. Confirmed Nov 20. Not a price drop.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -19124,10 +19194,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/380d9ec8de1948f0.webp"
     },
     {
@@ -19150,7 +19224,7 @@
       "image_url": "https://sc.mammothmountain.com/-/media/project/mammoth/library/winter-photos/ski-action/2019-02-19_mm_pm_powderaction_0387_2400x1350.jpg?h=1350&iar=0&w=2400&rev=65b2ceb3e60a4c1284155f6e46d04a73&hash=C35BC29C6FC1FC5E74AA7403926EFFB5",
       "image_alt": "Skier in powder at Mammoth Mountain",
       "new_release": false,
-      "notes": "Quad Pack+ still $125/day ($499 total) in official page HTML Nov 18, plus 30% off extra days. 'From' per-day price.",
+      "notes": "Quad Pack+ still $125/day ($499 total) in official page HTML Nov 20, plus 30% off extra days. 'From' per-day price.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -19183,10 +19257,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 125
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 125
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/aec1e5f8704e48b4.webp"
     },
     {
@@ -19500,7 +19578,7 @@
       "image_url": "https://scene7.vailresorts.com/is/image/vailresorts/20180318_NS_Lygren_001",
       "image_alt": "Northstar California ski terrain",
       "new_release": false,
-      "notes": "Save up to $80/ticket buying 4+ weeks ahead. Deals page JS-light on curl Nov 18.",
+      "notes": "Save up to $80/ticket buying 4+ weeks ahead. Deals page JS-light on curl Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -19529,10 +19607,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/7b9abdb7314a2ed7.webp"
     },
     {
@@ -19555,7 +19637,7 @@
       "image_url": "https://www.palisadestahoe.com/-/media/palisades-tahoe/plan-your-visit/tickets-passes/liftaccess.jpeg?h=1497&w=2160&hash=4921FB3C26BB3A7687DA808C7D5AE2CD",
       "image_alt": "Palisades Tahoe lift access",
       "new_release": false,
-      "notes": "Village lodging: 40% off Sun-Fri tickets still listed Nov 18.",
+      "notes": "Village lodging: 40% off Sun-Fri tickets still listed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -19588,10 +19670,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/3ee9f5f02c2a323b.webp"
     },
     {
@@ -19614,7 +19700,7 @@
       "image_url": "https://scene7.vailresorts.com/is/image/vailresorts/20220324_PC_Cartwright_001",
       "image_alt": "Park City Mountain ski terrain",
       "new_release": false,
-      "notes": "Save up to $100/ticket buying 4+ weeks ahead. Deals page JS-light on curl Nov 18.",
+      "notes": "Save up to $100/ticket buying 4+ weeks ahead. Deals page JS-light on curl Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -19643,10 +19729,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/26c79e3e48b75d76.webp"
     },
     {
@@ -19936,7 +20026,7 @@
       "image_url": "https://cms.snowbird.com/sites/default/files/2026-10/3.7.26.Otto-8_cliff-lodge_snowbird_sunset_1000x667.jpg",
       "image_alt": "Snowbird Cliff Lodge at sunset",
       "new_release": false,
-      "notes": "Save 33% on lodging Nov 26-Dec 24, 2026. Confirmed Nov 18.",
+      "notes": "Save 33% on lodging Nov 26-Dec 24, 2026. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-06T09:44:19-08:00",
@@ -19961,10 +20051,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-06T09:44:19-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/4197d6b43941bd26.webp"
     },
     {
@@ -19987,7 +20081,7 @@
       "image_url": "https://www.solitudemountain.com/-/media/solitude/lodging/2021-07-17_solitude_mountain_resort_clubsolitudepool_ck_0009.jpg",
       "image_alt": "Club Solitude lodging pool at Solitude Mountain Resort",
       "new_release": false,
-      "notes": "Save 20% lodging + lifts Nov 12, 2026-May 15, 2027. Confirmed Nov 18.",
+      "notes": "Save 20% lodging + lifts Nov 12, 2026-May 15, 2027. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-06T09:44:19-08:00",
@@ -20012,10 +20106,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-06T09:44:19-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/a8e94b0e91b55981.webp"
     },
     {
@@ -20071,10 +20169,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/a17ef8f43e873d86.webp"
     },
     {
@@ -20097,7 +20199,7 @@
       "image_url": "https://www.sundanceresort.com/site/assets/files/34868/march_blue_sky_sierra_2025_002.jpg",
       "image_alt": "Sundance Mountain Resort ski runs on a bluebird day (Sundance official)",
       "new_release": false,
-      "notes": "$119 initial (includes 1 day); $109 subsequent day visits. Confirmed Nov 18.",
+      "notes": "$119 initial (includes 1 day); $109 subsequent day visits. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -20130,10 +20232,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 119
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 119
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/32fd4cdc25a71525.webp"
     },
     {
@@ -20309,7 +20415,7 @@
       "image_url": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1126/670/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/guest-services/magic-key/page/372772c5-1615-43a0-bd36-a828da8d22a2-1x1.jpg",
       "image_alt": "Disneyland Magic Key holders (Disneyland official)",
       "new_release": false,
-      "notes": "Explore Key still $999 on Magic Key page Nov 18.",
+      "notes": "Explore Key still $999 on Magic Key page Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -20342,10 +20448,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 999
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 999
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/9ee9fd553ae2affa.avif"
     },
     {
@@ -20368,7 +20478,7 @@
       "image_url": "https://cdn.sanity.io/images/bsnrdz4t/production/3ae97de9d8fdc6def256f258ca95539d4cfc9632-1600x1134.jpg",
       "image_alt": "Knott's Berry Farm park (Six Flags/Knott's official)",
       "new_release": false,
-      "notes": "Still $120 paid-in-full. Confirmed Nov 18.",
+      "notes": "Still $120 paid-in-full. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -20401,10 +20511,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 120
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 120
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/ba96ce5802cea55d.webp"
     },
     {
@@ -20427,7 +20541,7 @@
       "image_url": "https://cdn.sanity.io/images/bsnrdz4t/production/19a1a1e69652c7b21fcb1caf07d12e19577c59bf-1600x900.jpg?rect=0,32,1600,836&w=1200&h=627&fit=crop&auto=format",
       "image_alt": "Knott's Berry Farm special offers banner",
       "new_release": false,
-      "notes": "Book by Nov 30, 2026; 3rd night free still listed Nov 18.",
+      "notes": "Book by Nov 30, 2026; 3rd night free still listed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -20460,10 +20574,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/288d9ba8edabe8ba.webp"
     },
     {
@@ -20486,7 +20604,7 @@
       "image_url": "https://www.datocms-assets.com/198192/1787132567-lag.png",
       "image_alt": "Lagoon Amusement Park",
       "new_release": false,
-      "notes": "LIVE today. Official site: 'BLACK FRIDAY IS HERE' / 'Black Friday sale for 2027 season passes, starting now.' Park closed for 2026. Dollar prices were not in today's official HTML (sale checkout is a RocketRez widget), so price is null.",
+      "notes": "Still LIVE Nov 20. Official site: 'BLACK FRIDAY IS HERE' / 'Black Friday sale for 2027 season passes, starting now.' Park closed for 2026. Dollar prices were not in today's official HTML (sale checkout is a RocketRez widget), so price is null.",
       "price_history": [
         {
           "swept_at": "2026-11-09T09:37:54-08:00",
@@ -20507,10 +20625,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-09T09:37:54-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/a448dd1a6acaf82f.webp"
     },
     {
@@ -20533,7 +20655,7 @@
       "image_url": "https://www.legoland.com/california/media/kwhn2bze/bf-ticket-web-decoy.jpg",
       "image_alt": "LEGOLAND California Black Friday ticket offer",
       "new_release": false,
-      "notes": "Still LIVE Nov 18. Day tickets from $64 vs $139 front gate. Offer ends Nov 29, 2026. 'From' price.",
+      "notes": "Still LIVE Nov 20. Day tickets from $64 vs $139 front gate. Offer ends Nov 29, 2026. 'From' price.",
       "price_history": [
         {
           "swept_at": "2026-11-16T09:34:59-08:00",
@@ -20542,10 +20664,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 64
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 64
         }
       ],
       "first_seen": "2026-11-16T09:34:59-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/5d5768c3bd616e5a.webp"
     },
     {
@@ -20568,7 +20694,7 @@
       "image_url": "https://www.legoland.com/california/media/5rtebzq0/831-ap-lto-desktop-header.jpg?format=jpg",
       "image_alt": "LEGOLAND California annual pass header",
       "new_release": false,
-      "notes": "Still LIVE Nov 18. Annual passes from $139; save up to $120. Offer ends Nov 29, 2026.",
+      "notes": "Still LIVE Nov 20. Annual passes from $139; save up to $120. Offer ends Nov 29, 2026.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -20601,10 +20727,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 139
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 139
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/b7e95c4cc25ff5c4.webp"
     },
     {
@@ -20627,7 +20757,7 @@
       "image_url": "https://seaworld.com/san-diego/-/media/migrated-media/seaworld-san-diego/images/shows/orca-encounter/357x229-swc-shows-orcaencounter.jpg",
       "image_alt": "Orca Encounter at SeaWorld San Diego (SeaWorld official)",
       "new_release": false,
-      "notes": "Still LIVE Nov 18. Fun Card unlimited visits $77.99 (gate $130.99).",
+      "notes": "Still LIVE Nov 20. Fun Card unlimited visits $77.99 (gate $130.99).",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -20660,10 +20790,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 77.99
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 77.99
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/170634221936f176.webp"
     },
     {
@@ -20686,7 +20820,7 @@
       "image_url": "https://cdn.sanity.io/images/bsnrdz4t/production/af2ea791fc213cd49c07dab3e2274dc66ecd1421-1920x300.jpg?rect=673,0,574,300&w=1200&h=627&fit=crop&auto=format",
       "image_alt": "Six Flags Magic Mountain Black Friday banner",
       "new_release": false,
-      "notes": "Still $79; buy by 11/30 for free Bring-A-Friend. Confirmed Nov 18.",
+      "notes": "Still $79; buy by 11/30 for free Bring-A-Friend. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -20719,10 +20853,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 79
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 79
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/886c5f9a5a0120dc.webp"
     },
     {
@@ -20745,7 +20883,7 @@
       "image_url": "https://cdn.sanity.io/images/bsnrdz4t/production/ec6f56f5145831b4a71a4313661900d45810168a-1072x1333.webp",
       "image_alt": "Roller coaster at Six Flags Magic Mountain (Six Flags official)",
       "new_release": false,
-      "notes": "Still $179 (was $328). Buy by 11/30 for free Bring-A-Friend. Confirmed Nov 18.",
+      "notes": "Still $179 (was $328). Buy by 11/30 for free Bring-A-Friend. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -20778,10 +20916,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 179
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 179
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/2279dd3f22733e1e.webp"
     },
     {
@@ -21287,7 +21429,7 @@
       "image_url": "https://www.aquariumofpacific.org/images/made_new/images-membership-Ways_2_Membership_400_q85.jpg",
       "image_alt": "Aquarium of the Pacific membership",
       "new_release": false,
-      "notes": "Individual $119. Regular price. Confirmed Nov 18.",
+      "notes": "Individual $119. Regular price. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -21320,10 +21462,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 119
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 119
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/17fd554314fbc67d.webp"
     },
     {
@@ -21346,7 +21492,7 @@
       "image_url": "https://discoverykidslv.org/wp-content/uploads/2023/07/membership_mother-and-kids-with-digital-membership-id-1024x1024.jpg",
       "image_alt": "Family at DISCOVERY Children's Museum (official)",
       "new_release": false,
-      "notes": "'You and Me' $95. Regular price. Confirmed Nov 18.",
+      "notes": "'You and Me' $95. Regular price. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -21379,10 +21525,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 95
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 95
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/a507e1a418f6ad5c.webp"
     },
     {
@@ -21405,7 +21555,7 @@
       "image_url": "https://static.wixstatic.com/media/cefe44_aa984a8500f7497db5bbc8abcb85b184%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/cefe44_aa984a8500f7497db5bbc8abcb85b184%7Emv2.jpg",
       "image_alt": "Las Vegas Natural History Museum exhibit (official)",
       "new_release": false,
-      "notes": "Individual $40/year. Regular price. Confirmed Nov 18.",
+      "notes": "Individual $40/year. Regular price. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -21438,10 +21588,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 40
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 40
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/42140504d3ea6c85.webp"
     },
     {
@@ -21464,7 +21618,7 @@
       "image_url": "https://themobmuseum.org/wp-content/uploads/2015/03/Mob-Museum-Building-Angle_FB.jpg",
       "image_alt": "The Mob Museum building exterior",
       "new_release": false,
-      "notes": "Regular price BASIC $55 individual; no BF offer found Nov 18.",
+      "notes": "Regular price BASIC $55 individual; no BF offer found Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -21497,10 +21651,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 55
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 55
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/1a1c40ddfb3af8b9.webp"
     },
     {
@@ -21523,7 +21681,7 @@
       "image_url": "https://images.neonmuseum.org/uploads/2024/04/HOME-page-Masthead-scaled.jpg",
       "image_alt": "Signs at the Neon Museum, Las Vegas (official)",
       "new_release": false,
-      "notes": "Regular price $99 individual; no BF offer found Nov 18.",
+      "notes": "Regular price $99 individual; no BF offer found Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -21556,10 +21714,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 99
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 99
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/c9aae0e8429b6057.webp"
     },
     {
@@ -21582,7 +21744,7 @@
       "image_url": "https://www.lasvegasnvmuseum.org/wp-content/uploads/sites/3/2023/02/State-Museum-at-the-Springs-Preserve-PR-1536x1024.jpg",
       "image_alt": "Nevada State Museum at the Springs Preserve, Las Vegas",
       "new_release": false,
-      "notes": "Individual $45. Regular price. Confirmed Nov 18.",
+      "notes": "Individual $45. Regular price. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -21615,10 +21777,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 45
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 45
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/c5b1eab4d9bd5c2a.webp"
     },
     {
@@ -21674,10 +21840,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/c58619c603051775.webp"
     },
     {
@@ -21700,7 +21870,7 @@
       "image_url": "https://thelibrary.mgmresorts.com/transform/MVmorZnPnK02Q1XA/MAN147402747.jpg",
       "image_alt": "Zebra shark at Shark Reef Aquarium, Mandalay Bay (MGM official)",
       "new_release": false,
-      "notes": "Official Shark Reef page would not load Nov 18; price unverified.",
+      "notes": "Official Shark Reef page would not load Nov 20; price unverified.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -21733,10 +21903,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/c6c75729c74c04ba.webp"
     },
     {
@@ -21759,7 +21933,7 @@
       "image_url": "https://www.springspreserve.org/assets/images/mom-daughter-adventure-16x7.jpg",
       "image_alt": "Visitors exploring Springs Preserve, Las Vegas (official)",
       "new_release": false,
-      "notes": "Individual $30. Regular price. Confirmed Nov 18.",
+      "notes": "Individual $30. Regular price. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -21792,10 +21966,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 30
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 30
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/5b92308773d3de59.webp"
     },
     {
@@ -21851,10 +22029,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 1169
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 1169
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/b056b62d070fe058.webp"
     },
     {
@@ -21866,9 +22048,9 @@
       "subcategory": "ski",
       "item": "Epic Pass adult $1,245 after Nov 15 increase",
       "retailer": "Epic Pass / Vail Resorts",
-      "price": null,
+      "price": 1245,
       "price_label": null,
-      "price_raw": null,
+      "price_raw": 1245,
       "regular_price": null,
       "discount": "Up to 65% off lift tickets",
       "deal_status": "live",
@@ -21877,7 +22059,7 @@
       "image_url": "https://mmx.prnewswire.com/media/MS657944/Vail-Resorts-Epic-Pass.jpg",
       "image_alt": "Epic Pass from Vail Resorts official newsroom",
       "new_release": false,
-      "notes": "Current post-increase Epic Pass remains on sale (officially through Dec 6 per the Nov 16 newsroom). epicpass.com still returned an error page today, and the Nov 16 Vail newsroom URL 404'd, so the $1,245 adult figure could not be re-verified on a page opened today and is set to null.",
+      "notes": "Price re-verified today on Vail Resorts official investor news release (vailresortsinc.gcs-web.com, dated Nov 16, 2026, opened Nov 20): Epic Pass $1,245 adult; $995 young adult; Epic Local $959/$759. Passes go off sale December 6. epicpass.com and resort Epic pages still returned error/empty shells today, so source_url remains the official shop. Lodging Cyber Sale is still announced Nov 23-Dec 7; the official release again named only Colorado properties (Arrabelle, Lodge at Vail, One Ski Hill Place, Osprey at Beaver Creek), so no focus-resort lodging row was added.",
       "price_history": [
         {
           "swept_at": "2026-11-16T09:34:59-08:00",
@@ -21886,10 +22068,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 1245
         }
       ],
       "first_seen": "2026-11-16T09:34:59-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/e3e3dcda16ac957f.webp"
     },
     {
@@ -21912,7 +22098,7 @@
       "image_url": "https://cdn.sanity.io/images/bjsgnxuy/ikon-prod/bcf9071ef5e14db8f40a091a2abd2329b1166516-2160x1155.jpg",
       "image_alt": "Skier on a steep powder slope (Ikon Pass official)",
       "new_release": false,
-      "notes": "Still from $1,529 (age 23+) on the official Ikon shop page Nov 18 (WebFetch of ikonpass.com/en/shop-passes/ikon-pass). Today's curl was JS-empty.",
+      "notes": "Still from $1,529 (age 23+) on the official Ikon shop page Nov 20 (WebFetch of ikonpass.com/en/shop-passes/ikon-pass). Today's curl was JS-empty.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -21945,10 +22131,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 1529
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 1529
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/88ed3d6f9f3f55a9.webp"
     },
     {
@@ -21971,7 +22161,7 @@
       "image_url": "https://www.leecanyonlv.com/wp-content/uploads/sites/14/2025/12/DSC0110-1536x1024.jpeg",
       "image_alt": "Lee Canyon ski slopes (Lee Canyon official)",
       "new_release": false,
-      "notes": "Adult (37-64) 4 Day Power Pass still $549 on leecanyonlv.com Nov 18.",
+      "notes": "Adult (37-64) 4 Day Power Pass still $549 on leecanyonlv.com Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -22004,10 +22194,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 549
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 549
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/13512764f9873420.webp"
     },
     {
@@ -22030,7 +22224,7 @@
       "image_url": "https://www.leecanyonlv.com/wp-content/uploads/sites/14/2026/03/FY26-LC-SFA-Banners-1000x500-2.png",
       "image_alt": "Lee Canyon season pass banner",
       "new_release": false,
-      "notes": "Promo ended earlier; regular Adult (37-64) Power Pass still $1,249 on leecanyonlv.com Nov 18. Not a sale price.",
+      "notes": "Promo ended earlier; regular Adult (37-64) Power Pass still $1,249 on leecanyonlv.com Nov 20. Not a sale price.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -22063,10 +22257,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 1249
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 1249
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/3bc8e47288b3178b.webp"
     },
     {
@@ -22089,7 +22287,7 @@
       "image_url": "https://mountaincollective.com/wp-content/uploads/2025/07/RS46951_Sunny-Laps-11-of-12_lpr-wpv_500x500_center_center.jpg",
       "image_alt": "Skier on a sunny lap (Mountain Collective official)",
       "new_release": false,
-      "notes": "Expired. Official $729 adult price ended after the Nov 17 increase. Official mountaincollective.com now lists $759 for adults 19+ (see mountain-collective-2026-27-post-increase). Stale Instagram posts on the same page still say prices go up November 17th.",
+      "notes": "Expired. Official $729 adult price ended after the Nov 17 increase. Official mountaincollective.com now lists $759 for adults 19+ (see mountain-collective-2026-27-post-increase).",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -22122,10 +22320,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 729
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 729
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/fa432dfb7b34460b.webp"
     },
     {
@@ -22148,15 +22350,19 @@
       "image_url": "https://mountaincollective.com/wp-content/uploads/2026/09/hero-2.jpg",
       "image_alt": "Mountain Collective ski destination hero photo",
       "new_release": false,
-      "notes": "NEW. Official mountaincollective.com Nov 18 lists adults 19+ at $759 USD (was $729 before the Nov 17 increase). Teen $624, kids $334. 2 days at each of 27 resorts. The $729 pre-increase row is expired.",
+      "notes": "Still $759 for adults 19+ on official mountaincollective.com Nov 20 (was $729 before the Nov 17 increase). Teen $624, kids $334. 2 days at each of 27 resorts.",
       "price_history": [
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 759
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 759
         }
       ],
       "first_seen": "2026-11-18T09:38:20-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/54775661b3964042.webp"
     },
     {
@@ -22179,7 +22385,7 @@
       "image_url": "https://www.palisadestahoe.com/-/media/palisades-tahoe/plan-your-visit/tickets-passes/liftaccess.jpeg",
       "image_alt": "Palisades Tahoe lift access (Palisades official)",
       "new_release": false,
-      "notes": "Midweek Pass from $779 still listed Nov 18. 'From' price.",
+      "notes": "Midweek Pass from $779 still listed Nov 20. 'From' price.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -22212,10 +22418,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 779
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 779
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/c84699cf02e3fbb1.webp"
     },
     {
@@ -22238,7 +22448,7 @@
       "image_url": "https://www.carnival.com/-/media/Images/Ships/MD/mardi-gras/heros/mardi-gras-ship-hero.png",
       "image_alt": "Carnival Mardi Gras cruise ship",
       "new_release": false,
-      "notes": "Expired. Official Early Access Cyber Great Rates (book Nov 10-16, rate code OS5) is gone from Carnival terms. Replaced by Early Saver Bonus Fully Loaded Sale (book Nov 17-21) and Great Rates Now Activated Sale (book Nov 17-26); see new rows. Kids Sail Free and Buy Ocean View Get a Balcony sales (book Nov 17-26) are also on official terms (little solo value).",
+      "notes": "Expired. Official Early Access Cyber Great Rates (book Nov 10-16, rate code OS5) is gone from Carnival terms. Replaced by Early Saver Bonus Fully Loaded Sale (book Nov 17-21) and Great Rates Now Activated Sale (book Nov 17-26).",
       "price_history": [
         {
           "swept_at": "2026-11-11T09:42:53-08:00",
@@ -22255,10 +22465,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-11T09:42:53-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/6cc3405b3849d57a.webp"
     },
     {
@@ -22281,15 +22495,19 @@
       "image_url": "https://www.carnival.com/-/media/Images/hp-merch/2026/extras/paradise-collection2.png",
       "image_alt": "Carnival Paradise Collection cruise offer",
       "new_release": false,
-      "notes": "NEW. Replaces the ended Nov 16 Cyber Great Rates sale. Official terms: Early Saver Bonus Fully Loaded Sale, new bookings Nov 17-21, 2026 (a Nov 17-19 window also appears in the same terms block). Onboard credit $12.50 pp / up to $25 on 2-5 night sailings; $25 pp / up to $50 on 6+ nights. Deposits from $49 pp; automatic like-to-like room-location upgrades. Per person, double occupancy. Sailings through April 2029 where Early Saver is available. Rate code O8S.",
+      "notes": "Still LIVE Nov 20 (ends tomorrow, Nov 21). Official terms: Early Saver Bonus Fully Loaded Sale, new bookings Nov 17-21, 2026. Onboard credit $12.50 pp / up to $25 on 2-5 night sailings; $25 pp / up to $50 on 6+ nights. Deposits from $49 pp; automatic like-to-like room-location upgrades. Per person, double occupancy. Sailings through April 2029 where Early Saver is available. Rate code O8S.",
       "price_history": [
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-18T09:38:20-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/d14719034c5fcbec.avif"
     },
     {
@@ -22345,10 +22563,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/039569c55fec0501.webp"
     },
     {
@@ -22371,15 +22593,19 @@
       "image_url": "https://www.carnival.com/-/media/Images/hp-merch/2017/desktop/touts/121417-t3-fs.png",
       "image_alt": "Carnival cruise offer graphic",
       "new_release": false,
-      "notes": "NEW. Official terms: Great Rates Now Activated Sale, book Nov 17-26, 2026, rate code OTR. Same OBC structure as the ended Cyber sale ($12.50/$25 pp). Like-to-like room-location upgrades. Applies to sailings through February 2027 where Early Saver has expired. Per person, double occupancy.",
+      "notes": "Still LIVE Nov 20 (through Nov 26). Official terms: Great Rates Now Activated Sale, book Nov 17-26, 2026, rate code OTR. Same OBC structure ($12.50/$25 pp). Like-to-like room-location upgrades. Applies to sailings through February 2027 where Early Saver has expired. Per person, double occupancy.",
       "price_history": [
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-18T09:38:20-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/5feb24cb504f164a.avif"
     },
     {
@@ -22389,7 +22615,7 @@
       "sub": "cruises",
       "category": "cruises",
       "subcategory": null,
-      "item": "Celebrity Black Friday Kickoff 75% off 2nd guest",
+      "item": "Celebrity BF Kickoff Weekend 75% off 2nd guest",
       "retailer": "Celebrity Cruises",
       "price": null,
       "price_label": null,
@@ -22402,7 +22628,7 @@
       "image_url": "https://assets.dm.rccl.com/is/image/RoyalCaribbeanCruises/CEL-BY-Bahamas-Firefly-3-2560x1440",
       "image_alt": "Celebrity Beyond ship in the Bahamas",
       "new_release": false,
-      "notes": "Nov 13-16 Black Friday Preview ended Nov 16. Replaced by official Black Friday Kickoff Preview, book Nov 17-18, 2026 (ends today). 75% off 2nd guest plus up to $900/stateroom (was $950) and extra $100 off Alaska. Little value solo. Same item_key kept for the continuous preview series.",
+      "notes": "Nov 17-18 Kickoff Preview ended Nov 18. Replaced today by official Black Friday Kickoff Weekend, book Nov 20-23, 2026. 75% off 2nd guest plus up to $1,000/stateroom (was $900) and an additional $100 off Europe cruises. Little value solo. Same item_key kept for the continuous Black Friday preview/sale series. The higher $1,000 savings cap is a terms change, not a listed-fare price drop.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -22435,10 +22661,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/c6b439c3ca3ce055.webp"
     },
     {
@@ -22461,7 +22691,7 @@
       "image_url": "https://www.celebritycruises.com/content/dam/celebrity/new-images/Celebrity-Edge.jpg",
       "image_alt": "Celebrity Edge cruise ship (Celebrity official)",
       "new_release": false,
-      "notes": "LIVE; weekly window renewed. Official terms now book Nov 17-23, 2026 (the Nov 10-16 window ended). Cruise-only, capacity controlled. Specific sailing prices not captured. Confirmed Nov 18.",
+      "notes": "Still LIVE; official terms still book Nov 17-23, 2026 (3 days left). Cruise-only, capacity controlled. Specific sailing prices not captured. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -22494,10 +22724,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/86f8ef96b6b59ef3.webp"
     },
     {
@@ -22520,7 +22754,7 @@
       "image_url": "https://assets.dm.rccl.com/is/image/RoyalCaribbeanCruises/ace_desktop_flights",
       "image_alt": "Flights by Celebrity air savings",
       "new_release": false,
-      "notes": "Official terms still: Flights by Celebrity air promotions book Nov 6-Dec 7, 2026 on select Caribbean/Europe/Alaska sailings. Confirmed Nov 18.",
+      "notes": "Official terms still: Flights by Celebrity air promotions book Nov 6-Dec 7, 2026 on select Caribbean/Europe/Alaska sailings. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-09T09:37:54-08:00",
@@ -22541,10 +22775,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-09T09:37:54-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/3d8d477d9762aadd.webp"
     },
     {
@@ -22600,10 +22838,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/35ff3fd47f0d8e76.webp"
     },
     {
@@ -22626,7 +22868,7 @@
       "image_url": "https://mmx.prnewswire.com/media/MS2025741/Ship-front_16x9-edit.jpg",
       "image_alt": "Cunard Queen ship, front view",
       "new_release": false,
-      "notes": "'From' fare $999. Still listed as bookings Nov 10-Dec 7, 2026. Up to 40% off launch fares, onboard credit, 10% deposit; code RD1. cunard.com still Access Denied on fetch Nov 18; terms remain from Cunard's official PR Newswire release. Singles pay 200% supplement.",
+      "notes": "'From' fare $999. Still listed as bookings Nov 10-Dec 7, 2026. Up to 40% off launch fares, onboard credit, 10% deposit; code RD1. cunard.com still Access Denied on fetch Nov 20; terms remain from Cunard's official PR Newswire release. Singles pay 200% supplement.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -22655,10 +22897,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 999
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 999
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/796e75c3267ad92c.webp"
     },
     {
@@ -22681,7 +22927,7 @@
       "image_url": "https://www.hollandamerica.com/content/dam/hal/inventory-assets/excursions/shorex---ship-front--10-24-17--large--c037a2.jpg",
       "image_alt": "Holland America Line ship bow at sea",
       "new_release": false,
-      "notes": "Early access ended Nov 17. Official public Black Friday sale is LIVE today, Nov 18, through Nov 29. Official page no longer login-gated: up to 30% off fares, free prepaid Crew Appreciation, free fares for guests 3 & 4, no blackout dates, ends Nov 29. Public window also adds 50% reduced deposits per HAL's official news. 3rd/4th guest free has little solo value.",
+      "notes": "Still LIVE Nov 20 through Nov 29. Official page: up to 30% off fares, free prepaid Crew Appreciation, free fares for guests 3 & 4, no blackout dates, ends Nov 29. 3rd/4th guest free has little solo value.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -22710,11 +22956,46 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/19b0b877708e7ea3.webp"
+    },
+    {
+      "item_key": "ncl-50-off-all-cruises-nov-2026",
+      "section": "travel",
+      "shelf": "travel",
+      "sub": "cruises",
+      "category": "cruises",
+      "subcategory": null,
+      "item": "NCL 50% off all cruises + Free at Sea",
+      "retailer": "Norwegian Cruise Line",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": "50% off",
+      "deal_status": "live",
+      "date_found": "2026-11-20",
+      "source_url": "https://www.ncl.com/cruise-deals",
+      "image_url": "https://www.ncl.com/adobe/dynamicmedia/deliver/dm-aid--6b62c116-3fa7-4df9-ae8e-12f28d4b1a5d/4037750-ncl-fleet-new-horizontal-bf-starts-now-nov-19.png",
+      "image_alt": "Norwegian Cruise Line Black Friday fleet promotional image",
+      "new_release": false,
+      "notes": "NEW. Official ncl.com/cruise-deals now leads with '50% Off All Cruises,' limited time, all categories, plus Free at Sea. A Nov 19 'BF starts now' fleet creative is on the official page. The prior Free 2nd Guest card is gone. Today's extracted terms did not spell out a book-by date or whether the 50% applies to solo fares vs. a second guest. Confirm at booking.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-20T09:46:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
+      "image": "data/black-friday/img/a53a5c3d0112b132.avif"
     },
     {
       "item_key": "ncl-black-friday-latitudes-early-2026",
@@ -22769,10 +23050,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/b047583d40d7d842.webp"
     },
     {
@@ -22789,13 +23074,13 @@
       "price_raw": null,
       "regular_price": null,
       "discount": "Free 2nd guest",
-      "deal_status": "live",
+      "deal_status": "expired",
       "date_found": "2026-11-13",
       "source_url": "https://www.ncl.com/cruise-deals",
       "image_url": "https://www.ncl.com/adobe/dynamicmedia/deliver/dm-aid--e638275f-6d45-4767-b009-767ca6d257f5/4037400-ncl-fleet-horizontal-bf-preview-sale-nov-12.png",
       "image_alt": "Norwegian Cruise Line ships in the Black Friday preview sale",
       "new_release": false,
-      "notes": "Still LIVE Nov 18 on official ncl.com/cruise-deals (card still dated Nov 12): Free 2nd Guest, limited time, all categories, plus Free at Sea. Little value solo.",
+      "notes": "Expired. Official ncl.com/cruise-deals no longer lists Free 2nd Guest. The page now leads with a new '50% Off All Cruises' limited-time offer plus Free at Sea (see ncl-50-off-all-cruises-nov-2026).",
       "price_history": [
         {
           "swept_at": "2026-11-13T09:32:32-08:00",
@@ -22808,10 +23093,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-13T09:32:32-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/b50089bcafba8233.avif"
     },
     {
@@ -22834,7 +23123,7 @@
       "image_url": "https://assets.princess.com/is/image/princesscruises/ocho-rios-jamaica?qlt=82",
       "image_alt": "Princess ship destination Ocho Rios",
       "new_release": false,
-      "notes": "Official page still titles 'Black Friday & Cyber Monday Deals' Nov 18. Specific fare percentages were not in today's extracted text, so discount is unset.",
+      "notes": "Official page still titles 'Black Friday & Cyber Monday Deals' Nov 20. Specific fare percentages were not in today's extracted text, so discount is unset.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -22863,10 +23152,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/e70405bb52f73de5.webp"
     },
     {
@@ -22889,7 +23182,7 @@
       "image_url": "https://assets.dm.rccl.com/is/image/RoyalCaribbeanCruises/royal/ships/oasis/oasis-of-the-seas-labadee-haiti-aft.jpg?$1440x600$",
       "image_alt": "Oasis of the Seas docked at Labadee, Haiti",
       "new_release": false,
-      "notes": "Still announced. Official BF page: Black Friday Nov 27, Cyber Monday Nov 30, Travel Tuesday Dec 1. Page also mentions up to $900 off + Cyber Bonus up to $100 credit, but the sale itself is still dated for next week.",
+      "notes": "Still announced. Official BF page: Black Friday Nov 27, Cyber Monday Nov 30, Travel Tuesday Dec 1. Page also mentions up to $900 off + Cyber Bonus up to $100 credit, but the sale itself is still dated for next week. Confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -22922,10 +23215,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/72848cbb19d2017b.webp"
     },
     {
@@ -22942,13 +23239,13 @@
       "price_raw": null,
       "regular_price": null,
       "discount": "40% off",
-      "deal_status": "live",
+      "deal_status": "expired",
       "date_found": "2026-11-03",
       "source_url": "https://www.virginvoyages.com/promotional-terms-and-conditions",
       "image_url": "https://virginvoyages.imgix.net/dam/jcr:3c2ed3a9-7e6e-47bc-a117-cb0449cf11e0/786x585.png",
       "image_alt": "Virgin Voyages ship (Virgin Voyages official)",
       "new_release": false,
-      "notes": "Still LIVE through Nov 19, 2026 (ends tomorrow, 11:59 p.m. ET). Official terms: 80% off 2nd sailor (effectively 40% off both) + up to $600 drinks. Additional preview OBC up to $300 also listed. Little value solo. Confirmed Nov 18.",
+      "notes": "Expired. Official Preview book window ended Nov 19, 2026, 11:59 p.m. ET. Replaced today by the Black Friday Sale (80% off 2nd sailor + up to $800 drinks, book Nov 20-Dec 3); see virgin-voyages-black-friday-sale-2026.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -22981,11 +23278,77 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/63e59415732d79aa.avif"
+    },
+    {
+      "item_key": "virgin-voyages-bf-99-per-night-2026",
+      "section": "travel",
+      "shelf": "travel",
+      "sub": "cruises",
+      "category": "cruises",
+      "subcategory": null,
+      "item": "Virgin Voyages BF rates from $99 per sailor/night",
+      "retailer": "Virgin Voyages",
+      "price": 99,
+      "price_label": null,
+      "price_raw": 99,
+      "regular_price": null,
+      "discount": null,
+      "deal_status": "live",
+      "date_found": "2026-11-20",
+      "source_url": "https://www.virginvoyages.com/cruise-deals/cruise-vacation-deals",
+      "image_url": "https://virginvoyages.imgix.net/dam/jcr:120c4c01-009c-48a5-9ca7-e15ec3604e9d/IMG-DEST-Juneau-96495538-600x400.jpg",
+      "image_alt": "Juneau destination photo from the official Virgin Voyages deals page",
+      "new_release": false,
+      "notes": "NEW. Official cruise-vacation-deals page: Black Friday rates from $99 per sailor per night on select sailings; limited availability. Offer ends Dec 3, 2026. 'From' per-sailor, per-night price. Confirm the actual fare for a given sailing.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 99
+        }
+      ],
+      "first_seen": "2026-11-20T09:46:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
+      "image": "data/black-friday/img/2828efe500b9bf6a.webp"
+    },
+    {
+      "item_key": "virgin-voyages-black-friday-sale-2026",
+      "section": "travel",
+      "shelf": "travel",
+      "sub": "cruises",
+      "category": "cruises",
+      "subcategory": null,
+      "item": "Virgin Voyages BF: 80% off 2nd sailor + $800 drinks",
+      "retailer": "Virgin Voyages",
+      "price": null,
+      "price_label": null,
+      "price_raw": null,
+      "regular_price": null,
+      "discount": "80% off 2nd sailor",
+      "deal_status": "live",
+      "date_found": "2026-11-20",
+      "source_url": "https://www.virginvoyages.com/promotional-terms-and-conditions",
+      "image_url": "https://virginvoyages.imgix.net/dam/jcr:11a1d53f-f69c-48a1-97ff-01d8653cfd41/Black%20Friday_Desktop.jpg",
+      "image_alt": "Virgin Voyages official Black Friday sale promotional image",
+      "new_release": false,
+      "notes": "NEW. Official terms dated Nov 20, 2026: Black Friday Sale, book 12:00:01 a.m. ET Nov 20 through 11:59:59 p.m. ET Dec 3, 2026. 80% off 2nd sailor (effectively 40% off both) + up to $800 in free drinks (was $600 in the ended Preview). Drink cap scales by cabin and length, up to $800 on 14+ night Rockstar Suites. Excludes Solo Sea View and Solo Insider. Little value solo.",
+      "price_history": [
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
+        }
+      ],
+      "first_seen": "2026-11-20T09:46:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
+      "image": "data/black-friday/img/48e9678abc39c9b3.webp"
     },
     {
       "item_key": "southwest-nonstop-under-100-nov17-19-2026",
@@ -23001,21 +23364,25 @@
       "price_raw": null,
       "regular_price": null,
       "discount": null,
-      "deal_status": "live",
+      "deal_status": "expired",
       "date_found": "2026-11-18",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
       "image_url": "https://www.southwest.com/swa-resources/images/offers/FlightOffers_November-Owned-Sale-3.webp",
       "image_alt": "Southwest winter sale tag with snowflakes",
       "new_release": false,
-      "notes": "NEW. Official flight-deals page featured sale: one-way nonstop fares under $100. Book Nov 17-19, 2026; 21-day advance purchase; Continental U.S. and interisland Hawaii only. Restrictions, exclusions, and blackouts apply. Check LAS nonstops. Distinct from the $69 winter sale that ends tonight.",
+      "notes": "Expired. Official book window was Nov 17-19, 2026 (ended Nov 19). The official flight-deals page still shows stale under-$100 nonstop copy today, but that window has ended. No new dated official Southwest fare sale was confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-18T09:38:20-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/b6ea94b0090094f6.webp"
     },
     {
@@ -23071,10 +23438,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 59
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 59
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/88e690076d1cd0be.webp"
     },
     {
@@ -23114,10 +23485,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 59
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 59
         }
       ],
       "first_seen": "2026-11-11T09:42:53-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/35b1458ba7aad76b.webp"
     },
     {
@@ -23134,13 +23509,13 @@
       "price_raw": 69,
       "regular_price": null,
       "discount": null,
-      "deal_status": "live",
+      "deal_status": "expired",
       "date_found": "2026-11-03",
       "source_url": "https://www.southwest.com/swa-resources/generated/special_offers/flight_offers/Nov-Owned-Sale.html",
       "image_url": "https://www.southwest.com/swa-resources/images/responsive/citizenship/about-southwest/About-Purpose-Vision.JPG",
       "image_alt": "Southwest pilot at the aircraft door (Southwest official)",
       "new_release": false,
-      "notes": "Still LIVE Nov 18 (ends tonight unless extended). Official Nov-Owned-Sale page still: SALE EXTENDED, one-way as low as $69 or 4,600 points. Book 11/12-11/18. A separate new under-$100 nonstop sale (book 11/17-11/19) is listed on the flight-deals page.",
+      "notes": "Expired. Official book window was Nov 12-18, 2026 (ended Nov 18). The official Nov-Owned-Sale page still shows stale $69 / SALE EXTENDED copy today, but that window has ended. No new dated official Southwest fare sale was confirmed Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -23173,10 +23548,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 69
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 69
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/626457b15c628e75.webp"
     },
     {
@@ -23199,7 +23578,7 @@
       "image_url": "https://newsroom.hyatt.com/image/Grand+Hyatt+The+Red+Sea+4MB.jpeg",
       "image_alt": "Grand Hyatt The Red Sea resort aerial (Hyatt newsroom)",
       "new_release": false,
-      "notes": "Advisor-reported Privé offer (book Nov 3-Dec 8). Not verified with specific terms on hyatt.com Nov 18.",
+      "notes": "Advisor-reported Privé offer (book Nov 3-Dec 8). Still not verified with specific terms on hyatt.com Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -23232,10 +23611,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/0e9d9aef6d1a1efd.webp"
     },
     {
@@ -23291,10 +23674,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/39bd551a0b1fa496.webp"
     },
     {
@@ -23317,7 +23704,7 @@
       "image_url": "https://www.rwlasvegas.com/wp-content/uploads/2026/11/resorts-world-las-vegas-cyber-sale-up-to-50-percent-off-stays.jpg",
       "image_alt": "Resorts World Las Vegas Cyber Sale up to 50 percent off",
       "new_release": false,
-      "notes": "Still LIVE Nov 18. Official special-offers page: Cyber Sale of the Year, up to 50% off stays, limited time. Book-by and travel-window dates were still not listed in today's official page text.",
+      "notes": "Still LIVE Nov 20. Official special-offers page: Cyber Sale of the Year, up to 50% off stays, limited time. Book-by and travel-window dates were still not listed in today's official page text.",
       "price_history": [
         {
           "swept_at": "2026-11-16T09:34:59-08:00",
@@ -23326,10 +23713,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-16T09:34:59-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/88581215575a2be3.webp"
     },
     {
@@ -23352,7 +23743,7 @@
       "image_url": "https://thestrat.com/userfiles/social/opengraph/121/Picture1.png",
       "image_alt": "The STRAT Hotel, Casino & Tower, Las Vegas",
       "new_release": false,
-      "notes": "Confirmed Nov 18 on official reservations.thestrat.com promo page (code BFWEB26): 40% off room rates, daily $30 F&B credit, Tower admission for two. Travel through Oct 31, 2027; 2-night minimum; book by Dec 3, 2026; blackouts may apply.",
+      "notes": "Confirmed Nov 20 on official reservations.thestrat.com promo page (code BFWEB26): 40% off room rates, daily $30 F&B credit, Tower admission for two. Travel through Oct 31, 2027; 2-night minimum; book by Dec 3, 2026; blackouts may apply.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -23381,10 +23772,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/92ed26ccefa93449.webp"
     },
     {
@@ -23407,7 +23802,7 @@
       "image_url": "https://www.venetianlasvegas.com/content/dam/vlvweb/towers/venetian/exterior-1_1200x800.jpg",
       "image_alt": "The Venetian Resort Las Vegas exterior",
       "new_release": false,
-      "notes": "Still LIVE Nov 18. Official Cyber Sale: up to 50% off + $50 beverage credit; stay dates Nov 3, 2026-Sep 9, 2027; 2-night minimum. Cancellable/refundable.",
+      "notes": "Still LIVE Nov 20. Official Cyber Sale: up to 50% off + $50 beverage credit; stay dates Nov 3, 2026-Sep 9, 2027; 2-night minimum. Cancellable/refundable.",
       "price_history": [
         {
           "swept_at": "2026-11-16T09:34:59-08:00",
@@ -23416,10 +23811,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-16T09:34:59-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/66c528dbb5df14b4.webp"
     },
     {
@@ -23442,7 +23841,7 @@
       "image_url": "https://virginhotelslv.com/content/uploads/2026/10/VH-120-26-Black-Friday-Hotel-Offer-v04_650x420.jpg",
       "image_alt": "Virgin Hotels Las Vegas Black Friday offer",
       "new_release": false,
-      "notes": "Code BLACKFRIDAY; up to 45% off + free parking. Book by Nov 30, 2026 5:00 PM PST; stays through Dec 31, 2027. Confirmed on official promo page Nov 18.",
+      "notes": "Code BLACKFRIDAY; up to 45% off + free parking. Book by Nov 30, 2026 5:00 PM PST; stays through Dec 31, 2027. Confirmed on official promo page Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -23471,10 +23870,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/253bcd1f3cb2d650.webp"
     },
     {
@@ -23491,13 +23894,13 @@
       "price_raw": null,
       "regular_price": null,
       "discount": "Up to 69% off",
-      "deal_status": "live",
+      "deal_status": "expired",
       "date_found": "2026-11-03",
       "source_url": "https://www.applevacations.com/",
       "image_url": "https://trisept.widen.net/content/8zjewdm4c5",
       "image_alt": "Cancun beach resort aerial (Funjet/ALGV official)",
       "new_release": false,
-      "notes": "Trade-press report through Nov 19. Still not independently verified on applevacations.com Nov 18.",
+      "notes": "Expired. The trade-press early BF window was reported through Nov 19, 2026, and was never independently verified on applevacations.com. No official confirmation of an extension was found Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-03T15:01:29-08:00",
@@ -23530,10 +23933,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-03T15:01:29-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/f2b55a0ca4661a14.webp"
     },
     {
@@ -23581,10 +23988,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 599
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 599
         }
       ],
       "first_seen": "2026-11-06T09:44:19-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/31a29708439342eb.webp"
     },
     {
@@ -23607,7 +24018,7 @@
       "image_url": "https://www.southwest.com/swa-resources/images/offers/CB1751771-gtwys-SpOffers-FlightOffersBox2-bundlesave-evergreen-IMG.png",
       "image_alt": "Getaways by Southwest vacation package offer",
       "new_release": false,
-      "notes": "Up to $250 off domestic / $500 international; 2-person 5-night min (poor solo fit). Still on the official flight-deals page Nov 18.",
+      "notes": "Up to $250 off domestic / $500 international; 2-person 5-night min (poor solo fit). Still on the official flight-deals page Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -23636,10 +24047,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/dbbc5a4de3ab1ed3.webp"
     },
     {
@@ -23662,7 +24077,7 @@
       "image_url": "https://www.jetbluevacations.com/media/JBV_pods_PUJ_2x_4508f97fc0/JBV_pods_PUJ_2x_4508f97fc0.jpg",
       "image_alt": "JetBlue Vacations Punta Cana Black Friday package offer",
       "new_release": false,
-      "notes": "Still LIVE Nov 18. Official JetBlue Vacations page: up to $800 off Punta Cana packages + free airport transfers. Black Friday Price Match on flight+hotel bookings through Dec 7.",
+      "notes": "Still LIVE Nov 20. Official JetBlue Vacations page: up to $800 off Punta Cana packages + free airport transfers. Black Friday Price Match on flight+hotel bookings through Dec 7.",
       "price_history": [
         {
           "swept_at": "2026-11-16T09:34:59-08:00",
@@ -23671,10 +24086,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-16T09:34:59-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/e2abb7dc264f766b.webp"
     },
     {
@@ -23697,7 +24116,7 @@
       "image_url": "https://www.legoland.com/california/media/vhkhxbsr/bf-hotel-plus-ticket-web-decoy.jpg",
       "image_alt": "LEGOLAND California Black Friday hotel and ticket package",
       "new_release": false,
-      "notes": "Still LIVE Nov 18. Hotel + ticket packages from $128 pp/night; stays Jan 3-May 28, 2027. Offer ends Nov 29, 2026. 'From' per-person, per-night price.",
+      "notes": "Still LIVE Nov 20. Hotel + ticket packages from $128 pp/night; stays Jan 3-May 28, 2027. Offer ends Nov 29, 2026. 'From' per-person, per-night price.",
       "price_history": [
         {
           "swept_at": "2026-11-16T09:34:59-08:00",
@@ -23706,10 +24125,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": 128
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": 128
         }
       ],
       "first_seen": "2026-11-16T09:34:59-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/a1a1ca0fd9309697.webp"
     },
     {
@@ -23732,7 +24155,7 @@
       "image_url": "https://www.vegas.com/vegasComSocial_fb.jpg",
       "image_alt": "Vegas.com Early Cyber travel deals",
       "new_release": false,
-      "notes": "Official packages page now says 'CYBER SALE IS ON NOW! Best Deals of the Year - Up to 60% Off' (countdown ~15 days). Bundle prices not captured Nov 18.",
+      "notes": "Official packages page still says 'CYBER SALE IS ON NOW! Best Deals of the Year - Up to 60% Off.' Bundle prices not captured Nov 20.",
       "price_history": [
         {
           "swept_at": "2026-11-04T09:21:47-08:00",
@@ -23761,10 +24184,14 @@
         {
           "swept_at": "2026-11-18T09:38:20-08:00",
           "price": null
+        },
+        {
+          "swept_at": "2026-11-20T09:46:20-08:00",
+          "price": null
         }
       ],
       "first_seen": "2026-11-04T09:21:47-08:00",
-      "last_seen": "2026-11-18T09:38:20-08:00",
+      "last_seen": "2026-11-20T09:46:20-08:00",
       "image": "data/black-friday/img/236ebb53bba79793.webp"
     },
     {

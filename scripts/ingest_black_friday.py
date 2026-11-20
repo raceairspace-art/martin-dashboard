@@ -51,6 +51,7 @@ IMG_INDEX = OUT_DIR / "img_index.json"
 SRC_DEFAULT = os.environ.get("BF_SRC", "/workspace/black-friday-2026")
 FILE_RE = re.compile(r"^(gear-tech|travel)-sweep-(\d{4}-\d{2}-\d{2})(?:-(\d{1,2})|-v(\d{1,2}))?\.json$")
 UA = "MartinDashboard/1.0 (personal deals page; image mirror; polite single fetch)"
+BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 EXT = {"image/jpeg": "jpg", "image/jpg": "jpg", "image/png": "png", "image/webp": "webp",
        "image/gif": "gif", "image/avif": "avif", "image/svg+xml": "svg"}
 MAX_BYTES = 8 * 1024 * 1024
@@ -164,59 +165,112 @@ def shrink(data: bytes, ext: str) -> tuple[bytes, str]:
     return (buf.getvalue(), "webp") if buf.tell() < len(data) else (data, ext)
 
 
-def mirror(url: str, index: dict, fetch: bool, log: list) -> str | None:
+def local_fallback(item_key: str | None, src: Path) -> Path | None:
+    """Teammate-supplied images in <src>/img/, matched by item_key (exact stem or prefix)."""
+    if not item_key:
+        return None
+    folder = src / "img"
+    if not folder.is_dir():
+        return None
+    key = item_key.strip().lower()
+    hits = []
+    for p in folder.iterdir():
+        if not p.is_file() or p.name.startswith("."):
+            continue
+        stem = p.stem.lower()
+        if stem == key or key.startswith(stem) or stem.startswith(key):
+            hits.append(p)
+    hits.sort(key=lambda p: (0 if p.stem.lower() == key else 1, len(p.stem), p.name))
+    return hits[0] if hits else None
+
+
+def _fetch_bytes(url: str, ua: str, accept: str):
+    req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept": accept})
+    for attempt in range(3):  # back off on HTTP 429, honouring Retry-After (capped at 30 s)
+        try:
+            r = urllib.request.urlopen(req, timeout=15)
+            break
+        except urllib.error.HTTPError as he:
+            if he.code != 429 or attempt == 2:
+                raise
+            try:
+                wait = min(float(he.headers.get("Retry-After") or 0), 30.0)
+            except ValueError:
+                wait = 0.0
+            time.sleep(max(wait, 10.0 * (attempt + 1)))
+    with r:
+        ctype = (r.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+        ext = EXT.get(ctype)
+        if not ext:
+            raise ValueError(f"not an image ({ctype or 'no content-type'})")
+        data = r.read(MAX_BYTES + 1)
+        if len(data) > MAX_BYTES:
+            raise ValueError("too large")
+        if len(data) < 200:
+            raise ValueError("too small")
+    return data, ext
+
+
+def _write_mirror(url: str, data: bytes, ext: str, index: dict, log: list, note: str) -> str:
+    h = hashlib.sha1(url.encode()).hexdigest()[:16]
+    data, ext = shrink(data, ext)
+    name = f"{h}.{ext}"
+    (IMG_DIR / name).write_bytes(data)
+    index[url] = {"file": name, "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                  **({"source": "local"} if note.startswith("local") else {})}
+    log.append(f"  mirrored {name} ({len(data)//1024} KB){(' ' + note) if note else ''}")
+    return name
+
+
+def mirror(url: str, index: dict, fetch: bool, log: list, item_key: str | None = None, src: Path | None = None) -> str | None:
     h = hashlib.sha1(url.encode()).hexdigest()[:16]
     for p in IMG_DIR.glob(h + ".*"):
         return p.name
     ent = index.get(url) or {}
-    if not fetch:
-        return None
-    if ent.get("error") and ent.get("tried_at") and "429" not in ent["error"]:  # rate limits are transient: retry next run
+    skip_remote = False
+    if fetch and ent.get("error") and ent.get("tried_at") and "429" not in ent["error"]:  # rate limits are transient: retry next run
         try:
             if datetime.now(timezone.utc) - datetime.fromisoformat(ent["tried_at"]) < timedelta(hours=24):
                 log.append(f"  skip (failed <24h ago: {ent['error']}): {url[:90]}")
-                return None
+                skip_remote = True
         except ValueError:
             pass
-    host = urllib.parse.urlparse(url).netloc.lower()
-    time.sleep(3.0 if host.endswith("wikimedia.org") else 1.0)  # Wikimedia rate-limits bursts (HTTP 429)
-    try:
-        # Wikimedia transcodes on the fly when avif/webp is requested and rate-limits that path (429): ask for the original format there.
+    if fetch and not skip_remote:
+        host = urllib.parse.urlparse(url).netloc.lower()
+        time.sleep(3.0 if host.endswith("wikimedia.org") else 1.0)  # Wikimedia rate-limits bursts (HTTP 429)
         accept = "image/*" if host.endswith("wikimedia.org") else "image/avif,image/webp,image/*;q=0.9"
-        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": accept})
-        for attempt in range(3):  # back off on HTTP 429, honouring Retry-After (capped at 30 s)
+        last_err = None
+        for ua, label in ((UA, ""), (BROWSER_UA, " (browser UA)")):
             try:
-                r = urllib.request.urlopen(req, timeout=15)
+                data, ext = _fetch_bytes(url, ua, accept)
+                return _write_mirror(url, data, ext, index, log, label.strip())
+            except Exception as e:  # noqa: BLE001
+                last_err = e
+                # bot-challenge pages and hard blocks: try a browser UA once
+                msg = f"{type(e).__name__}: {e}"
+                if ua == UA and ("not an image" in msg or "403" in msg or "401" in msg or "closed connection" in msg.lower()):
+                    continue
                 break
-            except urllib.error.HTTPError as he:
-                if he.code != 429 or attempt == 2:
-                    raise
-                try:
-                    wait = min(float(he.headers.get("Retry-After") or 0), 30.0)
-                except ValueError:
-                    wait = 0.0
-                time.sleep(max(wait, 10.0 * (attempt + 1)))
-        with r:
-            ctype = (r.headers.get("Content-Type") or "").split(";")[0].strip().lower()
-            ext = EXT.get(ctype)
-            if not ext:
-                raise ValueError(f"not an image ({ctype or 'no content-type'})")
-            data = r.read(MAX_BYTES + 1)
+        msg = f"{type(last_err).__name__}: {last_err}"[:160]
+        index[url] = {"file": None, "error": msg, "tried_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+        log.append(f"  FAILED ({msg}): {url[:90]}")
+    # Local teammate file (persists across rebuilds even if the URL is skipped/blocked)
+    loc = local_fallback(item_key, src) if src else None
+    if loc:
+        try:
+            data = loc.read_bytes()
             if len(data) > MAX_BYTES:
                 raise ValueError("too large")
             if len(data) < 200:
                 raise ValueError("too small")
-        data, ext = shrink(data, ext)
-        name = f"{h}.{ext}"
-        (IMG_DIR / name).write_bytes(data)
-        index[url] = {"file": name, "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
-        log.append(f"  mirrored {name} ({len(data)//1024} KB)")
-        return name
-    except Exception as e:  # noqa: BLE001 — any failure → placeholder
-        msg = f"{type(e).__name__}: {e}"[:160]
-        index[url] = {"file": None, "error": msg, "tried_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
-        log.append(f"  FAILED ({msg}): {url[:90]}")
-        return None
+            ext = {".jpg": "jpg", ".jpeg": "jpg", ".png": "png", ".webp": "webp", ".gif": "gif", ".avif": "avif"}.get(loc.suffix.lower())
+            if not ext:
+                raise ValueError(f"unsupported local image {loc.suffix}")
+            # shrink() verifies the bytes are a real image
+            return _write_mirror(url or loc.name, data, ext, index, log, f"local {loc.name}")
+        except Exception as e:  # noqa: BLE001
+            log.append(f"  local fallback failed ({type(e).__name__}: {e}): {loc}")
+    return None
 
 
 def main() -> int:
@@ -312,8 +366,10 @@ def main() -> int:
     mirrored = placeholders = 0
     for it in items.values():
         url = it["image_url"]
-        name = mirror(url, index, not args.no_fetch, log) if isinstance(url, str) and url.startswith("https://") else None
-        if url and not str(url).startswith("https://"):
+        https = isinstance(url, str) and url.startswith("https://")
+        name = mirror(url if https else (url or it["item_key"]), index, not args.no_fetch and https, log,
+                      item_key=it["item_key"], src=src)
+        if url and not https:
             log.append(f"  not https, skipped: {str(url)[:90]}")
         it["image"] = f"data/black-friday/img/{name}" if name else None
         mirrored += bool(name)
