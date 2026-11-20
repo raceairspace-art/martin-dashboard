@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T06:00:01-08:00",
+  "generated_at": "2026-11-20T06:02:24-08:00",
   "timezone": "America/Los_Angeles",
   "end_is_inclusive": true,
   "months": [
@@ -550,6 +550,12 @@
       "all_day": false
     },
     {
+      "title": "Desert Showdown off-road race (Legacy Racing)",
+      "start": "2026-12-03",
+      "end": "2026-12-05",
+      "all_day": true
+    },
+    {
       "title": "Terry Buckley Turbine Rodeo",
       "start": "2026-12-03",
       "end": "2026-12-05",
@@ -628,7 +634,19 @@
       "all_day": false
     },
     {
+      "title": "River Riders M/C Toy Run (Parker → Lake Havasu)",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "all_day": false
+    },
+    {
       "title": "Santa Paula Chain of Hangars Open House",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "all_day": false
+    },
+    {
+      "title": "Speed Vegas Toys for Tots – free go-kart/ride-along with toy",
       "start": "2026-12-06",
       "end": "2026-12-06",
       "all_day": false
@@ -718,6 +736,12 @@
       "all_day": true
     },
     {
+      "title": "Diner Drive-In Car Meet Toy Drive",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "all_day": false
+    },
+    {
       "title": "Vegas Bitcoiners Happy Hour",
       "start": "2026-12-16",
       "end": "2026-12-16",
@@ -748,6 +772,12 @@
       "all_day": false
     },
     {
+      "title": "Gears & Grinds Vegas car meet",
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "all_day": false
+    },
+    {
       "title": "Las Vegas BiWeekly Drone Race Event",
       "start": "2026-12-20",
       "end": "2026-12-20",
@@ -763,6 +793,12 @@
       "title": "Casa Grande Airport Fly-In Breakfast",
       "start": "2026-12-26",
       "end": "2026-12-26",
+      "all_day": false
+    },
+    {
+      "title": "EAA Ch 1 Young Eagles Pancake Breakfast",
+      "start": "2027-01-02",
+      "end": "2027-01-02",
       "all_day": false
     },
     {
@@ -832,9 +868,27 @@
       "all_day": false
     },
     {
+      "title": "EAA 81 Young Eagles & Breakfast Fly-In",
+      "start": "2027-01-09",
+      "end": "2027-01-09",
+      "all_day": false
+    },
+    {
+      "title": "Supercross Rd 1 – Anaheim (A1)",
+      "start": "2027-01-09",
+      "end": "2027-01-09",
+      "all_day": true
+    },
+    {
       "title": "Parker 400 (Best in the Desert)",
       "start": "2027-01-13",
       "end": "2027-01-17",
+      "all_day": true
+    },
+    {
+      "title": "Quartzsite Sports, Vacation & RV Show",
+      "start": "2027-01-15",
+      "end": "2027-01-23",
       "all_day": true
     },
     {
@@ -874,10 +928,28 @@
       "all_day": false
     },
     {
+      "title": "Supercross Rd 2 – San Diego",
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "all_day": true
+    },
+    {
+      "title": "Gears & Grinds Vegas car meet",
+      "start": "2027-01-17",
+      "end": "2027-01-17",
+      "all_day": false
+    },
+    {
       "title": "Las Vegas BiWeekly Drone Race Event",
       "start": "2027-01-17",
       "end": "2027-01-17",
       "all_day": false
+    },
+    {
+      "title": "Winter 4x4 Jamboree",
+      "start": "2027-01-20",
+      "end": "2027-01-23",
+      "all_day": true
     },
     {
       "title": "Vegas Bitcoiners Happy Hour",
@@ -961,6 +1033,12 @@
       "title": "Metallica at Sphere",
       "start": "2027-01-28",
       "end": "2027-01-28",
+      "all_day": true
+    },
+    {
+      "title": "Lake Havasu Rockabilly Reunion (car/bike show)",
+      "start": "2027-01-29",
+      "end": "2027-01-31",
       "all_day": true
     },
     {
