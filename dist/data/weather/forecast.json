@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-11-21T06:10:49-08:00",
+ "updated_at": "2026-11-22T06:18:15-08:00",
  "source": "open-meteo+gordon",
  "fetch_error": null,
  "timezone": "America/Los_Angeles",
  "window": {
-  "start": "2026-11-21",
-  "end": "2026-11-27",
+  "start": "2026-11-22",
+  "end": "2026-11-28",
   "daytime": "07:00-17:00"
  },
  "low_wind_rule": {
@@ -217,22 +217,24 @@
   }
  ],
  "gordon": {
-  "file": "low-wind-2026-11-21.json",
-  "issued": "2026-11-21 06:07 PT",
+  "file": "low-wind-2026-11-22.json",
+  "issued": "2026-11-22 06:15 PT",
   "source": "GoodWeatherGordon",
   "window": "daytime 7am-5pm PT",
   "definitions": {
    "gust_diff": "max gust minus sustained wind",
    "qualifies": "low wind and gust diff < 10 mph"
   },
-  "all_days": "0-2% precip in Vegas area; good for general outdoor activities",
+  "all_days": "0-1% precip in Vegas area; good for general outdoor activities",
   "top_picks": {
    "activities": "lake, drones, RC, paramotor",
    "dates": [
-    "2026-11-25",
+    "2026-11-27",
     "2026-11-24",
-    "2026-11-23",
-    "2026-11-27"
+    "2026-11-25",
+    "2026-11-22",
+    "2026-11-28",
+    "2026-11-23"
    ]
   },
   "info": {
@@ -241,277 +243,491 @@
  },
  "days": [
   {
-   "date": "2026-11-21",
+   "date": "2026-11-22",
    "headline": {
-    "rating": "MARGINAL",
-    "label": "Outdoors OK, marginal for flying",
-    "note": "Cloudy; Las Vegas and Lake Mead around 9 mph; Desert Breeze gusts 11, diff 10",
-    "wind_mph": "5-9",
-    "gust_mph": "11-13",
-    "gust_diff_mph": "4-10",
-    "highs_f": "57-61"
+    "rating": "GOOD",
+    "label": "Low wind",
+    "note": "Cloudy; light winds across all three spots",
+    "wind_mph": "5-6",
+    "gust_mph": "6-8",
+    "gust_diff_mph": "3-5",
+    "highs_f": "58-62"
    },
-   "top_pick_rank": null,
+   "top_pick_rank": 4,
    "locations": {
     "las_vegas": {
-     "sustained": 9,
+     "sustained": 6,
      "sustained_avg": 4,
-     "gust": 12,
-     "diff": 4,
-     "direction": 42,
+     "gust": 8,
+     "diff": 2,
+     "direction": 88,
      "rain": 0,
      "high": 60,
      "low": 40,
      "day_temp_max": 60,
-     "code": 0,
+     "code": 3,
      "hourly": [
       {
        "h": 7,
-       "w": 9,
-       "g": 12,
-       "dir": 298
+       "w": 3,
+       "g": 3,
+       "dir": 310
       },
       {
        "h": 8,
-       "w": 5,
-       "g": 12,
-       "dir": 291
+       "w": 2,
+       "g": 2,
+       "dir": 265
       },
       {
        "h": 9,
-       "w": 7,
+       "w": 2,
        "g": 8,
-       "dir": 342
+       "dir": 120
       },
       {
        "h": 10,
-       "w": 3,
-       "g": 6,
-       "dir": 91
-      },
-      {
-       "h": 11,
-       "w": 3,
-       "g": 4,
-       "dir": 71
-      },
-      {
-       "h": 12,
-       "w": 2,
-       "g": 2,
-       "dir": 73
-      },
-      {
-       "h": 13,
-       "w": 2,
-       "g": 2,
+       "w": 4,
+       "g": 7,
        "dir": 79
       },
       {
-       "h": 14,
-       "w": 3,
-       "g": 3,
-       "dir": 102
-      },
-      {
-       "h": 15,
-       "w": 3,
-       "g": 3,
-       "dir": 116
-      },
-      {
-       "h": 16,
-       "w": 4,
-       "g": 5,
-       "dir": 97
-      },
-      {
-       "h": 17,
-       "w": 5,
-       "g": 6,
-       "dir": 84
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": false,
-     "ratings": {
-      "outdoors": "GOOD",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "MARGINAL",
-      "paramotor": "MARGINAL",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "lake_mead": {
-     "sustained": 9,
-     "sustained_avg": 5,
-     "gust": 12,
-     "diff": 3,
-     "direction": 3,
-     "rain": 0,
-     "high": 61,
-     "low": 47,
-     "day_temp_max": 60,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 9,
-       "g": 12,
-       "dir": 292
-      },
-      {
-       "h": 8,
-       "w": 8,
-       "g": 11,
-       "dir": 312
-      },
-      {
-       "h": 9,
-       "w": 7,
-       "g": 11,
-       "dir": 347
-      },
-      {
-       "h": 10,
-       "w": 6,
-       "g": 9,
-       "dir": 357
-      },
-      {
        "h": 11,
-       "w": 6,
-       "g": 7,
-       "dir": 28
-      },
-      {
-       "h": 12,
-       "w": 6,
-       "g": 7,
-       "dir": 53
-      },
-      {
-       "h": 13,
-       "w": 6,
-       "g": 6,
-       "dir": 61
-      },
-      {
-       "h": 14,
-       "w": 4,
-       "g": 5,
-       "dir": 49
-      },
-      {
-       "h": 15,
-       "w": 3,
-       "g": 3,
-       "dir": 40
-      },
-      {
-       "h": 16,
-       "w": 2,
-       "g": 4,
-       "dir": 30
-      },
-      {
-       "h": 17,
-       "w": 1,
-       "g": 3,
-       "dir": 349
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": false,
-     "ratings": {
-      "outdoors": "GOOD",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "MARGINAL",
-      "paramotor": "MARGINAL",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "desert_breeze": {
-     "sustained": 5,
-     "sustained_avg": 3,
-     "gust": 11,
-     "diff": 6,
-     "direction": 132,
-     "rain": 0,
-     "high": 57,
-     "low": 37,
-     "day_temp_max": 57,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
        "w": 5,
-       "g": 6,
-       "dir": 212
-      },
-      {
-       "h": 8,
-       "w": 3,
-       "g": 3,
-       "dir": 200
-      },
-      {
-       "h": 9,
-       "w": 2,
-       "g": 11,
-       "dir": 45
-      },
-      {
-       "h": 10,
-       "w": 4,
-       "g": 8,
-       "dir": 10
-      },
-      {
-       "h": 11,
-       "w": 3,
        "g": 5,
        "dir": 69
       },
       {
        "h": 12,
-       "w": 2,
-       "g": 5,
-       "dir": 129
+       "w": 3,
+       "g": 4,
+       "dir": 84
       },
       {
        "h": 13,
-       "w": 2,
-       "g": 3,
-       "dir": 142
+       "w": 4,
+       "g": 4,
+       "dir": 106
       },
       {
        "h": 14,
-       "w": 3,
-       "g": 3,
-       "dir": 154
+       "w": 6,
+       "g": 6,
+       "dir": 115
       },
       {
        "h": 15,
-       "w": 3,
-       "g": 4,
-       "dir": 154
+       "w": 6,
+       "g": 6,
+       "dir": 114
       },
       {
        "h": 16,
-       "w": 3,
-       "g": 4,
-       "dir": 127
+       "w": 4,
+       "g": 6,
+       "dir": 82
       },
       {
        "h": 17,
+       "w": 4,
+       "g": 5,
+       "dir": 52
+      }
+     ],
+     "condition": "Overcast",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "lake_mead": {
+     "sustained": 5,
+     "sustained_avg": 4,
+     "gust": 6,
+     "diff": 1,
+     "direction": 9,
+     "rain": 0,
+     "high": 61,
+     "low": 44,
+     "day_temp_max": 61,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 5,
+       "g": 5,
+       "dir": 302
+      },
+      {
+       "h": 8,
+       "w": 4,
+       "g": 6,
+       "dir": 304
+      },
+      {
+       "h": 9,
+       "w": 5,
+       "g": 6,
+       "dir": 1
+      },
+      {
+       "h": 10,
+       "w": 5,
+       "g": 5,
+       "dir": 27
+      },
+      {
+       "h": 11,
+       "w": 5,
+       "g": 5,
+       "dir": 32
+      },
+      {
+       "h": 12,
+       "w": 4,
+       "g": 4,
+       "dir": 29
+      },
+      {
+       "h": 13,
+       "w": 4,
+       "g": 6,
+       "dir": 41
+      },
+      {
+       "h": 14,
+       "w": 4,
+       "g": 6,
+       "dir": 59
+      },
+      {
+       "h": 15,
+       "w": 2,
+       "g": 5,
+       "dir": 50
+      },
+      {
+       "h": 16,
+       "w": 2,
+       "g": 6,
+       "dir": 11
+      },
+      {
+       "h": 17,
+       "w": 2,
+       "g": 3,
+       "dir": 286
+      }
+     ],
+     "condition": "Overcast",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "BEST",
+      "drones": "BEST",
+      "rc": "BEST",
+      "paramotor": "BEST",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "desert_breeze": {
+     "sustained": 6,
+     "sustained_avg": 3,
+     "gust": 7,
+     "diff": 1,
+     "direction": 97,
+     "rain": 0,
+     "high": 58,
+     "low": 40,
+     "day_temp_max": 58,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 6,
+       "g": 6,
+       "dir": 282
+      },
+      {
+       "h": 8,
+       "w": 4,
+       "g": 5,
+       "dir": 281
+      },
+      {
+       "h": 9,
+       "w": 0,
+       "g": 4,
+       "dir": 52
+      },
+      {
+       "h": 10,
+       "w": 2,
+       "g": 4,
+       "dir": 106
+      },
+      {
+       "h": 11,
+       "w": 3,
+       "g": 3,
+       "dir": 99
+      },
+      {
+       "h": 12,
+       "w": 3,
+       "g": 3,
+       "dir": 108
+      },
+      {
+       "h": 13,
+       "w": 4,
+       "g": 6,
+       "dir": 119
+      },
+      {
+       "h": 14,
+       "w": 4,
+       "g": 7,
+       "dir": 118
+      },
+      {
+       "h": 15,
+       "w": 4,
+       "g": 7,
+       "dir": 114
+      },
+      {
+       "h": 16,
+       "w": 4,
+       "g": 5,
+       "dir": 72
+      },
+      {
+       "h": 17,
+       "w": 4,
+       "g": 6,
+       "dir": 57
+      }
+     ],
+     "condition": "Overcast",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "brian_head": {
+     "sustained": 19,
+     "sustained_avg": 16,
+     "gust": 26,
+     "diff": 7,
+     "direction": 179,
+     "rain": 0,
+     "high": 29,
+     "low": 21,
+     "day_temp_max": 29,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 18,
+       "g": 22,
+       "dir": 173
+      },
+      {
+       "h": 8,
+       "w": 19,
+       "g": 23,
+       "dir": 174
+      },
+      {
+       "h": 9,
+       "w": 19,
+       "g": 26,
+       "dir": 179
+      },
+      {
+       "h": 10,
+       "w": 17,
+       "g": 25,
+       "dir": 186
+      },
+      {
+       "h": 11,
+       "w": 17,
+       "g": 24,
+       "dir": 186
+      },
+      {
+       "h": 12,
+       "w": 15,
+       "g": 22,
+       "dir": 187
+      },
+      {
+       "h": 13,
+       "w": 14,
+       "g": 21,
+       "dir": 184
+      },
+      {
+       "h": 14,
+       "w": 13,
+       "g": 21,
+       "dir": 185
+      },
+      {
+       "h": 15,
+       "w": 13,
+       "g": 22,
+       "dir": 180
+      },
+      {
+       "h": 16,
+       "w": 14,
+       "g": 20,
+       "dir": 170
+      },
+      {
+       "h": 17,
+       "w": 16,
+       "g": 20,
+       "dir": 166
+      }
+     ],
+     "condition": "Overcast",
+     "snowfall_in": 0.0,
+     "snow_depth_in": 9.4,
+     "low_wind": false,
+     "ratings": {
+      "outdoors": "MARGINAL",
+      "lake": "NO-GO",
+      "drones": "NO-GO",
+      "rc": "NO-GO",
+      "paramotor": "NO-GO",
+      "skiing": "NO-GO"
+     },
+     "skiing_derived": "NO-GO",
+     "skiing_source": "gordon"
+    }
+   },
+   "gordon_locations": {
+    "brian_head": {
+     "wind_mph": 19,
+     "gust_mph": 26,
+     "gust_diff_mph": 8,
+     "high_f": 29,
+     "low_f": 21,
+     "snowfall_in": 0,
+     "snow_depth_in": 9.4,
+     "low_wind": "NO",
+     "skiing": "NO-GO",
+     "skiing_note": "About 8-9 inches of model snow base and no new snow; still short of a GOOD skiing day. Check resort for opening/snowmaking"
+    }
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "headline": {
+    "rating": "GOOD",
+    "label": "Low wind",
+    "note": "Sunny; light winds across all three spots",
+    "wind_mph": "5-7",
+    "gust_mph": "8-9",
+    "gust_diff_mph": "5-6",
+    "highs_f": "61-65"
+   },
+   "top_pick_rank": 6,
+   "locations": {
+    "las_vegas": {
+     "sustained": 6,
+     "sustained_avg": 4,
+     "gust": 9,
+     "diff": 3,
+     "direction": 36,
+     "rain": 0,
+     "high": 63,
+     "low": 42,
+     "day_temp_max": 63,
+     "code": 0,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 6,
+       "g": 6,
+       "dir": 277
+      },
+      {
+       "h": 8,
+       "w": 2,
+       "g": 3,
+       "dir": 293
+      },
+      {
+       "h": 9,
+       "w": 3,
+       "g": 8,
+       "dir": 332
+      },
+      {
+       "h": 10,
+       "w": 3,
+       "g": 5,
+       "dir": 9
+      },
+      {
+       "h": 11,
+       "w": 4,
+       "g": 8,
+       "dir": 43
+      },
+      {
+       "h": 12,
        "w": 5,
        "g": 7,
-       "dir": 113
+       "dir": 44
+      },
+      {
+       "h": 13,
+       "w": 5,
+       "g": 6,
+       "dir": 48
+      },
+      {
+       "h": 14,
+       "w": 5,
+       "g": 6,
+       "dir": 52
+      },
+      {
+       "h": 15,
+       "w": 6,
+       "g": 8,
+       "dir": 67
+      },
+      {
+       "h": 16,
+       "w": 5,
+       "g": 8,
+       "dir": 74
+      },
+      {
+       "h": 17,
+       "w": 6,
+       "g": 9,
+       "dir": 65
       }
      ],
      "condition": "Clear",
@@ -526,88 +742,270 @@
      },
      "skiing_source": null
     },
-    "brian_head": {
-     "sustained": 9,
-     "sustained_avg": 5,
-     "gust": 15,
-     "diff": 6,
-     "direction": 71,
+    "lake_mead": {
+     "sustained": 7,
+     "sustained_avg": 4,
+     "gust": 8,
+     "diff": 2,
+     "direction": 47,
      "rain": 0,
-     "high": 25,
-     "low": 6,
-     "day_temp_max": 25,
+     "high": 64,
+     "low": 48,
+     "day_temp_max": 64,
      "code": 0,
      "hourly": [
       {
        "h": 7,
-       "w": 9,
-       "g": 13,
-       "dir": 89
+       "w": 4,
+       "g": 4,
+       "dir": 204
       },
       {
        "h": 8,
-       "w": 8,
-       "g": 14,
-       "dir": 79
+       "w": 4,
+       "g": 4,
+       "dir": 202
       },
       {
        "h": 9,
-       "w": 8,
-       "g": 15,
-       "dir": 71
+       "w": 2,
+       "g": 2,
+       "dir": 84
       },
       {
        "h": 10,
-       "w": 7,
-       "g": 14,
-       "dir": 53
+       "w": 4,
+       "g": 4,
+       "dir": 63
       },
       {
        "h": 11,
+       "w": 4,
+       "g": 6,
+       "dir": 39
+      },
+      {
+       "h": 12,
        "w": 5,
-       "g": 11,
-       "dir": 45
+       "g": 6,
+       "dir": 32
+      },
+      {
+       "h": 13,
+       "w": 5,
+       "g": 8,
+       "dir": 28
+      },
+      {
+       "h": 14,
+       "w": 4,
+       "g": 8,
+       "dir": 27
+      },
+      {
+       "h": 15,
+       "w": 3,
+       "g": 8,
+       "dir": 27
+      },
+      {
+       "h": 16,
+       "w": 2,
+       "g": 7,
+       "dir": 356
+      },
+      {
+       "h": 17,
+       "w": 7,
+       "g": 8,
+       "dir": 57
+      }
+     ],
+     "condition": "Clear",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "desert_breeze": {
+     "sustained": 5,
+     "sustained_avg": 4,
+     "gust": 9,
+     "diff": 4,
+     "direction": 54,
+     "rain": 0,
+     "high": 61,
+     "low": 42,
+     "day_temp_max": 61,
+     "code": 0,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 3,
+       "g": 3,
+       "dir": 267
+      },
+      {
+       "h": 8,
+       "w": 3,
+       "g": 3,
+       "dir": 263
+      },
+      {
+       "h": 9,
+       "w": 2,
+       "g": 6,
+       "dir": 153
+      },
+      {
+       "h": 10,
+       "w": 2,
+       "g": 8,
+       "dir": 24
+      },
+      {
+       "h": 11,
+       "w": 4,
+       "g": 7,
+       "dir": 26
       },
       {
        "h": 12,
        "w": 4,
-       "g": 9,
-       "dir": 8
+       "g": 6,
+       "dir": 47
       },
       {
        "h": 13,
-       "w": 3,
-       "g": 9,
-       "dir": 346
+       "w": 4,
+       "g": 6,
+       "dir": 59
       },
       {
        "h": 14,
-       "w": 1,
-       "g": 8,
-       "dir": 272
+       "w": 5,
+       "g": 7,
+       "dir": 57
       },
       {
        "h": 15,
-       "w": 1,
-       "g": 8,
-       "dir": 239
+       "w": 5,
+       "g": 9,
+       "dir": 69
       },
       {
        "h": 16,
-       "w": 3,
-       "g": 6,
-       "dir": 195
+       "w": 4,
+       "g": 8,
+       "dir": 82
       },
       {
        "h": 17,
-       "w": 5,
-       "g": 5,
-       "dir": 187
+       "w": 4,
+       "g": 9,
+       "dir": 73
       }
      ],
      "condition": "Clear",
-     "snowfall_in": 0.0,
-     "snow_depth_in": 10.6,
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "BEST",
+      "drones": "BEST",
+      "rc": "BEST",
+      "paramotor": "GOOD",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "brian_head": {
+     "sustained": 9,
+     "sustained_avg": 7,
+     "gust": 14,
+     "diff": 5,
+     "direction": 339,
+     "rain": 1,
+     "high": 26,
+     "low": 17,
+     "day_temp_max": 26,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 5,
+       "g": 9,
+       "dir": 226
+      },
+      {
+       "h": 8,
+       "w": 5,
+       "g": 7,
+       "dir": 274
+      },
+      {
+       "h": 9,
+       "w": 5,
+       "g": 7,
+       "dir": 312
+      },
+      {
+       "h": 10,
+       "w": 8,
+       "g": 9,
+       "dir": 330
+      },
+      {
+       "h": 11,
+       "w": 9,
+       "g": 10,
+       "dir": 335
+      },
+      {
+       "h": 12,
+       "w": 7,
+       "g": 10,
+       "dir": 356
+      },
+      {
+       "h": 13,
+       "w": 8,
+       "g": 12,
+       "dir": 352
+      },
+      {
+       "h": 14,
+       "w": 8,
+       "g": 14,
+       "dir": 352
+      },
+      {
+       "h": 15,
+       "w": 9,
+       "g": 13,
+       "dir": 345
+      },
+      {
+       "h": 16,
+       "w": 8,
+       "g": 14,
+       "dir": 357
+      },
+      {
+       "h": 17,
+       "w": 8,
+       "g": 13,
+       "dir": 12
+      }
+     ],
+     "condition": "Overcast",
+     "snowfall_in": 0.4,
+     "snow_depth_in": 8.7,
      "low_wind": false,
      "ratings": {
       "outdoors": "GOOD",
@@ -624,53 +1022,236 @@
    "gordon_locations": {
     "brian_head": {
      "wind_mph": 9,
-     "gust_mph": 15,
-     "gust_diff_mph": 7,
+     "gust_mph": 14,
+     "gust_diff_mph": 6,
      "high_f": 26,
-     "low_f": 6,
-     "snowfall_in": 0.0,
+     "low_f": 17,
+     "snowfall_in": 0.39,
+     "snow_depth_in": 8.7,
      "low_wind": "NO",
      "skiing": "NO-GO",
-     "skiing_note": "About 10-11 inches of model snow base and no new snow; still short of a GOOD skiing day. Check resort for opening/snowmaking"
+     "skiing_note": "Light snow (~0.4 inch) but model base stays under 12 inches; still short of a GOOD skiing day. Check resort for opening/snowmaking"
     }
    }
   },
   {
-   "date": "2026-11-22",
+   "date": "2026-11-24",
    "headline": {
-    "rating": "MARGINAL",
-    "label": "Gusty, marginal for flying",
-    "note": "Cloudy; Lake Mead 11 mph, gusts 20, diff 10; fine for general outdoors",
-    "wind_mph": "8-11",
-    "gust_mph": "11-20",
-    "gust_diff_mph": "5-10",
-    "highs_f": "60-65"
+    "rating": "BEST",
+    "label": "Near calm",
+    "note": "Morning clouds then sun; near calm across all three spots",
+    "wind_mph": "4",
+    "gust_mph": "5-6",
+    "gust_diff_mph": "1-3",
+    "highs_f": "57-63"
    },
-   "top_pick_rank": null,
+   "top_pick_rank": 2,
    "locations": {
     "las_vegas": {
-     "sustained": 8,
-     "sustained_avg": 5,
-     "gust": 12,
-     "diff": 4,
-     "direction": 104,
+     "sustained": 4,
+     "sustained_avg": 3,
+     "gust": 5,
+     "diff": 0,
+     "direction": 67,
      "rain": 0,
-     "high": 61,
-     "low": 41,
-     "day_temp_max": 61,
+     "high": 60,
+     "low": 44,
+     "day_temp_max": 60,
+     "code": 0,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 2,
+       "g": 1,
+       "dir": 135
+      },
+      {
+       "h": 8,
+       "w": 2,
+       "g": 2,
+       "dir": 101
+      },
+      {
+       "h": 9,
+       "w": 2,
+       "g": 2,
+       "dir": 85
+      },
+      {
+       "h": 10,
+       "w": 2,
+       "g": 2,
+       "dir": 77
+      },
+      {
+       "h": 11,
+       "w": 2,
+       "g": 2,
+       "dir": 68
+      },
+      {
+       "h": 12,
+       "w": 3,
+       "g": 3,
+       "dir": 63
+      },
+      {
+       "h": 13,
+       "w": 4,
+       "g": 4,
+       "dir": 59
+      },
+      {
+       "h": 14,
+       "w": 4,
+       "g": 5,
+       "dir": 60
+      },
+      {
+       "h": 15,
+       "w": 4,
+       "g": 5,
+       "dir": 54
+      },
+      {
+       "h": 16,
+       "w": 4,
+       "g": 3,
+       "dir": 52
+      },
+      {
+       "h": 17,
+       "w": 3,
+       "g": 3,
+       "dir": 51
+      }
+     ],
+     "condition": "Clear",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "BEST",
+      "drones": "BEST",
+      "rc": "BEST",
+      "paramotor": "BEST",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "lake_mead": {
+     "sustained": 4,
+     "sustained_avg": 3,
+     "gust": 6,
+     "diff": 2,
+     "direction": 10,
+     "rain": 0,
+     "high": 60,
+     "low": 48,
+     "day_temp_max": 60,
      "code": 3,
      "hourly": [
       {
        "h": 7,
-       "w": 4,
+       "w": 3,
        "g": 4,
-       "dir": 241
+       "dir": 349
       },
       {
        "h": 8,
        "w": 3,
+       "g": 5,
+       "dir": 337
+      },
+      {
+       "h": 9,
+       "w": 3,
+       "g": 5,
+       "dir": 4
+      },
+      {
+       "h": 10,
+       "w": 3,
+       "g": 5,
+       "dir": 12
+      },
+      {
+       "h": 11,
+       "w": 4,
+       "g": 6,
+       "dir": 360
+      },
+      {
+       "h": 12,
+       "w": 4,
+       "g": 5,
+       "dir": 10
+      },
+      {
+       "h": 13,
+       "w": 4,
+       "g": 5,
+       "dir": 18
+      },
+      {
+       "h": 14,
+       "w": 4,
+       "g": 5,
+       "dir": 29
+      },
+      {
+       "h": 15,
+       "w": 4,
+       "g": 4,
+       "dir": 35
+      },
+      {
+       "h": 16,
+       "w": 3,
+       "g": 3,
+       "dir": 24
+      },
+      {
+       "h": 17,
+       "w": 2,
+       "g": 3,
+       "dir": 11
+      }
+     ],
+     "condition": "Overcast",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "BEST",
+      "drones": "BEST",
+      "rc": "BEST",
+      "paramotor": "BEST",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "desert_breeze": {
+     "sustained": 4,
+     "sustained_avg": 2,
+     "gust": 6,
+     "diff": 3,
+     "direction": 96,
+     "rain": 0,
+     "high": 55,
+     "low": 45,
+     "day_temp_max": 55,
+     "code": 0,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 1,
        "g": 2,
-       "dir": 228
+       "dir": 214
+      },
+      {
+       "h": 8,
+       "w": 1,
+       "g": 3,
+       "dir": 127
       },
       {
        "h": 9,
@@ -680,1117 +1261,145 @@
       },
       {
        "h": 10,
-       "w": 3,
-       "g": 3,
-       "dir": 79
-      },
-      {
-       "h": 11,
-       "w": 5,
-       "g": 7,
-       "dir": 96
-      },
-      {
-       "h": 12,
-       "w": 4,
-       "g": 8,
-       "dir": 122
-      },
-      {
-       "h": 13,
-       "w": 6,
-       "g": 8,
-       "dir": 121
-      },
-      {
-       "h": 14,
-       "w": 6,
-       "g": 12,
-       "dir": 112
-      },
-      {
-       "h": 15,
-       "w": 8,
-       "g": 10,
-       "dir": 101
-      },
-      {
-       "h": 16,
-       "w": 6,
-       "g": 10,
-       "dir": 85
-      },
-      {
-       "h": 17,
-       "w": 5,
-       "g": 11,
-       "dir": 46
-      }
-     ],
-     "condition": "Overcast",
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "lake_mead": {
-     "sustained": 11,
-     "sustained_avg": 5,
-     "gust": 20,
-     "diff": 10,
-     "direction": 114,
-     "rain": 0,
-     "high": 65,
-     "low": 46,
-     "day_temp_max": 65,
-     "code": 3,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 4,
-       "g": 4,
-       "dir": 282
-      },
-      {
-       "h": 8,
-       "w": 4,
-       "g": 4,
-       "dir": 294
-      },
-      {
-       "h": 9,
-       "w": 3,
-       "g": 3,
-       "dir": 1
-      },
-      {
-       "h": 10,
-       "w": 4,
-       "g": 4,
-       "dir": 20
-      },
-      {
-       "h": 11,
-       "w": 4,
-       "g": 4,
-       "dir": 46
-      },
-      {
-       "h": 12,
-       "w": 4,
-       "g": 7,
-       "dir": 45
-      },
-      {
-       "h": 13,
-       "w": 5,
-       "g": 8,
-       "dir": 59
-      },
-      {
-       "h": 14,
-       "w": 4,
-       "g": 8,
-       "dir": 69
-      },
-      {
-       "h": 15,
-       "w": 7,
-       "g": 10,
-       "dir": 142
-      },
-      {
-       "h": 16,
-       "w": 10,
-       "g": 17,
-       "dir": 161
-      },
-      {
-       "h": 17,
-       "w": 11,
-       "g": 20,
-       "dir": 175
-      }
-     ],
-     "condition": "Overcast",
-     "low_wind": false,
-     "ratings": {
-      "outdoors": "GOOD",
-      "lake": "MARGINAL",
-      "drones": "MARGINAL",
-      "rc": "NO-GO",
-      "paramotor": "NO-GO",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "desert_breeze": {
-     "sustained": 8,
-     "sustained_avg": 4,
-     "gust": 11,
-     "diff": 4,
-     "direction": 87,
-     "rain": 0,
-     "high": 60,
-     "low": 41,
-     "day_temp_max": 60,
-     "code": 3,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 4,
-       "g": 4,
-       "dir": 324
-      },
-      {
-       "h": 8,
-       "w": 3,
-       "g": 3,
-       "dir": 329
-      },
-      {
-       "h": 9,
-       "w": 1,
-       "g": 2,
-       "dir": 97
-      },
-      {
-       "h": 10,
        "w": 2,
-       "g": 2,
-       "dir": 106
+       "g": 6,
+       "dir": 114
       },
       {
        "h": 11,
-       "w": 4,
-       "g": 8,
-       "dir": 122
-      },
-      {
-       "h": 12,
-       "w": 4,
-       "g": 7,
-       "dir": 135
-      },
-      {
-       "h": 13,
-       "w": 5,
-       "g": 10,
-       "dir": 122
-      },
-      {
-       "h": 14,
-       "w": 6,
-       "g": 11,
-       "dir": 107
-      },
-      {
-       "h": 15,
-       "w": 8,
-       "g": 11,
+       "w": 3,
+       "g": 6,
        "dir": 99
       },
       {
+       "h": 12,
+       "w": 3,
+       "g": 6,
+       "dir": 98
+      },
+      {
+       "h": 13,
+       "w": 4,
+       "g": 6,
+       "dir": 83
+      },
+      {
+       "h": 14,
+       "w": 4,
+       "g": 6,
+       "dir": 87
+      },
+      {
+       "h": 15,
+       "w": 3,
+       "g": 5,
+       "dir": 85
+      },
+      {
        "h": 16,
-       "w": 6,
-       "g": 11,
-       "dir": 75
+       "w": 2,
+       "g": 4,
+       "dir": 80
       },
       {
        "h": 17,
-       "w": 6,
-       "g": 10,
-       "dir": 358
+       "w": 1,
+       "g": 2,
+       "dir": 90
       }
      ],
-     "condition": "Overcast",
+     "condition": "Clear",
      "low_wind": true,
      "ratings": {
       "outdoors": "BEST",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD",
+      "lake": "BEST",
+      "drones": "BEST",
+      "rc": "BEST",
+      "paramotor": "BEST",
       "skiing": "N/A"
      },
      "skiing_source": null
     },
     "brian_head": {
-     "sustained": 23,
-     "sustained_avg": 19,
-     "gust": 31,
-     "diff": 8,
-     "direction": 170,
+     "sustained": 8,
+     "sustained_avg": 5,
+     "gust": 5,
+     "diff": 0,
+     "direction": 147,
      "rain": 0,
-     "high": 27,
-     "low": 20,
-     "day_temp_max": 27,
-     "code": 3,
+     "high": 35,
+     "low": 17,
+     "day_temp_max": 35,
+     "code": 0,
      "hourly": [
       {
        "h": 7,
-       "w": 20,
-       "g": 24,
-       "dir": 171
+       "w": 6,
+       "g": 4,
+       "dir": 136
       },
       {
        "h": 8,
-       "w": 20,
-       "g": 26,
-       "dir": 169
+       "w": 5,
+       "g": 4,
+       "dir": 131
       },
       {
        "h": 9,
-       "w": 20,
-       "g": 26,
+       "w": 3,
+       "g": 4,
+       "dir": 155
+      },
+      {
+       "h": 10,
+       "w": 3,
+       "g": 3,
+       "dir": 157
+      },
+      {
+       "h": 11,
+       "w": 3,
+       "g": 3,
+       "dir": 172
+      },
+      {
+       "h": 12,
+       "w": 4,
+       "g": 4,
        "dir": 167
       },
       {
-       "h": 10,
-       "w": 18,
-       "g": 25,
-       "dir": 169
-      },
-      {
-       "h": 11,
-       "w": 16,
-       "g": 25,
-       "dir": 175
-      },
-      {
-       "h": 12,
-       "w": 17,
-       "g": 27,
-       "dir": 180
-      },
-      {
        "h": 13,
-       "w": 17,
-       "g": 27,
-       "dir": 176
-      },
-      {
-       "h": 14,
-       "w": 17,
-       "g": 28,
-       "dir": 170
-      },
-      {
-       "h": 15,
-       "w": 19,
-       "g": 29,
-       "dir": 170
-      },
-      {
-       "h": 16,
-       "w": 21,
-       "g": 30,
-       "dir": 161
-      },
-      {
-       "h": 17,
-       "w": 23,
-       "g": 31,
+       "w": 4,
+       "g": 4,
        "dir": 162
-      }
-     ],
-     "condition": "Overcast",
-     "snowfall_in": 0.0,
-     "snow_depth_in": 9.4,
-     "low_wind": false,
-     "ratings": {
-      "outdoors": "NO-GO",
-      "lake": "NO-GO",
-      "drones": "NO-GO",
-      "rc": "NO-GO",
-      "paramotor": "NO-GO",
-      "skiing": "NO-GO"
-     },
-     "skiing_derived": "NO-GO",
-     "skiing_source": "gordon"
-    }
-   },
-   "gordon_locations": {
-    "brian_head": {
-     "wind_mph": 23,
-     "gust_mph": 31,
-     "gust_diff_mph": 11,
-     "high_f": 28,
-     "low_f": 21,
-     "snowfall_in": 0.0,
-     "low_wind": "NO",
-     "skiing": "NO-GO",
-     "skiing_note": "About 8-9 inches of model snow base and no new snow; still short of a GOOD skiing day. Check resort for opening/snowmaking"
-    }
-   }
-  },
-  {
-   "date": "2026-11-23",
-   "headline": {
-    "rating": "GOOD",
-    "label": "Low wind",
-    "note": "Cloudy; light winds across all three spots",
-    "wind_mph": "5-7",
-    "gust_mph": "7-9",
-    "gust_diff_mph": "2-3",
-    "highs_f": "59-63"
-   },
-   "top_pick_rank": 3,
-   "locations": {
-    "las_vegas": {
-     "sustained": 5,
-     "sustained_avg": 4,
-     "gust": 7,
-     "diff": 2,
-     "direction": 16,
-     "rain": 0,
-     "high": 61,
-     "low": 42,
-     "day_temp_max": 61,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 4,
-       "g": 6,
-       "dir": 319
-      },
-      {
-       "h": 8,
-       "w": 4,
-       "g": 7,
-       "dir": 322
-      },
-      {
-       "h": 9,
-       "w": 4,
-       "g": 7,
-       "dir": 331
-      },
-      {
-       "h": 10,
-       "w": 4,
-       "g": 7,
-       "dir": 351
-      },
-      {
-       "h": 11,
-       "w": 5,
-       "g": 7,
-       "dir": 3
-      },
-      {
-       "h": 12,
-       "w": 4,
-       "g": 7,
-       "dir": 12
-      },
-      {
-       "h": 13,
-       "w": 4,
-       "g": 7,
-       "dir": 35
-      },
-      {
-       "h": 14,
-       "w": 5,
-       "g": 7,
-       "dir": 47
-      },
-      {
-       "h": 15,
-       "w": 4,
-       "g": 6,
-       "dir": 54
-      },
-      {
-       "h": 16,
-       "w": 5,
-       "g": 4,
-       "dir": 65
-      },
-      {
-       "h": 17,
-       "w": 4,
-       "g": 4,
-       "dir": 55
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "BEST",
-      "drones": "BEST",
-      "rc": "BEST",
-      "paramotor": "BEST",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "lake_mead": {
-     "sustained": 7,
-     "sustained_avg": 5,
-     "gust": 9,
-     "diff": 2,
-     "direction": 339,
-     "rain": 0,
-     "high": 60,
-     "low": 47,
-     "day_temp_max": 60,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 4,
-       "g": 4,
-       "dir": 300
-      },
-      {
-       "h": 8,
-       "w": 3,
-       "g": 4,
-       "dir": 291
-      },
-      {
-       "h": 9,
-       "w": 4,
-       "g": 5,
-       "dir": 300
-      },
-      {
-       "h": 10,
-       "w": 4,
-       "g": 6,
-       "dir": 315
-      },
-      {
-       "h": 11,
-       "w": 5,
-       "g": 7,
-       "dir": 328
-      },
-      {
-       "h": 12,
-       "w": 7,
-       "g": 8,
-       "dir": 342
-      },
-      {
-       "h": 13,
-       "w": 7,
-       "g": 8,
-       "dir": 346
-      },
-      {
-       "h": 14,
-       "w": 7,
-       "g": 9,
-       "dir": 358
-      },
-      {
-       "h": 15,
-       "w": 6,
-       "g": 9,
-       "dir": 354
-      },
-      {
-       "h": 16,
-       "w": 6,
-       "g": 8,
-       "dir": 358
-      },
-      {
-       "h": 17,
-       "w": 4,
-       "g": 5,
-       "dir": 28
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "desert_breeze": {
-     "sustained": 6,
-     "sustained_avg": 4,
-     "gust": 8,
-     "diff": 2,
-     "direction": 29,
-     "rain": 0,
-     "high": 57,
-     "low": 43,
-     "day_temp_max": 57,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 3,
-       "g": 2,
-       "dir": 329
-      },
-      {
-       "h": 8,
-       "w": 2,
-       "g": 2,
-       "dir": 324
-      },
-      {
-       "h": 9,
-       "w": 2,
-       "g": 3,
-       "dir": 6
-      },
-      {
-       "h": 10,
-       "w": 3,
-       "g": 4,
-       "dir": 25
-      },
-      {
-       "h": 11,
-       "w": 5,
-       "g": 6,
-       "dir": 29
-      },
-      {
-       "h": 12,
-       "w": 5,
-       "g": 7,
-       "dir": 28
-      },
-      {
-       "h": 13,
-       "w": 6,
-       "g": 7,
-       "dir": 39
-      },
-      {
-       "h": 14,
-       "w": 6,
-       "g": 8,
-       "dir": 39
-      },
-      {
-       "h": 15,
-       "w": 5,
-       "g": 7,
-       "dir": 38
-      },
-      {
-       "h": 16,
-       "w": 5,
-       "g": 6,
-       "dir": 47
-      },
-      {
-       "h": 17,
-       "w": 4,
-       "g": 5,
-       "dir": 36
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "brian_head": {
-     "sustained": 8,
-     "sustained_avg": 5,
-     "gust": 11,
-     "diff": 2,
-     "direction": 324,
-     "rain": 7,
-     "high": 26,
-     "low": 15,
-     "day_temp_max": 26,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 2,
-       "g": 3,
-       "dir": 151
-      },
-      {
-       "h": 8,
-       "w": 2,
-       "g": 2,
-       "dir": 283
-      },
-      {
-       "h": 9,
-       "w": 4,
-       "g": 7,
-       "dir": 303
-      },
-      {
-       "h": 10,
-       "w": 6,
-       "g": 8,
-       "dir": 308
-      },
-      {
-       "h": 11,
-       "w": 6,
-       "g": 8,
-       "dir": 312
-      },
-      {
-       "h": 12,
-       "w": 6,
-       "g": 9,
-       "dir": 316
-      },
-      {
-       "h": 13,
-       "w": 7,
-       "g": 9,
-       "dir": 329
-      },
-      {
-       "h": 14,
-       "w": 8,
-       "g": 11,
-       "dir": 335
-      },
-      {
-       "h": 15,
-       "w": 6,
-       "g": 8,
-       "dir": 336
-      },
-      {
-       "h": 16,
-       "w": 4,
-       "g": 3,
-       "dir": 349
-      },
-      {
-       "h": 17,
-       "w": 2,
-       "g": 3,
-       "dir": 54
-      }
-     ],
-     "condition": "Clear",
-     "snowfall_in": 0.0,
-     "snow_depth_in": 2.8,
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD",
-      "skiing": "NO-GO"
-     },
-     "skiing_derived": "NO-GO",
-     "skiing_source": "gordon"
-    }
-   },
-   "gordon_locations": {
-    "brian_head": {
-     "wind_mph": 8,
-     "gust_mph": 11,
-     "gust_diff_mph": 2,
-     "high_f": 27,
-     "low_f": 15,
-     "snowfall_in": 0.0,
-     "low_wind": "YES",
-     "skiing": "NO-GO",
-     "skiing_note": "Model snow base thinning to roughly 2-3 inches and no new snow; still short of a GOOD skiing day. Check resort for opening/snowmaking"
-    }
-   }
-  },
-  {
-   "date": "2026-11-24",
-   "headline": {
-    "rating": "GOOD",
-    "label": "Low wind",
-    "note": "Cloudy; light winds across all three spots, Desert Breeze gusts to 8",
-    "wind_mph": "4-5",
-    "gust_mph": "5-8",
-    "gust_diff_mph": "1-6",
-    "highs_f": "58-63"
-   },
-   "top_pick_rank": 2,
-   "locations": {
-    "las_vegas": {
-     "sustained": 4,
-     "sustained_avg": 3,
-     "gust": 5,
-     "diff": 1,
-     "direction": 68,
-     "rain": 0,
-     "high": 60,
-     "low": 52,
-     "day_temp_max": 60,
-     "code": 3,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 3,
-       "g": 2,
-       "dir": 105
-      },
-      {
-       "h": 8,
-       "w": 2,
-       "g": 3,
-       "dir": 77
-      },
-      {
-       "h": 9,
-       "w": 2,
-       "g": 2,
-       "dir": 54
-      },
-      {
-       "h": 10,
-       "w": 2,
-       "g": 2,
-       "dir": 79
-      },
-      {
-       "h": 11,
-       "w": 4,
-       "g": 3,
-       "dir": 83
-      },
-      {
-       "h": 12,
-       "w": 4,
-       "g": 4,
-       "dir": 75
-      },
-      {
-       "h": 13,
-       "w": 4,
-       "g": 5,
-       "dir": 68
-      },
-      {
-       "h": 14,
-       "w": 4,
-       "g": 5,
-       "dir": 63
-      },
-      {
-       "h": 15,
-       "w": 4,
-       "g": 5,
-       "dir": 63
-      },
-      {
-       "h": 16,
-       "w": 4,
-       "g": 4,
-       "dir": 57
-      },
-      {
-       "h": 17,
-       "w": 3,
-       "g": 2,
-       "dir": 31
-      }
-     ],
-     "condition": "Overcast",
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "BEST",
-      "drones": "BEST",
-      "rc": "BEST",
-      "paramotor": "BEST",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "lake_mead": {
-     "sustained": 5,
-     "sustained_avg": 4,
-     "gust": 8,
-     "diff": 3,
-     "direction": 11,
-     "rain": 0,
-     "high": 60,
-     "low": 49,
-     "day_temp_max": 60,
-     "code": 3,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 3,
-       "g": 4,
-       "dir": 352
-      },
-      {
-       "h": 8,
-       "w": 3,
-       "g": 5,
-       "dir": 356
-      },
-      {
-       "h": 9,
-       "w": 4,
-       "g": 8,
-       "dir": 353
-      },
-      {
-       "h": 10,
-       "w": 4,
-       "g": 7,
-       "dir": 338
-      },
-      {
-       "h": 11,
-       "w": 4,
-       "g": 6,
-       "dir": 357
-      },
-      {
-       "h": 12,
-       "w": 5,
-       "g": 6,
-       "dir": 11
-      },
-      {
-       "h": 13,
-       "w": 4,
-       "g": 5,
-       "dir": 32
       },
       {
        "h": 14,
        "w": 4,
        "g": 4,
-       "dir": 38
+       "dir": 164
       },
       {
        "h": 15,
-       "w": 3,
-       "g": 4,
-       "dir": 53
+       "w": 4,
+       "g": 3,
+       "dir": 149
       },
       {
        "h": 16,
-       "w": 3,
-       "g": 3,
-       "dir": 51
-      },
-      {
-       "h": 17,
-       "w": 2,
-       "g": 3,
-       "dir": 350
-      }
-     ],
-     "condition": "Overcast",
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "BEST",
-      "drones": "BEST",
-      "rc": "BEST",
-      "paramotor": "BEST",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "desert_breeze": {
-     "sustained": 4,
-     "sustained_avg": 3,
-     "gust": 8,
-     "diff": 4,
-     "direction": 115,
-     "rain": 0,
-     "high": 56,
-     "low": 50,
-     "day_temp_max": 56,
-     "code": 3,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 2,
-       "g": 3,
-       "dir": 159
-      },
-      {
-       "h": 8,
-       "w": 2,
-       "g": 5,
-       "dir": 180
-      },
-      {
-       "h": 9,
-       "w": 1,
-       "g": 7,
-       "dir": 171
-      },
-      {
-       "h": 10,
-       "w": 2,
-       "g": 7,
-       "dir": 139
-      },
-      {
-       "h": 11,
-       "w": 4,
-       "g": 7,
-       "dir": 112
-      },
-      {
-       "h": 12,
-       "w": 4,
-       "g": 7,
-       "dir": 109
-      },
-      {
-       "h": 13,
-       "w": 4,
-       "g": 8,
-       "dir": 104
-      },
-      {
-       "h": 14,
-       "w": 3,
-       "g": 7,
-       "dir": 101
-      },
-      {
-       "h": 15,
-       "w": 3,
-       "g": 7,
-       "dir": 90
-      },
-      {
-       "h": 16,
-       "w": 2,
-       "g": 6,
-       "dir": 83
-      },
-      {
-       "h": 17,
-       "w": 1,
-       "g": 4,
-       "dir": 45
-      }
-     ],
-     "condition": "Overcast",
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "BEST",
-      "drones": "BEST",
-      "rc": "BEST",
-      "paramotor": "BEST",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "brian_head": {
-     "sustained": 8,
-     "sustained_avg": 5,
-     "gust": 6,
-     "diff": 0,
-     "direction": 133,
-     "rain": 0,
-     "high": 35,
-     "low": 16,
-     "day_temp_max": 35,
-     "code": 3,
-     "hourly": [
-      {
-       "h": 7,
        "w": 6,
        "g": 4,
-       "dir": 126
-      },
-      {
-       "h": 8,
-       "w": 5,
-       "g": 4,
-       "dir": 130
-      },
-      {
-       "h": 9,
-       "w": 3,
-       "g": 4,
-       "dir": 122
-      },
-      {
-       "h": 10,
-       "w": 3,
-       "g": 4,
-       "dir": 124
-      },
-      {
-       "h": 11,
-       "w": 4,
-       "g": 4,
-       "dir": 120
-      },
-      {
-       "h": 12,
-       "w": 4,
-       "g": 4,
-       "dir": 146
-      },
-      {
-       "h": 13,
-       "w": 5,
-       "g": 5,
-       "dir": 143
-      },
-      {
-       "h": 14,
-       "w": 5,
-       "g": 6,
-       "dir": 141
-      },
-      {
-       "h": 15,
-       "w": 5,
-       "g": 4,
-       "dir": 141
-      },
-      {
-       "h": 16,
-       "w": 7,
-       "g": 5,
-       "dir": 134
-      },
-      {
-       "h": 17,
-       "w": 8,
-       "g": 6,
        "dir": 135
+      },
+      {
+       "h": 17,
+       "w": 8,
+       "g": 5,
+       "dir": 133
       }
      ],
-     "condition": "Overcast",
+     "condition": "Clear",
      "snowfall_in": 0.0,
      "snow_depth_in": 2.0,
      "low_wind": true,
@@ -1809,11 +1418,12 @@
    "gordon_locations": {
     "brian_head": {
      "wind_mph": 8,
-     "gust_mph": 6,
+     "gust_mph": 5,
      "gust_diff_mph": 1,
      "high_f": 35,
-     "low_f": 16,
-     "snowfall_in": 0.0,
+     "low_f": 17,
+     "snowfall_in": 0,
+     "snow_depth_in": 2,
      "low_wind": "YES",
      "skiing": "NO-GO",
      "skiing_note": "Model snow base thinning to roughly 1-2 inches and no new snow; still short of a GOOD skiing day. Check resort for opening/snowmaking"
@@ -1825,91 +1435,883 @@
    "headline": {
     "rating": "BEST",
     "label": "Near calm",
-    "note": "Cloudy; lightest winds of the week across all three spots",
-    "wind_mph": "4-5",
-    "gust_mph": "4-6",
+    "note": "Morning clouds then sun; near calm across all three spots",
+    "wind_mph": "4-6",
+    "gust_mph": "4-5",
     "gust_diff_mph": "1-3",
-    "highs_f": "57-62"
+    "highs_f": "58-64"
    },
-   "top_pick_rank": 1,
+   "top_pick_rank": 3,
    "locations": {
     "las_vegas": {
      "sustained": 4,
      "sustained_avg": 3,
-     "gust": 6,
-     "diff": 1,
-     "direction": 61,
+     "gust": 4,
+     "diff": 0,
+     "direction": 50,
      "rain": 1,
-     "high": 58,
-     "low": 54,
-     "day_temp_max": 58,
+     "high": 61,
+     "low": 55,
+     "day_temp_max": 61,
      "code": 3,
      "hourly": [
       {
        "h": 7,
-       "w": 1,
-       "g": 2,
-       "dir": 18
+       "w": 2,
+       "g": 1,
+       "dir": 319
       },
       {
        "h": 8,
-       "w": 2,
-       "g": 2,
-       "dir": 34
+       "w": 1,
+       "g": 1,
+       "dir": 360
       },
       {
        "h": 9,
        "w": 2,
-       "g": 4,
+       "g": 2,
        "dir": 37
       },
       {
        "h": 10,
        "w": 3,
-       "g": 5,
-       "dir": 56
+       "g": 3,
+       "dir": 70
       },
       {
        "h": 11,
-       "w": 4,
-       "g": 6,
-       "dir": 68
+       "w": 2,
+       "g": 2,
+       "dir": 37
       },
       {
        "h": 12,
-       "w": 4,
-       "g": 6,
-       "dir": 73
+       "w": 3,
+       "g": 3,
+       "dir": 32
       },
       {
        "h": 13,
-       "w": 3,
-       "g": 6,
-       "dir": 98
+       "w": 4,
+       "g": 4,
+       "dir": 45
       },
       {
        "h": 14,
-       "w": 4,
-       "g": 6,
-       "dir": 90
+       "w": 3,
+       "g": 3,
+       "dir": 67
       },
       {
        "h": 15,
        "w": 3,
+       "g": 3,
+       "dir": 79
+      },
+      {
+       "h": 16,
+       "w": 3,
+       "g": 4,
+       "dir": 74
+      },
+      {
+       "h": 17,
+       "w": 3,
+       "g": 2,
+       "dir": 59
+      }
+     ],
+     "condition": "Overcast",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "BEST",
+      "drones": "BEST",
+      "rc": "BEST",
+      "paramotor": "BEST",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "lake_mead": {
+     "sustained": 5,
+     "sustained_avg": 3,
+     "gust": 5,
+     "diff": 0,
+     "direction": 344,
+     "rain": 0,
+     "high": 61,
+     "low": 50,
+     "day_temp_max": 61,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 2,
+       "g": 2,
+       "dir": 63
+      },
+      {
+       "h": 8,
+       "w": 3,
+       "g": 3,
+       "dir": 301
+      },
+      {
+       "h": 9,
+       "w": 2,
+       "g": 3,
+       "dir": 326
+      },
+      {
+       "h": 10,
+       "w": 2,
+       "g": 3,
+       "dir": 333
+      },
+      {
+       "h": 11,
+       "w": 2,
+       "g": 4,
+       "dir": 49
+      },
+      {
+       "h": 12,
+       "w": 5,
        "g": 5,
+       "dir": 323
+      },
+      {
+       "h": 13,
+       "w": 4,
+       "g": 4,
+       "dir": 360
+      },
+      {
+       "h": 14,
+       "w": 4,
+       "g": 4,
+       "dir": 349
+      },
+      {
+       "h": 15,
+       "w": 3,
+       "g": 4,
+       "dir": 351
+      },
+      {
+       "h": 16,
+       "w": 3,
+       "g": 3,
+       "dir": 337
+      },
+      {
+       "h": 17,
+       "w": 3,
+       "g": 4,
+       "dir": 342
+      }
+     ],
+     "condition": "Overcast",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "BEST",
+      "drones": "BEST",
+      "rc": "BEST",
+      "paramotor": "BEST",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "desert_breeze": {
+     "sustained": 6,
+     "sustained_avg": 3,
+     "gust": 4,
+     "diff": 0,
+     "direction": 68,
+     "rain": 1,
+     "high": 56,
+     "low": 51,
+     "day_temp_max": 56,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 0,
+       "g": 3,
+       "dir": 297
+      },
+      {
+       "h": 8,
+       "w": 1,
+       "g": 2,
+       "dir": 101
+      },
+      {
+       "h": 9,
+       "w": 3,
+       "g": 1,
+       "dir": 66
+      },
+      {
+       "h": 10,
+       "w": 4,
+       "g": 2,
+       "dir": 81
+      },
+      {
+       "h": 11,
+       "w": 3,
+       "g": 2,
+       "dir": 69
+      },
+      {
+       "h": 12,
+       "w": 5,
+       "g": 3,
+       "dir": 58
+      },
+      {
+       "h": 13,
+       "w": 6,
+       "g": 4,
+       "dir": 55
+      },
+      {
+       "h": 14,
+       "w": 4,
+       "g": 4,
+       "dir": 68
+      },
+      {
+       "h": 15,
+       "w": 3,
+       "g": 4,
        "dir": 82
       },
       {
        "h": 16,
+       "w": 3,
+       "g": 4,
+       "dir": 81
+      },
+      {
+       "h": 17,
+       "w": 1,
+       "g": 3,
+       "dir": 31
+      }
+     ],
+     "condition": "Overcast",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "brian_head": {
+     "sustained": 8,
+     "sustained_avg": 5,
+     "gust": 7,
+     "diff": 0,
+     "direction": 177,
+     "rain": 7,
+     "high": 36,
+     "low": 22,
+     "day_temp_max": 36,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 8,
+       "g": 6,
+       "dir": 151
+      },
+      {
+       "h": 8,
+       "w": 8,
+       "g": 7,
+       "dir": 151
+      },
+      {
+       "h": 9,
+       "w": 7,
+       "g": 7,
+       "dir": 157
+      },
+      {
+       "h": 10,
+       "w": 6,
+       "g": 7,
+       "dir": 169
+      },
+      {
+       "h": 11,
+       "w": 5,
+       "g": 6,
+       "dir": 194
+      },
+      {
+       "h": 12,
+       "w": 4,
+       "g": 5,
+       "dir": 236
+      },
+      {
+       "h": 13,
        "w": 4,
        "g": 4,
-       "dir": 43
+       "dir": 267
+      },
+      {
+       "h": 14,
+       "w": 4,
+       "g": 3,
+       "dir": 267
+      },
+      {
+       "h": 15,
+       "w": 4,
+       "g": 4,
+       "dir": 264
+      },
+      {
+       "h": 16,
+       "w": 3,
+       "g": 4,
+       "dir": 81
       },
       {
        "h": 17,
        "w": 4,
+       "g": 3,
+       "dir": 112
+      }
+     ],
+     "condition": "Overcast",
+     "snowfall_in": 0.3,
+     "snow_depth_in": 0.8,
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "NO-GO"
+     },
+     "skiing_derived": "NO-GO",
+     "skiing_source": "gordon"
+    }
+   },
+   "gordon_locations": {
+    "brian_head": {
+     "wind_mph": 8,
+     "gust_mph": 7,
+     "gust_diff_mph": 2,
+     "high_f": 36,
+     "low_f": 22,
+     "snowfall_in": 0.28,
+     "snow_depth_in": 0.8,
+     "low_wind": "YES",
+     "skiing": "NO-GO",
+     "skiing_note": "Light snow (~0.3 inch) but model snow base is under an inch; still short of a GOOD skiing day. Check resort for opening/snowmaking"
+    }
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "headline": {
+    "rating": "MARGINAL",
+    "label": "Outdoors OK, marginal for flying",
+    "note": "Mostly sunny; Las Vegas gusts 14; fine for general outdoors",
+    "wind_mph": "6-8",
+    "gust_mph": "11-14",
+    "gust_diff_mph": "3-8",
+    "highs_f": "64-66"
+   },
+   "top_pick_rank": null,
+   "locations": {
+    "las_vegas": {
+     "sustained": 8,
+     "sustained_avg": 6,
+     "gust": 14,
+     "diff": 6,
+     "direction": 45,
+     "rain": 0,
+     "high": 65,
+     "low": 54,
+     "day_temp_max": 65,
+     "code": 0,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 8,
+       "g": 14,
+       "dir": 341
+      },
+      {
+       "h": 8,
+       "w": 7,
+       "g": 14,
+       "dir": 342
+      },
+      {
+       "h": 9,
+       "w": 8,
+       "g": 13,
+       "dir": 21
+      },
+      {
+       "h": 10,
+       "w": 6,
+       "g": 11,
+       "dir": 28
+      },
+      {
+       "h": 11,
+       "w": 6,
+       "g": 11,
+       "dir": 50
+      },
+      {
+       "h": 12,
+       "w": 4,
+       "g": 12,
+       "dir": 53
+      },
+      {
+       "h": 13,
+       "w": 6,
+       "g": 12,
+       "dir": 64
+      },
+      {
+       "h": 14,
+       "w": 6,
+       "g": 8,
+       "dir": 94
+      },
+      {
+       "h": 15,
+       "w": 6,
+       "g": 7,
+       "dir": 101
+      },
+      {
+       "h": 16,
+       "w": 5,
+       "g": 2,
+       "dir": 131
+      },
+      {
+       "h": 17,
+       "w": 2,
+       "g": 5,
+       "dir": 197
+      }
+     ],
+     "condition": "Clear",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "MARGINAL",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "lake_mead": {
+     "sustained": 6,
+     "sustained_avg": 5,
+     "gust": 11,
+     "diff": 5,
+     "direction": 339,
+     "rain": 0,
+     "high": 63,
+     "low": 50,
+     "day_temp_max": 63,
+     "code": 0,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 6,
+       "g": 6,
+       "dir": 333
+      },
+      {
+       "h": 8,
+       "w": 4,
+       "g": 6,
+       "dir": 345
+      },
+      {
+       "h": 9,
+       "w": 5,
+       "g": 7,
+       "dir": 335
+      },
+      {
+       "h": 10,
+       "w": 5,
+       "g": 9,
+       "dir": 332
+      },
+      {
+       "h": 11,
+       "w": 6,
+       "g": 11,
+       "dir": 344
+      },
+      {
+       "h": 12,
+       "w": 6,
+       "g": 10,
+       "dir": 334
+      },
+      {
+       "h": 13,
+       "w": 6,
+       "g": 10,
+       "dir": 355
+      },
+      {
+       "h": 14,
+       "w": 6,
+       "g": 10,
+       "dir": 4
+      },
+      {
+       "h": 15,
+       "w": 6,
+       "g": 11,
+       "dir": 356
+      },
+      {
+       "h": 16,
+       "w": 3,
        "g": 4,
-       "dir": 33
+       "dir": 299
+      },
+      {
+       "h": 17,
+       "w": 3,
+       "g": 3,
+       "dir": 266
+      }
+     ],
+     "condition": "Clear",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "desert_breeze": {
+     "sustained": 8,
+     "sustained_avg": 6,
+     "gust": 11,
+     "diff": 3,
+     "direction": 26,
+     "rain": 0,
+     "high": 62,
+     "low": 52,
+     "day_temp_max": 62,
+     "code": 0,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 8,
+       "g": 5,
+       "dir": 335
+      },
+      {
+       "h": 8,
+       "w": 6,
+       "g": 4,
+       "dir": 340
+      },
+      {
+       "h": 9,
+       "w": 7,
+       "g": 10,
+       "dir": 16
+      },
+      {
+       "h": 10,
+       "w": 8,
+       "g": 11,
+       "dir": 15
+      },
+      {
+       "h": 11,
+       "w": 7,
+       "g": 10,
+       "dir": 21
+      },
+      {
+       "h": 12,
+       "w": 6,
+       "g": 9,
+       "dir": 28
+      },
+      {
+       "h": 13,
+       "w": 6,
+       "g": 8,
+       "dir": 49
+      },
+      {
+       "h": 14,
+       "w": 6,
+       "g": 6,
+       "dir": 70
+      },
+      {
+       "h": 15,
+       "w": 6,
+       "g": 6,
+       "dir": 67
+      },
+      {
+       "h": 16,
+       "w": 4,
+       "g": 2,
+       "dir": 97
+      },
+      {
+       "h": 17,
+       "w": 1,
+       "g": 2,
+       "dir": 45
+      }
+     ],
+     "condition": "Clear",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "brian_head": {
+     "sustained": 8,
+     "sustained_avg": 5,
+     "gust": 8,
+     "diff": 0,
+     "direction": 356,
+     "rain": 1,
+     "high": 36,
+     "low": 21,
+     "day_temp_max": 36,
+     "code": 0,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 4,
+       "g": 3,
+       "dir": 22
+      },
+      {
+       "h": 8,
+       "w": 5,
+       "g": 4,
+       "dir": 16
+      },
+      {
+       "h": 9,
+       "w": 5,
+       "g": 5,
+       "dir": 2
+      },
+      {
+       "h": 10,
+       "w": 6,
+       "g": 5,
+       "dir": 360
+      },
+      {
+       "h": 11,
+       "w": 6,
+       "g": 4,
+       "dir": 331
+      },
+      {
+       "h": 12,
+       "w": 7,
+       "g": 6,
+       "dir": 347
+      },
+      {
+       "h": 13,
+       "w": 7,
+       "g": 6,
+       "dir": 342
+      },
+      {
+       "h": 14,
+       "w": 8,
+       "g": 8,
+       "dir": 333
+      },
+      {
+       "h": 15,
+       "w": 4,
+       "g": 4,
+       "dir": 3
+      },
+      {
+       "h": 16,
+       "w": 3,
+       "g": 2,
+       "dir": 23
+      },
+      {
+       "h": 17,
+       "w": 3,
+       "g": 3,
+       "dir": 32
+      }
+     ],
+     "condition": "Clear",
+     "snowfall_in": 0.0,
+     "snow_depth_in": 0.8,
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "NO-GO"
+     },
+     "skiing_derived": "NO-GO",
+     "skiing_source": "gordon"
+    }
+   },
+   "gordon_locations": {
+    "brian_head": {
+     "wind_mph": 8,
+     "gust_mph": 8,
+     "gust_diff_mph": 0,
+     "high_f": 36,
+     "low_f": 21,
+     "snowfall_in": 0,
+     "snow_depth_in": 0.8,
+     "low_wind": "YES",
+     "skiing": "NO-GO",
+     "skiing_note": "Model snow base thinning to under an inch and no new snow; still short of a GOOD skiing day. Check resort for opening/snowmaking"
+    }
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "headline": {
+    "rating": "BEST",
+    "label": "Near calm",
+    "note": "Sun then clouds; lightest winds of the week across all three spots",
+    "wind_mph": "2-4",
+    "gust_mph": "4-6",
+    "gust_diff_mph": "2-3",
+    "highs_f": "64-66"
+   },
+   "top_pick_rank": 1,
+   "locations": {
+    "las_vegas": {
+     "sustained": 2,
+     "sustained_avg": 2,
+     "gust": 4,
+     "diff": 1,
+     "direction": 102,
+     "rain": 0,
+     "high": 64,
+     "low": 56,
+     "day_temp_max": 64,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 2,
+       "g": 2,
+       "dir": 326
+      },
+      {
+       "h": 8,
+       "w": 1,
+       "g": 2,
+       "dir": 338
+      },
+      {
+       "h": 9,
+       "w": 1,
+       "g": 2,
+       "dir": 360
+      },
+      {
+       "h": 10,
+       "w": 1,
+       "g": 2,
+       "dir": 45
+      },
+      {
+       "h": 11,
+       "w": 1,
+       "g": 2,
+       "dir": 72
+      },
+      {
+       "h": 12,
+       "w": 2,
+       "g": 2,
+       "dir": 76
+      },
+      {
+       "h": 13,
+       "w": 2,
+       "g": 2,
+       "dir": 90
+      },
+      {
+       "h": 14,
+       "w": 2,
+       "g": 3,
+       "dir": 111
+      },
+      {
+       "h": 15,
+       "w": 2,
+       "g": 3,
+       "dir": 144
+      },
+      {
+       "h": 16,
+       "w": 2,
+       "g": 4,
+       "dir": 163
+      },
+      {
+       "h": 17,
+       "w": 2,
+       "g": 3,
+       "dir": 174
       }
      ],
      "condition": "Overcast",
@@ -1927,80 +2329,80 @@
     "lake_mead": {
      "sustained": 4,
      "sustained_avg": 3,
-     "gust": 4,
-     "diff": 0,
-     "direction": 3,
-     "rain": 2,
-     "high": 59,
-     "low": 50,
-     "day_temp_max": 59,
+     "gust": 6,
+     "diff": 2,
+     "direction": 326,
+     "rain": 0,
+     "high": 64,
+     "low": 52,
+     "day_temp_max": 64,
      "code": 3,
      "hourly": [
       {
        "h": 7,
-       "w": 3,
-       "g": 3,
-       "dir": 24
+       "w": 4,
+       "g": 4,
+       "dir": 324
       },
       {
        "h": 8,
-       "w": 3,
-       "g": 3,
-       "dir": 5
+       "w": 4,
+       "g": 4,
+       "dir": 324
       },
       {
        "h": 9,
        "w": 3,
-       "g": 3,
-       "dir": 360
+       "g": 4,
+       "dir": 328
       },
       {
        "h": 10,
        "w": 3,
-       "g": 3,
-       "dir": 343
+       "g": 4,
+       "dir": 330
       },
       {
        "h": 11,
        "w": 3,
-       "g": 4,
-       "dir": 12
+       "g": 5,
+       "dir": 335
       },
       {
        "h": 12,
-       "w": 3,
-       "g": 3,
-       "dir": 24
+       "w": 4,
+       "g": 6,
+       "dir": 338
       },
       {
        "h": 13,
-       "w": 2,
-       "g": 1,
-       "dir": 326
+       "w": 4,
+       "g": 6,
+       "dir": 339
       },
       {
        "h": 14,
-       "w": 2,
-       "g": 2,
-       "dir": 34
+       "w": 4,
+       "g": 5,
+       "dir": 333
       },
       {
        "h": 15,
-       "w": 1,
-       "g": 1,
-       "dir": 9
+       "w": 3,
+       "g": 4,
+       "dir": 318
       },
       {
        "h": 16,
        "w": 3,
        "g": 3,
-       "dir": 11
+       "dir": 305
       },
       {
        "h": 17,
-       "w": 4,
-       "g": 4,
-       "dir": 338
+       "w": 2,
+       "g": 2,
+       "dir": 299
       }
      ],
      "condition": "Overcast",
@@ -2016,82 +2418,82 @@
      "skiing_source": null
     },
     "desert_breeze": {
-     "sustained": 4,
-     "sustained_avg": 3,
+     "sustained": 3,
+     "sustained_avg": 2,
      "gust": 4,
-     "diff": 0,
-     "direction": 90,
-     "rain": 1,
-     "high": 54,
-     "low": 50,
-     "day_temp_max": 54,
+     "diff": 1,
+     "direction": 114,
+     "rain": 0,
+     "high": 62,
+     "low": 52,
+     "day_temp_max": 62,
      "code": 3,
      "hourly": [
       {
        "h": 7,
        "w": 1,
-       "g": 4,
-       "dir": 90
+       "g": 3,
+       "dir": 231
       },
       {
        "h": 8,
        "w": 1,
-       "g": 4,
-       "dir": 108
+       "g": 3,
+       "dir": 207
       },
       {
        "h": 9,
        "w": 1,
        "g": 4,
-       "dir": 79
+       "dir": 124
       },
       {
        "h": 10,
-       "w": 3,
+       "w": 2,
        "g": 4,
-       "dir": 81
+       "dir": 98
       },
       {
        "h": 11,
-       "w": 3,
-       "g": 3,
+       "w": 2,
+       "g": 4,
        "dir": 90
       },
       {
        "h": 12,
        "w": 3,
-       "g": 2,
-       "dir": 90
+       "g": 3,
+       "dir": 81
       },
       {
        "h": 13,
-       "w": 4,
+       "w": 3,
        "g": 2,
-       "dir": 117
+       "dir": 81
       },
       {
        "h": 14,
-       "w": 4,
+       "w": 2,
        "g": 2,
-       "dir": 106
+       "dir": 95
       },
       {
        "h": 15,
-       "w": 3,
+       "w": 2,
        "g": 2,
-       "dir": 111
+       "dir": 124
       },
       {
        "h": 16,
-       "w": 3,
-       "g": 3,
-       "dir": 65
+       "w": 2,
+       "g": 1,
+       "dir": 157
       },
       {
        "h": 17,
-       "w": 3,
-       "g": 4,
-       "dir": 45
+       "w": 2,
+       "g": 1,
+       "dir": 172
       }
      ],
      "condition": "Overcast",
@@ -2107,87 +2509,483 @@
      "skiing_source": null
     },
     "brian_head": {
-     "sustained": 10,
-     "sustained_avg": 9,
+     "sustained": 7,
+     "sustained_avg": 5,
      "gust": 10,
-     "diff": 0,
-     "direction": 142,
-     "rain": 4,
-     "high": 34,
-     "low": 22,
-     "day_temp_max": 34,
+     "diff": 3,
+     "direction": 358,
+     "rain": 0,
+     "high": 42,
+     "low": 29,
+     "day_temp_max": 42,
      "code": 3,
      "hourly": [
       {
        "h": 7,
-       "w": 10,
-       "g": 8,
-       "dir": 136
+       "w": 4,
+       "g": 2,
+       "dir": 27
       },
       {
        "h": 8,
-       "w": 9,
-       "g": 8,
-       "dir": 142
+       "w": 5,
+       "g": 5,
+       "dir": 12
       },
       {
        "h": 9,
-       "w": 9,
-       "g": 9,
-       "dir": 142
+       "w": 6,
+       "g": 8,
+       "dir": 358
       },
       {
        "h": 10,
-       "w": 9,
-       "g": 9,
-       "dir": 144
+       "w": 7,
+       "g": 10,
+       "dir": 351
       },
       {
        "h": 11,
-       "w": 9,
+       "w": 7,
        "g": 10,
-       "dir": 144
+       "dir": 348
       },
       {
        "h": 12,
-       "w": 9,
-       "g": 9,
-       "dir": 145
+       "w": 7,
+       "g": 8,
+       "dir": 343
       },
       {
        "h": 13,
-       "w": 9,
-       "g": 9,
-       "dir": 148
+       "w": 6,
+       "g": 6,
+       "dir": 343
       },
       {
        "h": 14,
-       "w": 8,
-       "g": 8,
-       "dir": 145
+       "w": 5,
+       "g": 4,
+       "dir": 349
       },
       {
        "h": 15,
-       "w": 7,
-       "g": 7,
-       "dir": 142
+       "w": 3,
+       "g": 3,
+       "dir": 8
       },
       {
        "h": 16,
-       "w": 8,
-       "g": 6,
-       "dir": 138
+       "w": 3,
+       "g": 2,
+       "dir": 31
       },
       {
        "h": 17,
-       "w": 8,
-       "g": 6,
-       "dir": 138
+       "w": 2,
+       "g": 2,
+       "dir": 30
       }
      ],
      "condition": "Overcast",
      "snowfall_in": 0.0,
-     "snow_depth_in": 0.8,
+     "snow_depth_in": 0.4,
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "NO-GO"
+     },
+     "skiing_derived": "NO-GO",
+     "skiing_source": "gordon"
+    }
+   },
+   "gordon_locations": {
+    "brian_head": {
+     "wind_mph": 7,
+     "gust_mph": 10,
+     "gust_diff_mph": 3,
+     "high_f": 42,
+     "low_f": 29,
+     "snowfall_in": 0,
+     "snow_depth_in": 0.4,
+     "low_wind": "YES",
+     "skiing": "NO-GO",
+     "skiing_note": "Model snow base thinning to a trace and no new snow; still short of a GOOD skiing day. Check resort for opening/snowmaking"
+    }
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "headline": {
+    "rating": "GOOD",
+    "label": "Low wind",
+    "note": "Partly sunny; light winds across all three spots",
+    "wind_mph": "5-7",
+    "gust_mph": "6-7",
+    "gust_diff_mph": "1-3",
+    "highs_f": "65-71"
+   },
+   "top_pick_rank": 5,
+   "locations": {
+    "las_vegas": {
+     "sustained": 7,
+     "sustained_avg": 4,
+     "gust": 6,
+     "diff": 0,
+     "direction": 60,
+     "rain": 1,
+     "high": 66,
+     "low": 58,
+     "day_temp_max": 66,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 1,
+       "g": 2,
+       "dir": 27
+      },
+      {
+       "h": 8,
+       "w": 1,
+       "g": 2,
+       "dir": 45
+      },
+      {
+       "h": 9,
+       "w": 2,
+       "g": 3,
+       "dir": 63
+      },
+      {
+       "h": 10,
+       "w": 2,
+       "g": 4,
+       "dir": 72
+      },
+      {
+       "h": 11,
+       "w": 3,
+       "g": 4,
+       "dir": 81
+      },
+      {
+       "h": 12,
+       "w": 4,
+       "g": 5,
+       "dir": 84
+      },
+      {
+       "h": 13,
+       "w": 5,
+       "g": 6,
+       "dir": 82
+      },
+      {
+       "h": 14,
+       "w": 5,
+       "g": 5,
+       "dir": 70
+      },
+      {
+       "h": 15,
+       "w": 6,
+       "g": 5,
+       "dir": 55
+      },
+      {
+       "h": 16,
+       "w": 7,
+       "g": 4,
+       "dir": 45
+      },
+      {
+       "h": 17,
+       "w": 6,
+       "g": 4,
+       "dir": 36
+      }
+     ],
+     "condition": "Overcast",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "lake_mead": {
+     "sustained": 5,
+     "sustained_avg": 3,
+     "gust": 7,
+     "diff": 2,
+     "direction": 145,
+     "rain": 1,
+     "high": 68,
+     "low": 54,
+     "day_temp_max": 68,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 2,
+       "g": 2,
+       "dir": 306
+      },
+      {
+       "h": 8,
+       "w": 1,
+       "g": 1,
+       "dir": 309
+      },
+      {
+       "h": 9,
+       "w": 1,
+       "g": 1,
+       "dir": 315
+      },
+      {
+       "h": 10,
+       "w": 0,
+       "g": 1,
+       "dir": 117
+      },
+      {
+       "h": 11,
+       "w": 2,
+       "g": 2,
+       "dir": 140
+      },
+      {
+       "h": 12,
+       "w": 3,
+       "g": 5,
+       "dir": 148
+      },
+      {
+       "h": 13,
+       "w": 4,
+       "g": 7,
+       "dir": 149
+      },
+      {
+       "h": 14,
+       "w": 4,
+       "g": 7,
+       "dir": 145
+      },
+      {
+       "h": 15,
+       "w": 4,
+       "g": 5,
+       "dir": 141
+      },
+      {
+       "h": 16,
+       "w": 4,
+       "g": 5,
+       "dir": 139
+      },
+      {
+       "h": 17,
+       "w": 5,
+       "g": 7,
+       "dir": 140
+      }
+     ],
+     "condition": "Overcast",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "BEST",
+      "drones": "BEST",
+      "rc": "BEST",
+      "paramotor": "BEST",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "desert_breeze": {
+     "sustained": 6,
+     "sustained_avg": 4,
+     "gust": 7,
+     "diff": 1,
+     "direction": 92,
+     "rain": 1,
+     "high": 63,
+     "low": 55,
+     "day_temp_max": 63,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 3,
+       "g": 1,
+       "dir": 75
+      },
+      {
+       "h": 8,
+       "w": 3,
+       "g": 1,
+       "dir": 81
+      },
+      {
+       "h": 9,
+       "w": 3,
+       "g": 2,
+       "dir": 90
+      },
+      {
+       "h": 10,
+       "w": 4,
+       "g": 2,
+       "dir": 97
+      },
+      {
+       "h": 11,
+       "w": 5,
+       "g": 4,
+       "dir": 101
+      },
+      {
+       "h": 12,
+       "w": 6,
+       "g": 6,
+       "dir": 103
+      },
+      {
+       "h": 13,
+       "w": 6,
+       "g": 7,
+       "dir": 103
+      },
+      {
+       "h": 14,
+       "w": 6,
+       "g": 7,
+       "dir": 97
+      },
+      {
+       "h": 15,
+       "w": 5,
+       "g": 6,
+       "dir": 87
+      },
+      {
+       "h": 16,
+       "w": 4,
+       "g": 4,
+       "dir": 77
+      },
+      {
+       "h": 17,
+       "w": 3,
+       "g": 4,
+       "dir": 67
+      }
+     ],
+     "condition": "Overcast",
+     "low_wind": true,
+     "ratings": {
+      "outdoors": "BEST",
+      "lake": "GOOD",
+      "drones": "GOOD",
+      "rc": "GOOD",
+      "paramotor": "GOOD",
+      "skiing": "N/A"
+     },
+     "skiing_source": null
+    },
+    "brian_head": {
+     "sustained": 10,
+     "sustained_avg": 7,
+     "gust": 8,
+     "diff": 0,
+     "direction": 198,
+     "rain": 5,
+     "high": 47,
+     "low": 31,
+     "day_temp_max": 46,
+     "code": 3,
+     "hourly": [
+      {
+       "h": 7,
+       "w": 5,
+       "g": 5,
+       "dir": 214
+      },
+      {
+       "h": 8,
+       "w": 5,
+       "g": 5,
+       "dir": 212
+      },
+      {
+       "h": 9,
+       "w": 5,
+       "g": 5,
+       "dir": 207
+      },
+      {
+       "h": 10,
+       "w": 5,
+       "g": 5,
+       "dir": 205
+      },
+      {
+       "h": 11,
+       "w": 6,
+       "g": 6,
+       "dir": 212
+      },
+      {
+       "h": 12,
+       "w": 6,
+       "g": 7,
+       "dir": 221
+      },
+      {
+       "h": 13,
+       "w": 7,
+       "g": 8,
+       "dir": 220
+      },
+      {
+       "h": 14,
+       "w": 7,
+       "g": 7,
+       "dir": 203
+      },
+      {
+       "h": 15,
+       "w": 8,
+       "g": 6,
+       "dir": 182
+      },
+      {
+       "h": 16,
+       "w": 9,
+       "g": 5,
+       "dir": 170
+      },
+      {
+       "h": 17,
+       "w": 10,
+       "g": 6,
+       "dir": 169
+      }
+     ],
+     "condition": "Overcast",
+     "snowfall_in": 0.0,
+     "snow_depth_in": 0.0,
      "low_wind": false,
      "ratings": {
       "outdoors": "GOOD",
@@ -2204,802 +3002,13 @@
    "gordon_locations": {
     "brian_head": {
      "wind_mph": 10,
-     "gust_mph": 10,
+     "gust_mph": 8,
      "gust_diff_mph": 1,
-     "high_f": 34,
-     "low_f": 23,
-     "snowfall_in": 0.0,
+     "high_f": 47,
+     "low_f": 31,
+     "snowfall_in": 0,
+     "snow_depth_in": 0,
      "low_wind": "NO",
-     "skiing": "NO-GO",
-     "skiing_note": "Model snow base thinning to under an inch and no new snow; still short of a GOOD skiing day. Check resort for opening/snowmaking"
-    }
-   }
-  },
-  {
-   "date": "2026-11-26",
-   "headline": {
-    "rating": "NO-GO",
-    "label": "No-go for low-wind activities",
-    "note": "Windy; Las Vegas 19 mph, gusts 21; Lake Mead gusts 25; fine for general outdoors",
-    "wind_mph": "17-19",
-    "gust_mph": "21-25",
-    "gust_diff_mph": "8-11",
-    "highs_f": "63-67"
-   },
-   "top_pick_rank": null,
-   "locations": {
-    "las_vegas": {
-     "sustained": 19,
-     "sustained_avg": 15,
-     "gust": 21,
-     "diff": 2,
-     "direction": 332,
-     "rain": 1,
-     "high": 65,
-     "low": 53,
-     "day_temp_max": 65,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 9,
-       "g": 20,
-       "dir": 321
-      },
-      {
-       "h": 8,
-       "w": 11,
-       "g": 20,
-       "dir": 329
-      },
-      {
-       "h": 9,
-       "w": 14,
-       "g": 20,
-       "dir": 335
-      },
-      {
-       "h": 10,
-       "w": 17,
-       "g": 20,
-       "dir": 338
-      },
-      {
-       "h": 11,
-       "w": 18,
-       "g": 21,
-       "dir": 336
-      },
-      {
-       "h": 12,
-       "w": 19,
-       "g": 21,
-       "dir": 332
-      },
-      {
-       "h": 13,
-       "w": 19,
-       "g": 21,
-       "dir": 330
-      },
-      {
-       "h": 14,
-       "w": 17,
-       "g": 19,
-       "dir": 329
-      },
-      {
-       "h": 15,
-       "w": 14,
-       "g": 17,
-       "dir": 331
-      },
-      {
-       "h": 16,
-       "w": 12,
-       "g": 16,
-       "dir": 332
-      },
-      {
-       "h": 17,
-       "w": 13,
-       "g": 16,
-       "dir": 330
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": false,
-     "ratings": {
-      "outdoors": "MARGINAL",
-      "lake": "NO-GO",
-      "drones": "NO-GO",
-      "rc": "NO-GO",
-      "paramotor": "NO-GO",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "lake_mead": {
-     "sustained": 17,
-     "sustained_avg": 10,
-     "gust": 25,
-     "diff": 8,
-     "direction": 348,
-     "rain": 1,
-     "high": 65,
-     "low": 50,
-     "day_temp_max": 65,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 4,
-       "g": 5,
-       "dir": 295
-      },
-      {
-       "h": 8,
-       "w": 5,
-       "g": 6,
-       "dir": 298
-      },
-      {
-       "h": 9,
-       "w": 6,
-       "g": 9,
-       "dir": 301
-      },
-      {
-       "h": 10,
-       "w": 7,
-       "g": 12,
-       "dir": 316
-      },
-      {
-       "h": 11,
-       "w": 9,
-       "g": 17,
-       "dir": 350
-      },
-      {
-       "h": 12,
-       "w": 14,
-       "g": 22,
-       "dir": 11
-      },
-      {
-       "h": 13,
-       "w": 17,
-       "g": 25,
-       "dir": 16
-      },
-      {
-       "h": 14,
-       "w": 16,
-       "g": 24,
-       "dir": 9
-      },
-      {
-       "h": 15,
-       "w": 14,
-       "g": 20,
-       "dir": 351
-      },
-      {
-       "h": 16,
-       "w": 12,
-       "g": 17,
-       "dir": 335
-      },
-      {
-       "h": 17,
-       "w": 10,
-       "g": 13,
-       "dir": 330
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": false,
-     "ratings": {
-      "outdoors": "MARGINAL",
-      "lake": "NO-GO",
-      "drones": "NO-GO",
-      "rc": "NO-GO",
-      "paramotor": "NO-GO",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "desert_breeze": {
-     "sustained": 18,
-     "sustained_avg": 13,
-     "gust": 22,
-     "diff": 4,
-     "direction": 348,
-     "rain": 1,
-     "high": 61,
-     "low": 50,
-     "day_temp_max": 61,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 6,
-       "g": 2,
-       "dir": 326
-      },
-      {
-       "h": 8,
-       "w": 9,
-       "g": 7,
-       "dir": 340
-      },
-      {
-       "h": 9,
-       "w": 14,
-       "g": 14,
-       "dir": 347
-      },
-      {
-       "h": 10,
-       "w": 17,
-       "g": 19,
-       "dir": 349
-      },
-      {
-       "h": 11,
-       "w": 18,
-       "g": 20,
-       "dir": 351
-      },
-      {
-       "h": 12,
-       "w": 17,
-       "g": 19,
-       "dir": 352
-      },
-      {
-       "h": 13,
-       "w": 16,
-       "g": 19,
-       "dir": 353
-      },
-      {
-       "h": 14,
-       "w": 14,
-       "g": 19,
-       "dir": 353
-      },
-      {
-       "h": 15,
-       "w": 13,
-       "g": 20,
-       "dir": 351
-      },
-      {
-       "h": 16,
-       "w": 11,
-       "g": 20,
-       "dir": 347
-      },
-      {
-       "h": 17,
-       "w": 11,
-       "g": 22,
-       "dir": 340
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": false,
-     "ratings": {
-      "outdoors": "MARGINAL",
-      "lake": "NO-GO",
-      "drones": "NO-GO",
-      "rc": "NO-GO",
-      "paramotor": "NO-GO",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "brian_head": {
-     "sustained": 9,
-     "sustained_avg": 7,
-     "gust": 9,
-     "diff": 1,
-     "direction": 356,
-     "rain": 4,
-     "high": 32,
-     "low": 22,
-     "day_temp_max": 32,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 5,
-       "g": 3,
-       "dir": 25
-      },
-      {
-       "h": 8,
-       "w": 6,
-       "g": 5,
-       "dir": 7
-      },
-      {
-       "h": 9,
-       "w": 7,
-       "g": 7,
-       "dir": 353
-      },
-      {
-       "h": 10,
-       "w": 8,
-       "g": 9,
-       "dir": 346
-      },
-      {
-       "h": 11,
-       "w": 9,
-       "g": 9,
-       "dir": 347
-      },
-      {
-       "h": 12,
-       "w": 8,
-       "g": 9,
-       "dir": 349
-      },
-      {
-       "h": 13,
-       "w": 8,
-       "g": 8,
-       "dir": 352
-      },
-      {
-       "h": 14,
-       "w": 8,
-       "g": 7,
-       "dir": 353
-      },
-      {
-       "h": 15,
-       "w": 8,
-       "g": 6,
-       "dir": 353
-      },
-      {
-       "h": 16,
-       "w": 7,
-       "g": 5,
-       "dir": 358
-      },
-      {
-       "h": 17,
-       "w": 6,
-       "g": 4,
-       "dir": 10
-      }
-     ],
-     "condition": "Clear",
-     "snowfall_in": 0.0,
-     "snow_depth_in": 0.4,
-     "low_wind": false,
-     "ratings": {
-      "outdoors": "GOOD",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "MARGINAL",
-      "paramotor": "MARGINAL",
-      "skiing": "NO-GO"
-     },
-     "skiing_derived": "NO-GO",
-     "skiing_source": "gordon"
-    }
-   },
-   "gordon_locations": {
-    "brian_head": {
-     "wind_mph": 9,
-     "gust_mph": 9,
-     "gust_diff_mph": 1,
-     "high_f": 33,
-     "low_f": 22,
-     "snowfall_in": 0.0,
-     "low_wind": "NO",
-     "skiing": "NO-GO",
-     "skiing_note": "Model snow base thinning to a trace and no new snow; still short of a GOOD skiing day. Check resort for opening/snowmaking"
-    }
-   }
-  },
-  {
-   "date": "2026-11-27",
-   "headline": {
-    "rating": "GOOD",
-    "label": "Low wind",
-    "note": "Cloudy; light winds across all three spots, Lake Mead and Desert Breeze gusts to 9",
-    "wind_mph": "5-6",
-    "gust_mph": "6-9",
-    "gust_diff_mph": "3-5",
-    "highs_f": "61-64"
-   },
-   "top_pick_rank": 4,
-   "locations": {
-    "las_vegas": {
-     "sustained": 6,
-     "sustained_avg": 4,
-     "gust": 6,
-     "diff": 0,
-     "direction": 68,
-     "rain": 0,
-     "high": 62,
-     "low": 53,
-     "day_temp_max": 62,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 3,
-       "g": 6,
-       "dir": 325
-      },
-      {
-       "h": 8,
-       "w": 2,
-       "g": 6,
-       "dir": 338
-      },
-      {
-       "h": 9,
-       "w": 3,
-       "g": 6,
-       "dir": 5
-      },
-      {
-       "h": 10,
-       "w": 3,
-       "g": 6,
-       "dir": 30
-      },
-      {
-       "h": 11,
-       "w": 4,
-       "g": 6,
-       "dir": 52
-      },
-      {
-       "h": 12,
-       "w": 5,
-       "g": 5,
-       "dir": 69
-      },
-      {
-       "h": 13,
-       "w": 6,
-       "g": 4,
-       "dir": 79
-      },
-      {
-       "h": 14,
-       "w": 5,
-       "g": 4,
-       "dir": 90
-      },
-      {
-       "h": 15,
-       "w": 4,
-       "g": 4,
-       "dir": 106
-      },
-      {
-       "h": 16,
-       "w": 3,
-       "g": 4,
-       "dir": 132
-      },
-      {
-       "h": 17,
-       "w": 2,
-       "g": 4,
-       "dir": 162
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "lake_mead": {
-     "sustained": 6,
-     "sustained_avg": 4,
-     "gust": 9,
-     "diff": 3,
-     "direction": 348,
-     "rain": 0,
-     "high": 62,
-     "low": 48,
-     "day_temp_max": 62,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 5,
-       "g": 6,
-       "dir": 329
-      },
-      {
-       "h": 8,
-       "w": 5,
-       "g": 6,
-       "dir": 332
-      },
-      {
-       "h": 9,
-       "w": 4,
-       "g": 7,
-       "dir": 342
-      },
-      {
-       "h": 10,
-       "w": 4,
-       "g": 8,
-       "dir": 354
-      },
-      {
-       "h": 11,
-       "w": 5,
-       "g": 9,
-       "dir": 360
-      },
-      {
-       "h": 12,
-       "w": 6,
-       "g": 9,
-       "dir": 4
-      },
-      {
-       "h": 13,
-       "w": 6,
-       "g": 9,
-       "dir": 4
-      },
-      {
-       "h": 14,
-       "w": 5,
-       "g": 7,
-       "dir": 360
-      },
-      {
-       "h": 15,
-       "w": 3,
-       "g": 4,
-       "dir": 349
-      },
-      {
-       "h": 16,
-       "w": 2,
-       "g": 3,
-       "dir": 326
-      },
-      {
-       "h": 17,
-       "w": 3,
-       "g": 3,
-       "dir": 301
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "desert_breeze": {
-     "sustained": 5,
-     "sustained_avg": 3,
-     "gust": 9,
-     "diff": 4,
-     "direction": 61,
-     "rain": 0,
-     "high": 59,
-     "low": 49,
-     "day_temp_max": 59,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 2,
-       "g": 4,
-       "dir": 326
-      },
-      {
-       "h": 8,
-       "w": 2,
-       "g": 5,
-       "dir": 353
-      },
-      {
-       "h": 9,
-       "w": 3,
-       "g": 7,
-       "dir": 15
-      },
-      {
-       "h": 10,
-       "w": 3,
-       "g": 8,
-       "dir": 28
-      },
-      {
-       "h": 11,
-       "w": 4,
-       "g": 9,
-       "dir": 45
-      },
-      {
-       "h": 12,
-       "w": 4,
-       "g": 9,
-       "dir": 63
-      },
-      {
-       "h": 13,
-       "w": 5,
-       "g": 8,
-       "dir": 73
-      },
-      {
-       "h": 14,
-       "w": 4,
-       "g": 6,
-       "dir": 84
-      },
-      {
-       "h": 15,
-       "w": 3,
-       "g": 3,
-       "dir": 104
-      },
-      {
-       "h": 16,
-       "w": 2,
-       "g": 2,
-       "dir": 131
-      },
-      {
-       "h": 17,
-       "w": 1,
-       "g": 2,
-       "dir": 162
-      }
-     ],
-     "condition": "Clear",
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "BEST",
-      "drones": "BEST",
-      "rc": "BEST",
-      "paramotor": "GOOD",
-      "skiing": "N/A"
-     },
-     "skiing_source": null
-    },
-    "brian_head": {
-     "sustained": 6,
-     "sustained_avg": 4,
-     "gust": 4,
-     "diff": 0,
-     "direction": 28,
-     "rain": 0,
-     "high": 42,
-     "low": 25,
-     "day_temp_max": 42,
-     "code": 0,
-     "hourly": [
-      {
-       "h": 7,
-       "w": 4,
-       "g": 3,
-       "dir": 73
-      },
-      {
-       "h": 8,
-       "w": 3,
-       "g": 3,
-       "dir": 67
-      },
-      {
-       "h": 9,
-       "w": 3,
-       "g": 2,
-       "dir": 48
-      },
-      {
-       "h": 10,
-       "w": 3,
-       "g": 2,
-       "dir": 27
-      },
-      {
-       "h": 11,
-       "w": 4,
-       "g": 3,
-       "dir": 7
-      },
-      {
-       "h": 12,
-       "w": 5,
-       "g": 4,
-       "dir": 353
-      },
-      {
-       "h": 13,
-       "w": 6,
-       "g": 4,
-       "dir": 351
-      },
-      {
-       "h": 14,
-       "w": 5,
-       "g": 3,
-       "dir": 360
-      },
-      {
-       "h": 15,
-       "w": 3,
-       "g": 2,
-       "dir": 32
-      },
-      {
-       "h": 16,
-       "w": 3,
-       "g": 2,
-       "dir": 62
-      },
-      {
-       "h": 17,
-       "w": 3,
-       "g": 2,
-       "dir": 67
-      }
-     ],
-     "condition": "Clear",
-     "snowfall_in": 0.0,
-     "snow_depth_in": 0.0,
-     "low_wind": true,
-     "ratings": {
-      "outdoors": "BEST",
-      "lake": "GOOD",
-      "drones": "GOOD",
-      "rc": "GOOD",
-      "paramotor": "GOOD",
-      "skiing": "NO-GO"
-     },
-     "skiing_derived": "NO-GO",
-     "skiing_source": "gordon"
-    }
-   },
-   "gordon_locations": {
-    "brian_head": {
-     "wind_mph": 6,
-     "gust_mph": 4,
-     "gust_diff_mph": 0,
-     "high_f": 42,
-     "low_f": 25,
-     "snowfall_in": 0.0,
-     "low_wind": "YES",
      "skiing": "NO-GO",
      "skiing_note": "No new snow forecast and model shows no natural snow base; check resort for opening/snowmaking"
     }

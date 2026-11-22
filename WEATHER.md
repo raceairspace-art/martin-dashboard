@@ -17,7 +17,7 @@ Requested by GoodWeatherGordon. Las Vegas-area wind & weather for low-wind activ
 2. **Gordon's headline file**: `/workspace/weather/low-wind-YYYY-MM-DD.json` (newest date in the file name wins;
    **read-only**, never modified). Supplies the headline rating per day (BEST | GOOD | MARGINAL | NO-GO), label,
    note, his wind/gust/highs ranges (shown verbatim), `all_days`, `top_picks` and `locations`. Per-location
-   blocks named by the config's `gordon_key` (`brian_head`: wind, gust, diff, high/low, snowfall_in, low_wind,
+   blocks named by the config's `gordon_key` (`brian_head`: wind, gust, diff, high/low, snowfall_in, snow_depth_in, low_wind,
    skiing, skiing_note) are copied verbatim to `days[].gordon_locations`, and the top-level note named by
    `gordon_info` (`brian_head_info`) goes to `gordon.info`.
 3. **`config/weather_locations.json`**: the location list. Gordon's `locations` (names) decides which spots are
@@ -76,7 +76,8 @@ always matches. **Gordon's headline rating is shown as-is** and is never recompu
   **Low-wind flying** (Gordon's headline rating; falls back to the derived RC rating at the `rc_field` spot, Desert
   Breeze Park, or Las Vegas if there is none). The footer line reflects this ("lake = Lake Mead · flying = Gordon's
   headline (else Desert Breeze Park RC)"). Under each day's flags is a compact line per snow spot:
-  "Brian Head: ski [Gordon's skiing chip] · snow N″" (Open-Meteo snowfall, else Gordon's). Links to `#/weather`.
+  "Brian Head: ski [Gordon's skiing chip] · snow N″" (Open-Meteo snowfall, else Gordon's), plus Gordon's
+  snow depth when `snow_depth_in` is present. Links to `#/weather`.
 - Brian Head card: the usual card plus a Snowfall / Snow depth row, a "Gordon" line with his numbers verbatim,
   his **low_wind YES/NO shown as-is** in the low-wind pill (instead of the computed one), a **Skiing** chip with
   his rating and `skiing_note` as-is, and `brian_head_info` as a note at the bottom. Skiing is never computed by us.
