@@ -105,7 +105,8 @@
     const v = (x, u) => (x == null ? dash : esc(x) + (u || ""));
     const ski = gb && loc.skiing && ("skiing" in gb) ? `<li data-act="skiing"><span>Skiing</span>${chip(gb.skiing, "", gb.skiing_note ? "Gordon: " + gb.skiing_note : "Gordon's rating")}</li>
       ${gb.skiing_note ? `<li class="wx-ski-note" data-act="skiing">${esc(gb.skiing_note)}</li>` : ""}` : "";
-    const line = gb ? `<p class="wx-gline"><em>Gordon</em> wind ${v(gb.wind_mph)} · gusts ${v(gb.gust_mph)} · diff ${v(gb.gust_diff_mph)} mph · ${v(gb.high_f, "°")}/${v(gb.low_f, "°F")} · snow ${v(gb.snowfall_in, "″")}</p>` : "";
+    const depth = gb && gb.snow_depth_in != null ? ` · depth ${v(gb.snow_depth_in, "″")}` : "";
+    const line = gb ? `<p class="wx-gline"><em>Gordon</em> wind ${v(gb.wind_mph)} · gusts ${v(gb.gust_mph)} · diff ${v(gb.gust_diff_mph)} mph · ${v(gb.high_f, "°")}/${v(gb.low_f, "°F")} · snow ${v(gb.snowfall_in, "″")}${depth}</p>` : "";
     return { ski, line, info: info ? `<p class="wx-loc-info">${esc(info)}</p>` : "" };
   }
   // One activity row. Skiing: Gordon's rating first (his note shown under the chip); "N/A" where it doesn't apply.
@@ -328,7 +329,8 @@
       const gb = day.gordon_locations && day.gordon_locations[l.id];
       const m = day.locations && day.locations[l.id];
       const sf = m && m.snowfall_in != null ? m.snowfall_in : gb && gb.snowfall_in != null ? gb.snowfall_in : null;
-      return `<p class="wx-hd-snow">${esc(short(l.name).replace(/, [A-Z]{2}$/, ""))}: ski ${chip(gb && gb.skiing, "wx-chip-sm")} · snow ${inch(sf)}</p>`;
+      const depth = gb && gb.snow_depth_in != null ? ` · depth ${inch(gb.snow_depth_in)}` : "";
+      return `<p class="wx-hd-snow">${esc(short(l.name).replace(/, [A-Z]{2}$/, ""))}: ski ${chip(gb && gb.skiing, "wx-chip-sm")} · snow ${inch(sf)}${depth}</p>`;
     }).join("");
   }
   function renderHomeStrip(data) {
