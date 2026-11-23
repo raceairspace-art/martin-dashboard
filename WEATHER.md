@@ -104,3 +104,9 @@ build id (hash of all dist files) into `<meta name="martin-build">` and `window.
 appends as `?v=` to every JSON fetch (also `cache: "no-store"`). `index.html` carries no-cache meta tags.
 GitHub Pages still serves index.html with its own short HTTP cache (about 10 minutes); the meta tags and versioned URLs
 make sure that a normal refresh then loads the new assets and data. Mirrored Black Friday images aren't versioned.
+
+## Gordon activity flags (since Nov 23)
+Gordon's per-day `activities` block (`general_outdoors`, `lake`, `drones`, `rc_airplanes`, `paramotor`; YES / CAUTION / NO)
+is copied verbatim to `days[].gordon_activities` and shown as compact chips under each day's headline. Never recomputed;
+the computed per-location chips stay separate. The Home "Alerts & Recommendations" feed reads only
+`data/dashboard_feed.json`; it has no Gordon-driven weather alerts.

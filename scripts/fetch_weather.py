@@ -278,6 +278,8 @@ def main():
             "date": day,
             "headline": {k: g.get(k) for k in ("rating", "label", "note", "wind_mph", "gust_mph", "gust_diff_mph", "highs_f")} if g else None,
             "top_pick_rank": (picks.index(day) + 1) if day in picks else None,
+            # Gordon's per-day activity flags (YES / CAUTION / NO), copied verbatim; never recomputed.
+            "gordon_activities": g.get("activities") if isinstance(g.get("activities"), dict) else None,
             "locations": {loc["id"]: with_skiing(loc, per_loc.get(loc["id"], {}).get(day), g) for loc in LOCATIONS},
             # Gordon's per-location blocks (e.g. brian_head), copied verbatim; null if he has none for this day.
             "gordon_locations": {loc["id"]: (g.get(loc["gordon_key"]) if isinstance(g.get(loc["gordon_key"]), dict) else None)

@@ -153,6 +153,17 @@
     </article>`;
   }
 
+  // Gordon's per-day activity flags, shown as-is (YES / CAUTION / NO).
+  const GACT = [["general_outdoors", "Outdoors"], ["lake", "Lake"], ["drones", "Drones"], ["rc_airplanes", "RC"], ["paramotor", "Paramotor"]];
+  function gordonActs(day) {
+    const a = day.gordon_activities;
+    if (!a) return "";
+    const known = GACT.filter(([k]) => k in a).map(([k, n]) => [k, n]);
+    Object.keys(a).forEach((k) => { if (!GACT.some(([g]) => g === k)) known.push([k, k.replace(/_/g, " ")]); });
+    const cls = (v) => { const u = String(v || "").toUpperCase(); return u === "YES" ? "yes" : u === "NO" ? "no" : u === "CAUTION" ? "caution" : "unk"; };
+    return `<div class="wx-gacts" aria-label="Gordon's activity flags"><em>Gordon</em>${known.map(([k, n]) =>
+      `<span class="wx-gact ${cls(a[k])}" title="Gordon: ${esc(n)} ${esc(a[k])}">${esc(n)} <b>${esc(a[k] == null ? dash : a[k])}</b></span>`).join("")}</div>`;
+  }
   function headline(day) {
     const h = day.headline;
     if (!h) return `<div class="wx-head-txt"><span class="wx-muted">No headline from Gordon for this day.</span></div>`;
@@ -274,6 +285,7 @@
               ${day.top_pick_rank ? `<em class="wx-pick">${svg(P.star, "wx-ic")}Top pick #${day.top_pick_rank}</em>` : ""}
               ${dayActBadge(doc, day)}</div>
             ${headline(day)}
+            ${gordonActs(day)}
           </header>
           <div class="wx-locs">${(doc.locations || []).map((loc) => locCard(loc, day.locations && day.locations[loc.id], doc, day.gordon_locations && day.gordon_locations[loc.id])).join("")}</div>
         </section>`).join("") : `<div class="wx-empty">${svg(P.sun, "wx-empty-ic")}<p>No upcoming days in this forecast window. Gordon refreshes around 6am PT.</p></div>`}
