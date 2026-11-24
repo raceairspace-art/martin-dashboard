@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:02:24-08:00",
+  "generated_at": "2026-11-24T05:59:22-08:00",
   "timezone": "America/Los_Angeles",
   "end_is_inclusive": true,
   "months": [
@@ -526,9 +526,27 @@
       "all_day": false
     },
     {
+      "title": "Viva Las Vegas! 2027 Harley-Davidson New Model Reveal",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "all_day": false
+    },
+    {
       "title": "AWS re:Invent",
       "start": "2026-11-30",
       "end": "2026-12-04",
+      "all_day": false
+    },
+    {
+      "title": "LVRC Monday Morning Mayhem – indoor gym fun fly",
+      "start": "2026-11-30",
+      "end": "2026-11-30",
+      "all_day": false
+    },
+    {
+      "title": "2Cops Toy & Food Drive Kickoff (Red Rock H-D)",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
       "all_day": false
     },
     {
@@ -586,6 +604,12 @@
       "all_day": true
     },
     {
+      "title": "Cowboy Christmas & Classic Car Show",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "all_day": false
+    },
+    {
       "title": "EAA Ch 1 Young Eagles Pancake Breakfast",
       "start": "2026-12-05",
       "end": "2026-12-05",
@@ -628,6 +652,12 @@
       "all_day": false
     },
     {
+      "title": "Ironcrossmen MC Toy Run (tentative – ride time TBA)",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "all_day": false
+    },
+    {
       "title": "Las Vegas BiWeekly Drone Race Event",
       "start": "2026-12-06",
       "end": "2026-12-06",
@@ -662,6 +692,18 @@
       "start": "2026-12-07",
       "end": "2026-12-10",
       "all_day": true
+    },
+    {
+      "title": "CryptoMondays Vegas – Digital Identity, Keys & AI Agents",
+      "start": "2026-12-07",
+      "end": "2026-12-07",
+      "all_day": false
+    },
+    {
+      "title": "LVRC Monday Morning Mayhem – indoor gym fun fly",
+      "start": "2026-12-07",
+      "end": "2026-12-07",
+      "all_day": false
     },
     {
       "title": "AI Agents Summit",
@@ -742,6 +784,12 @@
       "all_day": false
     },
     {
+      "title": "LVRC Monday Morning Mayhem – indoor gym fun fly",
+      "start": "2026-12-14",
+      "end": "2026-12-14",
+      "all_day": false
+    },
+    {
       "title": "Vegas Bitcoiners Happy Hour",
       "start": "2026-12-16",
       "end": "2026-12-16",
@@ -766,6 +814,12 @@
       "all_day": false
     },
     {
+      "title": "Plane Crazy Saturday – 40th Anniversary of the Voyager Flight",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "all_day": false
+    },
+    {
       "title": "Tech Alley Vegas",
       "start": "2026-12-19",
       "end": "2026-12-19",
@@ -784,6 +838,12 @@
       "all_day": false
     },
     {
+      "title": "LVRC Monday Morning Mayhem – indoor gym fun fly",
+      "start": "2026-12-21",
+      "end": "2026-12-21",
+      "all_day": false
+    },
+    {
       "title": "Prop Nuts of Las Vegas Meeting",
       "start": "2026-12-23",
       "end": "2026-12-23",
@@ -794,6 +854,18 @@
       "start": "2026-12-26",
       "end": "2026-12-26",
       "all_day": false
+    },
+    {
+      "title": "LVRC Monday Morning Mayhem – indoor gym fun fly",
+      "start": "2026-12-28",
+      "end": "2026-12-28",
+      "all_day": false
+    },
+    {
+      "title": "The Offspring – New Year's Eve",
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "all_day": true
     },
     {
       "title": "EAA Ch 1 Young Eagles Pancake Breakfast",
@@ -838,6 +910,12 @@
       "all_day": false
     },
     {
+      "title": "LVRC Monday Morning Mayhem – indoor gym fun fly",
+      "start": "2027-01-04",
+      "end": "2027-01-04",
+      "all_day": false
+    },
+    {
       "title": "CES 2027",
       "start": "2027-01-06",
       "end": "2027-01-09",
@@ -851,6 +929,12 @@
     },
     {
       "title": "Global Hardware Festival (CES week)",
+      "start": "2027-01-07",
+      "end": "2027-01-07",
+      "all_day": false
+    },
+    {
+      "title": "M-Lab Unplugged – AI Mobility / Physical AI Lounge (CES week)",
       "start": "2027-01-07",
       "end": "2027-01-07",
       "all_day": false
@@ -878,6 +962,12 @@
       "start": "2027-01-09",
       "end": "2027-01-09",
       "all_day": true
+    },
+    {
+      "title": "LVRC Monday Morning Mayhem – indoor gym fun fly",
+      "start": "2027-01-11",
+      "end": "2027-01-11",
+      "all_day": false
     },
     {
       "title": "Parker 400 (Best in the Desert)",
@@ -916,6 +1006,12 @@
       "all_day": true
     },
     {
+      "title": "Kansas – Rio Penn & Teller Theater",
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "all_day": false
+    },
+    {
       "title": "Las Vegas Drones Monthly Meetup",
       "start": "2027-01-16",
       "end": "2027-01-16",
@@ -923,6 +1019,12 @@
     },
     {
       "title": "Palm Springs Air Museum – Walt Disney Grumman G-1 Interior Experience",
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "all_day": false
+    },
+    {
+      "title": "Plane Crazy Saturday – Steve Ericson (The Spaceship Company)",
       "start": "2027-01-16",
       "end": "2027-01-16",
       "all_day": false
@@ -943,6 +1045,12 @@
       "title": "Las Vegas BiWeekly Drone Race Event",
       "start": "2027-01-17",
       "end": "2027-01-17",
+      "all_day": false
+    },
+    {
+      "title": "LVRC Monday Morning Mayhem – indoor gym fun fly",
+      "start": "2027-01-18",
+      "end": "2027-01-18",
       "all_day": false
     },
     {
@@ -1012,6 +1120,12 @@
       "all_day": false
     },
     {
+      "title": "LVRC Monday Morning Mayhem – indoor gym fun fly",
+      "start": "2027-01-25",
+      "end": "2027-01-25",
+      "all_day": false
+    },
+    {
       "title": "Prop Nuts of Las Vegas Meeting",
       "start": "2027-01-27",
       "end": "2027-01-27",
@@ -1067,6 +1181,12 @@
     },
     {
       "title": "Las Vegas BiWeekly Drone Race Event",
+      "start": "2027-01-31",
+      "end": "2027-01-31",
+      "all_day": false
+    },
+    {
+      "title": "So-Cal Cycle Show & Swap Meet (Long Beach)",
       "start": "2027-01-31",
       "end": "2027-01-31",
       "all_day": false
